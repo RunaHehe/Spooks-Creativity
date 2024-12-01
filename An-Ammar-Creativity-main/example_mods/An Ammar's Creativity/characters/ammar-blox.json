@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				0
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "AnAmmarBlox_Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				108,
+				-48
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "AnAmmarBlox_Down"
+		},
+		{
+			"offsets": [
+				44,
+				24
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singUP",
+			"indices": [],
+			"name": "AnAmmarBlox_Up"
+		},
+		{
+			"offsets": [
+				-26,
+				-5
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "AnAmmarBlox_Right"
+		},
+		{
+			"offsets": [
+				46,
+				3
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "AnAmmarBlox_Left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/AmmarRoblox",
+	"position": [
+		-100,
+		120
+	],
+	"healthicon": "blox",
+	"flip_x": false,
+	"healthbar_colors": [
+		160,
+		255,
+		160
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1.2
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Hazzy.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Hazzy0000" x="2" y="2" width="246" height="287"/>
+	<SubTexture name="Hazzy0001" x="2" y="2" width="246" height="287"/>
+	<SubTexture name="Hazzy0002" x="256" y="2" width="246" height="287"/>
+	<SubTexture name="Hazzy0003" x="256" y="2" width="246" height="287"/>
+	<SubTexture name="Hazzy0004" x="2" y="297" width="246" height="287"/>
+	<SubTexture name="Hazzy0005" x="2" y="297" width="246" height="287"/>
+	<SubTexture name="Hazzy0006" x="2" y="297" width="246" height="287"/>
+	<SubTexture name="Hazzy0007" x="256" y="297" width="246" height="287"/>
+	<SubTexture name="Hazzy0008" x="256" y="297" width="246" height="287"/>
+	<SubTexture name="Hazzy0009" x="256" y="297" width="246" height="287"/>
+	<SubTexture name="Hazzy0010" x="256" y="297" width="246" height="287"/>
+	<SubTexture name="Hazzy0011" x="256" y="297" width="246" height="287"/>
+	<SubTexture name="Hazzy0012" x="256" y="297" width="246" height="287"/>
+	<SubTexture name="Hazzy0013" x="256" y="297" width="246" height="287"/>
+	<SubTexture name="Hazzy0014" x="256" y="297" width="246" height="287"/>
+</TextureAtlas>

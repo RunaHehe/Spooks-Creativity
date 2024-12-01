@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Moderator Happy.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Moderator Happy Down0000" x="10" y="10" width="177" height="225" frameX="0" frameY="-3" frameWidth="177" frameHeight="228"/>
+	<SubTexture name="Moderator Happy Down0001" x="10" y="10" width="177" height="225" frameX="0" frameY="-3" frameWidth="177" frameHeight="228"/>
+	<SubTexture name="Moderator Happy Down0002" x="247" y="10" width="177" height="228"/>
+	<SubTexture name="Moderator Happy Down0003" x="247" y="10" width="177" height="228"/>
+	<SubTexture name="Moderator Happy Down0004" x="247" y="10" width="177" height="228"/>
+	<SubTexture name="Moderator Happy Down0005" x="247" y="10" width="177" height="228"/>
+	<SubTexture name="Moderator Happy Idle0000" x="484" y="10" width="176" height="231" frameX="-1" frameY="-6" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Idle0001" x="484" y="10" width="176" height="231" frameX="-1" frameY="-6" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Idle0002" x="720" y="10" width="176" height="234" frameX="-1" frameY="-3" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Idle0003" x="720" y="10" width="176" height="234" frameX="-1" frameY="-3" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Idle0004" x="10" y="304" width="176" height="236" frameX="-1" frameY="-1" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Idle0005" x="10" y="304" width="176" height="236" frameX="-1" frameY="-1" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Idle0006" x="10" y="304" width="176" height="236" frameX="-1" frameY="-1" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Idle0007" x="246" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Happy Idle0008" x="246" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Happy Idle0009" x="246" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Happy Idle0010" x="246" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Happy Idle0011" x="246" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Happy Idle0012" x="246" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Happy Left0000" x="483" y="304" width="182" height="237"/>
+	<SubTexture name="Moderator Happy Left0001" x="483" y="304" width="182" height="237"/>
+	<SubTexture name="Moderator Happy Left0002" x="725" y="304" width="176" height="237" frameX="-6" frameY="0" frameWidth="182" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Left0003" x="725" y="304" width="176" height="237" frameX="-6" frameY="0" frameWidth="182" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Left0004" x="725" y="304" width="176" height="237" frameX="-6" frameY="0" frameWidth="182" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Left0005" x="725" y="304" width="176" height="237" frameX="-6" frameY="0" frameWidth="182" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Right0000" x="10" y="601" width="203" height="236" frameX="0" frameY="-1" frameWidth="203" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Right0001" x="10" y="601" width="203" height="236" frameX="0" frameY="-1" frameWidth="203" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Right0002" x="273" y="601" width="203" height="237"/>
+	<SubTexture name="Moderator Happy Right0003" x="273" y="601" width="203" height="237"/>
+	<SubTexture name="Moderator Happy Right0004" x="273" y="601" width="203" height="237"/>
+	<SubTexture name="Moderator Happy Right0005" x="273" y="601" width="203" height="237"/>
+	<SubTexture name="Moderator Happy Up0000" x="536" y="601" width="172" height="237" frameX="-2" frameY="0" frameWidth="174" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Up0001" x="536" y="601" width="172" height="237" frameX="-2" frameY="0" frameWidth="174" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Up0002" x="768" y="601" width="174" height="233" frameX="0" frameY="-4" frameWidth="174" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Up0003" x="768" y="601" width="174" height="233" frameX="0" frameY="-4" frameWidth="174" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Up0004" x="768" y="601" width="174" height="233" frameX="0" frameY="-4" frameWidth="174" frameHeight="237"/>
+	<SubTexture name="Moderator Happy Up0005" x="768" y="601" width="174" height="233" frameX="0" frameY="-4" frameWidth="174" frameHeight="237"/>
+</TextureAtlas>

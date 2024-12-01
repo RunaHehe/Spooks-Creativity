@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-194,
+				-377
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-162,
+				-390
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-178,
+				-456
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-178,
+				-339
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				26,
+				-425
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-155,
+				-381
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "hey"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/dark-protogen-mic",
+	"position": [
+		-410,
+		-310
+	],
+	"healthicon": "dark-protogen",
+	"flip_x": false,
+	"healthbar_colors": [
+		31,
+		27,
+		27
+	],
+	"camera_position": [
+		230,
+		540
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

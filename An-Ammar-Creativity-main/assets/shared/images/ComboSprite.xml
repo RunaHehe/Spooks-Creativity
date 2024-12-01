@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ComboSprite.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BAD0000" x="0" y="0" width="484" height="263"/>
+	<SubTexture name="BAD0001" x="484" y="0" width="484" height="263"/>
+	<SubTexture name="BAD0002" x="968" y="0" width="484" height="263"/>
+	<SubTexture name="BAD0003" x="968" y="0" width="484" height="263"/>
+	<SubTexture name="BAD0004" x="968" y="0" width="484" height="263"/>
+	<SubTexture name="BAD0005" x="968" y="0" width="484" height="263"/>
+	<SubTexture name="BAD0006" x="968" y="0" width="484" height="263"/>
+	<SubTexture name="BAD0007" x="968" y="0" width="484" height="263"/>
+	<SubTexture name="BAD0008" x="968" y="0" width="484" height="263"/>
+	<SubTexture name="GOOD0000" x="1452" y="0" width="484" height="263"/>
+	<SubTexture name="GOOD0001" x="0" y="263" width="484" height="263"/>
+	<SubTexture name="GOOD0002" x="484" y="263" width="484" height="263"/>
+	<SubTexture name="GOOD0003" x="968" y="263" width="484" height="263"/>
+	<SubTexture name="GOOD0004" x="1452" y="263" width="484" height="263"/>
+	<SubTexture name="GOOD0005" x="1452" y="263" width="484" height="263"/>
+	<SubTexture name="GOOD0006" x="1452" y="263" width="484" height="263"/>
+	<SubTexture name="GOOD0007" x="1452" y="263" width="484" height="263"/>
+	<SubTexture name="GOOD0008" x="1452" y="263" width="484" height="263"/>
+	<SubTexture name="SICK0000" x="0" y="526" width="484" height="263"/>
+	<SubTexture name="SICK0001" x="484" y="526" width="484" height="263"/>
+	<SubTexture name="SICK0002" x="968" y="526" width="484" height="263"/>
+	<SubTexture name="SICK0003" x="1452" y="526" width="484" height="263"/>
+	<SubTexture name="SICK0004" x="0" y="789" width="484" height="263"/>
+	<SubTexture name="SICK0005" x="0" y="789" width="484" height="263"/>
+	<SubTexture name="SICK0006" x="484" y="789" width="484" height="263"/>
+	<SubTexture name="SICK0007" x="484" y="789" width="484" height="263"/>
+	<SubTexture name="SICK0008" x="484" y="789" width="484" height="263"/>
+	<SubTexture name="WORST0000" x="968" y="789" width="484" height="263"/>
+	<SubTexture name="WORST0001" x="1452" y="789" width="484" height="263"/>
+	<SubTexture name="WORST0002" x="0" y="1052" width="484" height="263"/>
+	<SubTexture name="WORST0003" x="0" y="1052" width="484" height="263"/>
+	<SubTexture name="WORST0004" x="0" y="1052" width="484" height="263"/>
+	<SubTexture name="WORST0005" x="0" y="1052" width="484" height="263"/>
+	<SubTexture name="WORST0006" x="0" y="1052" width="484" height="263"/>
+	<SubTexture name="WORST0007" x="0" y="1052" width="484" height="263"/>
+	<SubTexture name="WORST0008" x="0" y="1052" width="484" height="263"/>
+</TextureAtlas>

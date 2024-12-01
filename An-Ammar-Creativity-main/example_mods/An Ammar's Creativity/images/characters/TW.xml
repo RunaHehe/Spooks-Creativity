@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TW.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TW_DanceLeft0000" x="1315" y="274" width="149" height="268" frameX="-2" frameY="-5" frameWidth="160" frameHeight="273"/>
+	<SubTexture name="TW_DanceLeft0001" x="1315" y="274" width="149" height="268" frameX="-2" frameY="-5" frameWidth="160" frameHeight="273"/>
+	<SubTexture name="TW_DanceLeft0002" x="401" y="259" width="150" height="272" frameX="0" frameY="-1" frameWidth="160" frameHeight="273"/>
+	<SubTexture name="TW_DanceLeft0003" x="401" y="259" width="150" height="272" frameX="0" frameY="-1" frameWidth="160" frameHeight="273"/>
+	<SubTexture name="TW_DanceLeft0004" x="1829" y="2" width="153" height="272" frameX="0" frameY="-1" frameWidth="160" frameHeight="273"/>
+	<SubTexture name="TW_DanceLeft0005" x="1147" y="2" width="160" height="273"/>
+	<SubTexture name="TW_DanceLeft0006" x="1147" y="2" width="160" height="273"/>
+	<SubTexture name="TW_DanceLeft0007" x="1147" y="2" width="160" height="273"/>
+	<SubTexture name="TW_DanceLeft0008" x="1147" y="2" width="160" height="273"/>
+	<SubTexture name="TW_DanceLeft0009" x="1147" y="2" width="160" height="273"/>
+	<SubTexture name="TW_DanceLeft0010" x="1147" y="2" width="160" height="273"/>
+	<SubTexture name="TW_DanceLeft0011" x="1147" y="2" width="160" height="273"/>
+	<SubTexture name="TW_DanceLeft0012" x="1147" y="2" width="160" height="273"/>
+	<SubTexture name="TW_DanceLeft0013" x="1147" y="2" width="160" height="273"/>
+	<SubTexture name="TW_DanceLeft0014" x="1147" y="2" width="160" height="273"/>
+	<SubTexture name="TW_DanceRight0000" x="606" y="2" width="174" height="268" frameX="0" frameY="-5" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0001" x="606" y="2" width="174" height="268" frameX="0" frameY="-5" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0002" x="976" y="2" width="163" height="270" frameX="-1" frameY="-3" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0003" x="976" y="2" width="163" height="270" frameX="-1" frameY="-3" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0004" x="1665" y="2" width="156" height="271" frameX="-2" frameY="-2" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0005" x="2" y="264" width="147" height="273" frameX="-5" frameY="0" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0006" x="2" y="264" width="147" height="273" frameX="-5" frameY="0" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0007" x="2" y="264" width="147" height="273" frameX="-5" frameY="0" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0008" x="2" y="264" width="147" height="273" frameX="-5" frameY="0" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0009" x="2" y="264" width="147" height="273" frameX="-5" frameY="0" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0010" x="2" y="264" width="147" height="273" frameX="-5" frameY="0" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0011" x="2" y="264" width="147" height="273" frameX="-5" frameY="0" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0012" x="2" y="264" width="147" height="273" frameX="-5" frameY="0" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0013" x="2" y="264" width="147" height="273" frameX="-5" frameY="0" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_DanceRight0014" x="2" y="264" width="147" height="273" frameX="-5" frameY="0" frameWidth="174" frameHeight="273"/>
+	<SubTexture name="TW_Down0000" x="788" y="2" width="180" height="245" frameX="0" frameY="-19" frameWidth="180" frameHeight="264"/>
+	<SubTexture name="TW_Down0001" x="788" y="2" width="180" height="245" frameX="0" frameY="-19" frameWidth="180" frameHeight="264"/>
+	<SubTexture name="TW_Down0002" x="1487" y="2" width="170" height="252" frameX="-5" frameY="-12" frameWidth="180" frameHeight="264"/>
+	<SubTexture name="TW_Down0003" x="1487" y="2" width="170" height="252" frameX="-5" frameY="-12" frameWidth="180" frameHeight="264"/>
+	<SubTexture name="TW_Down0004" x="1315" y="2" width="164" height="264" frameX="-10" frameY="0" frameWidth="180" frameHeight="264"/>
+	<SubTexture name="TW_Down0005" x="1315" y="2" width="164" height="264" frameX="-10" frameY="0" frameWidth="180" frameHeight="264"/>
+	<SubTexture name="TW_Down0006" x="1315" y="2" width="164" height="264" frameX="-10" frameY="0" frameWidth="180" frameHeight="264"/>
+	<SubTexture name="TW_Down0007" x="1315" y="2" width="164" height="264" frameX="-10" frameY="0" frameWidth="180" frameHeight="264"/>
+	<SubTexture name="TW_Down0008" x="1315" y="2" width="164" height="264" frameX="-10" frameY="0" frameWidth="180" frameHeight="264"/>
+	<SubTexture name="TW_Down0009" x="1315" y="2" width="164" height="264" frameX="-10" frameY="0" frameWidth="180" frameHeight="264"/>
+	<SubTexture name="TW_Left0000" x="157" y="270" width="148" height="271" frameX="-6" frameY="0" frameWidth="157" frameHeight="271"/>
+	<SubTexture name="TW_Left0001" x="157" y="270" width="148" height="271" frameX="-6" frameY="0" frameWidth="157" frameHeight="271"/>
+	<SubTexture name="TW_Left0002" x="788" y="255" width="155" height="268" frameX="0" frameY="-3" frameWidth="157" frameHeight="271"/>
+	<SubTexture name="TW_Left0003" x="788" y="255" width="155" height="268" frameX="0" frameY="-3" frameWidth="157" frameHeight="271"/>
+	<SubTexture name="TW_Left0004" x="951" y="280" width="149" height="264" frameX="-5" frameY="-7" frameWidth="157" frameHeight="271"/>
+	<SubTexture name="TW_Left0005" x="951" y="280" width="149" height="264" frameX="-5" frameY="-7" frameWidth="157" frameHeight="271"/>
+	<SubTexture name="TW_Left0006" x="1787" y="282" width="146" height="266" frameX="-11" frameY="-5" frameWidth="157" frameHeight="271"/>
+	<SubTexture name="TW_Left0007" x="1787" y="282" width="146" height="266" frameX="-11" frameY="-5" frameWidth="157" frameHeight="271"/>
+	<SubTexture name="TW_Left0008" x="1787" y="282" width="146" height="266" frameX="-11" frameY="-5" frameWidth="157" frameHeight="271"/>
+	<SubTexture name="TW_Left0009" x="1787" y="282" width="146" height="266" frameX="-11" frameY="-5" frameWidth="157" frameHeight="271"/>
+	<SubTexture name="TW_Right0000" x="204" y="2" width="189" height="260" frameX="-9" frameY="0" frameWidth="198" frameHeight="260"/>
+	<SubTexture name="TW_Right0001" x="204" y="2" width="189" height="260" frameX="-9" frameY="0" frameWidth="198" frameHeight="260"/>
+	<SubTexture name="TW_Right0002" x="2" y="2" width="194" height="254" frameX="-4" frameY="-6" frameWidth="198" frameHeight="260"/>
+	<SubTexture name="TW_Right0003" x="2" y="2" width="194" height="254" frameX="-4" frameY="-6" frameWidth="198" frameHeight="260"/>
+	<SubTexture name="TW_Right0004" x="401" y="2" width="197" height="249" frameX="0" frameY="-11" frameWidth="198" frameHeight="260"/>
+	<SubTexture name="TW_Right0005" x="401" y="2" width="197" height="249" frameX="0" frameY="-11" frameWidth="198" frameHeight="260"/>
+	<SubTexture name="TW_Right0006" x="401" y="2" width="197" height="249" frameX="0" frameY="-11" frameWidth="198" frameHeight="260"/>
+	<SubTexture name="TW_Right0007" x="401" y="2" width="197" height="249" frameX="0" frameY="-11" frameWidth="198" frameHeight="260"/>
+	<SubTexture name="TW_Right0008" x="401" y="2" width="197" height="249" frameX="0" frameY="-11" frameWidth="198" frameHeight="260"/>
+	<SubTexture name="TW_Right0009" x="401" y="2" width="197" height="249" frameX="0" frameY="-11" frameWidth="198" frameHeight="260"/>
+	<SubTexture name="TW_Up0000" x="1641" y="281" width="138" height="282" frameX="-7" frameY="0" frameWidth="146" frameHeight="282"/>
+	<SubTexture name="TW_Up0001" x="1641" y="281" width="138" height="282" frameX="-7" frameY="0" frameWidth="146" frameHeight="282"/>
+	<SubTexture name="TW_Up0002" x="559" y="278" width="143" height="279" frameX="-3" frameY="-3" frameWidth="146" frameHeight="282"/>
+	<SubTexture name="TW_Up0003" x="559" y="278" width="143" height="279" frameX="-3" frameY="-3" frameWidth="146" frameHeight="282"/>
+	<SubTexture name="TW_Up0004" x="1487" y="262" width="146" height="276" frameX="0" frameY="-6" frameWidth="146" frameHeight="282"/>
+	<SubTexture name="TW_Up0005" x="1487" y="262" width="146" height="276" frameX="0" frameY="-6" frameWidth="146" frameHeight="282"/>
+	<SubTexture name="TW_Up0006" x="1487" y="262" width="146" height="276" frameX="0" frameY="-6" frameWidth="146" frameHeight="282"/>
+	<SubTexture name="TW_Up0007" x="1487" y="262" width="146" height="276" frameX="0" frameY="-6" frameWidth="146" frameHeight="282"/>
+	<SubTexture name="TW_Up0008" x="1487" y="262" width="146" height="276" frameX="0" frameY="-6" frameWidth="146" frameHeight="282"/>
+	<SubTexture name="TW_Up0009" x="1487" y="262" width="146" height="276" frameX="0" frameY="-6" frameWidth="146" frameHeight="282"/>
+</TextureAtlas>

@@ -1,0 +1,254 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				13,
+				-186
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "bf idle chained0"
+		},
+		{
+			"offsets": [
+				4,
+				-194
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bf left chained0"
+		},
+		{
+			"offsets": [
+				-24,
+				-200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bf down chained alt"
+		},
+		{
+			"offsets": [
+				-19,
+				-162
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "bf up chained0"
+		},
+		{
+			"offsets": [
+				-49,
+				-192
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "bf right chained0"
+		},
+		{
+			"offsets": [
+				-15,
+				-188
+			],
+			"loop": true,
+			"fps": 16,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "bf idle chained alt"
+		},
+		{
+			"offsets": [
+				4,
+				-194
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "bf left chained alt"
+		},
+		{
+			"offsets": [
+				-24,
+				-200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "bf down chained0"
+		},
+		{
+			"offsets": [
+				-20,
+				-162
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "bf up chained alt"
+		},
+		{
+			"offsets": [
+				-49,
+				-192
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "bf right chained alt"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-16,
+				-185
+			],
+			"anim": "breath",
+			"fps": 24,
+			"name": "bf breath chained",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				12,
+				-198
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "bf left miss chained",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				-204
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "bf down miss chained",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-156
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "bf up miss chained",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-52,
+				-192
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "bf right miss chained",
+			"indices": []
+		},
+		{
+			"offsets": [
+				10,
+				-196
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss-alt",
+			"indices": [],
+			"name": "bf left miss chained"
+		},
+		{
+			"offsets": [
+				-23,
+				-204
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss-alt",
+			"indices": [],
+			"name": "bf down miss chained"
+		},
+		{
+			"offsets": [
+				-20,
+				-155
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss-alt",
+			"indices": [],
+			"name": "bf up miss chained"
+		},
+		{
+			"offsets": [
+				-51,
+				-193
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss-alt",
+			"indices": [],
+			"name": "bf right miss chained"
+		},
+		{
+			"offsets": [
+				-15,
+				-187
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "convo",
+			"indices": [],
+			"name": "bf convo chained"
+		},
+		{
+			"offsets": [
+				-7,
+				-196
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "scared",
+			"loop": false,
+			"name": "bf scared chained"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf_chained",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "bf-chained",
+	"flip_x": true,
+	"healthbar_colors": [
+		47,
+		168,
+		222
+	],
+	"camera_position": [
+		-80,
+		170
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

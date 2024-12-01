@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				18,
+				-72
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "TW_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-84
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "TW_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				-80
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "TW_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				-63
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "TW_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-70
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "TW_DanceRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				13,
+				-71
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "TW_DanceLeft",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/TW",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "twitter",
+	"flip_x": false,
+	"healthbar_colors": [
+		232,
+		0,
+		235
+	],
+	"camera_position": [
+		-170,
+		80
+	],
+	"sing_duration": 6,
+	"scale": 1
+}

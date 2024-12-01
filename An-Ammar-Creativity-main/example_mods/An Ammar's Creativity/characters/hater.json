@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Hater_Idle"
+		},
+		{
+			"offsets": [
+				86,
+				4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Hater_Left"
+		},
+		{
+			"offsets": [
+				17,
+				-12
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Hater_Down"
+		},
+		{
+			"offsets": [
+				14,
+				37
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Hater_Up"
+		},
+		{
+			"offsets": [
+				-5,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Hater_Right"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Hater",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "hater",
+	"flip_x": false,
+	"healthbar_colors": [
+		252,
+		165,
+		3
+	],
+	"camera_position": [
+		-170,
+		80
+	],
+	"sing_duration": 6,
+	"scale": 1
+}

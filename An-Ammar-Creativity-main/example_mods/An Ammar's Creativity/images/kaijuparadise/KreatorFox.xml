@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="KreatorFox.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="KreatorFox_Bop0000" x="2" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0001" x="2" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0002" x="255" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0003" x="255" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0004" x="508" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0005" x="508" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0006" x="761" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0007" x="761" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0008" x="761" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0009" x="761" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0010" x="761" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0011" x="761" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0012" x="761" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0013" x="761" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0014" x="761" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0015" x="761" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0016" x="761" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0017" x="761" y="2" width="245" height="285"/>
+	<SubTexture name="KreatorFox_Bop0018" x="761" y="2" width="245" height="285"/>
+</TextureAtlas>

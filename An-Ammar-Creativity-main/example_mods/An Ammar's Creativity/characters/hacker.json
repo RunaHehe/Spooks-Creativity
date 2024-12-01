@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				13
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Hacker_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				75,
+				-23
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Hacker_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				57,
+				-66
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Hacker_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				-11
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Hacker_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				-40
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Hacker_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Hacker",
+	"position": [
+		-10,
+		250
+	],
+	"healthicon": "hacker",
+	"flip_x": false,
+	"healthbar_colors": [
+		252,
+		0,
+		0
+	],
+	"camera_position": [
+		-40,
+		100
+	],
+	"sing_duration": 6,
+	"scale": 1
+}

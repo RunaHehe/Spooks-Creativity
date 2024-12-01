@@ -1,0 +1,4 @@
+Camera Zoom
+
+Value 1: zoom Amount (Empty = Default)
+Value 2: Duration

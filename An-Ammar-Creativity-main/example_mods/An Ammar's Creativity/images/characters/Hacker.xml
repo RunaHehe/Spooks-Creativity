@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Hacker.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Hacker_Down0000" x="2" y="2" width="294" height="324"/>
+	<SubTexture name="Hacker_Down0001" x="2" y="2" width="294" height="324"/>
+	<SubTexture name="Hacker_Down0002" x="304" y="2" width="294" height="324"/>
+	<SubTexture name="Hacker_Down0003" x="304" y="2" width="294" height="324"/>
+	<SubTexture name="Hacker_Down0004" x="606" y="2" width="294" height="324"/>
+	<SubTexture name="Hacker_Down0005" x="606" y="2" width="294" height="324"/>
+	<SubTexture name="Hacker_Down0006" x="908" y="2" width="294" height="324"/>
+	<SubTexture name="Hacker_Down0007" x="908" y="2" width="294" height="324"/>
+	<SubTexture name="Hacker_Down0008" x="1210" y="2" width="294" height="324"/>
+	<SubTexture name="Hacker_Down0009" x="1210" y="2" width="294" height="324"/>
+	<SubTexture name="Hacker_Idle0000" x="2" y="706" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0001" x="197" y="706" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0002" x="392" y="706" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0003" x="587" y="706" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0004" x="782" y="706" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0005" x="1512" y="730" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0006" x="1707" y="730" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0007" x="977" y="1046" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0008" x="1172" y="1046" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0009" x="2" y="1112" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0010" x="782" y="706" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0011" x="1512" y="730" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0012" x="1707" y="730" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0013" x="977" y="1046" width="187" height="398"/>
+	<SubTexture name="Hacker_Idle0014" x="1172" y="1046" width="187" height="398"/>
+	<SubTexture name="Hacker_Left0000" x="1512" y="2" width="252" height="364"/>
+	<SubTexture name="Hacker_Left0001" x="1512" y="2" width="252" height="364"/>
+	<SubTexture name="Hacker_Left0002" x="1772" y="2" width="252" height="364"/>
+	<SubTexture name="Hacker_Left0003" x="1772" y="2" width="252" height="364"/>
+	<SubTexture name="Hacker_Left0004" x="2" y="334" width="252" height="364"/>
+	<SubTexture name="Hacker_Left0005" x="262" y="334" width="252" height="364"/>
+	<SubTexture name="Hacker_Left0006" x="522" y="334" width="252" height="364"/>
+	<SubTexture name="Hacker_Left0007" x="522" y="334" width="252" height="364"/>
+	<SubTexture name="Hacker_Left0008" x="782" y="334" width="252" height="364"/>
+	<SubTexture name="Hacker_Left0009" x="782" y="334" width="252" height="364"/>
+	<SubTexture name="Hacker_Right0000" x="1042" y="334" width="227" height="348"/>
+	<SubTexture name="Hacker_Right0001" x="1042" y="334" width="227" height="348"/>
+	<SubTexture name="Hacker_Right0002" x="1277" y="334" width="227" height="348"/>
+	<SubTexture name="Hacker_Right0003" x="1277" y="334" width="227" height="348"/>
+	<SubTexture name="Hacker_Right0004" x="1512" y="374" width="227" height="348"/>
+	<SubTexture name="Hacker_Right0005" x="1747" y="374" width="227" height="348"/>
+	<SubTexture name="Hacker_Right0006" x="1747" y="374" width="227" height="348"/>
+	<SubTexture name="Hacker_Right0007" x="1042" y="690" width="227" height="348"/>
+	<SubTexture name="Hacker_Right0008" x="1042" y="690" width="227" height="348"/>
+	<SubTexture name="Hacker_Right0009" x="1277" y="690" width="227" height="348"/>
+	<SubTexture name="Hacker_Up0000" x="197" y="1112" width="190" height="375"/>
+	<SubTexture name="Hacker_Up0001" x="197" y="1112" width="190" height="375"/>
+	<SubTexture name="Hacker_Up0002" x="395" y="1112" width="190" height="375"/>
+	<SubTexture name="Hacker_Up0003" x="395" y="1112" width="190" height="375"/>
+	<SubTexture name="Hacker_Up0004" x="593" y="1112" width="190" height="375"/>
+	<SubTexture name="Hacker_Up0005" x="593" y="1112" width="190" height="375"/>
+	<SubTexture name="Hacker_Up0006" x="1367" y="1136" width="190" height="375"/>
+	<SubTexture name="Hacker_Up0007" x="1367" y="1136" width="190" height="375"/>
+	<SubTexture name="Hacker_Up0008" x="1565" y="1136" width="190" height="375"/>
+	<SubTexture name="Hacker_Up0009" x="1565" y="1136" width="190" height="375"/>
+</TextureAtlas>

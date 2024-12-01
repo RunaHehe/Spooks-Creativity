@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Ammar-Confident.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ammar Down0000" x="251" y="848" width="241" height="396"/>
+	<SubTexture name="Ammar Down0001" x="251" y="848" width="241" height="396"/>
+	<SubTexture name="Ammar Down0002" x="500" y="848" width="241" height="396"/>
+	<SubTexture name="Ammar Down0003" x="500" y="848" width="241" height="396"/>
+	<SubTexture name="Ammar Down0004" x="749" y="848" width="241" height="396"/>
+	<SubTexture name="Ammar Down0005" x="749" y="848" width="241" height="396"/>
+	<SubTexture name="Ammar Down0006" x="749" y="848" width="241" height="396"/>
+	<SubTexture name="Ammar Down0007" x="749" y="848" width="241" height="396"/>
+	<SubTexture name="Ammar Down0008" x="749" y="848" width="241" height="396"/>
+	<SubTexture name="Ammar Down0009" x="749" y="848" width="241" height="396"/>
+	<SubTexture name="Ammar Idle0000" x="1000" y="810" width="257" height="396" frameX="-57" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0001" x="2" y="2" width="241" height="1273" frameX="-73" frameY="0" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0002" x="2" y="2" width="241" height="1273" frameX="-73" frameY="0" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0003" x="1265" y="810" width="241" height="396" frameX="-73" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0004" x="1265" y="810" width="241" height="396" frameX="-73" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0005" x="251" y="2" width="384" height="396" frameX="0" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0006" x="251" y="2" width="384" height="396" frameX="0" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0007" x="1514" y="810" width="241" height="396" frameX="-73" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0008" x="1514" y="810" width="241" height="396" frameX="-73" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0009" x="1514" y="810" width="241" height="396" frameX="-73" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0010" x="1514" y="810" width="241" height="396" frameX="-73" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0011" x="1514" y="810" width="241" height="396" frameX="-73" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0012" x="1514" y="810" width="241" height="396" frameX="-73" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0013" x="1514" y="810" width="241" height="396" frameX="-73" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Idle0014" x="1514" y="810" width="241" height="396" frameX="-73" frameY="-59" frameWidth="384" frameHeight="1273"/>
+	<SubTexture name="Ammar Left0000" x="643" y="2" width="334" height="396"/>
+	<SubTexture name="Ammar Left0001" x="643" y="2" width="334" height="396"/>
+	<SubTexture name="Ammar Left0002" x="985" y="2" width="334" height="396"/>
+	<SubTexture name="Ammar Left0003" x="985" y="2" width="334" height="396"/>
+	<SubTexture name="Ammar Left0004" x="1327" y="2" width="334" height="396"/>
+	<SubTexture name="Ammar Left0005" x="1327" y="2" width="334" height="396"/>
+	<SubTexture name="Ammar Left0006" x="1327" y="2" width="334" height="396"/>
+	<SubTexture name="Ammar Left0007" x="1327" y="2" width="334" height="396"/>
+	<SubTexture name="Ammar Left0008" x="1327" y="2" width="334" height="396"/>
+	<SubTexture name="Ammar Left0009" x="1327" y="2" width="334" height="396"/>
+	<SubTexture name="Ammar Right0000" x="1000" y="406" width="264" height="396"/>
+	<SubTexture name="Ammar Right0001" x="1000" y="406" width="264" height="396"/>
+	<SubTexture name="Ammar Right0002" x="1272" y="406" width="264" height="396"/>
+	<SubTexture name="Ammar Right0003" x="1272" y="406" width="264" height="396"/>
+	<SubTexture name="Ammar Right0004" x="1544" y="406" width="264" height="396"/>
+	<SubTexture name="Ammar Right0005" x="1544" y="406" width="264" height="396"/>
+	<SubTexture name="Ammar Right0006" x="1544" y="406" width="264" height="396"/>
+	<SubTexture name="Ammar Right0007" x="1544" y="406" width="264" height="396"/>
+	<SubTexture name="Ammar Right0008" x="1544" y="406" width="264" height="396"/>
+	<SubTexture name="Ammar Right0009" x="1544" y="406" width="264" height="396"/>
+	<SubTexture name="Ammar Up0000" x="751" y="406" width="241" height="434" frameX="0" frameY="0" frameWidth="242" frameHeight="434"/>
+	<SubTexture name="Ammar Up0001" x="751" y="406" width="241" height="434" frameX="0" frameY="0" frameWidth="242" frameHeight="434"/>
+	<SubTexture name="Ammar Up0002" x="251" y="406" width="242" height="434"/>
+	<SubTexture name="Ammar Up0003" x="251" y="406" width="242" height="434"/>
+	<SubTexture name="Ammar Up0004" x="501" y="406" width="242" height="434"/>
+	<SubTexture name="Ammar Up0005" x="501" y="406" width="242" height="434"/>
+	<SubTexture name="Ammar Up0006" x="501" y="406" width="242" height="434"/>
+	<SubTexture name="Ammar Up0007" x="501" y="406" width="242" height="434"/>
+	<SubTexture name="Ammar Up0008" x="501" y="406" width="242" height="434"/>
+	<SubTexture name="Ammar Up0009" x="501" y="406" width="242" height="434"/>
+</TextureAtlas>

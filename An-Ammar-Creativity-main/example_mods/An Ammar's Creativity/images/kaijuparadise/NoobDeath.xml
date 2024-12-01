@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NoobDeath.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Noob Death0000" x="4" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0001" x="318" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0002" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0003" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0004" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0005" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0006" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0007" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0008" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0009" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0010" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0011" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0012" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0013" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0014" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0015" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0016" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0017" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0018" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0019" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0020" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0021" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0022" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0023" x="632" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0024" x="946" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0025" x="1260" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0026" x="1574" y="4" width="298" height="313"/>
+	<SubTexture name="Noob Death0027" x="4" y="333" width="298" height="313"/>
+	<SubTexture name="Noob Death0028" x="318" y="333" width="298" height="313"/>
+	<SubTexture name="Noob Death0029" x="632" y="333" width="298" height="313"/>
+	<SubTexture name="Noob Death0030" x="946" y="333" width="298" height="313"/>
+	<SubTexture name="Noob Death0031" x="1260" y="333" width="298" height="313"/>
+	<SubTexture name="Noob Death0032" x="1260" y="333" width="298" height="313"/>
+	<SubTexture name="Noob Death0033" x="1260" y="333" width="298" height="313"/>
+	<SubTexture name="Noob Death0034" x="1260" y="333" width="298" height="313"/>
+	<SubTexture name="Noob Death0035" x="1260" y="333" width="298" height="313"/>
+	<SubTexture name="Noob Death0036" x="1260" y="333" width="298" height="313"/>
+	<SubTexture name="Noob Death0037" x="1260" y="333" width="298" height="313"/>
+</TextureAtlas>

@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				144,
+				-221
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Catte_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				-245
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Catte_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-186
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Catte_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-180
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Catte_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-110
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "Catte_DanceRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				-207
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "Catte_DanceLeft",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				-160
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "cute",
+			"loop": false,
+			"name": "Catte_Pease"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Catte",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "catte",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		196,
+		92
+	],
+	"camera_position": [
+		180,
+		200
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}

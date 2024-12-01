@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="jailrevolving.png"><SubTexture name="jailrevolving0000" x="0" y="0" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0001" x="2450" y="0" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0002" x="0" y="1309" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0003" x="2450" y="1309" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0004" x="0" y="2618" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0005" x="2450" y="2618" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0006" x="4900" y="0" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0007" x="4900" y="1309" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0008" x="4900" y="2618" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0009" x="0" y="3927" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0010" x="2450" y="3927" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0011" x="4900" y="3927" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0012" x="0" y="5236" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0013" x="2450" y="5236" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0014" x="4900" y="5236" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0015" x="7350" y="0" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0016" x="7350" y="1309" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0017" x="7350" y="2618" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0018" x="7350" y="3927" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0019" x="7350" y="5236" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0020" x="0" y="6545" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0021" x="2450" y="6545" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0022" x="4900" y="6545" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0023" x="7350" y="6545" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0024" x="0" y="7854" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0025" x="2450" y="7854" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0026" x="4900" y="7854" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0027" x="7350" y="7854" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0028" x="9800" y="0" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0029" x="9800" y="1309" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0030" x="9800" y="2618" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0031" x="9800" y="3927" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0032" x="9800" y="5236" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0033" x="9800" y="6545" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0034" x="9800" y="7854" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0035" x="0" y="9163" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0036" x="2450" y="9163" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0037" x="4900" y="9163" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0038" x="7350" y="9163" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0039" x="9800" y="9163" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0040" x="0" y="10472" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0041" x="2450" y="10472" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0042" x="4900" y="10472" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+<SubTexture name="jailrevolving0043" x="7350" y="10472" width="2450" height="1309" frameX="0" frameY="0" frameWidth="2450" frameHeight="1309" />
+</TextureAtlas>

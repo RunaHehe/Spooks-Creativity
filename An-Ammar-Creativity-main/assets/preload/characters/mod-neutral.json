@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Moderator Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Moderator Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				-9
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Moderator Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Moderator Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Moderator Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Moderator Neutral",
+	"position": [
+		0,
+		290
+	],
+	"healthicon": "moderator",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-110,
+		80
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

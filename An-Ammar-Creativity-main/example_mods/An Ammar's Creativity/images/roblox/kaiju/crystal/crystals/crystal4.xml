@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<TextureAtlas imagePath="crystal4.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="Cry4Come0000" x="4" y="4" width="0" height="0" frameX="-166" frameY="-227" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0001" x="8" y="4" width="0" height="0" frameX="-166" frameY="-227" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0002" x="12" y="4" width="0" height="0" frameX="-166" frameY="-227" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0003" x="16" y="4" width="198" height="4" frameX="-3" frameY="-300" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0004" x="218" y="4" width="198" height="10" frameX="-3" frameY="-295" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0005" x="420" y="4" width="198" height="15" frameX="-3" frameY="-290" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0006" x="622" y="4" width="198" height="20" frameX="-3" frameY="-285" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0007" x="4" y="28" width="198" height="26" frameX="-3" frameY="-279" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0008" x="206" y="28" width="198" height="31" frameX="-3" frameY="-274" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0009" x="408" y="28" width="198" height="36" frameX="-3" frameY="-269" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0010" x="610" y="28" width="198" height="41" frameX="-3" frameY="-264" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0011" x="812" y="28" width="198" height="47" frameX="-3" frameY="-258" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0012" x="4" y="79" width="198" height="52" frameX="-3" frameY="-253" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0013" x="206" y="79" width="198" height="58" frameX="-3" frameY="-248" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0014" x="408" y="79" width="198" height="63" frameX="-3" frameY="-243" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0015" x="610" y="79" width="198" height="70" frameX="-3" frameY="-237" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0016" x="812" y="79" width="198" height="75" frameX="-3" frameY="-232" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0017" x="4" y="158" width="198" height="80" frameX="-3" frameY="-227" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0018" x="206" y="158" width="198" height="85" frameX="-3" frameY="-222" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0019" x="408" y="158" width="198" height="91" frameX="-3" frameY="-216" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0020" x="610" y="158" width="198" height="96" frameX="-3" frameY="-211" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0021" x="812" y="158" width="198" height="102" frameX="-3" frameY="-206" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0022" x="4" y="264" width="198" height="108" frameX="-3" frameY="-200" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0023" x="206" y="264" width="198" height="113" frameX="-3" frameY="-195" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0024" x="408" y="264" width="198" height="118" frameX="-3" frameY="-190" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0025" x="610" y="264" width="198" height="123" frameX="-3" frameY="-185" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0026" x="812" y="264" width="198" height="129" frameX="-3" frameY="-179" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0027" x="4" y="397" width="198" height="134" frameX="-3" frameY="-174" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0028" x="206" y="397" width="198" height="139" frameX="-3" frameY="-169" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0029" x="408" y="397" width="198" height="144" frameX="-3" frameY="-164" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0030" x="610" y="397" width="198" height="150" frameX="-3" frameY="-158" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0031" x="812" y="397" width="198" height="155" frameX="-3" frameY="-153" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0032" x="4" y="556" width="198" height="161" frameX="-3" frameY="-148" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0033" x="206" y="556" width="198" height="166" frameX="-3" frameY="-143" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0034" x="408" y="556" width="198" height="172" frameX="-3" frameY="-137" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0035" x="610" y="556" width="198" height="177" frameX="-3" frameY="-132" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0036" x="812" y="556" width="198" height="182" frameX="-3" frameY="-127" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0037" x="4" y="742" width="198" height="188" frameX="-3" frameY="-121" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0038" x="206" y="742" width="198" height="193" frameX="-3" frameY="-116" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0039" x="408" y="742" width="198" height="197" frameX="-3" frameY="-111" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0040" x="610" y="742" width="200" height="202" frameX="-3" frameY="-106" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0041" x="814" y="742" width="198" height="207" frameX="-3" frameY="-100" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0042" x="4" y="953" width="198" height="212" frameX="-3" frameY="-95" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0043" x="206" y="953" width="198" height="217" frameX="-3" frameY="-90" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0044" x="408" y="953" width="201" height="222" frameX="0" frameY="-85" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0045" x="613" y="953" width="199" height="227" frameX="-2" frameY="-79" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0046" x="816" y="953" width="198" height="232" frameX="-3" frameY="-74" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0047" x="4" y="1189" width="198" height="237" frameX="-3" frameY="-69" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0048" x="206" y="1189" width="198" height="241" frameX="-3" frameY="-64" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0049" x="408" y="1189" width="198" height="247" frameX="-3" frameY="-58" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0050" x="610" y="1189" width="198" height="252" frameX="-3" frameY="-53" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0051" x="812" y="1189" width="198" height="257" frameX="-3" frameY="-48" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0052" x="4" y="1450" width="198" height="262" frameX="-3" frameY="-43" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0053" x="206" y="1450" width="198" height="268" frameX="-3" frameY="-37" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0054" x="408" y="1450" width="198" height="273" frameX="-3" frameY="-32" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0055" x="610" y="1450" width="198" height="278" frameX="-3" frameY="-27" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0056" x="812" y="1450" width="198" height="284" frameX="-3" frameY="-21" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0057" x="4" y="1738" width="198" height="289" frameX="-3" frameY="-16" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0058" x="206" y="1738" width="198" height="294" frameX="-3" frameY="-11" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0059" x="408" y="1738" width="198" height="299" frameX="-3" frameY="-6" frameWidth="203" frameHeight="309"/>
+	<SubTexture name="Cry4Come0060" x="610" y="1738" width="199" height="299" frameX="-3" frameY="0" frameWidth="203" frameHeight="309"/>
+</TextureAtlas>

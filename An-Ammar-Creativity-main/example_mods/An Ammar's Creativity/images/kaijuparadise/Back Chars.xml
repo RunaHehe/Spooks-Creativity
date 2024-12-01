@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Back Chars.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Stage Back Chars0000" x="2" y="2" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0001" x="2" y="2" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0002" x="1077" y="2" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0003" x="1077" y="2" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0004" x="2" y="271" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0005" x="2" y="271" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0006" x="1077" y="271" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0007" x="1077" y="271" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0008" x="1077" y="271" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0009" x="1077" y="271" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0010" x="1077" y="271" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0011" x="1077" y="271" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0012" x="1077" y="271" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0013" x="1077" y="271" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0014" x="2" y="540" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0015" x="2" y="540" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0016" x="2" y="809" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0017" x="2" y="809" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0018" x="1077" y="540" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0019" x="1077" y="540" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0020" x="1077" y="809" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0021" x="1077" y="809" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0022" x="1077" y="809" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0023" x="1077" y="809" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0024" x="1077" y="809" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0025" x="1077" y="809" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0026" x="1077" y="809" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0027" x="1077" y="809" width="1067" height="261"/>
+	<SubTexture name="Stage Back Chars0028" x="1077" y="809" width="1067" height="261"/>
+</TextureAtlas>

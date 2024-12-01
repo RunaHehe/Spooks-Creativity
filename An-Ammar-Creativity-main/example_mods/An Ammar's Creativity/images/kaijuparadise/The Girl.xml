@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="The Girl.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="thegirl_bop0000" x="2" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0001" x="2" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0002" x="97" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0003" x="97" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0004" x="192" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0005" x="192" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0006" x="192" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0007" x="192" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0008" x="192" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0009" x="192" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0010" x="192" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0011" x="192" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0012" x="192" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0013" x="192" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0014" x="192" y="2" width="87" height="202"/>
+	<SubTexture name="thegirl_bop0015" x="192" y="2" width="87" height="202"/>
+</TextureAtlas>

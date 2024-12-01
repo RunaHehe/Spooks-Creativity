@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Ammar Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				21,
+				-60
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Ammar Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-82,
+				-60
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Ammar Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-73,
+				-21
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Ammar Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-88,
+				-59
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Ammar Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Ammar-Confident",
+	"position": [
+		-170,
+		190
+	],
+	"healthicon": "ammar",
+	"flip_x": true,
+	"healthbar_colors": [
+		1,
+		255,
+		1
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

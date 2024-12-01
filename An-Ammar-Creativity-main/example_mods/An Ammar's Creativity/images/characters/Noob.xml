@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Noob.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Noob Down0000" x="1290" y="2" width="229" height="296"/>
+	<SubTexture name="Noob Down0001" x="1290" y="2" width="229" height="296"/>
+	<SubTexture name="Noob Down0002" x="1321" y="306" width="229" height="296"/>
+	<SubTexture name="Noob Down0003" x="1321" y="306" width="229" height="296"/>
+	<SubTexture name="Noob Down0004" x="1527" y="2" width="229" height="296"/>
+	<SubTexture name="Noob Down0005" x="1527" y="2" width="229" height="296"/>
+	<SubTexture name="Noob Down0006" x="1527" y="2" width="229" height="296"/>
+	<SubTexture name="Noob Down0007" x="1527" y="2" width="229" height="296"/>
+	<SubTexture name="Noob Down0008" x="1527" y="2" width="229" height="296"/>
+	<SubTexture name="Noob Down0009" x="1527" y="2" width="229" height="296"/>
+	<SubTexture name="Noob Idle0000" x="278" y="373" width="262" height="313"/>
+	<SubTexture name="Noob Idle0001" x="278" y="373" width="262" height="313"/>
+	<SubTexture name="Noob Idle0002" x="548" y="373" width="262" height="313"/>
+	<SubTexture name="Noob Idle0003" x="548" y="373" width="262" height="313"/>
+	<SubTexture name="Noob Idle0004" x="554" y="2" width="262" height="313"/>
+	<SubTexture name="Noob Idle0005" x="554" y="2" width="262" height="313"/>
+	<SubTexture name="Noob Idle0006" x="818" y="323" width="262" height="313"/>
+	<SubTexture name="Noob Idle0007" x="818" y="323" width="262" height="313"/>
+	<SubTexture name="Noob Idle0008" x="818" y="323" width="262" height="313"/>
+	<SubTexture name="Noob Idle0009" x="818" y="323" width="262" height="313"/>
+	<SubTexture name="Noob Idle0010" x="818" y="323" width="262" height="313"/>
+	<SubTexture name="Noob Idle0011" x="818" y="323" width="262" height="313"/>
+	<SubTexture name="Noob Idle0012" x="818" y="323" width="262" height="313"/>
+	<SubTexture name="Noob Idle0013" x="818" y="323" width="262" height="313"/>
+	<SubTexture name="Noob Idle0014" x="818" y="323" width="262" height="313"/>
+	<SubTexture name="Noob Left0000" x="1764" y="2" width="215" height="315"/>
+	<SubTexture name="Noob Left0001" x="1764" y="2" width="215" height="315"/>
+	<SubTexture name="Noob Left0002" x="1558" y="325" width="215" height="315"/>
+	<SubTexture name="Noob Left0003" x="1558" y="325" width="215" height="315"/>
+	<SubTexture name="Noob Left0004" x="1781" y="325" width="215" height="315"/>
+	<SubTexture name="Noob Left0005" x="1781" y="325" width="215" height="315"/>
+	<SubTexture name="Noob Left0006" x="1781" y="325" width="215" height="315"/>
+	<SubTexture name="Noob Left0007" x="1781" y="325" width="215" height="315"/>
+	<SubTexture name="Noob Left0008" x="1781" y="325" width="215" height="315"/>
+	<SubTexture name="Noob Left0009" x="1781" y="325" width="215" height="315"/>
+	<SubTexture name="Noob Right0000" x="824" y="2" width="225" height="310"/>
+	<SubTexture name="Noob Right0001" x="824" y="2" width="225" height="310"/>
+	<SubTexture name="Noob Right0002" x="1057" y="2" width="225" height="310"/>
+	<SubTexture name="Noob Right0003" x="1057" y="2" width="225" height="310"/>
+	<SubTexture name="Noob Right0004" x="1088" y="320" width="225" height="310"/>
+	<SubTexture name="Noob Right0005" x="1088" y="320" width="225" height="310"/>
+	<SubTexture name="Noob Right0006" x="1088" y="320" width="225" height="310"/>
+	<SubTexture name="Noob Right0007" x="1088" y="320" width="225" height="310"/>
+	<SubTexture name="Noob Right0008" x="1088" y="320" width="225" height="310"/>
+	<SubTexture name="Noob Right0009" x="1088" y="320" width="225" height="310"/>
+	<SubTexture name="Noob Up0000" x="2" y="2" width="268" height="363"/>
+	<SubTexture name="Noob Up0001" x="2" y="2" width="268" height="363"/>
+	<SubTexture name="Noob Up0002" x="2" y="373" width="268" height="363"/>
+	<SubTexture name="Noob Up0003" x="2" y="373" width="268" height="363"/>
+	<SubTexture name="Noob Up0004" x="278" y="2" width="268" height="363"/>
+	<SubTexture name="Noob Up0005" x="278" y="2" width="268" height="363"/>
+	<SubTexture name="Noob Up0006" x="278" y="2" width="268" height="363"/>
+	<SubTexture name="Noob Up0007" x="278" y="2" width="268" height="363"/>
+	<SubTexture name="Noob Up0008" x="278" y="2" width="268" height="363"/>
+	<SubTexture name="Noob Up0009" x="278" y="2" width="268" height="363"/>
+</TextureAtlas>

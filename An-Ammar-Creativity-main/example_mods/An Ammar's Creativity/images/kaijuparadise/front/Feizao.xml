@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Feizao.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Feizao0000" x="2" y="2" width="346" height="321"/>
+	<SubTexture name="Feizao0001" x="2" y="2" width="346" height="321"/>
+	<SubTexture name="Feizao0002" x="356" y="2" width="346" height="321"/>
+	<SubTexture name="Feizao0003" x="356" y="2" width="346" height="321"/>
+	<SubTexture name="Feizao0004" x="2" y="331" width="346" height="321"/>
+	<SubTexture name="Feizao0005" x="2" y="331" width="346" height="321"/>
+	<SubTexture name="Feizao0006" x="2" y="331" width="346" height="321"/>
+	<SubTexture name="Feizao0007" x="356" y="331" width="346" height="321"/>
+	<SubTexture name="Feizao0008" x="356" y="331" width="346" height="321"/>
+	<SubTexture name="Feizao0009" x="356" y="331" width="346" height="321"/>
+	<SubTexture name="Feizao0010" x="356" y="331" width="346" height="321"/>
+	<SubTexture name="Feizao0011" x="356" y="331" width="346" height="321"/>
+	<SubTexture name="Feizao0012" x="356" y="331" width="346" height="321"/>
+	<SubTexture name="Feizao0013" x="356" y="331" width="346" height="321"/>
+	<SubTexture name="Feizao0014" x="356" y="331" width="346" height="321"/>
+</TextureAtlas>

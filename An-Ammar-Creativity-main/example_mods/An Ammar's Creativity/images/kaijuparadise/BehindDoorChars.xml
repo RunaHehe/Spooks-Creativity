@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BehindDoorChars.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CharsBehindDoor0000" x="2" y="2" width="67" height="113"/>
+	<SubTexture name="CharsBehindDoor0001" x="2" y="123" width="67" height="113"/>
+</TextureAtlas>
