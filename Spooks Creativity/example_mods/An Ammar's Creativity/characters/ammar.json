@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "spookidle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 16,
+			"anim": "singUP",
+			"indices": [],
+			"name": "spookup"
+		},
+		{
+			"offsets": [
+				10,
+				0
+			],
+			"loop": true,
+			"fps": 18,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "spookleft"
+		},
+		{
+			"offsets": [
+				-10,
+				-10
+			],
+			"loop": true,
+			"fps": 18,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "spookdown"
+		},
+		{
+			"offsets": [
+				-10,
+				0
+			],
+			"loop": true,
+			"fps": 18,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "spookright"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/spookr",
+	"position": [
+		-240,
+		-110
+	],
+	"healthicon": "spook",
+	"flip_x": true,
+	"healthbar_colors": [
+		141,
+		42,
+		40
+	],
+	"camera_position": [
+		-130,
+		300
+	],
+	"sing_duration": 6,
+	"scale": 0.7
+}

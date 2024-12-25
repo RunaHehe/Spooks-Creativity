@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="outer.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="outeridle0000" x="326" y="3406" width="325" height="711" frameX="-296" frameY="-204" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outeridle20000" x="0" y="3406" width="326" height="712" frameX="-296" frameY="-203" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outeridle30000" x="3803" y="2140" width="328" height="713" frameX="-296" frameY="-202" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outeridle40000" x="4154" y="0" width="324" height="713" frameX="-299" frameY="-201" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outeridle50000" x="4154" y="1423" width="320" height="714" frameX="-302" frameY="-200" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outeridle60000" x="4154" y="2848" width="316" height="715" frameX="-305" frameY="-199" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outeridle70000" x="4478" y="712" width="312" height="715" frameX="-307" frameY="-200" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outeridle80000" x="4478" y="2141" width="311" height="715" frameX="-307" frameY="-200" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outeridle90000" x="4478" y="1427" width="312" height="714" frameX="-306" frameY="-201" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outeridle100000" x="4478" y="0" width="315" height="712" frameX="-303" frameY="-203" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outeridle110000" x="4154" y="2137" width="320" height="711" frameX="-299" frameY="-204" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outeridle120000" x="4154" y="713" width="322" height="710" frameX="-297" frameY="-205" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerleft0000" x="1027" y="0" width="513" height="675" frameX="-251" frameY="-235" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerleft20000" x="0" y="677" width="508" height="672" frameX="-257" frameY="-238" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerleft30000" x="1540" y="673" width="502" height="671" frameX="-263" frameY="-238" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerleft40000" x="999" y="1349" width="499" height="670" frameX="-265" frameY="-238" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerleft50000" x="508" y="677" width="500" height="671" frameX="-262" frameY="-236" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerleft60000" x="1540" y="0" width="507" height="673" frameX="-254" frameY="-234" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerleft70000" x="514" y="0" width="513" height="676" frameX="-249" frameY="-232" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerleft80000" x="0" y="0" width="514" height="677" frameX="-248" frameY="-232" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerright0000" x="2539" y="674" width="486" height="685" frameX="-211" frameY="-223" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerright20000" x="2047" y="0" width="492" height="682" frameX="-209" frameY="-226" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerright30000" x="0" y="1349" width="499" height="674" frameX="-206" frameY="-233" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerright40000" x="1008" y="677" width="502" height="668" frameX="-205" frameY="-239" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerright50000" x="499" y="1349" width="500" height="670" frameX="-208" frameY="-237" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerright60000" x="2539" y="0" width="497" height="674" frameX="-210" frameY="-233" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerup0000" x="0" y="2023" width="398" height="704" frameX="-313" frameY="-208" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerup20000" x="2047" y="682" width="399" height="705" frameX="-308" frameY="-204" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerup30000" x="3036" y="0" width="397" height="705" frameX="-306" frameY="-204" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerup40000" x="3036" y="705" width="394" height="704" frameX="-306" frameY="-206" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerup50000" x="3036" y="1409" width="393" height="702" frameX="-310" frameY="-210" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerup60000" x="398" y="2023" width="392" height="703" frameX="-314" frameY="-210" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerdown0000" x="790" y="2023" width="376" height="681" frameX="-397" frameY="-253" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerdown20000" x="1166" y="2023" width="376" height="678" frameX="-398" frameY="-256" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerdown30000" x="0" y="2727" width="373" height="679" frameX="-398" frameY="-255" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerdown40000" x="3433" y="0" width="370" height="682" frameX="-397" frameY="-251" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerdown50000" x="3433" y="1395" width="367" height="685" frameX="-397" frameY="-248" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerdown60000" x="3433" y="2080" width="366" height="686" frameX="-397" frameY="-246" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerhey0000" x="651" y="3406" width="322" height="698" frameX="-301" frameY="-217" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerhey20000" x="973" y="3406" width="321" height="697" frameX="-308" frameY="-216" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerhey30000" x="3803" y="1427" width="334" height="713" frameX="-326" frameY="-198" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerhey40000" x="3433" y="682" width="353" height="713" frameX="-343" frameY="-197" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerhey50000" x="3803" y="0" width="351" height="713" frameX="-341" frameY="-197" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="outerhey60000" x="3803" y="713" width="349" height="714" frameX="-340" frameY="-196" frameWidth="960" frameHeight="960"/>
+</TextureAtlas>

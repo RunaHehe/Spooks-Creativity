@@ -1,0 +1,2 @@
+Changes the window name
+ONLY CHANGE VALUE ONE

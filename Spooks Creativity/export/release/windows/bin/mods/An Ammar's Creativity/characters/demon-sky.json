@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				143,
+				-201
+			],
+			"anim": "singDOWN",
+			"fps": 20,
+			"name": "sky demon down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				290,
+				-75
+			],
+			"anim": "singLEFT",
+			"fps": 20,
+			"name": "sky demon left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				160,
+				20
+			],
+			"anim": "singUP",
+			"fps": 20,
+			"name": "sky demon up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-60
+			],
+			"anim": "singRIGHT",
+			"fps": 20,
+			"name": "sky demon right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				130,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "laugh",
+			"indices": [],
+			"name": "sky demon laugh"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				-20
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "sky demon idle",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/demon_sky_assets",
+	"position": [
+		-110,
+		-100
+	],
+	"healthicon": "demon-sky",
+	"flip_x": false,
+	"healthbar_colors": [
+		153,
+		0,
+		0
+	],
+	"camera_position": [
+		-160,
+		150
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,43 @@
+{
+	"songs": [
+		[
+			"Discord Annoyer",
+			"icon-face",
+			[0,0,0]
+		],
+		[
+			"Shut Up",
+			"icon-face",
+			[0,0,0]
+		],
+		[
+			"Depression",
+			"icon-face",
+			[0,0,0]
+		],
+		[
+			"Moderator",
+			"icon-face",
+			[0,0,0]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "Easy, Normal, Hard",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Discord Annoyer",
+	"weekName": "discordannoyer",
+	"freeplayColor": [
+		0,
+		0,
+		0
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

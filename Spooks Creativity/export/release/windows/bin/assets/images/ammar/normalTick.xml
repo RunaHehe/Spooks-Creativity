@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="normalTick.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Checkmark0000" x="2" y="2" width="115" height="89"/>
+	<SubTexture name="Checkmark0001" x="125" y="2" width="115" height="89"/>
+</TextureAtlas>

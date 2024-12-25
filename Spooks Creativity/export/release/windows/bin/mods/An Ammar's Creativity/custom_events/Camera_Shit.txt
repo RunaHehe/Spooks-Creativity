@@ -1,0 +1,8 @@
+value 1: si quieres que la camara apunte a alguien
+en especifico (true para boyfriend, false para dad, middle para en medio)
+
+deja en blanco para automatico
+
+
+value 2: deja en blanco o pon true para activarlo, pon
+false para desactivarlo

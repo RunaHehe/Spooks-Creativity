@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="looky.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="lookdancel0000" x="2254" y="582" width="374" height="583" frameX="-257" frameY="-356" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdancel20000" x="2254" y="0" width="375" height="582" frameX="-253" frameY="-357" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdancel30000" x="748" y="1710" width="375" height="581" frameX="-252" frameY="-358" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdancel40000" x="2629" y="582" width="374" height="581" frameX="-254" frameY="-358" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdancel50000" x="2629" y="0" width="374" height="582" frameX="-256" frameY="-357" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdancel60000" x="0" y="1710" width="374" height="583" frameX="-259" frameY="-356" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdancer0000" x="2629" y="1163" width="372" height="582" frameX="-260" frameY="-357" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdancer20000" x="1123" y="1710" width="369" height="581" frameX="-266" frameY="-357" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdancer30000" x="0" y="2293" width="362" height="582" frameX="-281" frameY="-355" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdancer40000" x="1858" y="1710" width="363" height="579" frameX="-282" frameY="-358" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdancer50000" x="1492" y="1710" width="366" height="579" frameX="-279" frameY="-358" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdancer60000" x="374" y="1710" width="374" height="583" frameX="-259" frameY="-356" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookleft0000" x="459" y="575" width="450" height="574" frameX="-189" frameY="-354" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookleft20000" x="1399" y="575" width="451" height="574" frameX="-189" frameY="-354" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookleft30000" x="0" y="575" width="459" height="574" frameX="-183" frameY="-354" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookleft40000" x="0" y="0" width="467" height="575" frameX="-177" frameY="-354" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookleft50000" x="467" y="0" width="467" height="574" frameX="-176" frameY="-355" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookleft60000" x="934" y="0" width="465" height="574" frameX="-177" frameY="-355" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookleft70000" x="1399" y="0" width="457" height="575" frameX="-183" frameY="-354" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookleft80000" x="909" y="575" width="449" height="574" frameX="-189" frameY="-354" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookright0000" x="1787" y="2293" width="364" height="556" frameX="-371" frameY="-353" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookright20000" x="2151" y="2293" width="363" height="556" frameX="-375" frameY="-353" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookright30000" x="2514" y="2293" width="360" height="556" frameX="-380" frameY="-354" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookright40000" x="3357" y="555" width="356" height="556" frameX="-382" frameY="-354" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookright50000" x="3357" y="1667" width="355" height="555" frameX="-380" frameY="-355" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookright60000" x="3357" y="1111" width="355" height="556" frameX="-377" frameY="-354" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookright70000" x="3357" y="0" width="357" height="555" frameX="-374" frameY="-354" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookup0000" x="1856" y="556" width="397" height="557" frameX="-268" frameY="-353" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookup20000" x="1856" y="1113" width="397" height="556" frameX="-269" frameY="-354" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookup30000" x="1856" y="0" width="398" height="556" frameX="-270" frameY="-355" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookup40000" x="800" y="1149" width="399" height="559" frameX="-271" frameY="-352" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookup50000" x="0" y="1149" width="400" height="561" frameX="-271" frameY="-350" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookup60000" x="400" y="1149" width="400" height="559" frameX="-269" frameY="-352" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookup70000" x="1199" y="1149" width="399" height="557" frameX="-268" frameY="-353" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdown0000" x="0" y="2875" width="345" height="570" frameX="-305" frameY="-361" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdown20000" x="3003" y="2303" width="345" height="571" frameX="-304" frameY="-360" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdown30000" x="3003" y="1732" width="345" height="571" frameX="-304" frameY="-360" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdown40000" x="3714" y="1715" width="343" height="571" frameX="-304" frameY="-360" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdown50000" x="3714" y="571" width="343" height="572" frameX="-304" frameY="-359" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdown60000" x="3714" y="1143" width="343" height="572" frameX="-304" frameY="-359" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdown70000" x="3714" y="0" width="344" height="571" frameX="-304" frameY="-360" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookdown80000" x="3357" y="2222" width="345" height="571" frameX="-304" frameY="-360" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookcute0000" x="362" y="2293" width="358" height="578" frameX="-271" frameY="-355" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookcute20000" x="2221" y="1710" width="360" height="579" frameX="-269" frameY="-355" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookcute30000" x="1077" y="2293" width="355" height="578" frameX="-273" frameY="-356" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookcute40000" x="3003" y="578" width="354" height="577" frameX="-274" frameY="-357" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookcute50000" x="3003" y="1155" width="353" height="577" frameX="-275" frameY="-357" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookcute60000" x="3003" y="0" width="354" height="578" frameX="-275" frameY="-356" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookcute70000" x="1432" y="2293" width="355" height="577" frameX="-274" frameY="-356" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="lookcute80000" x="720" y="2293" width="357" height="578" frameX="-273" frameY="-355" frameWidth="960" frameHeight="960"/>
+</TextureAtlas>

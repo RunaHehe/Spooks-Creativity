@@ -1,0 +1,8 @@
+Glitching.frag
+OldTV.frag   -- NOT FIX ON MOBILE
+scroll.frag
+lensDis.frag
+LowQuality.fraq
+ChromaticAbberation.fraq
+ColorsEdit.fraq
+radialBlur.fraq

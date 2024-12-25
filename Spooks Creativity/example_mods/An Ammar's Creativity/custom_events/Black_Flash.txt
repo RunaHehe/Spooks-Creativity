@@ -1,0 +1,5 @@
+Flashes Camera
+
+Value 1: speed
+
+Value 2: nothing

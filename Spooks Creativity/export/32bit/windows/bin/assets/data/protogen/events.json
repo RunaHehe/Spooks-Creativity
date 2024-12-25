@@ -1,0 +1,56 @@
+{
+	"song": {
+		"events": [
+			[
+				67200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"protogen"
+					]
+				]
+			],
+			[
+				86400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"dark-protogen-mic"
+					]
+				]
+			],
+			[
+				124800,
+				[
+					[
+						"Change Character",
+						"dad",
+						"protogen"
+					]
+				]
+			],
+			[
+				144000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"dark-protogen-mic"
+					]
+				]
+			],
+			[
+				182400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"protogen"
+					]
+				]
+			]
+		]
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-190,
+				-380
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "aidle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-180,
+				-380
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "aright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-200,
+				-410
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "adown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				-390
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "aup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-150,
+				-380
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "aleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-170,
+				-430
+			],
+			"anim": "error",
+			"fps": 24,
+			"name": "error",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ammaralt",
+	"position": [
+		-470,
+		-930
+	],
+	"healthicon": "dark-protogen",
+	"flip_x": false,
+	"healthbar_colors": [
+		31,
+		27,
+		27
+	],
+	"camera_position": [
+		230,
+		1210
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Hazzy.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Hazzy0000" x="1844" y="1943" width="460" height="390" frameX="-37" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0001" x="1384" y="1943" width="460" height="390" frameX="-37" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0002" x="2356" y="780" width="459" height="390" frameX="-37" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0003" x="458" y="2333" width="458" height="390" frameX="-37" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0004" x="2356" y="390" width="459" height="390" frameX="-36" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0005" x="0" y="2333" width="458" height="390" frameX="-36" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0006" x="916" y="2333" width="458" height="390" frameX="-36" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0007" x="2356" y="1560" width="458" height="390" frameX="-36" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0008" x="2356" y="1170" width="459" height="390" frameX="-36" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0009" x="2356" y="0" width="460" height="390" frameX="-36" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0010" x="923" y="1943" width="461" height="390" frameX="-36" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0011" x="929" y="1553" width="463" height="389" frameX="-36" frameY="-125" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0012" x="464" y="1553" width="465" height="389" frameX="-36" frameY="-125" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0013" x="1888" y="779" width="467" height="389" frameX="-36" frameY="-125" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0014" x="1888" y="0" width="468" height="389" frameX="-36" frameY="-125" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0015" x="0" y="1165" width="470" height="388" frameX="-36" frameY="-126" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0016" x="946" y="777" width="471" height="388" frameX="-36" frameY="-126" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0017" x="473" y="389" width="472" height="388" frameX="-36" frameY="-126" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0018" x="945" y="0" width="473" height="388" frameX="-36" frameY="-126" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0019" x="473" y="777" width="473" height="388" frameX="-36" frameY="-126" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0020" x="472" y="0" width="473" height="388" frameX="-36" frameY="-126" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0021" x="945" y="388" width="473" height="388" frameX="-36" frameY="-126" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0022" x="0" y="777" width="473" height="388" frameX="-36" frameY="-126" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0023" x="0" y="389" width="473" height="388" frameX="-36" frameY="-126" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0024" x="0" y="0" width="472" height="389" frameX="-36" frameY="-125" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0025" x="1418" y="0" width="470" height="389" frameX="-36" frameY="-125" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0026" x="1418" y="389" width="469" height="389" frameX="-36" frameY="-125" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0027" x="1888" y="389" width="466" height="390" frameX="-37" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0028" x="0" y="1553" width="464" height="390" frameX="-37" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0029" x="0" y="1943" width="462" height="390" frameX="-37" frameY="-124" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="Hazzy0030" x="462" y="1943" width="461" height="390" frameX="-37" frameY="-124" frameWidth="512" frameHeight="512"/>
+</TextureAtlas>

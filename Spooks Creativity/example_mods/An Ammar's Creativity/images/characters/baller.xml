@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="baller.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="balleridle0000" x="4249" y="2210" width="398" height="755" frameX="-77" frameY="-159" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="balleridle20000" x="3838" y="737" width="397" height="756" frameX="-79" frameY="-159" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="balleridle30000" x="0" y="3680" width="393" height="756" frameX="-85" frameY="-160" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="balleridle40000" x="786" y="3680" width="392" height="753" frameX="-88" frameY="-163" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="balleridle50000" x="4662" y="0" width="391" height="754" frameX="-89" frameY="-162" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="balleridle60000" x="4662" y="754" width="389" height="757" frameX="-91" frameY="-158" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="balleridle70000" x="393" y="3680" width="393" height="753" frameX="-87" frameY="-161" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="balleridle80000" x="3838" y="2242" width="399" height="745" frameX="-80" frameY="-169" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="balleridle90000" x="1178" y="3680" width="398" height="738" frameX="-79" frameY="-175" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="balleridle100000" x="5053" y="0" width="395" height="741" frameX="-81" frameY="-173" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="balleridle110000" x="3838" y="1493" width="397" height="749" frameX="-78" frameY="-165" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerleft0000" x="2138" y="762" width="415" height="738" frameX="-84" frameY="-156" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerleft20000" x="1713" y="762" width="416" height="736" frameX="-83" frameY="-157" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerleft30000" x="804" y="2913" width="411" height="739" frameX="-89" frameY="-153" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerleft40000" x="4249" y="1471" width="408" height="739" frameX="-94" frameY="-154" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerleft50000" x="4249" y="733" width="409" height="738" frameX="-94" frameY="-155" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerleft60000" x="3838" y="0" width="411" height="737" frameX="-92" frameY="-157" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerleft70000" x="4249" y="0" width="413" height="733" frameX="-87" frameY="-161" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerleft80000" x="1215" y="2913" width="415" height="731" frameX="-84" frameY="-163" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerright0000" x="857" y="0" width="428" height="761" frameX="-145" frameY="-146" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerright20000" x="0" y="0" width="429" height="761" frameX="-141" frameY="-146" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerright30000" x="429" y="0" width="428" height="761" frameX="-145" frameY="-146" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerright40000" x="427" y="761" width="426" height="761" frameX="-150" frameY="-146" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerright50000" x="1713" y="0" width="425" height="762" frameX="-151" frameY="-145" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerright60000" x="2138" y="0" width="425" height="762" frameX="-151" frameY="-145" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerright70000" x="0" y="761" width="427" height="762" frameX="-148" frameY="-145" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerright80000" x="1285" y="0" width="428" height="761" frameX="-145" frameY="-146" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerup0000" x="0" y="2913" width="402" height="767" frameX="-135" frameY="-135" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerup20000" x="3433" y="0" width="405" height="766" frameX="-133" frameY="-135" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerup30000" x="3025" y="765" width="407" height="765" frameX="-132" frameY="-136" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerup40000" x="3025" y="0" width="408" height="765" frameX="-131" frameY="-136" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerup50000" x="3025" y="1530" width="407" height="765" frameX="-132" frameY="-136" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerup60000" x="3433" y="766" width="405" height="766" frameX="-133" frameY="-135" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerup70000" x="402" y="2913" width="402" height="767" frameX="-135" frameY="-135" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerup80000" x="3433" y="1532" width="402" height="767" frameX="-135" frameY="-135" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerdown0000" x="2563" y="1393" width="460" height="696" frameX="-16" frameY="-200" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerdown20000" x="2563" y="0" width="462" height="697" frameX="-14" frameY="-200" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerdown30000" x="853" y="761" width="464" height="696" frameX="-11" frameY="-202" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerdown40000" x="0" y="1523" width="464" height="695" frameX="-11" frameY="-203" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerdown50000" x="464" y="1523" width="463" height="694" frameX="-12" frameY="-203" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerdown60000" x="927" y="1523" width="460" height="694" frameX="-15" frameY="-202" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerdown70000" x="0" y="2218" width="460" height="695" frameX="-16" frameY="-201" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ballerdown80000" x="2563" y="697" width="460" height="696" frameX="-16" frameY="-200" frameWidth="960" frameHeight="960"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Fire4.png">
+  <!-- Generated using Aseprite .json to FNF .xml: https://github.com/Lethrial/Aseprite-.json-to-FNF-.xml -->
+  <SubTexture name="Fire-0000" x="0" y="0" width="141" height="60"/>
+  <SubTexture name="Fire-0001" x="141" y="0" width="141" height="60"/>
+  <SubTexture name="Fire-0002" x="0" y="60" width="141" height="60"/>
+  <SubTexture name="Fire-0003" x="141" y="0" width="141" height="60"/>
+</TextureAtlas>

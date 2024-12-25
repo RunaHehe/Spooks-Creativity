@@ -1,0 +1,9 @@
+Value 1: Start/Stop Event
+	Mark this Value with 1 to start the event.
+	Mark this Value with 2 to end the event.
+
+Value 2: Fade In/Out Speed
+	Mark this Value with the speed at which you want
+	the blackout to occur. (Speed is measured in seconds)
+
+--Created by RamenDominoes

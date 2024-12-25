@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "duckyidle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "duckyleft"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "duckydown"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "duckyup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "duckyright",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ducky",
+	"position": [
+		0,
+		-10
+	],
+	"healthicon": "ducky",
+	"flip_x": false,
+	"healthbar_colors": [
+		119,
+		166,
+		255
+	],
+	"camera_position": [
+		50,
+		110
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6
+}

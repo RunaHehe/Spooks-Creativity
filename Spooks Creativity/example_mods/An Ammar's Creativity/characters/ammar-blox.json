@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "balleridle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				86,
+				4
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "ballerleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				-12
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "ballerdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				37
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "ballerup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				10
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "ballerright",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/baller",
+	"position": [
+		0,
+		-110
+	],
+	"healthicon": "baller",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		89,
+		93
+	],
+	"camera_position": [
+		260,
+		210
+	],
+	"sing_duration": 6,
+	"scale": 0.7
+}

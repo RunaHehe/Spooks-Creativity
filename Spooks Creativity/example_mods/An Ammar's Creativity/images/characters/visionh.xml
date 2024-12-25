@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="visionh.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="visionhidle0000" x="1883" y="0" width="469" height="490" frameX="-254" frameY="-221" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhidle20000" x="0" y="1488" width="468" height="490" frameX="-255" frameY="-221" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhidle30000" x="468" y="1488" width="467" height="490" frameX="-256" frameY="-221" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhidle40000" x="2352" y="0" width="466" height="491" frameX="-257" frameY="-220" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhidle50000" x="1883" y="980" width="466" height="493" frameX="-257" frameY="-218" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhidle60000" x="468" y="992" width="467" height="495" frameX="-256" frameY="-216" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhidle70000" x="471" y="497" width="469" height="495" frameX="-254" frameY="-216" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhidle80000" x="944" y="0" width="471" height="496" frameX="-252" frameY="-215" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhidle90000" x="0" y="0" width="472" height="497" frameX="-251" frameY="-214" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhidle100000" x="472" y="0" width="472" height="496" frameX="-251" frameY="-215" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhidle110000" x="0" y="497" width="471" height="495" frameX="-252" frameY="-216" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhidle120000" x="940" y="497" width="470" height="492" frameX="-253" frameY="-219" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhidle130000" x="1883" y="0" width="469" height="490" frameX="-254" frameY="-221" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhleft0000" x="2352" y="1497" width="466" height="462" frameX="-257" frameY="-249" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhleft20000" x="1372" y="1978" width="466" height="460" frameX="-257" frameY="-251" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhleft30000" x="1838" y="1978" width="466" height="459" frameX="-257" frameY="-252" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhleft40000" x="2304" y="1978" width="463" height="459" frameX="-260" frameY="-252" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhleft50000" x="900" y="2476" width="461" height="461" frameX="-262" frameY="-250" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhleft60000" x="439" y="2476" width="461" height="462" frameX="-262" frameY="-249" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhright0000" x="441" y="1978" width="465" height="462" frameX="-260" frameY="-249" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhright20000" x="906" y="1978" width="466" height="461" frameX="-260" frameY="-250" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhright30000" x="1871" y="1488" width="467" height="461" frameX="-260" frameY="-250" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhright40000" x="1403" y="1488" width="468" height="461" frameX="-260" frameY="-250" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhright50000" x="935" y="1488" width="468" height="461" frameX="-260" frameY="-250" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhup0000" x="2352" y="994" width="440" height="503" frameX="-283" frameY="-208" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhup20000" x="2352" y="491" width="442" height="503" frameX="-281" frameY="-208" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhup30000" x="2818" y="0" width="437" height="502" frameX="-286" frameY="-209" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhup40000" x="0" y="2476" width="439" height="499" frameX="-284" frameY="-212" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhup50000" x="0" y="1978" width="441" height="498" frameX="-282" frameY="-213" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhdown0000" x="1415" y="0" width="468" height="498" frameX="-255" frameY="-213" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhdown20000" x="0" y="992" width="468" height="496" frameX="-255" frameY="-215" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhdown30000" x="1404" y="992" width="469" height="492" frameX="-254" frameY="-219" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhdown40000" x="1883" y="490" width="469" height="490" frameX="-254" frameY="-221" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhdown50000" x="935" y="992" width="469" height="492" frameX="-254" frameY="-219" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="visionhdown60000" x="1415" y="498" width="468" height="494" frameX="-255" frameY="-217" frameWidth="960" frameHeight="960"/>
+</TextureAtlas>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Moderator Neutral.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Moderator Down0000" x="10" y="10" width="178" height="225" frameX="0" frameY="-3" frameWidth="178" frameHeight="228"/>
+	<SubTexture name="Moderator Down0001" x="10" y="10" width="178" height="225" frameX="0" frameY="-3" frameWidth="178" frameHeight="228"/>
+	<SubTexture name="Moderator Down0002" x="248" y="10" width="178" height="228"/>
+	<SubTexture name="Moderator Down0003" x="248" y="10" width="178" height="228"/>
+	<SubTexture name="Moderator Down0004" x="248" y="10" width="178" height="228"/>
+	<SubTexture name="Moderator Down0005" x="248" y="10" width="178" height="228"/>
+	<SubTexture name="Moderator Idle0000" x="486" y="10" width="176" height="231" frameX="-1" frameY="-6" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Idle0001" x="486" y="10" width="176" height="231" frameX="-1" frameY="-6" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Idle0002" x="722" y="10" width="176" height="234" frameX="-1" frameY="-3" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Idle0003" x="722" y="10" width="176" height="234" frameX="-1" frameY="-3" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Idle0004" x="10" y="304" width="176" height="236" frameX="-1" frameY="-1" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Idle0005" x="10" y="304" width="176" height="236" frameX="-1" frameY="-1" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Idle0006" x="10" y="304" width="176" height="236" frameX="-1" frameY="-1" frameWidth="177" frameHeight="237"/>
+	<SubTexture name="Moderator Idle0007" x="246" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Idle0008" x="246" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Idle0009" x="246" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Idle0010" x="246" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Idle0011" x="246" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Idle0012" x="246" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Left0000" x="483" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Left0001" x="483" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Left0002" x="720" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Left0003" x="720" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Left0004" x="720" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Left0005" x="720" y="304" width="177" height="237"/>
+	<SubTexture name="Moderator Right0000" x="10" y="601" width="203" height="236" frameX="0" frameY="-1" frameWidth="203" frameHeight="237"/>
+	<SubTexture name="Moderator Right0001" x="10" y="601" width="203" height="236" frameX="0" frameY="-1" frameWidth="203" frameHeight="237"/>
+	<SubTexture name="Moderator Right0002" x="273" y="601" width="203" height="237"/>
+	<SubTexture name="Moderator Right0003" x="273" y="601" width="203" height="237"/>
+	<SubTexture name="Moderator Right0004" x="273" y="601" width="203" height="237"/>
+	<SubTexture name="Moderator Right0005" x="273" y="601" width="203" height="237"/>
+	<SubTexture name="Moderator Up0000" x="536" y="601" width="172" height="237" frameX="-2" frameY="0" frameWidth="174" frameHeight="237"/>
+	<SubTexture name="Moderator Up0001" x="536" y="601" width="172" height="237" frameX="-2" frameY="0" frameWidth="174" frameHeight="237"/>
+	<SubTexture name="Moderator Up0002" x="768" y="601" width="174" height="233" frameX="0" frameY="-4" frameWidth="174" frameHeight="237"/>
+	<SubTexture name="Moderator Up0003" x="768" y="601" width="174" height="233" frameX="0" frameY="-4" frameWidth="174" frameHeight="237"/>
+	<SubTexture name="Moderator Up0004" x="768" y="601" width="174" height="233" frameX="0" frameY="-4" frameWidth="174" frameHeight="237"/>
+	<SubTexture name="Moderator Up0005" x="768" y="601" width="174" height="233" frameX="0" frameY="-4" frameWidth="174" frameHeight="237"/>
+</TextureAtlas>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="back.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="back0000" x="0" y="0" width="2575" height="1598" frameX="-77" frameY="0" frameWidth="2759" frameHeight="1598"/>
+	<SubTexture name="back0001" x="2575" y="0" width="2575" height="1598" frameX="-77" frameY="0" frameWidth="2759" frameHeight="1598"/>
+	<SubTexture name="back0002" x="5150" y="0" width="2729" height="1598" frameX="0" frameY="0" frameWidth="2759" frameHeight="1598"/>
+	<SubTexture name="back0003" x="0" y="1598" width="2759" height="1598"/>
+	<SubTexture name="back0004" x="0" y="0" width="2575" height="1598" frameX="-77" frameY="0" frameWidth="2759" frameHeight="1598"/>
+	<SubTexture name="back0005" x="0" y="0" width="2575" height="1598" frameX="-77" frameY="0" frameWidth="2759" frameHeight="1598"/>
+	<SubTexture name="back0006" x="2759" y="1598" width="2729" height="1598" frameX="0" frameY="0" frameWidth="2759" frameHeight="1598"/>
+	<SubTexture name="back0007" x="0" y="3196" width="2720" height="1598" frameX="0" frameY="0" frameWidth="2759" frameHeight="1598"/>
+	<SubTexture name="back0008" x="2720" y="3196" width="2729" height="1598" frameX="0" frameY="0" frameWidth="2759" frameHeight="1598"/>
+	<SubTexture name="back0009" x="5449" y="3196" width="2643" height="1598" frameX="-39" frameY="0" frameWidth="2759" frameHeight="1598"/>
+</TextureAtlas>

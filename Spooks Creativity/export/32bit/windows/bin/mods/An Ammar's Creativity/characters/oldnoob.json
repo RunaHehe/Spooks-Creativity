@@ -1,0 +1,145 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Noob Idle"
+		},
+		{
+			"offsets": [
+				19,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "defend",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"name": "Noob Defend"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				53,
+				21
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Noob Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				28,
+				-12
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Noob Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				16
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Noob Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				45,
+				51
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Noob Right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				145,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "Noob Left Attack"
+		},
+		{
+			"offsets": [
+				11,
+				-11
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "Noob Right Attack"
+		},
+		{
+			"offsets": [
+				23,
+				-8
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "Noob Down Attack"
+		},
+		{
+			"offsets": [
+				23,
+				-8
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "Noob Up Attack"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/RobloxNoob",
+	"position": [
+		120,
+		220
+	],
+	"healthicon": "face",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1.1
+}

@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf_chained.png">
+	<!-- Created with Adobe Animate version 22.0.1.105 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf breath chained0000" x="703" y="494" width="334" height="496" frameX="0" frameY="0" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0001" x="703" y="494" width="334" height="496" frameX="0" frameY="0" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0002" x="1039" y="494" width="334" height="496" frameX="0" frameY="0" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0003" x="1047" y="992" width="334" height="496" frameX="0" frameY="0" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0004" x="1375" y="0" width="334" height="496" frameX="0" frameY="0" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0005" x="1375" y="0" width="334" height="496" frameX="0" frameY="0" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0006" x="1375" y="0" width="334" height="496" frameX="0" frameY="0" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0007" x="1375" y="0" width="334" height="496" frameX="0" frameY="0" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0008" x="1385" y="2460" width="330" height="495" frameX="-4" frameY="-1" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0009" x="1385" y="2460" width="330" height="495" frameX="-4" frameY="-1" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0010" x="1417" y="3454" width="332" height="492" frameX="-2" frameY="-5" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0011" x="1417" y="3454" width="332" height="492" frameX="-2" frameY="-5" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0012" x="2049" y="1966" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0013" x="2049" y="1966" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0014" x="2049" y="1966" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0015" x="2049" y="1966" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0016" x="2049" y="1966" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0017" x="2049" y="1966" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0018" x="2049" y="1966" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0019" x="2049" y="1966" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0020" x="2049" y="1966" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0021" x="2059" y="1470" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0022" x="2049" y="2461" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0023" x="1042" y="0" width="330" height="492" frameX="-4" frameY="-5" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0024" x="1042" y="0" width="330" height="492" frameX="-4" frameY="-5" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0025" x="1042" y="0" width="330" height="492" frameX="-4" frameY="-5" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0026" x="1042" y="0" width="330" height="492" frameX="-4" frameY="-5" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0027" x="1042" y="0" width="330" height="492" frameX="-4" frameY="-5" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0028" x="1042" y="0" width="330" height="492" frameX="-4" frameY="-5" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0029" x="1393" y="2957" width="330" height="495" frameX="-4" frameY="-1" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0030" x="1717" y="2460" width="330" height="495" frameX="-4" frameY="-1" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0031" x="1725" y="2957" width="332" height="492" frameX="-2" frameY="-5" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0032" x="1751" y="3451" width="332" height="492" frameX="-2" frameY="-5" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0033" x="2059" y="2956" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0034" x="2059" y="2956" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0035" x="2059" y="2956" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0036" x="2059" y="2956" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0037" x="2059" y="2956" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0038" x="2059" y="2956" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0039" x="2059" y="2956" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf breath chained0040" x="2059" y="2956" width="330" height="493" frameX="-4" frameY="-4" frameWidth="334" frameHeight="497"/>
+	<SubTexture name="bf convo chained0000" x="1383" y="992" width="336" height="488" frameX="0" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0001" x="1383" y="992" width="336" height="488" frameX="0" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0002" x="1080" y="3476" width="335" height="491" frameX="-1" frameY="-3" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0003" x="1080" y="3476" width="335" height="491" frameX="-1" frameY="-3" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0004" x="1712" y="496" width="335" height="489" frameX="-1" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0005" x="1712" y="496" width="335" height="489" frameX="-1" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0006" x="1712" y="496" width="335" height="489" frameX="-1" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0007" x="1712" y="496" width="335" height="489" frameX="-1" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0008" x="1712" y="496" width="335" height="489" frameX="-1" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0009" x="1712" y="496" width="335" height="489" frameX="-1" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0010" x="1712" y="496" width="335" height="489" frameX="-1" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0011" x="1712" y="496" width="335" height="489" frameX="-1" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0012" x="1712" y="496" width="335" height="489" frameX="-1" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0013" x="1712" y="496" width="335" height="489" frameX="-1" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0014" x="1712" y="496" width="335" height="489" frameX="-1" frameY="-5" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0015" x="1721" y="1478" width="336" height="486" frameX="0" frameY="-8" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0016" x="1721" y="1478" width="336" height="486" frameX="0" frameY="-8" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0017" x="1711" y="0" width="333" height="494" frameX="-7" frameY="0" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0018" x="1711" y="0" width="333" height="494" frameX="-7" frameY="0" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0019" x="2085" y="3451" width="330" height="493" frameX="-11" frameY="-1" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0020" x="2085" y="3451" width="330" height="493" frameX="-11" frameY="-1" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0021" x="2381" y="1965" width="330" height="493" frameX="-11" frameY="-1" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0022" x="2381" y="1965" width="330" height="493" frameX="-11" frameY="-1" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0023" x="2381" y="1965" width="330" height="493" frameX="-11" frameY="-1" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0024" x="2381" y="1965" width="330" height="493" frameX="-11" frameY="-1" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0025" x="2381" y="1965" width="330" height="493" frameX="-11" frameY="-1" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0026" x="2391" y="1470" width="330" height="492" frameX="-11" frameY="-2" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0027" x="2391" y="1470" width="330" height="492" frameX="-11" frameY="-2" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0028" x="2381" y="2460" width="330" height="492" frameX="-11" frameY="-2" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0029" x="2381" y="2460" width="330" height="492" frameX="-11" frameY="-2" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0030" x="2381" y="2460" width="330" height="492" frameX="-11" frameY="-2" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0031" x="2381" y="2460" width="330" height="492" frameX="-11" frameY="-2" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0032" x="2381" y="2460" width="330" height="492" frameX="-11" frameY="-2" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0033" x="2381" y="2460" width="330" height="492" frameX="-11" frameY="-2" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0034" x="2395" y="978" width="328" height="490" frameX="-9" frameY="-3" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0035" x="2395" y="978" width="328" height="490" frameX="-9" frameY="-3" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0036" x="3376" y="0" width="330" height="479" frameX="-6" frameY="-14" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0037" x="3376" y="0" width="330" height="479" frameX="-6" frameY="-14" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0038" x="2713" y="2455" width="330" height="479" frameX="-6" frameY="-14" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0039" x="2713" y="2455" width="330" height="479" frameX="-6" frameY="-14" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0040" x="3041" y="1959" width="330" height="479" frameX="-6" frameY="-14" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0041" x="3041" y="1959" width="330" height="479" frameX="-6" frameY="-14" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0042" x="3041" y="1959" width="330" height="479" frameX="-6" frameY="-14" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0043" x="3041" y="1959" width="330" height="479" frameX="-6" frameY="-14" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0044" x="3041" y="1959" width="330" height="479" frameX="-6" frameY="-14" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0045" x="3041" y="1959" width="330" height="479" frameX="-6" frameY="-14" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf convo chained0046" x="3041" y="1959" width="330" height="479" frameX="-6" frameY="-14" frameWidth="341" frameHeight="494"/>
+	<SubTexture name="bf down chained0000" x="2723" y="491" width="327" height="485" frameX="0" frameY="-4" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained0001" x="2723" y="491" width="327" height="485" frameX="0" frameY="-4" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained0002" x="2719" y="0" width="326" height="489" frameX="-1" frameY="0" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained0003" x="2719" y="0" width="326" height="489" frameX="-1" frameY="0" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained0004" x="2417" y="3449" width="326" height="489" frameX="-1" frameY="0" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained0005" x="2417" y="3449" width="326" height="489" frameX="-1" frameY="0" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained0006" x="2417" y="3449" width="326" height="489" frameX="-1" frameY="0" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained0007" x="2417" y="3449" width="326" height="489" frameX="-1" frameY="0" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained alt0000" x="3047" y="0" width="327" height="485" frameX="0" frameY="-4" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained alt0001" x="3047" y="0" width="327" height="485" frameX="0" frameY="-4" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained alt0002" x="2713" y="1964" width="326" height="489" frameX="-1" frameY="0" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained alt0003" x="2713" y="1964" width="326" height="489" frameX="-1" frameY="0" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained alt0004" x="2723" y="1470" width="326" height="487" frameX="-1" frameY="-2" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained alt0005" x="2723" y="1470" width="326" height="487" frameX="-1" frameY="-2" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained alt0006" x="2723" y="1470" width="326" height="487" frameX="-1" frameY="-2" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down chained alt0007" x="2723" y="1470" width="326" height="487" frameX="-1" frameY="-2" frameWidth="327" frameHeight="489"/>
+	<SubTexture name="bf down miss chained0000" x="2725" y="978" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0001" x="3054" y="974" width="327" height="478" frameX="0" frameY="-7" frameWidth="327" frameHeight="485"/>
+	<SubTexture name="bf down miss chained0002" x="3054" y="974" width="327" height="478" frameX="0" frameY="-7" frameWidth="327" frameHeight="485"/>
+	<SubTexture name="bf down miss chained0003" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0004" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0005" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0006" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0007" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0008" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0009" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0010" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0011" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0012" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0013" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0014" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0015" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0016" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0017" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0018" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf down miss chained0019" x="3052" y="487" width="327" height="485"/>
+	<SubTexture name="bf idle chained0000" x="0" y="3599" width="364" height="479" frameX="0" frameY="-22" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0001" x="0" y="3599" width="364" height="479" frameX="0" frameY="-22" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0002" x="366" y="3599" width="364" height="473" frameX="0" frameY="-28" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0003" x="366" y="3599" width="364" height="473" frameX="0" frameY="-28" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0004" x="355" y="1463" width="344" height="487" frameX="-20" frameY="-12" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0005" x="355" y="1463" width="344" height="487" frameX="-20" frameY="-12" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0006" x="703" y="0" width="337" height="492" frameX="-27" frameY="-4" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0007" x="703" y="0" width="337" height="492" frameX="-27" frameY="-4" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0008" x="1047" y="1490" width="334" height="496" frameX="-30" frameY="0" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0009" x="1047" y="1490" width="334" height="496" frameX="-30" frameY="0" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0010" x="1048" y="1988" width="334" height="496" frameX="-30" frameY="0" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0011" x="1048" y="1988" width="334" height="496" frameX="-30" frameY="0" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0012" x="1048" y="1988" width="334" height="496" frameX="-30" frameY="0" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0013" x="1048" y="1988" width="334" height="496" frameX="-30" frameY="0" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0014" x="1048" y="1988" width="334" height="496" frameX="-30" frameY="0" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0015" x="1048" y="1988" width="334" height="496" frameX="-30" frameY="0" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained0016" x="1048" y="1988" width="334" height="496" frameX="-30" frameY="0" frameWidth="364" frameHeight="501"/>
+	<SubTexture name="bf idle chained alt0000" x="1048" y="2486" width="335" height="493" frameX="-1" frameY="-1" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0001" x="1048" y="2486" width="335" height="493" frameX="-1" frameY="-1" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0002" x="1056" y="2981" width="335" height="493" frameX="-1" frameY="0" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0003" x="1056" y="2981" width="335" height="493" frameX="-1" frameY="0" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0004" x="1383" y="1482" width="336" height="487" frameX="0" frameY="-6" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0005" x="1383" y="1482" width="336" height="487" frameX="0" frameY="-6" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0006" x="1384" y="1971" width="336" height="487" frameX="0" frameY="-7" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0007" x="1384" y="1971" width="336" height="487" frameX="0" frameY="-7" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0008" x="2385" y="491" width="336" height="485" frameX="0" frameY="-8" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0009" x="2385" y="491" width="336" height="485" frameX="0" frameY="-8" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0010" x="2046" y="0" width="335" height="489" frameX="-1" frameY="-4" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0011" x="2046" y="0" width="335" height="489" frameX="-1" frameY="-4" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0012" x="1375" y="498" width="335" height="492" frameX="-1" frameY="-2" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf idle chained alt0013" x="1375" y="498" width="335" height="492" frameX="-1" frameY="-2" frameWidth="336" frameHeight="494"/>
+	<SubTexture name="bf left chained0000" x="732" y="3576" width="346" height="486" frameX="0" frameY="-3" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained0001" x="732" y="3576" width="346" height="486" frameX="0" frameY="-3" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained0002" x="1721" y="987" width="334" height="489" frameX="-12" frameY="0" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained0003" x="1721" y="987" width="334" height="489" frameX="-12" frameY="0" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained0004" x="2049" y="491" width="334" height="489" frameX="-12" frameY="0" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained0005" x="2049" y="491" width="334" height="489" frameX="-12" frameY="0" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained0006" x="2049" y="491" width="334" height="489" frameX="-12" frameY="0" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained0007" x="2049" y="491" width="334" height="489" frameX="-12" frameY="0" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained alt0000" x="355" y="0" width="346" height="486" frameX="0" frameY="-3" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained alt0001" x="355" y="0" width="346" height="486" frameX="0" frameY="-3" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained alt0002" x="2383" y="0" width="334" height="489" frameX="-12" frameY="0" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained alt0003" x="2383" y="0" width="334" height="489" frameX="-12" frameY="0" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained alt0004" x="2057" y="982" width="336" height="486" frameX="-10" frameY="-3" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained alt0005" x="2057" y="982" width="336" height="486" frameX="-10" frameY="-3" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained alt0006" x="2057" y="982" width="336" height="486" frameX="-10" frameY="-3" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left chained alt0007" x="2057" y="982" width="336" height="486" frameX="-10" frameY="-3" frameWidth="346" frameHeight="489"/>
+	<SubTexture name="bf left miss chained0000" x="355" y="488" width="346" height="486" frameX="-7" frameY="0" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0001" x="702" y="3089" width="352" height="485" frameX="0" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0002" x="702" y="3089" width="352" height="485" frameX="0" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0003" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0004" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0005" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0006" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0007" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0008" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0009" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0010" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0011" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0012" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0013" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0014" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0015" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0016" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0017" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0018" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf left miss chained0019" x="355" y="976" width="346" height="485" frameX="-8" frameY="-1" frameWidth="354" frameHeight="486"/>
+	<SubTexture name="bf right chained0000" x="1722" y="1966" width="319" height="492" frameX="-3" frameY="0" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained0001" x="1722" y="1966" width="319" height="492" frameX="-3" frameY="0" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained0002" x="3381" y="481" width="309" height="488" frameX="0" frameY="-4" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained0003" x="3381" y="481" width="309" height="488" frameX="0" frameY="-4" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained0004" x="3372" y="1454" width="309" height="488" frameX="0" frameY="-4" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained0005" x="3372" y="1454" width="309" height="488" frameX="0" frameY="-4" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained0006" x="3372" y="1454" width="309" height="488" frameX="0" frameY="-4" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained0007" x="3372" y="1454" width="309" height="488" frameX="0" frameY="-4" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained alt0000" x="3051" y="1465" width="319" height="492" frameX="-3" frameY="0" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained alt0001" x="3051" y="1465" width="319" height="492" frameX="-3" frameY="0" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained alt0002" x="2745" y="3430" width="309" height="488" frameX="0" frameY="-4" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained alt0003" x="2745" y="3430" width="309" height="488" frameX="0" frameY="-4" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained alt0004" x="3039" y="2936" width="307" height="487" frameX="-2" frameY="-5" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained alt0005" x="3039" y="2936" width="307" height="487" frameX="-2" frameY="-5" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained alt0006" x="3039" y="2936" width="307" height="487" frameX="-2" frameY="-5" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right chained alt0007" x="3039" y="2936" width="307" height="487" frameX="-2" frameY="-5" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right miss chained0000" x="1722" y="1966" width="319" height="492" frameX="0" frameY="0" frameWidth="322" frameHeight="492"/>
+	<SubTexture name="bf right miss chained0001" x="2391" y="2954" width="325" height="493" frameX="-1" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0002" x="2391" y="2954" width="325" height="493" frameX="-1" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0003" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0004" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0005" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0006" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0007" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0008" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0009" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0010" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0011" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0012" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0013" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0014" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0015" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0016" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0017" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0018" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf right miss chained0019" x="2718" y="2936" width="319" height="492" frameX="0" frameY="0" frameWidth="326" frameHeight="493"/>
+	<SubTexture name="bf scared chained0000" x="355" y="1952" width="344" height="487" frameX="0" frameY="-1" frameWidth="344" frameHeight="489"/>
+	<SubTexture name="bf scared chained0001" x="701" y="1463" width="344" height="486" frameX="0" frameY="-1" frameWidth="344" frameHeight="489"/>
+	<SubTexture name="bf scared chained0002" x="703" y="2442" width="343" height="485" frameX="-1" frameY="-3" frameWidth="344" frameHeight="489"/>
+	<SubTexture name="bf scared chained0003" x="701" y="1951" width="341" height="489" frameX="-3" frameY="0" frameWidth="344" frameHeight="489"/>
+	<SubTexture name="bf up chained0000" x="0" y="521" width="353" height="513"/>
+	<SubTexture name="bf up chained0001" x="0" y="521" width="353" height="513"/>
+	<SubTexture name="bf up chained0002" x="0" y="3091" width="349" height="506" frameX="-3" frameY="-6" frameWidth="353" frameHeight="513"/>
+	<SubTexture name="bf up chained0003" x="0" y="3091" width="349" height="506" frameX="-3" frameY="-6" frameWidth="353" frameHeight="513"/>
+	<SubTexture name="bf up chained0004" x="351" y="3091" width="349" height="506" frameX="-3" frameY="-6" frameWidth="353" frameHeight="513"/>
+	<SubTexture name="bf up chained0005" x="351" y="3091" width="349" height="506" frameX="-3" frameY="-6" frameWidth="353" frameHeight="513"/>
+	<SubTexture name="bf up chained0006" x="351" y="3091" width="349" height="506" frameX="-3" frameY="-6" frameWidth="353" frameHeight="513"/>
+	<SubTexture name="bf up chained0007" x="351" y="3091" width="349" height="506" frameX="-3" frameY="-6" frameWidth="353" frameHeight="513"/>
+	<SubTexture name="bf up chained alt0000" x="0" y="1036" width="353" height="513"/>
+	<SubTexture name="bf up chained alt0001" x="0" y="1036" width="353" height="513"/>
+	<SubTexture name="bf up chained alt0002" x="352" y="2581" width="349" height="506" frameX="-3" frameY="-6" frameWidth="353" frameHeight="513"/>
+	<SubTexture name="bf up chained alt0003" x="352" y="2581" width="349" height="506" frameX="-3" frameY="-6" frameWidth="353" frameHeight="513"/>
+	<SubTexture name="bf up chained alt0004" x="0" y="2581" width="350" height="508" frameX="-2" frameY="-4" frameWidth="353" frameHeight="513"/>
+	<SubTexture name="bf up chained alt0005" x="0" y="2581" width="350" height="508" frameX="-2" frameY="-4" frameWidth="353" frameHeight="513"/>
+	<SubTexture name="bf up chained alt0006" x="0" y="2581" width="350" height="508" frameX="-2" frameY="-4" frameWidth="353" frameHeight="513"/>
+	<SubTexture name="bf up chained alt0007" x="0" y="2581" width="350" height="508" frameX="-2" frameY="-4" frameWidth="353" frameHeight="513"/>
+	<SubTexture name="bf up miss chained0000" x="0" y="1551" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0001" x="0" y="0" width="353" height="519"/>
+	<SubTexture name="bf up miss chained0002" x="0" y="0" width="353" height="519"/>
+	<SubTexture name="bf up miss chained0003" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0004" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0005" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0006" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0007" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0008" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0009" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0010" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0011" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0012" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0013" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0014" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0015" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0016" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0017" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0018" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+	<SubTexture name="bf up miss chained0019" x="0" y="2066" width="353" height="513" frameX="0" frameY="-6" frameWidth="353" frameHeight="519"/>
+</TextureAtlas>

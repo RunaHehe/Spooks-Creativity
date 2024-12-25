@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<TextureAtlas imagePath="RobloxNoobBreath.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="Noob Defend0000" x="4" y="4" width="272" height="476" frameX="-61" frameY="0" frameWidth="335" frameHeight="476"/>
+	<SubTexture name="Noob Defend0001" x="280" y="4" width="272" height="476" frameX="-61" frameY="0" frameWidth="335" frameHeight="476"/>
+	<SubTexture name="Noob Defend0002" x="556" y="4" width="261" height="476" frameX="-63" frameY="0" frameWidth="335" frameHeight="476"/>
+	<SubTexture name="Noob Defend0003" x="821" y="4" width="261" height="476" frameX="-63" frameY="0" frameWidth="335" frameHeight="476"/>
+	<SubTexture name="Noob Defend0004" x="1086" y="4" width="263" height="476" frameX="-56" frameY="0" frameWidth="335" frameHeight="476"/>
+	<SubTexture name="Noob Defend0005" x="1353" y="4" width="280" height="476" frameX="-39" frameY="0" frameWidth="335" frameHeight="476"/>
+	<SubTexture name="Noob Defend0006" x="1637" y="4" width="290" height="476" frameX="-25" frameY="0" frameWidth="335" frameHeight="476"/>
+	<SubTexture name="Noob Defend0007" x="4" y="484" width="307" height="476" frameX="-14" frameY="0" frameWidth="335" frameHeight="476"/>
+	<SubTexture name="Noob Defend0008" x="315" y="484" width="323" height="476" frameX="-6" frameY="0" frameWidth="335" frameHeight="476"/>
+	<SubTexture name="Noob Defend0009" x="642" y="484" width="331" height="476" frameX="-2" frameY="0" frameWidth="335" frameHeight="476"/>
+	<SubTexture name="Noob Defend0010" x="977" y="484" width="335" height="476"/>
+	<SubTexture name="Noob Defend0011" x="977" y="484" width="335" height="476"/>
+	<SubTexture name="Noob Defend0012" x="977" y="484" width="335" height="476"/>
+	<SubTexture name="Noob Defend0013" x="977" y="484" width="335" height="476"/>
+	<SubTexture name="Noob Defend0014" x="977" y="484" width="335" height="476"/>
+	<SubTexture name="Noob Defend0015" x="977" y="484" width="335" height="476"/>
+	<SubTexture name="Noob Defend0016" x="977" y="484" width="335" height="476"/>
+	<SubTexture name="Noob Defend0017" x="977" y="484" width="335" height="476"/>
+	<SubTexture name="Noob Defend0018" x="977" y="484" width="335" height="476"/>
+	<SubTexture name="Noob Defend0019" x="977" y="484" width="335" height="476"/>
+	<SubTexture name="Noob Down0000" x="1316" y="484" width="285" height="456" frameX="-5" frameY="-9" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0001" x="1316" y="484" width="285" height="456" frameX="-5" frameY="-9" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0002" x="1605" y="484" width="285" height="459" frameX="0" frameY="-6" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0003" x="1605" y="484" width="285" height="459" frameX="0" frameY="-6" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0004" x="4" y="964" width="283" height="463" frameX="0" frameY="-2" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0005" x="291" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0006" x="291" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0007" x="291" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0008" x="291" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0009" x="291" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0010" x="291" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0011" x="291" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0012" x="291" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0013" x="291" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0014" x="291" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0015" x="577" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0016" x="577" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0017" x="577" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0018" x="577" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down0019" x="577" y="964" width="282" height="465" frameX="0" frameY="0" frameWidth="290" frameHeight="465"/>
+	<SubTexture name="Noob Down Attack0000" x="863" y="964" width="233" height="472" frameX="-58" frameY="0" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Down Attack0001" x="863" y="964" width="233" height="472" frameX="-58" frameY="0" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Down Attack0002" x="1100" y="964" width="250" height="470" frameX="-54" frameY="-2" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Down Attack0003" x="1100" y="964" width="250" height="470" frameX="-54" frameY="-2" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Down Attack0004" x="1354" y="964" width="284" height="470" frameX="0" frameY="-2" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Down Attack0005" x="1354" y="964" width="284" height="470" frameX="0" frameY="-2" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Down Attack0006" x="1354" y="964" width="284" height="470" frameX="0" frameY="-2" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Down Attack0007" x="1642" y="964" width="284" height="471" frameX="-13" frameY="-1" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Down Attack0008" x="1642" y="964" width="284" height="471" frameX="-13" frameY="-1" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Down Attack0009" x="1642" y="964" width="284" height="471" frameX="-13" frameY="-1" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Down Attack0010" x="1642" y="964" width="284" height="471" frameX="-13" frameY="-1" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Down Attack0011" x="1642" y="964" width="284" height="471" frameX="-13" frameY="-1" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Idle0000" x="4" y="1440" width="237" height="478"/>
+	<SubTexture name="Noob Idle0001" x="4" y="1440" width="237" height="478"/>
+	<SubTexture name="Noob Idle0002" x="245" y="1440" width="236" height="477" frameX="0" frameY="-1" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0003" x="245" y="1440" width="236" height="477" frameX="0" frameY="-1" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0004" x="485" y="1440" width="232" height="477" frameX="-3" frameY="-1" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0005" x="485" y="1440" width="232" height="477" frameX="-3" frameY="-1" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0006" x="721" y="1440" width="232" height="477" frameX="-3" frameY="-1" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0007" x="721" y="1440" width="232" height="477" frameX="-3" frameY="-1" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0008" x="957" y="1440" width="233" height="476" frameX="-3" frameY="-2" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0009" x="957" y="1440" width="233" height="476" frameX="-3" frameY="-2" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0010" x="957" y="1440" width="233" height="476" frameX="-3" frameY="-2" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0011" x="957" y="1440" width="233" height="476" frameX="-3" frameY="-2" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0012" x="957" y="1440" width="233" height="476" frameX="-3" frameY="-2" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0013" x="957" y="1440" width="233" height="476" frameX="-3" frameY="-2" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0014" x="957" y="1440" width="233" height="476" frameX="-3" frameY="-2" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0015" x="957" y="1440" width="233" height="476" frameX="-3" frameY="-2" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0016" x="957" y="1440" width="233" height="476" frameX="-3" frameY="-2" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0017" x="957" y="1440" width="233" height="476" frameX="-3" frameY="-2" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0018" x="957" y="1440" width="233" height="476" frameX="-3" frameY="-2" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Idle0019" x="957" y="1440" width="233" height="476" frameX="-3" frameY="-2" frameWidth="237" frameHeight="478"/>
+	<SubTexture name="Noob Left0000" x="1194" y="1440" width="341" height="494" frameX="0" frameY="-3" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0001" x="1194" y="1440" width="341" height="494" frameX="0" frameY="-3" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0002" x="1539" y="1440" width="336" height="495" frameX="-8" frameY="-2" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0003" x="1539" y="1440" width="336" height="495" frameX="-8" frameY="-2" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0004" x="4" y="1939" width="336" height="496" frameX="-10" frameY="-1" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0005" x="344" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0006" x="344" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0007" x="344" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0008" x="344" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0009" x="344" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0010" x="344" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0011" x="344" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0012" x="344" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0013" x="344" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0014" x="683" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0015" x="683" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0016" x="683" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0017" x="683" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0018" x="683" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left0019" x="683" y="1939" width="335" height="497" frameX="-11" frameY="0" frameWidth="346" frameHeight="497"/>
+	<SubTexture name="Noob Left Attack0000" x="1022" y="1939" width="294" height="486" frameX="-62" frameY="0" frameWidth="378" frameHeight="486"/>
+	<SubTexture name="Noob Left Attack0001" x="1022" y="1939" width="294" height="486" frameX="-62" frameY="0" frameWidth="378" frameHeight="486"/>
+	<SubTexture name="Noob Left Attack0002" x="1320" y="1939" width="270" height="482" frameX="-96" frameY="-4" frameWidth="378" frameHeight="486"/>
+	<SubTexture name="Noob Left Attack0003" x="1594" y="1939" width="373" height="478" frameX="0" frameY="-8" frameWidth="378" frameHeight="486"/>
+	<SubTexture name="Noob Left Attack0004" x="4" y="2440" width="364" height="479" frameX="-14" frameY="-7" frameWidth="378" frameHeight="486"/>
+	<SubTexture name="Noob Left Attack0005" x="4" y="2440" width="364" height="479" frameX="-14" frameY="-7" frameWidth="378" frameHeight="486"/>
+	<SubTexture name="Noob Left Attack0006" x="4" y="2440" width="364" height="479" frameX="-14" frameY="-7" frameWidth="378" frameHeight="486"/>
+	<SubTexture name="Noob Left Attack0007" x="4" y="2440" width="364" height="479" frameX="-14" frameY="-7" frameWidth="378" frameHeight="486"/>
+	<SubTexture name="Noob Left Attack0008" x="4" y="2440" width="364" height="479" frameX="-14" frameY="-7" frameWidth="378" frameHeight="486"/>
+	<SubTexture name="Noob Left Attack0009" x="4" y="2440" width="364" height="479" frameX="-14" frameY="-7" frameWidth="378" frameHeight="486"/>
+	<SubTexture name="Noob Right0000" x="372" y="2440" width="304" height="521" frameX="-33" frameY="0" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0001" x="372" y="2440" width="304" height="521" frameX="-33" frameY="0" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0002" x="680" y="2440" width="314" height="506" frameX="-16" frameY="-15" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0003" x="680" y="2440" width="314" height="506" frameX="-16" frameY="-15" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0004" x="998" y="2440" width="314" height="498" frameX="-7" frameY="-23" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0005" x="1316" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0006" x="1316" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0007" x="1316" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0008" x="1316" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0009" x="1316" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0010" x="1316" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0011" x="1316" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0012" x="1316" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0013" x="1316" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0014" x="1640" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0015" x="1640" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0016" x="1640" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0017" x="1640" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0018" x="1640" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right0019" x="1640" y="2440" width="320" height="492" frameX="0" frameY="-29" frameWidth="337" frameHeight="521"/>
+	<SubTexture name="Noob Right Attack0000" x="4" y="2965" width="232" height="470" frameX="-85" frameY="0" frameWidth="325" frameHeight="470"/>
+	<SubTexture name="Noob Right Attack0001" x="240" y="2965" width="261" height="468" frameX="-60" frameY="-2" frameWidth="325" frameHeight="470"/>
+	<SubTexture name="Noob Right Attack0002" x="505" y="2965" width="277" height="468" frameX="-48" frameY="-2" frameWidth="325" frameHeight="470"/>
+	<SubTexture name="Noob Right Attack0003" x="505" y="2965" width="277" height="468" frameX="-48" frameY="-2" frameWidth="325" frameHeight="470"/>
+	<SubTexture name="Noob Right Attack0004" x="786" y="2965" width="270" height="468" frameX="0" frameY="-2" frameWidth="325" frameHeight="470"/>
+	<SubTexture name="Noob Right Attack0005" x="786" y="2965" width="270" height="468" frameX="0" frameY="-2" frameWidth="325" frameHeight="470"/>
+	<SubTexture name="Noob Right Attack0006" x="786" y="2965" width="270" height="468" frameX="0" frameY="-2" frameWidth="325" frameHeight="470"/>
+	<SubTexture name="Noob Right Attack0007" x="786" y="2965" width="270" height="468" frameX="0" frameY="-2" frameWidth="325" frameHeight="470"/>
+	<SubTexture name="Noob Right Attack0008" x="786" y="2965" width="270" height="468" frameX="0" frameY="-2" frameWidth="325" frameHeight="470"/>
+	<SubTexture name="Noob Right Attack0009" x="786" y="2965" width="270" height="468" frameX="0" frameY="-2" frameWidth="325" frameHeight="470"/>
+	<SubTexture name="Noob Right Attack0010" x="786" y="2965" width="270" height="468" frameX="0" frameY="-2" frameWidth="325" frameHeight="470"/>
+	<SubTexture name="Noob Right Attack0011" x="786" y="2965" width="270" height="468" frameX="0" frameY="-2" frameWidth="325" frameHeight="470"/>
+	<SubTexture name="Noob Up0000" x="1060" y="2965" width="219" height="489" frameX="-21" frameY="0" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0001" x="1060" y="2965" width="219" height="489" frameX="-21" frameY="0" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0002" x="1283" y="2965" width="226" height="479" frameX="-13" frameY="-10" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0003" x="1283" y="2965" width="226" height="479" frameX="-13" frameY="-10" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0004" x="1513" y="2965" width="232" height="474" frameX="-7" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0005" x="1513" y="2965" width="232" height="474" frameX="-7" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0006" x="1513" y="2965" width="232" height="474" frameX="-7" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0007" x="1749" y="2965" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0008" x="1749" y="2965" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0009" x="1749" y="2965" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0010" x="1749" y="2965" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0011" x="1749" y="2965" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0012" x="1749" y="2965" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0013" x="1749" y="2965" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0014" x="4" y="3458" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0015" x="4" y="3458" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0016" x="4" y="3458" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0017" x="4" y="3458" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0018" x="4" y="3458" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up0019" x="4" y="3458" width="239" height="474" frameX="0" frameY="-15" frameWidth="240" frameHeight="489"/>
+	<SubTexture name="Noob Up Attack0000" x="247" y="3458" width="233" height="472" frameX="-58" frameY="0" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Up Attack0001" x="247" y="3458" width="233" height="472" frameX="-58" frameY="0" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Up Attack0002" x="484" y="3458" width="250" height="470" frameX="-54" frameY="-2" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Up Attack0003" x="484" y="3458" width="250" height="470" frameX="-54" frameY="-2" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Up Attack0004" x="738" y="3458" width="284" height="470" frameX="0" frameY="-2" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Up Attack0005" x="738" y="3458" width="284" height="470" frameX="0" frameY="-2" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Up Attack0006" x="738" y="3458" width="284" height="470" frameX="0" frameY="-2" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Up Attack0007" x="1026" y="3458" width="284" height="471" frameX="-13" frameY="-1" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Up Attack0008" x="1026" y="3458" width="284" height="471" frameX="-13" frameY="-1" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Up Attack0009" x="1026" y="3458" width="284" height="471" frameX="-13" frameY="-1" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Up Attack0010" x="1026" y="3458" width="284" height="471" frameX="-13" frameY="-1" frameWidth="304" frameHeight="472"/>
+	<SubTexture name="Noob Up Attack0011" x="1026" y="3458" width="284" height="471" frameX="-13" frameY="-1" frameWidth="304" frameHeight="472"/>
+</TextureAtlas>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jevil.png">
+  <!-- Generated using Aseprite .json to FNF .xml: https://github.com/Lethrial/Aseprite-.json-to-FNF-.xml -->
+  <SubTexture name="jailrevolving000" x="0" y="0" width="980" height="523"/>
+  <SubTexture name="jailrevolving001" x="980" y="0" width="980" height="523"/>
+  <SubTexture name="jailrevolving002" x="1960" y="0" width="980" height="523"/>
+  <SubTexture name="jailrevolving003" x="2940" y="0" width="980" height="523"/>
+  <SubTexture name="jailrevolving004" x="0" y="523" width="980" height="523"/>
+  <SubTexture name="jailrevolving005" x="980" y="523" width="980" height="523"/>
+  <SubTexture name="jailrevolving006" x="1960" y="523" width="980" height="523"/>
+  <SubTexture name="jailrevolving007" x="2940" y="523" width="980" height="523"/>
+  <SubTexture name="jailrevolving008" x="0" y="1046" width="980" height="523"/>
+  <SubTexture name="jailrevolving009" x="980" y="1046" width="980" height="523"/>
+  <SubTexture name="jailrevolving0010" x="1960" y="1046" width="980" height="523"/>
+</TextureAtlas>

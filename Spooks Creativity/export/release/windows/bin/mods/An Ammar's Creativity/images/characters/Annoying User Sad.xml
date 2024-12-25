@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Annoying User Sad.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Annoying User Sad Down0000" x="10" y="10" width="232" height="258"/>
+	<SubTexture name="Annoying User Sad Down0001" x="10" y="10" width="232" height="258"/>
+	<SubTexture name="Annoying User Sad Down0002" x="295" y="10" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Sad Down0003" x="295" y="10" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Sad Down0004" x="295" y="10" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Sad Down0005" x="295" y="10" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Sad Down0006" x="295" y="10" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Sad Down0007" x="295" y="10" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Sad Down0008" x="295" y="10" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Sad Down0009" x="295" y="10" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Sad Idle0000" x="576" y="10" width="229" height="262" frameX="0" frameY="0" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0001" x="576" y="10" width="229" height="262" frameX="0" frameY="0" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0002" x="858" y="10" width="228" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0003" x="858" y="10" width="228" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0004" x="1139" y="10" width="229" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0005" x="1421" y="10" width="229" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0006" x="1421" y="10" width="229" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0007" x="1421" y="10" width="229" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0008" x="1421" y="10" width="229" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0009" x="1421" y="10" width="229" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0010" x="1421" y="10" width="229" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0011" x="1421" y="10" width="229" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0012" x="1421" y="10" width="229" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0013" x="1421" y="10" width="229" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Idle0014" x="1421" y="10" width="229" height="258" frameX="-1" frameY="-4" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0000" x="1703" y="10" width="226" height="262" frameX="0" frameY="0" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0001" x="1703" y="10" width="226" height="262" frameX="0" frameY="0" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0002" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0003" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0004" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0005" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0006" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0007" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0008" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0009" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0010" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0011" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0012" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0013" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Left0014" x="10" y="325" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Sad Right0000" x="292" y="325" width="237" height="252" frameX="0" frameY="-5" frameWidth="237" frameHeight="257"/>
+	<SubTexture name="Annoying User Sad Right0001" x="292" y="325" width="237" height="252" frameX="0" frameY="-5" frameWidth="237" frameHeight="257"/>
+	<SubTexture name="Annoying User Sad Right0002" x="582" y="325" width="229" height="257" frameX="0" frameY="0" frameWidth="237" frameHeight="257"/>
+	<SubTexture name="Annoying User Sad Right0003" x="582" y="325" width="229" height="257" frameX="0" frameY="0" frameWidth="237" frameHeight="257"/>
+	<SubTexture name="Annoying User Sad Right0004" x="582" y="325" width="229" height="257" frameX="0" frameY="0" frameWidth="237" frameHeight="257"/>
+	<SubTexture name="Annoying User Sad Right0005" x="582" y="325" width="229" height="257" frameX="0" frameY="0" frameWidth="237" frameHeight="257"/>
+	<SubTexture name="Annoying User Sad Right0006" x="582" y="325" width="229" height="257" frameX="0" frameY="0" frameWidth="237" frameHeight="257"/>
+	<SubTexture name="Annoying User Sad Right0007" x="582" y="325" width="229" height="257" frameX="0" frameY="0" frameWidth="237" frameHeight="257"/>
+	<SubTexture name="Annoying User Sad Right0008" x="582" y="325" width="229" height="257" frameX="0" frameY="0" frameWidth="237" frameHeight="257"/>
+	<SubTexture name="Annoying User Sad Up0000" x="864" y="325" width="227" height="254" frameX="0" frameY="0" frameWidth="230" frameHeight="254"/>
+	<SubTexture name="Annoying User Sad Up0001" x="864" y="325" width="227" height="254" frameX="0" frameY="0" frameWidth="230" frameHeight="254"/>
+	<SubTexture name="Annoying User Sad Up0002" x="1144" y="325" width="230" height="254"/>
+	<SubTexture name="Annoying User Sad Up0003" x="1144" y="325" width="230" height="254"/>
+	<SubTexture name="Annoying User Sad Up0004" x="1144" y="325" width="230" height="254"/>
+	<SubTexture name="Annoying User Sad Up0005" x="1144" y="325" width="230" height="254"/>
+	<SubTexture name="Annoying User Sad Up0006" x="1144" y="325" width="230" height="254"/>
+	<SubTexture name="Annoying User Sad Up0007" x="1144" y="325" width="230" height="254"/>
+	<SubTexture name="Annoying User Sad Up0008" x="1144" y="325" width="230" height="254"/>
+	<SubTexture name="Annoying User Sad Up0009" x="1144" y="325" width="230" height="254"/>
+</TextureAtlas>

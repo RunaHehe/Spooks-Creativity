@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<TextureAtlas imagePath="crystalAttack3.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="CrystalAttack30000" x="4" y="4" width="64" height="2" frameX="-1" frameY="-180" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30001" x="72" y="4" width="64" height="19" frameX="-1" frameY="-163" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30002" x="140" y="4" width="64" height="35" frameX="-1" frameY="-147" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30003" x="208" y="4" width="66" height="52" frameX="0" frameY="-132" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30004" x="278" y="4" width="64" height="68" frameX="-1" frameY="-117" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30005" x="346" y="4" width="64" height="82" frameX="-1" frameY="-103" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30006" x="414" y="4" width="64" height="95" frameX="-1" frameY="-90" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30007" x="4" y="103" width="64" height="108" frameX="-1" frameY="-76" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30008" x="72" y="103" width="64" height="120" frameX="-1" frameY="-64" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30009" x="140" y="103" width="64" height="132" frameX="-1" frameY="-52" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30010" x="208" y="103" width="64" height="142" frameX="-1" frameY="-40" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30011" x="276" y="103" width="64" height="153" frameX="-1" frameY="-29" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30012" x="344" y="103" width="64" height="163" frameX="-1" frameY="-19" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30013" x="412" y="103" width="64" height="173" frameX="-1" frameY="-9" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30014" x="4" y="280" width="64" height="182" frameX="-1" frameY="0" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30015" x="72" y="280" width="64" height="181" frameX="-1" frameY="0" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30016" x="72" y="280" width="64" height="181" frameX="-1" frameY="0" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30017" x="72" y="280" width="64" height="181" frameX="-1" frameY="0" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30018" x="72" y="280" width="64" height="181" frameX="-1" frameY="0" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30019" x="72" y="280" width="64" height="181" frameX="-1" frameY="0" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30020" x="72" y="280" width="64" height="181" frameX="-1" frameY="0" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30021" x="72" y="280" width="64" height="181" frameX="-1" frameY="0" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30022" x="72" y="280" width="64" height="181" frameX="-1" frameY="0" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30023" x="72" y="280" width="64" height="181" frameX="-1" frameY="0" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30024" x="140" y="280" width="51" height="123" frameX="-12" frameY="-58" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30025" x="140" y="280" width="51" height="123" frameX="-16" frameY="-58" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30026" x="140" y="280" width="51" height="123" frameX="-12" frameY="-58" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30027" x="140" y="280" width="51" height="123" frameX="-14" frameY="-58" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30028" x="140" y="280" width="51" height="123" frameX="-13" frameY="-58" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30029" x="140" y="280" width="51" height="123" frameX="-13" frameY="-58" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30030" x="140" y="280" width="51" height="123" frameX="-13" frameY="-58" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30031" x="140" y="280" width="51" height="123" frameX="-13" frameY="-58" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30032" x="140" y="280" width="51" height="123" frameX="-13" frameY="-58" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30033" x="140" y="280" width="51" height="123" frameX="-13" frameY="-58" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30034" x="195" y="280" width="51" height="124" frameX="-13" frameY="-58" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30035" x="250" y="280" width="51" height="124" frameX="-13" frameY="-58" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30036" x="305" y="280" width="51" height="123" frameX="-13" frameY="-59" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30037" x="360" y="280" width="51" height="121" frameX="-13" frameY="-61" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30038" x="415" y="280" width="51" height="119" frameX="-13" frameY="-63" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30039" x="4" y="466" width="51" height="116" frameX="-13" frameY="-66" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30040" x="59" y="466" width="51" height="112" frameX="-13" frameY="-70" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30041" x="114" y="466" width="51" height="108" frameX="-13" frameY="-74" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30042" x="169" y="466" width="51" height="103" frameX="-13" frameY="-79" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30043" x="224" y="466" width="51" height="97" frameX="-13" frameY="-85" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30044" x="279" y="466" width="51" height="91" frameX="-13" frameY="-91" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30045" x="334" y="466" width="51" height="84" frameX="-13" frameY="-98" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30046" x="389" y="466" width="51" height="77" frameX="-13" frameY="-105" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30047" x="444" y="466" width="51" height="68" frameX="-13" frameY="-114" frameWidth="66" frameHeight="185"/>
+	<SubTexture name="CrystalAttack30048" x="4" y="586" width="51" height="59" frameX="-13" frameY="-123" frameWidth="66" frameHeight="185"/>
+</TextureAtlas>

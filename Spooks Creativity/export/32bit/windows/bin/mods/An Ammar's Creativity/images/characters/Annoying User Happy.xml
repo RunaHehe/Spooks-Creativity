@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Annoying User Happy.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Annoying User Happy Left0000" x="10" y="10" width="226" height="262" frameX="0" frameY="0" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0001" x="10" y="10" width="226" height="262" frameX="0" frameY="0" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0002" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0003" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0004" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0005" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0006" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0007" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0008" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0009" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0010" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0011" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0012" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0013" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Left0014" x="289" y="10" width="229" height="257" frameX="-1" frameY="-5" frameWidth="230" frameHeight="262"/>
+	<SubTexture name="Annoying User Happy Right0000" x="571" y="10" width="229" height="250" frameX="0" frameY="-5" frameWidth="229" frameHeight="255"/>
+	<SubTexture name="Annoying User Happy Right0001" x="571" y="10" width="229" height="250" frameX="0" frameY="-5" frameWidth="229" frameHeight="255"/>
+	<SubTexture name="Annoying User Happy Right0002" x="853" y="10" width="225" height="255" frameX="0" frameY="0" frameWidth="229" frameHeight="255"/>
+	<SubTexture name="Annoying User Happy Right0003" x="853" y="10" width="225" height="255" frameX="0" frameY="0" frameWidth="229" frameHeight="255"/>
+	<SubTexture name="Annoying User Happy Right0004" x="853" y="10" width="225" height="255" frameX="0" frameY="0" frameWidth="229" frameHeight="255"/>
+	<SubTexture name="Annoying User Happy Right0005" x="853" y="10" width="225" height="255" frameX="0" frameY="0" frameWidth="229" frameHeight="255"/>
+	<SubTexture name="Annoying User Happy Right0006" x="853" y="10" width="225" height="255" frameX="0" frameY="0" frameWidth="229" frameHeight="255"/>
+	<SubTexture name="Annoying User Happy Right0007" x="853" y="10" width="225" height="255" frameX="0" frameY="0" frameWidth="229" frameHeight="255"/>
+	<SubTexture name="Annoying User Happy Right0008" x="853" y="10" width="225" height="255" frameX="0" frameY="0" frameWidth="229" frameHeight="255"/>
+	<SubTexture name="Annoying User Happy Up0000" x="1131" y="10" width="227" height="254" frameX="0" frameY="0" frameWidth="230" frameHeight="254"/>
+	<SubTexture name="Annoying User Happy Up0001" x="1131" y="10" width="227" height="254" frameX="0" frameY="0" frameWidth="230" frameHeight="254"/>
+	<SubTexture name="Annoying User Happy Up0002" x="1411" y="10" width="230" height="254"/>
+	<SubTexture name="Annoying User Happy Up0003" x="1411" y="10" width="230" height="254"/>
+	<SubTexture name="Annoying User Happy Up0004" x="1411" y="10" width="230" height="254"/>
+	<SubTexture name="Annoying User Happy Up0005" x="1411" y="10" width="230" height="254"/>
+	<SubTexture name="Annoying User Happy Up0006" x="1411" y="10" width="230" height="254"/>
+	<SubTexture name="Annoying User Happy Up0007" x="1411" y="10" width="230" height="254"/>
+	<SubTexture name="Annoying User Happy Up0008" x="1411" y="10" width="230" height="254"/>
+	<SubTexture name="Annoying User Happy Up0009" x="1411" y="10" width="230" height="254"/>
+	<SubTexture name="Annoying User Happy down0000" x="1694" y="10" width="232" height="258"/>
+	<SubTexture name="Annoying User Happy down0001" x="1694" y="10" width="232" height="258"/>
+	<SubTexture name="Annoying User Happy down0002" x="10" y="325" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Happy down0003" x="10" y="325" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Happy down0004" x="10" y="325" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Happy down0005" x="10" y="325" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Happy down0006" x="10" y="325" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Happy down0007" x="10" y="325" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Happy down0008" x="10" y="325" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Happy down0009" x="10" y="325" width="228" height="253" frameX="-1" frameY="-5" frameWidth="232" frameHeight="258"/>
+	<SubTexture name="Annoying User Happy idle0000" x="291" y="325" width="240" height="265" frameX="0" frameY="0" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0001" x="291" y="325" width="240" height="265" frameX="0" frameY="0" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0002" x="584" y="325" width="239" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0003" x="584" y="325" width="239" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0004" x="876" y="325" width="240" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0005" x="1169" y="325" width="240" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0006" x="1169" y="325" width="240" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0007" x="1169" y="325" width="240" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0008" x="1169" y="325" width="240" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0009" x="1169" y="325" width="240" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0010" x="1169" y="325" width="240" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0011" x="1169" y="325" width="240" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0012" x="1169" y="325" width="240" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0013" x="1169" y="325" width="240" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+	<SubTexture name="Annoying User Happy idle0014" x="1169" y="325" width="240" height="261" frameX="-1" frameY="-4" frameWidth="241" frameHeight="265"/>
+</TextureAtlas>

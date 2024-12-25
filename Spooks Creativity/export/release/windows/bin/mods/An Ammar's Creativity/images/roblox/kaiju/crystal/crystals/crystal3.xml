@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<TextureAtlas imagePath="crystal3.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="Cry3Come0000" x="4" y="4" width="0" height="0" frameX="-99" frameY="-159" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0001" x="8" y="4" width="180" height="6" frameX="0" frameY="-280" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0002" x="192" y="4" width="180" height="10" frameX="0" frameY="-276" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0003" x="376" y="4" width="180" height="15" frameX="0" frameY="-271" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0004" x="560" y="4" width="180" height="20" frameX="0" frameY="-266" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0005" x="744" y="4" width="180" height="25" frameX="0" frameY="-261" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0006" x="4" y="33" width="180" height="29" frameX="0" frameY="-257" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0007" x="188" y="33" width="180" height="34" frameX="0" frameY="-252" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0008" x="372" y="33" width="180" height="39" frameX="0" frameY="-247" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0009" x="556" y="33" width="180" height="44" frameX="0" frameY="-242" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0010" x="740" y="33" width="180" height="48" frameX="0" frameY="-238" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0011" x="4" y="85" width="180" height="54" frameX="0" frameY="-233" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0012" x="188" y="85" width="180" height="59" frameX="0" frameY="-228" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0013" x="372" y="85" width="180" height="64" frameX="0" frameY="-223" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0014" x="556" y="85" width="180" height="68" frameX="0" frameY="-219" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0015" x="740" y="85" width="180" height="74" frameX="0" frameY="-214" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0016" x="4" y="163" width="180" height="78" frameX="0" frameY="-209" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0017" x="188" y="163" width="180" height="84" frameX="0" frameY="-204" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0018" x="372" y="163" width="180" height="88" frameX="0" frameY="-200" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0019" x="556" y="163" width="180" height="93" frameX="0" frameY="-195" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0020" x="740" y="163" width="180" height="98" frameX="0" frameY="-190" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0021" x="4" y="265" width="180" height="103" frameX="0" frameY="-185" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0022" x="188" y="265" width="180" height="108" frameX="0" frameY="-181" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0023" x="372" y="265" width="180" height="113" frameX="0" frameY="-176" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0024" x="556" y="265" width="180" height="118" frameX="0" frameY="-171" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0025" x="740" y="265" width="180" height="123" frameX="0" frameY="-166" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0026" x="4" y="392" width="180" height="127" frameX="0" frameY="-162" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0027" x="188" y="392" width="180" height="132" frameX="0" frameY="-157" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0028" x="372" y="392" width="180" height="137" frameX="0" frameY="-152" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0029" x="556" y="392" width="180" height="142" frameX="0" frameY="-147" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0030" x="740" y="392" width="180" height="146" frameX="0" frameY="-143" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0031" x="4" y="542" width="180" height="151" frameX="0" frameY="-138" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0032" x="188" y="542" width="180" height="156" frameX="0" frameY="-133" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0033" x="372" y="542" width="180" height="160" frameX="0" frameY="-128" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0034" x="556" y="542" width="180" height="164" frameX="0" frameY="-124" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0035" x="740" y="542" width="180" height="169" frameX="0" frameY="-119" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0036" x="4" y="715" width="180" height="174" frameX="0" frameY="-114" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0037" x="188" y="715" width="180" height="179" frameX="0" frameY="-109" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0038" x="372" y="715" width="180" height="183" frameX="0" frameY="-105" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0039" x="556" y="715" width="180" height="187" frameX="0" frameY="-100" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0040" x="740" y="715" width="180" height="192" frameX="0" frameY="-95" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0041" x="4" y="911" width="180" height="197" frameX="0" frameY="-90" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0042" x="188" y="911" width="183" height="201" frameX="0" frameY="-86" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0043" x="375" y="911" width="183" height="206" frameX="0" frameY="-81" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0044" x="562" y="911" width="183" height="211" frameX="0" frameY="-76" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0045" x="749" y="911" width="183" height="217" frameX="0" frameY="-71" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0046" x="4" y="1132" width="180" height="221" frameX="0" frameY="-67" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0047" x="188" y="1132" width="180" height="225" frameX="0" frameY="-62" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0048" x="372" y="1132" width="180" height="230" frameX="0" frameY="-57" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0049" x="556" y="1132" width="180" height="235" frameX="0" frameY="-52" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0050" x="740" y="1132" width="180" height="238" frameX="0" frameY="-48" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0051" x="4" y="1374" width="180" height="243" frameX="0" frameY="-43" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0052" x="188" y="1374" width="180" height="248" frameX="0" frameY="-38" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0053" x="372" y="1374" width="180" height="253" frameX="0" frameY="-33" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0054" x="556" y="1374" width="180" height="257" frameX="0" frameY="-29" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0055" x="740" y="1374" width="180" height="262" frameX="0" frameY="-24" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0056" x="4" y="1640" width="180" height="267" frameX="0" frameY="-19" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0057" x="188" y="1640" width="180" height="268" frameX="0" frameY="-14" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0058" x="188" y="1640" width="180" height="268" frameX="0" frameY="-10" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0059" x="188" y="1640" width="180" height="268" frameX="0" frameY="-5" frameWidth="183" frameHeight="289"/>
+	<SubTexture name="Cry3Come0060" x="188" y="1640" width="180" height="268" frameX="0" frameY="0" frameWidth="183" frameHeight="289"/>
+</TextureAtlas>

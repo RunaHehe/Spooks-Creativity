@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SpookR.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="spookidle0000" x="4042" y="1658" width="501" height="825" frameX="-346" frameY="-111" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookidle20000" x="4546" y="821" width="501" height="822" frameX="-345" frameY="-113" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookidle30000" x="0" y="4076" width="499" height="820" frameX="-347" frameY="-114" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookidle40000" x="5545" y="0" width="497" height="821" frameX="-352" frameY="-114" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookidle50000" x="5049" y="0" width="496" height="823" frameX="-357" frameY="-113" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookidle60000" x="4546" y="1643" width="495" height="827" frameX="-362" frameY="-110" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookidle70000" x="4546" y="2470" width="493" height="830" frameX="-367" frameY="-107" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookidle80000" x="4042" y="826" width="498" height="832" frameX="-364" frameY="-105" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookidle90000" x="3538" y="0" width="504" height="832" frameX="-357" frameY="-105" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookidle100000" x="3538" y="832" width="504" height="830" frameX="-351" frameY="-107" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookidle110000" x="3538" y="1662" width="504" height="827" frameX="-346" frameY="-110" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookidle120000" x="4042" y="0" width="504" height="826" frameX="-343" frameY="-110" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookleft0000" x="611" y="0" width="612" height="822" frameX="-137" frameY="-123" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookleft20000" x="1223" y="0" width="613" height="818" frameX="-134" frameY="-127" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookleft30000" x="607" y="824" width="612" height="812" frameX="-134" frameY="-132" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookleft40000" x="1219" y="824" width="608" height="809" frameX="-135" frameY="-135" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookleft50000" x="1836" y="817" width="606" height="811" frameX="-137" frameY="-133" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookleft60000" x="1836" y="0" width="607" height="817" frameX="-137" frameY="-128" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookleft70000" x="0" y="824" width="607" height="822" frameX="-139" frameY="-123" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookleft80000" x="0" y="0" width="611" height="824" frameX="-138" frameY="-121" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookright0000" x="2443" y="788" width="515" height="823" frameX="-326" frameY="-120" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookright20000" x="0" y="2432" width="513" height="823" frameX="-326" frameY="-120" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookright30000" x="4546" y="0" width="503" height="821" frameX="-328" frameY="-122" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookright40000" x="5545" y="821" width="493" height="817" frameX="-330" frameY="-126" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookright50000" x="5545" y="2452" width="491" height="815" frameX="-331" frameY="-128" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookright60000" x="5545" y="1638" width="493" height="814" frameX="-330" frameY="-129" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookright70000" x="499" y="4076" width="499" height="818" frameX="-327" frameY="-125" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookright80000" x="0" y="3255" width="506" height="821" frameX="-326" frameY="-122" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookup0000" x="2988" y="0" width="550" height="779" frameX="-289" frameY="-105" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookup20000" x="0" y="1646" width="549" height="786" frameX="-287" frameY="-104" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookup30000" x="2443" y="0" width="545" height="788" frameX="-289" frameY="-105" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookup40000" x="2988" y="1556" width="543" height="782" frameX="-292" frameY="-108" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookup50000" x="2443" y="1611" width="541" height="779" frameX="-294" frameY="-110" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookup60000" x="1101" y="1646" width="542" height="776" frameX="-294" frameY="-111" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookup70000" x="2988" y="779" width="547" height="777" frameX="-292" frameY="-108" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookup80000" x="549" y="1646" width="552" height="777" frameX="-290" frameY="-106" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookdown0000" x="513" y="2432" width="661" height="633" frameX="-62" frameY="-329" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookdown20000" x="1643" y="1646" width="660" height="634" frameX="-64" frameY="-328" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookdown30000" x="506" y="3255" width="659" height="630" frameX="-63" frameY="-332" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookdown40000" x="2498" y="2432" width="664" height="625" frameX="-55" frameY="-337" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookdown50000" x="1826" y="3255" width="661" height="624" frameX="-55" frameY="-338" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookdown60000" x="1165" y="3255" width="661" height="625" frameX="-55" frameY="-337" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookdown70000" x="1836" y="2432" width="662" height="629" frameX="-57" frameY="-333" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="spookdown80000" x="1174" y="2432" width="662" height="632" frameX="-60" frameY="-330" frameWidth="960" frameHeight="960"/>
+</TextureAtlas>

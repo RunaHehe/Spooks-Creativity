@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<TextureAtlas imagePath="FactoryFan.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="FactoryVents0000" x="4" y="4" width="115" height="35"/>
+	<SubTexture name="FactoryVents0001" x="123" y="4" width="115" height="35"/>
+	<SubTexture name="FactoryVents0002" x="4" y="43" width="115" height="35"/>
+	<SubTexture name="FactoryVents0003" x="123" y="43" width="115" height="35"/>
+	<SubTexture name="FactoryVents0004" x="4" y="82" width="115" height="35"/>
+	<SubTexture name="FactoryVents0005" x="123" y="82" width="115" height="35"/>
+	<SubTexture name="FactoryVents0006" x="4" y="121" width="115" height="35"/>
+	<SubTexture name="FactoryVents0007" x="123" y="121" width="115" height="35"/>
+	<SubTexture name="FactoryVents0008" x="4" y="160" width="115" height="35"/>
+	<SubTexture name="FactoryVents0009" x="123" y="160" width="115" height="35"/>
+	<SubTexture name="FactoryVents0010" x="4" y="199" width="115" height="35"/>
+	<SubTexture name="FactoryVents0011" x="123" y="199" width="115" height="35"/>
+	<SubTexture name="FactoryVents0012" x="4" y="238" width="115" height="35"/>
+	<SubTexture name="FactoryVents0013" x="123" y="238" width="115" height="35"/>
+	<SubTexture name="FactoryVents0014" x="4" y="277" width="115" height="35"/>
+	<SubTexture name="FactoryVents0015" x="123" y="277" width="115" height="35"/>
+	<SubTexture name="FactoryVents0016" x="4" y="316" width="115" height="35"/>
+	<SubTexture name="FactoryVents0017" x="123" y="316" width="115" height="35"/>
+	<SubTexture name="FactoryVents0018" x="4" y="355" width="115" height="35"/>
+	<SubTexture name="FactoryVents0019" x="123" y="355" width="115" height="35"/>
+</TextureAtlas>

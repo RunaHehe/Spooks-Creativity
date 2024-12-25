@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="outeralt.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="oaidle0000" x="882" y="3517" width="294" height="713" frameX="-309" frameY="-203" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaidle20000" x="0" y="3517" width="294" height="713" frameX="-309" frameY="-203" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaidle30000" x="4068" y="0" width="295" height="713" frameX="-309" frameY="-203" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaidle40000" x="4068" y="2141" width="294" height="713" frameX="-310" frameY="-203" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaidle50000" x="3773" y="714" width="295" height="714" frameX="-310" frameY="-202" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaidle60000" x="3773" y="0" width="295" height="714" frameX="-310" frameY="-202" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaidle70000" x="3773" y="2142" width="295" height="714" frameX="-310" frameY="-202" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaidle80000" x="4068" y="1427" width="294" height="714" frameX="-310" frameY="-202" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaidle90000" x="3773" y="1428" width="295" height="714" frameX="-309" frameY="-202" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaidle100000" x="4068" y="713" width="294" height="714" frameX="-309" frameY="-202" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaidle110000" x="294" y="3517" width="294" height="713" frameX="-309" frameY="-203" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaidle120000" x="588" y="3517" width="294" height="713" frameX="-309" frameY="-203" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaleft0000" x="1348" y="0" width="445" height="709" frameX="-313" frameY="-213" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaleft20000" x="1348" y="709" width="444" height="709" frameX="-313" frameY="-213" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaleft30000" x="901" y="0" width="447" height="711" frameX="-312" frameY="-211" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaleft40000" x="0" y="712" width="450" height="713" frameX="-312" frameY="-209" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaleft50000" x="0" y="0" width="451" height="712" frameX="-312" frameY="-210" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaleft60000" x="451" y="0" width="450" height="712" frameX="-313" frameY="-210" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaleft70000" x="451" y="712" width="448" height="710" frameX="-313" frameY="-212" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaleft80000" x="901" y="711" width="446" height="709" frameX="-313" frameY="-213" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaright0000" x="3130" y="1392" width="318" height="703" frameX="-341" frameY="-218" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaright20000" x="3455" y="702" width="317" height="704" frameX="-342" frameY="-216" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaright30000" x="3455" y="0" width="318" height="702" frameX="-341" frameY="-218" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaright40000" x="0" y="2819" width="318" height="698" frameX="-340" frameY="-222" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaright50000" x="3455" y="1406" width="318" height="698" frameX="-340" frameY="-222" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaright60000" x="3455" y="2104" width="318" height="698" frameX="-340" frameY="-223" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaright70000" x="3130" y="2095" width="319" height="700" frameX="-340" frameY="-221" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaright80000" x="3130" y="690" width="319" height="702" frameX="-340" frameY="-219" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaup0000" x="2469" y="703" width="329" height="707" frameX="-316" frameY="-212" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaup20000" x="2139" y="0" width="330" height="712" frameX="-311" frameY="-206" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaup30000" x="2139" y="712" width="328" height="704" frameX="-310" frameY="-214" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaup40000" x="0" y="2128" width="326" height="691" frameX="-312" frameY="-227" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaup50000" x="326" y="2128" width="326" height="689" frameX="-314" frameY="-229" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaup60000" x="3130" y="0" width="325" height="690" frameX="-318" frameY="-229" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaup70000" x="2802" y="0" width="328" height="696" frameX="-319" frameY="-223" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oaup80000" x="2139" y="1416" width="329" height="701" frameX="-319" frameY="-218" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oadown0000" x="2469" y="0" width="333" height="703" frameX="-365" frameY="-215" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oadown20000" x="2802" y="1399" width="321" height="703" frameX="-373" frameY="-215" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oadown30000" x="2802" y="696" width="322" height="703" frameX="-380" frameY="-215" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oadown40000" x="2469" y="1410" width="330" height="701" frameX="-383" frameY="-216" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oadown50000" x="341" y="1425" width="337" height="700" frameX="-379" frameY="-217" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oadown60000" x="1793" y="701" width="346" height="700" frameX="-370" frameY="-217" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oadown70000" x="1793" y="0" width="346" height="701" frameX="-363" frameY="-216" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="oadown80000" x="0" y="1425" width="341" height="703" frameX="-361" frameY="-215" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error0000" x="678" y="1425" width="339" height="680" frameX="-308" frameY="-233" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error20000" x="1017" y="1425" width="324" height="625" frameX="-352" frameY="-286" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error30000" x="1341" y="1425" width="324" height="614" frameX="-382" frameY="-292" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error40000" x="652" y="2128" width="299" height="602" frameX="-371" frameY="-295" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error50000" x="4068" y="2854" width="291" height="591" frameX="-363" frameY="-300" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error60000" x="3773" y="2856" width="282" height="586" frameX="-360" frameY="-303" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error70000" x="1176" y="3517" width="277" height="581" frameX="-350" frameY="-305" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error80000" x="4363" y="0" width="271" height="572" frameX="-336" frameY="-301" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error90000" x="4634" y="473" width="275" height="532" frameX="-302" frameY="-330" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error100000" x="4634" y="0" width="322" height="473" frameX="-253" frameY="-382" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error110000" x="1453" y="3517" width="364" height="428" frameX="-209" frameY="-434" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error120000" x="1665" y="1425" width="453" height="411" frameX="-126" frameY="-514" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error130000" x="951" y="2128" width="515" height="333" frameX="-65" frameY="-600" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error140000" x="318" y="3145" width="490" height="327" frameX="-89" frameY="-586" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error150000" x="318" y="2819" width="498" height="326" frameX="-81" frameY="-591" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="error160000" x="1466" y="2128" width="506" height="325" frameX="-74" frameY="-595" frameWidth="960" frameHeight="960"/>
+</TextureAtlas>
