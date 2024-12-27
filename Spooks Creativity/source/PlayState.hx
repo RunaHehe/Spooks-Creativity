@@ -996,7 +996,8 @@ class PlayState extends MusicBeatState
 			'furry-appeared' => ['', 'CUSTOM SONG'],
 			'protogen' => ['', 'COVER SONG'],
 			'programming-an-ammar' => ['ammar', 'COVER SONG'],
-			'identity-crisis' => ['ammar', 'COVER SONG']
+			'identity-crisis' => ['ammar', 'COVER SONG'],
+			'note-nova' => ['ammar', 'CUSTOM SONG']
 		];
 		var diffColor:Map<String, FlxColor> = [
 			'hard' => 0xFFFF0000,

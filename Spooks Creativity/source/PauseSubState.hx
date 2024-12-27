@@ -68,7 +68,7 @@ class PauseSubState extends MusicBeatSubstate
 
 		'programming-an-ammar'           => 'COVER SONG of PaperCraft',
 		'identity-crisis'           =>  'COVER SONG of Hatred',
-		'note-nova'           =>  'CUSTOM SONG by Cherry, Spook',
+		'note-nova'           =>  'CUSTOM SONG by Ammar, Spook',
     ];
 	//var botplayText:FlxText;
 
