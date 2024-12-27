@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_c442cd93e739f884_346_new,"__ASSET__flixel_flixel_ui_img_hilight_png","new",0x8f0962da,"__ASSET__flixel_flixel_ui_img_hilight_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_86d045526439e65d_1956_boot,"__ASSET__flixel_flixel_ui_img_hilight_png","boot",0x91461c78,"__ASSET__flixel_flixel_ui_img_hilight_png.boot","ManifestResources.hx",1956,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_86d045526439e65d_1957_boot,"__ASSET__flixel_flixel_ui_img_hilight_png","boot",0x91461c78,"__ASSET__flixel_flixel_ui_img_hilight_png.boot","ManifestResources.hx",1957,0xf77aa668)
 
 void __ASSET__flixel_flixel_ui_img_hilight_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_c442cd93e739f884_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_flixel_ui_img_hilight_png_obj::__register()
 void __ASSET__flixel_flixel_ui_img_hilight_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_86d045526439e65d_1956_boot)
-HXDLIN(1956)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_hilight_png",9a,7b,e5,4d);
+            	HX_STACKFRAME(&_hx_pos_86d045526439e65d_1957_boot)
+HXDLIN(1957)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_hilight_png",9a,7b,e5,4d);
             	}
 }
 

@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_549d2983278360a1_1981_new,"__ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_italic_ttf","new",0x4365f074,"__ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_italic_ttf.new","ManifestResources.hx",1981,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_549d2983278360a1_1982_new,"__ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_italic_ttf","new",0x4365f074,"__ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_italic_ttf.new","ManifestResources.hx",1982,0xf77aa668)
 
 void __ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_italic_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_549d2983278360a1_1981_new)
-HXDLIN(1981)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Google/Product Sans Italic.ttf",b9,fc,6f,5f));
-HXDLIN(1981)		this->name = HX_("Product Sans Italic",8c,b4,ac,f5);
-HXDLIN(1981)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_549d2983278360a1_1982_new)
+HXDLIN(1982)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Google/Product Sans Italic.ttf",b9,fc,6f,5f));
+HXDLIN(1982)		this->name = HX_("Product Sans Italic",8c,b4,ac,f5);
+HXDLIN(1982)		super::__construct(null());
             	}
 
 Dynamic __ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_italic_ttf_obj::__CreateEmpty() { return new __ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_italic_ttf_obj; }

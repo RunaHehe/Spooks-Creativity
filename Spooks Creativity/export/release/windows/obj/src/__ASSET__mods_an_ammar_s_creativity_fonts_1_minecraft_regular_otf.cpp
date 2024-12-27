@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_ab581b5b0e1852bd_1970_new,"__ASSET__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf","new",0x8de5589b,"__ASSET__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf.new","ManifestResources.hx",1970,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_ab581b5b0e1852bd_1971_new,"__ASSET__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf","new",0x8de5589b,"__ASSET__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf.new","ManifestResources.hx",1971,0xf77aa668)
 
 void __ASSET__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_ab581b5b0e1852bd_1970_new)
-HXDLIN(1970)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/1_Minecraft-Regular.otf",96,66,99,66));
-HXDLIN(1970)		this->name = HX_("Minecraft Regular",29,a4,c4,a6);
-HXDLIN(1970)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_ab581b5b0e1852bd_1971_new)
+HXDLIN(1971)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/1_Minecraft-Regular.otf",96,66,99,66));
+HXDLIN(1971)		this->name = HX_("Minecraft Regular",29,a4,c4,a6);
+HXDLIN(1971)		super::__construct(null());
             	}
 
 Dynamic __ASSET__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf_obj::__CreateEmpty() { return new __ASSET__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf_obj; }

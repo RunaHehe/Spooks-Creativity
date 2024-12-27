@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a412f7bc953955ad_2002_new,"__ASSET__assets_fonts_vcr_ttf","new",0xbb14ed97,"__ASSET__assets_fonts_vcr_ttf.new","ManifestResources.hx",2002,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_a412f7bc953955ad_2003_new,"__ASSET__assets_fonts_vcr_ttf","new",0xbb14ed97,"__ASSET__assets_fonts_vcr_ttf.new","ManifestResources.hx",2003,0xf77aa668)
 
 void __ASSET__assets_fonts_vcr_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_a412f7bc953955ad_2002_new)
-HXDLIN(2002)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/vcr.ttf",46,38,26,7e));
-HXDLIN(2002)		this->name = HX_("VCR OSD Mono",be,44,e4,b8);
-HXDLIN(2002)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_a412f7bc953955ad_2003_new)
+HXDLIN(2003)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/vcr.ttf",46,38,26,7e));
+HXDLIN(2003)		this->name = HX_("VCR OSD Mono",be,44,e4,b8);
+HXDLIN(2003)		super::__construct(null());
             	}
 
 Dynamic __ASSET__assets_fonts_vcr_ttf_obj::__CreateEmpty() { return new __ASSET__assets_fonts_vcr_ttf_obj; }

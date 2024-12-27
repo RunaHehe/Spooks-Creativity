@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_5e8e5ff2cdf6eea5_1995_new,"__ASSET__assets_fonts_discord_uni_sans_heavy_otf","new",0x19064218,"__ASSET__assets_fonts_discord_uni_sans_heavy_otf.new","ManifestResources.hx",1995,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_5e8e5ff2cdf6eea5_1996_new,"__ASSET__assets_fonts_discord_uni_sans_heavy_otf","new",0x19064218,"__ASSET__assets_fonts_discord_uni_sans_heavy_otf.new","ManifestResources.hx",1996,0xf77aa668)
 
 void __ASSET__assets_fonts_discord_uni_sans_heavy_otf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_5e8e5ff2cdf6eea5_1995_new)
-HXDLIN(1995)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Discord/uni-sans-heavy.otf",d7,7f,4c,b0));
-HXDLIN(1995)		this->name = HX_("Uni Sans Heavy CAPS",37,d6,bf,fe);
-HXDLIN(1995)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_5e8e5ff2cdf6eea5_1996_new)
+HXDLIN(1996)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Discord/uni-sans-heavy.otf",d7,7f,4c,b0));
+HXDLIN(1996)		this->name = HX_("Uni Sans Heavy CAPS",37,d6,bf,fe);
+HXDLIN(1996)		super::__construct(null());
             	}
 
 Dynamic __ASSET__assets_fonts_discord_uni_sans_heavy_otf_obj::__CreateEmpty() { return new __ASSET__assets_fonts_discord_uni_sans_heavy_otf_obj; }

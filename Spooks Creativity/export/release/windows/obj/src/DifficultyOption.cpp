@@ -122,152 +122,152 @@
 #include <sys/FileSystem.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_1b3720ee0da69f55_2265_new,"DifficultyOption","new",0xa098c922,"DifficultyOption.new","MainMenuStateAmmar.hx",2265,0x38c8c245)
+HX_DEFINE_STACK_FRAME(_hx_pos_1b3720ee0da69f55_2267_new,"DifficultyOption","new",0xa098c922,"DifficultyOption.new","MainMenuStateAmmar.hx",2267,0x38c8c245)
 static const ::String _hx_array_data_ffb95030_2[] = {
 	HX_("Newbie",7e,d8,41,a6),HX_("Classic",f2,79,e2,36),HX_("Challenging",40,14,ca,6e),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_1b3720ee0da69f55_2310_update,"DifficultyOption","update",0xd666f287,"DifficultyOption.update","MainMenuStateAmmar.hx",2310,0x38c8c245)
-HX_LOCAL_STACK_FRAME(_hx_pos_1b3720ee0da69f55_2336_changeItem,"DifficultyOption","changeItem",0x070d7e21,"DifficultyOption.changeItem","MainMenuStateAmmar.hx",2336,0x38c8c245)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b3720ee0da69f55_2312_update,"DifficultyOption","update",0xd666f287,"DifficultyOption.update","MainMenuStateAmmar.hx",2312,0x38c8c245)
+HX_LOCAL_STACK_FRAME(_hx_pos_1b3720ee0da69f55_2338_changeItem,"DifficultyOption","changeItem",0x070d7e21,"DifficultyOption.changeItem","MainMenuStateAmmar.hx",2338,0x38c8c245)
 
 void DifficultyOption_obj::__construct( ::flixel::FlxCamera camera){
-            	HX_GC_STACKFRAME(&_hx_pos_1b3720ee0da69f55_2265_new)
-HXLINE(2271)		this->cooldown = ((Float)0.5);
-HXLINE(2270)		this->items = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(2269)		this->sounds = ::MainMenuStateAmmar_obj::sounds;
-HXLINE(2268)		this->select = 1;
-HXLINE(2267)		this->diff = ::Array_obj< ::String >::fromData( _hx_array_data_ffb95030_2,3);
-HXLINE(2274)		super::__construct();
-HXLINE(2276)		 ::flixel::FlxSprite bg =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null())->makeGraphic(1300,800,-16777216,null(),null());
-HXLINE(2277)		bg->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,camera));
-HXLINE(2278)		{
-HXLINE(2278)			int axes = 17;
-HXDLIN(2278)			bool _hx_tmp;
-HXDLIN(2278)			if ((axes != 1)) {
-HXLINE(2278)				_hx_tmp = (axes == 17);
+            	HX_GC_STACKFRAME(&_hx_pos_1b3720ee0da69f55_2267_new)
+HXLINE(2273)		this->cooldown = ((Float)0.5);
+HXLINE(2272)		this->items = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(2271)		this->sounds = ::MainMenuStateAmmar_obj::sounds;
+HXLINE(2270)		this->select = 1;
+HXLINE(2269)		this->diff = ::Array_obj< ::String >::fromData( _hx_array_data_ffb95030_2,3);
+HXLINE(2276)		super::__construct();
+HXLINE(2278)		 ::flixel::FlxSprite bg =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null())->makeGraphic(1300,800,-16777216,null(),null());
+HXLINE(2279)		bg->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,camera));
+HXLINE(2280)		{
+HXLINE(2280)			int axes = 17;
+HXDLIN(2280)			bool _hx_tmp;
+HXDLIN(2280)			if ((axes != 1)) {
+HXLINE(2280)				_hx_tmp = (axes == 17);
             			}
             			else {
-HXLINE(2278)				_hx_tmp = true;
+HXLINE(2280)				_hx_tmp = true;
             			}
-HXDLIN(2278)			if (_hx_tmp) {
-HXLINE(2278)				int _hx_tmp1 = ::flixel::FlxG_obj::width;
-HXDLIN(2278)				bg->set_x(((( (Float)(_hx_tmp1) ) - bg->get_width()) / ( (Float)(2) )));
+HXDLIN(2280)			if (_hx_tmp) {
+HXLINE(2280)				int _hx_tmp1 = ::flixel::FlxG_obj::width;
+HXDLIN(2280)				bg->set_x(((( (Float)(_hx_tmp1) ) - bg->get_width()) / ( (Float)(2) )));
             			}
-HXDLIN(2278)			bool _hx_tmp2;
-HXDLIN(2278)			if ((axes != 16)) {
-HXLINE(2278)				_hx_tmp2 = (axes == 17);
+HXDLIN(2280)			bool _hx_tmp2;
+HXDLIN(2280)			if ((axes != 16)) {
+HXLINE(2280)				_hx_tmp2 = (axes == 17);
             			}
             			else {
-HXLINE(2278)				_hx_tmp2 = true;
+HXLINE(2280)				_hx_tmp2 = true;
             			}
-HXDLIN(2278)			if (_hx_tmp2) {
-HXLINE(2278)				int _hx_tmp3 = ::flixel::FlxG_obj::height;
-HXDLIN(2278)				bg->set_y(((( (Float)(_hx_tmp3) ) - bg->get_height()) / ( (Float)(2) )));
+HXDLIN(2280)			if (_hx_tmp2) {
+HXLINE(2280)				int _hx_tmp3 = ::flixel::FlxG_obj::height;
+HXDLIN(2280)				bg->set_y(((( (Float)(_hx_tmp3) ) - bg->get_height()) / ( (Float)(2) )));
             			}
             		}
-HXLINE(2279)		this->add(bg);
-HXLINE(2280)		bg->set_alpha(( (Float)(0) ));
-HXLINE(2282)		 ::flixel::FlxSprite canvas =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null())->makeGraphic(1280,720,0,null(),null());
-HXLINE(2283)		canvas->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,camera));
-HXLINE(2284)		{
-HXLINE(2284)			int axes1 = 17;
-HXDLIN(2284)			bool _hx_tmp4;
-HXDLIN(2284)			if ((axes1 != 1)) {
-HXLINE(2284)				_hx_tmp4 = (axes1 == 17);
+HXLINE(2281)		this->add(bg);
+HXLINE(2282)		bg->set_alpha(( (Float)(0) ));
+HXLINE(2284)		 ::flixel::FlxSprite canvas =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null())->makeGraphic(1280,720,0,null(),null());
+HXLINE(2285)		canvas->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,camera));
+HXLINE(2286)		{
+HXLINE(2286)			int axes1 = 17;
+HXDLIN(2286)			bool _hx_tmp4;
+HXDLIN(2286)			if ((axes1 != 1)) {
+HXLINE(2286)				_hx_tmp4 = (axes1 == 17);
             			}
             			else {
-HXLINE(2284)				_hx_tmp4 = true;
+HXLINE(2286)				_hx_tmp4 = true;
             			}
-HXDLIN(2284)			if (_hx_tmp4) {
-HXLINE(2284)				int _hx_tmp5 = ::flixel::FlxG_obj::width;
-HXDLIN(2284)				canvas->set_x(((( (Float)(_hx_tmp5) ) - canvas->get_width()) / ( (Float)(2) )));
+HXDLIN(2286)			if (_hx_tmp4) {
+HXLINE(2286)				int _hx_tmp5 = ::flixel::FlxG_obj::width;
+HXDLIN(2286)				canvas->set_x(((( (Float)(_hx_tmp5) ) - canvas->get_width()) / ( (Float)(2) )));
             			}
-HXDLIN(2284)			bool _hx_tmp6;
-HXDLIN(2284)			if ((axes1 != 16)) {
-HXLINE(2284)				_hx_tmp6 = (axes1 == 17);
+HXDLIN(2286)			bool _hx_tmp6;
+HXDLIN(2286)			if ((axes1 != 16)) {
+HXLINE(2286)				_hx_tmp6 = (axes1 == 17);
             			}
             			else {
-HXLINE(2284)				_hx_tmp6 = true;
+HXLINE(2286)				_hx_tmp6 = true;
             			}
-HXDLIN(2284)			if (_hx_tmp6) {
-HXLINE(2284)				int _hx_tmp7 = ::flixel::FlxG_obj::height;
-HXDLIN(2284)				canvas->set_y(((( (Float)(_hx_tmp7) ) - canvas->get_height()) / ( (Float)(2) )));
+HXDLIN(2286)			if (_hx_tmp6) {
+HXLINE(2286)				int _hx_tmp7 = ::flixel::FlxG_obj::height;
+HXDLIN(2286)				canvas->set_y(((( (Float)(_hx_tmp7) ) - canvas->get_height()) / ( (Float)(2) )));
             			}
             		}
-HXLINE(2285)		this->add(canvas);
-HXLINE(2286)		::flixel::util::FlxSpriteUtil_obj::drawLine(canvas,( (Float)(0) ),((Float)310.),( (Float)(1280) ),((Float)310.), ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE(2287)		this->add(canvas);
+HXLINE(2288)		::flixel::util::FlxSpriteUtil_obj::drawLine(canvas,( (Float)(0) ),((Float)310.),( (Float)(1280) ),((Float)310.), ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("color",63,71,5c,4a),(int)2063597567)
             			->setFixed(1,HX_("thickness",74,f1,66,5a),5)),null());
-HXLINE(2287)		::flixel::util::FlxSpriteUtil_obj::drawLine(canvas,( (Float)(0) ),((Float)410.),( (Float)(1280) ),((Float)410.), ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE(2289)		::flixel::util::FlxSpriteUtil_obj::drawLine(canvas,( (Float)(0) ),((Float)410.),( (Float)(1280) ),((Float)410.), ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("color",63,71,5c,4a),(int)2063597567)
             			->setFixed(1,HX_("thickness",74,f1,66,5a),5)),null());
-HXLINE(2289)		canvas->set_x((canvas->x + 1280));
-HXLINE(2290)		::flixel::tweens::FlxTween_obj::tween(canvas, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(2291)		canvas->set_x((canvas->x + 1280));
+HXLINE(2292)		::flixel::tweens::FlxTween_obj::tween(canvas, ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("x",78,00,00,00),(canvas->x - ( (Float)(1280) )))),((Float)0.5), ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::quadOut_dyn())));
-HXLINE(2291)		::flixel::tweens::FlxTween_obj::tween(bg, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(2293)		::flixel::tweens::FlxTween_obj::tween(bg, ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("alpha",5e,a7,96,21),((Float)0.75))),((Float)0.5),null());
-HXLINE(2293)		int id = 0;
-HXLINE(2294)		{
-HXLINE(2294)			int _g = 0;
-HXDLIN(2294)			::Array< ::String > _g1 = this->diff;
-HXDLIN(2294)			while((_g < _g1->length)){
-HXLINE(2294)				::String item = _g1->__get(_g);
-HXDLIN(2294)				_g = (_g + 1);
-HXLINE(2295)				 ::flixel::text::FlxText text =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,0,400,item,48,false);
-HXLINE(2296)				::String file = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("Phantomuff/aPhantomMuff Full Letters.ttf",f9,15,90,99)));
-HXDLIN(2296)				::String _hx_tmp8;
-HXDLIN(2296)				if (::sys::FileSystem_obj::exists(file)) {
-HXLINE(2296)					_hx_tmp8 = file;
+HXLINE(2295)		int id = 0;
+HXLINE(2296)		{
+HXLINE(2296)			int _g = 0;
+HXDLIN(2296)			::Array< ::String > _g1 = this->diff;
+HXDLIN(2296)			while((_g < _g1->length)){
+HXLINE(2296)				::String item = _g1->__get(_g);
+HXDLIN(2296)				_g = (_g + 1);
+HXLINE(2297)				 ::flixel::text::FlxText text =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,0,400,item,48,false);
+HXLINE(2298)				::String file = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("Phantomuff/aPhantomMuff Full Letters.ttf",f9,15,90,99)));
+HXDLIN(2298)				::String _hx_tmp8;
+HXDLIN(2298)				if (::sys::FileSystem_obj::exists(file)) {
+HXLINE(2298)					_hx_tmp8 = file;
             				}
             				else {
-HXLINE(2296)					_hx_tmp8 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("Phantomuff/aPhantomMuff Full Letters.ttf",f9,15,90,99));
+HXLINE(2298)					_hx_tmp8 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("Phantomuff/aPhantomMuff Full Letters.ttf",f9,15,90,99));
             				}
-HXDLIN(2296)				text->setFormat(_hx_tmp8,48,-1,HX_("center",d5,25,db,05),null(),null(),null());
-HXLINE(2297)				int color = (int)-1879021825;
-HXLINE(2298)				if ((item.toLowerCase() == HX_("newbie",5e,64,ad,71))) {
-HXLINE(2298)					color = (int)-1862283264;
+HXDLIN(2298)				text->setFormat(_hx_tmp8,48,-1,HX_("center",d5,25,db,05),null(),null(),null());
+HXLINE(2299)				int color = (int)-1879021825;
+HXLINE(2300)				if ((item.toLowerCase() == HX_("newbie",5e,64,ad,71))) {
+HXLINE(2300)					color = (int)-1862283264;
             				}
             				else {
-HXLINE(2299)					if ((item.toLowerCase() == HX_("challenging",60,7c,97,8a))) {
-HXLINE(2299)						color = (int)-1862323456;
+HXLINE(2301)					if ((item.toLowerCase() == HX_("challenging",60,7c,97,8a))) {
+HXLINE(2301)						color = (int)-1862323456;
             					}
             				}
-HXLINE(2300)				{
-HXLINE(2300)					text->set_borderStyle(::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn());
-HXDLIN(2300)					text->set_borderColor(color);
-HXDLIN(2300)					text->set_borderSize(( (Float)(4) ));
-HXDLIN(2300)					text->set_borderQuality(( (Float)(1) ));
-            				}
-HXLINE(2301)				text->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,camera));
 HXLINE(2302)				{
-HXLINE(2302)					int axes2 = 17;
-HXDLIN(2302)					bool _hx_tmp9;
-HXDLIN(2302)					if ((axes2 != 1)) {
-HXLINE(2302)						_hx_tmp9 = (axes2 == 17);
+HXLINE(2302)					text->set_borderStyle(::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn());
+HXDLIN(2302)					text->set_borderColor(color);
+HXDLIN(2302)					text->set_borderSize(( (Float)(4) ));
+HXDLIN(2302)					text->set_borderQuality(( (Float)(1) ));
+            				}
+HXLINE(2303)				text->set_cameras(::Array_obj< ::Dynamic>::__new(1)->init(0,camera));
+HXLINE(2304)				{
+HXLINE(2304)					int axes2 = 17;
+HXDLIN(2304)					bool _hx_tmp9;
+HXDLIN(2304)					if ((axes2 != 1)) {
+HXLINE(2304)						_hx_tmp9 = (axes2 == 17);
             					}
             					else {
-HXLINE(2302)						_hx_tmp9 = true;
+HXLINE(2304)						_hx_tmp9 = true;
             					}
-HXDLIN(2302)					if (_hx_tmp9) {
-HXLINE(2302)						int _hx_tmp10 = ::flixel::FlxG_obj::width;
-HXDLIN(2302)						text->set_x(((( (Float)(_hx_tmp10) ) - text->get_width()) / ( (Float)(2) )));
+HXDLIN(2304)					if (_hx_tmp9) {
+HXLINE(2304)						int _hx_tmp10 = ::flixel::FlxG_obj::width;
+HXDLIN(2304)						text->set_x(((( (Float)(_hx_tmp10) ) - text->get_width()) / ( (Float)(2) )));
             					}
-HXDLIN(2302)					bool _hx_tmp11;
-HXDLIN(2302)					if ((axes2 != 16)) {
-HXLINE(2302)						_hx_tmp11 = (axes2 == 17);
+HXDLIN(2304)					bool _hx_tmp11;
+HXDLIN(2304)					if ((axes2 != 16)) {
+HXLINE(2304)						_hx_tmp11 = (axes2 == 17);
             					}
             					else {
-HXLINE(2302)						_hx_tmp11 = true;
+HXLINE(2304)						_hx_tmp11 = true;
             					}
-HXDLIN(2302)					if (_hx_tmp11) {
-HXLINE(2302)						int _hx_tmp12 = ::flixel::FlxG_obj::height;
-HXDLIN(2302)						text->set_y(((( (Float)(_hx_tmp12) ) - text->get_height()) / ( (Float)(2) )));
+HXDLIN(2304)					if (_hx_tmp11) {
+HXLINE(2304)						int _hx_tmp12 = ::flixel::FlxG_obj::height;
+HXDLIN(2304)						text->set_y(((( (Float)(_hx_tmp12) ) - text->get_height()) / ( (Float)(2) )));
             					}
             				}
-HXLINE(2303)				text->ID = id;
-HXLINE(2304)				this->add(text);
-HXLINE(2305)				this->items->push(text);
-HXLINE(2306)				id = (id + 1);
+HXLINE(2305)				text->ID = id;
+HXLINE(2306)				this->add(text);
+HXLINE(2307)				this->items->push(text);
+HXLINE(2308)				id = (id + 1);
             			}
             		}
             	}
@@ -304,95 +304,95 @@ bool DifficultyOption_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void DifficultyOption_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_1b3720ee0da69f55_2310_update)
-HXLINE(2311)		if ((this->cooldown > 0)) {
-HXLINE(2312)			 ::DifficultyOption _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2312)			_hx_tmp->cooldown = (_hx_tmp->cooldown - elapsed);
+            	HX_STACKFRAME(&_hx_pos_1b3720ee0da69f55_2312_update)
+HXLINE(2313)		if ((this->cooldown > 0)) {
+HXLINE(2314)			 ::DifficultyOption _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(2314)			_hx_tmp->cooldown = (_hx_tmp->cooldown - elapsed);
             		}
-HXLINE(2313)		if (::PlayerSettings_obj::player1->controls->_back->check()) {
-HXLINE(2314)			this->close();
-HXLINE(2315)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp1 = ::flixel::FlxG_obj::sound;
-HXDLIN(2315)			_hx_tmp1->play(::Paths_obj::sound(HX_("cancelMenu",39,a4,43,b7),null()),null(),null(),null(),null(),null());
+HXLINE(2315)		if (::PlayerSettings_obj::player1->controls->_back->check()) {
+HXLINE(2316)			this->close();
+HXLINE(2317)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp1 = ::flixel::FlxG_obj::sound;
+HXDLIN(2317)			_hx_tmp1->play(::Paths_obj::sound(HX_("cancelMenu",39,a4,43,b7),null()),null(),null(),null(),null(),null());
             		}
-HXLINE(2317)		if (::PlayerSettings_obj::player1->controls->_ui_upP->check()) {
-HXLINE(2318)			this->changeItem(-1);
+HXLINE(2319)		if (::PlayerSettings_obj::player1->controls->_ui_upP->check()) {
+HXLINE(2320)			this->changeItem(-1);
             		}
-HXLINE(2320)		if (::PlayerSettings_obj::player1->controls->_ui_downP->check()) {
-HXLINE(2321)			this->changeItem(1);
+HXLINE(2322)		if (::PlayerSettings_obj::player1->controls->_ui_downP->check()) {
+HXLINE(2323)			this->changeItem(1);
             		}
-HXLINE(2323)		bool _hx_tmp2;
-HXDLIN(2323)		if (::PlayerSettings_obj::player1->controls->_accept->check()) {
-HXLINE(2323)			_hx_tmp2 = (this->cooldown <= 0);
+HXLINE(2325)		bool _hx_tmp2;
+HXDLIN(2325)		if (::PlayerSettings_obj::player1->controls->_accept->check()) {
+HXLINE(2325)			_hx_tmp2 = (this->cooldown <= 0);
             		}
             		else {
-HXLINE(2323)			_hx_tmp2 = false;
+HXLINE(2325)			_hx_tmp2 = false;
             		}
-HXDLIN(2323)		if (_hx_tmp2) {
-HXLINE(2324)			::MainMenuStateAmmar_obj::difficultyChosen = true;
-HXLINE(2325)			::ClientPrefs_obj::aDifficulty = this->diff->__get(this->select).toLowerCase();
-HXLINE(2326)			::ClientPrefs_obj::saveSettings();
-HXLINE(2327)			this->close();
+HXDLIN(2325)		if (_hx_tmp2) {
+HXLINE(2326)			::MainMenuStateAmmar_obj::difficultyChosen = true;
+HXLINE(2327)			::ClientPrefs_obj::aDifficulty = this->diff->__get(this->select).toLowerCase();
+HXLINE(2328)			::ClientPrefs_obj::saveSettings();
+HXLINE(2329)			this->close();
             		}
-HXLINE(2330)		{
-HXLINE(2330)			int _g = 0;
-HXDLIN(2330)			::Array< ::Dynamic> _g1 = this->items;
-HXDLIN(2330)			while((_g < _g1->length)){
-HXLINE(2330)				 ::flixel::text::FlxText item = _g1->__get(_g).StaticCast<  ::flixel::text::FlxText >();
-HXDLIN(2330)				_g = (_g + 1);
-HXLINE(2331)				Float targetY = (((Float)360.) - (item->get_height() / ( (Float)(2) )));
-HXDLIN(2331)				Float targetY1 = (targetY + ((item->ID - this->select) * 80));
-HXLINE(2332)				Float a = item->y;
-HXDLIN(2332)				Float Value = (elapsed * ( (Float)(10) ));
-HXDLIN(2332)				Float lowerBound;
-HXDLIN(2332)				if ((Value < 0)) {
-HXLINE(2332)					lowerBound = ( (Float)(0) );
+HXLINE(2332)		{
+HXLINE(2332)			int _g = 0;
+HXDLIN(2332)			::Array< ::Dynamic> _g1 = this->items;
+HXDLIN(2332)			while((_g < _g1->length)){
+HXLINE(2332)				 ::flixel::text::FlxText item = _g1->__get(_g).StaticCast<  ::flixel::text::FlxText >();
+HXDLIN(2332)				_g = (_g + 1);
+HXLINE(2333)				Float targetY = (((Float)360.) - (item->get_height() / ( (Float)(2) )));
+HXDLIN(2333)				Float targetY1 = (targetY + ((item->ID - this->select) * 80));
+HXLINE(2334)				Float a = item->y;
+HXDLIN(2334)				Float Value = (elapsed * ( (Float)(10) ));
+HXDLIN(2334)				Float lowerBound;
+HXDLIN(2334)				if ((Value < 0)) {
+HXLINE(2334)					lowerBound = ( (Float)(0) );
             				}
             				else {
-HXLINE(2332)					lowerBound = Value;
+HXLINE(2334)					lowerBound = Value;
             				}
-HXDLIN(2332)				Float _hx_tmp3;
-HXDLIN(2332)				if ((lowerBound > 1)) {
-HXLINE(2332)					_hx_tmp3 = ( (Float)(1) );
+HXDLIN(2334)				Float _hx_tmp3;
+HXDLIN(2334)				if ((lowerBound > 1)) {
+HXLINE(2334)					_hx_tmp3 = ( (Float)(1) );
             				}
             				else {
-HXLINE(2332)					_hx_tmp3 = lowerBound;
+HXLINE(2334)					_hx_tmp3 = lowerBound;
             				}
-HXDLIN(2332)				item->set_y((a + (_hx_tmp3 * (targetY1 - a))));
+HXDLIN(2334)				item->set_y((a + (_hx_tmp3 * (targetY1 - a))));
             			}
             		}
             	}
 
 
 void DifficultyOption_obj::changeItem(int amount){
-            	HX_STACKFRAME(&_hx_pos_1b3720ee0da69f55_2336_changeItem)
-HXLINE(2337)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN(2337)		_hx_tmp->play(this->sounds->get(HX_("scroll",0d,d8,64,47)),null(),null(),null(),null(),null());
-HXLINE(2338)		 ::DifficultyOption _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(2338)		_hx_tmp1->select = (_hx_tmp1->select + amount);
-HXLINE(2339)		Float Value = ( (Float)(this->select) );
-HXDLIN(2339)		 ::Dynamic Max = (this->diff->length - 1);
-HXDLIN(2339)		Float lowerBound;
-HXDLIN(2339)		if ((Value < 0)) {
-HXLINE(2339)			lowerBound = ( (Float)(0) );
+            	HX_STACKFRAME(&_hx_pos_1b3720ee0da69f55_2338_changeItem)
+HXLINE(2339)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN(2339)		_hx_tmp->play(this->sounds->get(HX_("scroll",0d,d8,64,47)),null(),null(),null(),null(),null());
+HXLINE(2340)		 ::DifficultyOption _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(2340)		_hx_tmp1->select = (_hx_tmp1->select + amount);
+HXLINE(2341)		Float Value = ( (Float)(this->select) );
+HXDLIN(2341)		 ::Dynamic Max = (this->diff->length - 1);
+HXDLIN(2341)		Float lowerBound;
+HXDLIN(2341)		if ((Value < 0)) {
+HXLINE(2341)			lowerBound = ( (Float)(0) );
             		}
             		else {
-HXLINE(2339)			lowerBound = Value;
+HXLINE(2341)			lowerBound = Value;
             		}
-HXDLIN(2339)		Float _hx_tmp2;
-HXDLIN(2339)		bool _hx_tmp3;
-HXDLIN(2339)		if (::hx::IsNotNull( Max )) {
-HXLINE(2339)			_hx_tmp3 = ::hx::IsGreater( lowerBound,Max );
-            		}
-            		else {
-HXLINE(2339)			_hx_tmp3 = false;
-            		}
-HXDLIN(2339)		if (_hx_tmp3) {
-HXLINE(2339)			_hx_tmp2 = ( (Float)(Max) );
+HXDLIN(2341)		Float _hx_tmp2;
+HXDLIN(2341)		bool _hx_tmp3;
+HXDLIN(2341)		if (::hx::IsNotNull( Max )) {
+HXLINE(2341)			_hx_tmp3 = ::hx::IsGreater( lowerBound,Max );
             		}
             		else {
-HXLINE(2339)			_hx_tmp2 = lowerBound;
+HXLINE(2341)			_hx_tmp3 = false;
             		}
-HXDLIN(2339)		this->select = ::Std_obj::_hx_int(_hx_tmp2);
+HXDLIN(2341)		if (_hx_tmp3) {
+HXLINE(2341)			_hx_tmp2 = ( (Float)(Max) );
+            		}
+            		else {
+HXLINE(2341)			_hx_tmp2 = lowerBound;
+            		}
+HXDLIN(2341)		this->select = ::Std_obj::_hx_int(_hx_tmp2);
             	}
 
 

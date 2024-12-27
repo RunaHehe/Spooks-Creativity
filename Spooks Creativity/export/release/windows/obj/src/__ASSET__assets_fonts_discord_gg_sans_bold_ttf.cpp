@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_502f0934be43f2c3_1992_new,"__ASSET__assets_fonts_discord_gg_sans_bold_ttf","new",0xae237965,"__ASSET__assets_fonts_discord_gg_sans_bold_ttf.new","ManifestResources.hx",1992,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_502f0934be43f2c3_1993_new,"__ASSET__assets_fonts_discord_gg_sans_bold_ttf","new",0xae237965,"__ASSET__assets_fonts_discord_gg_sans_bold_ttf.new","ManifestResources.hx",1993,0xf77aa668)
 
 void __ASSET__assets_fonts_discord_gg_sans_bold_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_502f0934be43f2c3_1992_new)
-HXDLIN(1992)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Discord/gg sans Bold.ttf",64,32,59,52));
-HXDLIN(1992)		this->name = HX_("gg sans Bold",92,6a,6b,37);
-HXDLIN(1992)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_502f0934be43f2c3_1993_new)
+HXDLIN(1993)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Discord/gg sans Bold.ttf",64,32,59,52));
+HXDLIN(1993)		this->name = HX_("gg sans Bold",92,6a,6b,37);
+HXDLIN(1993)		super::__construct(null());
             	}
 
 Dynamic __ASSET__assets_fonts_discord_gg_sans_bold_ttf_obj::__CreateEmpty() { return new __ASSET__assets_fonts_discord_gg_sans_bold_ttf_obj; }

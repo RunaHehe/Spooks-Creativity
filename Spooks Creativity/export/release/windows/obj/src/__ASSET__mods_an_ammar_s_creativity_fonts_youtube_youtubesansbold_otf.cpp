@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_5536c0b13c1259ea_1990_new,"__ASSET__mods_an_ammar_s_creativity_fonts_youtube_youtubesansbold_otf","new",0xd8bbf27e,"__ASSET__mods_an_ammar_s_creativity_fonts_youtube_youtubesansbold_otf.new","ManifestResources.hx",1990,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_5536c0b13c1259ea_1991_new,"__ASSET__mods_an_ammar_s_creativity_fonts_youtube_youtubesansbold_otf","new",0xd8bbf27e,"__ASSET__mods_an_ammar_s_creativity_fonts_youtube_youtubesansbold_otf.new","ManifestResources.hx",1991,0xf77aa668)
 
 void __ASSET__mods_an_ammar_s_creativity_fonts_youtube_youtubesansbold_otf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_5536c0b13c1259ea_1990_new)
-HXDLIN(1990)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Youtube/YouTubeSansBold.otf",97,e7,60,a4));
-HXDLIN(1990)		this->name = HX_("YouTube Sans Bold",f5,e0,42,4c);
-HXDLIN(1990)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_5536c0b13c1259ea_1991_new)
+HXDLIN(1991)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Youtube/YouTubeSansBold.otf",97,e7,60,a4));
+HXDLIN(1991)		this->name = HX_("YouTube Sans Bold",f5,e0,42,4c);
+HXDLIN(1991)		super::__construct(null());
             	}
 
 Dynamic __ASSET__mods_an_ammar_s_creativity_fonts_youtube_youtubesansbold_otf_obj::__CreateEmpty() { return new __ASSET__mods_an_ammar_s_creativity_fonts_youtube_youtubesansbold_otf_obj; }

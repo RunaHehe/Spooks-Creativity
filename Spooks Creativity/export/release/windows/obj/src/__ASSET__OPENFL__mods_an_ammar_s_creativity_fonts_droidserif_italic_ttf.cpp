@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_0d01954aca7aeb4f_2096_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf","new",0x70241f02,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf.new","ManifestResources.hx",2096,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_0d01954aca7aeb4f_2097_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf","new",0x70241f02,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf.new","ManifestResources.hx",2097,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_0d01954aca7aeb4f_2096_new)
-HXDLIN(2096)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/DroidSerif-Italic.ttf",09,73,c0,5d));
-HXDLIN(2096)		this->name = HX_("Droid Serif Italic",f7,d4,b8,f6);
-HXDLIN(2096)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_0d01954aca7aeb4f_2097_new)
+HXDLIN(2097)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/DroidSerif-Italic.ttf",09,73,c0,5d));
+HXDLIN(2097)		this->name = HX_("Droid Serif Italic",f7,d4,b8,f6);
+HXDLIN(2097)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf_obj; }

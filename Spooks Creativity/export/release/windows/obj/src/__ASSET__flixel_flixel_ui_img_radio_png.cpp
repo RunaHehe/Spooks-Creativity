@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_445ea210d32be24e_346_new,"__ASSET__flixel_flixel_ui_img_radio_png","new",0xcf6eb360,"__ASSET__flixel_flixel_ui_img_radio_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_b42acdc1011da95b_1960_boot,"__ASSET__flixel_flixel_ui_img_radio_png","boot",0xa9874132,"__ASSET__flixel_flixel_ui_img_radio_png.boot","ManifestResources.hx",1960,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_b42acdc1011da95b_1961_boot,"__ASSET__flixel_flixel_ui_img_radio_png","boot",0xa9874132,"__ASSET__flixel_flixel_ui_img_radio_png.boot","ManifestResources.hx",1961,0xf77aa668)
 
 void __ASSET__flixel_flixel_ui_img_radio_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_445ea210d32be24e_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_flixel_ui_img_radio_png_obj::__register()
 void __ASSET__flixel_flixel_ui_img_radio_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_b42acdc1011da95b_1960_boot)
-HXDLIN(1960)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_radio_png",a0,60,63,c4);
+            	HX_STACKFRAME(&_hx_pos_b42acdc1011da95b_1961_boot)
+HXDLIN(1961)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_radio_png",a0,60,63,c4);
             	}
 }
 

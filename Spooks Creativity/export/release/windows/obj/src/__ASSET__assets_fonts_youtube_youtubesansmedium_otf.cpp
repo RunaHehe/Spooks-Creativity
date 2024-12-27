@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_00281037bba8ca52_2004_new,"__ASSET__assets_fonts_youtube_youtubesansmedium_otf","new",0x27b851fc,"__ASSET__assets_fonts_youtube_youtubesansmedium_otf.new","ManifestResources.hx",2004,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_00281037bba8ca52_2005_new,"__ASSET__assets_fonts_youtube_youtubesansmedium_otf","new",0x27b851fc,"__ASSET__assets_fonts_youtube_youtubesansmedium_otf.new","ManifestResources.hx",2005,0xf77aa668)
 
 void __ASSET__assets_fonts_youtube_youtubesansmedium_otf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_00281037bba8ca52_2004_new)
-HXDLIN(2004)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Youtube/YouTubeSansMedium.otf",7b,bc,e1,df));
-HXDLIN(2004)		this->name = HX_("YouTube Sans Medium",e5,6f,1a,aa);
-HXDLIN(2004)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_00281037bba8ca52_2005_new)
+HXDLIN(2005)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Youtube/YouTubeSansMedium.otf",7b,bc,e1,df));
+HXDLIN(2005)		this->name = HX_("YouTube Sans Medium",e5,6f,1a,aa);
+HXDLIN(2005)		super::__construct(null());
             	}
 
 Dynamic __ASSET__assets_fonts_youtube_youtubesansmedium_otf_obj::__CreateEmpty() { return new __ASSET__assets_fonts_youtube_youtubesansmedium_otf_obj; }

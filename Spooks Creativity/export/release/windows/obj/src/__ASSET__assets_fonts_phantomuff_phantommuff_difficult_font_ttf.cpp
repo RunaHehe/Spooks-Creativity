@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_17e40f44adffba40_1999_new,"__ASSET__assets_fonts_phantomuff_phantommuff_difficult_font_ttf","new",0x984b9dc3,"__ASSET__assets_fonts_phantomuff_phantommuff_difficult_font_ttf.new","ManifestResources.hx",1999,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_17e40f44adffba40_2000_new,"__ASSET__assets_fonts_phantomuff_phantommuff_difficult_font_ttf","new",0x984b9dc3,"__ASSET__assets_fonts_phantomuff_phantommuff_difficult_font_ttf.new","ManifestResources.hx",2000,0xf77aa668)
 
 void __ASSET__assets_fonts_phantomuff_phantommuff_difficult_font_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_17e40f44adffba40_1999_new)
-HXDLIN(1999)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Phantomuff/PhantomMuff Difficult Font.ttf",24,3b,24,fb));
-HXDLIN(1999)		this->name = HX_("Pah",37,09,3d,00);
-HXDLIN(1999)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_17e40f44adffba40_2000_new)
+HXDLIN(2000)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Phantomuff/PhantomMuff Difficult Font.ttf",24,3b,24,fb));
+HXDLIN(2000)		this->name = HX_("Pah",37,09,3d,00);
+HXDLIN(2000)		super::__construct(null());
             	}
 
 Dynamic __ASSET__assets_fonts_phantomuff_phantommuff_difficult_font_ttf_obj::__CreateEmpty() { return new __ASSET__assets_fonts_phantomuff_phantommuff_difficult_font_ttf_obj; }

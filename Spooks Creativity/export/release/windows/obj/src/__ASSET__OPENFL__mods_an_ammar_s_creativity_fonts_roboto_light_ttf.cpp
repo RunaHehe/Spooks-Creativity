@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_8de29a1adc9add04_2108_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_light_ttf","new",0xf0852e1a,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_light_ttf.new","ManifestResources.hx",2108,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_8de29a1adc9add04_2109_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_light_ttf","new",0xf0852e1a,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_light_ttf.new","ManifestResources.hx",2109,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_light_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_8de29a1adc9add04_2108_new)
-HXDLIN(2108)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Roboto-Light.ttf",71,a5,33,81));
-HXDLIN(2108)		this->name = HX_("Roboto Light",3b,c9,2f,c9);
-HXDLIN(2108)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_8de29a1adc9add04_2109_new)
+HXDLIN(2109)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Roboto-Light.ttf",71,a5,33,81));
+HXDLIN(2109)		this->name = HX_("Roboto Light",3b,c9,2f,c9);
+HXDLIN(2109)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_light_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_light_ttf_obj; }

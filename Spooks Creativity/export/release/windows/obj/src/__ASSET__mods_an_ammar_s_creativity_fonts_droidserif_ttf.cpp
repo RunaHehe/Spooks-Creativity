@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_b5a622edb0c83b71_1975_new,"__ASSET__mods_an_ammar_s_creativity_fonts_droidserif_ttf","new",0x60d812af,"__ASSET__mods_an_ammar_s_creativity_fonts_droidserif_ttf.new","ManifestResources.hx",1975,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_b5a622edb0c83b71_1976_new,"__ASSET__mods_an_ammar_s_creativity_fonts_droidserif_ttf","new",0x60d812af,"__ASSET__mods_an_ammar_s_creativity_fonts_droidserif_ttf.new","ManifestResources.hx",1976,0xf77aa668)
 
 void __ASSET__mods_an_ammar_s_creativity_fonts_droidserif_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_b5a622edb0c83b71_1975_new)
-HXDLIN(1975)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/DroidSerif.ttf",e4,ce,98,a8));
-HXDLIN(1975)		this->name = HX_("Droid Serif",59,b3,c4,df);
-HXDLIN(1975)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_b5a622edb0c83b71_1976_new)
+HXDLIN(1976)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/DroidSerif.ttf",e4,ce,98,a8));
+HXDLIN(1976)		this->name = HX_("Droid Serif",59,b3,c4,df);
+HXDLIN(1976)		super::__construct(null());
             	}
 
 Dynamic __ASSET__mods_an_ammar_s_creativity_fonts_droidserif_ttf_obj::__CreateEmpty() { return new __ASSET__mods_an_ammar_s_creativity_fonts_droidserif_ttf_obj; }

@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_257cfd604158f504_2092_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf","new",0xacf6774b,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf.new","ManifestResources.hx",2092,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_257cfd604158f504_2093_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf","new",0xacf6774b,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf.new","ManifestResources.hx",2093,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_257cfd604158f504_2092_new)
-HXDLIN(2092)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/1_Minecraft-Regular.otf",96,66,99,66));
-HXDLIN(2092)		this->name = HX_("Minecraft Regular",29,a4,c4,a6);
-HXDLIN(2092)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_257cfd604158f504_2093_new)
+HXDLIN(2093)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/1_Minecraft-Regular.otf",96,66,99,66));
+HXDLIN(2093)		this->name = HX_("Minecraft Regular",29,a4,c4,a6);
+HXDLIN(2093)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_1_minecraft_regular_otf_obj; }

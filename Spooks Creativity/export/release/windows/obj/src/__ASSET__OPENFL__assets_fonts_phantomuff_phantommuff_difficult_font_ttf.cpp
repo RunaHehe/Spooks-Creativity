@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_aabdefc5beeaa14a_2121_new,"__ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_difficult_font_ttf","new",0x9a6eb073,"__ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_difficult_font_ttf.new","ManifestResources.hx",2121,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_aabdefc5beeaa14a_2122_new,"__ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_difficult_font_ttf","new",0x9a6eb073,"__ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_difficult_font_ttf.new","ManifestResources.hx",2122,0xf77aa668)
 
 void __ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_difficult_font_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_aabdefc5beeaa14a_2121_new)
-HXDLIN(2121)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Phantomuff/PhantomMuff Difficult Font.ttf",24,3b,24,fb));
-HXDLIN(2121)		this->name = HX_("Pah",37,09,3d,00);
-HXDLIN(2121)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_aabdefc5beeaa14a_2122_new)
+HXDLIN(2122)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Phantomuff/PhantomMuff Difficult Font.ttf",24,3b,24,fb));
+HXDLIN(2122)		this->name = HX_("Pah",37,09,3d,00);
+HXDLIN(2122)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_difficult_font_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_difficult_font_ttf_obj; }

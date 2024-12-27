@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_af68cb05d0b5fbea_1994_new,"__ASSET__assets_fonts_discord_ggsans_normal_ttf","new",0x5c02b2d2,"__ASSET__assets_fonts_discord_ggsans_normal_ttf.new","ManifestResources.hx",1994,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_af68cb05d0b5fbea_1995_new,"__ASSET__assets_fonts_discord_ggsans_normal_ttf","new",0x5c02b2d2,"__ASSET__assets_fonts_discord_ggsans_normal_ttf.new","ManifestResources.hx",1995,0xf77aa668)
 
 void __ASSET__assets_fonts_discord_ggsans_normal_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_af68cb05d0b5fbea_1994_new)
-HXDLIN(1994)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Discord/ggsans-Normal.ttf",7f,cf,48,b8));
-HXDLIN(1994)		this->name = HX_("gg sans Normal",74,78,4f,49);
-HXDLIN(1994)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_af68cb05d0b5fbea_1995_new)
+HXDLIN(1995)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Discord/ggsans-Normal.ttf",7f,cf,48,b8));
+HXDLIN(1995)		this->name = HX_("gg sans Normal",74,78,4f,49);
+HXDLIN(1995)		super::__construct(null());
             	}
 
 Dynamic __ASSET__assets_fonts_discord_ggsans_normal_ttf_obj::__CreateEmpty() { return new __ASSET__assets_fonts_discord_ggsans_normal_ttf_obj; }

@@ -252,7 +252,6 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_moderator_modchart_lua_new extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_moderator_moderator_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_moderator_voicecall_lua extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_moderator_wiggly_holds_lua extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_myself_events_lua extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_myself_facecam_lua extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_myself_icon_lua extends null { }
@@ -267,6 +266,7 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_no_debug_scripte_lua extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_no_debug_traildoublenote_lua extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_no_debug_zevents_lua extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_note_nova_discordmembers_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_note_nova_icon_lua extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_note_nova_note_nova_json extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_data_owen_was_her_events_txt extends null { }
@@ -1123,6 +1123,7 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_an_ammar_s_creativity_images_computer_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_an_ammar_s_creativity_images_credits_ammar_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_an_ammar_s_creativity_images_credits_dave_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_an_ammar_s_creativity_images_credits_duck_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_an_ammar_s_creativity_images_credits_looky_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_an_ammar_s_creativity_images_credits_luna_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__mods_an_ammar_s_creativity_images_credits_mint_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }

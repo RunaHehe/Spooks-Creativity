@@ -66,54 +66,54 @@
 #include <openfl/events/IEventDispatcher.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_3b7213395c1228ff_2343_new,"StorySprite","new",0xc315e7ac,"StorySprite.new","MainMenuStateAmmar.hx",2343,0x38c8c245)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b7213395c1228ff_2368_update,"StorySprite","update",0xcfa8063d,"StorySprite.update","MainMenuStateAmmar.hx",2368,0x38c8c245)
+HX_DEFINE_STACK_FRAME(_hx_pos_3b7213395c1228ff_2345_new,"StorySprite","new",0xc315e7ac,"StorySprite.new","MainMenuStateAmmar.hx",2345,0x38c8c245)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b7213395c1228ff_2370_update,"StorySprite","update",0xcfa8063d,"StorySprite.update","MainMenuStateAmmar.hx",2370,0x38c8c245)
 
 void StorySprite_obj::__construct(Float x,Float y,::String path, ::Dynamic scaleMultiply,::hx::Null< int >  __o_orda){
             		int orda = __o_orda.Default(0);
-            	HX_STACKFRAME(&_hx_pos_3b7213395c1228ff_2343_new)
-HXLINE(2352)		this->daOrder = 0;
-HXLINE(2351)		this->zoomSin = false;
-HXLINE(2350)		this->sinOff = ((Float)0);
-HXLINE(2349)		this->sinY = false;
-HXLINE(2348)		this->centery = ((Float)0);
-HXLINE(2347)		this->centerx = ((Float)0);
-HXLINE(2356)		super::__construct(x,y,null());
-HXLINE(2357)		::String library = null();
-HXDLIN(2357)		 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(path,library);
-HXDLIN(2357)		this->loadGraphic(returnAsset,null(),null(),null(),null(),null());
-HXLINE(2358)		if (::hx::IsNotNull( scaleMultiply )) {
-HXLINE(2359)			this->setGraphicSize(::Std_obj::_hx_int((this->get_width() * ( (Float)(scaleMultiply) ))),null());
-HXLINE(2360)			this->updateHitbox();
+            	HX_STACKFRAME(&_hx_pos_3b7213395c1228ff_2345_new)
+HXLINE(2354)		this->daOrder = 0;
+HXLINE(2353)		this->zoomSin = false;
+HXLINE(2352)		this->sinOff = ((Float)0);
+HXLINE(2351)		this->sinY = false;
+HXLINE(2350)		this->centery = ((Float)0);
+HXLINE(2349)		this->centerx = ((Float)0);
+HXLINE(2358)		super::__construct(x,y,null());
+HXLINE(2359)		::String library = null();
+HXDLIN(2359)		 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(path,library);
+HXDLIN(2359)		this->loadGraphic(returnAsset,null(),null(),null(),null(),null());
+HXLINE(2360)		if (::hx::IsNotNull( scaleMultiply )) {
+HXLINE(2361)			this->setGraphicSize(::Std_obj::_hx_int((this->get_width() * ( (Float)(scaleMultiply) ))),null());
+HXLINE(2362)			this->updateHitbox();
             		}
-HXLINE(2362)		{
-HXLINE(2362)			int axes = 17;
-HXDLIN(2362)			bool _hx_tmp;
-HXDLIN(2362)			if ((axes != 1)) {
-HXLINE(2362)				_hx_tmp = (axes == 17);
+HXLINE(2364)		{
+HXLINE(2364)			int axes = 17;
+HXDLIN(2364)			bool _hx_tmp;
+HXDLIN(2364)			if ((axes != 1)) {
+HXLINE(2364)				_hx_tmp = (axes == 17);
             			}
             			else {
-HXLINE(2362)				_hx_tmp = true;
+HXLINE(2364)				_hx_tmp = true;
             			}
-HXDLIN(2362)			if (_hx_tmp) {
-HXLINE(2362)				int _hx_tmp1 = ::flixel::FlxG_obj::width;
-HXDLIN(2362)				this->set_x(((( (Float)(_hx_tmp1) ) - this->get_width()) / ( (Float)(2) )));
+HXDLIN(2364)			if (_hx_tmp) {
+HXLINE(2364)				int _hx_tmp1 = ::flixel::FlxG_obj::width;
+HXDLIN(2364)				this->set_x(((( (Float)(_hx_tmp1) ) - this->get_width()) / ( (Float)(2) )));
             			}
-HXDLIN(2362)			bool _hx_tmp2;
-HXDLIN(2362)			if ((axes != 16)) {
-HXLINE(2362)				_hx_tmp2 = (axes == 17);
+HXDLIN(2364)			bool _hx_tmp2;
+HXDLIN(2364)			if ((axes != 16)) {
+HXLINE(2364)				_hx_tmp2 = (axes == 17);
             			}
             			else {
-HXLINE(2362)				_hx_tmp2 = true;
+HXLINE(2364)				_hx_tmp2 = true;
             			}
-HXDLIN(2362)			if (_hx_tmp2) {
-HXLINE(2362)				int _hx_tmp3 = ::flixel::FlxG_obj::height;
-HXDLIN(2362)				this->set_y(((( (Float)(_hx_tmp3) ) - this->get_height()) / ( (Float)(2) )));
+HXDLIN(2364)			if (_hx_tmp2) {
+HXLINE(2364)				int _hx_tmp3 = ::flixel::FlxG_obj::height;
+HXDLIN(2364)				this->set_y(((( (Float)(_hx_tmp3) ) - this->get_height()) / ( (Float)(2) )));
             			}
             		}
-HXLINE(2363)		this->centerx = x;
-HXLINE(2364)		this->centery = y;
-HXLINE(2365)		this->daOrder = orda;
+HXLINE(2365)		this->centerx = x;
+HXLINE(2366)		this->centery = y;
+HXLINE(2367)		this->daOrder = orda;
             	}
 
 Dynamic StorySprite_obj::__CreateEmpty() { return new StorySprite_obj; }
@@ -140,16 +140,16 @@ bool StorySprite_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void StorySprite_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_3b7213395c1228ff_2368_update)
-HXLINE(2369)		if (this->sinY) {
-HXLINE(2370)			this->set_y((this->centery + (::Math_obj::sin(((( (Float)(::flixel::FlxG_obj::game->ticks) ) / ( (Float)(800) )) + this->sinOff)) * ( (Float)(5) ))));
+            	HX_STACKFRAME(&_hx_pos_3b7213395c1228ff_2370_update)
+HXLINE(2371)		if (this->sinY) {
+HXLINE(2372)			this->set_y((this->centery + (::Math_obj::sin(((( (Float)(::flixel::FlxG_obj::game->ticks) ) / ( (Float)(800) )) + this->sinOff)) * ( (Float)(5) ))));
             		}
-HXLINE(2371)		if (this->zoomSin) {
-HXLINE(2372)			Float scal = (((Float)1.11) + (::Math_obj::sin((this->sinOff + (( (Float)(::flixel::FlxG_obj::game->ticks) ) / ( (Float)(780) )))) * ((Float)0.1)));
-HXLINE(2373)			{
-HXLINE(2373)				 ::flixel::math::FlxBasePoint this1 = this->scale;
-HXDLIN(2373)				this1->set_x(scal);
-HXDLIN(2373)				this1->set_y(scal);
+HXLINE(2373)		if (this->zoomSin) {
+HXLINE(2374)			Float scal = (((Float)1.11) + (::Math_obj::sin((this->sinOff + (( (Float)(::flixel::FlxG_obj::game->ticks) ) / ( (Float)(780) )))) * ((Float)0.1)));
+HXLINE(2375)			{
+HXLINE(2375)				 ::flixel::math::FlxBasePoint this1 = this->scale;
+HXDLIN(2375)				this1->set_x(scal);
+HXDLIN(2375)				this1->set_y(scal);
             			}
             		}
             	}

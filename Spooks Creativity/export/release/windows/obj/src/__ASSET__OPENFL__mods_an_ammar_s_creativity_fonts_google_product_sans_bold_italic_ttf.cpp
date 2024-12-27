@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_8ddf6f8e6095cbac_2101_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_italic_ttf","new",0xedcd7da8,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_italic_ttf.new","ManifestResources.hx",2101,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_8ddf6f8e6095cbac_2102_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_italic_ttf","new",0xedcd7da8,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_italic_ttf.new","ManifestResources.hx",2102,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_italic_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_8ddf6f8e6095cbac_2101_new)
-HXDLIN(2101)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Google/Product Sans Bold Italic.ttf",52,c1,43,74));
-HXDLIN(2101)		this->name = HX_("Product Sans Bold Italic",2f,09,05,fb);
-HXDLIN(2101)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_8ddf6f8e6095cbac_2102_new)
+HXDLIN(2102)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Google/Product Sans Bold Italic.ttf",52,c1,43,74));
+HXDLIN(2102)		this->name = HX_("Product Sans Bold Italic",2f,09,05,fb);
+HXDLIN(2102)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_italic_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_italic_ttf_obj; }

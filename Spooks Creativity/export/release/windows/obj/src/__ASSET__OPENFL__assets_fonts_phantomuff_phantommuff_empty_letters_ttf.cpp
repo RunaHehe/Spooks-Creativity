@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6a7a8682cd5f8364_2122_new,"__ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_empty_letters_ttf","new",0x7a22acca,"__ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_empty_letters_ttf.new","ManifestResources.hx",2122,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_6a7a8682cd5f8364_2123_new,"__ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_empty_letters_ttf","new",0x7a22acca,"__ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_empty_letters_ttf.new","ManifestResources.hx",2123,0xf77aa668)
 
 void __ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_empty_letters_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_6a7a8682cd5f8364_2122_new)
-HXDLIN(2122)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Phantomuff/PhantomMuff Empty Letters.ttf",97,da,f8,d5));
-HXDLIN(2122)		this->name = HX_("PhantomMuff 1.5",0d,79,26,b7);
-HXDLIN(2122)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_6a7a8682cd5f8364_2123_new)
+HXDLIN(2123)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Phantomuff/PhantomMuff Empty Letters.ttf",97,da,f8,d5));
+HXDLIN(2123)		this->name = HX_("PhantomMuff 1.5",0d,79,26,b7);
+HXDLIN(2123)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_empty_letters_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__assets_fonts_phantomuff_phantommuff_empty_letters_ttf_obj; }

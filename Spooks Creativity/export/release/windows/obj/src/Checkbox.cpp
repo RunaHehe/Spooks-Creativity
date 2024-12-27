@@ -62,62 +62,62 @@
 #include <sys/io/File.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_688e754e7bc9094f_2199_new,"Checkbox","new",0x6bed9cd5,"Checkbox.new","MainMenuStateAmmar.hx",2199,0x38c8c245)
-HX_LOCAL_STACK_FRAME(_hx_pos_688e754e7bc9094f_2227_update,"Checkbox","update",0xc5e930b4,"Checkbox.update","MainMenuStateAmmar.hx",2227,0x38c8c245)
-HX_LOCAL_STACK_FRAME(_hx_pos_688e754e7bc9094f_2237_set_daValue,"Checkbox","set_daValue",0x50e8834c,"Checkbox.set_daValue","MainMenuStateAmmar.hx",2237,0x38c8c245)
-HX_LOCAL_STACK_FRAME(_hx_pos_688e754e7bc9094f_2252_animationFinished,"Checkbox","animationFinished",0x7a68b1cb,"Checkbox.animationFinished","MainMenuStateAmmar.hx",2252,0x38c8c245)
+HX_DEFINE_STACK_FRAME(_hx_pos_688e754e7bc9094f_2201_new,"Checkbox","new",0x6bed9cd5,"Checkbox.new","MainMenuStateAmmar.hx",2201,0x38c8c245)
+HX_LOCAL_STACK_FRAME(_hx_pos_688e754e7bc9094f_2229_update,"Checkbox","update",0xc5e930b4,"Checkbox.update","MainMenuStateAmmar.hx",2229,0x38c8c245)
+HX_LOCAL_STACK_FRAME(_hx_pos_688e754e7bc9094f_2239_set_daValue,"Checkbox","set_daValue",0x50e8834c,"Checkbox.set_daValue","MainMenuStateAmmar.hx",2239,0x38c8c245)
+HX_LOCAL_STACK_FRAME(_hx_pos_688e754e7bc9094f_2254_animationFinished,"Checkbox","animationFinished",0x7a68b1cb,"Checkbox.animationFinished","MainMenuStateAmmar.hx",2254,0x38c8c245)
 
 void Checkbox_obj::__construct(::hx::Null< Float >  __o_x,::hx::Null< Float >  __o_y, ::Dynamic __o_checked){
             		Float x = __o_x.Default(0);
             		Float y = __o_y.Default(0);
             		 ::Dynamic checked = __o_checked;
             		if (::hx::IsNull(__o_checked)) checked = false;
-            	HX_STACKFRAME(&_hx_pos_688e754e7bc9094f_2199_new)
-HXLINE(2208)		this->isPressingOnMe = false;
-HXLINE(2206)		this->objectID = 0;
-HXLINE(2205)		this->offsetY = ((Float)0);
-HXLINE(2204)		this->offsetX = ((Float)0);
-HXLINE(2203)		this->copyAlpha = false;
-HXLINE(2210)		super::__construct(x,y,null());
-HXLINE(2212)		::String library = null();
-HXDLIN(2212)		 ::flixel::graphics::FlxGraphic imageLoaded = ::Paths_obj::returnGraphic(HX_("checkboxanim",d4,35,91,c5),null());
-HXDLIN(2212)		bool xmlExists = false;
-HXDLIN(2212)		if (::sys::FileSystem_obj::exists(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("checkboxanim",d4,35,91,c5)) + HX_(".xml",69,3e,c3,1e))))) {
-HXLINE(2212)			xmlExists = true;
+            	HX_STACKFRAME(&_hx_pos_688e754e7bc9094f_2201_new)
+HXLINE(2210)		this->isPressingOnMe = false;
+HXLINE(2208)		this->objectID = 0;
+HXLINE(2207)		this->offsetY = ((Float)0);
+HXLINE(2206)		this->offsetX = ((Float)0);
+HXLINE(2205)		this->copyAlpha = false;
+HXLINE(2212)		super::__construct(x,y,null());
+HXLINE(2214)		::String library = null();
+HXDLIN(2214)		 ::flixel::graphics::FlxGraphic imageLoaded = ::Paths_obj::returnGraphic(HX_("checkboxanim",d4,35,91,c5),null());
+HXDLIN(2214)		bool xmlExists = false;
+HXDLIN(2214)		if (::sys::FileSystem_obj::exists(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("checkboxanim",d4,35,91,c5)) + HX_(".xml",69,3e,c3,1e))))) {
+HXLINE(2214)			xmlExists = true;
             		}
-HXDLIN(2212)		 ::Dynamic _hx_tmp;
-HXDLIN(2212)		if (::hx::IsNotNull( imageLoaded )) {
-HXLINE(2212)			_hx_tmp = imageLoaded;
-            		}
-            		else {
-HXLINE(2212)			 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(HX_("checkboxanim",d4,35,91,c5),library);
-HXDLIN(2212)			_hx_tmp = returnAsset;
-            		}
-HXDLIN(2212)		 ::Dynamic _hx_tmp1;
-HXDLIN(2212)		if (xmlExists) {
-HXLINE(2212)			_hx_tmp1 = ::sys::io::File_obj::getContent(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("checkboxanim",d4,35,91,c5)) + HX_(".xml",69,3e,c3,1e))));
+HXDLIN(2214)		 ::Dynamic _hx_tmp;
+HXDLIN(2214)		if (::hx::IsNotNull( imageLoaded )) {
+HXLINE(2214)			_hx_tmp = imageLoaded;
             		}
             		else {
-HXLINE(2212)			_hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("checkboxanim",d4,35,91,c5)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library);
+HXLINE(2214)			 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(HX_("checkboxanim",d4,35,91,c5),library);
+HXDLIN(2214)			_hx_tmp = returnAsset;
             		}
-HXDLIN(2212)		this->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp,_hx_tmp1));
-HXLINE(2213)		this->animation->addByPrefix(HX_("unchecked",ee,b9,26,0f),HX_("checkbox0",8d,28,22,aa),24,false,null(),null());
-HXLINE(2214)		this->animation->addByPrefix(HX_("unchecking",73,08,bf,32),HX_("checkbox anim reverse",10,6c,75,b1),24,false,null(),null());
-HXLINE(2215)		this->animation->addByPrefix(HX_("checking",1a,21,fb,ac),HX_("checkbox anim0",62,bb,8c,be),24,false,null(),null());
-HXLINE(2216)		this->animation->addByPrefix(HX_("checked",27,b3,24,13),HX_("checkbox finish",90,64,aa,1e),24,false,null(),null());
-HXLINE(2218)		this->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
-HXLINE(2219)		this->setGraphicSize(::Std_obj::_hx_int((((Float)0.9) * this->get_width())),null());
-HXLINE(2220)		this->updateHitbox();
-HXLINE(2222)		::String _hx_tmp2;
-HXDLIN(2222)		if (( (bool)(checked) )) {
-HXLINE(2222)			_hx_tmp2 = HX_("checking",1a,21,fb,ac);
+HXDLIN(2214)		 ::Dynamic _hx_tmp1;
+HXDLIN(2214)		if (xmlExists) {
+HXLINE(2214)			_hx_tmp1 = ::sys::io::File_obj::getContent(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("checkboxanim",d4,35,91,c5)) + HX_(".xml",69,3e,c3,1e))));
             		}
             		else {
-HXLINE(2222)			_hx_tmp2 = HX_("unchecking",73,08,bf,32);
+HXLINE(2214)			_hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("checkboxanim",d4,35,91,c5)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library);
             		}
-HXDLIN(2222)		this->animationFinished(_hx_tmp2);
-HXLINE(2223)		this->animation->finishCallback = this->animationFinished_dyn();
-HXLINE(2224)		this->set_daValue(( (bool)(checked) ));
+HXDLIN(2214)		this->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp,_hx_tmp1));
+HXLINE(2215)		this->animation->addByPrefix(HX_("unchecked",ee,b9,26,0f),HX_("checkbox0",8d,28,22,aa),24,false,null(),null());
+HXLINE(2216)		this->animation->addByPrefix(HX_("unchecking",73,08,bf,32),HX_("checkbox anim reverse",10,6c,75,b1),24,false,null(),null());
+HXLINE(2217)		this->animation->addByPrefix(HX_("checking",1a,21,fb,ac),HX_("checkbox anim0",62,bb,8c,be),24,false,null(),null());
+HXLINE(2218)		this->animation->addByPrefix(HX_("checked",27,b3,24,13),HX_("checkbox finish",90,64,aa,1e),24,false,null(),null());
+HXLINE(2220)		this->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
+HXLINE(2221)		this->setGraphicSize(::Std_obj::_hx_int((((Float)0.9) * this->get_width())),null());
+HXLINE(2222)		this->updateHitbox();
+HXLINE(2224)		::String _hx_tmp2;
+HXDLIN(2224)		if (( (bool)(checked) )) {
+HXLINE(2224)			_hx_tmp2 = HX_("checking",1a,21,fb,ac);
+            		}
+            		else {
+HXLINE(2224)			_hx_tmp2 = HX_("unchecking",73,08,bf,32);
+            		}
+HXDLIN(2224)		this->animationFinished(_hx_tmp2);
+HXLINE(2225)		this->animation->finishCallback = this->animationFinished_dyn();
+HXLINE(2226)		this->set_daValue(( (bool)(checked) ));
             	}
 
 Dynamic Checkbox_obj::__CreateEmpty() { return new Checkbox_obj; }
@@ -144,79 +144,79 @@ bool Checkbox_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Checkbox_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_688e754e7bc9094f_2227_update)
-HXLINE(2228)		if (::hx::IsNotNull( this->sprTracker )) {
-HXLINE(2229)			this->setPosition(((this->sprTracker->x - ( (Float)(130) )) + this->offsetX),((this->sprTracker->y + 30) + this->offsetY));
-HXLINE(2230)			if (this->copyAlpha) {
-HXLINE(2231)				this->set_alpha(this->sprTracker->alpha);
+            	HX_STACKFRAME(&_hx_pos_688e754e7bc9094f_2229_update)
+HXLINE(2230)		if (::hx::IsNotNull( this->sprTracker )) {
+HXLINE(2231)			this->setPosition(((this->sprTracker->x - ( (Float)(130) )) + this->offsetX),((this->sprTracker->y + 30) + this->offsetY));
+HXLINE(2232)			if (this->copyAlpha) {
+HXLINE(2233)				this->set_alpha(this->sprTracker->alpha);
             			}
             		}
-HXLINE(2234)		this->super::update(elapsed);
+HXLINE(2236)		this->super::update(elapsed);
             	}
 
 
 bool Checkbox_obj::set_daValue(bool check){
-            	HX_STACKFRAME(&_hx_pos_688e754e7bc9094f_2237_set_daValue)
-HXLINE(2238)		if (check) {
-HXLINE(2239)			bool _hx_tmp;
-HXDLIN(2239)			if ((this->animation->_curAnim->name != HX_("checked",27,b3,24,13))) {
-HXLINE(2239)				_hx_tmp = (this->animation->_curAnim->name != HX_("checking",1a,21,fb,ac));
+            	HX_STACKFRAME(&_hx_pos_688e754e7bc9094f_2239_set_daValue)
+HXLINE(2240)		if (check) {
+HXLINE(2241)			bool _hx_tmp;
+HXDLIN(2241)			if ((this->animation->_curAnim->name != HX_("checked",27,b3,24,13))) {
+HXLINE(2241)				_hx_tmp = (this->animation->_curAnim->name != HX_("checking",1a,21,fb,ac));
             			}
             			else {
-HXLINE(2239)				_hx_tmp = false;
+HXLINE(2241)				_hx_tmp = false;
             			}
-HXDLIN(2239)			if (_hx_tmp) {
-HXLINE(2240)				this->animation->play(HX_("checking",1a,21,fb,ac),true,null(),null());
-HXLINE(2241)				{
-HXLINE(2241)					 ::flixel::math::FlxBasePoint this1 = this->offset;
-HXDLIN(2241)					this1->set_x(( (Float)(34) ));
-HXDLIN(2241)					this1->set_y(( (Float)(25) ));
+HXDLIN(2241)			if (_hx_tmp) {
+HXLINE(2242)				this->animation->play(HX_("checking",1a,21,fb,ac),true,null(),null());
+HXLINE(2243)				{
+HXLINE(2243)					 ::flixel::math::FlxBasePoint this1 = this->offset;
+HXDLIN(2243)					this1->set_x(( (Float)(34) ));
+HXDLIN(2243)					this1->set_y(( (Float)(25) ));
             				}
             			}
             		}
             		else {
-HXLINE(2243)			bool _hx_tmp1;
-HXDLIN(2243)			if ((this->animation->_curAnim->name != HX_("unchecked",ee,b9,26,0f))) {
-HXLINE(2243)				_hx_tmp1 = (this->animation->_curAnim->name != HX_("unchecking",73,08,bf,32));
+HXLINE(2245)			bool _hx_tmp1;
+HXDLIN(2245)			if ((this->animation->_curAnim->name != HX_("unchecked",ee,b9,26,0f))) {
+HXLINE(2245)				_hx_tmp1 = (this->animation->_curAnim->name != HX_("unchecking",73,08,bf,32));
             			}
             			else {
-HXLINE(2243)				_hx_tmp1 = false;
+HXLINE(2245)				_hx_tmp1 = false;
             			}
-HXDLIN(2243)			if (_hx_tmp1) {
-HXLINE(2244)				this->animation->play(HX_("unchecking",73,08,bf,32),true,null(),null());
-HXLINE(2245)				{
-HXLINE(2245)					 ::flixel::math::FlxBasePoint this2 = this->offset;
-HXDLIN(2245)					this2->set_x(( (Float)(25) ));
-HXDLIN(2245)					this2->set_y(( (Float)(28) ));
+HXDLIN(2245)			if (_hx_tmp1) {
+HXLINE(2246)				this->animation->play(HX_("unchecking",73,08,bf,32),true,null(),null());
+HXLINE(2247)				{
+HXLINE(2247)					 ::flixel::math::FlxBasePoint this2 = this->offset;
+HXDLIN(2247)					this2->set_x(( (Float)(25) ));
+HXDLIN(2247)					this2->set_y(( (Float)(28) ));
             				}
             			}
             		}
-HXLINE(2247)		return check;
+HXLINE(2249)		return check;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Checkbox_obj,set_daValue,return )
 
 void Checkbox_obj::animationFinished(::String name){
-            	HX_STACKFRAME(&_hx_pos_688e754e7bc9094f_2252_animationFinished)
-HXDLIN(2252)		::String _hx_switch_0 = name;
+            	HX_STACKFRAME(&_hx_pos_688e754e7bc9094f_2254_animationFinished)
+HXDLIN(2254)		::String _hx_switch_0 = name;
             		if (  (_hx_switch_0==HX_("checking",1a,21,fb,ac)) ){
-HXLINE(2255)			this->animation->play(HX_("checked",27,b3,24,13),true,null(),null());
-HXLINE(2256)			{
-HXLINE(2256)				 ::flixel::math::FlxBasePoint this1 = this->offset;
-HXDLIN(2256)				this1->set_x(( (Float)(3) ));
-HXDLIN(2256)				this1->set_y(( (Float)(12) ));
+HXLINE(2257)			this->animation->play(HX_("checked",27,b3,24,13),true,null(),null());
+HXLINE(2258)			{
+HXLINE(2258)				 ::flixel::math::FlxBasePoint this1 = this->offset;
+HXDLIN(2258)				this1->set_x(( (Float)(3) ));
+HXDLIN(2258)				this1->set_y(( (Float)(12) ));
             			}
-HXLINE(2254)			goto _hx_goto_3;
+HXLINE(2256)			goto _hx_goto_3;
             		}
             		if (  (_hx_switch_0==HX_("unchecking",73,08,bf,32)) ){
-HXLINE(2259)			this->animation->play(HX_("unchecked",ee,b9,26,0f),true,null(),null());
-HXLINE(2260)			{
-HXLINE(2260)				 ::flixel::math::FlxBasePoint this2 = this->offset;
-HXDLIN(2260)				this2->set_x(( (Float)(0) ));
-HXDLIN(2260)				this2->set_y(( (Float)(2) ));
+HXLINE(2261)			this->animation->play(HX_("unchecked",ee,b9,26,0f),true,null(),null());
+HXLINE(2262)			{
+HXLINE(2262)				 ::flixel::math::FlxBasePoint this2 = this->offset;
+HXDLIN(2262)				this2->set_x(( (Float)(0) ));
+HXDLIN(2262)				this2->set_y(( (Float)(2) ));
             			}
-HXLINE(2258)			goto _hx_goto_3;
+HXLINE(2260)			goto _hx_goto_3;
             		}
             		_hx_goto_3:;
             	}

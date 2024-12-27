@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_60cb987655b9b72a_2110_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf","new",0x5224ed03,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf.new","ManifestResources.hx",2110,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_60cb987655b9b72a_2111_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf","new",0x5224ed03,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf.new","ManifestResources.hx",2111,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_60cb987655b9b72a_2110_new)
-HXDLIN(2110)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/SegoeUIVF.ttf",fc,5c,d5,53));
-HXDLIN(2110)		this->name = HX_("Segoe UI Variable",d3,ad,52,62);
-HXDLIN(2110)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_60cb987655b9b72a_2111_new)
+HXDLIN(2111)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/SegoeUIVF.ttf",fc,5c,d5,53));
+HXDLIN(2111)		this->name = HX_("Segoe UI Variable",d3,ad,52,62);
+HXDLIN(2111)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf_obj; }

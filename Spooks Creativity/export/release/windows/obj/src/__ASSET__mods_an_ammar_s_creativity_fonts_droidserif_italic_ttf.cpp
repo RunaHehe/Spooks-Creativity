@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_9b9cd49776bce3d0_1974_new,"__ASSET__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf","new",0x6e010c52,"__ASSET__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf.new","ManifestResources.hx",1974,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_9b9cd49776bce3d0_1975_new,"__ASSET__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf","new",0x6e010c52,"__ASSET__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf.new","ManifestResources.hx",1975,0xf77aa668)
 
 void __ASSET__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_9b9cd49776bce3d0_1974_new)
-HXDLIN(1974)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/DroidSerif-Italic.ttf",09,73,c0,5d));
-HXDLIN(1974)		this->name = HX_("Droid Serif Italic",f7,d4,b8,f6);
-HXDLIN(1974)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_9b9cd49776bce3d0_1975_new)
+HXDLIN(1975)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/DroidSerif-Italic.ttf",09,73,c0,5d));
+HXDLIN(1975)		this->name = HX_("Droid Serif Italic",f7,d4,b8,f6);
+HXDLIN(1975)		super::__construct(null());
             	}
 
 Dynamic __ASSET__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf_obj::__CreateEmpty() { return new __ASSET__mods_an_ammar_s_creativity_fonts_droidserif_italic_ttf_obj; }

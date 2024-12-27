@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_002b721cc5da05a1_1980_new,"__ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_ttf","new",0x71fc2f49,"__ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_ttf.new","ManifestResources.hx",1980,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_002b721cc5da05a1_1981_new,"__ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_ttf","new",0x71fc2f49,"__ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_ttf.new","ManifestResources.hx",1981,0xf77aa668)
 
 void __ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_002b721cc5da05a1_1980_new)
-HXDLIN(1980)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Google/Product Sans Bold.ttf",8e,d7,1a,aa));
-HXDLIN(1980)		this->name = HX_("Product Sans Bold",21,28,f8,82);
-HXDLIN(1980)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_002b721cc5da05a1_1981_new)
+HXDLIN(1981)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Google/Product Sans Bold.ttf",8e,d7,1a,aa));
+HXDLIN(1981)		this->name = HX_("Product Sans Bold",21,28,f8,82);
+HXDLIN(1981)		super::__construct(null());
             	}
 
 Dynamic __ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_ttf_obj::__CreateEmpty() { return new __ASSET__mods_an_ammar_s_creativity_fonts_google_product_sans_bold_ttf_obj; }

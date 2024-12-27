@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_ca4ecc20efb71224_2105_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf","new",0x25c3a1a9,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf.new","ManifestResources.hx",2105,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_ca4ecc20efb71224_2106_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf","new",0x25c3a1a9,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf.new","ManifestResources.hx",2106,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_ca4ecc20efb71224_2105_new)
-HXDLIN(2105)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/OpenSans-Semibold.ttf",70,71,96,7b));
-HXDLIN(2105)		this->name = HX_("Open Sans Semibold",aa,c3,d7,cb);
-HXDLIN(2105)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_ca4ecc20efb71224_2106_new)
+HXDLIN(2106)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/OpenSans-Semibold.ttf",70,71,96,7b));
+HXDLIN(2106)		this->name = HX_("Open Sans Semibold",aa,c3,d7,cb);
+HXDLIN(2106)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf_obj; }

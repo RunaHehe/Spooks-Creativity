@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6d2d7608548238a5_2113_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_youtube_youtubesansmedium_otf","new",0xcf4a5b5e,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_youtube_youtubesansmedium_otf.new","ManifestResources.hx",2113,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_6d2d7608548238a5_2114_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_youtube_youtubesansmedium_otf","new",0xcf4a5b5e,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_youtube_youtubesansmedium_otf.new","ManifestResources.hx",2114,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_youtube_youtubesansmedium_otf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_6d2d7608548238a5_2113_new)
-HXDLIN(2113)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Youtube/YouTubeSansMedium.otf",47,c8,83,46));
-HXDLIN(2113)		this->name = HX_("YouTube Sans Medium",e5,6f,1a,aa);
-HXDLIN(2113)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_6d2d7608548238a5_2114_new)
+HXDLIN(2114)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Youtube/YouTubeSansMedium.otf",47,c8,83,46));
+HXDLIN(2114)		this->name = HX_("YouTube Sans Medium",e5,6f,1a,aa);
+HXDLIN(2114)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_youtube_youtubesansmedium_otf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_youtube_youtubesansmedium_otf_obj; }
