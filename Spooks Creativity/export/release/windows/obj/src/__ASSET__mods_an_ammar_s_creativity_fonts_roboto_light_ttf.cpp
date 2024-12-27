@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_e8b4b58111fce734_1987_new,"__ASSET__mods_an_ammar_s_creativity_fonts_roboto_light_ttf","new",0x046f42ca,"__ASSET__mods_an_ammar_s_creativity_fonts_roboto_light_ttf.new","ManifestResources.hx",1987,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_e8b4b58111fce734_1993_new,"__ASSET__mods_an_ammar_s_creativity_fonts_roboto_light_ttf","new",0x046f42ca,"__ASSET__mods_an_ammar_s_creativity_fonts_roboto_light_ttf.new","ManifestResources.hx",1993,0xf77aa668)
 
 void __ASSET__mods_an_ammar_s_creativity_fonts_roboto_light_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_e8b4b58111fce734_1987_new)
-HXDLIN(1987)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Roboto-Light.ttf",71,a5,33,81));
-HXDLIN(1987)		this->name = HX_("Roboto Light",3b,c9,2f,c9);
-HXDLIN(1987)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_e8b4b58111fce734_1993_new)
+HXDLIN(1993)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Roboto-Light.ttf",71,a5,33,81));
+HXDLIN(1993)		this->name = HX_("Roboto Light",3b,c9,2f,c9);
+HXDLIN(1993)		super::__construct(null());
             	}
 
 Dynamic __ASSET__mods_an_ammar_s_creativity_fonts_roboto_light_ttf_obj::__CreateEmpty() { return new __ASSET__mods_an_ammar_s_creativity_fonts_roboto_light_ttf_obj; }

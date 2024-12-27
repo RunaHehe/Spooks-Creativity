@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_f04a0d81d2f1aca9_346_new,"__ASSET__flixel_flixel_ui_img_chrome_light_png","new",0xcc85ad04,"__ASSET__flixel_flixel_ui_img_chrome_light_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_92b1809e08788634_1953_boot,"__ASSET__flixel_flixel_ui_img_chrome_light_png","boot",0x208ab70e,"__ASSET__flixel_flixel_ui_img_chrome_light_png.boot","ManifestResources.hx",1953,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_92b1809e08788634_1959_boot,"__ASSET__flixel_flixel_ui_img_chrome_light_png","boot",0x208ab70e,"__ASSET__flixel_flixel_ui_img_chrome_light_png.boot","ManifestResources.hx",1959,0xf77aa668)
 
 void __ASSET__flixel_flixel_ui_img_chrome_light_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_f04a0d81d2f1aca9_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_flixel_ui_img_chrome_light_png_obj::__register()
 void __ASSET__flixel_flixel_ui_img_chrome_light_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_92b1809e08788634_1953_boot)
-HXDLIN(1953)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_chrome_light_png",20,68,80,1a);
+            	HX_STACKFRAME(&_hx_pos_92b1809e08788634_1959_boot)
+HXDLIN(1959)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_chrome_light_png",20,68,80,1a);
             	}
 }
 

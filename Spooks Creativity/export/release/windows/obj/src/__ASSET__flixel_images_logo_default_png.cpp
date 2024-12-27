@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_17702da0942c0225_346_new,"__ASSET__flixel_images_logo_default_png","new",0xe2ac399d,"__ASSET__flixel_images_logo_default_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_4937ee5e54fcaf42_1935_boot,"__ASSET__flixel_images_logo_default_png","boot",0x6c1f3055,"__ASSET__flixel_images_logo_default_png.boot","ManifestResources.hx",1935,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_4937ee5e54fcaf42_1941_boot,"__ASSET__flixel_images_logo_default_png","boot",0x6c1f3055,"__ASSET__flixel_images_logo_default_png.boot","ManifestResources.hx",1941,0xf77aa668)
 
 void __ASSET__flixel_images_logo_default_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_17702da0942c0225_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_images_logo_default_png_obj::__register()
 void __ASSET__flixel_images_logo_default_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_4937ee5e54fcaf42_1935_boot)
-HXDLIN(1935)		resourceName = HX_("__ASSET__:image___ASSET__flixel_images_logo_default_png",5d,c4,77,3f);
+            	HX_STACKFRAME(&_hx_pos_4937ee5e54fcaf42_1941_boot)
+HXDLIN(1941)		resourceName = HX_("__ASSET__:image___ASSET__flixel_images_logo_default_png",5d,c4,77,3f);
             	}
 }
 

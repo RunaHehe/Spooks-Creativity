@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_da4eefd6d0852d50_346_new,"__ASSET__flixel_flixel_ui_img_button_arrow_right_png","new",0xd202e3cc,"__ASSET__flixel_flixel_ui_img_button_arrow_right_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_65801f431e6a572f_1944_boot,"__ASSET__flixel_flixel_ui_img_button_arrow_right_png","boot",0xe89d6f46,"__ASSET__flixel_flixel_ui_img_button_arrow_right_png.boot","ManifestResources.hx",1944,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_65801f431e6a572f_1950_boot,"__ASSET__flixel_flixel_ui_img_button_arrow_right_png","boot",0xe89d6f46,"__ASSET__flixel_flixel_ui_img_button_arrow_right_png.boot","ManifestResources.hx",1950,0xf77aa668)
 
 void __ASSET__flixel_flixel_ui_img_button_arrow_right_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_da4eefd6d0852d50_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_flixel_ui_img_button_arrow_right_png_obj::__register()
 void __ASSET__flixel_flixel_ui_img_button_arrow_right_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_65801f431e6a572f_1944_boot)
-HXDLIN(1944)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_button_arrow_right_png",68,d9,3c,b2);
+            	HX_STACKFRAME(&_hx_pos_65801f431e6a572f_1950_boot)
+HXDLIN(1950)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_button_arrow_right_png",68,d9,3c,b2);
             	}
 }
 

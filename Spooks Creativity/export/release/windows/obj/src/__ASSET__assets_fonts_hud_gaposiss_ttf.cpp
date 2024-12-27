@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6e256c48bd93bf35_1998_new,"__ASSET__assets_fonts_hud_gaposiss_ttf","new",0xddbd9e37,"__ASSET__assets_fonts_hud_gaposiss_ttf.new","ManifestResources.hx",1998,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_6e256c48bd93bf35_2004_new,"__ASSET__assets_fonts_hud_gaposiss_ttf","new",0xddbd9e37,"__ASSET__assets_fonts_hud_gaposiss_ttf.new","ManifestResources.hx",2004,0xf77aa668)
 
 void __ASSET__assets_fonts_hud_gaposiss_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_6e256c48bd93bf35_1998_new)
-HXDLIN(1998)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/HUD/gaposiss.ttf",b6,09,12,e9));
-HXDLIN(1998)		this->name = HX_("Gaposis Solid (BRK)",85,6d,35,34);
-HXDLIN(1998)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_6e256c48bd93bf35_2004_new)
+HXDLIN(2004)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/HUD/gaposiss.ttf",b6,09,12,e9));
+HXDLIN(2004)		this->name = HX_("Gaposis Solid (BRK)",85,6d,35,34);
+HXDLIN(2004)		super::__construct(null());
             	}
 
 Dynamic __ASSET__assets_fonts_hud_gaposiss_ttf_obj::__CreateEmpty() { return new __ASSET__assets_fonts_hud_gaposiss_ttf_obj; }

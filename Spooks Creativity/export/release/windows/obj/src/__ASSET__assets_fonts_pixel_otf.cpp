@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_ea3e7ad2941b46d1_2002_new,"__ASSET__assets_fonts_pixel_otf","new",0x3643a2f3,"__ASSET__assets_fonts_pixel_otf.new","ManifestResources.hx",2002,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_ea3e7ad2941b46d1_2008_new,"__ASSET__assets_fonts_pixel_otf","new",0x3643a2f3,"__ASSET__assets_fonts_pixel_otf.new","ManifestResources.hx",2008,0xf77aa668)
 
 void __ASSET__assets_fonts_pixel_otf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_ea3e7ad2941b46d1_2002_new)
-HXDLIN(2002)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/pixel.otf",a2,d3,8e,91));
-HXDLIN(2002)		this->name = HX_("Pixel Arial 11 Bold",ae,17,c6,45);
-HXDLIN(2002)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_ea3e7ad2941b46d1_2008_new)
+HXDLIN(2008)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/pixel.otf",a2,d3,8e,91));
+HXDLIN(2008)		this->name = HX_("Pixel Arial 11 Bold",ae,17,c6,45);
+HXDLIN(2008)		super::__construct(null());
             	}
 
 Dynamic __ASSET__assets_fonts_pixel_otf_obj::__CreateEmpty() { return new __ASSET__assets_fonts_pixel_otf_obj; }

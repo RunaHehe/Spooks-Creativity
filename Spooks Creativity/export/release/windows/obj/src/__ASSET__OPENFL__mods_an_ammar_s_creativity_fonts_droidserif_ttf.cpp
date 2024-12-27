@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_f48daee3615f06e7_2098_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_ttf","new",0x852589ff,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_ttf.new","ManifestResources.hx",2098,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_f48daee3615f06e7_2104_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_ttf","new",0x852589ff,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_ttf.new","ManifestResources.hx",2104,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_f48daee3615f06e7_2098_new)
-HXDLIN(2098)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/DroidSerif.ttf",e4,ce,98,a8));
-HXDLIN(2098)		this->name = HX_("Droid Serif",59,b3,c4,df);
-HXDLIN(2098)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_f48daee3615f06e7_2104_new)
+HXDLIN(2104)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/DroidSerif.ttf",e4,ce,98,a8));
+HXDLIN(2104)		this->name = HX_("Droid Serif",59,b3,c4,df);
+HXDLIN(2104)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_droidserif_ttf_obj; }

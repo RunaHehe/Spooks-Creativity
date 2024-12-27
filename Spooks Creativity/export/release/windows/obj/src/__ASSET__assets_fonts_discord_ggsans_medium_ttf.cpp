@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_db48ad80f0f5f7f6_1994_new,"__ASSET__assets_fonts_discord_ggsans_medium_ttf","new",0x1ca19320,"__ASSET__assets_fonts_discord_ggsans_medium_ttf.new","ManifestResources.hx",1994,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_db48ad80f0f5f7f6_2000_new,"__ASSET__assets_fonts_discord_ggsans_medium_ttf","new",0x1ca19320,"__ASSET__assets_fonts_discord_ggsans_medium_ttf.new","ManifestResources.hx",2000,0xf77aa668)
 
 void __ASSET__assets_fonts_discord_ggsans_medium_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_db48ad80f0f5f7f6_1994_new)
-HXDLIN(1994)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Discord/ggsans-Medium.ttf",cd,f0,01,86));
-HXDLIN(1994)		this->name = HX_("gg sans Medium",c2,5a,ae,17);
-HXDLIN(1994)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_db48ad80f0f5f7f6_2000_new)
+HXDLIN(2000)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Discord/ggsans-Medium.ttf",cd,f0,01,86));
+HXDLIN(2000)		this->name = HX_("gg sans Medium",c2,5a,ae,17);
+HXDLIN(2000)		super::__construct(null());
             	}
 
 Dynamic __ASSET__assets_fonts_discord_ggsans_medium_ttf_obj::__CreateEmpty() { return new __ASSET__assets_fonts_discord_ggsans_medium_ttf_obj; }

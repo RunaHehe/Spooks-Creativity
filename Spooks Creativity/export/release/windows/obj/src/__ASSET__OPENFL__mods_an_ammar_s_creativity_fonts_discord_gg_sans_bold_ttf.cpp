@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_26ede8c796062e89_2094_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf","new",0xe6d1eb43,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf.new","ManifestResources.hx",2094,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_26ede8c796062e89_2100_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf","new",0xe6d1eb43,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf.new","ManifestResources.hx",2100,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_26ede8c796062e89_2094_new)
-HXDLIN(2094)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Discord/gg sans Bold.ttf",18,ba,0a,d0));
-HXDLIN(2094)		this->name = HX_("gg sans Bold",92,6a,6b,37);
-HXDLIN(2094)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_26ede8c796062e89_2100_new)
+HXDLIN(2100)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Discord/gg sans Bold.ttf",18,ba,0a,d0));
+HXDLIN(2100)		this->name = HX_("gg sans Bold",92,6a,6b,37);
+HXDLIN(2100)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf_obj; }

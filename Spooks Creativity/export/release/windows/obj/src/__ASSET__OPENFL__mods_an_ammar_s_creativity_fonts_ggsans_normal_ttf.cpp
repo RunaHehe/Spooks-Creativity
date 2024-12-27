@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_925d66e662b68561_2101_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_ggsans_normal_ttf","new",0x7a21bc47,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_ggsans_normal_ttf.new","ManifestResources.hx",2101,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_925d66e662b68561_2107_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_ggsans_normal_ttf","new",0x7a21bc47,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_ggsans_normal_ttf.new","ManifestResources.hx",2107,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_ggsans_normal_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_925d66e662b68561_2101_new)
-HXDLIN(2101)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/ggsans-Normal.ttf",ce,b8,50,57));
-HXDLIN(2101)		this->name = HX_("gg sans Normal",74,78,4f,49);
-HXDLIN(2101)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_925d66e662b68561_2107_new)
+HXDLIN(2107)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/ggsans-Normal.ttf",ce,b8,50,57));
+HXDLIN(2107)		this->name = HX_("gg sans Normal",74,78,4f,49);
+HXDLIN(2107)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_ggsans_normal_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_ggsans_normal_ttf_obj; }

@@ -15,7 +15,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_468ad21a63384077_307_new,"__ASSET__flixel_fonts_monsterrat_ttf","new",0x5ab5a7f2,"__ASSET__flixel_fonts_monsterrat_ttf.new","lime/_internal/macros/AssetsMacro.hx",307,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_3b6a061d5426b2eb_1933_boot,"__ASSET__flixel_fonts_monsterrat_ttf","boot",0xfc564c60,"__ASSET__flixel_fonts_monsterrat_ttf.boot","ManifestResources.hx",1933,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_3b6a061d5426b2eb_1939_boot,"__ASSET__flixel_fonts_monsterrat_ttf","boot",0xfc564c60,"__ASSET__flixel_fonts_monsterrat_ttf.boot","ManifestResources.hx",1939,0xf77aa668)
 
 void __ASSET__flixel_fonts_monsterrat_ttf_obj::__construct(){
             	HX_STACKFRAME(&_hx_pos_468ad21a63384077_307_new)
@@ -136,8 +136,8 @@ void __ASSET__flixel_fonts_monsterrat_ttf_obj::__register()
 void __ASSET__flixel_fonts_monsterrat_ttf_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_3b6a061d5426b2eb_1933_boot)
-HXDLIN(1933)		resourceName = HX_("LIME_font___ASSET__flixel_fonts_monsterrat_ttf",c6,95,44,8e);
+            	HX_STACKFRAME(&_hx_pos_3b6a061d5426b2eb_1939_boot)
+HXDLIN(1939)		resourceName = HX_("LIME_font___ASSET__flixel_fonts_monsterrat_ttf",c6,95,44,8e);
             	}
 }
 

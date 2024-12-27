@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_014c4a18ad09e579_1978_new,"__ASSET__mods_an_ammar_s_creativity_fonts_ggsans_medium_ttf","new",0x93a8a1e5,"__ASSET__mods_an_ammar_s_creativity_fonts_ggsans_medium_ttf.new","ManifestResources.hx",1978,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_014c4a18ad09e579_1984_new,"__ASSET__mods_an_ammar_s_creativity_fonts_ggsans_medium_ttf","new",0x93a8a1e5,"__ASSET__mods_an_ammar_s_creativity_fonts_ggsans_medium_ttf.new","ManifestResources.hx",1984,0xf77aa668)
 
 void __ASSET__mods_an_ammar_s_creativity_fonts_ggsans_medium_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_014c4a18ad09e579_1978_new)
-HXDLIN(1978)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/ggsans-Medium.ttf",1c,da,09,25));
-HXDLIN(1978)		this->name = HX_("gg sans Medium",c2,5a,ae,17);
-HXDLIN(1978)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_014c4a18ad09e579_1984_new)
+HXDLIN(1984)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/ggsans-Medium.ttf",1c,da,09,25));
+HXDLIN(1984)		this->name = HX_("gg sans Medium",c2,5a,ae,17);
+HXDLIN(1984)		super::__construct(null());
             	}
 
 Dynamic __ASSET__mods_an_ammar_s_creativity_fonts_ggsans_medium_ttf_obj::__CreateEmpty() { return new __ASSET__mods_an_ammar_s_creativity_fonts_ggsans_medium_ttf_obj; }

@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_afea90b13bd964dc_2115_new,"__ASSET__OPENFL__assets_fonts_discord_gg_sans_bold_ttf","new",0x4811acb5,"__ASSET__OPENFL__assets_fonts_discord_gg_sans_bold_ttf.new","ManifestResources.hx",2115,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_afea90b13bd964dc_2121_new,"__ASSET__OPENFL__assets_fonts_discord_gg_sans_bold_ttf","new",0x4811acb5,"__ASSET__OPENFL__assets_fonts_discord_gg_sans_bold_ttf.new","ManifestResources.hx",2121,0xf77aa668)
 
 void __ASSET__OPENFL__assets_fonts_discord_gg_sans_bold_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_afea90b13bd964dc_2115_new)
-HXDLIN(2115)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Discord/gg sans Bold.ttf",64,32,59,52));
-HXDLIN(2115)		this->name = HX_("gg sans Bold",92,6a,6b,37);
-HXDLIN(2115)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_afea90b13bd964dc_2121_new)
+HXDLIN(2121)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Discord/gg sans Bold.ttf",64,32,59,52));
+HXDLIN(2121)		this->name = HX_("gg sans Bold",92,6a,6b,37);
+HXDLIN(2121)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__assets_fonts_discord_gg_sans_bold_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__assets_fonts_discord_gg_sans_bold_ttf_obj; }

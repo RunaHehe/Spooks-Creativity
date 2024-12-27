@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_b1b7399f07514b9a_2001_new,"__ASSET__assets_fonts_phantomuff_phantommuff_empty_letters_ttf","new",0x252cd97a,"__ASSET__assets_fonts_phantomuff_phantommuff_empty_letters_ttf.new","ManifestResources.hx",2001,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_b1b7399f07514b9a_2007_new,"__ASSET__assets_fonts_phantomuff_phantommuff_empty_letters_ttf","new",0x252cd97a,"__ASSET__assets_fonts_phantomuff_phantommuff_empty_letters_ttf.new","ManifestResources.hx",2007,0xf77aa668)
 
 void __ASSET__assets_fonts_phantomuff_phantommuff_empty_letters_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_b1b7399f07514b9a_2001_new)
-HXDLIN(2001)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Phantomuff/PhantomMuff Empty Letters.ttf",97,da,f8,d5));
-HXDLIN(2001)		this->name = HX_("PhantomMuff 1.5",0d,79,26,b7);
-HXDLIN(2001)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_b1b7399f07514b9a_2007_new)
+HXDLIN(2007)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Phantomuff/PhantomMuff Empty Letters.ttf",97,da,f8,d5));
+HXDLIN(2007)		this->name = HX_("PhantomMuff 1.5",0d,79,26,b7);
+HXDLIN(2007)		super::__construct(null());
             	}
 
 Dynamic __ASSET__assets_fonts_phantomuff_phantommuff_empty_letters_ttf_obj::__CreateEmpty() { return new __ASSET__assets_fonts_phantomuff_phantommuff_empty_letters_ttf_obj; }

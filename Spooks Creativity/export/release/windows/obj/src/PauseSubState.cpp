@@ -256,7 +256,7 @@ HXDLIN(  41)		_g->set(HX_("voice-faceoff",17,16,cb,c5),HX_("COVER SONG of Hecker
 HXDLIN(  41)		_g->set(HX_("furry-femboy",e1,0a,eb,38),HX_("COVER SONG of This is how you look saying that",1b,6b,50,63));
 HXDLIN(  41)		_g->set(HX_("programming-an-ammar",86,b1,f3,e6),HX_("COVER SONG of PaperCraft",db,cb,3b,92));
 HXDLIN(  41)		_g->set(HX_("identity-crisis",f2,be,b2,9b),HX_("COVER SONG of Hatred",bd,e7,7e,19));
-HXDLIN(  41)		_g->set(HX_("note-nova",27,0f,72,dc),HX_("CUSTOM SONG by Cherry, Spook",14,4f,b3,59));
+HXDLIN(  41)		_g->set(HX_("note-nova",27,0f,72,dc),HX_("CUSTOM SONG by Ammar, Spook",55,f3,e8,23));
 HXDLIN(  41)		this->songsCredit = _g;
 HXLINE(  39)		this->curTime = ::Math_obj::max(( (Float)(0) ),::Conductor_obj::songPosition);
 HXLINE(  31)		this->curSelected = 0;
