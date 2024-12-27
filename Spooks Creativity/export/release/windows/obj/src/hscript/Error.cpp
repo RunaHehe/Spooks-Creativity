@@ -11,17 +11,17 @@
 #include <hscript/Printer.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_b829cf87eef33326_95_new,"hscript.Error","new",0x4a2914df,"hscript.Error.new","hscript/Expr.hx",95,0x44b487ad)
-HX_LOCAL_STACK_FRAME(_hx_pos_b829cf87eef33326_103_toString,"hscript.Error","toString",0x3655dfcd,"hscript.Error.toString","hscript/Expr.hx",103,0x44b487ad)
+HX_DEFINE_STACK_FRAME(_hx_pos_b829cf87eef33326_92_new,"hscript.Error","new",0x4a2914df,"hscript.Error.new","hscript/Expr.hx",92,0x44b487ad)
+HX_LOCAL_STACK_FRAME(_hx_pos_b829cf87eef33326_100_toString,"hscript.Error","toString",0x3655dfcd,"hscript.Error.toString","hscript/Expr.hx",100,0x44b487ad)
 namespace hscript{
 
 void Error_obj::__construct( ::hscript::ErrorDef e,int pmin,int pmax,::String origin,int line){
-            	HX_STACKFRAME(&_hx_pos_b829cf87eef33326_95_new)
-HXLINE(  96)		this->e = e;
-HXLINE(  97)		this->pmin = pmin;
-HXLINE(  98)		this->pmax = pmax;
-HXLINE(  99)		this->origin = origin;
-HXLINE( 100)		this->line = line;
+            	HX_STACKFRAME(&_hx_pos_b829cf87eef33326_92_new)
+HXLINE(  93)		this->e = e;
+HXLINE(  94)		this->pmin = pmin;
+HXLINE(  95)		this->pmax = pmax;
+HXLINE(  96)		this->origin = origin;
+HXLINE(  97)		this->line = line;
             	}
 
 Dynamic Error_obj::__CreateEmpty() { return new Error_obj; }
@@ -40,8 +40,8 @@ bool Error_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String Error_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_b829cf87eef33326_103_toString)
-HXDLIN( 103)		return ::hscript::Printer_obj::errorToString(::hx::ObjectPtr<OBJ_>(this));
+            	HX_STACKFRAME(&_hx_pos_b829cf87eef33326_100_toString)
+HXDLIN( 100)		return ::hscript::Printer_obj::errorToString(::hx::ObjectPtr<OBJ_>(this));
             	}
 
 

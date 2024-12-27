@@ -8,7 +8,7 @@
 #include <haxe/Log.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_99a2e86e970cc79f_30___default_trace,"haxe.Log","__default_trace",0xe2f5e5d5,"haxe.Log.__default_trace","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/Log.hx",30,0xb0df283c)
+HX_LOCAL_STACK_FRAME(_hx_pos_cc4c1bd12c1b2231_30___default_trace,"haxe.Log","__default_trace",0xe2f5e5d5,"haxe.Log.__default_trace","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/Log.hx",30,0xc6a55ebd)
 namespace haxe{
 
 void Log_obj::__construct() { }
@@ -30,7 +30,7 @@ bool Log_obj::_hx_isInstanceOf(int inClassId) {
 
 HX_BEGIN_DEFAULT_FUNC(__default_trace,Log_obj)
 void _hx_run( ::Dynamic v, ::Dynamic infos){
-            	HX_STACKFRAME(&_hx_pos_99a2e86e970cc79f_30___default_trace)
+            	HX_STACKFRAME(&_hx_pos_cc4c1bd12c1b2231_30___default_trace)
 HXDLIN(  30)		bool _hx_tmp;
 HXDLIN(  30)		if (::hx::IsNotNull( infos )) {
 HXDLIN(  30)			_hx_tmp = ::hx::IsNotNull( infos->__Field(HX_("customParams",d7,51,18,ed),::hx::paccDynamic) );

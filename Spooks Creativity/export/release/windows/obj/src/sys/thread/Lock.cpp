@@ -5,14 +5,14 @@
 #include <sys/thread/Lock.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a09e6e812c61144f_30_new,"sys.thread.Lock","new",0x586e3f40,"sys.thread.Lock.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Lock.hx",30,0x554435d7)
-HX_LOCAL_STACK_FRAME(_hx_pos_a09e6e812c61144f_34_wait,"sys.thread.Lock","wait",0x0df8ef95,"sys.thread.Lock.wait","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Lock.hx",34,0x554435d7)
-HX_LOCAL_STACK_FRAME(_hx_pos_a09e6e812c61144f_38_release,"sys.thread.Lock","release",0xd398e4a7,"sys.thread.Lock.release","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Lock.hx",38,0x554435d7)
+HX_DEFINE_STACK_FRAME(_hx_pos_f17acceeafd9582a_30_new,"sys.thread.Lock","new",0x586e3f40,"sys.thread.Lock.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Lock.hx",30,0x9abc4176)
+HX_LOCAL_STACK_FRAME(_hx_pos_f17acceeafd9582a_34_wait,"sys.thread.Lock","wait",0x0df8ef95,"sys.thread.Lock.wait","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Lock.hx",34,0x9abc4176)
+HX_LOCAL_STACK_FRAME(_hx_pos_f17acceeafd9582a_38_release,"sys.thread.Lock","release",0xd398e4a7,"sys.thread.Lock.release","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Lock.hx",38,0x9abc4176)
 namespace sys{
 namespace thread{
 
 void Lock_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_a09e6e812c61144f_30_new)
+            	HX_STACKFRAME(&_hx_pos_f17acceeafd9582a_30_new)
 HXDLIN(  30)		this->l =  ::__hxcpp_lock_create();
             	}
 
@@ -34,7 +34,7 @@ bool Lock_obj::_hx_isInstanceOf(int inClassId) {
 bool Lock_obj::wait( ::Dynamic __o_timeout){
             		 ::Dynamic timeout = __o_timeout;
             		if (::hx::IsNull(__o_timeout)) timeout = -1;
-            	HX_STACKFRAME(&_hx_pos_a09e6e812c61144f_34_wait)
+            	HX_STACKFRAME(&_hx_pos_f17acceeafd9582a_34_wait)
 HXDLIN(  34)		return  ::__hxcpp_lock_wait(this->l,timeout);
             	}
 
@@ -42,7 +42,7 @@ HXDLIN(  34)		return  ::__hxcpp_lock_wait(this->l,timeout);
 HX_DEFINE_DYNAMIC_FUNC1(Lock_obj,wait,return )
 
 void Lock_obj::release(){
-            	HX_STACKFRAME(&_hx_pos_a09e6e812c61144f_38_release)
+            	HX_STACKFRAME(&_hx_pos_f17acceeafd9582a_38_release)
 HXDLIN(  38)		 ::__hxcpp_lock_release(this->l);
             	}
 

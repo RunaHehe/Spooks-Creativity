@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_1f9ea2e4138897d9_346_new,"__ASSET__flixel_flixel_ui_img_minus_mark_png","new",0xc92a58af,"__ASSET__flixel_flixel_ui_img_minus_mark_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_5b8b14dd0c2d5502_1940_boot,"__ASSET__flixel_flixel_ui_img_minus_mark_png","boot",0x33fc4103,"__ASSET__flixel_flixel_ui_img_minus_mark_png.boot","ManifestResources.hx",1940,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_5b8b14dd0c2d5502_1958_boot,"__ASSET__flixel_flixel_ui_img_minus_mark_png","boot",0x33fc4103,"__ASSET__flixel_flixel_ui_img_minus_mark_png.boot","ManifestResources.hx",1958,0xf77aa668)
 
 void __ASSET__flixel_flixel_ui_img_minus_mark_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_1f9ea2e4138897d9_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_flixel_ui_img_minus_mark_png_obj::__register()
 void __ASSET__flixel_flixel_ui_img_minus_mark_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_5b8b14dd0c2d5502_1940_boot)
-HXDLIN(1940)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_minus_mark_png",cb,22,ec,26);
+            	HX_STACKFRAME(&_hx_pos_5b8b14dd0c2d5502_1958_boot)
+HXDLIN(1958)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_minus_mark_png",cb,22,ec,26);
             	}
 }
 

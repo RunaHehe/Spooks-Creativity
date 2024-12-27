@@ -11,7 +11,7 @@
 #include <haxe/xml/_Access/NodeListAccess_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_4d49a57a8f0a3713_75_resolve,"haxe.xml._Access.NodeListAccess_Impl_","resolve",0x07a0eeac,"haxe.xml._Access.NodeListAccess_Impl_.resolve","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Access.hx",75,0xcc1908f1)
+HX_LOCAL_STACK_FRAME(_hx_pos_06d539aa63d14cc6_75_resolve,"haxe.xml._Access.NodeListAccess_Impl_","resolve",0x07a0eeac,"haxe.xml._Access.NodeListAccess_Impl_.resolve","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Access.hx",75,0xd9eced32)
 namespace haxe{
 namespace xml{
 namespace _Access{
@@ -34,7 +34,7 @@ bool NodeListAccess_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::Array< ::Dynamic> NodeListAccess_Impl__obj::resolve( ::Xml this1,::String name){
-            	HX_STACKFRAME(&_hx_pos_4d49a57a8f0a3713_75_resolve)
+            	HX_STACKFRAME(&_hx_pos_06d539aa63d14cc6_75_resolve)
 HXLINE(  76)		::Array< ::Dynamic> l = ::Array_obj< ::Dynamic>::__new(0);
 HXLINE(  77)		{
 HXLINE(  77)			 ::Dynamic x = this1->elementsNamed(name);

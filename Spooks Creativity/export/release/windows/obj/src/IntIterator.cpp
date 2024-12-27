@@ -5,12 +5,12 @@
 #include <IntIterator.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_5309a2dc4027356f_45_new,"IntIterator","new",0x5692054f,"IntIterator.new","D:\\HaxeToolKit\\haxe\\std/IntIterator.hx",45,0x8916eed9)
-HX_LOCAL_STACK_FRAME(_hx_pos_5309a2dc4027356f_54_hasNext,"IntIterator","hasNext",0xd8737ddc,"IntIterator.hasNext","D:\\HaxeToolKit\\haxe\\std/IntIterator.hx",54,0x8916eed9)
-HX_LOCAL_STACK_FRAME(_hx_pos_5309a2dc4027356f_63_next,"IntIterator","next",0x6932a124,"IntIterator.next","D:\\HaxeToolKit\\haxe\\std/IntIterator.hx",63,0x8916eed9)
+HX_DEFINE_STACK_FRAME(_hx_pos_31bbc4696cde81a4_45_new,"IntIterator","new",0x5692054f,"IntIterator.new","C:\\HaxeToolkit\\haxe\\std/IntIterator.hx",45,0xe7315e9a)
+HX_LOCAL_STACK_FRAME(_hx_pos_31bbc4696cde81a4_54_hasNext,"IntIterator","hasNext",0xd8737ddc,"IntIterator.hasNext","C:\\HaxeToolkit\\haxe\\std/IntIterator.hx",54,0xe7315e9a)
+HX_LOCAL_STACK_FRAME(_hx_pos_31bbc4696cde81a4_63_next,"IntIterator","next",0x6932a124,"IntIterator.next","C:\\HaxeToolkit\\haxe\\std/IntIterator.hx",63,0xe7315e9a)
 
 void IntIterator_obj::__construct(int min,int max){
-            	HX_STACKFRAME(&_hx_pos_5309a2dc4027356f_45_new)
+            	HX_STACKFRAME(&_hx_pos_31bbc4696cde81a4_45_new)
 HXLINE(  46)		this->min = min;
 HXLINE(  47)		this->max = max;
             	}
@@ -31,7 +31,7 @@ bool IntIterator_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool IntIterator_obj::hasNext(){
-            	HX_STACKFRAME(&_hx_pos_5309a2dc4027356f_54_hasNext)
+            	HX_STACKFRAME(&_hx_pos_31bbc4696cde81a4_54_hasNext)
 HXDLIN(  54)		return (this->min < this->max);
             	}
 
@@ -39,7 +39,7 @@ HXDLIN(  54)		return (this->min < this->max);
 HX_DEFINE_DYNAMIC_FUNC0(IntIterator_obj,hasNext,return )
 
 int IntIterator_obj::next(){
-            	HX_STACKFRAME(&_hx_pos_5309a2dc4027356f_63_next)
+            	HX_STACKFRAME(&_hx_pos_31bbc4696cde81a4_63_next)
 HXDLIN(  63)		return this->min++;
             	}
 

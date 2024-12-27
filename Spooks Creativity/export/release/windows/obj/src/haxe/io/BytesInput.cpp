@@ -17,14 +17,14 @@
 #include <haxe/io/Input.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_c425a5b2064e6c7d_39_new,"haxe.io.BytesInput","new",0x7fa18571,"haxe.io.BytesInput.new","D:\\HaxeToolKit\\haxe\\std/haxe/io/BytesInput.hx",39,0xe0272da7)
-HX_LOCAL_STACK_FRAME(_hx_pos_c425a5b2064e6c7d_96_readByte,"haxe.io.BytesInput","readByte",0xb70e46cd,"haxe.io.BytesInput.readByte","D:\\HaxeToolKit\\haxe\\std/haxe/io/BytesInput.hx",96,0xe0272da7)
-HX_LOCAL_STACK_FRAME(_hx_pos_c425a5b2064e6c7d_119_readBytes,"haxe.io.BytesInput","readBytes",0x756fad06,"haxe.io.BytesInput.readBytes","D:\\HaxeToolKit\\haxe\\std/haxe/io/BytesInput.hx",119,0xe0272da7)
+HX_DEFINE_STACK_FRAME(_hx_pos_a628d02b10887081_39_new,"haxe.io.BytesInput","new",0x7fa18571,"haxe.io.BytesInput.new","C:\\HaxeToolkit\\haxe\\std/haxe/io/BytesInput.hx",39,0xd7d0a806)
+HX_LOCAL_STACK_FRAME(_hx_pos_a628d02b10887081_96_readByte,"haxe.io.BytesInput","readByte",0xb70e46cd,"haxe.io.BytesInput.readByte","C:\\HaxeToolkit\\haxe\\std/haxe/io/BytesInput.hx",96,0xd7d0a806)
+HX_LOCAL_STACK_FRAME(_hx_pos_a628d02b10887081_119_readBytes,"haxe.io.BytesInput","readBytes",0x756fad06,"haxe.io.BytesInput.readBytes","C:\\HaxeToolkit\\haxe\\std/haxe/io/BytesInput.hx",119,0xd7d0a806)
 namespace haxe{
 namespace io{
 
 void BytesInput_obj::__construct( ::haxe::io::Bytes b, ::Dynamic pos, ::Dynamic len){
-            	HX_STACKFRAME(&_hx_pos_c425a5b2064e6c7d_39_new)
+            	HX_STACKFRAME(&_hx_pos_a628d02b10887081_39_new)
 HXLINE(  40)		if (::hx::IsNull( pos )) {
 HXLINE(  41)			pos = 0;
             		}
@@ -74,7 +74,7 @@ bool BytesInput_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 int BytesInput_obj::readByte(){
-            	HX_GC_STACKFRAME(&_hx_pos_c425a5b2064e6c7d_96_readByte)
+            	HX_GC_STACKFRAME(&_hx_pos_a628d02b10887081_96_readByte)
 HXLINE( 100)		if ((this->len == 0)) {
 HXLINE( 101)			HX_STACK_DO_THROW( ::haxe::io::Eof_obj::__alloc( HX_CTX ));
             		}
@@ -84,7 +84,7 @@ HXLINE( 106)		return ( (int)(this->b->__get(this->pos++)) );
 
 
 int BytesInput_obj::readBytes( ::haxe::io::Bytes buf,int pos,int len){
-            	HX_GC_STACKFRAME(&_hx_pos_c425a5b2064e6c7d_119_readBytes)
+            	HX_GC_STACKFRAME(&_hx_pos_a628d02b10887081_119_readBytes)
 HXLINE( 121)		bool _hx_tmp;
 HXDLIN( 121)		bool _hx_tmp1;
 HXDLIN( 121)		if ((pos >= 0)) {

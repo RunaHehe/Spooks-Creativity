@@ -894,7 +894,7 @@ HXLINE( 451)			 ::flixel::math::FlxBasePoint this13 = this->UI_box->scrollFactor
 HXDLIN( 451)			this13->set_x(( (Float)(0) ));
 HXDLIN( 451)			this13->set_y(( (Float)(0) ));
             		}
-HXLINE( 453)		this->text = HX_("W/S or Mouse Wheel - Change Conductor's strum time\n\t\t\nA/D - Go to the previous/next section\n\t\t\nLeft/Right - Change Snap\n\t\t\nUp/Down - Change Conductor's Strum Time with Snapping\n\t\t\nHold Shift to move 4x faster\n\t\t\nHold Control and click on an arrow to select it\n\t\t\nZ/X - Zoom in/out\n\t\t\n\n\t\t\nEsc - Test your chart inside Chart Editor\n\t\t\nEnter - Play your chart\n\t\t\nQ/E - Decrease/Increase Note Sustain Length\n\t\t\nSpace - Stop/Resume song",af,53,00,9a);
+HXLINE( 453)		this->text = HX_("W/S or Mouse Wheel - Change Conductor's strum time\r\n\t\t\nA/D - Go to the previous/next section\r\n\t\t\nLeft/Right - Change Snap\r\n\t\t\nUp/Down - Change Conductor's Strum Time with Snapping\r\n\t\t\nHold Shift to move 4x faster\r\n\t\t\nHold Control and click on an arrow to select it\r\n\t\t\nZ/X - Zoom in/out\r\n\t\t\n\r\n\t\t\nEsc - Test your chart inside Chart Editor\r\n\t\t\nEnter - Play your chart\r\n\t\t\nQ/E - Decrease/Increase Note Sustain Length\r\n\t\t\nSpace - Stop/Resume song",b4,97,11,a1);
 HXLINE( 467)		::Array< ::String > tipTextArray = this->text.split(HX_("\n",0a,00,00,00));
 HXLINE( 468)		{
 HXLINE( 468)			int _g1 = 0;

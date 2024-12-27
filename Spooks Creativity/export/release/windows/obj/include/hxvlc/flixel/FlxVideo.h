@@ -57,6 +57,8 @@ class HXCPP_CLASS_ATTRIBUTES FlxVideo_obj : public  ::hxvlc::openfl::Video_obj
 		bool autoPause;
 		int autoResizeMode;
 		bool autoVolumeHandle;
+		bool resumeOnFocus;
+		 ::Dynamic currentResizeMode;
 		::Dynamic getCalculatedVolume;
 		inline ::Dynamic &getCalculatedVolume_dyn() {return getCalculatedVolume; }
 
@@ -64,7 +66,20 @@ class HXCPP_CLASS_ATTRIBUTES FlxVideo_obj : public  ::hxvlc::openfl::Video_obj
 
 		void dispose();
 
-		void update(int deltaTime);
+		void onGameResized(int width,int height);
+		::Dynamic onGameResized_dyn();
+
+		void onFocusGained();
+		::Dynamic onFocusGained_dyn();
+
+		void onFocusLost();
+		::Dynamic onFocusLost_dyn();
+
+		void onVolumeUpdate();
+		::Dynamic onVolumeUpdate_dyn();
+
+		void onVolumeChange(Float vol);
+		::Dynamic onVolumeChange_dyn();
 
 };
 

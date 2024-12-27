@@ -8,14 +8,14 @@
 #include <haxe/_Unserializer/DefaultResolver.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_41f7ae692781b7f8_512_new,"haxe._Unserializer.DefaultResolver","new",0xe2809ead,"haxe._Unserializer.DefaultResolver.new","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",512,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_41f7ae692781b7f8_515_resolveClass,"haxe._Unserializer.DefaultResolver","resolveClass",0xbc0d3dbf,"haxe._Unserializer.DefaultResolver.resolveClass","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",515,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_41f7ae692781b7f8_518_resolveEnum,"haxe._Unserializer.DefaultResolver","resolveEnum",0x8198f35a,"haxe._Unserializer.DefaultResolver.resolveEnum","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",518,0xeaf3b602)
+HX_DEFINE_STACK_FRAME(_hx_pos_f781113f3a571312_512_new,"haxe._Unserializer.DefaultResolver","new",0xe2809ead,"haxe._Unserializer.DefaultResolver.new","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",512,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f781113f3a571312_515_resolveClass,"haxe._Unserializer.DefaultResolver","resolveClass",0xbc0d3dbf,"haxe._Unserializer.DefaultResolver.resolveClass","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",515,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f781113f3a571312_518_resolveEnum,"haxe._Unserializer.DefaultResolver","resolveEnum",0x8198f35a,"haxe._Unserializer.DefaultResolver.resolveEnum","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",518,0x00b9ec83)
 namespace haxe{
 namespace _Unserializer{
 
 void DefaultResolver_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_41f7ae692781b7f8_512_new)
+            	HX_STACKFRAME(&_hx_pos_f781113f3a571312_512_new)
             	}
 
 Dynamic DefaultResolver_obj::__CreateEmpty() { return new DefaultResolver_obj; }
@@ -34,7 +34,7 @@ bool DefaultResolver_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::hx::Class DefaultResolver_obj::resolveClass(::String name){
-            	HX_STACKFRAME(&_hx_pos_41f7ae692781b7f8_515_resolveClass)
+            	HX_STACKFRAME(&_hx_pos_f781113f3a571312_515_resolveClass)
 HXDLIN( 515)		return ::Type_obj::resolveClass(name);
             	}
 
@@ -42,7 +42,7 @@ HXDLIN( 515)		return ::Type_obj::resolveClass(name);
 HX_DEFINE_DYNAMIC_FUNC1(DefaultResolver_obj,resolveClass,return )
 
 ::hx::Class DefaultResolver_obj::resolveEnum(::String name){
-            	HX_STACKFRAME(&_hx_pos_41f7ae692781b7f8_518_resolveEnum)
+            	HX_STACKFRAME(&_hx_pos_f781113f3a571312_518_resolveEnum)
 HXDLIN( 518)		return ::Type_obj::resolveEnum(name);
             	}
 

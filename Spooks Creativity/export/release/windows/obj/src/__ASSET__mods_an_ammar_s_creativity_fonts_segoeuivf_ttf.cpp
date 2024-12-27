@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_cb204e8279ab3253_1970_new,"__ASSET__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf","new",0xacac0a53,"__ASSET__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf.new","ManifestResources.hx",1970,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_cb204e8279ab3253_1988_new,"__ASSET__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf","new",0xacac0a53,"__ASSET__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf.new","ManifestResources.hx",1988,0xf77aa668)
 
 void __ASSET__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_cb204e8279ab3253_1970_new)
-HXDLIN(1970)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/SegoeUIVF.ttf",fc,5c,d5,53));
-HXDLIN(1970)		this->name = HX_("Segoe UI Variable",d3,ad,52,62);
-HXDLIN(1970)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_cb204e8279ab3253_1988_new)
+HXDLIN(1988)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/SegoeUIVF.ttf",fc,5c,d5,53));
+HXDLIN(1988)		this->name = HX_("Segoe UI Variable",d3,ad,52,62);
+HXDLIN(1988)		super::__construct(null());
             	}
 
 Dynamic __ASSET__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf_obj::__CreateEmpty() { return new __ASSET__mods_an_ammar_s_creativity_fonts_segoeuivf_ttf_obj; }

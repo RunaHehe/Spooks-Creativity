@@ -96,7 +96,7 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC0(ConsoleUtil_obj,init,(void))
 HXLINE(  51)		if (::StringTools_obj::endsWith(input,HX_(";",3b,00,00,00))) {
 HXLINE(  52)			input = input.substr(0,-1);
             		}
-HXLINE(  53)		return ::flixel::_hx_system::debug::console::ConsoleUtil_obj::parser->parseString(input,null());
+HXLINE(  53)		return ::flixel::_hx_system::debug::console::ConsoleUtil_obj::parser->parseString(input,null(),null());
             	}
 
 

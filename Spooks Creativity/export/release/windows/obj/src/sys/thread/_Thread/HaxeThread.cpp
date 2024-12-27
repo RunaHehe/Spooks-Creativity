@@ -14,18 +14,18 @@
 #include <sys/thread/_Thread/HaxeThread.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_eda83ef8f01d6fab_171_new,"sys.thread._Thread.HaxeThread","new",0x28e1daea,"sys.thread._Thread.HaxeThread.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",171,0xc2797d58)
-HX_LOCAL_STACK_FRAME(_hx_pos_89087133e19c4e97_79___init__,"::sys::thread::_Thread::HaxeThread_obj","__init__",0x85b0f2c4,"::sys::thread::_Thread::HaxeThread_obj.__init__","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",79,0xc2797d58)
-HX_LOCAL_STACK_FRAME(_hx_pos_eda83ef8f01d6fab_91_current,"sys.thread._Thread.HaxeThread","current",0xca8ab3c3,"sys.thread._Thread.HaxeThread.current","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",91,0xc2797d58)
-HX_LOCAL_STACK_FRAME(_hx_pos_eda83ef8f01d6fab_119_create,"sys.thread._Thread.HaxeThread","create",0x979b0eb2,"sys.thread._Thread.HaxeThread.create","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",119,0xc2797d58)
-HX_LOCAL_STACK_FRAME(_hx_pos_eda83ef8f01d6fab_112_create,"sys.thread._Thread.HaxeThread","create",0x979b0eb2,"sys.thread._Thread.HaxeThread.create","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",112,0xc2797d58)
-HX_LOCAL_STACK_FRAME(_hx_pos_eda83ef8f01d6fab_155_dropThread,"sys.thread._Thread.HaxeThread","dropThread",0xc101af0f,"sys.thread._Thread.HaxeThread.dropThread","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",155,0xc2797d58)
+HX_DEFINE_STACK_FRAME(_hx_pos_5f636ea23ce47cfc_171_new,"sys.thread._Thread.HaxeThread","new",0x28e1daea,"sys.thread._Thread.HaxeThread.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",171,0x5ec2eeb7)
+HX_LOCAL_STACK_FRAME(_hx_pos_a4cd9bf3b59d48f4_79___init__,"::sys::thread::_Thread::HaxeThread_obj","__init__",0x85b0f2c4,"::sys::thread::_Thread::HaxeThread_obj.__init__","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",79,0x5ec2eeb7)
+HX_LOCAL_STACK_FRAME(_hx_pos_5f636ea23ce47cfc_91_current,"sys.thread._Thread.HaxeThread","current",0xca8ab3c3,"sys.thread._Thread.HaxeThread.current","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",91,0x5ec2eeb7)
+HX_LOCAL_STACK_FRAME(_hx_pos_5f636ea23ce47cfc_119_create,"sys.thread._Thread.HaxeThread","create",0x979b0eb2,"sys.thread._Thread.HaxeThread.create","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",119,0x5ec2eeb7)
+HX_LOCAL_STACK_FRAME(_hx_pos_5f636ea23ce47cfc_112_create,"sys.thread._Thread.HaxeThread","create",0x979b0eb2,"sys.thread._Thread.HaxeThread.create","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",112,0x5ec2eeb7)
+HX_LOCAL_STACK_FRAME(_hx_pos_5f636ea23ce47cfc_155_dropThread,"sys.thread._Thread.HaxeThread","dropThread",0xc101af0f,"sys.thread._Thread.HaxeThread.dropThread","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",155,0x5ec2eeb7)
 namespace sys{
 namespace thread{
 namespace _Thread{
 
 void HaxeThread_obj::__construct( ::Dynamic h){
-            	HX_STACKFRAME(&_hx_pos_eda83ef8f01d6fab_171_new)
+            	HX_STACKFRAME(&_hx_pos_5f636ea23ce47cfc_171_new)
 HXDLIN( 171)		this->handle = h;
             	}
 
@@ -45,7 +45,7 @@ bool HaxeThread_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void HaxeThread_obj::__init__(){
-            	HX_GC_STACKFRAME(&_hx_pos_89087133e19c4e97_79___init__)
+            	HX_GC_STACKFRAME(&_hx_pos_a4cd9bf3b59d48f4_79___init__)
 HXLINE(  80)		::sys::thread::_Thread::HaxeThread_obj::threads = ::Array_obj< ::Dynamic>::__new(0);
 HXLINE(  81)		::sys::thread::_Thread::HaxeThread_obj::threadsMutex =  ::sys::thread::Mutex_obj::__alloc( HX_CTX );
 HXLINE(  82)		::sys::thread::_Thread::HaxeThread_obj::mainThreadHandle =  ::__hxcpp_thread_current();
@@ -63,7 +63,7 @@ HXLINE(  84)		::sys::thread::_Thread::HaxeThread_obj::mainThread->events =  ::sy
  ::sys::thread::_Thread::HaxeThread HaxeThread_obj::mainThread;
 
  ::sys::thread::_Thread::HaxeThread HaxeThread_obj::current(){
-            	HX_GC_STACKFRAME(&_hx_pos_eda83ef8f01d6fab_91_current)
+            	HX_GC_STACKFRAME(&_hx_pos_5f636ea23ce47cfc_91_current)
 HXLINE(  92)		 ::Dynamic handle =  ::__hxcpp_thread_current();
 HXLINE(  93)		if (::hx::IsEq( handle,::sys::thread::_Thread::HaxeThread_obj::mainThreadHandle )) {
 HXLINE(  94)			return ::sys::thread::_Thread::HaxeThread_obj::mainThread;
@@ -99,7 +99,7 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC0(HaxeThread_obj,current,return )
  ::sys::thread::_Thread::HaxeThread HaxeThread_obj::create( ::Dynamic job,bool withEventLoop){
             		HX_BEGIN_LOCAL_FUNC_S4(::hx::LocalFunc,_hx_Closure_0,bool,withEventLoop,int,index, ::Dynamic,job, ::Dynamic,item) HXARGC(0)
             		void _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_eda83ef8f01d6fab_119_create)
+            			HX_GC_STACKFRAME(&_hx_pos_5f636ea23ce47cfc_119_create)
 HXLINE( 120)			if (::hx::IsNull( ( ( ::sys::thread::_Thread::HaxeThread)(item->__Field(HX_("thread",ca,7a,b9,8e),::hx::paccDynamic)) )->handle )) {
 HXLINE( 121)				item->__SetField(HX_("handle",a8,83,fd,b7), ::__hxcpp_thread_current(),::hx::paccDynamic);
 HXLINE( 122)				( ( ::sys::thread::_Thread::HaxeThread)(item->__Field(HX_("thread",ca,7a,b9,8e),::hx::paccDynamic)) )->handle =  ::Dynamic(item->__Field(HX_("handle",a8,83,fd,b7),::hx::paccDynamic));
@@ -126,7 +126,7 @@ HXLINE( 132)			::sys::thread::_Thread::HaxeThread_obj::dropThread(item,index);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_eda83ef8f01d6fab_112_create)
+            	HX_GC_STACKFRAME(&_hx_pos_5f636ea23ce47cfc_112_create)
 HXLINE( 113)		 ::Dynamic item =  ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("thread",ca,7a,b9,8e), ::sys::thread::_Thread::HaxeThread_obj::__alloc( HX_CTX ,null()))
             			->setFixed(1,HX_("handle",a8,83,fd,b7),null()));
@@ -145,7 +145,7 @@ HXLINE( 135)		return ( ( ::sys::thread::_Thread::HaxeThread)(item->__Field(HX_("
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(HaxeThread_obj,create,return )
 
 void HaxeThread_obj::dropThread( ::Dynamic item,int probableIndex){
-            	HX_STACKFRAME(&_hx_pos_eda83ef8f01d6fab_155_dropThread)
+            	HX_STACKFRAME(&_hx_pos_5f636ea23ce47cfc_155_dropThread)
 HXLINE( 156)		::sys::thread::_Thread::HaxeThread_obj::threadsMutex->acquire();
 HXLINE( 157)		if (::hx::IsEq( ::sys::thread::_Thread::HaxeThread_obj::threads->__get(probableIndex),item )) {
 HXLINE( 158)			::sys::thread::_Thread::HaxeThread_obj::threads->removeRange(probableIndex,1);

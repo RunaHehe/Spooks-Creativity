@@ -8,7 +8,7 @@
 #include <haxe/xml/_Access/HasNodeAccess_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_b6bf634efdbf8338_69_resolve,"haxe.xml._Access.HasNodeAccess_Impl_","resolve",0x5a406854,"haxe.xml._Access.HasNodeAccess_Impl_.resolve","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Access.hx",69,0xcc1908f1)
+HX_LOCAL_STACK_FRAME(_hx_pos_6dbac3a793b69131_69_resolve,"haxe.xml._Access.HasNodeAccess_Impl_","resolve",0x5a406854,"haxe.xml._Access.HasNodeAccess_Impl_.resolve","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Access.hx",69,0xd9eced32)
 namespace haxe{
 namespace xml{
 namespace _Access{
@@ -31,7 +31,7 @@ bool HasNodeAccess_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool HasNodeAccess_Impl__obj::resolve( ::Xml this1,::String name){
-            	HX_STACKFRAME(&_hx_pos_b6bf634efdbf8338_69_resolve)
+            	HX_STACKFRAME(&_hx_pos_6dbac3a793b69131_69_resolve)
 HXDLIN(  69)		return ( (bool)(this1->elementsNamed(name)->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) );
             	}
 

@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_5c7d47921a999df1_30_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_9c9d8eff616174eb_30_new)
 HX_DECLARE_CLASS2(sys,thread,Deque)
 
 namespace sys{
@@ -39,7 +39,7 @@ class HXCPP_CLASS_ATTRIBUTES Deque_obj : public ::hx::Object
 			Deque_obj *__this = (Deque_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(Deque_obj), true, "sys.thread.Deque"));
 			*(void **)__this = Deque_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_5c7d47921a999df1_30_new)
+            	HX_STACKFRAME(&_hx_pos_9c9d8eff616174eb_30_new)
 HXDLIN(  30)		( ( ::sys::thread::Deque)(__this) )->q =  ::__hxcpp_deque_create();
             	}
 		

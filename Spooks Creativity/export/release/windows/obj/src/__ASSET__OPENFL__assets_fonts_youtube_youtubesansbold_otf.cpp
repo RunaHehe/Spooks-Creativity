@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_4a905732473d476f_2107_new,"__ASSET__OPENFL__assets_fonts_youtube_youtubesansbold_otf","new",0x3de35afc,"__ASSET__OPENFL__assets_fonts_youtube_youtubesansbold_otf.new","ManifestResources.hx",2107,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_4a905732473d476f_2125_new,"__ASSET__OPENFL__assets_fonts_youtube_youtubesansbold_otf","new",0x3de35afc,"__ASSET__OPENFL__assets_fonts_youtube_youtubesansbold_otf.new","ManifestResources.hx",2125,0xf77aa668)
 
 void __ASSET__OPENFL__assets_fonts_youtube_youtubesansbold_otf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_4a905732473d476f_2107_new)
-HXDLIN(2107)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Youtube/YouTubeSansBold.otf",cb,a6,a9,8a));
-HXDLIN(2107)		this->name = HX_("YouTube Sans Bold",f5,e0,42,4c);
-HXDLIN(2107)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_4a905732473d476f_2125_new)
+HXDLIN(2125)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Youtube/YouTubeSansBold.otf",cb,a6,a9,8a));
+HXDLIN(2125)		this->name = HX_("YouTube Sans Bold",f5,e0,42,4c);
+HXDLIN(2125)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__assets_fonts_youtube_youtubesansbold_otf_obj::__CreateEmpty() { return new __ASSET__OPENFL__assets_fonts_youtube_youtubesansbold_otf_obj; }

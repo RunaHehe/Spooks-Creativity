@@ -5,15 +5,15 @@
 #include <Std.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_7453a504026a77f0_26_is,"Std","is",0x3c56d6f5,"Std.is","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Std.hx",26,0x73c94362)
-HX_LOCAL_STACK_FRAME(_hx_pos_7453a504026a77f0_30_isOfType,"Std","isOfType",0x6718c846,"Std.isOfType","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Std.hx",30,0x73c94362)
-HX_LOCAL_STACK_FRAME(_hx_pos_7453a504026a77f0_34_downcast,"Std","downcast",0x4619c56c,"Std.downcast","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Std.hx",34,0x73c94362)
-HX_LOCAL_STACK_FRAME(_hx_pos_7453a504026a77f0_39_instance,"Std","instance",0x1431f4e0,"Std.instance","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Std.hx",39,0x73c94362)
-HX_LOCAL_STACK_FRAME(_hx_pos_7453a504026a77f0_43_string,"Std","string",0xcf48855c,"Std.string","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Std.hx",43,0x73c94362)
-HX_LOCAL_STACK_FRAME(_hx_pos_7453a504026a77f0_47_int,"Std","int",0x8fa53b84,"Std.int","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Std.hx",47,0x73c94362)
-HX_LOCAL_STACK_FRAME(_hx_pos_7453a504026a77f0_51_parseInt,"Std","parseInt",0x90c2ebc7,"Std.parseInt","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Std.hx",51,0x73c94362)
-HX_LOCAL_STACK_FRAME(_hx_pos_7453a504026a77f0_55_parseFloat,"Std","parseFloat",0xbca10a74,"Std.parseFloat","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Std.hx",55,0x73c94362)
-HX_LOCAL_STACK_FRAME(_hx_pos_7453a504026a77f0_58_random,"Std","random",0x75a77e8e,"Std.random","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Std.hx",58,0x73c94362)
+HX_LOCAL_STACK_FRAME(_hx_pos_986723450deb4491_26_is,"Std","is",0x3c56d6f5,"Std.is","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Std.hx",26,0x6cd09c81)
+HX_LOCAL_STACK_FRAME(_hx_pos_986723450deb4491_30_isOfType,"Std","isOfType",0x6718c846,"Std.isOfType","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Std.hx",30,0x6cd09c81)
+HX_LOCAL_STACK_FRAME(_hx_pos_986723450deb4491_34_downcast,"Std","downcast",0x4619c56c,"Std.downcast","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Std.hx",34,0x6cd09c81)
+HX_LOCAL_STACK_FRAME(_hx_pos_986723450deb4491_39_instance,"Std","instance",0x1431f4e0,"Std.instance","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Std.hx",39,0x6cd09c81)
+HX_LOCAL_STACK_FRAME(_hx_pos_986723450deb4491_43_string,"Std","string",0xcf48855c,"Std.string","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Std.hx",43,0x6cd09c81)
+HX_LOCAL_STACK_FRAME(_hx_pos_986723450deb4491_47_int,"Std","int",0x8fa53b84,"Std.int","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Std.hx",47,0x6cd09c81)
+HX_LOCAL_STACK_FRAME(_hx_pos_986723450deb4491_51_parseInt,"Std","parseInt",0x90c2ebc7,"Std.parseInt","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Std.hx",51,0x6cd09c81)
+HX_LOCAL_STACK_FRAME(_hx_pos_986723450deb4491_55_parseFloat,"Std","parseFloat",0xbca10a74,"Std.parseFloat","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Std.hx",55,0x6cd09c81)
+HX_LOCAL_STACK_FRAME(_hx_pos_986723450deb4491_58_random,"Std","random",0x75a77e8e,"Std.random","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Std.hx",58,0x6cd09c81)
 
 void Std_obj::__construct() { }
 
@@ -33,7 +33,7 @@ bool Std_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool Std_obj::is( ::Dynamic v, ::Dynamic t){
-            	HX_STACKFRAME(&_hx_pos_7453a504026a77f0_26_is)
+            	HX_STACKFRAME(&_hx_pos_986723450deb4491_26_is)
 HXDLIN(  26)		return ::Std_obj::isOfType(v,t);
             	}
 
@@ -41,7 +41,7 @@ HXDLIN(  26)		return ::Std_obj::isOfType(v,t);
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Std_obj,is,return )
 
 bool Std_obj::isOfType( ::Dynamic v, ::Dynamic t){
-            	HX_STACKFRAME(&_hx_pos_7453a504026a77f0_30_isOfType)
+            	HX_STACKFRAME(&_hx_pos_986723450deb4491_30_isOfType)
 HXDLIN(  30)		return  ::__instanceof(v,t);
             	}
 
@@ -49,7 +49,7 @@ HXDLIN(  30)		return  ::__instanceof(v,t);
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Std_obj,isOfType,return )
 
  ::Dynamic Std_obj::downcast( ::Dynamic value,::hx::Class c){
-            	HX_STACKFRAME(&_hx_pos_7453a504026a77f0_34_downcast)
+            	HX_STACKFRAME(&_hx_pos_986723450deb4491_34_downcast)
 HXDLIN(  34)		if (::Std_obj::isOfType(value,c)) {
 HXDLIN(  34)			return value;
             		}
@@ -63,7 +63,7 @@ HXDLIN(  34)		return null();
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Std_obj,downcast,return )
 
  ::Dynamic Std_obj::instance( ::Dynamic value,::hx::Class c){
-            	HX_STACKFRAME(&_hx_pos_7453a504026a77f0_39_instance)
+            	HX_STACKFRAME(&_hx_pos_986723450deb4491_39_instance)
 HXDLIN(  39)		 ::Dynamic _hx_tmp;
 HXDLIN(  39)		if (::Std_obj::isOfType(value,c)) {
 HXDLIN(  39)			_hx_tmp = value;
@@ -78,7 +78,7 @@ HXDLIN(  39)		return _hx_tmp;
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Std_obj,instance,return )
 
 ::String Std_obj::string( ::Dynamic s){
-            	HX_STACKFRAME(&_hx_pos_7453a504026a77f0_43_string)
+            	HX_STACKFRAME(&_hx_pos_986723450deb4491_43_string)
 HXDLIN(  43)		if (::hx::IsNull( s )) {
 HXDLIN(  43)			return HX_("null",87,9e,0e,49);
             		}
@@ -92,7 +92,7 @@ HXDLIN(  43)		return null();
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Std_obj,string,return )
 
 int Std_obj::_hx_int(Float x){
-            	HX_STACKFRAME(&_hx_pos_7453a504026a77f0_47_int)
+            	HX_STACKFRAME(&_hx_pos_986723450deb4491_47_int)
 HXDLIN(  47)		return  ::__int__(x);
             	}
 
@@ -100,7 +100,7 @@ HXDLIN(  47)		return  ::__int__(x);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Std_obj,_hx_int,return )
 
  ::Dynamic Std_obj::parseInt(::String x){
-            	HX_STACKFRAME(&_hx_pos_7453a504026a77f0_51_parseInt)
+            	HX_STACKFRAME(&_hx_pos_986723450deb4491_51_parseInt)
 HXDLIN(  51)		return  ::__hxcpp_parse_int(x);
             	}
 
@@ -108,7 +108,7 @@ HXDLIN(  51)		return  ::__hxcpp_parse_int(x);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Std_obj,parseInt,return )
 
 Float Std_obj::parseFloat(::String x){
-            	HX_STACKFRAME(&_hx_pos_7453a504026a77f0_55_parseFloat)
+            	HX_STACKFRAME(&_hx_pos_986723450deb4491_55_parseFloat)
 HXDLIN(  55)		return  ::__hxcpp_parse_float(x);
             	}
 
@@ -116,7 +116,7 @@ HXDLIN(  55)		return  ::__hxcpp_parse_float(x);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Std_obj,parseFloat,return )
 
 int Std_obj::random(int x){
-            	HX_STACKFRAME(&_hx_pos_7453a504026a77f0_58_random)
+            	HX_STACKFRAME(&_hx_pos_986723450deb4491_58_random)
 HXLINE(  59)		if ((x <= 0)) {
 HXLINE(  60)			return 0;
             		}

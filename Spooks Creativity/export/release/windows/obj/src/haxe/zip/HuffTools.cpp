@@ -14,17 +14,17 @@
 #include <haxe/zip/Huffman.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_e631287488e91c98_32_new,"haxe.zip.HuffTools","new",0x5263948b,"haxe.zip.HuffTools.new","D:\\HaxeToolKit\\haxe\\std/haxe/zip/Huffman.hx",32,0x921ba3b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_e631287488e91c98_35_treeDepth,"haxe.zip.HuffTools","treeDepth",0x748ac930,"haxe.zip.HuffTools.treeDepth","D:\\HaxeToolKit\\haxe\\std/haxe/zip/Huffman.hx",35,0x921ba3b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_e631287488e91c98_45_treeCompress,"haxe.zip.HuffTools","treeCompress",0x66340995,"haxe.zip.HuffTools.treeCompress","D:\\HaxeToolKit\\haxe\\std/haxe/zip/Huffman.hx",45,0x921ba3b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_e631287488e91c98_63_treeWalk,"haxe.zip.HuffTools","treeWalk",0x2e5c697c,"haxe.zip.HuffTools.treeWalk","D:\\HaxeToolKit\\haxe\\std/haxe/zip/Huffman.hx",63,0x921ba3b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_e631287488e91c98_75_treeMake,"haxe.zip.HuffTools","treeMake",0x27c04661,"haxe.zip.HuffTools.treeMake","D:\\HaxeToolKit\\haxe\\std/haxe/zip/Huffman.hx",75,0x921ba3b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_e631287488e91c98_86_make,"haxe.zip.HuffTools","make",0xc4121b63,"haxe.zip.HuffTools.make","D:\\HaxeToolKit\\haxe\\std/haxe/zip/Huffman.hx",86,0x921ba3b0)
+HX_DEFINE_STACK_FRAME(_hx_pos_285e68622e590b05_32_new,"haxe.zip.HuffTools","new",0x5263948b,"haxe.zip.HuffTools.new","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Huffman.hx",32,0x9daf784f)
+HX_LOCAL_STACK_FRAME(_hx_pos_285e68622e590b05_35_treeDepth,"haxe.zip.HuffTools","treeDepth",0x748ac930,"haxe.zip.HuffTools.treeDepth","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Huffman.hx",35,0x9daf784f)
+HX_LOCAL_STACK_FRAME(_hx_pos_285e68622e590b05_45_treeCompress,"haxe.zip.HuffTools","treeCompress",0x66340995,"haxe.zip.HuffTools.treeCompress","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Huffman.hx",45,0x9daf784f)
+HX_LOCAL_STACK_FRAME(_hx_pos_285e68622e590b05_63_treeWalk,"haxe.zip.HuffTools","treeWalk",0x2e5c697c,"haxe.zip.HuffTools.treeWalk","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Huffman.hx",63,0x9daf784f)
+HX_LOCAL_STACK_FRAME(_hx_pos_285e68622e590b05_75_treeMake,"haxe.zip.HuffTools","treeMake",0x27c04661,"haxe.zip.HuffTools.treeMake","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Huffman.hx",75,0x9daf784f)
+HX_LOCAL_STACK_FRAME(_hx_pos_285e68622e590b05_86_make,"haxe.zip.HuffTools","make",0xc4121b63,"haxe.zip.HuffTools.make","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Huffman.hx",86,0x9daf784f)
 namespace haxe{
 namespace zip{
 
 void HuffTools_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_e631287488e91c98_32_new)
+            	HX_STACKFRAME(&_hx_pos_285e68622e590b05_32_new)
             	}
 
 Dynamic HuffTools_obj::__CreateEmpty() { return new HuffTools_obj; }
@@ -43,7 +43,7 @@ bool HuffTools_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 int HuffTools_obj::treeDepth( ::haxe::zip::Huffman t){
-            	HX_STACKFRAME(&_hx_pos_e631287488e91c98_35_treeDepth)
+            	HX_STACKFRAME(&_hx_pos_285e68622e590b05_35_treeDepth)
 HXDLIN(  35)		switch((int)(t->_hx_getIndex())){
             			case (int)0: {
 HXLINE(  36)				int _g = t->_hx_getInt(0);
@@ -79,7 +79,7 @@ HXLINE(  35)		return 0;
 HX_DEFINE_DYNAMIC_FUNC1(HuffTools_obj,treeDepth,return )
 
  ::haxe::zip::Huffman HuffTools_obj::treeCompress( ::haxe::zip::Huffman t){
-            	HX_STACKFRAME(&_hx_pos_e631287488e91c98_45_treeCompress)
+            	HX_STACKFRAME(&_hx_pos_285e68622e590b05_45_treeCompress)
 HXLINE(  46)		int d = this->treeDepth(t);
 HXLINE(  47)		if ((d == 0)) {
 HXLINE(  48)			return t;
@@ -114,7 +114,7 @@ HXLINE(  59)		return ::haxe::zip::Huffman_obj::NeedBits(d,table);
 HX_DEFINE_DYNAMIC_FUNC1(HuffTools_obj,treeCompress,return )
 
 void HuffTools_obj::treeWalk(::Array< ::Dynamic> table,int p,int cd,int d, ::haxe::zip::Huffman t){
-            	HX_STACKFRAME(&_hx_pos_e631287488e91c98_63_treeWalk)
+            	HX_STACKFRAME(&_hx_pos_285e68622e590b05_63_treeWalk)
 HXDLIN(  63)		if ((t->_hx_getIndex() == 1)) {
 HXLINE(  64)			 ::haxe::zip::Huffman a = t->_hx_getObject(0).StaticCast<  ::haxe::zip::Huffman >();
 HXDLIN(  64)			 ::haxe::zip::Huffman b = t->_hx_getObject(1).StaticCast<  ::haxe::zip::Huffman >();
@@ -135,7 +135,7 @@ HXLINE(  71)			table[p] = this->treeCompress(t);
 HX_DEFINE_DYNAMIC_FUNC5(HuffTools_obj,treeWalk,(void))
 
  ::haxe::zip::Huffman HuffTools_obj::treeMake( ::haxe::ds::IntMap bits,int maxbits,int v,int len){
-            	HX_STACKFRAME(&_hx_pos_e631287488e91c98_75_treeMake)
+            	HX_STACKFRAME(&_hx_pos_285e68622e590b05_75_treeMake)
 HXLINE(  76)		if ((len > maxbits)) {
 HXLINE(  77)			HX_STACK_DO_THROW(HX_("Invalid huffman",e4,e4,8f,a6));
             		}
@@ -153,7 +153,7 @@ HXDLIN(  83)		return ::haxe::zip::Huffman_obj::NeedBit(_hx_tmp,this->treeMake(bi
 HX_DEFINE_DYNAMIC_FUNC4(HuffTools_obj,treeMake,return )
 
  ::haxe::zip::Huffman HuffTools_obj::make(::Array< int > lengths,int pos,int nlengths,int maxbits){
-            	HX_GC_STACKFRAME(&_hx_pos_e631287488e91c98_86_make)
+            	HX_GC_STACKFRAME(&_hx_pos_285e68622e590b05_86_make)
 HXLINE(  87)		if ((nlengths == 1)) {
 HXLINE(  88)			return ::haxe::zip::Huffman_obj::NeedBit(::haxe::zip::Huffman_obj::Found(0),::haxe::zip::Huffman_obj::Found(0));
             		}

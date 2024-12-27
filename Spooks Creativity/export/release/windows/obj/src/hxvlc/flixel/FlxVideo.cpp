@@ -48,6 +48,9 @@
 #ifndef INCLUDED_flixel_util__FlxSignal_FlxSignal0
 #include <flixel/util/_FlxSignal/FlxSignal0.h>
 #endif
+#ifndef INCLUDED_flixel_util__FlxSignal_FlxSignal2
+#include <flixel/util/_FlxSignal/FlxSignal2.h>
+#endif
 #ifndef INCLUDED_haxe_io_Bytes
 #include <haxe/io/Bytes.h>
 #endif
@@ -100,50 +103,52 @@
 #include <sys/FileSystem.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_73_new,"hxvlc.flixel.FlxVideo","new",0xacb981fc,"hxvlc.flixel.FlxVideo.new","hxvlc/flixel/FlxVideo.hx",73,0x5fae52d4)
-HX_DEFINE_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_36_new,"hxvlc.flixel.FlxVideo","new",0xacb981fc,"hxvlc.flixel.FlxVideo.new","hxvlc/flixel/FlxVideo.hx",36,0x5fae52d4)
-HX_LOCAL_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_93___default_getCalculatedVolume,"hxvlc.flixel.FlxVideo","__default_getCalculatedVolume",0x17af692c,"hxvlc.flixel.FlxVideo.__default_getCalculatedVolume","hxvlc/flixel/FlxVideo.hx",93,0x5fae52d4)
-HX_LOCAL_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_105_load,"hxvlc.flixel.FlxVideo","load",0x744d510a,"hxvlc.flixel.FlxVideo.load","hxvlc/flixel/FlxVideo.hx",105,0x5fae52d4)
-HX_LOCAL_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_166_dispose,"hxvlc.flixel.FlxVideo","dispose",0xbd61303b,"hxvlc.flixel.FlxVideo.dispose","hxvlc/flixel/FlxVideo.hx",166,0x5fae52d4)
-HX_LOCAL_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_183_update,"hxvlc.flixel.FlxVideo","update",0x4da1bded,"hxvlc.flixel.FlxVideo.update","hxvlc/flixel/FlxVideo.hx",183,0x5fae52d4)
+HX_DEFINE_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_80_new,"hxvlc.flixel.FlxVideo","new",0xacb981fc,"hxvlc.flixel.FlxVideo.new","hxvlc/flixel/FlxVideo.hx",80,0x5fae52d4)
+HX_DEFINE_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_96_new,"hxvlc.flixel.FlxVideo","new",0xacb981fc,"hxvlc.flixel.FlxVideo.new","hxvlc/flixel/FlxVideo.hx",96,0x5fae52d4)
+HX_DEFINE_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_35_new,"hxvlc.flixel.FlxVideo","new",0xacb981fc,"hxvlc.flixel.FlxVideo.new","hxvlc/flixel/FlxVideo.hx",35,0x5fae52d4)
+HX_LOCAL_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_114___default_getCalculatedVolume,"hxvlc.flixel.FlxVideo","__default_getCalculatedVolume",0x17af692c,"hxvlc.flixel.FlxVideo.__default_getCalculatedVolume","hxvlc/flixel/FlxVideo.hx",114,0x5fae52d4)
+HX_LOCAL_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_126_load,"hxvlc.flixel.FlxVideo","load",0x744d510a,"hxvlc.flixel.FlxVideo.load","hxvlc/flixel/FlxVideo.hx",126,0x5fae52d4)
+HX_LOCAL_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_189_dispose,"hxvlc.flixel.FlxVideo","dispose",0xbd61303b,"hxvlc.flixel.FlxVideo.dispose","hxvlc/flixel/FlxVideo.hx",189,0x5fae52d4)
+HX_LOCAL_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_213_onGameResized,"hxvlc.flixel.FlxVideo","onGameResized",0xf76a3bdb,"hxvlc.flixel.FlxVideo.onGameResized","hxvlc/flixel/FlxVideo.hx",213,0x5fae52d4)
+HX_LOCAL_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_226_onFocusGained,"hxvlc.flixel.FlxVideo","onFocusGained",0x50a75653,"hxvlc.flixel.FlxVideo.onFocusGained","hxvlc/flixel/FlxVideo.hx",226,0x5fae52d4)
+HX_LOCAL_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_236_onFocusLost,"hxvlc.flixel.FlxVideo","onFocusLost",0xcfa09259,"hxvlc.flixel.FlxVideo.onFocusLost","hxvlc/flixel/FlxVideo.hx",236,0x5fae52d4)
+HX_LOCAL_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_247_onVolumeUpdate,"hxvlc.flixel.FlxVideo","onVolumeUpdate",0xdd951f26,"hxvlc.flixel.FlxVideo.onVolumeUpdate","hxvlc/flixel/FlxVideo.hx",247,0x5fae52d4)
+HX_LOCAL_STACK_FRAME(_hx_pos_82af19a9b5fbd17f_253_onVolumeChange,"hxvlc.flixel.FlxVideo","onVolumeChange",0x0e022a8d,"hxvlc.flixel.FlxVideo.onVolumeChange","hxvlc/flixel/FlxVideo.hx",253,0x5fae52d4)
 namespace hxvlc{
 namespace flixel{
 
 void FlxVideo_obj::__construct(::hx::Null< bool >  __o_smoothing){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::hxvlc::flixel::FlxVideo,_gthis) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_73_new)
-HXLINE(  74)			_gthis->set_role(libvlc_role_Game);
-HXLINE(  77)			if (_gthis->autoVolumeHandle) {
-HXLINE(  78)				 ::hxvlc::flixel::FlxVideo _gthis1 = _gthis;
-HXDLIN(  78)				Float Value = ( (Float)(_gthis->getCalculatedVolume()) );
-HXDLIN(  78)				Float lowerBound;
-HXDLIN(  78)				if ((Value < 0)) {
-HXLINE(  78)					lowerBound = ( (Float)(0) );
-            				}
-            				else {
-HXLINE(  78)					lowerBound = Value;
-            				}
-HXDLIN(  78)				Float _hx_tmp;
-HXDLIN(  78)				if ((lowerBound > 1)) {
-HXLINE(  78)					_hx_tmp = ( (Float)(1) );
-            				}
-            				else {
-HXLINE(  78)					_hx_tmp = lowerBound;
-            				}
-HXDLIN(  78)				_gthis1->set_volume(::Math_obj::floor((_hx_tmp * ( (Float)(100) ))));
+            			HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_80_new)
+HXLINE(  81)			_gthis->set_role(libvlc_role_Game);
+HXLINE(  87)			if (!(::flixel::FlxG_obj::signals->postUpdate->has(_gthis->onVolumeUpdate_dyn()))) {
+HXLINE(  88)				::flixel::FlxG_obj::signals->postUpdate->add(_gthis->onVolumeUpdate_dyn());
             			}
+HXLINE(  92)			_gthis->onVolumeChange(((Float)0.0));
+            		}
+            		HX_END_LOCAL_FUNC0((void))
+
+            		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::hxvlc::flixel::FlxVideo,_gthis) HXARGC(0)
+            		void _hx_run(){
+            			HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_96_new)
+HXLINE(  97)			if (!(::flixel::FlxG_obj::signals->gameResized->has(_gthis->onGameResized_dyn()))) {
+HXLINE(  98)				::flixel::FlxG_obj::signals->gameResized->add(_gthis->onGameResized_dyn());
+            			}
+HXLINE( 100)			_gthis->onGameResized(0,0);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		bool smoothing = __o_smoothing.Default(true);
-            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_36_new)
-HXLINE(  56)		this->autoVolumeHandle = true;
-HXLINE(  50)		this->autoResizeMode = 17;
-HXLINE(  43)		this->autoPause = ::flixel::FlxG_obj::autoPause;
-HXLINE(  65)		 ::hxvlc::flixel::FlxVideo _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(  66)		super::__construct(smoothing);
-HXLINE(  72)		this->onOpening->add( ::Dynamic(new _hx_Closure_0(_gthis)),null(),null());
+            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_35_new)
+HXLINE(  62)		this->resumeOnFocus = false;
+HXLINE(  55)		this->autoVolumeHandle = true;
+HXLINE(  49)		this->autoResizeMode = 17;
+HXLINE(  42)		this->autoPause = ::flixel::FlxG_obj::autoPause;
+HXLINE(  76)		 ::hxvlc::flixel::FlxVideo _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(  77)		super::__construct(smoothing);
+HXLINE(  79)		this->onOpening->add( ::Dynamic(new _hx_Closure_0(_gthis)),null(),null());
+HXLINE(  95)		this->onFormatSetup->add( ::Dynamic(new _hx_Closure_1(_gthis)),null(),null());
             	}
 
 Dynamic FlxVideo_obj::__CreateEmpty() { return new FlxVideo_obj; }
@@ -175,93 +180,94 @@ bool FlxVideo_obj::_hx_isInstanceOf(int inClassId) {
 
 HX_BEGIN_DEFAULT_FUNC(__default_getCalculatedVolume,FlxVideo_obj)
 Float _hx_run(){
-            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_93___default_getCalculatedVolume)
-HXDLIN(  93)		int _hx_tmp;
-HXDLIN(  93)		if (::flixel::FlxG_obj::sound->muted) {
-HXDLIN(  93)			_hx_tmp = 0;
+            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_114___default_getCalculatedVolume)
+HXDLIN( 114)		int _hx_tmp;
+HXDLIN( 114)		if (::flixel::FlxG_obj::sound->muted) {
+HXDLIN( 114)			_hx_tmp = 0;
             		}
             		else {
-HXDLIN(  93)			_hx_tmp = 1;
+HXDLIN( 114)			_hx_tmp = 1;
             		}
-HXDLIN(  93)		return (( (Float)(_hx_tmp) ) * ::flixel::FlxG_obj::sound->volume);
+HXDLIN( 114)		return (( (Float)(_hx_tmp) ) * ::flixel::FlxG_obj::sound->volume);
             	}
 HX_END_LOCAL_FUNC0(return )
 HX_END_DEFAULT_FUNC
 
 bool FlxVideo_obj::load( ::Dynamic location,::Array< ::String > options){
-            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_105_load)
-HXLINE( 106)		if (this->autoPause) {
-HXLINE( 108)			if (!(::flixel::FlxG_obj::signals->focusGained->has(this->resume_dyn()))) {
-HXLINE( 109)				::flixel::FlxG_obj::signals->focusGained->add(this->resume_dyn());
+            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_126_load)
+HXLINE( 127)		if (this->autoPause) {
+HXLINE( 129)			if (!(::flixel::FlxG_obj::signals->focusGained->has(this->onFocusGained_dyn()))) {
+HXLINE( 130)				::flixel::FlxG_obj::signals->focusGained->add(this->onFocusGained_dyn());
             			}
-HXLINE( 111)			if (!(::flixel::FlxG_obj::signals->focusLost->has(this->pause_dyn()))) {
-HXLINE( 112)				::flixel::FlxG_obj::signals->focusLost->add(this->pause_dyn());
+HXLINE( 132)			if (!(::flixel::FlxG_obj::signals->focusLost->has(this->onFocusLost_dyn()))) {
+HXLINE( 133)				::flixel::FlxG_obj::signals->focusLost->add(this->onFocusLost_dyn());
             			}
             		}
-HXLINE( 115)		bool _hx_tmp;
-HXDLIN( 115)		bool _hx_tmp1;
-HXDLIN( 115)		bool _hx_tmp2;
-HXDLIN( 115)		if (::hx::IsNotNull( location )) {
-HXLINE( 115)			_hx_tmp2 = !(::Std_obj::isOfType(location,::hx::ClassOf< int >()));
+HXLINE( 136)		this->currentResizeMode = this->autoResizeMode;
+HXLINE( 138)		bool _hx_tmp;
+HXDLIN( 138)		bool _hx_tmp1;
+HXDLIN( 138)		bool _hx_tmp2;
+HXDLIN( 138)		if (::hx::IsNotNull( location )) {
+HXLINE( 138)			_hx_tmp2 = !(::Std_obj::isOfType(location,::hx::ClassOf< int >()));
             		}
             		else {
-HXLINE( 115)			_hx_tmp2 = false;
+HXLINE( 138)			_hx_tmp2 = false;
             		}
-HXDLIN( 115)		if (_hx_tmp2) {
-HXLINE( 115)			_hx_tmp1 = !(::Std_obj::isOfType(location,::hx::ClassOf< ::haxe::io::Bytes >()));
-            		}
-            		else {
-HXLINE( 115)			_hx_tmp1 = false;
-            		}
-HXDLIN( 115)		if (_hx_tmp1) {
-HXLINE( 115)			_hx_tmp = ::Std_obj::isOfType(location,::hx::ClassOf< ::String >());
+HXDLIN( 138)		if (_hx_tmp2) {
+HXLINE( 138)			_hx_tmp1 = !(::Std_obj::isOfType(location,::hx::ClassOf< ::haxe::io::Bytes >()));
             		}
             		else {
-HXLINE( 115)			_hx_tmp = false;
+HXLINE( 138)			_hx_tmp1 = false;
             		}
-HXDLIN( 115)		if (_hx_tmp) {
-HXLINE( 117)			::String location1 = ::hx::TCast< ::String >::cast(location);
-HXLINE( 119)			if ((location1.indexOf(HX_("://",da,2b,2c,00),null()) == -1)) {
-HXLINE( 121)				::String absolutePath = ::sys::FileSystem_obj::absolutePath(location1);
-HXLINE( 123)				if (::sys::FileSystem_obj::exists(absolutePath)) {
-HXLINE( 124)					return this->super::load(absolutePath,options);
+HXDLIN( 138)		if (_hx_tmp1) {
+HXLINE( 138)			_hx_tmp = ::Std_obj::isOfType(location,::hx::ClassOf< ::String >());
+            		}
+            		else {
+HXLINE( 138)			_hx_tmp = false;
+            		}
+HXDLIN( 138)		if (_hx_tmp) {
+HXLINE( 140)			::String location1 = ::hx::TCast< ::String >::cast(location);
+HXLINE( 142)			if ((location1.indexOf(HX_("://",da,2b,2c,00),null()) == -1)) {
+HXLINE( 144)				::String absolutePath = ::sys::FileSystem_obj::absolutePath(location1);
+HXLINE( 146)				if (::sys::FileSystem_obj::exists(absolutePath)) {
+HXLINE( 147)					return this->super::load(absolutePath,options);
             				}
             				else {
-HXLINE( 125)					if (::openfl::utils::Assets_obj::exists(location1,null())) {
-HXLINE( 127)						::String assetPath = ::openfl::utils::Assets_obj::getPath(location1);
-HXLINE( 129)						if (::hx::IsNotNull( assetPath )) {
-HXLINE( 131)							bool _hx_tmp3;
-HXDLIN( 131)							if (::sys::FileSystem_obj::exists(assetPath)) {
-HXLINE( 131)								_hx_tmp3 = ::haxe::io::Path_obj::isAbsolute(assetPath);
+HXLINE( 148)					if (::openfl::utils::Assets_obj::exists(location1,null())) {
+HXLINE( 150)						::String assetPath = ::openfl::utils::Assets_obj::getPath(location1);
+HXLINE( 152)						if (::hx::IsNotNull( assetPath )) {
+HXLINE( 154)							bool _hx_tmp3;
+HXDLIN( 154)							if (::sys::FileSystem_obj::exists(assetPath)) {
+HXLINE( 154)								_hx_tmp3 = ::haxe::io::Path_obj::isAbsolute(assetPath);
             							}
             							else {
-HXLINE( 131)								_hx_tmp3 = false;
+HXLINE( 154)								_hx_tmp3 = false;
             							}
-HXDLIN( 131)							if (_hx_tmp3) {
-HXLINE( 132)								return this->super::load(assetPath,options);
+HXDLIN( 154)							if (_hx_tmp3) {
+HXLINE( 155)								return this->super::load(assetPath,options);
             							}
             							else {
-HXLINE( 133)								if (!(::haxe::io::Path_obj::isAbsolute(assetPath))) {
-HXLINE( 135)									try {
+HXLINE( 156)								if (!(::haxe::io::Path_obj::isAbsolute(assetPath))) {
+HXLINE( 158)									try {
             										HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE( 137)										 ::haxe::io::Bytes assetBytes = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::toBytes(::openfl::utils::Assets_obj::getBytes(location1));
-HXLINE( 139)										if (::hx::IsNotNull( assetBytes )) {
-HXLINE( 140)											return this->super::load(assetBytes,options);
+HXLINE( 160)										 ::haxe::io::Bytes assetBytes = ::openfl::utils::_ByteArray::ByteArray_Impl__obj::toBytes(::openfl::utils::Assets_obj::getBytes(location1));
+HXLINE( 162)										if (::hx::IsNotNull( assetBytes )) {
+HXLINE( 163)											return this->super::load(assetBytes,options);
             										}
             									} catch( ::Dynamic _hx_e) {
             										if (_hx_e.IsClass<  ::Dynamic >() ){
             											HX_STACK_BEGIN_CATCH
             											 ::Dynamic _g = _hx_e;
-HXLINE( 142)											{
-HXLINE( 142)												null();
+HXLINE( 165)											{
+HXLINE( 165)												null();
             											}
-HXDLIN( 142)											 ::Dynamic e = _g;
-HXLINE( 144)											{
-HXLINE( 144)												 ::flixel::_hx_system::frontEnds::LogFrontEnd _this = ::flixel::FlxG_obj::log;
-HXDLIN( 144)												 ::Dynamic data = (((HX_("Error loading asset bytes from location \"",6c,0c,1e,2a) + location1) + HX_("\": ",48,ff,19,00)) + ::Std_obj::string(e));
-HXDLIN( 144)												_this->advanced(data,::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
+HXDLIN( 165)											 ::Dynamic e = _g;
+HXLINE( 167)											{
+HXLINE( 167)												 ::flixel::_hx_system::frontEnds::LogFrontEnd _this = ::flixel::FlxG_obj::log;
+HXDLIN( 167)												 ::Dynamic data = (((HX_("Error loading asset bytes from location \"",6c,0c,1e,2a) + location1) + HX_("\": ",48,ff,19,00)) + ::Std_obj::string(e));
+HXDLIN( 167)												_this->advanced(data,::flixel::_hx_system::debug::log::LogStyle_obj::ERROR,true);
             											}
-HXLINE( 146)											return false;
+HXLINE( 169)											return false;
             										}
             										else {
             											HX_STACK_DO_THROW(_hx_e);
@@ -270,116 +276,161 @@ HXLINE( 146)											return false;
             								}
             							}
             						}
-HXLINE( 151)						return false;
+HXLINE( 174)						return false;
             					}
             					else {
-HXLINE( 155)						::flixel::FlxG_obj::log->advanced(((HX_("Unable to find the video file at location \"",03,9a,de,e8) + location1) + HX_("\".",cc,1d,00,00)),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
-HXLINE( 157)						return false;
+HXLINE( 178)						::flixel::FlxG_obj::log->advanced(((HX_("Unable to find the video file at location \"",03,9a,de,e8) + location1) + HX_("\".",cc,1d,00,00)),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true);
+HXLINE( 180)						return false;
             					}
             				}
             			}
             		}
-HXLINE( 162)		return this->super::load(location,options);
+HXLINE( 185)		return this->super::load(location,options);
             	}
 
 
 void FlxVideo_obj::dispose(){
-            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_166_dispose)
-HXLINE( 167)		if (::flixel::FlxG_obj::signals->focusGained->has(this->resume_dyn())) {
-HXLINE( 168)			::flixel::FlxG_obj::signals->focusGained->remove(this->resume_dyn());
+            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_189_dispose)
+HXLINE( 190)		if (::flixel::FlxG_obj::signals->focusGained->has(this->onFocusGained_dyn())) {
+HXLINE( 191)			::flixel::FlxG_obj::signals->focusGained->remove(this->onFocusGained_dyn());
             		}
-HXLINE( 170)		if (::flixel::FlxG_obj::signals->focusLost->has(this->pause_dyn())) {
-HXLINE( 171)			::flixel::FlxG_obj::signals->focusLost->remove(this->pause_dyn());
+HXLINE( 193)		if (::flixel::FlxG_obj::signals->focusLost->has(this->onFocusLost_dyn())) {
+HXLINE( 194)			::flixel::FlxG_obj::signals->focusLost->remove(this->onFocusLost_dyn());
             		}
-HXLINE( 178)		this->super::dispose();
+HXLINE( 196)		if (::flixel::FlxG_obj::signals->gameResized->has(this->onGameResized_dyn())) {
+HXLINE( 197)			::flixel::FlxG_obj::signals->gameResized->remove(this->onGameResized_dyn());
+            		}
+HXLINE( 203)		if (::flixel::FlxG_obj::signals->postUpdate->has(this->onVolumeUpdate_dyn())) {
+HXLINE( 204)			::flixel::FlxG_obj::signals->postUpdate->remove(this->onVolumeUpdate_dyn());
+            		}
+HXLINE( 207)		this->super::dispose();
             	}
 
 
-void FlxVideo_obj::update(int deltaTime){
-            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_183_update)
-HXLINE( 184)		bool _hx_tmp;
-HXDLIN( 184)		bool _hx_tmp1;
-HXDLIN( 184)		int this1 = this->autoResizeMode;
-HXDLIN( 184)		bool _hx_tmp2;
-HXDLIN( 184)		if ((this1 != 1)) {
-HXLINE( 184)			_hx_tmp2 = (this1 == 17);
-            		}
-            		else {
-HXLINE( 184)			_hx_tmp2 = true;
-            		}
-HXDLIN( 184)		if (!(_hx_tmp2)) {
-HXLINE( 184)			int this2 = this->autoResizeMode;
-HXDLIN( 184)			if ((this2 != 16)) {
-HXLINE( 184)				_hx_tmp1 = (this2 == 17);
+void FlxVideo_obj::onGameResized(int width,int height){
+            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_213_onGameResized)
+HXDLIN( 213)		if (::hx::IsNotNull( this->currentResizeMode )) {
+HXLINE( 215)			bool _hx_tmp;
+HXDLIN( 215)			bool _hx_tmp1;
+HXDLIN( 215)			int this1 = ( (int)(this->currentResizeMode) );
+HXDLIN( 215)			bool _hx_tmp2;
+HXDLIN( 215)			if ((this1 != 1)) {
+HXLINE( 215)				_hx_tmp2 = (this1 == 17);
             			}
             			else {
-HXLINE( 184)				_hx_tmp1 = true;
+HXLINE( 215)				_hx_tmp2 = true;
             			}
-            		}
-            		else {
-HXLINE( 184)			_hx_tmp1 = true;
-            		}
-HXDLIN( 184)		if (_hx_tmp1) {
-HXLINE( 184)			_hx_tmp = ::hx::IsNotNull( this->get_bitmapData() );
-            		}
-            		else {
-HXLINE( 184)			_hx_tmp = false;
-            		}
-HXDLIN( 184)		if (_hx_tmp) {
-HXLINE( 186)			Float _hx_tmp3;
-HXDLIN( 186)			int this3 = this->autoResizeMode;
-HXDLIN( 186)			bool _hx_tmp4;
-HXDLIN( 186)			if ((this3 != 1)) {
-HXLINE( 186)				_hx_tmp4 = (this3 == 17);
+HXDLIN( 215)			if (!(_hx_tmp2)) {
+HXLINE( 215)				int this2 = ( (int)(this->currentResizeMode) );
+HXDLIN( 215)				if ((this2 != 16)) {
+HXLINE( 215)					_hx_tmp1 = (this2 == 17);
+            				}
+            				else {
+HXLINE( 215)					_hx_tmp1 = true;
+            				}
             			}
             			else {
-HXLINE( 186)				_hx_tmp4 = true;
+HXLINE( 215)				_hx_tmp1 = true;
             			}
-HXDLIN( 186)			if (_hx_tmp4) {
-HXLINE( 186)				_hx_tmp3 = ::flixel::FlxG_obj::scaleMode->gameSize->x;
-            			}
-            			else {
-HXLINE( 186)				_hx_tmp3 = ( (Float)(this->get_bitmapData()->width) );
-            			}
-HXDLIN( 186)			this->set_width(_hx_tmp3);
-HXLINE( 187)			Float _hx_tmp5;
-HXDLIN( 187)			int this4 = this->autoResizeMode;
-HXDLIN( 187)			bool _hx_tmp6;
-HXDLIN( 187)			if ((this4 != 16)) {
-HXLINE( 187)				_hx_tmp6 = (this4 == 17);
+HXDLIN( 215)			if (_hx_tmp1) {
+HXLINE( 215)				_hx_tmp = ::hx::IsNotNull( this->get_bitmapData() );
             			}
             			else {
-HXLINE( 187)				_hx_tmp6 = true;
+HXLINE( 215)				_hx_tmp = false;
             			}
-HXDLIN( 187)			if (_hx_tmp6) {
-HXLINE( 187)				_hx_tmp5 = ::flixel::FlxG_obj::scaleMode->gameSize->y;
+HXDLIN( 215)			if (_hx_tmp) {
+HXLINE( 217)				Float _hx_tmp3;
+HXDLIN( 217)				int this3 = ( (int)(this->currentResizeMode) );
+HXDLIN( 217)				bool _hx_tmp4;
+HXDLIN( 217)				if ((this3 != 1)) {
+HXLINE( 217)					_hx_tmp4 = (this3 == 17);
+            				}
+            				else {
+HXLINE( 217)					_hx_tmp4 = true;
+            				}
+HXDLIN( 217)				if (_hx_tmp4) {
+HXLINE( 217)					_hx_tmp3 = ::flixel::FlxG_obj::scaleMode->gameSize->x;
+            				}
+            				else {
+HXLINE( 217)					_hx_tmp3 = ( (Float)(this->get_bitmapData()->width) );
+            				}
+HXDLIN( 217)				this->set_width(_hx_tmp3);
+HXLINE( 218)				Float _hx_tmp5;
+HXDLIN( 218)				int this4 = ( (int)(this->currentResizeMode) );
+HXDLIN( 218)				bool _hx_tmp6;
+HXDLIN( 218)				if ((this4 != 16)) {
+HXLINE( 218)					_hx_tmp6 = (this4 == 17);
+            				}
+            				else {
+HXLINE( 218)					_hx_tmp6 = true;
+            				}
+HXDLIN( 218)				if (_hx_tmp6) {
+HXLINE( 218)					_hx_tmp5 = ::flixel::FlxG_obj::scaleMode->gameSize->y;
+            				}
+            				else {
+HXLINE( 218)					_hx_tmp5 = ( (Float)(this->get_bitmapData()->height) );
+            				}
+HXDLIN( 218)				this->set_height(_hx_tmp5);
             			}
-            			else {
-HXLINE( 187)				_hx_tmp5 = ( (Float)(this->get_bitmapData()->height) );
-            			}
-HXDLIN( 187)			this->set_height(_hx_tmp5);
             		}
-HXLINE( 191)		if (this->autoVolumeHandle) {
-HXLINE( 192)			Float Value = ( (Float)(this->getCalculatedVolume()) );
-HXDLIN( 192)			Float lowerBound;
-HXDLIN( 192)			if ((Value < 0)) {
-HXLINE( 192)				lowerBound = ( (Float)(0) );
-            			}
-            			else {
-HXLINE( 192)				lowerBound = Value;
-            			}
-HXDLIN( 192)			Float _hx_tmp7;
-HXDLIN( 192)			if ((lowerBound > 1)) {
-HXLINE( 192)				_hx_tmp7 = ( (Float)(1) );
-            			}
-            			else {
-HXLINE( 192)				_hx_tmp7 = lowerBound;
-            			}
-HXDLIN( 192)			this->set_volume(::Math_obj::floor((_hx_tmp7 * ( (Float)(100) ))));
-            		}
-HXLINE( 195)		this->super::update(deltaTime);
             	}
 
+
+HX_DEFINE_DYNAMIC_FUNC2(FlxVideo_obj,onGameResized,(void))
+
+void FlxVideo_obj::onFocusGained(){
+            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_226_onFocusGained)
+HXDLIN( 226)		if (this->resumeOnFocus) {
+HXLINE( 228)			this->resumeOnFocus = false;
+HXLINE( 230)			this->resume();
+            		}
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC0(FlxVideo_obj,onFocusGained,(void))
+
+void FlxVideo_obj::onFocusLost(){
+            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_236_onFocusLost)
+HXLINE( 237)		this->resumeOnFocus = this->get_isPlaying();
+HXLINE( 239)		this->pause();
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC0(FlxVideo_obj,onFocusLost,(void))
+
+void FlxVideo_obj::onVolumeUpdate(){
+            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_247_onVolumeUpdate)
+HXDLIN( 247)		this->onVolumeChange(((Float)0.0));
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC0(FlxVideo_obj,onVolumeUpdate,(void))
+
+void FlxVideo_obj::onVolumeChange(Float vol){
+            	HX_STACKFRAME(&_hx_pos_82af19a9b5fbd17f_253_onVolumeChange)
+HXLINE( 254)		if (!(this->autoVolumeHandle)) {
+HXLINE( 255)			return;
+            		}
+HXLINE( 257)		Float Value = ( (Float)(this->getCalculatedVolume()) );
+HXDLIN( 257)		Float lowerBound;
+HXDLIN( 257)		if ((Value < 0)) {
+HXLINE( 257)			lowerBound = ( (Float)(0) );
+            		}
+            		else {
+HXLINE( 257)			lowerBound = Value;
+            		}
+HXDLIN( 257)		Float _hx_tmp;
+HXDLIN( 257)		if ((lowerBound > ((Float)2.55))) {
+HXLINE( 257)			_hx_tmp = ((Float)2.55);
+            		}
+            		else {
+HXLINE( 257)			_hx_tmp = lowerBound;
+            		}
+HXDLIN( 257)		this->set_volume(::Math_obj::floor((_hx_tmp * ( (Float)(100) ))));
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(FlxVideo_obj,onVolumeChange,(void))
 
 
 void FlxVideo_obj::__alloc_dynamic_functions(::hx::Ctx *_hx_ctx,FlxVideo_obj *_hx_obj) {
@@ -410,6 +461,8 @@ void FlxVideo_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_MEMBER_NAME(autoPause,"autoPause");
 	HX_MARK_MEMBER_NAME(autoResizeMode,"autoResizeMode");
 	HX_MARK_MEMBER_NAME(autoVolumeHandle,"autoVolumeHandle");
+	HX_MARK_MEMBER_NAME(resumeOnFocus,"resumeOnFocus");
+	HX_MARK_MEMBER_NAME(currentResizeMode,"currentResizeMode");
 	HX_MARK_MEMBER_NAME(getCalculatedVolume,"getCalculatedVolume");
 	 ::hxvlc::openfl::Video_obj::__Mark(HX_MARK_ARG);
 	HX_MARK_END_CLASS();
@@ -420,6 +473,8 @@ void FlxVideo_obj::__Visit(HX_VISIT_PARAMS)
 	HX_VISIT_MEMBER_NAME(autoPause,"autoPause");
 	HX_VISIT_MEMBER_NAME(autoResizeMode,"autoResizeMode");
 	HX_VISIT_MEMBER_NAME(autoVolumeHandle,"autoVolumeHandle");
+	HX_VISIT_MEMBER_NAME(resumeOnFocus,"resumeOnFocus");
+	HX_VISIT_MEMBER_NAME(currentResizeMode,"currentResizeMode");
 	HX_VISIT_MEMBER_NAME(getCalculatedVolume,"getCalculatedVolume");
 	 ::hxvlc::openfl::Video_obj::__Visit(HX_VISIT_ARG);
 }
@@ -430,20 +485,30 @@ void FlxVideo_obj::__Visit(HX_VISIT_PARAMS)
 	case 4:
 		if (HX_FIELD_EQ(inName,"load") ) { return ::hx::Val( load_dyn() ); }
 		break;
-	case 6:
-		if (HX_FIELD_EQ(inName,"update") ) { return ::hx::Val( update_dyn() ); }
-		break;
 	case 7:
 		if (HX_FIELD_EQ(inName,"dispose") ) { return ::hx::Val( dispose_dyn() ); }
 		break;
 	case 9:
 		if (HX_FIELD_EQ(inName,"autoPause") ) { return ::hx::Val( autoPause ); }
 		break;
+	case 11:
+		if (HX_FIELD_EQ(inName,"onFocusLost") ) { return ::hx::Val( onFocusLost_dyn() ); }
+		break;
+	case 13:
+		if (HX_FIELD_EQ(inName,"resumeOnFocus") ) { return ::hx::Val( resumeOnFocus ); }
+		if (HX_FIELD_EQ(inName,"onGameResized") ) { return ::hx::Val( onGameResized_dyn() ); }
+		if (HX_FIELD_EQ(inName,"onFocusGained") ) { return ::hx::Val( onFocusGained_dyn() ); }
+		break;
 	case 14:
 		if (HX_FIELD_EQ(inName,"autoResizeMode") ) { return ::hx::Val( autoResizeMode ); }
+		if (HX_FIELD_EQ(inName,"onVolumeUpdate") ) { return ::hx::Val( onVolumeUpdate_dyn() ); }
+		if (HX_FIELD_EQ(inName,"onVolumeChange") ) { return ::hx::Val( onVolumeChange_dyn() ); }
 		break;
 	case 16:
 		if (HX_FIELD_EQ(inName,"autoVolumeHandle") ) { return ::hx::Val( autoVolumeHandle ); }
+		break;
+	case 17:
+		if (HX_FIELD_EQ(inName,"currentResizeMode") ) { return ::hx::Val( currentResizeMode ); }
 		break;
 	case 19:
 		if (HX_FIELD_EQ(inName,"getCalculatedVolume") ) { return ::hx::Val( getCalculatedVolume ); }
@@ -457,11 +522,17 @@ void FlxVideo_obj::__Visit(HX_VISIT_PARAMS)
 	case 9:
 		if (HX_FIELD_EQ(inName,"autoPause") ) { autoPause=inValue.Cast< bool >(); return inValue; }
 		break;
+	case 13:
+		if (HX_FIELD_EQ(inName,"resumeOnFocus") ) { resumeOnFocus=inValue.Cast< bool >(); return inValue; }
+		break;
 	case 14:
 		if (HX_FIELD_EQ(inName,"autoResizeMode") ) { autoResizeMode=inValue.Cast< int >(); return inValue; }
 		break;
 	case 16:
 		if (HX_FIELD_EQ(inName,"autoVolumeHandle") ) { autoVolumeHandle=inValue.Cast< bool >(); return inValue; }
+		break;
+	case 17:
+		if (HX_FIELD_EQ(inName,"currentResizeMode") ) { currentResizeMode=inValue.Cast<  ::Dynamic >(); return inValue; }
 		break;
 	case 19:
 		if (HX_FIELD_EQ(inName,"getCalculatedVolume") ) { getCalculatedVolume=inValue.Cast<  ::Dynamic >(); return inValue; }
@@ -474,6 +545,8 @@ void FlxVideo_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("autoPause",07,15,63,9b));
 	outFields->push(HX_("autoResizeMode",c6,87,20,03));
 	outFields->push(HX_("autoVolumeHandle",31,17,c3,32));
+	outFields->push(HX_("resumeOnFocus",0c,fc,f9,8f));
+	outFields->push(HX_("currentResizeMode",10,e5,d0,93));
 	super::__GetFields(outFields);
 };
 
@@ -482,6 +555,8 @@ static ::hx::StorageInfo FlxVideo_obj_sMemberStorageInfo[] = {
 	{::hx::fsBool,(int)offsetof(FlxVideo_obj,autoPause),HX_("autoPause",07,15,63,9b)},
 	{::hx::fsInt,(int)offsetof(FlxVideo_obj,autoResizeMode),HX_("autoResizeMode",c6,87,20,03)},
 	{::hx::fsBool,(int)offsetof(FlxVideo_obj,autoVolumeHandle),HX_("autoVolumeHandle",31,17,c3,32)},
+	{::hx::fsBool,(int)offsetof(FlxVideo_obj,resumeOnFocus),HX_("resumeOnFocus",0c,fc,f9,8f)},
+	{::hx::fsObject /*  ::Dynamic */ ,(int)offsetof(FlxVideo_obj,currentResizeMode),HX_("currentResizeMode",10,e5,d0,93)},
 	{::hx::fsObject /*  ::Dynamic */ ,(int)offsetof(FlxVideo_obj,getCalculatedVolume),HX_("getCalculatedVolume",6e,ed,cb,8e)},
 	{ ::hx::fsUnknown, 0, null()}
 };
@@ -492,10 +567,16 @@ static ::String FlxVideo_obj_sMemberFields[] = {
 	HX_("autoPause",07,15,63,9b),
 	HX_("autoResizeMode",c6,87,20,03),
 	HX_("autoVolumeHandle",31,17,c3,32),
+	HX_("resumeOnFocus",0c,fc,f9,8f),
+	HX_("currentResizeMode",10,e5,d0,93),
 	HX_("getCalculatedVolume",6e,ed,cb,8e),
 	HX_("load",26,9a,b7,47),
 	HX_("dispose",9f,80,4c,bb),
-	HX_("update",09,86,05,87),
+	HX_("onGameResized",3f,ef,13,ab),
+	HX_("onFocusGained",b7,09,51,04),
+	HX_("onFocusLost",bd,e4,85,41),
+	HX_("onVolumeUpdate",42,63,68,5e),
+	HX_("onVolumeChange",a9,6e,d5,8e),
 	::String(null()) };
 
 ::hx::Class FlxVideo_obj::__mClass;

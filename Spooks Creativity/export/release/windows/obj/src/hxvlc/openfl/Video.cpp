@@ -33,14 +33,8 @@
 #ifndef INCLUDED_hxvlc_util_Handle
 #include <hxvlc/util/Handle.h>
 #endif
-#ifndef INCLUDED_lime_app_Application
-#include <lime/app/Application.h>
-#endif
 #ifndef INCLUDED_lime_app_IModule
 #include <lime/app/IModule.h>
-#endif
-#ifndef INCLUDED_lime_app_Module
-#include <lime/app/Module.h>
 #endif
 #ifndef INCLUDED_lime_app__Event_Int_Void
 #include <lime/app/_Event_Int_Void.h>
@@ -77,9 +71,6 @@
 #endif
 #ifndef INCLUDED_openfl__Vector_IntVector
 #include <openfl/_Vector/IntVector.h>
-#endif
-#ifndef INCLUDED_openfl_display_Application
-#include <openfl/display/Application.h>
 #endif
 #ifndef INCLUDED_openfl_display_Bitmap
 #include <openfl/display/Bitmap.h>
@@ -142,69 +133,84 @@
 #include <sys/thread/Mutex.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_efae38d9298f0b03_268_new,"hxvlc.openfl.Video","new",0x6c7dbca0,"hxvlc.openfl.Video.new","hxvlc/openfl/Video.hx",268,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_565_load,"hxvlc.openfl.Video","load",0x803c65e6,"hxvlc.openfl.Video.load","hxvlc/openfl/Video.hx",565,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_768_loadFromSubItem,"hxvlc.openfl.Video","loadFromSubItem",0x59b68e23,"hxvlc.openfl.Video.loadFromSubItem","hxvlc/openfl/Video.hx",768,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_820_parseWithOptions,"hxvlc.openfl.Video","parseWithOptions",0x9b519c45,"hxvlc.openfl.Video.parseWithOptions","hxvlc/openfl/Video.hx",820,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_852_parseStop,"hxvlc.openfl.Video","parseStop",0x73c2de15,"hxvlc.openfl.Video.parseStop","hxvlc/openfl/Video.hx",852,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_868_play,"hxvlc.openfl.Video","play",0x82def9b4,"hxvlc.openfl.Video.play","hxvlc/openfl/Video.hx",868,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_876_stop,"hxvlc.openfl.Video","stop",0x84e0bbc2,"hxvlc.openfl.Video.stop","hxvlc/openfl/Video.hx",876,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_885_pause,"hxvlc.openfl.Video","pause",0xf9055336,"hxvlc.openfl.Video.pause","hxvlc/openfl/Video.hx",885,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_894_resume,"hxvlc.openfl.Video","resume",0x04a3a56d,"hxvlc.openfl.Video.resume","hxvlc/openfl/Video.hx",894,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_903_togglePaused,"hxvlc.openfl.Video","togglePaused",0x9574e722,"hxvlc.openfl.Video.togglePaused","hxvlc/openfl/Video.hx",903,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_912_previousChapter,"hxvlc.openfl.Video","previousChapter",0x0ceab856,"hxvlc.openfl.Video.previousChapter","hxvlc/openfl/Video.hx",912,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_921_nextChapter,"hxvlc.openfl.Video","nextChapter",0x2ac29f1a,"hxvlc.openfl.Video.nextChapter","hxvlc/openfl/Video.hx",921,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_932_getMeta,"hxvlc.openfl.Video","getMeta",0xba1106bb,"hxvlc.openfl.Video.getMeta","hxvlc/openfl/Video.hx",932,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_963_setMeta,"hxvlc.openfl.Video","setMeta",0xad1297c7,"hxvlc.openfl.Video.setMeta","hxvlc/openfl/Video.hx",963,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_978_saveMeta,"hxvlc.openfl.Video","saveMeta",0xab489062,"hxvlc.openfl.Video.saveMeta","hxvlc/openfl/Video.hx",978,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_994_dispose,"hxvlc.openfl.Video","dispose",0x5a818cdf,"hxvlc.openfl.Video.dispose","hxvlc/openfl/Video.hx",994,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1085_update,"hxvlc.openfl.Video","update",0x8324c1c9,"hxvlc.openfl.Video.update","hxvlc/openfl/Video.hx",1085,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1215_get_mrl,"hxvlc.openfl.Video","get_mrl",0xc5fcee3e,"hxvlc.openfl.Video.get_mrl","hxvlc/openfl/Video.hx",1215,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1240_get_stats,"hxvlc.openfl.Video","get_stats",0x67756eb6,"hxvlc.openfl.Video.get_stats","hxvlc/openfl/Video.hx",1240,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1259_get_duration,"hxvlc.openfl.Video","get_duration",0xc97e4f1d,"hxvlc.openfl.Video.get_duration","hxvlc/openfl/Video.hx",1259,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1274_get_isPlaying,"hxvlc.openfl.Video","get_isPlaying",0x2b5e1cbb,"hxvlc.openfl.Video.get_isPlaying","hxvlc/openfl/Video.hx",1274,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1280_get_length,"hxvlc.openfl.Video","get_length",0xb857206f,"hxvlc.openfl.Video.get_length","hxvlc/openfl/Video.hx",1280,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1286_get_time,"hxvlc.openfl.Video","get_time",0x7bed3356,"hxvlc.openfl.Video.get_time","hxvlc/openfl/Video.hx",1286,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1291_set_time,"hxvlc.openfl.Video","set_time",0x2a4a8cca,"hxvlc.openfl.Video.set_time","hxvlc/openfl/Video.hx",1291,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1301_get_position,"hxvlc.openfl.Video","get_position",0x7feae072,"hxvlc.openfl.Video.get_position","hxvlc/openfl/Video.hx",1301,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1306_set_position,"hxvlc.openfl.Video","set_position",0x94e403e6,"hxvlc.openfl.Video.set_position","hxvlc/openfl/Video.hx",1306,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1316_get_chapter,"hxvlc.openfl.Video","get_chapter",0xda7387e4,"hxvlc.openfl.Video.get_chapter","hxvlc/openfl/Video.hx",1316,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1321_set_chapter,"hxvlc.openfl.Video","set_chapter",0xe4e08ef0,"hxvlc.openfl.Video.set_chapter","hxvlc/openfl/Video.hx",1321,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1331_get_chapterCount,"hxvlc.openfl.Video","get_chapterCount",0x9952124b,"hxvlc.openfl.Video.get_chapterCount","hxvlc/openfl/Video.hx",1331,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1337_get_willPlay,"hxvlc.openfl.Video","get_willPlay",0xecb5f9ef,"hxvlc.openfl.Video.get_willPlay","hxvlc/openfl/Video.hx",1337,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1343_get_rate,"hxvlc.openfl.Video","get_rate",0x7a94ba29,"hxvlc.openfl.Video.get_rate","hxvlc/openfl/Video.hx",1343,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1348_set_rate,"hxvlc.openfl.Video","set_rate",0x28f2139d,"hxvlc.openfl.Video.set_rate","hxvlc/openfl/Video.hx",1348,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1358_get_isSeekable,"hxvlc.openfl.Video","get_isSeekable",0xd3faa525,"hxvlc.openfl.Video.get_isSeekable","hxvlc/openfl/Video.hx",1358,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1364_get_canPause,"hxvlc.openfl.Video","get_canPause",0xe0db588f,"hxvlc.openfl.Video.get_canPause","hxvlc/openfl/Video.hx",1364,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1369_get_outputModules,"hxvlc.openfl.Video","get_outputModules",0x275434dd,"hxvlc.openfl.Video.get_outputModules","hxvlc/openfl/Video.hx",1369,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1398_set_output,"hxvlc.openfl.Video","set_output",0x294e38fe,"hxvlc.openfl.Video.set_output","hxvlc/openfl/Video.hx",1398,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1408_get_mute,"hxvlc.openfl.Video","get_mute",0x7755d622,"hxvlc.openfl.Video.get_mute","hxvlc/openfl/Video.hx",1408,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1413_set_mute,"hxvlc.openfl.Video","set_mute",0x25b32f96,"hxvlc.openfl.Video.set_mute","hxvlc/openfl/Video.hx",1413,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1423_get_volume,"hxvlc.openfl.Video","get_volume",0x78a2b563,"hxvlc.openfl.Video.get_volume","hxvlc/openfl/Video.hx",1423,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1428_set_volume,"hxvlc.openfl.Video","set_volume",0x7c2053d7,"hxvlc.openfl.Video.set_volume","hxvlc/openfl/Video.hx",1428,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1438_get_trackCount,"hxvlc.openfl.Video","get_trackCount",0x7940124d,"hxvlc.openfl.Video.get_trackCount","hxvlc/openfl/Video.hx",1438,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1444_get_track,"hxvlc.openfl.Video","get_track",0xf9898722,"hxvlc.openfl.Video.get_track","hxvlc/openfl/Video.hx",1444,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1449_set_track,"hxvlc.openfl.Video","set_track",0xdcda732e,"hxvlc.openfl.Video.set_track","hxvlc/openfl/Video.hx",1449,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1459_get_channel,"hxvlc.openfl.Video","get_channel",0xd91c8d1a,"hxvlc.openfl.Video.get_channel","hxvlc/openfl/Video.hx",1459,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1464_set_channel,"hxvlc.openfl.Video","set_channel",0xe3899426,"hxvlc.openfl.Video.set_channel","hxvlc/openfl/Video.hx",1464,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1474_get_delay,"hxvlc.openfl.Video","get_delay",0xba90d01a,"hxvlc.openfl.Video.get_delay","hxvlc/openfl/Video.hx",1474,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1479_set_delay,"hxvlc.openfl.Video","set_delay",0x9de1bc26,"hxvlc.openfl.Video.set_delay","hxvlc/openfl/Video.hx",1479,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1489_get_role,"hxvlc.openfl.Video","get_role",0x7a9f52bf,"hxvlc.openfl.Video.get_role","hxvlc/openfl/Video.hx",1489,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1494_set_role,"hxvlc.openfl.Video","set_role",0x28fcac33,"hxvlc.openfl.Video.set_role","hxvlc/openfl/Video.hx",1494,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1502___enterFrame,"hxvlc.openfl.Video","__enterFrame",0x3aba0ad5,"hxvlc.openfl.Video.__enterFrame","hxvlc/openfl/Video.hx",1502,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1506_set_bitmapData,"hxvlc.openfl.Video","set_bitmapData",0x55372236,"hxvlc.openfl.Video.set_bitmapData","hxvlc/openfl/Video.hx",1506,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1529_videoLock,"hxvlc.openfl.Video","videoLock",0x0d30d246,"hxvlc.openfl.Video.videoLock","hxvlc/openfl/Video.hx",1529,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1543_videoUnlock,"hxvlc.openfl.Video","videoUnlock",0x648465df,"hxvlc.openfl.Video.videoUnlock","hxvlc/openfl/Video.hx",1543,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1550_videoDisplay,"hxvlc.openfl.Video","videoDisplay",0xd51d1ec7,"hxvlc.openfl.Video.videoDisplay","hxvlc/openfl/Video.hx",1550,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1556_videoDisplay,"hxvlc.openfl.Video","videoDisplay",0xd51d1ec7,"hxvlc.openfl.Video.videoDisplay","hxvlc/openfl/Video.hx",1556,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1584_videoFormatSetup,"hxvlc.openfl.Video","videoFormatSetup",0xf7f122cb,"hxvlc.openfl.Video.videoFormatSetup","hxvlc/openfl/Video.hx",1584,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1624_videoFormatSetup,"hxvlc.openfl.Video","videoFormatSetup",0xf7f122cb,"hxvlc.openfl.Video.videoFormatSetup","hxvlc/openfl/Video.hx",1624,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1665_audioPlay,"hxvlc.openfl.Video","audioPlay",0x09d0922a,"hxvlc.openfl.Video.audioPlay","hxvlc/openfl/Video.hx",1665,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1709_audioPause,"hxvlc.openfl.Video","audioPause",0x85792200,"hxvlc.openfl.Video.audioPause","hxvlc/openfl/Video.hx",1709,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1727_audioResume,"hxvlc.openfl.Video","audioResume",0x5d84c763,"hxvlc.openfl.Video.audioResume","hxvlc/openfl/Video.hx",1727,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1763_audioSetup,"hxvlc.openfl.Video","audioSetup",0x4250f987,"hxvlc.openfl.Video.audioSetup","hxvlc/openfl/Video.hx",1763,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1770_audioSetVolume,"hxvlc.openfl.Video","audioSetVolume",0x7b1f3726,"hxvlc.openfl.Video.audioSetVolume","hxvlc/openfl/Video.hx",1770,0xe78848f0)
-HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_275_boot,"hxvlc.openfl.Video","boot",0x79a04ff2,"hxvlc.openfl.Video.boot","hxvlc/openfl/Video.hx",275,0xe78848f0)
+HX_DEFINE_STACK_FRAME(_hx_pos_efae38d9298f0b03_214_new,"hxvlc.openfl.Video","new",0x6c7dbca0,"hxvlc.openfl.Video.new","hxvlc/openfl/Video.hx",214,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_505_load,"hxvlc.openfl.Video","load",0x803c65e6,"hxvlc.openfl.Video.load","hxvlc/openfl/Video.hx",505,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_693_loadFromSubItem,"hxvlc.openfl.Video","loadFromSubItem",0x59b68e23,"hxvlc.openfl.Video.loadFromSubItem","hxvlc/openfl/Video.hx",693,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_745_parseWithOptions,"hxvlc.openfl.Video","parseWithOptions",0x9b519c45,"hxvlc.openfl.Video.parseWithOptions","hxvlc/openfl/Video.hx",745,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_777_parseStop,"hxvlc.openfl.Video","parseStop",0x73c2de15,"hxvlc.openfl.Video.parseStop","hxvlc/openfl/Video.hx",777,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_793_play,"hxvlc.openfl.Video","play",0x82def9b4,"hxvlc.openfl.Video.play","hxvlc/openfl/Video.hx",793,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_801_stop,"hxvlc.openfl.Video","stop",0x84e0bbc2,"hxvlc.openfl.Video.stop","hxvlc/openfl/Video.hx",801,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_810_pause,"hxvlc.openfl.Video","pause",0xf9055336,"hxvlc.openfl.Video.pause","hxvlc/openfl/Video.hx",810,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_819_resume,"hxvlc.openfl.Video","resume",0x04a3a56d,"hxvlc.openfl.Video.resume","hxvlc/openfl/Video.hx",819,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_828_togglePaused,"hxvlc.openfl.Video","togglePaused",0x9574e722,"hxvlc.openfl.Video.togglePaused","hxvlc/openfl/Video.hx",828,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_837_previousChapter,"hxvlc.openfl.Video","previousChapter",0x0ceab856,"hxvlc.openfl.Video.previousChapter","hxvlc/openfl/Video.hx",837,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_846_nextChapter,"hxvlc.openfl.Video","nextChapter",0x2ac29f1a,"hxvlc.openfl.Video.nextChapter","hxvlc/openfl/Video.hx",846,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_857_getMeta,"hxvlc.openfl.Video","getMeta",0xba1106bb,"hxvlc.openfl.Video.getMeta","hxvlc/openfl/Video.hx",857,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_888_setMeta,"hxvlc.openfl.Video","setMeta",0xad1297c7,"hxvlc.openfl.Video.setMeta","hxvlc/openfl/Video.hx",888,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_903_saveMeta,"hxvlc.openfl.Video","saveMeta",0xab489062,"hxvlc.openfl.Video.saveMeta","hxvlc/openfl/Video.hx",903,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_919_dispose,"hxvlc.openfl.Video","dispose",0x5a818cdf,"hxvlc.openfl.Video.dispose","hxvlc/openfl/Video.hx",919,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_995_get_mrl,"hxvlc.openfl.Video","get_mrl",0xc5fcee3e,"hxvlc.openfl.Video.get_mrl","hxvlc/openfl/Video.hx",995,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1020_get_stats,"hxvlc.openfl.Video","get_stats",0x67756eb6,"hxvlc.openfl.Video.get_stats","hxvlc/openfl/Video.hx",1020,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1039_get_duration,"hxvlc.openfl.Video","get_duration",0xc97e4f1d,"hxvlc.openfl.Video.get_duration","hxvlc/openfl/Video.hx",1039,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1054_get_isPlaying,"hxvlc.openfl.Video","get_isPlaying",0x2b5e1cbb,"hxvlc.openfl.Video.get_isPlaying","hxvlc/openfl/Video.hx",1054,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1060_get_length,"hxvlc.openfl.Video","get_length",0xb857206f,"hxvlc.openfl.Video.get_length","hxvlc/openfl/Video.hx",1060,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1066_get_time,"hxvlc.openfl.Video","get_time",0x7bed3356,"hxvlc.openfl.Video.get_time","hxvlc/openfl/Video.hx",1066,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1071_set_time,"hxvlc.openfl.Video","set_time",0x2a4a8cca,"hxvlc.openfl.Video.set_time","hxvlc/openfl/Video.hx",1071,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1081_get_position,"hxvlc.openfl.Video","get_position",0x7feae072,"hxvlc.openfl.Video.get_position","hxvlc/openfl/Video.hx",1081,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1086_set_position,"hxvlc.openfl.Video","set_position",0x94e403e6,"hxvlc.openfl.Video.set_position","hxvlc/openfl/Video.hx",1086,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1096_get_chapter,"hxvlc.openfl.Video","get_chapter",0xda7387e4,"hxvlc.openfl.Video.get_chapter","hxvlc/openfl/Video.hx",1096,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1101_set_chapter,"hxvlc.openfl.Video","set_chapter",0xe4e08ef0,"hxvlc.openfl.Video.set_chapter","hxvlc/openfl/Video.hx",1101,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1111_get_chapterCount,"hxvlc.openfl.Video","get_chapterCount",0x9952124b,"hxvlc.openfl.Video.get_chapterCount","hxvlc/openfl/Video.hx",1111,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1117_get_willPlay,"hxvlc.openfl.Video","get_willPlay",0xecb5f9ef,"hxvlc.openfl.Video.get_willPlay","hxvlc/openfl/Video.hx",1117,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1123_get_rate,"hxvlc.openfl.Video","get_rate",0x7a94ba29,"hxvlc.openfl.Video.get_rate","hxvlc/openfl/Video.hx",1123,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1128_set_rate,"hxvlc.openfl.Video","set_rate",0x28f2139d,"hxvlc.openfl.Video.set_rate","hxvlc/openfl/Video.hx",1128,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1138_get_isSeekable,"hxvlc.openfl.Video","get_isSeekable",0xd3faa525,"hxvlc.openfl.Video.get_isSeekable","hxvlc/openfl/Video.hx",1138,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1144_get_canPause,"hxvlc.openfl.Video","get_canPause",0xe0db588f,"hxvlc.openfl.Video.get_canPause","hxvlc/openfl/Video.hx",1144,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1149_get_outputModules,"hxvlc.openfl.Video","get_outputModules",0x275434dd,"hxvlc.openfl.Video.get_outputModules","hxvlc/openfl/Video.hx",1149,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1178_set_output,"hxvlc.openfl.Video","set_output",0x294e38fe,"hxvlc.openfl.Video.set_output","hxvlc/openfl/Video.hx",1178,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1188_get_mute,"hxvlc.openfl.Video","get_mute",0x7755d622,"hxvlc.openfl.Video.get_mute","hxvlc/openfl/Video.hx",1188,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1193_set_mute,"hxvlc.openfl.Video","set_mute",0x25b32f96,"hxvlc.openfl.Video.set_mute","hxvlc/openfl/Video.hx",1193,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1203_get_volume,"hxvlc.openfl.Video","get_volume",0x78a2b563,"hxvlc.openfl.Video.get_volume","hxvlc/openfl/Video.hx",1203,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1208_set_volume,"hxvlc.openfl.Video","set_volume",0x7c2053d7,"hxvlc.openfl.Video.set_volume","hxvlc/openfl/Video.hx",1208,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1218_get_trackCount,"hxvlc.openfl.Video","get_trackCount",0x7940124d,"hxvlc.openfl.Video.get_trackCount","hxvlc/openfl/Video.hx",1218,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1224_get_track,"hxvlc.openfl.Video","get_track",0xf9898722,"hxvlc.openfl.Video.get_track","hxvlc/openfl/Video.hx",1224,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1229_set_track,"hxvlc.openfl.Video","set_track",0xdcda732e,"hxvlc.openfl.Video.set_track","hxvlc/openfl/Video.hx",1229,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1239_get_channel,"hxvlc.openfl.Video","get_channel",0xd91c8d1a,"hxvlc.openfl.Video.get_channel","hxvlc/openfl/Video.hx",1239,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1244_set_channel,"hxvlc.openfl.Video","set_channel",0xe3899426,"hxvlc.openfl.Video.set_channel","hxvlc/openfl/Video.hx",1244,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1254_get_delay,"hxvlc.openfl.Video","get_delay",0xba90d01a,"hxvlc.openfl.Video.get_delay","hxvlc/openfl/Video.hx",1254,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1259_set_delay,"hxvlc.openfl.Video","set_delay",0x9de1bc26,"hxvlc.openfl.Video.set_delay","hxvlc/openfl/Video.hx",1259,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1269_get_role,"hxvlc.openfl.Video","get_role",0x7a9f52bf,"hxvlc.openfl.Video.get_role","hxvlc/openfl/Video.hx",1269,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1274_set_role,"hxvlc.openfl.Video","set_role",0x28fcac33,"hxvlc.openfl.Video.set_role","hxvlc/openfl/Video.hx",1274,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1282___enterFrame,"hxvlc.openfl.Video","__enterFrame",0x3aba0ad5,"hxvlc.openfl.Video.__enterFrame","hxvlc/openfl/Video.hx",1282,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1286_set_bitmapData,"hxvlc.openfl.Video","set_bitmapData",0x55372236,"hxvlc.openfl.Video.set_bitmapData","hxvlc/openfl/Video.hx",1286,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1309_videoLock,"hxvlc.openfl.Video","videoLock",0x0d30d246,"hxvlc.openfl.Video.videoLock","hxvlc/openfl/Video.hx",1309,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1323_videoUnlock,"hxvlc.openfl.Video","videoUnlock",0x648465df,"hxvlc.openfl.Video.videoUnlock","hxvlc/openfl/Video.hx",1323,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1330_videoDisplay,"hxvlc.openfl.Video","videoDisplay",0xd51d1ec7,"hxvlc.openfl.Video.videoDisplay","hxvlc/openfl/Video.hx",1330,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1336_videoDisplay,"hxvlc.openfl.Video","videoDisplay",0xd51d1ec7,"hxvlc.openfl.Video.videoDisplay","hxvlc/openfl/Video.hx",1336,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1364_videoFormatSetup,"hxvlc.openfl.Video","videoFormatSetup",0xf7f122cb,"hxvlc.openfl.Video.videoFormatSetup","hxvlc/openfl/Video.hx",1364,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1404_videoFormatSetup,"hxvlc.openfl.Video","videoFormatSetup",0xf7f122cb,"hxvlc.openfl.Video.videoFormatSetup","hxvlc/openfl/Video.hx",1404,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1445_audioPlay,"hxvlc.openfl.Video","audioPlay",0x09d0922a,"hxvlc.openfl.Video.audioPlay","hxvlc/openfl/Video.hx",1445,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1489_audioPause,"hxvlc.openfl.Video","audioPause",0x85792200,"hxvlc.openfl.Video.audioPause","hxvlc/openfl/Video.hx",1489,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1507_audioResume,"hxvlc.openfl.Video","audioResume",0x5d84c763,"hxvlc.openfl.Video.audioResume","hxvlc/openfl/Video.hx",1507,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1543_audioSetup,"hxvlc.openfl.Video","audioSetup",0x4250f987,"hxvlc.openfl.Video.audioSetup","hxvlc/openfl/Video.hx",1543,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1550_audioSetVolume,"hxvlc.openfl.Video","audioSetVolume",0x7b1f3726,"hxvlc.openfl.Video.audioSetVolume","hxvlc/openfl/Video.hx",1550,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1568_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1568,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1571_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1571,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1573_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1573,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1575_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1575,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1577_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1577,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1579_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1579,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1583_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1583,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1585_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1585,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1587_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1587,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1591_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1591,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1595_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1595,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1599_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1599,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1603_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1603,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1607_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1607,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1609_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1609,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_1611_eventManagerCallbacks,"hxvlc.openfl.Video","eventManagerCallbacks",0xa9b0ff5b,"hxvlc.openfl.Video.eventManagerCallbacks","hxvlc/openfl/Video.hx",1611,0xe78848f0)
+HX_LOCAL_STACK_FRAME(_hx_pos_efae38d9298f0b03_221_boot,"hxvlc.openfl.Video","boot",0x79a04ff2,"hxvlc.openfl.Video.boot","hxvlc/openfl/Video.hx",221,0xe78848f0)
 namespace hxvlc{
 namespace openfl{
 
@@ -382,107 +388,43 @@ static void event_manager_callbacks(const libvlc_event_t *p_event, void *p_data)
 {
 	hx::SetTopOfStack((int *)99, true);
 
-	Video_obj *self = reinterpret_cast<Video_obj *>(p_data);
-
-	self->eventsMutex->acquire();
-
-	switch (p_event->type)
-	{
-	case libvlc_MediaPlayerOpening:
-		self->events[0] = true;
-		break;
-	case libvlc_MediaPlayerPlaying:
-		self->events[1] = true;
-		break;
-	case libvlc_MediaPlayerStopped:
-		self->events[2] = true;
-		break;
-	case libvlc_MediaPlayerPaused:
-		self->events[3] = true;
-		break;
-	case libvlc_MediaPlayerEndReached:
-		self->events[4] = true;
-		break;
-	case libvlc_MediaPlayerEncounteredError:
-		self->events[5] = true;
-		break;
-	case libvlc_MediaPlayerMediaChanged:
-		self->events[6] = true;
-		break;
-	case libvlc_MediaPlayerCorked:
-		self->events[7] = true;
-		break;
-	case libvlc_MediaPlayerUncorked:
-		self->events[8] = true;
-		break;
-	case libvlc_MediaPlayerTimeChanged:
-		self->events[9] = true;
-		break;
-	case libvlc_MediaPlayerPositionChanged:
-		self->events[10] = true;
-		break;
-	case libvlc_MediaPlayerLengthChanged:
-		self->events[11] = true;
-		break;
-	case libvlc_MediaPlayerChapterChanged:
-		self->events[12] = true;
-		break;
-	case libvlc_MediaMetaChanged:
-		self->events[13] = true;
-		break;
-	case libvlc_MediaParsedChanged:
-		self->events[14] = true;
-		break;
-	}
-
-	self->eventsMutex->release();
+	reinterpret_cast<Video_obj *>(p_data)->eventManagerCallbacks(p_event);
 
 	hx::SetTopOfStack((int *)0, true);
 }
 void Video_obj::__construct(::hx::Null< bool >  __o_smoothing){
             		bool smoothing = __o_smoothing.Default(true);
-            	HX_GC_STACKFRAME(&_hx_pos_efae38d9298f0b03_268_new)
-HXLINE( 514)		this->textureHeight = ( (unsigned int)(0) );
-HXLINE( 511)		this->textureWidth = ( (unsigned int)(0) );
-HXLINE( 502)		this->mediaOffset = ( (::cpp::UInt64)(0) );
-HXLINE( 499)		this->mediaSize = ( (::cpp::UInt64)(0) );
-HXLINE( 493)		::Array< bool > _g = ::Array_obj< bool >::__new(0);
-HXDLIN( 493)		{
-HXLINE( 493)			int _g1 = 0;
-HXDLIN( 493)			while((_g1 < 15)){
-HXLINE( 493)				_g1 = (_g1 + 1);
-HXDLIN( 493)				int i = (_g1 - 1);
-HXDLIN( 493)				_g->push(false);
-            			}
+            	HX_GC_STACKFRAME(&_hx_pos_efae38d9298f0b03_214_new)
+HXLINE( 454)		this->textureHeight = ( (unsigned int)(0) );
+HXLINE( 451)		this->textureWidth = ( (unsigned int)(0) );
+HXLINE( 442)		this->mediaOffset = ( (::cpp::UInt64)(0) );
+HXLINE( 439)		this->mediaSize = ( (::cpp::UInt64)(0) );
+HXLINE( 433)		this->textureMutex =  ::sys::thread::Mutex_obj::__alloc( HX_CTX );
+HXLINE( 425)		this->mediaMutex =  ::sys::thread::Mutex_obj::__alloc( HX_CTX );
+HXLINE( 422)		this->onFormatSetup =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
+HXLINE( 417)		this->onMediaParsedChanged =  ::lime::app::_Event_Int_Void_obj::__alloc( HX_CTX );
+HXLINE( 412)		this->onMediaMetaChanged =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
+HXLINE( 407)		this->onChapterChanged =  ::lime::app::_Event_Int_Void_obj::__alloc( HX_CTX );
+HXLINE( 402)		this->onLengthChanged =  ::lime::app::_Event_haxe_Int64_Void_obj::__alloc( HX_CTX );
+HXLINE( 397)		this->onPositionChanged =  ::lime::app::_Event_Single_Void_obj::__alloc( HX_CTX );
+HXLINE( 392)		this->onTimeChanged =  ::lime::app::_Event_haxe_Int64_Void_obj::__alloc( HX_CTX );
+HXLINE( 387)		this->onUncorked =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
+HXLINE( 382)		this->onCorked =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
+HXLINE( 377)		this->onMediaChanged =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
+HXLINE( 372)		this->onEncounteredError =  ::lime::app::_Event_String_Void_obj::__alloc( HX_CTX );
+HXLINE( 367)		this->onEndReached =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
+HXLINE( 362)		this->onPaused =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
+HXLINE( 357)		this->onStopped =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
+HXLINE( 352)		this->onPlaying =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
+HXLINE( 347)		this->onOpening =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
+HXLINE( 226)		this->forceRendering = false;
+HXLINE( 489)		super::__construct(null(),1,smoothing);
+HXLINE( 491)		while(::hxvlc::util::Handle_obj::loading){
+HXLINE( 492)			::Sys_obj::sleep(((Float)0.05));
             		}
-HXDLIN( 493)		this->events = _g;
-HXLINE( 490)		this->textureMutex =  ::sys::thread::Mutex_obj::__alloc( HX_CTX );
-HXLINE( 487)		this->eventsMutex =  ::sys::thread::Mutex_obj::__alloc( HX_CTX );
-HXLINE( 479)		this->mediaMutex =  ::sys::thread::Mutex_obj::__alloc( HX_CTX );
-HXLINE( 476)		this->onFormatSetup =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
-HXLINE( 471)		this->onMediaParsedChanged =  ::lime::app::_Event_Int_Void_obj::__alloc( HX_CTX );
-HXLINE( 466)		this->onMediaMetaChanged =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
-HXLINE( 461)		this->onChapterChanged =  ::lime::app::_Event_Int_Void_obj::__alloc( HX_CTX );
-HXLINE( 456)		this->onLengthChanged =  ::lime::app::_Event_haxe_Int64_Void_obj::__alloc( HX_CTX );
-HXLINE( 451)		this->onPositionChanged =  ::lime::app::_Event_Single_Void_obj::__alloc( HX_CTX );
-HXLINE( 446)		this->onTimeChanged =  ::lime::app::_Event_haxe_Int64_Void_obj::__alloc( HX_CTX );
-HXLINE( 441)		this->onUncorked =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
-HXLINE( 436)		this->onCorked =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
-HXLINE( 431)		this->onMediaChanged =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
-HXLINE( 426)		this->onEncounteredError =  ::lime::app::_Event_String_Void_obj::__alloc( HX_CTX );
-HXLINE( 421)		this->onEndReached =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
-HXLINE( 416)		this->onPaused =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
-HXLINE( 411)		this->onStopped =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
-HXLINE( 406)		this->onPlaying =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
-HXLINE( 401)		this->onOpening =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
-HXLINE( 280)		this->forceRendering = false;
-HXLINE( 549)		super::__construct(null(),1,smoothing);
-HXLINE( 551)		while(::hxvlc::util::Handle_obj::loading){
-HXLINE( 552)			::Sys_obj::sleep(((Float)0.05));
-            		}
-HXLINE( 554)		{
-HXLINE( 554)			::Array< ::String > options = null();
-HXDLIN( 554)			::hxvlc::util::Handle_obj::initWithRetry(options,false);
+HXLINE( 494)		{
+HXLINE( 494)			::Array< ::String > options = null();
+HXDLIN( 494)			::hxvlc::util::Handle_obj::initWithRetry(options,false);
             		}
             	}
 
@@ -510,255 +452,250 @@ bool Video_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool Video_obj::load( ::Dynamic location,::Array< ::String > options){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_565_load)
-HXLINE( 566)		if (::hx::IsNull( ::hxvlc::util::Handle_obj::instance )) {
-HXLINE( 567)			return false;
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_505_load)
+HXLINE( 506)		if (::hx::IsNull( ::hxvlc::util::Handle_obj::instance )) {
+HXLINE( 507)			return false;
             		}
-HXLINE( 569)		 libvlc_media_t* mediaItem;
-HXLINE( 571)		if (::hx::IsNotNull( location )) {
-HXLINE( 573)			if (::Std_obj::isOfType(location,::hx::ClassOf< ::String >())) {
-HXLINE( 575)				::String location1 = ::hx::TCast< ::String >::cast(location);
-HXLINE( 577)				if ((location1.indexOf(HX_("://",da,2b,2c,00),null()) != -1)) {
-HXLINE( 578)					mediaItem = libvlc_media_new_location(::hxvlc::util::Handle_obj::instance,location1.utf8_str());
+HXLINE( 509)		 libvlc_media_t* mediaItem;
+HXLINE( 511)		if (::hx::IsNotNull( location )) {
+HXLINE( 513)			if (::Std_obj::isOfType(location,::hx::ClassOf< ::String >())) {
+HXLINE( 515)				::String location1 = ::hx::TCast< ::String >::cast(location);
+HXLINE( 517)				if ((location1.indexOf(HX_("://",da,2b,2c,00),null()) != -1)) {
+HXLINE( 518)					mediaItem = libvlc_media_new_location(::hxvlc::util::Handle_obj::instance,location1.utf8_str());
             				}
             				else {
-HXLINE( 579)					if ((location1.length > 0)) {
-HXLINE( 581)						 libvlc_instance_t* mediaItem1 = ::hxvlc::util::Handle_obj::instance;
-HXDLIN( 581)						mediaItem = libvlc_media_new_path(mediaItem1,::haxe::io::Path_obj::normalize(location1).split(HX_("/",2f,00,00,00))->join(HX_("\\",5c,00,00,00)).utf8_str());
+HXLINE( 519)					if ((location1.length > 0)) {
+HXLINE( 521)						 libvlc_instance_t* mediaItem1 = ::hxvlc::util::Handle_obj::instance;
+HXDLIN( 521)						mediaItem = libvlc_media_new_path(mediaItem1,::haxe::io::Path_obj::normalize(location1).split(HX_("/",2f,00,00,00))->join(HX_("\\",5c,00,00,00)).utf8_str());
             					}
             					else {
-HXLINE( 585)						return false;
+HXLINE( 525)						return false;
             					}
             				}
             			}
             			else {
-HXLINE( 587)				if (::Std_obj::isOfType(location,::hx::ClassOf< int >())) {
-HXLINE( 589)					mediaItem = libvlc_media_new_fd(::hxvlc::util::Handle_obj::instance,::hx::TCast< int >::cast(location));
+HXLINE( 527)				if (::Std_obj::isOfType(location,::hx::ClassOf< int >())) {
+HXLINE( 529)					mediaItem = libvlc_media_new_fd(::hxvlc::util::Handle_obj::instance,::hx::TCast< int >::cast(location));
             				}
             				else {
-HXLINE( 591)					if (::Std_obj::isOfType(location,::hx::ClassOf< ::haxe::io::Bytes >())) {
-HXLINE( 593)						::Array< unsigned char > data = ::hx::TCast<  ::haxe::io::Bytes >::cast(location)->b;
-HXLINE( 595)						if ((data->length > 0)) {
-HXLINE( 597)							this->mediaMutex->acquire();
-HXLINE( 599)							this->mediaData = new unsigned char[data->length];
-HXLINE( 601)							void* _hx_tmp = ( (void*)(this->mediaData) );
-HXDLIN( 601)							memcpy(_hx_tmp,( (const void*)(( (::cpp::Pointer< unsigned char >)(::cpp::Pointer_obj::ofArray(data)) )->get_constRaw()) ),data->length);
-HXLINE( 603)							this->mediaSize = ( (::cpp::UInt64)(data->length) );
-HXLINE( 604)							this->mediaOffset = ( (::cpp::UInt64)(0) );
-HXLINE( 606)							this->mediaMutex->release();
-HXLINE( 608)							data->removeRange(0,data->length);
-HXLINE( 610)							 libvlc_instance_t* mediaItem2 = ::hxvlc::util::Handle_obj::instance;
-HXDLIN( 610)							::cpp::Function< int  (void*,void**,::cpp::UInt64*) > mediaItem3 = media_open;
-HXDLIN( 610)							::cpp::Function< ssize_t  (void*,unsigned char*,size_t) > mediaItem4 = media_read;
-HXLINE( 611)							::cpp::Function< int  (void*,::cpp::UInt64) > mediaItem5 = media_seek;
-HXLINE( 610)							mediaItem = libvlc_media_new_callbacks(mediaItem2,mediaItem3,mediaItem4,mediaItem5,NULL,this);
+HXLINE( 531)					if (::Std_obj::isOfType(location,::hx::ClassOf< ::haxe::io::Bytes >())) {
+HXLINE( 533)						::Array< unsigned char > data = ::hx::TCast<  ::haxe::io::Bytes >::cast(location)->b;
+HXLINE( 535)						if ((data->length > 0)) {
+HXLINE( 537)							this->mediaMutex->acquire();
+HXLINE( 539)							this->mediaData = new unsigned char[data->length];
+HXLINE( 541)							void* _hx_tmp = ( (void*)(this->mediaData) );
+HXDLIN( 541)							memcpy(_hx_tmp,( (const void*)(( (::cpp::Pointer< unsigned char >)(::cpp::Pointer_obj::ofArray(data)) )->get_constRaw()) ),data->length);
+HXLINE( 543)							this->mediaSize = ( (::cpp::UInt64)(data->length) );
+HXLINE( 544)							this->mediaOffset = ( (::cpp::UInt64)(0) );
+HXLINE( 546)							this->mediaMutex->release();
+HXLINE( 548)							data->removeRange(0,data->length);
+HXLINE( 550)							 libvlc_instance_t* mediaItem2 = ::hxvlc::util::Handle_obj::instance;
+HXDLIN( 550)							::cpp::Function< int  (void*,void**,::cpp::UInt64*) > mediaItem3 = media_open;
+HXDLIN( 550)							::cpp::Function< ssize_t  (void*,unsigned char*,size_t) > mediaItem4 = media_read;
+HXLINE( 551)							::cpp::Function< int  (void*,::cpp::UInt64) > mediaItem5 = media_seek;
+HXLINE( 550)							mediaItem = libvlc_media_new_callbacks(mediaItem2,mediaItem3,mediaItem4,mediaItem5,NULL,this);
             						}
             						else {
-HXLINE( 614)							return false;
+HXLINE( 554)							return false;
             						}
             					}
             					else {
-HXLINE( 617)						return false;
+HXLINE( 557)						return false;
             					}
             				}
             			}
             		}
             		else {
-HXLINE( 620)			return false;
+HXLINE( 560)			return false;
             		}
-HXLINE( 622)		if (::hx::IsNotNull( ::openfl::Lib_obj::get_application() )) {
-HXLINE( 624)			if (!(::openfl::Lib_obj::get_application()->onUpdate->has(this->update_dyn()))) {
-HXLINE( 625)				::openfl::Lib_obj::get_application()->onUpdate->add(this->update_dyn(),null(),null());
-            			}
-            		}
-HXLINE( 637)		if (::hx::IsNull( this->mediaPlayer )) {
-HXLINE( 639)			this->mediaPlayer = libvlc_media_player_new(::hxvlc::util::Handle_obj::instance);
-HXLINE( 641)			if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 643)				 libvlc_event_manager_t* eventManager = libvlc_media_player_event_manager(this->mediaPlayer);
-HXLINE( 645)				if (::hx::IsNotNull( eventManager )) {
-HXLINE( 647)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp1 = event_manager_callbacks;
-HXDLIN( 647)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerOpening,_hx_tmp1,this) != 0)) {
-HXLINE( 648)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerOpening)",8d,d2,a9,42),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),648,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 562)		if (::hx::IsNull( this->mediaPlayer )) {
+HXLINE( 564)			this->mediaPlayer = libvlc_media_player_new(::hxvlc::util::Handle_obj::instance);
+HXLINE( 566)			if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 568)				 libvlc_event_manager_t* eventManager = libvlc_media_player_event_manager(this->mediaPlayer);
+HXLINE( 570)				if (::hx::IsNotNull( eventManager )) {
+HXLINE( 572)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp1 = event_manager_callbacks;
+HXDLIN( 572)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerOpening,_hx_tmp1,this) != 0)) {
+HXLINE( 573)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerOpening)",8d,d2,a9,42),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),573,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
-HXLINE( 650)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp2 = event_manager_callbacks;
-HXDLIN( 650)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerPlaying,_hx_tmp2,this) != 0)) {
-HXLINE( 651)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerPlaying)",b7,59,81,91),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),651,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 575)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp2 = event_manager_callbacks;
+HXDLIN( 575)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerPlaying,_hx_tmp2,this) != 0)) {
+HXLINE( 576)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerPlaying)",b7,59,81,91),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),576,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
-HXLINE( 653)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp3 = event_manager_callbacks;
-HXDLIN( 653)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerStopped,_hx_tmp3,this) != 0)) {
-HXLINE( 654)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerStopped)",38,e2,c1,f8),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),654,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 578)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp3 = event_manager_callbacks;
+HXDLIN( 578)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerStopped,_hx_tmp3,this) != 0)) {
+HXLINE( 579)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerStopped)",38,e2,c1,f8),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),579,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
-HXLINE( 656)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp4 = event_manager_callbacks;
-HXDLIN( 656)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerPaused,_hx_tmp4,this) != 0)) {
-HXLINE( 657)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerPaused)",7f,da,5a,1f),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),657,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 581)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp4 = event_manager_callbacks;
+HXDLIN( 581)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerPaused,_hx_tmp4,this) != 0)) {
+HXLINE( 582)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerPaused)",7f,da,5a,1f),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),582,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
-HXLINE( 659)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp5 = event_manager_callbacks;
-HXDLIN( 659)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerEndReached,_hx_tmp5,this) != 0)) {
-HXLINE( 661)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerEndReached)",16,0d,9b,9e),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),661,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 584)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp5 = event_manager_callbacks;
+HXDLIN( 584)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerEndReached,_hx_tmp5,this) != 0)) {
+HXLINE( 586)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerEndReached)",16,0d,9b,9e),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),586,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
-HXLINE( 663)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp6 = event_manager_callbacks;
-HXDLIN( 663)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerEncounteredError,_hx_tmp6,this) != 0)) {
-HXLINE( 665)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerEncounteredError)",97,11,ec,b2),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),665,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 588)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp6 = event_manager_callbacks;
+HXDLIN( 588)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerEncounteredError,_hx_tmp6,this) != 0)) {
+HXLINE( 590)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerEncounteredError)",97,11,ec,b2),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),590,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
-HXLINE( 667)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp7 = event_manager_callbacks;
-HXDLIN( 667)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerMediaChanged,_hx_tmp7,this) != 0)) {
-HXLINE( 669)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerMediaChanged)",7d,57,c4,1e),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),669,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 592)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp7 = event_manager_callbacks;
+HXDLIN( 592)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerMediaChanged,_hx_tmp7,this) != 0)) {
+HXLINE( 594)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerMediaChanged)",7d,57,c4,1e),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),594,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
-HXLINE( 671)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp8 = event_manager_callbacks;
-HXDLIN( 671)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerCorked,_hx_tmp8,this) != 0)) {
-HXLINE( 672)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerCorked)",69,6d,45,dc),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),672,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 596)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp8 = event_manager_callbacks;
+HXDLIN( 596)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerCorked,_hx_tmp8,this) != 0)) {
+HXLINE( 597)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerCorked)",69,6d,45,dc),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),597,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
-HXLINE( 674)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp9 = event_manager_callbacks;
-HXDLIN( 674)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerUncorked,_hx_tmp9,this) != 0)) {
-HXLINE( 676)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerUncorked)",30,ad,00,d1),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),676,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 599)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp9 = event_manager_callbacks;
+HXDLIN( 599)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerUncorked,_hx_tmp9,this) != 0)) {
+HXLINE( 601)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerUncorked)",30,ad,00,d1),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),601,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
-HXLINE( 678)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp10 = event_manager_callbacks;
-HXDLIN( 678)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerTimeChanged,_hx_tmp10,this) != 0)) {
-HXLINE( 680)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerTimeChanged)",9e,f8,df,1c),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),680,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 603)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp10 = event_manager_callbacks;
+HXDLIN( 603)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerTimeChanged,_hx_tmp10,this) != 0)) {
+HXLINE( 605)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerTimeChanged)",9e,f8,df,1c),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),605,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
-HXLINE( 682)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp11 = event_manager_callbacks;
-HXDLIN( 682)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerPositionChanged,_hx_tmp11,this) != 0)) {
-HXLINE( 684)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerPositionChanged)",3a,d7,f5,b1),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),684,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 607)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp11 = event_manager_callbacks;
+HXDLIN( 607)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerPositionChanged,_hx_tmp11,this) != 0)) {
+HXLINE( 609)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerPositionChanged)",3a,d7,f5,b1),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),609,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
-HXLINE( 686)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp12 = event_manager_callbacks;
-HXDLIN( 686)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerLengthChanged,_hx_tmp12,this) != 0)) {
-HXLINE( 688)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerLengthChanged)",77,e9,cc,11),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),688,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 611)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp12 = event_manager_callbacks;
+HXDLIN( 611)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerLengthChanged,_hx_tmp12,this) != 0)) {
+HXLINE( 613)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerLengthChanged)",77,e9,cc,11),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),613,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
-HXLINE( 690)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp13 = event_manager_callbacks;
-HXDLIN( 690)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerChapterChanged,_hx_tmp13,this) != 0)) {
-HXLINE( 692)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerChapterChanged)",26,98,5f,80),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),692,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 615)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp13 = event_manager_callbacks;
+HXDLIN( 615)					if ((libvlc_event_attach(eventManager,libvlc_MediaPlayerChapterChanged,_hx_tmp13,this) != 0)) {
+HXLINE( 617)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaPlayerChapterChanged)",26,98,5f,80),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),617,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             					}
             				}
             				else {
-HXLINE( 695)					::lime::utils::Log_obj::warn(HX_("Unable to initialize the LibVLC media player event manager.",99,0b,ac,8a),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),695,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 620)					::lime::utils::Log_obj::warn(HX_("Unable to initialize the LibVLC media player event manager.",99,0b,ac,8a),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),620,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             				}
-HXLINE( 697)				 libvlc_media_player_t* _hx_tmp14 = this->mediaPlayer;
-HXDLIN( 697)				::cpp::Function< void*  (void*,void**) > _hx_tmp15 = video_lock;
-HXDLIN( 697)				::cpp::Function< void  (void*,void*, void *const *) > _hx_tmp16 = video_unlock;
-HXDLIN( 697)				::cpp::Function< void  (void*,void*) > _hx_tmp17 = video_display;
-HXDLIN( 697)				libvlc_video_set_callbacks(_hx_tmp14,_hx_tmp15,_hx_tmp16,_hx_tmp17,this);
-HXLINE( 699)				 libvlc_media_player_t* _hx_tmp18 = this->mediaPlayer;
-HXDLIN( 699)				libvlc_video_set_format_callbacks(_hx_tmp18,video_format_setup,NULL);
+HXLINE( 622)				 libvlc_media_player_t* _hx_tmp14 = this->mediaPlayer;
+HXDLIN( 622)				::cpp::Function< void*  (void*,void**) > _hx_tmp15 = video_lock;
+HXDLIN( 622)				::cpp::Function< void  (void*,void*, void *const *) > _hx_tmp16 = video_unlock;
+HXDLIN( 622)				::cpp::Function< void  (void*,void*) > _hx_tmp17 = video_display;
+HXDLIN( 622)				libvlc_video_set_callbacks(_hx_tmp14,_hx_tmp15,_hx_tmp16,_hx_tmp17,this);
+HXLINE( 624)				 libvlc_media_player_t* _hx_tmp18 = this->mediaPlayer;
+HXDLIN( 624)				libvlc_video_set_format_callbacks(_hx_tmp18,video_format_setup,NULL);
             			}
             			else {
-HXLINE( 734)				::lime::utils::Log_obj::warn(HX_("Unable to initialize the LibVLC media player.",40,46,9a,4f),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),734,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 659)				::lime::utils::Log_obj::warn(HX_("Unable to initialize the LibVLC media player.",40,46,9a,4f),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),659,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             			}
             		}
-HXLINE( 737)		if (::hx::IsNotNull( mediaItem )) {
-HXLINE( 739)			if (::hx::IsNotNull( options )) {
-HXLINE( 741)				int _g = 0;
-HXDLIN( 741)				while((_g < options->length)){
-HXLINE( 741)					::String option = options->__get(_g);
-HXDLIN( 741)					_g = (_g + 1);
-HXLINE( 743)					bool _hx_tmp19;
-HXDLIN( 743)					if (::hx::IsNotNull( option )) {
-HXLINE( 743)						_hx_tmp19 = (option.length > 0);
+HXLINE( 662)		if (::hx::IsNotNull( mediaItem )) {
+HXLINE( 664)			if (::hx::IsNotNull( options )) {
+HXLINE( 666)				int _g = 0;
+HXDLIN( 666)				while((_g < options->length)){
+HXLINE( 666)					::String option = options->__get(_g);
+HXDLIN( 666)					_g = (_g + 1);
+HXLINE( 668)					bool _hx_tmp19;
+HXDLIN( 668)					if (::hx::IsNotNull( option )) {
+HXLINE( 668)						_hx_tmp19 = (option.length > 0);
             					}
             					else {
-HXLINE( 743)						_hx_tmp19 = false;
+HXLINE( 668)						_hx_tmp19 = false;
             					}
-HXDLIN( 743)					if (_hx_tmp19) {
-HXLINE( 744)						libvlc_media_add_option(mediaItem,option.utf8_str());
+HXDLIN( 668)					if (_hx_tmp19) {
+HXLINE( 669)						libvlc_media_add_option(mediaItem,option.utf8_str());
             					}
             				}
             			}
-HXLINE( 748)			libvlc_media_player_set_media(this->mediaPlayer,mediaItem);
-HXLINE( 750)			libvlc_media_release(mediaItem);
-HXLINE( 752)			return true;
+HXLINE( 673)			libvlc_media_player_set_media(this->mediaPlayer,mediaItem);
+HXLINE( 675)			libvlc_media_release(mediaItem);
+HXLINE( 677)			return true;
             		}
             		else {
-HXLINE( 755)			::lime::utils::Log_obj::warn(HX_("Unable to initialize the LibVLC media item.",8e,8d,b7,1d),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),755,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
+HXLINE( 680)			::lime::utils::Log_obj::warn(HX_("Unable to initialize the LibVLC media item.",8e,8d,b7,1d),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),680,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("load",26,9a,b7,47)));
             		}
-HXLINE( 757)		return false;
+HXLINE( 682)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Video_obj,load,return )
 
 bool Video_obj::loadFromSubItem(int index,::Array< ::String > options){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_768_loadFromSubItem)
-HXLINE( 769)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 771)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
-HXLINE( 773)			if (::hx::IsNotNull( currentMediaItem )) {
-HXLINE( 775)				 libvlc_media_list_t* currentMediaSubItems = libvlc_media_subitems(currentMediaItem);
-HXLINE( 777)				if (::hx::IsNotNull( currentMediaSubItems )) {
-HXLINE( 779)					int count = libvlc_media_list_count(currentMediaSubItems);
-HXLINE( 781)					bool _hx_tmp;
-HXDLIN( 781)					if ((index >= 0)) {
-HXLINE( 781)						_hx_tmp = (index < count);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_693_loadFromSubItem)
+HXLINE( 694)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 696)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
+HXLINE( 698)			if (::hx::IsNotNull( currentMediaItem )) {
+HXLINE( 700)				 libvlc_media_list_t* currentMediaSubItems = libvlc_media_subitems(currentMediaItem);
+HXLINE( 702)				if (::hx::IsNotNull( currentMediaSubItems )) {
+HXLINE( 704)					int count = libvlc_media_list_count(currentMediaSubItems);
+HXLINE( 706)					bool _hx_tmp;
+HXDLIN( 706)					if ((index >= 0)) {
+HXLINE( 706)						_hx_tmp = (index < count);
             					}
             					else {
-HXLINE( 781)						_hx_tmp = false;
+HXLINE( 706)						_hx_tmp = false;
             					}
-HXDLIN( 781)					if (_hx_tmp) {
-HXLINE( 783)						 libvlc_media_t* mediaSubItem = libvlc_media_list_item_at_index(currentMediaSubItems,index);
-HXLINE( 785)						if (::hx::IsNotNull( mediaSubItem )) {
-HXLINE( 787)							if (::hx::IsNotNull( options )) {
-HXLINE( 789)								int _g = 0;
-HXDLIN( 789)								while((_g < options->length)){
-HXLINE( 789)									::String option = options->__get(_g);
-HXDLIN( 789)									_g = (_g + 1);
-HXLINE( 791)									bool _hx_tmp1;
-HXDLIN( 791)									if (::hx::IsNotNull( option )) {
-HXLINE( 791)										_hx_tmp1 = (option.length > 0);
+HXDLIN( 706)					if (_hx_tmp) {
+HXLINE( 708)						 libvlc_media_t* mediaSubItem = libvlc_media_list_item_at_index(currentMediaSubItems,index);
+HXLINE( 710)						if (::hx::IsNotNull( mediaSubItem )) {
+HXLINE( 712)							if (::hx::IsNotNull( options )) {
+HXLINE( 714)								int _g = 0;
+HXDLIN( 714)								while((_g < options->length)){
+HXLINE( 714)									::String option = options->__get(_g);
+HXDLIN( 714)									_g = (_g + 1);
+HXLINE( 716)									bool _hx_tmp1;
+HXDLIN( 716)									if (::hx::IsNotNull( option )) {
+HXLINE( 716)										_hx_tmp1 = (option.length > 0);
             									}
             									else {
-HXLINE( 791)										_hx_tmp1 = false;
+HXLINE( 716)										_hx_tmp1 = false;
             									}
-HXDLIN( 791)									if (_hx_tmp1) {
-HXLINE( 792)										libvlc_media_add_option(mediaSubItem,option.utf8_str());
+HXDLIN( 716)									if (_hx_tmp1) {
+HXLINE( 717)										libvlc_media_add_option(mediaSubItem,option.utf8_str());
             									}
             								}
             							}
-HXLINE( 796)							libvlc_media_player_set_media(this->mediaPlayer,mediaSubItem);
-HXLINE( 798)							libvlc_media_release(mediaSubItem);
-HXLINE( 800)							return true;
+HXLINE( 721)							libvlc_media_player_set_media(this->mediaPlayer,mediaSubItem);
+HXLINE( 723)							libvlc_media_release(mediaSubItem);
+HXLINE( 725)							return true;
             						}
             					}
-HXLINE( 804)					libvlc_media_list_release(currentMediaSubItems);
+HXLINE( 729)					libvlc_media_list_release(currentMediaSubItems);
             				}
             			}
             		}
-HXLINE( 809)		return false;
+HXLINE( 734)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Video_obj,loadFromSubItem,return )
 
 bool Video_obj::parseWithOptions(int parse_flag,int timeout){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_820_parseWithOptions)
-HXLINE( 821)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 823)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
-HXLINE( 825)			if (::hx::IsNotNull( currentMediaItem )) {
-HXLINE( 827)				 libvlc_event_manager_t* eventManager = libvlc_media_event_manager(currentMediaItem);
-HXLINE( 829)				if (::hx::IsNotNull( eventManager )) {
-HXLINE( 831)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp = event_manager_callbacks;
-HXDLIN( 831)					if ((libvlc_event_attach(eventManager,libvlc_MediaParsedChanged,_hx_tmp,this) != 0)) {
-HXLINE( 832)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaParsedChanged)",e1,ae,e0,7c),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),832,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("parseWithOptions",85,30,ea,b8)));
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_745_parseWithOptions)
+HXLINE( 746)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 748)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
+HXLINE( 750)			if (::hx::IsNotNull( currentMediaItem )) {
+HXLINE( 752)				 libvlc_event_manager_t* eventManager = libvlc_media_event_manager(currentMediaItem);
+HXLINE( 754)				if (::hx::IsNotNull( eventManager )) {
+HXLINE( 756)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp = event_manager_callbacks;
+HXDLIN( 756)					if ((libvlc_event_attach(eventManager,libvlc_MediaParsedChanged,_hx_tmp,this) != 0)) {
+HXLINE( 757)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaParsedChanged)",e1,ae,e0,7c),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),757,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("parseWithOptions",85,30,ea,b8)));
             					}
-HXLINE( 834)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp1 = event_manager_callbacks;
-HXDLIN( 834)					if ((libvlc_event_attach(eventManager,libvlc_MediaMetaChanged,_hx_tmp1,this) != 0)) {
-HXLINE( 835)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaMetaChanged)",15,5c,02,1a),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),835,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("parseWithOptions",85,30,ea,b8)));
+HXLINE( 759)					::cpp::Function< void  (const  libvlc_event_t*,void*) > _hx_tmp1 = event_manager_callbacks;
+HXDLIN( 759)					if ((libvlc_event_attach(eventManager,libvlc_MediaMetaChanged,_hx_tmp1,this) != 0)) {
+HXLINE( 760)						::lime::utils::Log_obj::warn(HX_("Failed to attach event (MediaMetaChanged)",15,5c,02,1a),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),760,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("parseWithOptions",85,30,ea,b8)));
             					}
             				}
             				else {
-HXLINE( 838)					::lime::utils::Log_obj::warn(HX_("Unable to initialize the LibVLC media event manager.",b4,dd,8f,ca),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),838,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("parseWithOptions",85,30,ea,b8)));
+HXLINE( 763)					::lime::utils::Log_obj::warn(HX_("Unable to initialize the LibVLC media event manager.",b4,dd,8f,ca),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),763,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("parseWithOptions",85,30,ea,b8)));
             				}
-HXLINE( 840)				return (libvlc_media_parse_with_options(currentMediaItem,( ( libvlc_media_parse_flag_t)(parse_flag) ),timeout) == 0);
+HXLINE( 765)				return (libvlc_media_parse_with_options(currentMediaItem,( ( libvlc_media_parse_flag_t)(parse_flag) ),timeout) == 0);
             			}
             		}
-HXLINE( 844)		return false;
+HXLINE( 769)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Video_obj,parseWithOptions,return )
 
 void Video_obj::parseStop(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_852_parseStop)
-HXDLIN( 852)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 854)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
-HXLINE( 856)			if (::hx::IsNotNull( currentMediaItem )) {
-HXLINE( 857)				libvlc_media_parse_stop(currentMediaItem);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_777_parseStop)
+HXDLIN( 777)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 779)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
+HXLINE( 781)			if (::hx::IsNotNull( currentMediaItem )) {
+HXLINE( 782)				libvlc_media_parse_stop(currentMediaItem);
             			}
             		}
             	}
@@ -767,23 +704,23 @@ HXLINE( 857)				libvlc_media_parse_stop(currentMediaItem);
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,parseStop,(void))
 
 bool Video_obj::play(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_868_play)
-HXDLIN( 868)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN( 868)			return (libvlc_media_player_play(this->mediaPlayer) == 0);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_793_play)
+HXDLIN( 793)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN( 793)			return (libvlc_media_player_play(this->mediaPlayer) == 0);
             		}
             		else {
-HXDLIN( 868)			return false;
+HXDLIN( 793)			return false;
             		}
-HXDLIN( 868)		return false;
+HXDLIN( 793)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,play,return )
 
 void Video_obj::stop(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_876_stop)
-HXDLIN( 876)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 877)			libvlc_media_player_stop(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_801_stop)
+HXDLIN( 801)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 802)			libvlc_media_player_stop(this->mediaPlayer);
             		}
             	}
 
@@ -791,9 +728,9 @@ HXLINE( 877)			libvlc_media_player_stop(this->mediaPlayer);
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,stop,(void))
 
 void Video_obj::pause(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_885_pause)
-HXDLIN( 885)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 886)			libvlc_media_player_set_pause(this->mediaPlayer,1);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_810_pause)
+HXDLIN( 810)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 811)			libvlc_media_player_set_pause(this->mediaPlayer,1);
             		}
             	}
 
@@ -801,9 +738,9 @@ HXLINE( 886)			libvlc_media_player_set_pause(this->mediaPlayer,1);
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,pause,(void))
 
 void Video_obj::resume(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_894_resume)
-HXDLIN( 894)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 895)			libvlc_media_player_set_pause(this->mediaPlayer,0);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_819_resume)
+HXDLIN( 819)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 820)			libvlc_media_player_set_pause(this->mediaPlayer,0);
             		}
             	}
 
@@ -811,9 +748,9 @@ HXLINE( 895)			libvlc_media_player_set_pause(this->mediaPlayer,0);
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,resume,(void))
 
 void Video_obj::togglePaused(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_903_togglePaused)
-HXDLIN( 903)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 904)			libvlc_media_player_pause(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_828_togglePaused)
+HXDLIN( 828)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 829)			libvlc_media_player_pause(this->mediaPlayer);
             		}
             	}
 
@@ -821,9 +758,9 @@ HXLINE( 904)			libvlc_media_player_pause(this->mediaPlayer);
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,togglePaused,(void))
 
 void Video_obj::previousChapter(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_912_previousChapter)
-HXDLIN( 912)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 913)			libvlc_media_player_previous_chapter(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_837_previousChapter)
+HXDLIN( 837)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 838)			libvlc_media_player_previous_chapter(this->mediaPlayer);
             		}
             	}
 
@@ -831,9 +768,9 @@ HXLINE( 913)			libvlc_media_player_previous_chapter(this->mediaPlayer);
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,previousChapter,(void))
 
 void Video_obj::nextChapter(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_921_nextChapter)
-HXDLIN( 921)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 922)			libvlc_media_player_next_chapter(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_846_nextChapter)
+HXDLIN( 846)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 847)			libvlc_media_player_next_chapter(this->mediaPlayer);
             		}
             	}
 
@@ -841,37 +778,37 @@ HXLINE( 922)			libvlc_media_player_next_chapter(this->mediaPlayer);
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,nextChapter,(void))
 
 ::String Video_obj::getMeta(int e_meta){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_932_getMeta)
-HXLINE( 933)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 935)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
-HXLINE( 937)			if (::hx::IsNotNull( currentMediaItem )) {
-HXLINE( 939)				char* rawMeta = libvlc_media_get_meta(currentMediaItem,( ( libvlc_meta_t)(e_meta) ));
-HXLINE( 941)				if (::hx::IsNotNull( rawMeta )) {
-HXLINE( 943)					::String metaString = ::String(rawMeta);
-HXLINE( 945)					free(rawMeta);
-HXLINE( 947)					return metaString;
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_857_getMeta)
+HXLINE( 858)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 860)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
+HXLINE( 862)			if (::hx::IsNotNull( currentMediaItem )) {
+HXLINE( 864)				char* rawMeta = libvlc_media_get_meta(currentMediaItem,( ( libvlc_meta_t)(e_meta) ));
+HXLINE( 866)				if (::hx::IsNotNull( rawMeta )) {
+HXLINE( 868)					::String metaString = ::String(rawMeta);
+HXLINE( 870)					free(rawMeta);
+HXLINE( 872)					return metaString;
             				}
             			}
             		}
-HXLINE( 952)		return null();
+HXLINE( 877)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Video_obj,getMeta,return )
 
 void Video_obj::setMeta(int e_meta,::String value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_963_setMeta)
-HXDLIN( 963)		bool _hx_tmp;
-HXDLIN( 963)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN( 963)			_hx_tmp = ::hx::IsNotNull( value );
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_888_setMeta)
+HXDLIN( 888)		bool _hx_tmp;
+HXDLIN( 888)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN( 888)			_hx_tmp = ::hx::IsNotNull( value );
             		}
             		else {
-HXDLIN( 963)			_hx_tmp = false;
+HXDLIN( 888)			_hx_tmp = false;
             		}
-HXDLIN( 963)		if (_hx_tmp) {
-HXLINE( 965)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
-HXLINE( 967)			if (::hx::IsNotNull( currentMediaItem )) {
-HXLINE( 968)				libvlc_media_set_meta(currentMediaItem,( ( libvlc_meta_t)(e_meta) ),value.utf8_str());
+HXDLIN( 888)		if (_hx_tmp) {
+HXLINE( 890)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
+HXLINE( 892)			if (::hx::IsNotNull( currentMediaItem )) {
+HXLINE( 893)				libvlc_media_set_meta(currentMediaItem,( ( libvlc_meta_t)(e_meta) ),value.utf8_str());
             			}
             		}
             	}
@@ -880,957 +817,1084 @@ HXLINE( 968)				libvlc_media_set_meta(currentMediaItem,( ( libvlc_meta_t)(e_meta
 HX_DEFINE_DYNAMIC_FUNC2(Video_obj,setMeta,(void))
 
 bool Video_obj::saveMeta(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_978_saveMeta)
-HXLINE( 979)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 981)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
-HXLINE( 983)			if (::hx::IsNotNull( currentMediaItem )) {
-HXLINE( 984)				return (libvlc_media_save_meta(currentMediaItem) != 0);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_903_saveMeta)
+HXLINE( 904)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 906)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
+HXLINE( 908)			if (::hx::IsNotNull( currentMediaItem )) {
+HXLINE( 909)				return (libvlc_media_save_meta(currentMediaItem) != 0);
             			}
             		}
-HXLINE( 987)		return false;
+HXLINE( 912)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,saveMeta,return )
 
 void Video_obj::dispose(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_994_dispose)
-HXLINE( 995)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE( 997)			libvlc_media_player_stop(this->mediaPlayer);
-HXLINE( 998)			libvlc_media_player_release(this->mediaPlayer);
-HXLINE( 999)			this->mediaPlayer = null();
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_919_dispose)
+HXLINE( 920)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 922)			libvlc_media_player_stop(this->mediaPlayer);
+HXLINE( 923)			libvlc_media_player_release(this->mediaPlayer);
+HXLINE( 924)			this->mediaPlayer = null();
             		}
-HXLINE(1002)		if (::hx::IsNotNull( ::openfl::Lib_obj::get_application() )) {
-HXLINE(1004)			if (::openfl::Lib_obj::get_application()->onUpdate->has(this->update_dyn())) {
-HXLINE(1005)				::openfl::Lib_obj::get_application()->onUpdate->remove(this->update_dyn());
-            			}
+HXLINE( 927)		this->mediaMutex->acquire();
+HXLINE( 929)		if (::hx::IsNotNull( this->mediaData )) {
+HXLINE( 931)			delete[] this->mediaData;
+HXLINE( 932)			this->mediaData = null();
             		}
-HXLINE(1017)		this->mediaMutex->acquire();
-HXLINE(1019)		if (::hx::IsNotNull( this->mediaData )) {
-HXLINE(1021)			delete[] this->mediaData;
-HXLINE(1022)			this->mediaData = null();
+HXLINE( 935)		this->mediaSize = (this->mediaOffset = ( (::cpp::UInt64)(0) ));
+HXLINE( 937)		this->mediaMutex->release();
+HXLINE( 939)		this->textureMutex->acquire();
+HXLINE( 942)		if (::hx::IsNotNull( this->get_bitmapData() )) {
+HXLINE( 944)			this->get_bitmapData()->dispose();
+HXLINE( 945)			this->set_bitmapData(null());
             		}
-HXLINE(1025)		this->mediaSize = (this->mediaOffset = ( (::cpp::UInt64)(0) ));
-HXLINE(1027)		this->mediaMutex->release();
-HXLINE(1029)		this->textureMutex->acquire();
-HXLINE(1032)		if (::hx::IsNotNull( this->get_bitmapData() )) {
-HXLINE(1034)			this->get_bitmapData()->dispose();
-HXLINE(1035)			this->set_bitmapData(null());
+HXLINE( 948)		if (::hx::IsNotNull( this->texture )) {
+HXLINE( 950)			this->texture->dispose();
+HXLINE( 951)			this->texture = null();
             		}
-HXLINE(1038)		if (::hx::IsNotNull( this->texture )) {
-HXLINE(1040)			this->texture->dispose();
-HXLINE(1041)			this->texture = null();
+HXLINE( 954)		this->textureWidth = (this->textureHeight = ( (unsigned int)(0) ));
+HXLINE( 956)		if (::hx::IsNotNull( this->texturePlanes )) {
+HXLINE( 958)			delete[] this->texturePlanes;
+HXLINE( 959)			this->texturePlanes = null();
             		}
-HXLINE(1044)		this->textureWidth = (this->textureHeight = ( (unsigned int)(0) ));
-HXLINE(1046)		if (::hx::IsNotNull( this->texturePlanes )) {
-HXLINE(1048)			delete[] this->texturePlanes;
-HXLINE(1049)			this->texturePlanes = null();
-            		}
-HXLINE(1052)		this->texturePlanesBuffer = ::Array_obj< unsigned char >::__new(0);
-HXLINE(1054)		this->textureMutex->release();
+HXLINE( 962)		this->texturePlanesBuffer = ::Array_obj< unsigned char >::__new(0);
+HXLINE( 964)		this->textureMutex->release();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,dispose,(void))
 
-void Video_obj::update(int deltaTime){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1085_update)
-HXLINE(1086)		this->eventsMutex->acquire();
-HXLINE(1088)		if (!(this->events->contains(true))) {
-HXLINE(1090)			this->eventsMutex->release();
-HXLINE(1091)			return;
-            		}
-HXLINE(1094)		if (this->events->__get(0)) {
-HXLINE(1096)			this->events[0] = false;
-HXLINE(1098)			this->onOpening->dispatch();
-            		}
-HXLINE(1101)		if (this->events->__get(1)) {
-HXLINE(1103)			this->events[1] = false;
-HXLINE(1105)			this->onPlaying->dispatch();
-            		}
-HXLINE(1108)		if (this->events->__get(2)) {
-HXLINE(1110)			this->events[2] = false;
-HXLINE(1112)			this->onStopped->dispatch();
-            		}
-HXLINE(1115)		if (this->events->__get(3)) {
-HXLINE(1117)			this->events[3] = false;
-HXLINE(1119)			this->onPaused->dispatch();
-            		}
-HXLINE(1122)		if (this->events->__get(4)) {
-HXLINE(1124)			this->events[4] = false;
-HXLINE(1126)			this->onEndReached->dispatch();
-            		}
-HXLINE(1129)		if (this->events->__get(5)) {
-HXLINE(1131)			this->events[5] = false;
-HXLINE(1133)			::String errmsg = ::String(libvlc_errmsg());
-HXLINE(1135)			bool _hx_tmp;
-HXDLIN(1135)			if (::hx::IsNotNull( errmsg )) {
-HXLINE(1135)				_hx_tmp = (errmsg.length > 0);
-            			}
-            			else {
-HXLINE(1135)				_hx_tmp = false;
-            			}
-HXDLIN(1135)			if (_hx_tmp) {
-HXLINE(1136)				this->onEncounteredError->dispatch(errmsg);
-            			}
-            			else {
-HXLINE(1138)				this->onEncounteredError->dispatch(HX_("Unknown error",92,0e,0f,10));
-            			}
-            		}
-HXLINE(1141)		if (this->events->__get(6)) {
-HXLINE(1143)			this->events[6] = false;
-HXLINE(1145)			this->onMediaChanged->dispatch();
-            		}
-HXLINE(1148)		if (this->events->__get(7)) {
-HXLINE(1150)			this->events[7] = false;
-HXLINE(1152)			this->onCorked->dispatch();
-            		}
-HXLINE(1155)		if (this->events->__get(8)) {
-HXLINE(1157)			this->events[8] = false;
-HXLINE(1159)			this->onUncorked->dispatch();
-            		}
-HXLINE(1162)		if (this->events->__get(9)) {
-HXLINE(1164)			this->events[9] = false;
-HXLINE(1166)			 ::lime::app::_Event_haxe_Int64_Void _hx_tmp1 = this->onTimeChanged;
-HXDLIN(1166)			_hx_tmp1->dispatch(this->get_time());
-            		}
-HXLINE(1169)		if (this->events->__get(10)) {
-HXLINE(1171)			this->events[10] = false;
-HXLINE(1173)			 ::lime::app::_Event_Single_Void _hx_tmp2 = this->onPositionChanged;
-HXDLIN(1173)			_hx_tmp2->dispatch(this->get_position());
-            		}
-HXLINE(1176)		if (this->events->__get(11)) {
-HXLINE(1178)			this->events[11] = false;
-HXLINE(1180)			 ::lime::app::_Event_haxe_Int64_Void _hx_tmp3 = this->onLengthChanged;
-HXDLIN(1180)			_hx_tmp3->dispatch(this->get_length());
-            		}
-HXLINE(1183)		if (this->events->__get(12)) {
-HXLINE(1185)			this->events[12] = false;
-HXLINE(1187)			 ::lime::app::_Event_Int_Void _hx_tmp4 = this->onChapterChanged;
-HXDLIN(1187)			_hx_tmp4->dispatch(this->get_chapter());
-            		}
-HXLINE(1190)		if (this->events->__get(13)) {
-HXLINE(1192)			this->events[13] = false;
-HXLINE(1194)			this->onMediaMetaChanged->dispatch();
-            		}
-HXLINE(1197)		if (this->events->__get(14)) {
-HXLINE(1199)			this->events[14] = false;
-HXLINE(1201)			if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1203)				 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
-HXLINE(1205)				if (::hx::IsNotNull( currentMediaItem )) {
-HXLINE(1206)					 ::lime::app::_Event_Int_Void _hx_tmp5 = this->onMediaParsedChanged;
-HXDLIN(1206)					_hx_tmp5->dispatch(libvlc_media_get_parsed_status(currentMediaItem));
-            				}
-            			}
-            		}
-HXLINE(1210)		this->eventsMutex->release();
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC1(Video_obj,update,(void))
-
 ::String Video_obj::get_mrl(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1215_get_mrl)
-HXLINE(1216)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1218)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
-HXLINE(1220)			if (::hx::IsNotNull( currentMediaItem )) {
-HXLINE(1222)				char* rawMrl = libvlc_media_get_mrl(currentMediaItem);
-HXLINE(1224)				if (::hx::IsNotNull( rawMrl )) {
-HXLINE(1226)					::String mrlString = ::String(rawMrl);
-HXLINE(1228)					free(rawMrl);
-HXLINE(1230)					return mrlString;
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_995_get_mrl)
+HXLINE( 996)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE( 998)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
+HXLINE(1000)			if (::hx::IsNotNull( currentMediaItem )) {
+HXLINE(1002)				char* rawMrl = libvlc_media_get_mrl(currentMediaItem);
+HXLINE(1004)				if (::hx::IsNotNull( rawMrl )) {
+HXLINE(1006)					::String mrlString = ::String(rawMrl);
+HXLINE(1008)					free(rawMrl);
+HXLINE(1010)					return mrlString;
             				}
             			}
             		}
-HXLINE(1235)		return null();
+HXLINE(1015)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_mrl,return )
 
  ::hxvlc::openfl::Stats Video_obj::get_stats(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1240_get_stats)
-HXLINE(1241)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1243)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
-HXLINE(1245)			if (::hx::IsNotNull( currentMediaItem )) {
-HXLINE(1247)				 libvlc_media_stats_t currentMediaStats = libvlc_media_stats_t();
-HXLINE(1249)				if ((libvlc_media_get_stats(currentMediaItem,&(currentMediaStats)) != 0)) {
-HXLINE(1250)					return ::hxvlc::openfl::Stats_obj::fromMediaStats(currentMediaStats);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1020_get_stats)
+HXLINE(1021)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1023)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
+HXLINE(1025)			if (::hx::IsNotNull( currentMediaItem )) {
+HXLINE(1027)				 libvlc_media_stats_t currentMediaStats = libvlc_media_stats_t();
+HXLINE(1029)				if ((libvlc_media_get_stats(currentMediaItem,&(currentMediaStats)) != 0)) {
+HXLINE(1030)					return ::hxvlc::openfl::Stats_obj::fromMediaStats(currentMediaStats);
             				}
             			}
             		}
-HXLINE(1254)		return null();
+HXLINE(1034)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_stats,return )
 
 ::cpp::Int64 Video_obj::get_duration(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1259_get_duration)
-HXLINE(1260)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1262)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
-HXLINE(1264)			if (::hx::IsNotNull( currentMediaItem )) {
-HXLINE(1265)				return ( (::cpp::Int64)(libvlc_media_get_duration(currentMediaItem)) );
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1039_get_duration)
+HXLINE(1040)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1042)			 libvlc_media_t* currentMediaItem = libvlc_media_player_get_media(this->mediaPlayer);
+HXLINE(1044)			if (::hx::IsNotNull( currentMediaItem )) {
+HXLINE(1045)				return ( (::cpp::Int64)(libvlc_media_get_duration(currentMediaItem)) );
             			}
             		}
-HXLINE(1268)		return ( (::cpp::Int64)(-1) );
+HXLINE(1048)		return ( (::cpp::Int64)(-1) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_duration,return )
 
 bool Video_obj::get_isPlaying(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1274_get_isPlaying)
-HXDLIN(1274)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1274)			return (libvlc_media_player_is_playing(this->mediaPlayer) != 0);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1054_get_isPlaying)
+HXDLIN(1054)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1054)			return (libvlc_media_player_is_playing(this->mediaPlayer) != 0);
             		}
             		else {
-HXDLIN(1274)			return false;
+HXDLIN(1054)			return false;
             		}
-HXDLIN(1274)		return false;
+HXDLIN(1054)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_isPlaying,return )
 
 ::cpp::Int64 Video_obj::get_length(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1280_get_length)
-HXDLIN(1280)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1280)			return ( (::cpp::Int64)(libvlc_media_player_get_length(this->mediaPlayer)) );
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1060_get_length)
+HXDLIN(1060)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1060)			return ( (::cpp::Int64)(libvlc_media_player_get_length(this->mediaPlayer)) );
             		}
             		else {
-HXDLIN(1280)			return ( (::cpp::Int64)(-1) );
+HXDLIN(1060)			return ( (::cpp::Int64)(-1) );
             		}
-HXDLIN(1280)		return null();
+HXDLIN(1060)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_length,return )
 
 ::cpp::Int64 Video_obj::get_time(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1286_get_time)
-HXDLIN(1286)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1286)			return ( (::cpp::Int64)(libvlc_media_player_get_time(this->mediaPlayer)) );
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1066_get_time)
+HXDLIN(1066)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1066)			return ( (::cpp::Int64)(libvlc_media_player_get_time(this->mediaPlayer)) );
             		}
             		else {
-HXDLIN(1286)			return ( (::cpp::Int64)(-1) );
+HXDLIN(1066)			return ( (::cpp::Int64)(-1) );
             		}
-HXDLIN(1286)		return null();
+HXDLIN(1066)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_time,return )
 
 ::cpp::Int64 Video_obj::set_time(::cpp::Int64 value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1291_set_time)
-HXLINE(1292)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1293)			libvlc_media_player_set_time(this->mediaPlayer,( (libvlc_time_t)(value) ));
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1071_set_time)
+HXLINE(1072)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1073)			libvlc_media_player_set_time(this->mediaPlayer,( (libvlc_time_t)(value) ));
             		}
-HXLINE(1295)		return value;
+HXLINE(1075)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Video_obj,set_time,return )
 
 float Video_obj::get_position(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1301_get_position)
-HXDLIN(1301)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1301)			return libvlc_media_player_get_position(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1081_get_position)
+HXDLIN(1081)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1081)			return libvlc_media_player_get_position(this->mediaPlayer);
             		}
             		else {
-HXDLIN(1301)			return ( (float)(((Float)-1.0)) );
+HXDLIN(1081)			return ( (float)(((Float)-1.0)) );
             		}
-HXDLIN(1301)		return null();
+HXDLIN(1081)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_position,return )
 
 float Video_obj::set_position(float value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1306_set_position)
-HXLINE(1307)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1308)			libvlc_media_player_set_position(this->mediaPlayer,value);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1086_set_position)
+HXLINE(1087)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1088)			libvlc_media_player_set_position(this->mediaPlayer,value);
             		}
-HXLINE(1310)		return value;
+HXLINE(1090)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Video_obj,set_position,return )
 
 int Video_obj::get_chapter(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1316_get_chapter)
-HXDLIN(1316)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1316)			return libvlc_media_player_get_chapter(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1096_get_chapter)
+HXDLIN(1096)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1096)			return libvlc_media_player_get_chapter(this->mediaPlayer);
             		}
             		else {
-HXDLIN(1316)			return -1;
+HXDLIN(1096)			return -1;
             		}
-HXDLIN(1316)		return 0;
+HXDLIN(1096)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_chapter,return )
 
 int Video_obj::set_chapter(int value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1321_set_chapter)
-HXLINE(1322)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1323)			libvlc_media_player_set_chapter(this->mediaPlayer,value);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1101_set_chapter)
+HXLINE(1102)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1103)			libvlc_media_player_set_chapter(this->mediaPlayer,value);
             		}
-HXLINE(1325)		return value;
+HXLINE(1105)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Video_obj,set_chapter,return )
 
 int Video_obj::get_chapterCount(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1331_get_chapterCount)
-HXDLIN(1331)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1331)			return libvlc_media_player_get_chapter_count(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1111_get_chapterCount)
+HXDLIN(1111)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1111)			return libvlc_media_player_get_chapter_count(this->mediaPlayer);
             		}
             		else {
-HXDLIN(1331)			return -1;
+HXDLIN(1111)			return -1;
             		}
-HXDLIN(1331)		return 0;
+HXDLIN(1111)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_chapterCount,return )
 
 bool Video_obj::get_willPlay(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1337_get_willPlay)
-HXDLIN(1337)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1337)			return (libvlc_media_player_will_play(this->mediaPlayer) != 0);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1117_get_willPlay)
+HXDLIN(1117)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1117)			return (libvlc_media_player_will_play(this->mediaPlayer) != 0);
             		}
             		else {
-HXDLIN(1337)			return false;
+HXDLIN(1117)			return false;
             		}
-HXDLIN(1337)		return false;
+HXDLIN(1117)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_willPlay,return )
 
 float Video_obj::get_rate(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1343_get_rate)
-HXDLIN(1343)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1343)			return libvlc_media_player_get_rate(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1123_get_rate)
+HXDLIN(1123)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1123)			return libvlc_media_player_get_rate(this->mediaPlayer);
             		}
             		else {
-HXDLIN(1343)			return ( (float)(1) );
+HXDLIN(1123)			return ( (float)(1) );
             		}
-HXDLIN(1343)		return null();
+HXDLIN(1123)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_rate,return )
 
 float Video_obj::set_rate(float value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1348_set_rate)
-HXLINE(1349)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1350)			libvlc_media_player_set_rate(this->mediaPlayer,value);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1128_set_rate)
+HXLINE(1129)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1130)			libvlc_media_player_set_rate(this->mediaPlayer,value);
             		}
-HXLINE(1352)		return value;
+HXLINE(1132)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Video_obj,set_rate,return )
 
 bool Video_obj::get_isSeekable(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1358_get_isSeekable)
-HXDLIN(1358)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1358)			return (libvlc_media_player_is_seekable(this->mediaPlayer) != 0);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1138_get_isSeekable)
+HXDLIN(1138)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1138)			return (libvlc_media_player_is_seekable(this->mediaPlayer) != 0);
             		}
             		else {
-HXDLIN(1358)			return false;
+HXDLIN(1138)			return false;
             		}
-HXDLIN(1358)		return false;
+HXDLIN(1138)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_isSeekable,return )
 
 bool Video_obj::get_canPause(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1364_get_canPause)
-HXDLIN(1364)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1364)			return (libvlc_media_player_can_pause(this->mediaPlayer) != 0);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1144_get_canPause)
+HXDLIN(1144)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1144)			return (libvlc_media_player_can_pause(this->mediaPlayer) != 0);
             		}
             		else {
-HXDLIN(1364)			return false;
+HXDLIN(1144)			return false;
             		}
-HXDLIN(1364)		return false;
+HXDLIN(1144)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_canPause,return )
 
 ::Array< ::Dynamic> Video_obj::get_outputModules(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1369_get_outputModules)
-HXLINE(1370)		if (::hx::IsNotNull( ::hxvlc::util::Handle_obj::instance )) {
-HXLINE(1372)			 libvlc_audio_output_t* audioOutput = libvlc_audio_output_list_get(::hxvlc::util::Handle_obj::instance);
-HXLINE(1374)			if (::hx::IsNotNull( audioOutput )) {
-HXLINE(1376)				::Array< ::Dynamic> outputs = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(1378)				 libvlc_audio_output_t* temp = audioOutput;
-HXLINE(1380)				while(::hx::IsNotNull( temp )){
-HXLINE(1382)					::String _hx_tmp = ::String(temp[0].psz_name);
-HXDLIN(1382)					outputs->push( ::Dynamic(::hx::Anon_obj::Create(2)
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1149_get_outputModules)
+HXLINE(1150)		if (::hx::IsNotNull( ::hxvlc::util::Handle_obj::instance )) {
+HXLINE(1152)			 libvlc_audio_output_t* audioOutput = libvlc_audio_output_list_get(::hxvlc::util::Handle_obj::instance);
+HXLINE(1154)			if (::hx::IsNotNull( audioOutput )) {
+HXLINE(1156)				::Array< ::Dynamic> outputs = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1158)				 libvlc_audio_output_t* temp = audioOutput;
+HXLINE(1160)				while(::hx::IsNotNull( temp )){
+HXLINE(1162)					::String _hx_tmp = ::String(temp[0].psz_name);
+HXDLIN(1162)					outputs->push( ::Dynamic(::hx::Anon_obj::Create(2)
             						->setFixed(0,HX_("name",4b,72,ff,48),_hx_tmp)
             						->setFixed(1,HX_("description",fc,08,1d,5f),::String(temp[0].psz_description))));
-HXLINE(1384)					temp = temp[0].p_next;
+HXLINE(1164)					temp = temp[0].p_next;
             				}
-HXLINE(1387)				libvlc_audio_output_list_release(audioOutput);
-HXLINE(1389)				return outputs;
+HXLINE(1167)				libvlc_audio_output_list_release(audioOutput);
+HXLINE(1169)				return outputs;
             			}
             		}
-HXLINE(1393)		return null();
+HXLINE(1173)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_outputModules,return )
 
 ::String Video_obj::set_output(::String value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1398_set_output)
-HXLINE(1399)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1400)			libvlc_audio_output_set(this->mediaPlayer,value.utf8_str());
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1178_set_output)
+HXLINE(1179)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1180)			libvlc_audio_output_set(this->mediaPlayer,value.utf8_str());
             		}
-HXLINE(1402)		return value;
+HXLINE(1182)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Video_obj,set_output,return )
 
 bool Video_obj::get_mute(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1408_get_mute)
-HXDLIN(1408)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1408)			return (libvlc_audio_get_mute(this->mediaPlayer) > 0);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1188_get_mute)
+HXDLIN(1188)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1188)			return (libvlc_audio_get_mute(this->mediaPlayer) > 0);
             		}
             		else {
-HXDLIN(1408)			return false;
+HXDLIN(1188)			return false;
             		}
-HXDLIN(1408)		return false;
+HXDLIN(1188)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_mute,return )
 
 bool Video_obj::set_mute(bool value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1413_set_mute)
-HXLINE(1414)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1415)			int _hx_tmp;
-HXDLIN(1415)			if (value) {
-HXLINE(1415)				_hx_tmp = 1;
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1193_set_mute)
+HXLINE(1194)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1195)			int _hx_tmp;
+HXDLIN(1195)			if (value) {
+HXLINE(1195)				_hx_tmp = 1;
             			}
             			else {
-HXLINE(1415)				_hx_tmp = 0;
+HXLINE(1195)				_hx_tmp = 0;
             			}
-HXDLIN(1415)			libvlc_audio_set_mute(this->mediaPlayer,_hx_tmp);
+HXDLIN(1195)			libvlc_audio_set_mute(this->mediaPlayer,_hx_tmp);
             		}
-HXLINE(1417)		return value;
+HXLINE(1197)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Video_obj,set_mute,return )
 
 int Video_obj::get_volume(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1423_get_volume)
-HXDLIN(1423)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1423)			return libvlc_audio_get_volume(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1203_get_volume)
+HXDLIN(1203)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1203)			return libvlc_audio_get_volume(this->mediaPlayer);
             		}
             		else {
-HXDLIN(1423)			return -1;
+HXDLIN(1203)			return -1;
             		}
-HXDLIN(1423)		return 0;
+HXDLIN(1203)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_volume,return )
 
 int Video_obj::set_volume(int value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1428_set_volume)
-HXLINE(1429)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1430)			libvlc_audio_set_volume(this->mediaPlayer,value);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1208_set_volume)
+HXLINE(1209)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1210)			libvlc_audio_set_volume(this->mediaPlayer,value);
             		}
-HXLINE(1432)		return value;
+HXLINE(1212)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Video_obj,set_volume,return )
 
 int Video_obj::get_trackCount(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1438_get_trackCount)
-HXDLIN(1438)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1438)			return libvlc_audio_get_track_count(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1218_get_trackCount)
+HXDLIN(1218)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1218)			return libvlc_audio_get_track_count(this->mediaPlayer);
             		}
             		else {
-HXDLIN(1438)			return -1;
+HXDLIN(1218)			return -1;
             		}
-HXDLIN(1438)		return 0;
+HXDLIN(1218)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_trackCount,return )
 
 int Video_obj::get_track(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1444_get_track)
-HXDLIN(1444)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1444)			return libvlc_audio_get_track(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1224_get_track)
+HXDLIN(1224)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1224)			return libvlc_audio_get_track(this->mediaPlayer);
             		}
             		else {
-HXDLIN(1444)			return -1;
+HXDLIN(1224)			return -1;
             		}
-HXDLIN(1444)		return 0;
+HXDLIN(1224)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_track,return )
 
 int Video_obj::set_track(int value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1449_set_track)
-HXLINE(1450)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1451)			libvlc_audio_set_track(this->mediaPlayer,value);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1229_set_track)
+HXLINE(1230)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1231)			libvlc_audio_set_track(this->mediaPlayer,value);
             		}
-HXLINE(1453)		return value;
+HXLINE(1233)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Video_obj,set_track,return )
 
 int Video_obj::get_channel(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1459_get_channel)
-HXDLIN(1459)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1459)			return libvlc_audio_get_channel(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1239_get_channel)
+HXDLIN(1239)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1239)			return libvlc_audio_get_channel(this->mediaPlayer);
             		}
             		else {
-HXDLIN(1459)			return 0;
+HXDLIN(1239)			return 0;
             		}
-HXDLIN(1459)		return 0;
+HXDLIN(1239)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_channel,return )
 
 int Video_obj::set_channel(int value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1464_set_channel)
-HXLINE(1465)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1466)			libvlc_audio_set_channel(this->mediaPlayer,value);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1244_set_channel)
+HXLINE(1245)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1246)			libvlc_audio_set_channel(this->mediaPlayer,value);
             		}
-HXLINE(1468)		return value;
+HXLINE(1248)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Video_obj,set_channel,return )
 
 ::cpp::Int64 Video_obj::get_delay(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1474_get_delay)
-HXDLIN(1474)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1474)			return libvlc_audio_get_delay(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1254_get_delay)
+HXDLIN(1254)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1254)			return libvlc_audio_get_delay(this->mediaPlayer);
             		}
             		else {
-HXDLIN(1474)			return ( (::cpp::Int64)(0) );
+HXDLIN(1254)			return ( (::cpp::Int64)(0) );
             		}
-HXDLIN(1474)		return null();
+HXDLIN(1254)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_delay,return )
 
 ::cpp::Int64 Video_obj::set_delay(::cpp::Int64 value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1479_set_delay)
-HXLINE(1480)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1481)			libvlc_audio_set_delay(this->mediaPlayer,value);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1259_set_delay)
+HXLINE(1260)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1261)			libvlc_audio_set_delay(this->mediaPlayer,value);
             		}
-HXLINE(1483)		return value;
+HXLINE(1263)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Video_obj,set_delay,return )
 
 int Video_obj::get_role(){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1489_get_role)
-HXDLIN(1489)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXDLIN(1489)			return libvlc_media_player_get_role(this->mediaPlayer);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1269_get_role)
+HXDLIN(1269)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXDLIN(1269)			return libvlc_media_player_get_role(this->mediaPlayer);
             		}
             		else {
-HXDLIN(1489)			return 0;
+HXDLIN(1269)			return 0;
             		}
-HXDLIN(1489)		return null();
+HXDLIN(1269)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Video_obj,get_role,return )
 
 int Video_obj::set_role(int value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1494_set_role)
-HXLINE(1495)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1496)			libvlc_media_player_set_role(this->mediaPlayer,( (unsigned int)(value) ));
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1274_set_role)
+HXLINE(1275)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1276)			libvlc_media_player_set_role(this->mediaPlayer,( (unsigned int)(value) ));
             		}
-HXLINE(1498)		return value;
+HXLINE(1278)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Video_obj,set_role,return )
 
 void Video_obj::_hx___enterFrame(int deltaTime){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1502___enterFrame)
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1282___enterFrame)
             	}
 
 
  ::openfl::display::BitmapData Video_obj::set_bitmapData( ::openfl::display::BitmapData value){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1506_set_bitmapData)
-HXLINE(1507)		this->_hx___bitmapData = value;
-HXLINE(1509)		if (!(this->_hx___renderDirty)) {
-HXLINE(1509)			this->_hx___renderDirty = true;
-HXDLIN(1509)			this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1286_set_bitmapData)
+HXLINE(1287)		this->_hx___bitmapData = value;
+HXLINE(1289)		if (!(this->_hx___renderDirty)) {
+HXLINE(1289)			this->_hx___renderDirty = true;
+HXDLIN(1289)			this->_hx___setParentRenderDirty();
             		}
-HXLINE(1511)		return this->_hx___bitmapData;
+HXLINE(1291)		return this->_hx___bitmapData;
             	}
 
 
 void* Video_obj::videoLock(void** planes){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1529_videoLock)
-HXLINE(1530)		this->textureMutex->acquire();
-HXLINE(1532)		if (::hx::IsNotNull( this->texturePlanes )) {
-HXLINE(1533)			planes[0] = this->texturePlanes;
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1309_videoLock)
+HXLINE(1310)		this->textureMutex->acquire();
+HXLINE(1312)		if (::hx::IsNotNull( this->texturePlanes )) {
+HXLINE(1313)			planes[0] = this->texturePlanes;
             		}
-HXLINE(1535)		return nullptr;
+HXLINE(1315)		return nullptr;
             	}
 
 
 void Video_obj::videoUnlock( void *const * planes){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1543_videoUnlock)
-HXDLIN(1543)		this->textureMutex->release();
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1323_videoUnlock)
+HXDLIN(1323)		this->textureMutex->release();
             	}
 
 
 void Video_obj::videoDisplay(void* picture){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1550_videoDisplay)
-HXDLIN(1550)		 ::hxvlc::openfl::Video _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(1551)		bool _hx_tmp;
-HXDLIN(1551)		bool _hx_tmp1;
-HXDLIN(1551)		if (!(this->_hx___renderable)) {
-HXLINE(1551)			_hx_tmp1 = this->forceRendering;
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1330_videoDisplay)
+HXDLIN(1330)		 ::hxvlc::openfl::Video _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(1331)		bool _hx_tmp;
+HXDLIN(1331)		bool _hx_tmp1;
+HXDLIN(1331)		if (!(this->_hx___renderable)) {
+HXLINE(1331)			_hx_tmp1 = this->forceRendering;
             		}
             		else {
-HXLINE(1551)			_hx_tmp1 = true;
+HXLINE(1331)			_hx_tmp1 = true;
             		}
-HXDLIN(1551)		if (_hx_tmp1) {
-HXLINE(1551)			_hx_tmp = ::hx::IsNotNull( this->texturePlanes );
+HXDLIN(1331)		if (_hx_tmp1) {
+HXLINE(1331)			_hx_tmp = ::hx::IsNotNull( this->texturePlanes );
             		}
             		else {
-HXLINE(1551)			_hx_tmp = false;
+HXLINE(1331)			_hx_tmp = false;
             		}
-HXDLIN(1551)		if (_hx_tmp) {
-HXLINE(1553)			bool _hx_tmp2;
-HXDLIN(1553)			if (::hx::IsNull( this->texture )) {
-HXLINE(1553)				if (::hx::IsNotNull( this->get_bitmapData() )) {
-HXLINE(1553)					_hx_tmp2 = ::hx::IsNotNull( this->get_bitmapData()->image );
+HXDLIN(1331)		if (_hx_tmp) {
+HXLINE(1333)			bool _hx_tmp2;
+HXDLIN(1333)			if (::hx::IsNull( this->texture )) {
+HXLINE(1333)				if (::hx::IsNotNull( this->get_bitmapData() )) {
+HXLINE(1333)					_hx_tmp2 = ::hx::IsNotNull( this->get_bitmapData()->image );
             				}
             				else {
-HXLINE(1553)					_hx_tmp2 = false;
+HXLINE(1333)					_hx_tmp2 = false;
             				}
             			}
             			else {
-HXLINE(1553)				_hx_tmp2 = true;
+HXLINE(1333)				_hx_tmp2 = true;
             			}
-HXDLIN(1553)			if (_hx_tmp2) {
+HXDLIN(1333)			if (_hx_tmp2) {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::hxvlc::openfl::Video,_gthis) HXARGC(0)
             				void _hx_run(){
-            					HX_GC_STACKFRAME(&_hx_pos_efae38d9298f0b03_1556_videoDisplay)
-HXLINE(1557)					_gthis->textureMutex->acquire();
-HXLINE(1559)					if (::hx::IsNull( _gthis->texturePlanesBuffer )) {
-HXLINE(1560)						_gthis->texturePlanesBuffer = ::Array_obj< unsigned char >::__new();
+            					HX_GC_STACKFRAME(&_hx_pos_efae38d9298f0b03_1336_videoDisplay)
+HXLINE(1337)					_gthis->textureMutex->acquire();
+HXLINE(1339)					if (::hx::IsNull( _gthis->texturePlanesBuffer )) {
+HXLINE(1340)						_gthis->texturePlanesBuffer = ::Array_obj< unsigned char >::__new();
             					}
-HXLINE(1562)					::cpp::Pointer< unsigned char > tmp = ( (::cpp::Pointer< unsigned char >)(_gthis->texturePlanes) );
-HXDLIN(1562)					_gthis->texturePlanesBuffer->setUnmanagedData(tmp,( (int)(((_gthis->textureWidth * _gthis->textureHeight) * ( (unsigned int)(4) ))) ));
-HXLINE(1564)					if (::hx::IsNotNull( _gthis->texture )) {
-HXLINE(1565)						 ::openfl::display3D::textures::RectangleTexture _gthis1 = _gthis->texture;
-HXDLIN(1565)						 ::haxe::io::Bytes bytes = ::haxe::io::Bytes_obj::ofData(_gthis->texturePlanesBuffer);
-HXDLIN(1565)						 ::Dynamic len = null();
-HXDLIN(1565)						 ::Dynamic elements = null();
-HXDLIN(1565)						::cpp::VirtualArray array = null();
-HXDLIN(1565)						 ::openfl::_Vector::IntVector vector = null();
-HXDLIN(1565)						 ::lime::utils::ArrayBufferView view = null();
-HXDLIN(1565)						 ::Dynamic byteoffset = 0;
-HXDLIN(1565)						if (::hx::IsNull( byteoffset )) {
-HXLINE(1565)							byteoffset = 0;
+HXLINE(1342)					::cpp::Pointer< unsigned char > tmp = ( (::cpp::Pointer< unsigned char >)(_gthis->texturePlanes) );
+HXDLIN(1342)					_gthis->texturePlanesBuffer->setUnmanagedData(tmp,( (int)(((_gthis->textureWidth * _gthis->textureHeight) * ( (unsigned int)(4) ))) ));
+HXLINE(1344)					if (::hx::IsNotNull( _gthis->texture )) {
+HXLINE(1345)						 ::openfl::display3D::textures::RectangleTexture _gthis1 = _gthis->texture;
+HXDLIN(1345)						 ::haxe::io::Bytes bytes = ::haxe::io::Bytes_obj::ofData(_gthis->texturePlanesBuffer);
+HXDLIN(1345)						 ::Dynamic len = null();
+HXDLIN(1345)						 ::Dynamic elements = null();
+HXDLIN(1345)						::cpp::VirtualArray array = null();
+HXDLIN(1345)						 ::openfl::_Vector::IntVector vector = null();
+HXDLIN(1345)						 ::lime::utils::ArrayBufferView view = null();
+HXDLIN(1345)						 ::Dynamic byteoffset = 0;
+HXDLIN(1345)						if (::hx::IsNull( byteoffset )) {
+HXLINE(1345)							byteoffset = 0;
             						}
-HXDLIN(1565)						 ::lime::utils::ArrayBufferView this1;
-HXDLIN(1565)						if (::hx::IsNotNull( elements )) {
-HXLINE(1565)							this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,elements,4);
+HXDLIN(1345)						 ::lime::utils::ArrayBufferView this1;
+HXDLIN(1345)						if (::hx::IsNotNull( elements )) {
+HXLINE(1345)							this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,elements,4);
             						}
             						else {
-HXLINE(1565)							if (::hx::IsNotNull( array )) {
-HXLINE(1565)								 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN(1565)								_this->byteOffset = 0;
-HXDLIN(1565)								_this->length = array->get_length();
-HXDLIN(1565)								_this->byteLength = (_this->length * _this->bytesPerElement);
-HXDLIN(1565)								_this->buffer = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
-HXDLIN(1565)								_this->copyFromArray(array,null());
-HXDLIN(1565)								this1 = _this;
+HXLINE(1345)							if (::hx::IsNotNull( array )) {
+HXLINE(1345)								 ::lime::utils::ArrayBufferView _this =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN(1345)								_this->byteOffset = 0;
+HXDLIN(1345)								_this->length = array->get_length();
+HXDLIN(1345)								_this->byteLength = (_this->length * _this->bytesPerElement);
+HXDLIN(1345)								_this->buffer = ::haxe::io::Bytes_obj::alloc(_this->byteLength);
+HXDLIN(1345)								_this->copyFromArray(array,null());
+HXDLIN(1345)								this1 = _this;
             							}
             							else {
-HXLINE(1565)								if (::hx::IsNotNull( vector )) {
-HXLINE(1565)									 ::lime::utils::ArrayBufferView _this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN(1565)									::cpp::VirtualArray array1 = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
-HXDLIN(1565)									_this1->byteOffset = 0;
-HXDLIN(1565)									_this1->length = array1->get_length();
-HXDLIN(1565)									_this1->byteLength = (_this1->length * _this1->bytesPerElement);
-HXDLIN(1565)									_this1->buffer = ::haxe::io::Bytes_obj::alloc(_this1->byteLength);
-HXDLIN(1565)									_this1->copyFromArray(array1,null());
-HXDLIN(1565)									this1 = _this1;
+HXLINE(1345)								if (::hx::IsNotNull( vector )) {
+HXLINE(1345)									 ::lime::utils::ArrayBufferView _this1 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN(1345)									::cpp::VirtualArray array1 = ( (::cpp::VirtualArray)(vector->__Field(HX_("__array",79,c6,ed,8f),::hx::paccDynamic)) );
+HXDLIN(1345)									_this1->byteOffset = 0;
+HXDLIN(1345)									_this1->length = array1->get_length();
+HXDLIN(1345)									_this1->byteLength = (_this1->length * _this1->bytesPerElement);
+HXDLIN(1345)									_this1->buffer = ::haxe::io::Bytes_obj::alloc(_this1->byteLength);
+HXDLIN(1345)									_this1->copyFromArray(array1,null());
+HXDLIN(1345)									this1 = _this1;
             								}
             								else {
-HXLINE(1565)									if (::hx::IsNotNull( view )) {
-HXLINE(1565)										 ::lime::utils::ArrayBufferView _this2 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN(1565)										 ::haxe::io::Bytes srcData = view->buffer;
-HXDLIN(1565)										int srcLength = view->length;
-HXDLIN(1565)										int srcByteOffset = view->byteOffset;
-HXDLIN(1565)										int srcElementSize = view->bytesPerElement;
-HXDLIN(1565)										int elementSize = _this2->bytesPerElement;
-HXDLIN(1565)										if ((view->type == _this2->type)) {
-HXLINE(1565)											int srcLength1 = srcData->length;
-HXDLIN(1565)											int cloneLength = (srcLength1 - srcByteOffset);
-HXDLIN(1565)											_this2->buffer = ::haxe::io::Bytes_obj::alloc(cloneLength);
-HXDLIN(1565)											_this2->buffer->blit(0,srcData,srcByteOffset,cloneLength);
+HXLINE(1345)									if (::hx::IsNotNull( view )) {
+HXLINE(1345)										 ::lime::utils::ArrayBufferView _this2 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN(1345)										 ::haxe::io::Bytes srcData = view->buffer;
+HXDLIN(1345)										int srcLength = view->length;
+HXDLIN(1345)										int srcByteOffset = view->byteOffset;
+HXDLIN(1345)										int srcElementSize = view->bytesPerElement;
+HXDLIN(1345)										int elementSize = _this2->bytesPerElement;
+HXDLIN(1345)										if ((view->type == _this2->type)) {
+HXLINE(1345)											int srcLength1 = srcData->length;
+HXDLIN(1345)											int cloneLength = (srcLength1 - srcByteOffset);
+HXDLIN(1345)											_this2->buffer = ::haxe::io::Bytes_obj::alloc(cloneLength);
+HXDLIN(1345)											_this2->buffer->blit(0,srcData,srcByteOffset,cloneLength);
             										}
             										else {
-HXLINE(1565)											HX_STACK_DO_THROW(HX_("unimplemented",09,2f,74,b4));
+HXLINE(1345)											HX_STACK_DO_THROW(HX_("unimplemented",09,2f,74,b4));
             										}
-HXDLIN(1565)										_this2->byteLength = (_this2->bytesPerElement * srcLength);
-HXDLIN(1565)										_this2->byteOffset = 0;
-HXDLIN(1565)										_this2->length = srcLength;
-HXDLIN(1565)										this1 = _this2;
+HXDLIN(1345)										_this2->byteLength = (_this2->bytesPerElement * srcLength);
+HXDLIN(1345)										_this2->byteOffset = 0;
+HXDLIN(1345)										_this2->length = srcLength;
+HXDLIN(1345)										this1 = _this2;
             									}
             									else {
-HXLINE(1565)										if (::hx::IsNotNull( bytes )) {
-HXLINE(1565)											 ::lime::utils::ArrayBufferView _this3 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
-HXDLIN(1565)											int in_byteOffset = ( (int)(byteoffset) );
-HXDLIN(1565)											if ((in_byteOffset < 0)) {
-HXLINE(1565)												HX_STACK_DO_THROW(::lime::utils::TAError_obj::RangeError_dyn());
+HXLINE(1345)										if (::hx::IsNotNull( bytes )) {
+HXLINE(1345)											 ::lime::utils::ArrayBufferView _this3 =  ::lime::utils::ArrayBufferView_obj::__alloc( HX_CTX ,0,4);
+HXDLIN(1345)											int in_byteOffset = ( (int)(byteoffset) );
+HXDLIN(1345)											if ((in_byteOffset < 0)) {
+HXLINE(1345)												HX_STACK_DO_THROW(::lime::utils::TAError_obj::RangeError_dyn());
             											}
-HXDLIN(1565)											if ((::hx::Mod(in_byteOffset,_this3->bytesPerElement) != 0)) {
-HXLINE(1565)												HX_STACK_DO_THROW(::lime::utils::TAError_obj::RangeError_dyn());
+HXDLIN(1345)											if ((::hx::Mod(in_byteOffset,_this3->bytesPerElement) != 0)) {
+HXLINE(1345)												HX_STACK_DO_THROW(::lime::utils::TAError_obj::RangeError_dyn());
             											}
-HXDLIN(1565)											int bufferByteLength = bytes->length;
-HXDLIN(1565)											int elementSize1 = _this3->bytesPerElement;
-HXDLIN(1565)											int newByteLength = bufferByteLength;
-HXDLIN(1565)											if (::hx::IsNull( len )) {
-HXLINE(1565)												newByteLength = (bufferByteLength - in_byteOffset);
-HXDLIN(1565)												if ((::hx::Mod(bufferByteLength,_this3->bytesPerElement) != 0)) {
-HXLINE(1565)													HX_STACK_DO_THROW(::lime::utils::TAError_obj::RangeError_dyn());
+HXDLIN(1345)											int bufferByteLength = bytes->length;
+HXDLIN(1345)											int elementSize1 = _this3->bytesPerElement;
+HXDLIN(1345)											int newByteLength = bufferByteLength;
+HXDLIN(1345)											if (::hx::IsNull( len )) {
+HXLINE(1345)												newByteLength = (bufferByteLength - in_byteOffset);
+HXDLIN(1345)												if ((::hx::Mod(bufferByteLength,_this3->bytesPerElement) != 0)) {
+HXLINE(1345)													HX_STACK_DO_THROW(::lime::utils::TAError_obj::RangeError_dyn());
             												}
-HXDLIN(1565)												if ((newByteLength < 0)) {
-HXLINE(1565)													HX_STACK_DO_THROW(::lime::utils::TAError_obj::RangeError_dyn());
+HXDLIN(1345)												if ((newByteLength < 0)) {
+HXLINE(1345)													HX_STACK_DO_THROW(::lime::utils::TAError_obj::RangeError_dyn());
             												}
             											}
             											else {
-HXLINE(1565)												newByteLength = (( (int)(len) ) * _this3->bytesPerElement);
-HXDLIN(1565)												int newRange = (in_byteOffset + newByteLength);
-HXDLIN(1565)												if ((newRange > bufferByteLength)) {
-HXLINE(1565)													HX_STACK_DO_THROW(::lime::utils::TAError_obj::RangeError_dyn());
+HXLINE(1345)												newByteLength = (( (int)(len) ) * _this3->bytesPerElement);
+HXDLIN(1345)												int newRange = (in_byteOffset + newByteLength);
+HXDLIN(1345)												if ((newRange > bufferByteLength)) {
+HXLINE(1345)													HX_STACK_DO_THROW(::lime::utils::TAError_obj::RangeError_dyn());
             												}
             											}
-HXDLIN(1565)											_this3->buffer = bytes;
-HXDLIN(1565)											_this3->byteOffset = in_byteOffset;
-HXDLIN(1565)											_this3->byteLength = newByteLength;
-HXDLIN(1565)											_this3->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this3->bytesPerElement) )));
-HXDLIN(1565)											this1 = _this3;
+HXDLIN(1345)											_this3->buffer = bytes;
+HXDLIN(1345)											_this3->byteOffset = in_byteOffset;
+HXDLIN(1345)											_this3->byteLength = newByteLength;
+HXDLIN(1345)											_this3->length = ::Std_obj::_hx_int((( (Float)(newByteLength) ) / ( (Float)(_this3->bytesPerElement) )));
+HXDLIN(1345)											this1 = _this3;
             										}
             										else {
-HXLINE(1565)											HX_STACK_DO_THROW(HX_("Invalid constructor arguments for UInt8Array",6b,44,d5,85));
+HXLINE(1345)											HX_STACK_DO_THROW(HX_("Invalid constructor arguments for UInt8Array",6b,44,d5,85));
             										}
             									}
             								}
             							}
             						}
-HXDLIN(1565)						_gthis1->uploadFromTypedArray(this1);
+HXDLIN(1345)						_gthis1->uploadFromTypedArray(this1);
             					}
             					else {
-HXLINE(1566)						bool _hx_tmp;
-HXDLIN(1566)						if (::hx::IsNotNull( _gthis->get_bitmapData() )) {
-HXLINE(1566)							_hx_tmp = ::hx::IsNotNull( _gthis->get_bitmapData()->image );
+HXLINE(1346)						bool _hx_tmp;
+HXDLIN(1346)						if (::hx::IsNotNull( _gthis->get_bitmapData() )) {
+HXLINE(1346)							_hx_tmp = ::hx::IsNotNull( _gthis->get_bitmapData()->image );
             						}
             						else {
-HXLINE(1566)							_hx_tmp = false;
+HXLINE(1346)							_hx_tmp = false;
             						}
-HXDLIN(1566)						if (_hx_tmp) {
-HXLINE(1567)							 ::openfl::display::BitmapData _hx_tmp1 = _gthis->get_bitmapData();
-HXDLIN(1567)							 ::openfl::geom::Rectangle _hx_tmp2 = _gthis->get_bitmapData()->rect;
-HXDLIN(1567)							_hx_tmp1->setPixels(_hx_tmp2,::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::io::Bytes_obj::ofData(_gthis->texturePlanesBuffer)));
-            						}
-            					}
-HXLINE(1569)					if (_gthis->_hx___renderable) {
-HXLINE(1570)						if (!(_gthis->_hx___renderDirty)) {
-HXLINE(1570)							_gthis->_hx___renderDirty = true;
-HXDLIN(1570)							_gthis->_hx___setParentRenderDirty();
+HXDLIN(1346)						if (_hx_tmp) {
+HXLINE(1347)							 ::openfl::display::BitmapData _hx_tmp1 = _gthis->get_bitmapData();
+HXDLIN(1347)							 ::openfl::geom::Rectangle _hx_tmp2 = _gthis->get_bitmapData()->rect;
+HXDLIN(1347)							_hx_tmp1->setPixels(_hx_tmp2,::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(::haxe::io::Bytes_obj::ofData(_gthis->texturePlanesBuffer)));
             						}
             					}
-HXLINE(1572)					_gthis->textureMutex->release();
+HXLINE(1349)					if (_gthis->_hx___renderable) {
+HXLINE(1350)						if (!(_gthis->_hx___renderDirty)) {
+HXLINE(1350)							_gthis->_hx___renderDirty = true;
+HXDLIN(1350)							_gthis->_hx___setParentRenderDirty();
+            						}
+            					}
+HXLINE(1352)					_gthis->textureMutex->release();
             				}
             				HX_END_LOCAL_FUNC0((void))
 
-HXLINE(1555)				::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_0(_gthis)));
+HXLINE(1335)				::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_0(_gthis)));
             			}
             		}
             	}
 
 
 int Video_obj::videoFormatSetup(char* chroma,unsigned int* width,unsigned int* height,unsigned int* pitches,unsigned int* lines){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1584_videoFormatSetup)
-HXDLIN(1584)		 ::hxvlc::openfl::Video _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(1585)		memcpy(( (void*)(chroma) ),( (const void*)(( (char*)(HX_("RV32",63,ed,74,36).utf8_str()) )) ),4);
-HXLINE(1587)		unsigned int originalWidth = width[0];
-HXLINE(1588)		unsigned int originalHeight = height[0];
-HXLINE(1590)		this->textureMutex->acquire();
-HXLINE(1592)		bool _hx_tmp;
-HXDLIN(1592)		if (::hx::IsNotNull( this->mediaPlayer )) {
-HXLINE(1593)			 libvlc_media_player_t* _hx_tmp1 = this->mediaPlayer;
-HXDLIN(1593)			unsigned int* _hx_tmp2 = &(this->textureWidth);
-HXLINE(1592)			_hx_tmp = (libvlc_video_get_size(_hx_tmp1,( (unsigned int)(0) ),_hx_tmp2,&(this->textureHeight)) == 0);
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1364_videoFormatSetup)
+HXDLIN(1364)		 ::hxvlc::openfl::Video _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(1365)		memcpy(( (void*)(chroma) ),( (const void*)(( (char*)(HX_("RV32",63,ed,74,36).utf8_str()) )) ),4);
+HXLINE(1367)		unsigned int originalWidth = width[0];
+HXLINE(1368)		unsigned int originalHeight = height[0];
+HXLINE(1370)		this->textureMutex->acquire();
+HXLINE(1372)		bool _hx_tmp;
+HXDLIN(1372)		if (::hx::IsNotNull( this->mediaPlayer )) {
+HXLINE(1373)			 libvlc_media_player_t* _hx_tmp1 = this->mediaPlayer;
+HXDLIN(1373)			unsigned int* _hx_tmp2 = &(this->textureWidth);
+HXLINE(1372)			_hx_tmp = (libvlc_video_get_size(_hx_tmp1,( (unsigned int)(0) ),_hx_tmp2,&(this->textureHeight)) == 0);
             		}
             		else {
-HXLINE(1592)			_hx_tmp = false;
+HXLINE(1372)			_hx_tmp = false;
             		}
-HXDLIN(1592)		if (_hx_tmp) {
-HXLINE(1595)			width[0] = this->textureWidth;
-HXLINE(1596)			height[0] = this->textureHeight;
-HXLINE(1598)			bool _hx_tmp3;
-HXDLIN(1598)			if (::hx::IsNotNull( this->texturePlanes )) {
-HXLINE(1598)				if ((originalWidth == this->textureWidth)) {
-HXLINE(1598)					_hx_tmp3 = (originalHeight != this->textureHeight);
+HXDLIN(1372)		if (_hx_tmp) {
+HXLINE(1375)			width[0] = this->textureWidth;
+HXLINE(1376)			height[0] = this->textureHeight;
+HXLINE(1378)			bool _hx_tmp3;
+HXDLIN(1378)			if (::hx::IsNotNull( this->texturePlanes )) {
+HXLINE(1378)				if ((originalWidth == this->textureWidth)) {
+HXLINE(1378)					_hx_tmp3 = (originalHeight != this->textureHeight);
             				}
             				else {
-HXLINE(1598)					_hx_tmp3 = true;
+HXLINE(1378)					_hx_tmp3 = true;
             				}
             			}
             			else {
-HXLINE(1598)				_hx_tmp3 = true;
+HXLINE(1378)				_hx_tmp3 = true;
             			}
-HXDLIN(1598)			if (_hx_tmp3) {
-HXLINE(1600)				if (::hx::IsNotNull( this->texturePlanes )) {
-HXLINE(1601)					delete[] this->texturePlanes;
+HXDLIN(1378)			if (_hx_tmp3) {
+HXLINE(1380)				if (::hx::IsNotNull( this->texturePlanes )) {
+HXLINE(1381)					delete[] this->texturePlanes;
             				}
-HXLINE(1603)				this->texturePlanes = new unsigned char[((this->textureWidth * this->textureHeight) * ( (unsigned int)(4) ))];
+HXLINE(1383)				this->texturePlanes = new unsigned char[((this->textureWidth * this->textureHeight) * ( (unsigned int)(4) ))];
             			}
             		}
             		else {
-HXLINE(1608)			this->textureWidth = originalWidth;
-HXLINE(1609)			this->textureHeight = originalHeight;
-HXLINE(1611)			if (::hx::IsNotNull( this->texturePlanes )) {
-HXLINE(1612)				delete[] this->texturePlanes;
+HXLINE(1388)			this->textureWidth = originalWidth;
+HXLINE(1389)			this->textureHeight = originalHeight;
+HXLINE(1391)			if (::hx::IsNotNull( this->texturePlanes )) {
+HXLINE(1392)				delete[] this->texturePlanes;
             			}
-HXLINE(1614)			this->texturePlanes = new unsigned char[((this->textureWidth * this->textureHeight) * ( (unsigned int)(4) ))];
+HXLINE(1394)			this->texturePlanes = new unsigned char[((this->textureWidth * this->textureHeight) * ( (unsigned int)(4) ))];
             		}
-HXLINE(1617)		this->textureMutex->release();
-HXLINE(1619)		bool _hx_tmp4;
-HXDLIN(1619)		bool _hx_tmp5;
-HXDLIN(1619)		if (::hx::IsNotNull( this->get_bitmapData() )) {
-HXLINE(1620)			if ((this->get_bitmapData()->width == this->textureWidth)) {
-HXLINE(1619)				_hx_tmp5 = (this->get_bitmapData()->height != this->textureHeight);
+HXLINE(1397)		this->textureMutex->release();
+HXLINE(1399)		bool _hx_tmp4;
+HXDLIN(1399)		bool _hx_tmp5;
+HXDLIN(1399)		if (::hx::IsNotNull( this->get_bitmapData() )) {
+HXLINE(1400)			if ((this->get_bitmapData()->width == this->textureWidth)) {
+HXLINE(1399)				_hx_tmp5 = (this->get_bitmapData()->height != this->textureHeight);
             			}
             			else {
-HXLINE(1619)				_hx_tmp5 = true;
+HXLINE(1399)				_hx_tmp5 = true;
             			}
             		}
             		else {
-HXLINE(1619)			_hx_tmp5 = true;
+HXLINE(1399)			_hx_tmp5 = true;
             		}
-HXDLIN(1619)		if (!(_hx_tmp5)) {
-HXLINE(1621)			bool _hx_tmp6;
-HXDLIN(1621)			if (!(::hxvlc::openfl::Video_obj::useTexture)) {
-HXLINE(1621)				_hx_tmp6 = ::hx::IsNotNull( this->get_bitmapData()->_hx___texture );
+HXDLIN(1399)		if (!(_hx_tmp5)) {
+HXLINE(1401)			bool _hx_tmp6;
+HXDLIN(1401)			if (!(::hxvlc::openfl::Video_obj::useTexture)) {
+HXLINE(1401)				_hx_tmp6 = ::hx::IsNotNull( this->get_bitmapData()->_hx___texture );
             			}
             			else {
-HXLINE(1621)				_hx_tmp6 = false;
+HXLINE(1401)				_hx_tmp6 = false;
             			}
-HXDLIN(1621)			if (!(_hx_tmp6)) {
-HXLINE(1621)				if (::hxvlc::openfl::Video_obj::useTexture) {
-HXLINE(1619)					_hx_tmp4 = ::hx::IsNotNull( this->get_bitmapData()->image );
+HXDLIN(1401)			if (!(_hx_tmp6)) {
+HXLINE(1401)				if (::hxvlc::openfl::Video_obj::useTexture) {
+HXLINE(1399)					_hx_tmp4 = ::hx::IsNotNull( this->get_bitmapData()->image );
             				}
             				else {
-HXLINE(1619)					_hx_tmp4 = false;
+HXLINE(1399)					_hx_tmp4 = false;
             				}
             			}
             			else {
-HXLINE(1619)				_hx_tmp4 = true;
+HXLINE(1399)				_hx_tmp4 = true;
             			}
             		}
             		else {
-HXLINE(1619)			_hx_tmp4 = true;
+HXLINE(1399)			_hx_tmp4 = true;
             		}
-HXDLIN(1619)		if (_hx_tmp4) {
+HXDLIN(1399)		if (_hx_tmp4) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::hxvlc::openfl::Video,_gthis) HXARGC(0)
             			void _hx_run(){
-            				HX_GC_STACKFRAME(&_hx_pos_efae38d9298f0b03_1624_videoFormatSetup)
-HXLINE(1625)				_gthis->textureMutex->acquire();
-HXLINE(1627)				if (::hx::IsNotNull( _gthis->get_bitmapData() )) {
-HXLINE(1628)					_gthis->get_bitmapData()->dispose();
+            				HX_GC_STACKFRAME(&_hx_pos_efae38d9298f0b03_1404_videoFormatSetup)
+HXLINE(1405)				_gthis->textureMutex->acquire();
+HXLINE(1407)				if (::hx::IsNotNull( _gthis->get_bitmapData() )) {
+HXLINE(1408)					_gthis->get_bitmapData()->dispose();
             				}
-HXLINE(1630)				if (::hx::IsNotNull( _gthis->texture )) {
-HXLINE(1632)					_gthis->texture->dispose();
-HXLINE(1633)					_gthis->texture = null();
+HXLINE(1410)				if (::hx::IsNotNull( _gthis->texture )) {
+HXLINE(1412)					_gthis->texture->dispose();
+HXLINE(1413)					_gthis->texture = null();
             				}
-HXLINE(1636)				bool _hx_tmp;
-HXDLIN(1636)				bool _hx_tmp1;
-HXDLIN(1636)				if (::hxvlc::openfl::Video_obj::useTexture) {
-HXLINE(1636)					_hx_tmp1 = ::hx::IsNotNull( ::openfl::Lib_obj::get_current()->stage );
-            				}
-            				else {
-HXLINE(1636)					_hx_tmp1 = false;
-            				}
-HXDLIN(1636)				if (_hx_tmp1) {
-HXLINE(1636)					_hx_tmp = ::hx::IsNotNull( ::openfl::Lib_obj::get_current()->stage->context3D );
+HXLINE(1416)				bool _hx_tmp;
+HXDLIN(1416)				bool _hx_tmp1;
+HXDLIN(1416)				if (::hxvlc::openfl::Video_obj::useTexture) {
+HXLINE(1416)					_hx_tmp1 = ::hx::IsNotNull( ::openfl::Lib_obj::get_current()->stage );
             				}
             				else {
-HXLINE(1636)					_hx_tmp = false;
+HXLINE(1416)					_hx_tmp1 = false;
             				}
-HXDLIN(1636)				if (_hx_tmp) {
-HXLINE(1638)					_gthis->texture = ::openfl::Lib_obj::get_current()->stage->context3D->createRectangleTexture(( (int)(_gthis->textureWidth) ),( (int)(_gthis->textureHeight) ),1,true);
-HXLINE(1639)					 ::hxvlc::openfl::Video _gthis1 = _gthis;
-HXDLIN(1639)					_gthis1->set_bitmapData(::openfl::display::BitmapData_obj::fromTexture(_gthis->texture));
+HXDLIN(1416)				if (_hx_tmp1) {
+HXLINE(1416)					_hx_tmp = ::hx::IsNotNull( ::openfl::Lib_obj::get_current()->stage->context3D );
             				}
             				else {
-HXLINE(1643)					if (::hxvlc::openfl::Video_obj::useTexture) {
-HXLINE(1644)						::lime::utils::Log_obj::warn(HX_("Unable to utilize GPU texture, resorting to CPU-based image rendering.",7a,93,87,95),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),1644,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("videoFormatSetup",0b,b7,89,15)));
+HXLINE(1416)					_hx_tmp = false;
+            				}
+HXDLIN(1416)				if (_hx_tmp) {
+HXLINE(1418)					_gthis->texture = ::openfl::Lib_obj::get_current()->stage->context3D->createRectangleTexture(( (int)(_gthis->textureWidth) ),( (int)(_gthis->textureHeight) ),1,true);
+HXLINE(1419)					 ::hxvlc::openfl::Video _gthis1 = _gthis;
+HXDLIN(1419)					_gthis1->set_bitmapData(::openfl::display::BitmapData_obj::fromTexture(_gthis->texture));
+            				}
+            				else {
+HXLINE(1423)					if (::hxvlc::openfl::Video_obj::useTexture) {
+HXLINE(1424)						::lime::utils::Log_obj::warn(HX_("Unable to utilize GPU texture, resorting to CPU-based image rendering.",7a,93,87,95),::hx::SourceInfo(HX_("hxvlc/openfl/Video.hx",f0,48,88,e7),1424,HX_("hxvlc.openfl.Video",ae,2c,03,3f),HX_("videoFormatSetup",0b,b7,89,15)));
             					}
-HXLINE(1646)					 ::hxvlc::openfl::Video _gthis2 = _gthis;
-HXDLIN(1646)					_gthis2->set_bitmapData( ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,( (int)(_gthis->textureWidth) ),( (int)(_gthis->textureHeight) ),true,0));
+HXLINE(1426)					 ::hxvlc::openfl::Video _gthis2 = _gthis;
+HXDLIN(1426)					_gthis2->set_bitmapData( ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,( (int)(_gthis->textureWidth) ),( (int)(_gthis->textureHeight) ),true,0));
             				}
-HXLINE(1649)				_gthis->onFormatSetup->dispatch();
-HXLINE(1651)				_gthis->textureMutex->release();
+HXLINE(1429)				_gthis->onFormatSetup->dispatch();
+HXLINE(1431)				_gthis->textureMutex->release();
             			}
             			HX_END_LOCAL_FUNC0((void))
 
-HXLINE(1623)			::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_0(_gthis)));
+HXLINE(1403)			::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_0(_gthis)));
             		}
-HXLINE(1655)		pitches[0] = (this->textureWidth * ( (unsigned int)(4) ));
-HXLINE(1656)		lines[0] = this->textureHeight;
-HXLINE(1658)		return 1;
+HXLINE(1435)		pitches[0] = (this->textureWidth * ( (unsigned int)(4) ));
+HXLINE(1436)		lines[0] = this->textureHeight;
+HXLINE(1438)		return 1;
             	}
 
 
 void Video_obj::audioPlay(unsigned char* samples,unsigned int count,::cpp::Int64 pts){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1665_audioPlay)
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1445_audioPlay)
             	}
 
 
 void Video_obj::audioPause(::cpp::Int64 pts){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1709_audioPause)
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1489_audioPause)
             	}
 
 
 void Video_obj::audioResume(::cpp::Int64 pts){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1727_audioResume)
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1507_audioResume)
             	}
 
 
 int Video_obj::audioSetup(char* format,unsigned int* rate,unsigned int* channels){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1763_audioSetup)
-HXDLIN(1763)		return 0;
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1543_audioSetup)
+HXDLIN(1543)		return 0;
             	}
 
 
 void Video_obj::audioSetVolume(float volume,bool mute){
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1770_audioSetVolume)
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1550_audioSetVolume)
+            	}
+
+
+void Video_obj::eventManagerCallbacks(const  libvlc_event_t* p_event){
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1568_eventManagerCallbacks)
+HXDLIN(1568)		int _g = p_event[0].type;
+HXDLIN(1568)		{
+HXLINE(1570)			int event = _g;
+HXLINE(1568)			if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event) ),libvlc_MediaPlayerOpening )) {
+            				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::lime::app::_Event_Void_Void,_g1) HXARGC(0)
+            				void _hx_run(){
+            					HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1571_eventManagerCallbacks)
+HXLINE(1571)					_g1->dispatch();
+            				}
+            				HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1571)				 ::lime::app::_Event_Void_Void _g1 = this->onOpening;
+HXDLIN(1571)				::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_0(_g1)));
+            			}
+            			else {
+HXLINE(1572)				int event1 = _g;
+HXLINE(1568)				if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event1) ),libvlc_MediaPlayerPlaying )) {
+            					HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::lime::app::_Event_Void_Void,_g2) HXARGC(0)
+            					void _hx_run(){
+            						HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1573_eventManagerCallbacks)
+HXLINE(1573)						_g2->dispatch();
+            					}
+            					HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1573)					 ::lime::app::_Event_Void_Void _g2 = this->onPlaying;
+HXDLIN(1573)					::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_1(_g2)));
+            				}
+            				else {
+HXLINE(1574)					int event2 = _g;
+HXLINE(1568)					if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event2) ),libvlc_MediaPlayerStopped )) {
+            						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::lime::app::_Event_Void_Void,_g3) HXARGC(0)
+            						void _hx_run(){
+            							HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1575_eventManagerCallbacks)
+HXLINE(1575)							_g3->dispatch();
+            						}
+            						HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1575)						 ::lime::app::_Event_Void_Void _g3 = this->onStopped;
+HXDLIN(1575)						::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_2(_g3)));
+            					}
+            					else {
+HXLINE(1576)						int event3 = _g;
+HXLINE(1568)						if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event3) ),libvlc_MediaPlayerPaused )) {
+            							HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_3, ::lime::app::_Event_Void_Void,_g4) HXARGC(0)
+            							void _hx_run(){
+            								HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1577_eventManagerCallbacks)
+HXLINE(1577)								_g4->dispatch();
+            							}
+            							HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1577)							 ::lime::app::_Event_Void_Void _g4 = this->onPaused;
+HXDLIN(1577)							::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_3(_g4)));
+            						}
+            						else {
+HXLINE(1578)							int event4 = _g;
+HXLINE(1568)							if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event4) ),libvlc_MediaPlayerEndReached )) {
+            								HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_4, ::lime::app::_Event_Void_Void,_g5) HXARGC(0)
+            								void _hx_run(){
+            									HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1579_eventManagerCallbacks)
+HXLINE(1579)									_g5->dispatch();
+            								}
+            								HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1579)								 ::lime::app::_Event_Void_Void _g5 = this->onEndReached;
+HXDLIN(1579)								::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_4(_g5)));
+            							}
+            							else {
+HXLINE(1580)								int event5 = _g;
+HXLINE(1568)								if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event5) ),libvlc_MediaPlayerEncounteredError )) {
+            									HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_5,::String,a, ::lime::app::_Event_String_Void,_g6) HXARGC(0)
+            									void _hx_run(){
+            										HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1583_eventManagerCallbacks)
+HXLINE(1583)										_g6->dispatch(a);
+            									}
+            									HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1581)									::String errmsg = ::String(libvlc_errmsg());
+HXLINE(1583)									 ::lime::app::_Event_String_Void _g6 = this->onEncounteredError;
+HXDLIN(1583)									::String a = errmsg;
+HXDLIN(1583)									::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_5(a,_g6)));
+            								}
+            								else {
+HXLINE(1584)									int event6 = _g;
+HXLINE(1568)									if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event6) ),libvlc_MediaPlayerCorked )) {
+            										HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_6, ::lime::app::_Event_Void_Void,_g7) HXARGC(0)
+            										void _hx_run(){
+            											HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1585_eventManagerCallbacks)
+HXLINE(1585)											_g7->dispatch();
+            										}
+            										HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1585)										 ::lime::app::_Event_Void_Void _g7 = this->onCorked;
+HXDLIN(1585)										::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_6(_g7)));
+            									}
+            									else {
+HXLINE(1586)										int event7 = _g;
+HXLINE(1568)										if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event7) ),libvlc_MediaPlayerUncorked )) {
+            											HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_7, ::lime::app::_Event_Void_Void,_g8) HXARGC(0)
+            											void _hx_run(){
+            												HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1587_eventManagerCallbacks)
+HXLINE(1587)												_g8->dispatch();
+            											}
+            											HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1587)											 ::lime::app::_Event_Void_Void _g8 = this->onUncorked;
+HXDLIN(1587)											::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_7(_g8)));
+            										}
+            										else {
+HXLINE(1588)											int event8 = _g;
+HXLINE(1568)											if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event8) ),libvlc_MediaPlayerTimeChanged )) {
+            												HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_8, ::lime::app::_Event_haxe_Int64_Void,_g9,::cpp::Int64,a1) HXARGC(0)
+            												void _hx_run(){
+            													HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1591_eventManagerCallbacks)
+HXLINE(1591)													_g9->dispatch(a1);
+            												}
+            												HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1589)												::cpp::Int64 newTime = p_event[0].u.media_player_time_changed.new_time;
+HXLINE(1591)												 ::lime::app::_Event_haxe_Int64_Void _g9 = this->onTimeChanged;
+HXDLIN(1591)												::cpp::Int64 a1 = newTime;
+HXDLIN(1591)												::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_8(_g9,a1)));
+            											}
+            											else {
+HXLINE(1592)												int event9 = _g;
+HXLINE(1568)												if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event9) ),libvlc_MediaPlayerPositionChanged )) {
+            													HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_9,float,a2, ::lime::app::_Event_Single_Void,_g10) HXARGC(0)
+            													void _hx_run(){
+            														HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1595_eventManagerCallbacks)
+HXLINE(1595)														_g10->dispatch(a2);
+            													}
+            													HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1593)													float newPosition = p_event[0].u.media_player_position_changed.new_position;
+HXLINE(1595)													 ::lime::app::_Event_Single_Void _g10 = this->onPositionChanged;
+HXDLIN(1595)													float a2 = newPosition;
+HXDLIN(1595)													::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_9(a2,_g10)));
+            												}
+            												else {
+HXLINE(1596)													int event10 = _g;
+HXLINE(1568)													if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event10) ),libvlc_MediaPlayerLengthChanged )) {
+            														HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_10,::cpp::Int64,a3, ::lime::app::_Event_haxe_Int64_Void,_g11) HXARGC(0)
+            														void _hx_run(){
+            															HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1599_eventManagerCallbacks)
+HXLINE(1599)															_g11->dispatch(a3);
+            														}
+            														HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1597)														::cpp::Int64 newLength = p_event[0].u.media_player_length_changed.new_length;
+HXLINE(1599)														 ::lime::app::_Event_haxe_Int64_Void _g11 = this->onLengthChanged;
+HXDLIN(1599)														::cpp::Int64 a3 = newLength;
+HXDLIN(1599)														::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_10(a3,_g11)));
+            													}
+            													else {
+HXLINE(1600)														int event11 = _g;
+HXLINE(1568)														if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event11) ),libvlc_MediaPlayerChapterChanged )) {
+            															HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_11, ::lime::app::_Event_Int_Void,_g12,int,a4) HXARGC(0)
+            															void _hx_run(){
+            																HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1603_eventManagerCallbacks)
+HXLINE(1603)																_g12->dispatch(a4);
+            															}
+            															HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1601)															int newChapter = p_event[0].u.media_player_chapter_changed.new_chapter;
+HXLINE(1603)															 ::lime::app::_Event_Int_Void _g12 = this->onChapterChanged;
+HXDLIN(1603)															int a4 = newChapter;
+HXDLIN(1603)															::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_11(_g12,a4)));
+            														}
+            														else {
+HXLINE(1604)															int event12 = _g;
+HXLINE(1568)															if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event12) ),libvlc_MediaParsedChanged )) {
+            																HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_12, ::lime::app::_Event_Int_Void,_g13,int,a5) HXARGC(0)
+            																void _hx_run(){
+            																	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1607_eventManagerCallbacks)
+HXLINE(1607)																	_g13->dispatch(a5);
+            																}
+            																HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1605)																int newStatus = p_event[0].u.media_parsed_changed.new_status;
+HXLINE(1607)																 ::lime::app::_Event_Int_Void _g13 = this->onMediaParsedChanged;
+HXDLIN(1607)																int a5 = newStatus;
+HXDLIN(1607)																::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_12(_g13,a5)));
+            															}
+            															else {
+HXLINE(1608)																int event13 = _g;
+HXLINE(1568)																if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event13) ),libvlc_MediaMetaChanged )) {
+            																	HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_13, ::lime::app::_Event_Void_Void,_g14) HXARGC(0)
+            																	void _hx_run(){
+            																		HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1609_eventManagerCallbacks)
+HXLINE(1609)																		_g14->dispatch();
+            																	}
+            																	HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1609)																	 ::lime::app::_Event_Void_Void _g14 = this->onMediaMetaChanged;
+HXDLIN(1609)																	::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_13(_g14)));
+            																}
+            																else {
+HXLINE(1610)																	int event14 = _g;
+HXDLIN(1610)																	if (::hx::IsInstanceEq( ( ( libvlc_event_e)(event14) ),libvlc_MediaPlayerMediaChanged )) {
+            																		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_14, ::lime::app::_Event_Void_Void,_g15) HXARGC(0)
+            																		void _hx_run(){
+            																			HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_1611_eventManagerCallbacks)
+HXLINE(1611)																			_g15->dispatch();
+            																		}
+            																		HX_END_LOCAL_FUNC0((void))
+
+HXLINE(1611)																		 ::lime::app::_Event_Void_Void _g15 = this->onMediaChanged;
+HXDLIN(1611)																		::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_14(_g15)));
+            																	}
+            																}
+            															}
+            														}
+            													}
+            												}
+            											}
+            										}
+            									}
+            								}
+            							}
+            						}
+            					}
+            				}
+            			}
+            		}
             	}
 
 
@@ -1875,9 +1939,7 @@ void Video_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_MEMBER_NAME(onMediaParsedChanged,"onMediaParsedChanged");
 	HX_MARK_MEMBER_NAME(onFormatSetup,"onFormatSetup");
 	HX_MARK_MEMBER_NAME(mediaMutex,"mediaMutex");
-	HX_MARK_MEMBER_NAME(eventsMutex,"eventsMutex");
 	HX_MARK_MEMBER_NAME(textureMutex,"textureMutex");
-	HX_MARK_MEMBER_NAME(events,"events");
 	HX_MARK_MEMBER_NAME(mediaData,"mediaData");
 	HX_MARK_MEMBER_NAME(mediaSize,"mediaSize");
 	HX_MARK_MEMBER_NAME(mediaOffset,"mediaOffset");
@@ -1911,9 +1973,7 @@ void Video_obj::__Visit(HX_VISIT_PARAMS)
 	HX_VISIT_MEMBER_NAME(onMediaParsedChanged,"onMediaParsedChanged");
 	HX_VISIT_MEMBER_NAME(onFormatSetup,"onFormatSetup");
 	HX_VISIT_MEMBER_NAME(mediaMutex,"mediaMutex");
-	HX_VISIT_MEMBER_NAME(eventsMutex,"eventsMutex");
 	HX_VISIT_MEMBER_NAME(textureMutex,"textureMutex");
-	HX_VISIT_MEMBER_NAME(events,"events");
 	HX_VISIT_MEMBER_NAME(mediaData,"mediaData");
 	HX_VISIT_MEMBER_NAME(mediaSize,"mediaSize");
 	HX_VISIT_MEMBER_NAME(mediaOffset,"mediaOffset");
@@ -1950,9 +2010,7 @@ void Video_obj::__Visit(HX_VISIT_PARAMS)
 	case 6:
 		if (HX_FIELD_EQ(inName,"length") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_length() ); }
 		if (HX_FIELD_EQ(inName,"volume") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_volume() ); }
-		if (HX_FIELD_EQ(inName,"events") ) { return ::hx::Val( events ); }
 		if (HX_FIELD_EQ(inName,"resume") ) { return ::hx::Val( resume_dyn() ); }
-		if (HX_FIELD_EQ(inName,"update") ) { return ::hx::Val( update_dyn() ); }
 		break;
 	case 7:
 		if (HX_FIELD_EQ(inName,"chapter") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_chapter() ); }
@@ -2004,7 +2062,6 @@ void Video_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"set_volume") ) { return ::hx::Val( set_volume_dyn() ); }
 		break;
 	case 11:
-		if (HX_FIELD_EQ(inName,"eventsMutex") ) { return ::hx::Val( eventsMutex ); }
 		if (HX_FIELD_EQ(inName,"mediaOffset") ) { return ::hx::Val( mediaOffset ); }
 		if (HX_FIELD_EQ(inName,"nextChapter") ) { return ::hx::Val( nextChapter_dyn() ); }
 		if (HX_FIELD_EQ(inName,"get_chapter") ) { return ::hx::Val( get_chapter_dyn() ); }
@@ -2091,7 +2148,6 @@ bool Video_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx::Pro
 	case 6:
 		if (HX_FIELD_EQ(inName,"output") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( set_output(inValue.Cast< ::String >()) ); }
 		if (HX_FIELD_EQ(inName,"volume") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( set_volume(inValue.Cast< int >()) ); }
-		if (HX_FIELD_EQ(inName,"events") ) { events=inValue.Cast< ::Array< bool > >(); return inValue; }
 		break;
 	case 7:
 		if (HX_FIELD_EQ(inName,"chapter") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( set_chapter(inValue.Cast< int >()) ); }
@@ -2114,7 +2170,6 @@ bool Video_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx::Pro
 		if (HX_FIELD_EQ(inName,"mediaMutex") ) { mediaMutex=inValue.Cast<  ::sys::thread::Mutex >(); return inValue; }
 		break;
 	case 11:
-		if (HX_FIELD_EQ(inName,"eventsMutex") ) { eventsMutex=inValue.Cast<  ::sys::thread::Mutex >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"mediaOffset") ) { mediaOffset=inValue.Cast< ::cpp::UInt64 >(); return inValue; }
 		break;
 	case 12:
@@ -2204,9 +2259,7 @@ void Video_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("onMediaParsedChanged",9e,2d,74,16));
 	outFields->push(HX_("onFormatSetup",e7,24,33,96));
 	outFields->push(HX_("mediaMutex",fb,bf,1c,eb));
-	outFields->push(HX_("eventsMutex",a6,55,4c,bd));
 	outFields->push(HX_("textureMutex",a4,3c,fb,08));
-	outFields->push(HX_("events",19,4f,6a,96));
 	outFields->push(HX_("mediaData",2e,c9,a6,a2));
 	outFields->push(HX_("mediaSize",c5,13,97,ac));
 	outFields->push(HX_("mediaOffset",97,d3,88,ee));
@@ -2239,9 +2292,7 @@ static ::hx::StorageInfo Video_obj_sMemberStorageInfo[] = {
 	{::hx::fsObject /*  ::lime::app::_Event_Int_Void */ ,(int)offsetof(Video_obj,onMediaParsedChanged),HX_("onMediaParsedChanged",9e,2d,74,16)},
 	{::hx::fsObject /*  ::lime::app::_Event_Void_Void */ ,(int)offsetof(Video_obj,onFormatSetup),HX_("onFormatSetup",e7,24,33,96)},
 	{::hx::fsObject /*  ::sys::thread::Mutex */ ,(int)offsetof(Video_obj,mediaMutex),HX_("mediaMutex",fb,bf,1c,eb)},
-	{::hx::fsObject /*  ::sys::thread::Mutex */ ,(int)offsetof(Video_obj,eventsMutex),HX_("eventsMutex",a6,55,4c,bd)},
 	{::hx::fsObject /*  ::sys::thread::Mutex */ ,(int)offsetof(Video_obj,textureMutex),HX_("textureMutex",a4,3c,fb,08)},
-	{::hx::fsObject /* ::Array< bool > */ ,(int)offsetof(Video_obj,events),HX_("events",19,4f,6a,96)},
 	{::hx::fsUnknown /* unsigned char* */ ,(int)offsetof(Video_obj,mediaData),HX_("mediaData",2e,c9,a6,a2)},
 	{::hx::fsUnknown /* ::cpp::UInt64 */ ,(int)offsetof(Video_obj,mediaSize),HX_("mediaSize",c5,13,97,ac)},
 	{::hx::fsUnknown /* ::cpp::UInt64 */ ,(int)offsetof(Video_obj,mediaOffset),HX_("mediaOffset",97,d3,88,ee)},
@@ -2278,9 +2329,7 @@ static ::String Video_obj_sMemberFields[] = {
 	HX_("onMediaParsedChanged",9e,2d,74,16),
 	HX_("onFormatSetup",e7,24,33,96),
 	HX_("mediaMutex",fb,bf,1c,eb),
-	HX_("eventsMutex",a6,55,4c,bd),
 	HX_("textureMutex",a4,3c,fb,08),
-	HX_("events",19,4f,6a,96),
 	HX_("mediaSize",c5,13,97,ac),
 	HX_("mediaOffset",97,d3,88,ee),
 	HX_("texture",db,c8,e0,9e),
@@ -2302,7 +2351,6 @@ static ::String Video_obj_sMemberFields[] = {
 	HX_("setMeta",87,8b,dd,0d),
 	HX_("saveMeta",a2,e4,12,fc),
 	HX_("dispose",9f,80,4c,bb),
-	HX_("update",09,86,05,87),
 	HX_("get_mrl",fe,e1,c7,26),
 	HX_("get_stats",76,d2,b4,c7),
 	HX_("get_duration",5d,c3,a7,c9),
@@ -2387,8 +2435,8 @@ void Video_obj::__register()
 void Video_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_275_boot)
-HXDLIN( 275)		useTexture = true;
+            	HX_STACKFRAME(&_hx_pos_efae38d9298f0b03_221_boot)
+HXDLIN( 221)		useTexture = true;
             	}
 }
 

@@ -14,9 +14,9 @@
 #include <haxe/io/Encoding.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_1fd9271fa0b56fa6_48_decode,"haxe.crypto.Base64","decode",0x319f7f68,"haxe.crypto.Base64.decode","D:\\HaxeToolKit\\haxe\\std/haxe/crypto/Base64.hx",48,0x5bd6f752)
-HX_LOCAL_STACK_FRAME(_hx_pos_1fd9271fa0b56fa6_29_boot,"haxe.crypto.Base64","boot",0x49b2c3ec,"haxe.crypto.Base64.boot","D:\\HaxeToolKit\\haxe\\std/haxe/crypto/Base64.hx",29,0x5bd6f752)
-HX_LOCAL_STACK_FRAME(_hx_pos_1fd9271fa0b56fa6_30_boot,"haxe.crypto.Base64","boot",0x49b2c3ec,"haxe.crypto.Base64.boot","D:\\HaxeToolKit\\haxe\\std/haxe/crypto/Base64.hx",30,0x5bd6f752)
+HX_LOCAL_STACK_FRAME(_hx_pos_62328952372a8ef4_48_decode,"haxe.crypto.Base64","decode",0x319f7f68,"haxe.crypto.Base64.decode","C:\\HaxeToolkit\\haxe\\std/haxe/crypto/Base64.hx",48,0x538071b1)
+HX_LOCAL_STACK_FRAME(_hx_pos_62328952372a8ef4_29_boot,"haxe.crypto.Base64","boot",0x49b2c3ec,"haxe.crypto.Base64.boot","C:\\HaxeToolkit\\haxe\\std/haxe/crypto/Base64.hx",29,0x538071b1)
+HX_LOCAL_STACK_FRAME(_hx_pos_62328952372a8ef4_30_boot,"haxe.crypto.Base64","boot",0x49b2c3ec,"haxe.crypto.Base64.boot","C:\\HaxeToolkit\\haxe\\std/haxe/crypto/Base64.hx",30,0x538071b1)
 namespace haxe{
 namespace crypto{
 
@@ -43,7 +43,7 @@ bool Base64_obj::_hx_isInstanceOf(int inClassId) {
 
  ::haxe::io::Bytes Base64_obj::decode(::String str,::hx::Null< bool >  __o_complement){
             		bool complement = __o_complement.Default(true);
-            	HX_GC_STACKFRAME(&_hx_pos_1fd9271fa0b56fa6_48_decode)
+            	HX_GC_STACKFRAME(&_hx_pos_62328952372a8ef4_48_decode)
 HXLINE(  49)		if (complement) {
 HXLINE(  50)			while(::hx::IsEq( str.charCodeAt((str.length - 1)),61 )){
 HXLINE(  51)				str = str.substr(0,-1);
@@ -145,11 +145,11 @@ void Base64_obj::__register()
 void Base64_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_1fd9271fa0b56fa6_29_boot)
+            	HX_STACKFRAME(&_hx_pos_62328952372a8ef4_29_boot)
 HXDLIN(  29)		CHARS = HX_("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",03,41,03,7f);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_1fd9271fa0b56fa6_30_boot)
+            	HX_STACKFRAME(&_hx_pos_62328952372a8ef4_30_boot)
 HXDLIN(  30)		BYTES = ::haxe::io::Bytes_obj::ofString(::haxe::crypto::Base64_obj::CHARS,null());
             	}
 }

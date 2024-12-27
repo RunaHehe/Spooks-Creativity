@@ -48,22 +48,22 @@
 #include <haxe/io/Bytes.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_905976dc28023919_101_new,"haxe.Unserializer","new",0xa8f5e205,"haxe.Unserializer.new","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",101,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_905976dc28023919_127_setResolver,"haxe.Unserializer","setResolver",0x5545046d,"haxe.Unserializer.setResolver","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",127,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_905976dc28023919_150_readDigits,"haxe.Unserializer","readDigits",0x75598b17,"haxe.Unserializer.readDigits","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",150,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_905976dc28023919_175_readFloat,"haxe.Unserializer","readFloat",0x5bd86dcb,"haxe.Unserializer.readFloat","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",175,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_905976dc28023919_190_unserializeObject,"haxe.Unserializer","unserializeObject",0x1b3e66eb,"haxe.Unserializer.unserializeObject","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",190,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_905976dc28023919_205_unserializeEnum,"haxe.Unserializer","unserializeEnum",0x5018b02d,"haxe.Unserializer.unserializeEnum","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",205,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_905976dc28023919_237_unserialize,"haxe.Unserializer","unserialize",0x92cca30c,"haxe.Unserializer.unserialize","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",237,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_905976dc28023919_74_initCodes,"haxe.Unserializer","initCodes",0xee42ccdb,"haxe.Unserializer.initCodes","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",74,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_905976dc28023919_471_run,"haxe.Unserializer","run",0xa8f8f8f0,"haxe.Unserializer.run","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",471,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_905976dc28023919_67_boot,"haxe.Unserializer","boot",0x2648e2ed,"haxe.Unserializer.boot","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",67,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_905976dc28023919_69_boot,"haxe.Unserializer","boot",0x2648e2ed,"haxe.Unserializer.boot","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",69,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_905976dc28023919_72_boot,"haxe.Unserializer","boot",0x2648e2ed,"haxe.Unserializer.boot","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",72,0xeaf3b602)
+HX_DEFINE_STACK_FRAME(_hx_pos_f8f88660db87045d_101_new,"haxe.Unserializer","new",0xa8f5e205,"haxe.Unserializer.new","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",101,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f8f88660db87045d_127_setResolver,"haxe.Unserializer","setResolver",0x5545046d,"haxe.Unserializer.setResolver","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",127,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f8f88660db87045d_150_readDigits,"haxe.Unserializer","readDigits",0x75598b17,"haxe.Unserializer.readDigits","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",150,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f8f88660db87045d_175_readFloat,"haxe.Unserializer","readFloat",0x5bd86dcb,"haxe.Unserializer.readFloat","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",175,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f8f88660db87045d_190_unserializeObject,"haxe.Unserializer","unserializeObject",0x1b3e66eb,"haxe.Unserializer.unserializeObject","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",190,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f8f88660db87045d_205_unserializeEnum,"haxe.Unserializer","unserializeEnum",0x5018b02d,"haxe.Unserializer.unserializeEnum","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",205,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f8f88660db87045d_237_unserialize,"haxe.Unserializer","unserialize",0x92cca30c,"haxe.Unserializer.unserialize","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",237,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f8f88660db87045d_74_initCodes,"haxe.Unserializer","initCodes",0xee42ccdb,"haxe.Unserializer.initCodes","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",74,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f8f88660db87045d_471_run,"haxe.Unserializer","run",0xa8f8f8f0,"haxe.Unserializer.run","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",471,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f8f88660db87045d_67_boot,"haxe.Unserializer","boot",0x2648e2ed,"haxe.Unserializer.boot","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",67,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f8f88660db87045d_69_boot,"haxe.Unserializer","boot",0x2648e2ed,"haxe.Unserializer.boot","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",69,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f8f88660db87045d_72_boot,"haxe.Unserializer","boot",0x2648e2ed,"haxe.Unserializer.boot","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",72,0x00b9ec83)
 namespace haxe{
 
 void Unserializer_obj::__construct(::String buf){
-            	HX_GC_STACKFRAME(&_hx_pos_905976dc28023919_101_new)
+            	HX_GC_STACKFRAME(&_hx_pos_f8f88660db87045d_101_new)
 HXLINE( 102)		this->buf = buf;
 HXLINE( 103)		this->length = this->buf.length;
 HXLINE( 104)		this->pos = 0;
@@ -93,7 +93,7 @@ bool Unserializer_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Unserializer_obj::setResolver( ::Dynamic r){
-            	HX_GC_STACKFRAME(&_hx_pos_905976dc28023919_127_setResolver)
+            	HX_GC_STACKFRAME(&_hx_pos_f8f88660db87045d_127_setResolver)
 HXDLIN( 127)		if (::hx::IsNull( r )) {
 HXLINE( 128)			if (::hx::IsNull( ::haxe::_Unserializer::NullResolver_obj::instance )) {
 HXLINE( 128)				::haxe::_Unserializer::NullResolver_obj::instance =  ::haxe::_Unserializer::NullResolver_obj::__alloc( HX_CTX );
@@ -109,7 +109,7 @@ HXLINE( 130)			this->resolver = r;
 HX_DEFINE_DYNAMIC_FUNC1(Unserializer_obj,setResolver,(void))
 
 int Unserializer_obj::readDigits(){
-            	HX_STACKFRAME(&_hx_pos_905976dc28023919_150_readDigits)
+            	HX_STACKFRAME(&_hx_pos_f8f88660db87045d_150_readDigits)
 HXLINE( 151)		int k = 0;
 HXLINE( 152)		bool s = false;
 HXLINE( 153)		int fpos = this->pos;
@@ -150,7 +150,7 @@ HXLINE( 172)		return k;
 HX_DEFINE_DYNAMIC_FUNC0(Unserializer_obj,readDigits,return )
 
 Float Unserializer_obj::readFloat(){
-            	HX_STACKFRAME(&_hx_pos_905976dc28023919_175_readFloat)
+            	HX_STACKFRAME(&_hx_pos_f8f88660db87045d_175_readFloat)
 HXLINE( 176)		int p1 = this->pos;
 HXLINE( 177)		while(true){
 HXLINE( 178)			int c = this->buf.cca(this->pos);
@@ -193,7 +193,7 @@ HXLINE( 187)		return ::Std_obj::parseFloat(this->buf.substr(p1,(this->pos - p1))
 HX_DEFINE_DYNAMIC_FUNC0(Unserializer_obj,readFloat,return )
 
 void Unserializer_obj::unserializeObject( ::Dynamic o){
-            	HX_STACKFRAME(&_hx_pos_905976dc28023919_190_unserializeObject)
+            	HX_STACKFRAME(&_hx_pos_f8f88660db87045d_190_unserializeObject)
 HXLINE( 191)		while(true){
 HXLINE( 192)			if ((this->pos >= this->length)) {
 HXLINE( 193)				HX_STACK_DO_THROW(HX_("Invalid object",e8,6c,b7,e2));
@@ -216,7 +216,7 @@ HXLINE( 202)		this->pos++;
 HX_DEFINE_DYNAMIC_FUNC1(Unserializer_obj,unserializeObject,(void))
 
  ::Dynamic Unserializer_obj::unserializeEnum(::hx::Class edecl,::String tag){
-            	HX_STACKFRAME(&_hx_pos_905976dc28023919_205_unserializeEnum)
+            	HX_STACKFRAME(&_hx_pos_f8f88660db87045d_205_unserializeEnum)
 HXLINE( 206)		if ((this->buf.cca(this->pos++) != 58)) {
 HXLINE( 207)			HX_STACK_DO_THROW(HX_("Invalid enum format",ad,eb,77,c2));
             		}
@@ -240,7 +240,7 @@ HXLINE( 214)		return ::Type_obj::createEnum(edecl,tag,args);
 HX_DEFINE_DYNAMIC_FUNC2(Unserializer_obj,unserializeEnum,return )
 
  ::Dynamic Unserializer_obj::unserialize(){
-            	HX_GC_STACKFRAME(&_hx_pos_905976dc28023919_237_unserialize)
+            	HX_GC_STACKFRAME(&_hx_pos_f8f88660db87045d_237_unserialize)
 HXLINE( 238)		switch((int)(this->buf.cca(this->pos++))){
             			case (int)65: {
 HXLINE( 446)				::String name = ( (::String)(this->unserialize()) );
@@ -653,7 +653,7 @@ HX_DEFINE_DYNAMIC_FUNC0(Unserializer_obj,unserialize,return )
 ::Array< int > Unserializer_obj::CODES;
 
 ::Array< int > Unserializer_obj::initCodes(){
-            	HX_STACKFRAME(&_hx_pos_905976dc28023919_74_initCodes)
+            	HX_STACKFRAME(&_hx_pos_f8f88660db87045d_74_initCodes)
 HXLINE(  75)		::Array< int > codes = ::Array_obj< int >::__new();
 HXLINE(  76)		{
 HXLINE(  76)			int _g = 0;
@@ -671,7 +671,7 @@ HXLINE(  78)		return codes;
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Unserializer_obj,initCodes,return )
 
  ::Dynamic Unserializer_obj::run(::String v){
-            	HX_GC_STACKFRAME(&_hx_pos_905976dc28023919_471_run)
+            	HX_GC_STACKFRAME(&_hx_pos_f8f88660db87045d_471_run)
 HXDLIN( 471)		return  ::haxe::Unserializer_obj::__alloc( HX_CTX ,v)->unserialize();
             	}
 
@@ -910,15 +910,15 @@ void Unserializer_obj::__register()
 void Unserializer_obj::__boot()
 {
 {
-            	HX_GC_STACKFRAME(&_hx_pos_905976dc28023919_67_boot)
+            	HX_GC_STACKFRAME(&_hx_pos_f8f88660db87045d_67_boot)
 HXDLIN(  67)		DEFAULT_RESOLVER =  ::haxe::_Unserializer::DefaultResolver_obj::__alloc( HX_CTX );
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_905976dc28023919_69_boot)
+            	HX_STACKFRAME(&_hx_pos_f8f88660db87045d_69_boot)
 HXDLIN(  69)		BASE64 = HX_("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789%:",d4,3b,03,7f);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_905976dc28023919_72_boot)
+            	HX_STACKFRAME(&_hx_pos_f8f88660db87045d_72_boot)
 HXDLIN(  72)		CODES = null();
             	}
 }

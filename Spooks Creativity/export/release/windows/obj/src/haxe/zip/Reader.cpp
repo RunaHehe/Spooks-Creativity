@@ -32,17 +32,17 @@
 #include <haxe/zip/Reader.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_56c0746fc6a5d090_33_new,"haxe.zip.Reader","new",0xf101338a,"haxe.zip.Reader.new","D:\\HaxeToolKit\\haxe\\std/haxe/zip/Reader.hx",33,0xfeb7383c)
-HX_LOCAL_STACK_FRAME(_hx_pos_56c0746fc6a5d090_36_readZipDate,"haxe.zip.Reader","readZipDate",0xa6a02623,"haxe.zip.Reader.readZipDate","D:\\HaxeToolKit\\haxe\\std/haxe/zip/Reader.hx",36,0xfeb7383c)
-HX_LOCAL_STACK_FRAME(_hx_pos_56c0746fc6a5d090_48_readExtraFields,"haxe.zip.Reader","readExtraFields",0x48ea639d,"haxe.zip.Reader.readExtraFields","D:\\HaxeToolKit\\haxe\\std/haxe/zip/Reader.hx",48,0xfeb7383c)
-HX_LOCAL_STACK_FRAME(_hx_pos_56c0746fc6a5d090_78_readEntryHeader,"haxe.zip.Reader","readEntryHeader",0x28765213,"haxe.zip.Reader.readEntryHeader","D:\\HaxeToolKit\\haxe\\std/haxe/zip/Reader.hx",78,0xfeb7383c)
-HX_LOCAL_STACK_FRAME(_hx_pos_56c0746fc6a5d090_121_read,"haxe.zip.Reader","read",0xf2b0acec,"haxe.zip.Reader.read","D:\\HaxeToolKit\\haxe\\std/haxe/zip/Reader.hx",121,0xfeb7383c)
-HX_LOCAL_STACK_FRAME(_hx_pos_56c0746fc6a5d090_194_readZip,"haxe.zip.Reader","readZip",0x2845d555,"haxe.zip.Reader.readZip","D:\\HaxeToolKit\\haxe\\std/haxe/zip/Reader.hx",194,0xfeb7383c)
+HX_DEFINE_STACK_FRAME(_hx_pos_0e0824d2a0189e14_33_new,"haxe.zip.Reader","new",0xf101338a,"haxe.zip.Reader.new","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Reader.hx",33,0x0c8b1c7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_0e0824d2a0189e14_36_readZipDate,"haxe.zip.Reader","readZipDate",0xa6a02623,"haxe.zip.Reader.readZipDate","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Reader.hx",36,0x0c8b1c7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_0e0824d2a0189e14_48_readExtraFields,"haxe.zip.Reader","readExtraFields",0x48ea639d,"haxe.zip.Reader.readExtraFields","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Reader.hx",48,0x0c8b1c7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_0e0824d2a0189e14_78_readEntryHeader,"haxe.zip.Reader","readEntryHeader",0x28765213,"haxe.zip.Reader.readEntryHeader","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Reader.hx",78,0x0c8b1c7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_0e0824d2a0189e14_121_read,"haxe.zip.Reader","read",0xf2b0acec,"haxe.zip.Reader.read","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Reader.hx",121,0x0c8b1c7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_0e0824d2a0189e14_194_readZip,"haxe.zip.Reader","readZip",0x2845d555,"haxe.zip.Reader.readZip","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Reader.hx",194,0x0c8b1c7d)
 namespace haxe{
 namespace zip{
 
 void Reader_obj::__construct( ::haxe::io::Input i){
-            	HX_STACKFRAME(&_hx_pos_56c0746fc6a5d090_33_new)
+            	HX_STACKFRAME(&_hx_pos_0e0824d2a0189e14_33_new)
 HXDLIN(  33)		this->i = i;
             	}
 
@@ -62,7 +62,7 @@ bool Reader_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Date Reader_obj::readZipDate(){
-            	HX_GC_STACKFRAME(&_hx_pos_56c0746fc6a5d090_36_readZipDate)
+            	HX_GC_STACKFRAME(&_hx_pos_0e0824d2a0189e14_36_readZipDate)
 HXLINE(  37)		int t = this->i->readUInt16();
 HXLINE(  38)		int hour = ((t >> 11) & 31);
 HXLINE(  39)		int min = ((t >> 5) & 63);
@@ -78,7 +78,7 @@ HXLINE(  45)		return  ::Date_obj::__alloc( HX_CTX ,(year + 1980),(month - 1),day
 HX_DEFINE_DYNAMIC_FUNC0(Reader_obj,readZipDate,return )
 
  ::haxe::ds::List Reader_obj::readExtraFields(int length){
-            	HX_GC_STACKFRAME(&_hx_pos_56c0746fc6a5d090_48_readExtraFields)
+            	HX_GC_STACKFRAME(&_hx_pos_0e0824d2a0189e14_48_readExtraFields)
 HXLINE(  49)		 ::haxe::ds::List fields =  ::haxe::ds::List_obj::__alloc( HX_CTX );
 HXLINE(  50)		while((length > 0)){
 HXLINE(  51)			if ((length < 4)) {
@@ -128,7 +128,7 @@ HXLINE(  75)		return fields;
 HX_DEFINE_DYNAMIC_FUNC1(Reader_obj,readExtraFields,return )
 
  ::Dynamic Reader_obj::readEntryHeader(){
-            	HX_STACKFRAME(&_hx_pos_56c0746fc6a5d090_78_readEntryHeader)
+            	HX_STACKFRAME(&_hx_pos_0e0824d2a0189e14_78_readEntryHeader)
 HXLINE(  79)		 ::haxe::io::Input i = this->i;
 HXLINE(  80)		int h = i->readInt32();
 HXLINE(  81)		bool _hx_tmp;
@@ -192,7 +192,7 @@ HXLINE( 109)		return  ::Dynamic(::hx::Anon_obj::Create(8)
 HX_DEFINE_DYNAMIC_FUNC0(Reader_obj,readEntryHeader,return )
 
  ::haxe::ds::List Reader_obj::read(){
-            	HX_GC_STACKFRAME(&_hx_pos_56c0746fc6a5d090_121_read)
+            	HX_GC_STACKFRAME(&_hx_pos_0e0824d2a0189e14_121_read)
 HXLINE( 122)		 ::haxe::ds::List l =  ::haxe::ds::List_obj::__alloc( HX_CTX );
 HXLINE( 123)		 ::Dynamic buf = null();
 HXLINE( 124)		 ::haxe::io::Bytes tmp = null();
@@ -266,7 +266,7 @@ HXLINE( 191)		return l;
 HX_DEFINE_DYNAMIC_FUNC0(Reader_obj,read,return )
 
  ::haxe::ds::List Reader_obj::readZip( ::haxe::io::Input i){
-            	HX_GC_STACKFRAME(&_hx_pos_56c0746fc6a5d090_194_readZip)
+            	HX_GC_STACKFRAME(&_hx_pos_0e0824d2a0189e14_194_readZip)
 HXLINE( 195)		 ::haxe::zip::Reader r =  ::haxe::zip::Reader_obj::__alloc( HX_CTX ,i);
 HXLINE( 196)		return r->read();
             	}

@@ -54,7 +54,7 @@
 #include <hscript/Token.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_45_new,"hscript.Parser","new",0x4b9f158c,"hscript.Parser.new","hscript/Parser.hx",45,0x98735743)
+HX_DEFINE_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_46_new,"hscript.Parser","new",0x4b9f158c,"hscript.Parser.new","hscript/Parser.hx",46,0x98735743)
 static const ::String _hx_array_data_e9f29f9a_4[] = {
 	HX_("%",25,00,00,00),
 };
@@ -91,109 +91,110 @@ static const ::String _hx_array_data_e9f29f9a_14[] = {
 static const ::String _hx_array_data_e9f29f9a_15[] = {
 	HX_("!",21,00,00,00),HX_("++",a0,25,00,00),HX_("--",60,27,00,00),HX_("~",7e,00,00,00),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_147_error,"hscript.Parser","error",0x9bb1b3f4,"hscript.Parser.error","hscript/Parser.hx",147,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_156_invalidChar,"hscript.Parser","invalidChar",0x0ae4fe99,"hscript.Parser.invalidChar","hscript/Parser.hx",156,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_159_initParser,"hscript.Parser","initParser",0xe350f063,"hscript.Parser.initParser","hscript/Parser.hx",159,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_183_parseString,"hscript.Parser","parseString",0xed832690,"hscript.Parser.parseString","hscript/Parser.hx",183,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_197_unexpected,"hscript.Parser","unexpected",0xb7770e25,"hscript.Parser.unexpected","hscript/Parser.hx",197,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_202_push,"hscript.Parser","push",0xe0f2532e,"hscript.Parser.push","hscript/Parser.hx",202,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_212_ensure,"hscript.Parser","ensure",0x52df3412,"hscript.Parser.ensure","hscript/Parser.hx",212,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_217_ensureToken,"hscript.Parser","ensureToken",0x4d49bd87,"hscript.Parser.ensureToken","hscript/Parser.hx",217,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_222_maybe,"hscript.Parser","maybe",0x2baefbd4,"hscript.Parser.maybe","hscript/Parser.hx",222,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_230_getIdent,"hscript.Parser","getIdent",0x33becdce,"hscript.Parser.getIdent","hscript/Parser.hx",230,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_242_expr,"hscript.Parser","expr",0xd9af3e89,"hscript.Parser.expr","hscript/Parser.hx",242,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_250_pmin,"hscript.Parser","pmin",0xe0ec3876,"hscript.Parser.pmin","hscript/Parser.hx",250,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_258_pmax,"hscript.Parser","pmax",0xe0ec3188,"hscript.Parser.pmax","hscript/Parser.hx",258,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_264_mk,"hscript.Parser","mk",0xd828e3b2,"hscript.Parser.mk","hscript/Parser.hx",264,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_275_isBlock,"hscript.Parser","isBlock",0x99f5642f,"hscript.Parser.isBlock","hscript/Parser.hx",275,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_294_parseFullExpr,"hscript.Parser","parseFullExpr",0x2c8eb1e3,"hscript.Parser.parseFullExpr","hscript/Parser.hx",294,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_314_parseObject,"hscript.Parser","parseObject",0xf1927c7e,"hscript.Parser.parseObject","hscript/Parser.hx",314,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_349_parseExpr,"hscript.Parser","parseExpr",0x8f01bd34,"hscript.Parser.parseExpr","hscript/Parser.hx",349,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_488_parseLambda,"hscript.Parser","parseLambda",0x2d1330c6,"hscript.Parser.parseLambda","hscript/Parser.hx",488,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_508_parseMetaArgs,"hscript.Parser","parseMetaArgs",0xfe617641,"hscript.Parser.parseMetaArgs","hscript/Parser.hx",508,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_532_mapCompr,"hscript.Parser","mapCompr",0xde0e1f9b,"hscript.Parser.mapCompr","hscript/Parser.hx",532,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_553_makeUnop,"hscript.Parser","makeUnop",0x60b6401c,"hscript.Parser.makeUnop","hscript/Parser.hx",553,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_563_makeBinop,"hscript.Parser","makeBinop",0x4ad5ff06,"hscript.Parser.makeBinop","hscript/Parser.hx",563,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_582_parseStructure,"hscript.Parser","parseStructure",0x237837d4,"hscript.Parser.parseStructure","hscript/Parser.hx",582,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_774_parseExprNext,"hscript.Parser","parseExprNext",0x83d61847,"hscript.Parser.parseExprNext","hscript/Parser.hx",774,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_821_parseFunctionArgs,"hscript.Parser","parseFunctionArgs",0xca222794,"hscript.Parser.parseFunctionArgs","hscript/Parser.hx",821,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_863_parseFunctionDecl,"hscript.Parser","parseFunctionDecl",0xcc13eaa1,"hscript.Parser.parseFunctionDecl","hscript/Parser.hx",863,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_877_parsePath,"hscript.Parser","parsePath",0x9635a5a4,"hscript.Parser.parsePath","hscript/Parser.hx",877,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_890_parseType,"hscript.Parser","parseType",0x98ecb2b9,"hscript.Parser.parseType","hscript/Parser.hx",890,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_935_parseType,"hscript.Parser","parseType",0x98ecb2b9,"hscript.Parser.parseType","hscript/Parser.hx",935,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1012_parseTypeNext,"hscript.Parser","parseTypeNext",0x8b2ab44c,"hscript.Parser.parseTypeNext","hscript/Parser.hx",1012,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1034_parseExprList,"hscript.Parser","parseExprList",0x8286afb2,"hscript.Parser.parseExprList","hscript/Parser.hx",1034,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1056_parseModule,"hscript.Parser","parseModule",0x9d26326b,"hscript.Parser.parseModule","hscript/Parser.hx",1056,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1072_parseMetadata,"hscript.Parser","parseMetadata",0x157712ee,"hscript.Parser.parseMetadata","hscript/Parser.hx",1072,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1087_parseParams,"hscript.Parser","parseParams",0xc9cdf905,"hscript.Parser.parseParams","hscript/Parser.hx",1087,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1093_parseModuleDecl,"hscript.Parser","parseModuleDecl",0xfa46c075,"hscript.Parser.parseModuleDecl","hscript/Parser.hx",1093,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1186_parseField,"hscript.Parser","parseField",0x1bf7d3db,"hscript.Parser.parseField","hscript/Parser.hx",1186,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1261_readChar,"hscript.Parser","readChar",0x8625b4a0,"hscript.Parser.readChar","hscript/Parser.hx",1261,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1264_readString,"hscript.Parser","readString",0xfc2f051b,"hscript.Parser.readString","hscript/Parser.hx",1264,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1324_token,"hscript.Parser","token",0x3cb36b25,"hscript.Parser.token","hscript/Parser.hx",1324,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1340__token,"hscript.Parser","_token",0x5e76088e,"hscript.Parser._token","hscript/Parser.hx",1340,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1565_preprocValue,"hscript.Parser","preprocValue",0xbabba0cc,"hscript.Parser.preprocValue","hscript/Parser.hx",1565,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1570_parsePreproCond,"hscript.Parser","parsePreproCond",0x44c5e42b,"hscript.Parser.parsePreproCond","hscript/Parser.hx",1570,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1586_evalPreproCond,"hscript.Parser","evalPreproCond",0x4859d7fc,"hscript.Parser.evalPreproCond","hscript/Parser.hx",1586,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1604_preprocess,"hscript.Parser","preprocess",0x83c9d500,"hscript.Parser.preprocess","hscript/Parser.hx",1604,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1636_skipTokens,"hscript.Parser","skipTokens",0xeb6e038d,"hscript.Parser.skipTokens","hscript/Parser.hx",1636,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1651_tokenComment,"hscript.Parser","tokenComment",0xb86c15ba,"hscript.Parser.tokenComment","hscript/Parser.hx",1651,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1694_constString,"hscript.Parser","constString",0x0a4693c0,"hscript.Parser.constString","hscript/Parser.hx",1694,0x98735743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1705_tokenString,"hscript.Parser","tokenString",0x05f471d6,"hscript.Parser.tokenString","hscript/Parser.hx",1705,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_134_get_currentPos,"hscript.Parser","get_currentPos",0xd52d5d78,"hscript.Parser.get_currentPos","hscript/Parser.hx",134,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_137_error,"hscript.Parser","error",0x9bb1b3f4,"hscript.Parser.error","hscript/Parser.hx",137,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_146_invalidChar,"hscript.Parser","invalidChar",0x0ae4fe99,"hscript.Parser.invalidChar","hscript/Parser.hx",146,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_149_initParser,"hscript.Parser","initParser",0xe350f063,"hscript.Parser.initParser","hscript/Parser.hx",149,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_172_parseString,"hscript.Parser","parseString",0xed832690,"hscript.Parser.parseString","hscript/Parser.hx",172,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_186_unexpected,"hscript.Parser","unexpected",0xb7770e25,"hscript.Parser.unexpected","hscript/Parser.hx",186,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_191_push,"hscript.Parser","push",0xe0f2532e,"hscript.Parser.push","hscript/Parser.hx",191,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_201_ensure,"hscript.Parser","ensure",0x52df3412,"hscript.Parser.ensure","hscript/Parser.hx",201,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_206_ensureToken,"hscript.Parser","ensureToken",0x4d49bd87,"hscript.Parser.ensureToken","hscript/Parser.hx",206,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_211_maybe,"hscript.Parser","maybe",0x2baefbd4,"hscript.Parser.maybe","hscript/Parser.hx",211,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_219_getIdent,"hscript.Parser","getIdent",0x33becdce,"hscript.Parser.getIdent","hscript/Parser.hx",219,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_231_expr,"hscript.Parser","expr",0xd9af3e89,"hscript.Parser.expr","hscript/Parser.hx",231,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_239_pmin,"hscript.Parser","pmin",0xe0ec3876,"hscript.Parser.pmin","hscript/Parser.hx",239,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_247_pmax,"hscript.Parser","pmax",0xe0ec3188,"hscript.Parser.pmax","hscript/Parser.hx",247,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_253_mk,"hscript.Parser","mk",0xd828e3b2,"hscript.Parser.mk","hscript/Parser.hx",253,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_264_isBlock,"hscript.Parser","isBlock",0x99f5642f,"hscript.Parser.isBlock","hscript/Parser.hx",264,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_283_parseFullExpr,"hscript.Parser","parseFullExpr",0x2c8eb1e3,"hscript.Parser.parseFullExpr","hscript/Parser.hx",283,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_303_parseObject,"hscript.Parser","parseObject",0xf1927c7e,"hscript.Parser.parseObject","hscript/Parser.hx",303,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_338_parseExpr,"hscript.Parser","parseExpr",0x8f01bd34,"hscript.Parser.parseExpr","hscript/Parser.hx",338,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_477_parseLambda,"hscript.Parser","parseLambda",0x2d1330c6,"hscript.Parser.parseLambda","hscript/Parser.hx",477,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_497_parseMetaArgs,"hscript.Parser","parseMetaArgs",0xfe617641,"hscript.Parser.parseMetaArgs","hscript/Parser.hx",497,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_521_mapCompr,"hscript.Parser","mapCompr",0xde0e1f9b,"hscript.Parser.mapCompr","hscript/Parser.hx",521,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_542_makeUnop,"hscript.Parser","makeUnop",0x60b6401c,"hscript.Parser.makeUnop","hscript/Parser.hx",542,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_552_makeBinop,"hscript.Parser","makeBinop",0x4ad5ff06,"hscript.Parser.makeBinop","hscript/Parser.hx",552,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_571_parseStructure,"hscript.Parser","parseStructure",0x237837d4,"hscript.Parser.parseStructure","hscript/Parser.hx",571,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_763_parseExprNext,"hscript.Parser","parseExprNext",0x83d61847,"hscript.Parser.parseExprNext","hscript/Parser.hx",763,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_824_parseFunctionArgs,"hscript.Parser","parseFunctionArgs",0xca222794,"hscript.Parser.parseFunctionArgs","hscript/Parser.hx",824,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_866_parseFunctionDecl,"hscript.Parser","parseFunctionDecl",0xcc13eaa1,"hscript.Parser.parseFunctionDecl","hscript/Parser.hx",866,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_880_parsePath,"hscript.Parser","parsePath",0x9635a5a4,"hscript.Parser.parsePath","hscript/Parser.hx",880,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_893_parseType,"hscript.Parser","parseType",0x98ecb2b9,"hscript.Parser.parseType","hscript/Parser.hx",893,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_938_parseType,"hscript.Parser","parseType",0x98ecb2b9,"hscript.Parser.parseType","hscript/Parser.hx",938,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1015_parseTypeNext,"hscript.Parser","parseTypeNext",0x8b2ab44c,"hscript.Parser.parseTypeNext","hscript/Parser.hx",1015,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1037_parseExprList,"hscript.Parser","parseExprList",0x8286afb2,"hscript.Parser.parseExprList","hscript/Parser.hx",1037,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1059_parseModule,"hscript.Parser","parseModule",0x9d26326b,"hscript.Parser.parseModule","hscript/Parser.hx",1059,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1075_parseMetadata,"hscript.Parser","parseMetadata",0x157712ee,"hscript.Parser.parseMetadata","hscript/Parser.hx",1075,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1090_parseParams,"hscript.Parser","parseParams",0xc9cdf905,"hscript.Parser.parseParams","hscript/Parser.hx",1090,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1096_parseModuleDecl,"hscript.Parser","parseModuleDecl",0xfa46c075,"hscript.Parser.parseModuleDecl","hscript/Parser.hx",1096,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1189_parseField,"hscript.Parser","parseField",0x1bf7d3db,"hscript.Parser.parseField","hscript/Parser.hx",1189,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1264_readChar,"hscript.Parser","readChar",0x8625b4a0,"hscript.Parser.readChar","hscript/Parser.hx",1264,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1267_readString,"hscript.Parser","readString",0xfc2f051b,"hscript.Parser.readString","hscript/Parser.hx",1267,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1327_token,"hscript.Parser","token",0x3cb36b25,"hscript.Parser.token","hscript/Parser.hx",1327,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1343__token,"hscript.Parser","_token",0x5e76088e,"hscript.Parser._token","hscript/Parser.hx",1343,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1551_preprocValue,"hscript.Parser","preprocValue",0xbabba0cc,"hscript.Parser.preprocValue","hscript/Parser.hx",1551,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1556_parsePreproCond,"hscript.Parser","parsePreproCond",0x44c5e42b,"hscript.Parser.parsePreproCond","hscript/Parser.hx",1556,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1572_evalPreproCond,"hscript.Parser","evalPreproCond",0x4859d7fc,"hscript.Parser.evalPreproCond","hscript/Parser.hx",1572,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1590_preprocess,"hscript.Parser","preprocess",0x83c9d500,"hscript.Parser.preprocess","hscript/Parser.hx",1590,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1622_skipTokens,"hscript.Parser","skipTokens",0xeb6e038d,"hscript.Parser.skipTokens","hscript/Parser.hx",1622,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1637_tokenComment,"hscript.Parser","tokenComment",0xb86c15ba,"hscript.Parser.tokenComment","hscript/Parser.hx",1637,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1680_constString,"hscript.Parser","constString",0x0a4693c0,"hscript.Parser.constString","hscript/Parser.hx",1680,0x98735743)
+HX_LOCAL_STACK_FRAME(_hx_pos_2fd3d36595bebf3d_1688_tokenString,"hscript.Parser","tokenString",0x05f471d6,"hscript.Parser.tokenString","hscript/Parser.hx",1688,0x98735743)
 namespace hscript{
 
 void Parser_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_45_new)
-HXLINE(  91)		this->uid = 0;
-HXLINE(  62)		this->preprocesorValues =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE( 114)		this->line = 1;
-HXLINE( 115)		this->opChars = HX_("+*/-=!><&|^%~",e2,ec,c4,dc);
-HXLINE( 116)		this->identChars = HX_("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_",e0,b5,3b,15);
-HXLINE( 117)		::Array< ::Dynamic> priorities = ::Array_obj< ::Dynamic>::__new(11)->init(0,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_4,1))->init(1,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_5,2))->init(2,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_6,2))->init(3,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_7,3))->init(4,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_8,3))->init(5,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_9,6))->init(6,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_10,1))->init(7,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_11,1))->init(8,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_12,1))->init(9,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_13,13))->init(10,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_14,1));
-HXLINE( 131)		this->opPriority =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE( 132)		this->opRightAssoc =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE( 137)		{
-HXLINE( 137)			int _g = 0;
-HXDLIN( 137)			int _g1 = priorities->length;
-HXDLIN( 137)			while((_g < _g1)){
-HXLINE( 137)				_g = (_g + 1);
-HXDLIN( 137)				int i = (_g - 1);
-HXLINE( 138)				{
-HXLINE( 138)					int _g2 = 0;
-HXDLIN( 138)					::Array< ::String > _g3 = priorities->__get(i).StaticCast< ::Array< ::String > >();
-HXDLIN( 138)					while((_g2 < _g3->length)){
-HXLINE( 138)						::String x = _g3->__get(_g2);
-HXDLIN( 138)						_g2 = (_g2 + 1);
-HXLINE( 139)						this->opPriority->set(x,i);
-HXLINE( 140)						if ((i == 9)) {
-HXLINE( 140)							this->opRightAssoc->set(x,true);
+            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_46_new)
+HXLINE(  89)		this->uid = 0;
+HXLINE(  58)		this->preprocesorValues =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE( 107)		this->line = 1;
+HXLINE( 108)		this->opChars = HX_("+*/-=!><&|^%~",e2,ec,c4,dc);
+HXLINE( 109)		this->identChars = HX_("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_",e0,b5,3b,15);
+HXLINE( 110)		::Array< ::Dynamic> priorities = ::Array_obj< ::Dynamic>::__new(11)->init(0,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_4,1))->init(1,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_5,2))->init(2,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_6,2))->init(3,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_7,3))->init(4,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_8,3))->init(5,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_9,6))->init(6,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_10,1))->init(7,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_11,1))->init(8,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_12,1))->init(9,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_13,13))->init(10,::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_14,1));
+HXLINE( 123)		this->opPriority =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE( 124)		this->opRightAssoc =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE( 125)		{
+HXLINE( 125)			int _g = 0;
+HXDLIN( 125)			int _g1 = priorities->length;
+HXDLIN( 125)			while((_g < _g1)){
+HXLINE( 125)				_g = (_g + 1);
+HXDLIN( 125)				int i = (_g - 1);
+HXLINE( 126)				{
+HXLINE( 126)					int _g2 = 0;
+HXDLIN( 126)					::Array< ::String > _g3 = priorities->__get(i).StaticCast< ::Array< ::String > >();
+HXDLIN( 126)					while((_g2 < _g3->length)){
+HXLINE( 126)						::String x = _g3->__get(_g2);
+HXDLIN( 126)						_g2 = (_g2 + 1);
+HXLINE( 127)						this->opPriority->set(x,i);
+HXLINE( 128)						if ((i == 9)) {
+HXLINE( 128)							this->opRightAssoc->set(x,true);
             						}
             					}
             				}
             			}
             		}
-HXLINE( 142)		{
-HXLINE( 142)			int _g4 = 0;
-HXDLIN( 142)			::Array< ::String > _g5 = ::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_15,4);
-HXDLIN( 142)			while((_g4 < _g5->length)){
-HXLINE( 142)				::String x1 = _g5->__get(_g4);
-HXDLIN( 142)				_g4 = (_g4 + 1);
-HXLINE( 143)				{
-HXLINE( 143)					int _hx_tmp;
-HXDLIN( 143)					bool _hx_tmp1;
-HXDLIN( 143)					if ((x1 != HX_("++",a0,25,00,00))) {
-HXLINE( 143)						_hx_tmp1 = (x1 == HX_("--",60,27,00,00));
+HXLINE( 130)		{
+HXLINE( 130)			int _g4 = 0;
+HXDLIN( 130)			::Array< ::String > _g5 = ::Array_obj< ::String >::fromData( _hx_array_data_e9f29f9a_15,4);
+HXDLIN( 130)			while((_g4 < _g5->length)){
+HXLINE( 130)				::String x1 = _g5->__get(_g4);
+HXDLIN( 130)				_g4 = (_g4 + 1);
+HXLINE( 131)				{
+HXLINE( 131)					int _hx_tmp;
+HXDLIN( 131)					bool _hx_tmp1;
+HXDLIN( 131)					if ((x1 != HX_("++",a0,25,00,00))) {
+HXLINE( 131)						_hx_tmp1 = (x1 == HX_("--",60,27,00,00));
             					}
             					else {
-HXLINE( 143)						_hx_tmp1 = true;
+HXLINE( 131)						_hx_tmp1 = true;
             					}
-HXDLIN( 143)					if (_hx_tmp1) {
-HXLINE( 143)						_hx_tmp = -1;
+HXDLIN( 131)					if (_hx_tmp1) {
+HXLINE( 131)						_hx_tmp = -1;
             					}
             					else {
-HXLINE( 143)						_hx_tmp = -2;
+HXLINE( 131)						_hx_tmp = -2;
             					}
-HXDLIN( 143)					this->opPriority->set(x1,_hx_tmp);
+HXDLIN( 131)					this->opPriority->set(x1,_hx_tmp);
             				}
             			}
             		}
@@ -214,10 +215,18 @@ bool Parser_obj::_hx_isInstanceOf(int inClassId) {
 	return inClassId==(int)0x00000001 || inClassId==(int)0x1b857072;
 }
 
+int Parser_obj::get_currentPos(){
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_134_get_currentPos)
+HXDLIN( 134)		return (this->readPos + this->offset);
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,get_currentPos,return )
+
 void Parser_obj::error( ::hscript::ErrorDef err,int pmin,int pmax){
-            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_147_error)
-HXDLIN( 147)		if (!(this->resumeErrors)) {
-HXLINE( 149)			HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,err,pmin,pmax,this->origin,this->line));
+            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_137_error)
+HXDLIN( 137)		if (!(this->resumeErrors)) {
+HXLINE( 139)			HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,err,pmin,pmax,this->origin,this->line));
             		}
             	}
 
@@ -225,92 +234,95 @@ HXLINE( 149)			HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,err,pmi
 HX_DEFINE_DYNAMIC_FUNC3(Parser_obj,error,(void))
 
 void Parser_obj::invalidChar(int c){
-            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_156_invalidChar)
-HXDLIN( 156)		if (!(this->resumeErrors)) {
-HXDLIN( 156)			HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidChar(c),(this->readPos - 1),(this->readPos - 1),this->origin,this->line));
+            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_146_invalidChar)
+HXDLIN( 146)		if (!(this->resumeErrors)) {
+HXDLIN( 146)			HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidChar(c),(this->readPos - 1),(this->readPos - 1),this->origin,this->line));
             		}
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,invalidChar,(void))
 
-void Parser_obj::initParser(::String origin){
-            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_159_initParser)
-HXLINE( 161)		this->preprocStack = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE( 163)		this->origin = origin;
-HXLINE( 164)		this->readPos = 0;
-HXLINE( 165)		this->tokenMin = (this->oldTokenMin = 0);
-HXLINE( 166)		this->tokenMax = (this->oldTokenMax = 0);
-HXLINE( 167)		this->tokens =  ::haxe::ds::List_obj::__alloc( HX_CTX );
-HXLINE( 173)		this->_hx_char = -1;
-HXLINE( 174)		this->ops = ::Array_obj< bool >::__new();
-HXLINE( 175)		this->idents = ::Array_obj< bool >::__new();
-HXLINE( 176)		this->uid = 0;
-HXLINE( 177)		{
-HXLINE( 177)			int _g = 0;
-HXDLIN( 177)			int _g1 = this->opChars.length;
-HXDLIN( 177)			while((_g < _g1)){
-HXLINE( 177)				_g = (_g + 1);
-HXDLIN( 177)				int i = (_g - 1);
-HXLINE( 178)				this->ops[( (int)(this->opChars.charCodeAt(i)) )] = true;
+void Parser_obj::initParser(::String origin,int pos){
+            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_149_initParser)
+HXLINE( 151)		this->preprocStack = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 153)		this->origin = origin;
+HXLINE( 154)		this->readPos = 0;
+HXLINE( 155)		this->tokenMin = (this->oldTokenMin = pos);
+HXLINE( 156)		this->tokenMax = (this->oldTokenMax = pos);
+HXLINE( 157)		this->tokens =  ::haxe::ds::List_obj::__alloc( HX_CTX );
+HXLINE( 161)		this->offset = pos;
+HXLINE( 162)		this->_hx_char = -1;
+HXLINE( 163)		this->ops = ::Array_obj< bool >::__new();
+HXLINE( 164)		this->idents = ::Array_obj< bool >::__new();
+HXLINE( 165)		this->uid = 0;
+HXLINE( 166)		{
+HXLINE( 166)			int _g = 0;
+HXDLIN( 166)			int _g1 = this->opChars.length;
+HXDLIN( 166)			while((_g < _g1)){
+HXLINE( 166)				_g = (_g + 1);
+HXDLIN( 166)				int i = (_g - 1);
+HXLINE( 167)				this->ops[( (int)(this->opChars.charCodeAt(i)) )] = true;
             			}
             		}
-HXLINE( 179)		{
-HXLINE( 179)			int _g2 = 0;
-HXDLIN( 179)			int _g3 = this->identChars.length;
-HXDLIN( 179)			while((_g2 < _g3)){
-HXLINE( 179)				_g2 = (_g2 + 1);
-HXDLIN( 179)				int i1 = (_g2 - 1);
-HXLINE( 180)				this->idents[( (int)(this->identChars.charCodeAt(i1)) )] = true;
+HXLINE( 168)		{
+HXLINE( 168)			int _g2 = 0;
+HXDLIN( 168)			int _g3 = this->identChars.length;
+HXDLIN( 168)			while((_g2 < _g3)){
+HXLINE( 168)				_g2 = (_g2 + 1);
+HXDLIN( 168)				int i1 = (_g2 - 1);
+HXLINE( 169)				this->idents[( (int)(this->identChars.charCodeAt(i1)) )] = true;
             			}
             		}
             	}
 
 
-HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,initParser,(void))
+HX_DEFINE_DYNAMIC_FUNC2(Parser_obj,initParser,(void))
 
- ::Dynamic Parser_obj::parseString(::String s,::String __o_origin){
+ ::Dynamic Parser_obj::parseString(::String s,::String __o_origin, ::Dynamic __o_position){
             		::String origin = __o_origin;
             		if (::hx::IsNull(__o_origin)) origin = HX_("hscript",73,8c,18,2c);
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_183_parseString)
-HXLINE( 184)		this->initParser(origin);
-HXLINE( 185)		this->input = s;
-HXLINE( 186)		this->readPos = 0;
-HXLINE( 187)		::Array< ::Dynamic> a = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 188)		while(true){
-HXLINE( 189)			 ::hscript::Token tk = this->token();
-HXLINE( 190)			if (::hx::IsPointerEq( tk,::hscript::Token_obj::TEof_dyn() )) {
-HXLINE( 190)				goto _hx_goto_21;
+            		 ::Dynamic position = __o_position;
+            		if (::hx::IsNull(__o_position)) position = 0;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_172_parseString)
+HXLINE( 173)		this->initParser(origin,( (int)(position) ));
+HXLINE( 174)		this->input = s;
+HXLINE( 175)		this->readPos = 0;
+HXLINE( 176)		::Array< ::Dynamic> a = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 177)		while(true){
+HXLINE( 178)			 ::hscript::Token tk = this->token();
+HXLINE( 179)			if (::hx::IsPointerEq( tk,::hscript::Token_obj::TEof_dyn() )) {
+HXLINE( 179)				goto _hx_goto_22;
             			}
-HXLINE( 191)			{
-HXLINE( 191)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 180)			{
+HXLINE( 180)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             					->setFixed(0,HX_("t",74,00,00,00),tk)
             					->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             					->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 191)				this->tokenMin = this->oldTokenMin;
-HXDLIN( 191)				this->tokenMax = this->oldTokenMax;
+HXDLIN( 180)				this->tokenMin = this->oldTokenMin;
+HXDLIN( 180)				this->tokenMax = this->oldTokenMax;
             			}
-HXLINE( 192)			this->parseFullExpr(a);
+HXLINE( 181)			this->parseFullExpr(a);
             		}
-            		_hx_goto_21:;
-HXLINE( 194)		if ((a->length == 1)) {
-HXLINE( 194)			return a->__get(0);
+            		_hx_goto_22:;
+HXLINE( 183)		if ((a->length == 1)) {
+HXLINE( 183)			return a->__get(0);
             		}
             		else {
-HXLINE( 194)			 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EBlock(a);
-HXDLIN( 194)			 ::Dynamic pmin = 0;
-HXDLIN( 194)			 ::Dynamic pmax = null();
-HXDLIN( 194)			if (::hx::IsNull( e )) {
-HXLINE( 194)				return null();
+HXLINE( 183)			 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EBlock(a);
+HXDLIN( 183)			 ::Dynamic pmin = 0;
+HXDLIN( 183)			 ::Dynamic pmax = null();
+HXDLIN( 183)			if (::hx::IsNull( e )) {
+HXLINE( 183)				return null();
             			}
             			else {
-HXLINE( 194)				if (::hx::IsNull( pmin )) {
-HXLINE( 194)					pmin = this->tokenMin;
+HXLINE( 183)				if (::hx::IsNull( pmin )) {
+HXLINE( 183)					pmin = this->tokenMin;
             				}
-HXDLIN( 194)				if (::hx::IsNull( pmax )) {
-HXLINE( 194)					pmax = this->tokenMax;
+HXDLIN( 183)				if (::hx::IsNull( pmax )) {
+HXLINE( 183)					pmax = this->tokenMax;
             				}
-HXDLIN( 194)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 183)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax)
@@ -318,44 +330,44 @@ HXDLIN( 194)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
             		}
-HXDLIN( 194)		return null();
+HXDLIN( 183)		return null();
             	}
 
 
-HX_DEFINE_DYNAMIC_FUNC2(Parser_obj,parseString,return )
+HX_DEFINE_DYNAMIC_FUNC3(Parser_obj,parseString,return )
 
  ::Dynamic Parser_obj::unexpected( ::hscript::Token tk){
-            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_197_unexpected)
-HXLINE( 198)		{
-HXLINE( 198)			 ::hscript::ErrorDef err = ::hscript::ErrorDef_obj::EUnexpected(this->tokenString(tk));
-HXDLIN( 198)			if (!(this->resumeErrors)) {
-HXLINE( 198)				HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,err,this->tokenMin,this->tokenMax,this->origin,this->line));
+            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_186_unexpected)
+HXLINE( 187)		{
+HXLINE( 187)			 ::hscript::ErrorDef err = ::hscript::ErrorDef_obj::EUnexpected(this->tokenString(tk));
+HXDLIN( 187)			if (!(this->resumeErrors)) {
+HXLINE( 187)				HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,err,this->tokenMin,this->tokenMax,this->origin,this->line));
             			}
             		}
-HXLINE( 199)		return null();
+HXLINE( 188)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,unexpected,return )
 
 void Parser_obj::push( ::hscript::Token tk){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_202_push)
-HXLINE( 204)		this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_191_push)
+HXLINE( 193)		this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             			->setFixed(0,HX_("t",74,00,00,00),tk)
             			->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             			->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXLINE( 205)		this->tokenMin = this->oldTokenMin;
-HXLINE( 206)		this->tokenMax = this->oldTokenMax;
+HXLINE( 194)		this->tokenMin = this->oldTokenMin;
+HXLINE( 195)		this->tokenMax = this->oldTokenMax;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,push,(void))
 
 void Parser_obj::ensure( ::hscript::Token tk){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_212_ensure)
-HXLINE( 213)		 ::hscript::Token t = this->token();
-HXLINE( 214)		if (::hx::IsPointerNotEq( t,tk )) {
-HXLINE( 214)			this->unexpected(t);
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_201_ensure)
+HXLINE( 202)		 ::hscript::Token t = this->token();
+HXLINE( 203)		if (::hx::IsPointerNotEq( t,tk )) {
+HXLINE( 203)			this->unexpected(t);
             		}
             	}
 
@@ -363,10 +375,10 @@ HXLINE( 214)			this->unexpected(t);
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,ensure,(void))
 
 void Parser_obj::ensureToken( ::hscript::Token tk){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_217_ensureToken)
-HXLINE( 218)		 ::hscript::Token t = this->token();
-HXLINE( 219)		if (!(__hxcpp_enum_eq(t,tk))) {
-HXLINE( 219)			this->unexpected(t);
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_206_ensureToken)
+HXLINE( 207)		 ::hscript::Token t = this->token();
+HXLINE( 208)		if (!(__hxcpp_enum_eq(t,tk))) {
+HXLINE( 208)			this->unexpected(t);
             		}
             	}
 
@@ -374,90 +386,90 @@ HXLINE( 219)			this->unexpected(t);
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,ensureToken,(void))
 
 bool Parser_obj::maybe( ::hscript::Token tk){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_222_maybe)
-HXLINE( 223)		 ::hscript::Token t = this->token();
-HXLINE( 224)		if (__hxcpp_enum_eq(t,tk)) {
-HXLINE( 225)			return true;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_211_maybe)
+HXLINE( 212)		 ::hscript::Token t = this->token();
+HXLINE( 213)		if (__hxcpp_enum_eq(t,tk)) {
+HXLINE( 214)			return true;
             		}
-HXLINE( 226)		{
-HXLINE( 226)			this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 215)		{
+HXLINE( 215)			this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             				->setFixed(0,HX_("t",74,00,00,00),t)
             				->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             				->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 226)			this->tokenMin = this->oldTokenMin;
-HXDLIN( 226)			this->tokenMax = this->oldTokenMax;
+HXDLIN( 215)			this->tokenMin = this->oldTokenMin;
+HXDLIN( 215)			this->tokenMax = this->oldTokenMax;
             		}
-HXLINE( 227)		return false;
+HXLINE( 216)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,maybe,return )
 
 ::String Parser_obj::getIdent(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_230_getIdent)
-HXLINE( 231)		 ::hscript::Token tk = this->token();
-HXLINE( 232)		if ((tk->_hx_getIndex() == 2)) {
-HXLINE( 233)			::String id = tk->_hx_getString(0);
-HXDLIN( 233)			return id;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_219_getIdent)
+HXLINE( 220)		 ::hscript::Token tk = this->token();
+HXLINE( 221)		if ((tk->_hx_getIndex() == 2)) {
+HXLINE( 222)			::String id = tk->_hx_getString(0);
+HXDLIN( 222)			return id;
             		}
             		else {
-HXLINE( 235)			this->unexpected(tk);
-HXLINE( 236)			return null();
+HXLINE( 224)			this->unexpected(tk);
+HXLINE( 225)			return null();
             		}
-HXLINE( 232)		return null();
+HXLINE( 221)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,getIdent,return )
 
  ::hscript::ExprDef Parser_obj::expr( ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_242_expr)
-HXDLIN( 242)		return e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_231_expr)
+HXDLIN( 231)		return e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,expr,return )
 
 int Parser_obj::pmin( ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_250_pmin)
-HXDLIN( 250)		if (::hx::IsNull( e )) {
-HXDLIN( 250)			return 0;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_239_pmin)
+HXDLIN( 239)		if (::hx::IsNull( e )) {
+HXDLIN( 239)			return 0;
             		}
             		else {
-HXDLIN( 250)			return ( (int)(e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) );
+HXDLIN( 239)			return ( (int)(e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) );
             		}
-HXDLIN( 250)		return 0;
+HXDLIN( 239)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,pmin,return )
 
 int Parser_obj::pmax( ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_258_pmax)
-HXDLIN( 258)		if (::hx::IsNull( e )) {
-HXDLIN( 258)			return 0;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_247_pmax)
+HXDLIN( 247)		if (::hx::IsNull( e )) {
+HXDLIN( 247)			return 0;
             		}
             		else {
-HXDLIN( 258)			return ( (int)(e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) );
+HXDLIN( 247)			return ( (int)(e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) );
             		}
-HXDLIN( 258)		return 0;
+HXDLIN( 247)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,pmax,return )
 
  ::Dynamic Parser_obj::mk( ::hscript::ExprDef e, ::Dynamic pmin, ::Dynamic pmax){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_264_mk)
-HXLINE( 266)		if (::hx::IsNull( e )) {
-HXLINE( 266)			return null();
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_253_mk)
+HXLINE( 255)		if (::hx::IsNull( e )) {
+HXLINE( 255)			return null();
             		}
-HXLINE( 267)		if (::hx::IsNull( pmin )) {
-HXLINE( 267)			pmin = this->tokenMin;
+HXLINE( 256)		if (::hx::IsNull( pmin )) {
+HXLINE( 256)			pmin = this->tokenMin;
             		}
-HXLINE( 268)		if (::hx::IsNull( pmax )) {
-HXLINE( 268)			pmax = this->tokenMax;
+HXLINE( 257)		if (::hx::IsNull( pmax )) {
+HXLINE( 257)			pmax = this->tokenMax;
             		}
-HXLINE( 269)		return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXLINE( 258)		return  ::Dynamic(::hx::Anon_obj::Create(5)
             			->setFixed(0,HX_("e",65,00,00,00),e)
             			->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             			->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax)
@@ -469,205 +481,205 @@ HXLINE( 269)		return  ::Dynamic(::hx::Anon_obj::Create(5)
 HX_DEFINE_DYNAMIC_FUNC3(Parser_obj,mk,return )
 
 bool Parser_obj::isBlock( ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_275_isBlock)
-HXLINE( 276)		if (::hx::IsNull( e )) {
-HXLINE( 276)			return false;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_264_isBlock)
+HXLINE( 265)		if (::hx::IsNull( e )) {
+HXLINE( 265)			return false;
             		}
-HXLINE( 277)		 ::hscript::ExprDef _g = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 277)		switch((int)(_g->_hx_getIndex())){
+HXLINE( 266)		 ::hscript::ExprDef _g = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 266)		switch((int)(_g->_hx_getIndex())){
             			case (int)2: {
-HXLINE( 280)				::String _g1 = _g->_hx_getString(0);
-HXDLIN( 280)				 ::hscript::CType t = _g->_hx_getObject(1).StaticCast<  ::hscript::CType >();
-HXDLIN( 280)				 ::Dynamic e1 = _g->_hx_getObject(2);
-HXDLIN( 280)				if (::hx::IsNotNull( e1 )) {
-HXLINE( 280)					return this->isBlock(e1);
+HXLINE( 269)				::String _g1 = _g->_hx_getString(0);
+HXDLIN( 269)				 ::hscript::CType t = _g->_hx_getObject(1).StaticCast<  ::hscript::CType >();
+HXDLIN( 269)				 ::Dynamic e1 = _g->_hx_getObject(2);
+HXDLIN( 269)				if (::hx::IsNotNull( e1 )) {
+HXLINE( 269)					return this->isBlock(e1);
             				}
             				else {
-HXLINE( 280)					if (::hx::IsNotNull( t )) {
-HXLINE( 280)						if (::hx::IsNull( t )) {
-HXLINE( 280)							return false;
+HXLINE( 269)					if (::hx::IsNotNull( t )) {
+HXLINE( 269)						if (::hx::IsNull( t )) {
+HXLINE( 269)							return false;
             						}
             						else {
-HXLINE( 280)							if ((t->_hx_getIndex() == 2)) {
-HXLINE( 280)								::Array< ::Dynamic> _g2 = t->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
-HXDLIN( 280)								return true;
+HXLINE( 269)							if ((t->_hx_getIndex() == 2)) {
+HXLINE( 269)								::Array< ::Dynamic> _g2 = t->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
+HXDLIN( 269)								return true;
             							}
             							else {
-HXLINE( 280)								return false;
+HXLINE( 269)								return false;
             							}
             						}
             					}
             					else {
-HXLINE( 280)						return false;
+HXLINE( 269)						return false;
             					}
             				}
             			}
             			break;
             			case (int)4: {
-HXLINE( 278)				::Array< ::Dynamic> _g3 = _g->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
-HXDLIN( 278)				return true;
+HXLINE( 267)				::Array< ::Dynamic> _g3 = _g->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
+HXDLIN( 267)				return true;
             			}
             			break;
             			case (int)6: {
-HXLINE( 282)				::String _g4 = _g->_hx_getString(0);
-HXDLIN( 282)				 ::Dynamic _g5 = _g->_hx_getObject(1);
-HXDLIN( 282)				 ::Dynamic e2 = _g->_hx_getObject(2);
-HXDLIN( 282)				return this->isBlock(e2);
+HXLINE( 271)				::String _g4 = _g->_hx_getString(0);
+HXDLIN( 271)				 ::Dynamic _g5 = _g->_hx_getObject(1);
+HXDLIN( 271)				 ::Dynamic e2 = _g->_hx_getObject(2);
+HXDLIN( 271)				return this->isBlock(e2);
             			}
             			break;
             			case (int)7: {
-HXLINE( 283)				::String _g6 = _g->_hx_getString(0);
-HXDLIN( 283)				bool prefix = _g->_hx_getBool(1);
-HXDLIN( 283)				 ::Dynamic e3 = _g->_hx_getObject(2);
-HXDLIN( 283)				if (!(prefix)) {
-HXLINE( 283)					return this->isBlock(e3);
+HXLINE( 272)				::String _g6 = _g->_hx_getString(0);
+HXDLIN( 272)				bool prefix = _g->_hx_getBool(1);
+HXDLIN( 272)				 ::Dynamic e3 = _g->_hx_getObject(2);
+HXDLIN( 272)				if (!(prefix)) {
+HXLINE( 272)					return this->isBlock(e3);
             				}
             				else {
-HXLINE( 283)					return false;
+HXLINE( 272)					return false;
             				}
             			}
             			break;
             			case (int)9: {
-HXLINE( 281)				 ::Dynamic _g7 = _g->_hx_getObject(0);
-HXDLIN( 281)				 ::Dynamic e11 = _g->_hx_getObject(1);
-HXDLIN( 281)				 ::Dynamic e21 = _g->_hx_getObject(2);
-HXDLIN( 281)				if (::hx::IsNotNull( e21 )) {
-HXLINE( 281)					return this->isBlock(e21);
+HXLINE( 270)				 ::Dynamic _g7 = _g->_hx_getObject(0);
+HXDLIN( 270)				 ::Dynamic e11 = _g->_hx_getObject(1);
+HXDLIN( 270)				 ::Dynamic e21 = _g->_hx_getObject(2);
+HXDLIN( 270)				if (::hx::IsNotNull( e21 )) {
+HXLINE( 270)					return this->isBlock(e21);
             				}
             				else {
-HXLINE( 281)					return this->isBlock(e11);
+HXLINE( 270)					return this->isBlock(e11);
             				}
             			}
             			break;
             			case (int)10: {
-HXLINE( 284)				 ::Dynamic _g8 = _g->_hx_getObject(0);
-HXDLIN( 284)				 ::Dynamic e4 = _g->_hx_getObject(1);
-HXDLIN( 284)				return this->isBlock(e4);
+HXLINE( 273)				 ::Dynamic _g8 = _g->_hx_getObject(0);
+HXDLIN( 273)				 ::Dynamic e4 = _g->_hx_getObject(1);
+HXDLIN( 273)				return this->isBlock(e4);
             			}
             			break;
             			case (int)11: {
-HXLINE( 286)				::String _g9 = _g->_hx_getString(0);
-HXDLIN( 286)				 ::Dynamic _g10 = _g->_hx_getObject(1);
-HXDLIN( 286)				 ::Dynamic e5 = _g->_hx_getObject(2);
-HXDLIN( 286)				return this->isBlock(e5);
+HXLINE( 275)				::String _g9 = _g->_hx_getString(0);
+HXDLIN( 275)				 ::Dynamic _g10 = _g->_hx_getObject(1);
+HXDLIN( 275)				 ::Dynamic e5 = _g->_hx_getObject(2);
+HXDLIN( 275)				return this->isBlock(e5);
             			}
             			break;
             			case (int)14: {
-HXLINE( 279)				::Array< ::Dynamic> _g11 = _g->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
-HXDLIN( 279)				::String _g12 = _g->_hx_getString(2);
-HXDLIN( 279)				 ::hscript::CType _g13 = _g->_hx_getObject(3).StaticCast<  ::hscript::CType >();
-HXDLIN( 279)				 ::Dynamic e6 = _g->_hx_getObject(1);
-HXDLIN( 279)				return this->isBlock(e6);
+HXLINE( 268)				::Array< ::Dynamic> _g11 = _g->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
+HXDLIN( 268)				::String _g12 = _g->_hx_getString(2);
+HXDLIN( 268)				 ::hscript::CType _g13 = _g->_hx_getObject(3).StaticCast<  ::hscript::CType >();
+HXDLIN( 268)				 ::Dynamic e6 = _g->_hx_getObject(1);
+HXDLIN( 268)				return this->isBlock(e6);
             			}
             			break;
             			case (int)15: {
-HXLINE( 287)				 ::Dynamic e7 = _g->_hx_getObject(0);
-HXDLIN( 287)				if (::hx::IsNotNull( e7 )) {
-HXLINE( 287)					return this->isBlock(e7);
+HXLINE( 276)				 ::Dynamic e7 = _g->_hx_getObject(0);
+HXDLIN( 276)				if (::hx::IsNotNull( e7 )) {
+HXLINE( 276)					return this->isBlock(e7);
             				}
             				else {
-HXLINE( 287)					return false;
+HXLINE( 276)					return false;
             				}
             			}
             			break;
             			case (int)20: {
-HXLINE( 288)				 ::Dynamic _g14 = _g->_hx_getObject(0);
-HXDLIN( 288)				::String _g15 = _g->_hx_getString(1);
-HXDLIN( 288)				 ::hscript::CType _g16 = _g->_hx_getObject(2).StaticCast<  ::hscript::CType >();
-HXDLIN( 288)				 ::Dynamic e8 = _g->_hx_getObject(3);
-HXDLIN( 288)				return this->isBlock(e8);
+HXLINE( 277)				 ::Dynamic _g14 = _g->_hx_getObject(0);
+HXDLIN( 277)				::String _g15 = _g->_hx_getString(1);
+HXDLIN( 277)				 ::hscript::CType _g16 = _g->_hx_getObject(2).StaticCast<  ::hscript::CType >();
+HXDLIN( 277)				 ::Dynamic e8 = _g->_hx_getObject(3);
+HXDLIN( 277)				return this->isBlock(e8);
             			}
             			break;
             			case (int)21: {
-HXLINE( 278)				::Array< ::Dynamic> _g17 = _g->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
-HXDLIN( 278)				return true;
+HXLINE( 267)				::Array< ::Dynamic> _g17 = _g->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
+HXDLIN( 267)				return true;
             			}
             			break;
             			case (int)23: {
-HXLINE( 278)				 ::Dynamic _g18 = _g->_hx_getObject(0);
-HXDLIN( 278)				::Array< ::Dynamic> _g19 = _g->_hx_getObject(1).StaticCast< ::Array< ::Dynamic> >();
-HXDLIN( 278)				 ::Dynamic _g20 = _g->_hx_getObject(2);
-HXDLIN( 278)				return true;
+HXLINE( 267)				 ::Dynamic _g18 = _g->_hx_getObject(0);
+HXDLIN( 267)				::Array< ::Dynamic> _g19 = _g->_hx_getObject(1).StaticCast< ::Array< ::Dynamic> >();
+HXDLIN( 267)				 ::Dynamic _g20 = _g->_hx_getObject(2);
+HXDLIN( 267)				return true;
             			}
             			break;
             			case (int)24: {
-HXLINE( 285)				 ::Dynamic _g21 = _g->_hx_getObject(0);
-HXDLIN( 285)				 ::Dynamic e9 = _g->_hx_getObject(1);
-HXDLIN( 285)				return this->isBlock(e9);
+HXLINE( 274)				 ::Dynamic _g21 = _g->_hx_getObject(0);
+HXDLIN( 274)				 ::Dynamic e9 = _g->_hx_getObject(1);
+HXDLIN( 274)				return this->isBlock(e9);
             			}
             			break;
             			case (int)25: {
-HXLINE( 289)				::String _g22 = _g->_hx_getString(0);
-HXDLIN( 289)				::Array< ::Dynamic> _g23 = _g->_hx_getObject(1).StaticCast< ::Array< ::Dynamic> >();
-HXDLIN( 289)				 ::Dynamic e10 = _g->_hx_getObject(2);
-HXDLIN( 289)				return this->isBlock(e10);
+HXLINE( 278)				::String _g22 = _g->_hx_getString(0);
+HXDLIN( 278)				::Array< ::Dynamic> _g23 = _g->_hx_getObject(1).StaticCast< ::Array< ::Dynamic> >();
+HXDLIN( 278)				 ::Dynamic e10 = _g->_hx_getObject(2);
+HXDLIN( 278)				return this->isBlock(e10);
             			}
             			break;
             			default:{
-HXLINE( 290)				return false;
+HXLINE( 279)				return false;
             			}
             		}
-HXLINE( 277)		return false;
+HXLINE( 266)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,isBlock,return )
 
 void Parser_obj::parseFullExpr(::Array< ::Dynamic> exprs){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_294_parseFullExpr)
-HXLINE( 295)		 ::Dynamic e = this->parseExpr();
-HXLINE( 296)		exprs->push(e);
-HXLINE( 298)		 ::hscript::Token tk = this->token();
-HXLINE( 300)		while(true){
-HXLINE( 300)			bool _hx_tmp;
-HXDLIN( 300)			bool _hx_tmp1;
-HXDLIN( 300)			if (::hx::IsPointerEq( tk,::hscript::Token_obj::TComma_dyn() )) {
-HXLINE( 300)				_hx_tmp1 = ::hx::IsNotNull( e );
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_283_parseFullExpr)
+HXLINE( 284)		 ::Dynamic e = this->parseExpr();
+HXLINE( 285)		exprs->push(e);
+HXLINE( 287)		 ::hscript::Token tk = this->token();
+HXLINE( 289)		while(true){
+HXLINE( 289)			bool _hx_tmp;
+HXDLIN( 289)			bool _hx_tmp1;
+HXDLIN( 289)			if (::hx::IsPointerEq( tk,::hscript::Token_obj::TComma_dyn() )) {
+HXLINE( 289)				_hx_tmp1 = ::hx::IsNotNull( e );
             			}
             			else {
-HXLINE( 300)				_hx_tmp1 = false;
+HXLINE( 289)				_hx_tmp1 = false;
             			}
-HXDLIN( 300)			if (_hx_tmp1) {
-HXLINE( 300)				 ::hscript::ExprDef _g = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 300)				if ((_g->_hx_getIndex() == 2)) {
-HXLINE( 300)					::String _g1 = _g->_hx_getString(0);
-HXDLIN( 300)					 ::hscript::CType _g2 = _g->_hx_getObject(1).StaticCast<  ::hscript::CType >();
-HXDLIN( 300)					 ::Dynamic _g3 = _g->_hx_getObject(2);
-HXDLIN( 300)					_hx_tmp = true;
+HXDLIN( 289)			if (_hx_tmp1) {
+HXLINE( 289)				 ::hscript::ExprDef _g = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 289)				if ((_g->_hx_getIndex() == 2)) {
+HXLINE( 289)					::String _g1 = _g->_hx_getString(0);
+HXDLIN( 289)					 ::hscript::CType _g2 = _g->_hx_getObject(1).StaticCast<  ::hscript::CType >();
+HXDLIN( 289)					 ::Dynamic _g3 = _g->_hx_getObject(2);
+HXDLIN( 289)					_hx_tmp = true;
             				}
             				else {
-HXLINE( 300)					_hx_tmp = false;
+HXLINE( 289)					_hx_tmp = false;
             				}
             			}
             			else {
-HXLINE( 300)				_hx_tmp = false;
+HXLINE( 289)				_hx_tmp = false;
             			}
-HXDLIN( 300)			if (!(_hx_tmp)) {
-HXLINE( 300)				goto _hx_goto_34;
+HXDLIN( 289)			if (!(_hx_tmp)) {
+HXLINE( 289)				goto _hx_goto_35;
             			}
-HXLINE( 301)			e = this->parseStructure(HX_("var",e7,de,59,00));
-HXLINE( 302)			exprs->push(e);
-HXLINE( 303)			tk = this->token();
+HXLINE( 290)			e = this->parseStructure(HX_("var",e7,de,59,00));
+HXLINE( 291)			exprs->push(e);
+HXLINE( 292)			tk = this->token();
             		}
-            		_hx_goto_34:;
-HXLINE( 306)		bool _hx_tmp2;
-HXDLIN( 306)		if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TSemicolon_dyn() )) {
-HXLINE( 306)			_hx_tmp2 = ::hx::IsPointerNotEq( tk,::hscript::Token_obj::TEof_dyn() );
+            		_hx_goto_35:;
+HXLINE( 295)		bool _hx_tmp2;
+HXDLIN( 295)		if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TSemicolon_dyn() )) {
+HXLINE( 295)			_hx_tmp2 = ::hx::IsPointerNotEq( tk,::hscript::Token_obj::TEof_dyn() );
             		}
             		else {
-HXLINE( 306)			_hx_tmp2 = false;
+HXLINE( 295)			_hx_tmp2 = false;
             		}
-HXDLIN( 306)		if (_hx_tmp2) {
-HXLINE( 307)			if (this->isBlock(e)) {
-HXLINE( 308)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXDLIN( 295)		if (_hx_tmp2) {
+HXLINE( 296)			if (this->isBlock(e)) {
+HXLINE( 297)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             					->setFixed(0,HX_("t",74,00,00,00),tk)
             					->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             					->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 308)				this->tokenMin = this->oldTokenMin;
-HXDLIN( 308)				this->tokenMax = this->oldTokenMax;
+HXDLIN( 297)				this->tokenMin = this->oldTokenMin;
+HXDLIN( 297)				this->tokenMax = this->oldTokenMax;
             			}
             			else {
-HXLINE( 310)				this->unexpected(tk);
+HXLINE( 299)				this->unexpected(tk);
             			}
             		}
             	}
@@ -676,142 +688,142 @@ HXLINE( 310)				this->unexpected(tk);
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,parseFullExpr,(void))
 
  ::Dynamic Parser_obj::parseObject( ::Dynamic p1){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_314_parseObject)
-HXLINE( 316)		::Array< ::Dynamic> fl = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 317)		while(true){
-HXLINE( 318)			 ::hscript::Token tk = this->token();
-HXLINE( 319)			::String id = null();
-HXLINE( 320)			switch((int)(tk->_hx_getIndex())){
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_303_parseObject)
+HXLINE( 305)		::Array< ::Dynamic> fl = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 306)		while(true){
+HXLINE( 307)			 ::hscript::Token tk = this->token();
+HXLINE( 308)			::String id = null();
+HXLINE( 309)			switch((int)(tk->_hx_getIndex())){
             				case (int)1: {
-HXLINE( 322)					 ::hscript::Const c = tk->_hx_getObject(0).StaticCast<  ::hscript::Const >();
-HXDLIN( 322)					{
-HXLINE( 323)						if (!(this->allowJSON)) {
-HXLINE( 324)							this->unexpected(tk);
+HXLINE( 311)					 ::hscript::Const c = tk->_hx_getObject(0).StaticCast<  ::hscript::Const >();
+HXDLIN( 311)					{
+HXLINE( 312)						if (!(this->allowJSON)) {
+HXLINE( 313)							this->unexpected(tk);
             						}
-HXLINE( 325)						if ((c->_hx_getIndex() == 2)) {
-HXLINE( 326)							::String s = c->_hx_getString(0);
-HXDLIN( 326)							id = s;
+HXLINE( 314)						if ((c->_hx_getIndex() == 2)) {
+HXLINE( 315)							::String s = c->_hx_getString(0);
+HXDLIN( 315)							id = s;
             						}
             						else {
-HXLINE( 327)							this->unexpected(tk);
+HXLINE( 316)							this->unexpected(tk);
             						}
             					}
             				}
             				break;
             				case (int)2: {
-HXLINE( 321)					::String i = tk->_hx_getString(0);
-HXDLIN( 321)					id = i;
+HXLINE( 310)					::String i = tk->_hx_getString(0);
+HXDLIN( 310)					id = i;
             				}
             				break;
             				case (int)7: {
-HXLINE( 330)					goto _hx_goto_36;
+HXLINE( 319)					goto _hx_goto_37;
+            				}
+            				break;
+            				default:{
+HXLINE( 321)					this->unexpected(tk);
+HXLINE( 322)					goto _hx_goto_37;
+            				}
+            			}
+HXLINE( 324)			{
+HXLINE( 324)				 ::hscript::Token t = this->token();
+HXDLIN( 324)				if (::hx::IsPointerNotEq( t,::hscript::Token_obj::TDoubleDot_dyn() )) {
+HXLINE( 324)					this->unexpected(t);
+            				}
+            			}
+HXLINE( 325)			fl->push( ::Dynamic(::hx::Anon_obj::Create(2)
+            				->setFixed(0,HX_("e",65,00,00,00),this->parseExpr())
+            				->setFixed(1,HX_("name",4b,72,ff,48),id)));
+HXLINE( 326)			tk = this->token();
+HXLINE( 327)			switch((int)(tk->_hx_getIndex())){
+            				case (int)7: {
+HXLINE( 329)					goto _hx_goto_37;
+            				}
+            				break;
+            				case (int)10: {
             				}
             				break;
             				default:{
 HXLINE( 332)					this->unexpected(tk);
-HXLINE( 333)					goto _hx_goto_36;
-            				}
-            			}
-HXLINE( 335)			{
-HXLINE( 335)				 ::hscript::Token t = this->token();
-HXDLIN( 335)				if (::hx::IsPointerNotEq( t,::hscript::Token_obj::TDoubleDot_dyn() )) {
-HXLINE( 335)					this->unexpected(t);
-            				}
-            			}
-HXLINE( 336)			fl->push( ::Dynamic(::hx::Anon_obj::Create(2)
-            				->setFixed(0,HX_("e",65,00,00,00),this->parseExpr())
-            				->setFixed(1,HX_("name",4b,72,ff,48),id)));
-HXLINE( 337)			tk = this->token();
-HXLINE( 338)			switch((int)(tk->_hx_getIndex())){
-            				case (int)7: {
-HXLINE( 340)					goto _hx_goto_36;
-            				}
-            				break;
-            				case (int)9: {
-            				}
-            				break;
-            				default:{
-HXLINE( 343)					this->unexpected(tk);
             				}
             			}
             		}
-            		_hx_goto_36:;
-HXLINE( 346)		 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EObject(fl);
-HXDLIN( 346)		 ::Dynamic pmin = p1;
-HXDLIN( 346)		 ::Dynamic pmax = null();
-HXDLIN( 346)		 ::Dynamic _hx_tmp;
-HXDLIN( 346)		if (::hx::IsNull( e )) {
-HXLINE( 346)			_hx_tmp = null();
+            		_hx_goto_37:;
+HXLINE( 335)		 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EObject(fl);
+HXDLIN( 335)		 ::Dynamic pmin = p1;
+HXDLIN( 335)		 ::Dynamic pmax = null();
+HXDLIN( 335)		 ::Dynamic _hx_tmp;
+HXDLIN( 335)		if (::hx::IsNull( e )) {
+HXLINE( 335)			_hx_tmp = null();
             		}
             		else {
-HXLINE( 346)			if (::hx::IsNull( pmin )) {
-HXLINE( 346)				pmin = this->tokenMin;
+HXLINE( 335)			if (::hx::IsNull( pmin )) {
+HXLINE( 335)				pmin = this->tokenMin;
             			}
-HXDLIN( 346)			if (::hx::IsNull( pmax )) {
-HXLINE( 346)				pmax = this->tokenMax;
+HXDLIN( 335)			if (::hx::IsNull( pmax )) {
+HXLINE( 335)				pmax = this->tokenMax;
             			}
-HXDLIN( 346)			_hx_tmp =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 335)			_hx_tmp =  ::Dynamic(::hx::Anon_obj::Create(5)
             				->setFixed(0,HX_("e",65,00,00,00),e)
             				->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             				->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax)
             				->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin)
             				->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             		}
-HXDLIN( 346)		return this->parseExprNext(_hx_tmp);
+HXDLIN( 335)		return this->parseExprNext(_hx_tmp);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,parseObject,return )
 
  ::Dynamic Parser_obj::parseExpr(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_349_parseExpr)
-HXLINE( 350)		 ::hscript::Token tk = this->token();
-HXLINE( 352)		int p1 = this->tokenMin;
-HXLINE( 354)		switch((int)(tk->_hx_getIndex())){
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_338_parseExpr)
+HXLINE( 339)		 ::hscript::Token tk = this->token();
+HXLINE( 341)		int p1 = this->tokenMin;
+HXLINE( 343)		switch((int)(tk->_hx_getIndex())){
             			case (int)1: {
-HXLINE( 360)				 ::hscript::Const c = tk->_hx_getObject(0).StaticCast<  ::hscript::Const >();
-HXLINE( 361)				 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EConst(c);
-HXDLIN( 361)				 ::Dynamic pmin = null();
-HXDLIN( 361)				 ::Dynamic pmax = null();
-HXDLIN( 361)				 ::Dynamic _hx_tmp;
-HXDLIN( 361)				if (::hx::IsNull( e )) {
-HXLINE( 361)					_hx_tmp = null();
+HXLINE( 349)				 ::hscript::Const c = tk->_hx_getObject(0).StaticCast<  ::hscript::Const >();
+HXLINE( 350)				 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EConst(c);
+HXDLIN( 350)				 ::Dynamic pmin = null();
+HXDLIN( 350)				 ::Dynamic pmax = null();
+HXDLIN( 350)				 ::Dynamic _hx_tmp;
+HXDLIN( 350)				if (::hx::IsNull( e )) {
+HXLINE( 350)					_hx_tmp = null();
             				}
             				else {
-HXLINE( 361)					if (::hx::IsNull( pmin )) {
-HXLINE( 361)						pmin = this->tokenMin;
+HXLINE( 350)					if (::hx::IsNull( pmin )) {
+HXLINE( 350)						pmin = this->tokenMin;
             					}
-HXDLIN( 361)					if (::hx::IsNull( pmax )) {
-HXLINE( 361)						pmax = this->tokenMax;
+HXDLIN( 350)					if (::hx::IsNull( pmax )) {
+HXLINE( 350)						pmax = this->tokenMax;
             					}
-HXDLIN( 361)					_hx_tmp =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 350)					_hx_tmp =  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax)
             						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin)
             						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             				}
-HXDLIN( 361)				return this->parseExprNext(_hx_tmp);
+HXDLIN( 350)				return this->parseExprNext(_hx_tmp);
             			}
             			break;
             			case (int)2: {
-HXLINE( 355)				::String id = tk->_hx_getString(0);
-HXLINE( 356)				 ::Dynamic e1 = this->parseStructure(id);
-HXLINE( 357)				if (::hx::IsNull( e1 )) {
-HXLINE( 358)					 ::hscript::ExprDef e2 = ::hscript::ExprDef_obj::EIdent(id);
-HXDLIN( 358)					 ::Dynamic pmin1 = null();
-HXDLIN( 358)					 ::Dynamic pmax1 = null();
-HXDLIN( 358)					if (::hx::IsNull( e2 )) {
-HXLINE( 358)						e1 = null();
+HXLINE( 344)				::String id = tk->_hx_getString(0);
+HXLINE( 345)				 ::Dynamic e1 = this->parseStructure(id);
+HXLINE( 346)				if (::hx::IsNull( e1 )) {
+HXLINE( 347)					 ::hscript::ExprDef e2 = ::hscript::ExprDef_obj::EIdent(id);
+HXDLIN( 347)					 ::Dynamic pmin1 = null();
+HXDLIN( 347)					 ::Dynamic pmax1 = null();
+HXDLIN( 347)					if (::hx::IsNull( e2 )) {
+HXLINE( 347)						e1 = null();
             					}
             					else {
-HXLINE( 358)						if (::hx::IsNull( pmin1 )) {
-HXLINE( 358)							pmin1 = this->tokenMin;
+HXLINE( 347)						if (::hx::IsNull( pmin1 )) {
+HXLINE( 347)							pmin1 = this->tokenMin;
             						}
-HXDLIN( 358)						if (::hx::IsNull( pmax1 )) {
-HXLINE( 358)							pmax1 = this->tokenMax;
+HXDLIN( 347)						if (::hx::IsNull( pmax1 )) {
+HXLINE( 347)							pmax1 = this->tokenMax;
             						}
-HXDLIN( 358)						e1 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 347)						e1 =  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e2)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax1)
@@ -819,43 +831,43 @@ HXDLIN( 358)						e1 =  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             					}
             				}
-HXLINE( 359)				return this->parseExprNext(e1);
+HXLINE( 348)				return this->parseExprNext(e1);
             			}
             			break;
             			case (int)3: {
-HXLINE( 439)				::String op = tk->_hx_getString(0);
-HXLINE( 440)				if ((op == HX_("-",2d,00,00,00))) {
-HXLINE( 441)					int start = this->tokenMin;
-HXLINE( 442)					 ::Dynamic e3 = this->parseExpr();
-HXLINE( 443)					if (::hx::IsNull( e3 )) {
-HXLINE( 444)						return this->makeUnop(op,e3);
+HXLINE( 428)				::String op = tk->_hx_getString(0);
+HXLINE( 429)				if ((op == HX_("-",2d,00,00,00))) {
+HXLINE( 430)					int start = this->tokenMin;
+HXLINE( 431)					 ::Dynamic e3 = this->parseExpr();
+HXLINE( 432)					if (::hx::IsNull( e3 )) {
+HXLINE( 433)						return this->makeUnop(op,e3);
             					}
-HXLINE( 445)					 ::hscript::ExprDef _g = e3->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 445)					if ((_g->_hx_getIndex() == 0)) {
-HXLINE( 448)						 ::hscript::Const _g1 = _g->_hx_getObject(0).StaticCast<  ::hscript::Const >();
-HXDLIN( 448)						switch((int)(_g1->_hx_getIndex())){
+HXLINE( 434)					 ::hscript::ExprDef _g = e3->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 434)					if ((_g->_hx_getIndex() == 0)) {
+HXLINE( 437)						 ::hscript::Const _g1 = _g->_hx_getObject(0).StaticCast<  ::hscript::Const >();
+HXDLIN( 437)						switch((int)(_g1->_hx_getIndex())){
             							case (int)0: {
-HXLINE( 446)								int i = _g1->_hx_getInt(0);
-HXLINE( 447)								 ::hscript::ExprDef e4 = ::hscript::ExprDef_obj::EConst(::hscript::Const_obj::CInt(-(i)));
-HXDLIN( 447)								 ::Dynamic pmin2 = start;
-HXDLIN( 447)								 ::Dynamic pmax2;
-HXDLIN( 447)								if (::hx::IsNull( e3 )) {
-HXLINE( 447)									pmax2 = 0;
+HXLINE( 435)								int i = _g1->_hx_getInt(0);
+HXLINE( 436)								 ::hscript::ExprDef e4 = ::hscript::ExprDef_obj::EConst(::hscript::Const_obj::CInt(-(i)));
+HXDLIN( 436)								 ::Dynamic pmin2 = start;
+HXDLIN( 436)								 ::Dynamic pmax2;
+HXDLIN( 436)								if (::hx::IsNull( e3 )) {
+HXLINE( 436)									pmax2 = 0;
             								}
             								else {
-HXLINE( 447)									pmax2 = e3->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+HXLINE( 436)									pmax2 = e3->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
             								}
-HXDLIN( 447)								if (::hx::IsNull( e4 )) {
-HXLINE( 447)									return null();
+HXDLIN( 436)								if (::hx::IsNull( e4 )) {
+HXLINE( 436)									return null();
             								}
             								else {
-HXLINE( 447)									if (::hx::IsNull( pmin2 )) {
-HXLINE( 447)										pmin2 = this->tokenMin;
+HXLINE( 436)									if (::hx::IsNull( pmin2 )) {
+HXLINE( 436)										pmin2 = this->tokenMin;
             									}
-HXDLIN( 447)									if (::hx::IsNull( pmax2 )) {
-HXLINE( 447)										pmax2 = this->tokenMax;
+HXDLIN( 436)									if (::hx::IsNull( pmax2 )) {
+HXLINE( 436)										pmax2 = this->tokenMax;
             									}
-HXDLIN( 447)									return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 436)									return  ::Dynamic(::hx::Anon_obj::Create(5)
             										->setFixed(0,HX_("e",65,00,00,00),e4)
             										->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             										->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax2)
@@ -865,27 +877,27 @@ HXDLIN( 447)									return  ::Dynamic(::hx::Anon_obj::Create(5)
             							}
             							break;
             							case (int)1: {
-HXLINE( 448)								Float f = _g1->_hx_getFloat(0);
-HXLINE( 449)								 ::hscript::ExprDef e5 = ::hscript::ExprDef_obj::EConst(::hscript::Const_obj::CFloat(-(f)));
-HXDLIN( 449)								 ::Dynamic pmin3 = start;
-HXDLIN( 449)								 ::Dynamic pmax3;
-HXDLIN( 449)								if (::hx::IsNull( e3 )) {
-HXLINE( 449)									pmax3 = 0;
+HXLINE( 437)								Float f = _g1->_hx_getFloat(0);
+HXLINE( 438)								 ::hscript::ExprDef e5 = ::hscript::ExprDef_obj::EConst(::hscript::Const_obj::CFloat(-(f)));
+HXDLIN( 438)								 ::Dynamic pmin3 = start;
+HXDLIN( 438)								 ::Dynamic pmax3;
+HXDLIN( 438)								if (::hx::IsNull( e3 )) {
+HXLINE( 438)									pmax3 = 0;
             								}
             								else {
-HXLINE( 449)									pmax3 = e3->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+HXLINE( 438)									pmax3 = e3->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
             								}
-HXDLIN( 449)								if (::hx::IsNull( e5 )) {
-HXLINE( 449)									return null();
+HXDLIN( 438)								if (::hx::IsNull( e5 )) {
+HXLINE( 438)									return null();
             								}
             								else {
-HXLINE( 449)									if (::hx::IsNull( pmin3 )) {
-HXLINE( 449)										pmin3 = this->tokenMin;
+HXLINE( 438)									if (::hx::IsNull( pmin3 )) {
+HXLINE( 438)										pmin3 = this->tokenMin;
             									}
-HXDLIN( 449)									if (::hx::IsNull( pmax3 )) {
-HXLINE( 449)										pmax3 = this->tokenMax;
+HXDLIN( 438)									if (::hx::IsNull( pmax3 )) {
+HXLINE( 438)										pmax3 = this->tokenMax;
             									}
-HXDLIN( 449)									return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 438)									return  ::Dynamic(::hx::Anon_obj::Create(5)
             										->setFixed(0,HX_("e",65,00,00,00),e5)
             										->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             										->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax3)
@@ -895,65 +907,65 @@ HXDLIN( 449)									return  ::Dynamic(::hx::Anon_obj::Create(5)
             							}
             							break;
             							default:{
-HXLINE( 451)								return this->makeUnop(op,e3);
+HXLINE( 440)								return this->makeUnop(op,e3);
             							}
             						}
             					}
             					else {
-HXLINE( 451)						return this->makeUnop(op,e3);
+HXLINE( 440)						return this->makeUnop(op,e3);
             					}
             				}
-HXLINE( 454)				if (::hx::IsLess( this->opPriority->get(op),0 )) {
-HXLINE( 455)					return this->makeUnop(op,this->parseExpr());
+HXLINE( 443)				if (::hx::IsLess( this->opPriority->get(op),0 )) {
+HXLINE( 444)					return this->makeUnop(op,this->parseExpr());
             				}
-HXLINE( 456)				return this->unexpected(tk);
+HXLINE( 445)				return this->unexpected(tk);
             			}
             			break;
             			case (int)4: {
-HXLINE( 363)				tk = this->token();
-HXLINE( 364)				if (::hx::IsPointerEq( tk,::hscript::Token_obj::TPClose_dyn() )) {
-HXLINE( 365)					{
-HXLINE( 365)						 ::hscript::Token t = this->token();
-HXDLIN( 365)						if (!(__hxcpp_enum_eq(t,::hscript::Token_obj::TOp(HX_("->",71,27,00,00))))) {
-HXLINE( 365)							this->unexpected(t);
+HXLINE( 352)				tk = this->token();
+HXLINE( 353)				if (::hx::IsPointerEq( tk,::hscript::Token_obj::TPClose_dyn() )) {
+HXLINE( 354)					{
+HXLINE( 354)						 ::hscript::Token t = this->token();
+HXDLIN( 354)						if (!(__hxcpp_enum_eq(t,::hscript::Token_obj::TOp(HX_("->",71,27,00,00))))) {
+HXLINE( 354)							this->unexpected(t);
             						}
             					}
-HXLINE( 366)					 ::Dynamic eret = this->parseExpr();
-HXLINE( 367)					 ::hscript::ExprDef e6 = ::hscript::ExprDef_obj::EReturn(eret);
-HXDLIN( 367)					 ::Dynamic pmin4 = p1;
-HXDLIN( 367)					 ::Dynamic pmax4 = null();
-HXDLIN( 367)					 ::Dynamic e7;
-HXDLIN( 367)					if (::hx::IsNull( e6 )) {
-HXLINE( 367)						e7 = null();
+HXLINE( 355)					 ::Dynamic eret = this->parseExpr();
+HXLINE( 356)					 ::hscript::ExprDef e6 = ::hscript::ExprDef_obj::EReturn(eret);
+HXDLIN( 356)					 ::Dynamic pmin4 = p1;
+HXDLIN( 356)					 ::Dynamic pmax4 = null();
+HXDLIN( 356)					 ::Dynamic e7;
+HXDLIN( 356)					if (::hx::IsNull( e6 )) {
+HXLINE( 356)						e7 = null();
             					}
             					else {
-HXLINE( 367)						if (::hx::IsNull( pmin4 )) {
-HXLINE( 367)							pmin4 = this->tokenMin;
+HXLINE( 356)						if (::hx::IsNull( pmin4 )) {
+HXLINE( 356)							pmin4 = this->tokenMin;
             						}
-HXDLIN( 367)						if (::hx::IsNull( pmax4 )) {
-HXLINE( 367)							pmax4 = this->tokenMax;
+HXDLIN( 356)						if (::hx::IsNull( pmax4 )) {
+HXLINE( 356)							pmax4 = this->tokenMax;
             						}
-HXDLIN( 367)						e7 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 356)						e7 =  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e6)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax4)
             							->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin4)
             							->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             					}
-HXDLIN( 367)					 ::hscript::ExprDef e8 = ::hscript::ExprDef_obj::EFunction(::Array_obj< ::Dynamic>::__new(0),e7,null(),null());
-HXDLIN( 367)					 ::Dynamic pmin5 = p1;
-HXDLIN( 367)					 ::Dynamic pmax5 = null();
-HXDLIN( 367)					if (::hx::IsNull( e8 )) {
-HXLINE( 367)						return null();
+HXDLIN( 356)					 ::hscript::ExprDef e8 = ::hscript::ExprDef_obj::EFunction(::Array_obj< ::Dynamic>::__new(0),e7,null(),null());
+HXDLIN( 356)					 ::Dynamic pmin5 = p1;
+HXDLIN( 356)					 ::Dynamic pmax5 = null();
+HXDLIN( 356)					if (::hx::IsNull( e8 )) {
+HXLINE( 356)						return null();
             					}
             					else {
-HXLINE( 367)						if (::hx::IsNull( pmin5 )) {
-HXLINE( 367)							pmin5 = this->tokenMin;
+HXLINE( 356)						if (::hx::IsNull( pmin5 )) {
+HXLINE( 356)							pmin5 = this->tokenMin;
             						}
-HXDLIN( 367)						if (::hx::IsNull( pmax5 )) {
-HXLINE( 367)							pmax5 = this->tokenMax;
+HXDLIN( 356)						if (::hx::IsNull( pmax5 )) {
+HXLINE( 356)							pmax5 = this->tokenMax;
             						}
-HXDLIN( 367)						return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 356)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e8)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax5)
@@ -961,99 +973,99 @@ HXDLIN( 367)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             					}
             				}
-HXLINE( 369)				{
-HXLINE( 369)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 358)				{
+HXLINE( 358)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),tk)
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 369)					this->tokenMin = this->oldTokenMin;
-HXDLIN( 369)					this->tokenMax = this->oldTokenMax;
+HXDLIN( 358)					this->tokenMin = this->oldTokenMin;
+HXDLIN( 358)					this->tokenMax = this->oldTokenMax;
             				}
-HXLINE( 370)				 ::Dynamic e9 = this->parseExpr();
-HXLINE( 371)				tk = this->token();
-HXLINE( 372)				switch((int)(tk->_hx_getIndex())){
+HXLINE( 359)				 ::Dynamic e9 = this->parseExpr();
+HXLINE( 360)				tk = this->token();
+HXLINE( 361)				switch((int)(tk->_hx_getIndex())){
             					case (int)5: {
-HXLINE( 374)						 ::hscript::ExprDef e10 = ::hscript::ExprDef_obj::EParent(e9);
-HXDLIN( 374)						 ::Dynamic pmin6 = p1;
-HXDLIN( 374)						 ::Dynamic pmax6 = this->tokenMax;
-HXDLIN( 374)						 ::Dynamic _hx_tmp1;
-HXDLIN( 374)						if (::hx::IsNull( e10 )) {
-HXLINE( 374)							_hx_tmp1 = null();
+HXLINE( 363)						 ::hscript::ExprDef e10 = ::hscript::ExprDef_obj::EParent(e9);
+HXDLIN( 363)						 ::Dynamic pmin6 = p1;
+HXDLIN( 363)						 ::Dynamic pmax6 = this->tokenMax;
+HXDLIN( 363)						 ::Dynamic _hx_tmp1;
+HXDLIN( 363)						if (::hx::IsNull( e10 )) {
+HXLINE( 363)							_hx_tmp1 = null();
             						}
             						else {
-HXLINE( 374)							if (::hx::IsNull( pmin6 )) {
-HXLINE( 374)								pmin6 = this->tokenMin;
+HXLINE( 363)							if (::hx::IsNull( pmin6 )) {
+HXLINE( 363)								pmin6 = this->tokenMin;
             							}
-HXDLIN( 374)							if (::hx::IsNull( pmax6 )) {
-HXLINE( 374)								pmax6 = this->tokenMax;
+HXDLIN( 363)							if (::hx::IsNull( pmax6 )) {
+HXLINE( 363)								pmax6 = this->tokenMax;
             							}
-HXDLIN( 374)							_hx_tmp1 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 363)							_hx_tmp1 =  ::Dynamic(::hx::Anon_obj::Create(5)
             								->setFixed(0,HX_("e",65,00,00,00),e10)
             								->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             								->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax6)
             								->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin6)
             								->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             						}
-HXDLIN( 374)						return this->parseExprNext(_hx_tmp1);
+HXDLIN( 363)						return this->parseExprNext(_hx_tmp1);
             					}
             					break;
-            					case (int)9: {
-HXLINE( 389)						 ::hscript::ExprDef _g2 = e9->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 389)						if ((_g2->_hx_getIndex() == 1)) {
-HXLINE( 390)							::String v = _g2->_hx_getString(0);
-HXDLIN( 390)							int _hx_tmp2;
-HXDLIN( 390)							if (::hx::IsNull( e9 )) {
-HXLINE( 390)								_hx_tmp2 = 0;
+            					case (int)10: {
+HXLINE( 378)						 ::hscript::ExprDef _g2 = e9->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 378)						if ((_g2->_hx_getIndex() == 1)) {
+HXLINE( 379)							::String v = _g2->_hx_getString(0);
+HXDLIN( 379)							int _hx_tmp2;
+HXDLIN( 379)							if (::hx::IsNull( e9 )) {
+HXLINE( 379)								_hx_tmp2 = 0;
             							}
             							else {
-HXLINE( 390)								_hx_tmp2 = ( (int)(e9->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) );
+HXLINE( 379)								_hx_tmp2 = ( (int)(e9->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) );
             							}
-HXDLIN( 390)							return this->parseLambda(::Array_obj< ::Dynamic>::__new(1)->init(0, ::Dynamic(::hx::Anon_obj::Create(1)
+HXDLIN( 379)							return this->parseLambda(::Array_obj< ::Dynamic>::__new(1)->init(0, ::Dynamic(::hx::Anon_obj::Create(1)
             								->setFixed(0,HX_("name",4b,72,ff,48),v))),_hx_tmp2);
             						}
             					}
             					break;
-            					case (int)14: {
-HXLINE( 376)						 ::hscript::CType t1 = this->parseType();
-HXLINE( 377)						tk = this->token();
-HXLINE( 378)						switch((int)(tk->_hx_getIndex())){
+            					case (int)15: {
+HXLINE( 365)						 ::hscript::CType t1 = this->parseType();
+HXLINE( 366)						tk = this->token();
+HXLINE( 367)						switch((int)(tk->_hx_getIndex())){
             							case (int)5: {
-HXLINE( 380)								 ::hscript::ExprDef e11 = ::hscript::ExprDef_obj::ECheckType(e9,t1);
-HXDLIN( 380)								 ::Dynamic pmin7 = p1;
-HXDLIN( 380)								 ::Dynamic pmax7 = this->tokenMax;
-HXDLIN( 380)								 ::Dynamic _hx_tmp3;
-HXDLIN( 380)								if (::hx::IsNull( e11 )) {
-HXLINE( 380)									_hx_tmp3 = null();
+HXLINE( 369)								 ::hscript::ExprDef e11 = ::hscript::ExprDef_obj::ECheckType(e9,t1);
+HXDLIN( 369)								 ::Dynamic pmin7 = p1;
+HXDLIN( 369)								 ::Dynamic pmax7 = this->tokenMax;
+HXDLIN( 369)								 ::Dynamic _hx_tmp3;
+HXDLIN( 369)								if (::hx::IsNull( e11 )) {
+HXLINE( 369)									_hx_tmp3 = null();
             								}
             								else {
-HXLINE( 380)									if (::hx::IsNull( pmin7 )) {
-HXLINE( 380)										pmin7 = this->tokenMin;
+HXLINE( 369)									if (::hx::IsNull( pmin7 )) {
+HXLINE( 369)										pmin7 = this->tokenMin;
             									}
-HXDLIN( 380)									if (::hx::IsNull( pmax7 )) {
-HXLINE( 380)										pmax7 = this->tokenMax;
+HXDLIN( 369)									if (::hx::IsNull( pmax7 )) {
+HXLINE( 369)										pmax7 = this->tokenMax;
             									}
-HXDLIN( 380)									_hx_tmp3 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 369)									_hx_tmp3 =  ::Dynamic(::hx::Anon_obj::Create(5)
             										->setFixed(0,HX_("e",65,00,00,00),e11)
             										->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             										->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax7)
             										->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin7)
             										->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             								}
-HXDLIN( 380)								return this->parseExprNext(_hx_tmp3);
+HXDLIN( 369)								return this->parseExprNext(_hx_tmp3);
             							}
             							break;
-            							case (int)9: {
-HXLINE( 382)								 ::hscript::ExprDef _g3 = e9->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 382)								if ((_g3->_hx_getIndex() == 1)) {
-HXLINE( 383)									::String v1 = _g3->_hx_getString(0);
-HXDLIN( 383)									int _hx_tmp4;
-HXDLIN( 383)									if (::hx::IsNull( e9 )) {
-HXLINE( 383)										_hx_tmp4 = 0;
+            							case (int)10: {
+HXLINE( 371)								 ::hscript::ExprDef _g3 = e9->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 371)								if ((_g3->_hx_getIndex() == 1)) {
+HXLINE( 372)									::String v1 = _g3->_hx_getString(0);
+HXDLIN( 372)									int _hx_tmp4;
+HXDLIN( 372)									if (::hx::IsNull( e9 )) {
+HXLINE( 372)										_hx_tmp4 = 0;
             									}
             									else {
-HXLINE( 383)										_hx_tmp4 = ( (int)(e9->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) );
+HXLINE( 372)										_hx_tmp4 = ( (int)(e9->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) );
             									}
-HXDLIN( 383)									return this->parseLambda(::Array_obj< ::Dynamic>::__new(1)->init(0, ::Dynamic(::hx::Anon_obj::Create(2)
+HXDLIN( 372)									return this->parseLambda(::Array_obj< ::Dynamic>::__new(1)->init(0, ::Dynamic(::hx::Anon_obj::Create(2)
             										->setFixed(0,HX_("t",74,00,00,00),t1)
             										->setFixed(1,HX_("name",4b,72,ff,48),v1))),_hx_tmp4);
             								}
@@ -1067,162 +1079,162 @@ HXDLIN( 383)									return this->parseLambda(::Array_obj< ::Dynamic>::__new(1)-
             					default:{
             					}
             				}
-HXLINE( 395)				return this->unexpected(tk);
+HXLINE( 384)				return this->unexpected(tk);
             			}
             			break;
             			case (int)6: {
-HXLINE( 397)				tk = this->token();
-HXLINE( 398)				switch((int)(tk->_hx_getIndex())){
+HXLINE( 386)				tk = this->token();
+HXLINE( 387)				switch((int)(tk->_hx_getIndex())){
             					case (int)1: {
-HXLINE( 410)						 ::hscript::Const c1 = tk->_hx_getObject(0).StaticCast<  ::hscript::Const >();
-HXLINE( 411)						if (this->allowJSON) {
-HXLINE( 412)							if ((c1->_hx_getIndex() == 2)) {
-HXLINE( 413)								::String _g4 = c1->_hx_getString(0);
-HXDLIN( 413)								{
-HXLINE( 414)									 ::hscript::Token tk2 = this->token();
-HXLINE( 415)									{
-HXLINE( 415)										this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 399)						 ::hscript::Const c1 = tk->_hx_getObject(0).StaticCast<  ::hscript::Const >();
+HXLINE( 400)						if (this->allowJSON) {
+HXLINE( 401)							if ((c1->_hx_getIndex() == 2)) {
+HXLINE( 402)								::String _g4 = c1->_hx_getString(0);
+HXDLIN( 402)								{
+HXLINE( 403)									 ::hscript::Token tk2 = this->token();
+HXLINE( 404)									{
+HXLINE( 404)										this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             											->setFixed(0,HX_("t",74,00,00,00),tk2)
             											->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             											->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 415)										this->tokenMin = this->oldTokenMin;
-HXDLIN( 415)										this->tokenMax = this->oldTokenMax;
+HXDLIN( 404)										this->tokenMin = this->oldTokenMin;
+HXDLIN( 404)										this->tokenMax = this->oldTokenMax;
             									}
-HXLINE( 416)									{
-HXLINE( 416)										this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 405)									{
+HXLINE( 405)										this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             											->setFixed(0,HX_("t",74,00,00,00),tk)
             											->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             											->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 416)										this->tokenMin = this->oldTokenMin;
-HXDLIN( 416)										this->tokenMax = this->oldTokenMax;
+HXDLIN( 405)										this->tokenMin = this->oldTokenMin;
+HXDLIN( 405)										this->tokenMax = this->oldTokenMax;
             									}
-HXLINE( 417)									if ((tk2->_hx_getIndex() == 14)) {
-HXLINE( 419)										return this->parseExprNext(this->parseObject(p1));
+HXLINE( 406)									if ((tk2->_hx_getIndex() == 15)) {
+HXLINE( 408)										return this->parseExprNext(this->parseObject(p1));
             									}
             								}
             							}
             							else {
-HXLINE( 423)								this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 412)								this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             									->setFixed(0,HX_("t",74,00,00,00),tk)
             									->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             									->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 423)								this->tokenMin = this->oldTokenMin;
-HXDLIN( 423)								this->tokenMax = this->oldTokenMax;
+HXDLIN( 412)								this->tokenMin = this->oldTokenMin;
+HXDLIN( 412)								this->tokenMax = this->oldTokenMax;
             							}
             						}
             						else {
-HXLINE( 426)							this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 415)							this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             								->setFixed(0,HX_("t",74,00,00,00),tk)
             								->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             								->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 426)							this->tokenMin = this->oldTokenMin;
-HXDLIN( 426)							this->tokenMax = this->oldTokenMax;
+HXDLIN( 415)							this->tokenMin = this->oldTokenMin;
+HXDLIN( 415)							this->tokenMax = this->oldTokenMax;
             						}
             					}
             					break;
             					case (int)2: {
-HXLINE( 401)						::String _g5 = tk->_hx_getString(0);
-HXDLIN( 401)						{
-HXLINE( 402)							 ::hscript::Token tk21 = this->token();
-HXLINE( 403)							{
-HXLINE( 403)								this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 390)						::String _g5 = tk->_hx_getString(0);
+HXDLIN( 390)						{
+HXLINE( 391)							 ::hscript::Token tk21 = this->token();
+HXLINE( 392)							{
+HXLINE( 392)								this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             									->setFixed(0,HX_("t",74,00,00,00),tk21)
             									->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             									->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 403)								this->tokenMin = this->oldTokenMin;
-HXDLIN( 403)								this->tokenMax = this->oldTokenMax;
+HXDLIN( 392)								this->tokenMin = this->oldTokenMin;
+HXDLIN( 392)								this->tokenMax = this->oldTokenMax;
             							}
-HXLINE( 404)							{
-HXLINE( 404)								this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 393)							{
+HXLINE( 393)								this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             									->setFixed(0,HX_("t",74,00,00,00),tk)
             									->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             									->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 404)								this->tokenMin = this->oldTokenMin;
-HXDLIN( 404)								this->tokenMax = this->oldTokenMax;
+HXDLIN( 393)								this->tokenMin = this->oldTokenMin;
+HXDLIN( 393)								this->tokenMax = this->oldTokenMax;
             							}
-HXLINE( 405)							if ((tk21->_hx_getIndex() == 14)) {
-HXLINE( 407)								return this->parseExprNext(this->parseObject(p1));
+HXLINE( 394)							if ((tk21->_hx_getIndex() == 15)) {
+HXLINE( 396)								return this->parseExprNext(this->parseObject(p1));
             							}
             						}
             					}
             					break;
             					case (int)7: {
-HXLINE( 400)						 ::hscript::ExprDef e12 = ::hscript::ExprDef_obj::EObject(::Array_obj< ::Dynamic>::__new(0));
-HXDLIN( 400)						 ::Dynamic pmin8 = p1;
-HXDLIN( 400)						 ::Dynamic pmax8 = null();
-HXDLIN( 400)						 ::Dynamic _hx_tmp5;
-HXDLIN( 400)						if (::hx::IsNull( e12 )) {
-HXLINE( 400)							_hx_tmp5 = null();
+HXLINE( 389)						 ::hscript::ExprDef e12 = ::hscript::ExprDef_obj::EObject(::Array_obj< ::Dynamic>::__new(0));
+HXDLIN( 389)						 ::Dynamic pmin8 = p1;
+HXDLIN( 389)						 ::Dynamic pmax8 = null();
+HXDLIN( 389)						 ::Dynamic _hx_tmp5;
+HXDLIN( 389)						if (::hx::IsNull( e12 )) {
+HXLINE( 389)							_hx_tmp5 = null();
             						}
             						else {
-HXLINE( 400)							if (::hx::IsNull( pmin8 )) {
-HXLINE( 400)								pmin8 = this->tokenMin;
+HXLINE( 389)							if (::hx::IsNull( pmin8 )) {
+HXLINE( 389)								pmin8 = this->tokenMin;
             							}
-HXDLIN( 400)							if (::hx::IsNull( pmax8 )) {
-HXLINE( 400)								pmax8 = this->tokenMax;
+HXDLIN( 389)							if (::hx::IsNull( pmax8 )) {
+HXLINE( 389)								pmax8 = this->tokenMax;
             							}
-HXDLIN( 400)							_hx_tmp5 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 389)							_hx_tmp5 =  ::Dynamic(::hx::Anon_obj::Create(5)
             								->setFixed(0,HX_("e",65,00,00,00),e12)
             								->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             								->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax8)
             								->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin8)
             								->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             						}
-HXDLIN( 400)						return this->parseExprNext(_hx_tmp5);
+HXDLIN( 389)						return this->parseExprNext(_hx_tmp5);
             					}
             					break;
             					default:{
-HXLINE( 428)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 417)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             							->setFixed(0,HX_("t",74,00,00,00),tk)
             							->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             							->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 428)						this->tokenMin = this->oldTokenMin;
-HXDLIN( 428)						this->tokenMax = this->oldTokenMax;
+HXDLIN( 417)						this->tokenMin = this->oldTokenMin;
+HXDLIN( 417)						this->tokenMax = this->oldTokenMax;
             					}
             				}
-HXLINE( 430)				::Array< ::Dynamic> a = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 431)				while(true){
-HXLINE( 432)					this->parseFullExpr(a);
-HXLINE( 433)					tk = this->token();
-HXLINE( 434)					bool _hx_tmp6;
-HXDLIN( 434)					if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TBrClose_dyn() )) {
-HXLINE( 434)						if (this->resumeErrors) {
-HXLINE( 434)							_hx_tmp6 = ::hx::IsPointerEq( tk,::hscript::Token_obj::TEof_dyn() );
+HXLINE( 419)				::Array< ::Dynamic> a = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 420)				while(true){
+HXLINE( 421)					this->parseFullExpr(a);
+HXLINE( 422)					tk = this->token();
+HXLINE( 423)					bool _hx_tmp6;
+HXDLIN( 423)					if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TBrClose_dyn() )) {
+HXLINE( 423)						if (this->resumeErrors) {
+HXLINE( 423)							_hx_tmp6 = ::hx::IsPointerEq( tk,::hscript::Token_obj::TEof_dyn() );
             						}
             						else {
-HXLINE( 434)							_hx_tmp6 = false;
+HXLINE( 423)							_hx_tmp6 = false;
             						}
             					}
             					else {
-HXLINE( 434)						_hx_tmp6 = true;
+HXLINE( 423)						_hx_tmp6 = true;
             					}
-HXDLIN( 434)					if (_hx_tmp6) {
-HXLINE( 435)						goto _hx_goto_38;
+HXDLIN( 423)					if (_hx_tmp6) {
+HXLINE( 424)						goto _hx_goto_39;
             					}
-HXLINE( 436)					{
-HXLINE( 436)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 425)					{
+HXLINE( 425)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             							->setFixed(0,HX_("t",74,00,00,00),tk)
             							->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             							->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 436)						this->tokenMin = this->oldTokenMin;
-HXDLIN( 436)						this->tokenMax = this->oldTokenMax;
+HXDLIN( 425)						this->tokenMin = this->oldTokenMin;
+HXDLIN( 425)						this->tokenMax = this->oldTokenMax;
             					}
             				}
-            				_hx_goto_38:;
-HXLINE( 438)				 ::hscript::ExprDef e13 = ::hscript::ExprDef_obj::EBlock(a);
-HXDLIN( 438)				 ::Dynamic pmin9 = p1;
-HXDLIN( 438)				 ::Dynamic pmax9 = null();
-HXDLIN( 438)				if (::hx::IsNull( e13 )) {
-HXLINE( 438)					return null();
+            				_hx_goto_39:;
+HXLINE( 427)				 ::hscript::ExprDef e13 = ::hscript::ExprDef_obj::EBlock(a);
+HXDLIN( 427)				 ::Dynamic pmin9 = p1;
+HXDLIN( 427)				 ::Dynamic pmax9 = null();
+HXDLIN( 427)				if (::hx::IsNull( e13 )) {
+HXLINE( 427)					return null();
             				}
             				else {
-HXLINE( 438)					if (::hx::IsNull( pmin9 )) {
-HXLINE( 438)						pmin9 = this->tokenMin;
+HXLINE( 427)					if (::hx::IsNull( pmin9 )) {
+HXLINE( 427)						pmin9 = this->tokenMin;
             					}
-HXDLIN( 438)					if (::hx::IsNull( pmax9 )) {
-HXLINE( 438)						pmax9 = this->tokenMax;
+HXDLIN( 427)					if (::hx::IsNull( pmax9 )) {
+HXLINE( 427)						pmax9 = this->tokenMax;
             					}
-HXDLIN( 438)					return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 427)					return  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e13)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax9)
@@ -1231,373 +1243,373 @@ HXDLIN( 438)					return  ::Dynamic(::hx::Anon_obj::Create(5)
             				}
             			}
             			break;
-            			case (int)11: {
-HXLINE( 458)				::Array< ::Dynamic> a1 = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 459)				tk = this->token();
-HXLINE( 460)				while(true){
-HXLINE( 460)					bool _hx_tmp7;
-HXDLIN( 460)					if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TBkClose_dyn() )) {
-HXLINE( 460)						if (this->resumeErrors) {
-HXLINE( 460)							_hx_tmp7 = ::hx::IsPointerNotEq( tk,::hscript::Token_obj::TEof_dyn() );
+            			case (int)12: {
+HXLINE( 447)				::Array< ::Dynamic> a1 = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 448)				tk = this->token();
+HXLINE( 449)				while(true){
+HXLINE( 449)					bool _hx_tmp7;
+HXDLIN( 449)					if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TBkClose_dyn() )) {
+HXLINE( 449)						if (this->resumeErrors) {
+HXLINE( 449)							_hx_tmp7 = ::hx::IsPointerNotEq( tk,::hscript::Token_obj::TEof_dyn() );
             						}
             						else {
-HXLINE( 460)							_hx_tmp7 = true;
+HXLINE( 449)							_hx_tmp7 = true;
             						}
             					}
             					else {
-HXLINE( 460)						_hx_tmp7 = false;
+HXLINE( 449)						_hx_tmp7 = false;
             					}
-HXDLIN( 460)					if (!(_hx_tmp7)) {
-HXLINE( 460)						goto _hx_goto_39;
+HXDLIN( 449)					if (!(_hx_tmp7)) {
+HXLINE( 449)						goto _hx_goto_40;
             					}
-HXLINE( 461)					{
-HXLINE( 461)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 450)					{
+HXLINE( 450)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             							->setFixed(0,HX_("t",74,00,00,00),tk)
             							->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             							->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 461)						this->tokenMin = this->oldTokenMin;
-HXDLIN( 461)						this->tokenMax = this->oldTokenMax;
+HXDLIN( 450)						this->tokenMin = this->oldTokenMin;
+HXDLIN( 450)						this->tokenMax = this->oldTokenMax;
             					}
-HXLINE( 462)					a1->push(this->parseExpr());
-HXLINE( 463)					tk = this->token();
-HXLINE( 464)					if (::hx::IsPointerEq( tk,::hscript::Token_obj::TComma_dyn() )) {
-HXLINE( 465)						tk = this->token();
+HXLINE( 451)					a1->push(this->parseExpr());
+HXLINE( 452)					tk = this->token();
+HXLINE( 453)					if (::hx::IsPointerEq( tk,::hscript::Token_obj::TComma_dyn() )) {
+HXLINE( 454)						tk = this->token();
             					}
             				}
-            				_hx_goto_39:;
-HXLINE( 467)				bool _hx_tmp8;
-HXDLIN( 467)				if ((a1->length == 1)) {
-HXLINE( 467)					_hx_tmp8 = ::hx::IsNotNull( a1->__get(0) );
+            				_hx_goto_40:;
+HXLINE( 456)				bool _hx_tmp8;
+HXDLIN( 456)				if ((a1->length == 1)) {
+HXLINE( 456)					_hx_tmp8 = ::hx::IsNotNull( a1->__get(0) );
             				}
             				else {
-HXLINE( 467)					_hx_tmp8 = false;
+HXLINE( 456)					_hx_tmp8 = false;
             				}
-HXDLIN( 467)				if (_hx_tmp8) {
-HXLINE( 468)					 ::hscript::ExprDef _g6 = a1->__get(0)->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 468)					switch((int)(_g6->_hx_getIndex())){
+HXDLIN( 456)				if (_hx_tmp8) {
+HXLINE( 457)					 ::hscript::ExprDef _g6 = a1->__get(0)->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 457)					switch((int)(_g6->_hx_getIndex())){
             						case (int)10: {
-HXLINE( 469)							 ::Dynamic _g7 = _g6->_hx_getObject(0);
-HXDLIN( 469)							 ::Dynamic _g8 = _g6->_hx_getObject(1);
-HXLINE( 470)							::String tmp = (HX_("__a_",fe,af,13,3f) + this->uid++);
-HXLINE( 472)							 ::hscript::ExprDef e14 = ::hscript::ExprDef_obj::EArrayDecl(::Array_obj< ::Dynamic>::__new(0));
-HXDLIN( 472)							 ::Dynamic pmin10 = p1;
-HXDLIN( 472)							 ::Dynamic pmax10 = null();
-HXDLIN( 472)							 ::Dynamic e15;
-HXDLIN( 472)							if (::hx::IsNull( e14 )) {
-HXLINE( 472)								e15 = null();
+HXLINE( 458)							 ::Dynamic _g7 = _g6->_hx_getObject(0);
+HXDLIN( 458)							 ::Dynamic _g8 = _g6->_hx_getObject(1);
+HXLINE( 459)							::String tmp = (HX_("__a_",fe,af,13,3f) + this->uid++);
+HXLINE( 461)							 ::hscript::ExprDef e14 = ::hscript::ExprDef_obj::EArrayDecl(::Array_obj< ::Dynamic>::__new(0));
+HXDLIN( 461)							 ::Dynamic pmin10 = p1;
+HXDLIN( 461)							 ::Dynamic pmax10 = null();
+HXDLIN( 461)							 ::Dynamic e15;
+HXDLIN( 461)							if (::hx::IsNull( e14 )) {
+HXLINE( 461)								e15 = null();
             							}
             							else {
-HXLINE( 472)								if (::hx::IsNull( pmin10 )) {
-HXLINE( 472)									pmin10 = this->tokenMin;
+HXLINE( 461)								if (::hx::IsNull( pmin10 )) {
+HXLINE( 461)									pmin10 = this->tokenMin;
             								}
-HXDLIN( 472)								if (::hx::IsNull( pmax10 )) {
-HXLINE( 472)									pmax10 = this->tokenMax;
+HXDLIN( 461)								if (::hx::IsNull( pmax10 )) {
+HXLINE( 461)									pmax10 = this->tokenMax;
             								}
-HXDLIN( 472)								e15 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 461)								e15 =  ::Dynamic(::hx::Anon_obj::Create(5)
             									->setFixed(0,HX_("e",65,00,00,00),e14)
             									->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             									->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax10)
             									->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin10)
             									->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             							}
-HXDLIN( 472)							 ::hscript::ExprDef e16 = ::hscript::ExprDef_obj::EVar(tmp,null(),e15);
-HXDLIN( 472)							 ::Dynamic pmin11 = p1;
-HXDLIN( 472)							 ::Dynamic pmax11 = null();
-HXDLIN( 472)							 ::Dynamic e17;
-HXDLIN( 472)							if (::hx::IsNull( e16 )) {
-HXLINE( 472)								e17 = null();
+HXDLIN( 461)							 ::hscript::ExprDef e16 = ::hscript::ExprDef_obj::EVar(tmp,null(),e15);
+HXDLIN( 461)							 ::Dynamic pmin11 = p1;
+HXDLIN( 461)							 ::Dynamic pmax11 = null();
+HXDLIN( 461)							 ::Dynamic e17;
+HXDLIN( 461)							if (::hx::IsNull( e16 )) {
+HXLINE( 461)								e17 = null();
             							}
             							else {
-HXLINE( 472)								if (::hx::IsNull( pmin11 )) {
-HXLINE( 472)									pmin11 = this->tokenMin;
+HXLINE( 461)								if (::hx::IsNull( pmin11 )) {
+HXLINE( 461)									pmin11 = this->tokenMin;
             								}
-HXDLIN( 472)								if (::hx::IsNull( pmax11 )) {
-HXLINE( 472)									pmax11 = this->tokenMax;
+HXDLIN( 461)								if (::hx::IsNull( pmax11 )) {
+HXLINE( 461)									pmax11 = this->tokenMax;
             								}
-HXDLIN( 472)								e17 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 461)								e17 =  ::Dynamic(::hx::Anon_obj::Create(5)
             									->setFixed(0,HX_("e",65,00,00,00),e16)
             									->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             									->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax11)
             									->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin11)
             									->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             							}
-HXLINE( 473)							 ::Dynamic e18 = this->mapCompr(tmp,a1->__get(0));
-HXLINE( 474)							 ::hscript::ExprDef e19 = ::hscript::ExprDef_obj::EIdent(tmp);
-HXDLIN( 474)							 ::Dynamic pmin12 = p1;
-HXDLIN( 474)							 ::Dynamic pmax12 = null();
-HXDLIN( 474)							 ::Dynamic e20;
-HXDLIN( 474)							if (::hx::IsNull( e19 )) {
-HXLINE( 474)								e20 = null();
+HXLINE( 462)							 ::Dynamic e18 = this->mapCompr(tmp,a1->__get(0));
+HXLINE( 463)							 ::hscript::ExprDef e19 = ::hscript::ExprDef_obj::EIdent(tmp);
+HXDLIN( 463)							 ::Dynamic pmin12 = p1;
+HXDLIN( 463)							 ::Dynamic pmax12 = null();
+HXDLIN( 463)							 ::Dynamic e20;
+HXDLIN( 463)							if (::hx::IsNull( e19 )) {
+HXLINE( 463)								e20 = null();
             							}
             							else {
-HXLINE( 474)								if (::hx::IsNull( pmin12 )) {
-HXLINE( 474)									pmin12 = this->tokenMin;
+HXLINE( 463)								if (::hx::IsNull( pmin12 )) {
+HXLINE( 463)									pmin12 = this->tokenMin;
             								}
-HXDLIN( 474)								if (::hx::IsNull( pmax12 )) {
-HXLINE( 474)									pmax12 = this->tokenMax;
+HXDLIN( 463)								if (::hx::IsNull( pmax12 )) {
+HXLINE( 463)									pmax12 = this->tokenMax;
             								}
-HXDLIN( 474)								e20 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 463)								e20 =  ::Dynamic(::hx::Anon_obj::Create(5)
             									->setFixed(0,HX_("e",65,00,00,00),e19)
             									->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             									->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax12)
             									->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin12)
             									->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             							}
-HXLINE( 471)							 ::hscript::ExprDef e21 = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(3)->init(0,e17)->init(1,e18)->init(2,e20));
-HXDLIN( 471)							 ::Dynamic pmin13 = p1;
-HXDLIN( 471)							 ::Dynamic pmax13 = null();
-HXDLIN( 471)							 ::Dynamic e22;
-HXDLIN( 471)							if (::hx::IsNull( e21 )) {
-HXLINE( 471)								e22 = null();
+HXLINE( 460)							 ::hscript::ExprDef e21 = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(3)->init(0,e17)->init(1,e18)->init(2,e20));
+HXDLIN( 460)							 ::Dynamic pmin13 = p1;
+HXDLIN( 460)							 ::Dynamic pmax13 = null();
+HXDLIN( 460)							 ::Dynamic e22;
+HXDLIN( 460)							if (::hx::IsNull( e21 )) {
+HXLINE( 460)								e22 = null();
             							}
             							else {
-HXLINE( 471)								if (::hx::IsNull( pmin13 )) {
-HXLINE( 471)									pmin13 = this->tokenMin;
+HXLINE( 460)								if (::hx::IsNull( pmin13 )) {
+HXLINE( 460)									pmin13 = this->tokenMin;
             								}
-HXDLIN( 471)								if (::hx::IsNull( pmax13 )) {
-HXLINE( 471)									pmax13 = this->tokenMax;
+HXDLIN( 460)								if (::hx::IsNull( pmax13 )) {
+HXLINE( 460)									pmax13 = this->tokenMax;
             								}
-HXDLIN( 471)								e22 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 460)								e22 =  ::Dynamic(::hx::Anon_obj::Create(5)
             									->setFixed(0,HX_("e",65,00,00,00),e21)
             									->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             									->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax13)
             									->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin13)
             									->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             							}
-HXLINE( 476)							return this->parseExprNext(e22);
+HXLINE( 465)							return this->parseExprNext(e22);
             						}
             						break;
             						case (int)11: {
-HXLINE( 469)							::String _g9 = _g6->_hx_getString(0);
-HXDLIN( 469)							 ::Dynamic _g10 = _g6->_hx_getObject(1);
-HXDLIN( 469)							 ::Dynamic _g11 = _g6->_hx_getObject(2);
-HXLINE( 470)							::String tmp1 = (HX_("__a_",fe,af,13,3f) + this->uid++);
-HXLINE( 472)							 ::hscript::ExprDef e23 = ::hscript::ExprDef_obj::EArrayDecl(::Array_obj< ::Dynamic>::__new(0));
-HXDLIN( 472)							 ::Dynamic pmin14 = p1;
-HXDLIN( 472)							 ::Dynamic pmax14 = null();
-HXDLIN( 472)							 ::Dynamic e24;
-HXDLIN( 472)							if (::hx::IsNull( e23 )) {
-HXLINE( 472)								e24 = null();
+HXLINE( 458)							::String _g9 = _g6->_hx_getString(0);
+HXDLIN( 458)							 ::Dynamic _g10 = _g6->_hx_getObject(1);
+HXDLIN( 458)							 ::Dynamic _g11 = _g6->_hx_getObject(2);
+HXLINE( 459)							::String tmp1 = (HX_("__a_",fe,af,13,3f) + this->uid++);
+HXLINE( 461)							 ::hscript::ExprDef e23 = ::hscript::ExprDef_obj::EArrayDecl(::Array_obj< ::Dynamic>::__new(0));
+HXDLIN( 461)							 ::Dynamic pmin14 = p1;
+HXDLIN( 461)							 ::Dynamic pmax14 = null();
+HXDLIN( 461)							 ::Dynamic e24;
+HXDLIN( 461)							if (::hx::IsNull( e23 )) {
+HXLINE( 461)								e24 = null();
             							}
             							else {
-HXLINE( 472)								if (::hx::IsNull( pmin14 )) {
-HXLINE( 472)									pmin14 = this->tokenMin;
+HXLINE( 461)								if (::hx::IsNull( pmin14 )) {
+HXLINE( 461)									pmin14 = this->tokenMin;
             								}
-HXDLIN( 472)								if (::hx::IsNull( pmax14 )) {
-HXLINE( 472)									pmax14 = this->tokenMax;
+HXDLIN( 461)								if (::hx::IsNull( pmax14 )) {
+HXLINE( 461)									pmax14 = this->tokenMax;
             								}
-HXDLIN( 472)								e24 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 461)								e24 =  ::Dynamic(::hx::Anon_obj::Create(5)
             									->setFixed(0,HX_("e",65,00,00,00),e23)
             									->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             									->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax14)
             									->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin14)
             									->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             							}
-HXDLIN( 472)							 ::hscript::ExprDef e25 = ::hscript::ExprDef_obj::EVar(tmp1,null(),e24);
-HXDLIN( 472)							 ::Dynamic pmin15 = p1;
-HXDLIN( 472)							 ::Dynamic pmax15 = null();
-HXDLIN( 472)							 ::Dynamic e26;
-HXDLIN( 472)							if (::hx::IsNull( e25 )) {
-HXLINE( 472)								e26 = null();
+HXDLIN( 461)							 ::hscript::ExprDef e25 = ::hscript::ExprDef_obj::EVar(tmp1,null(),e24);
+HXDLIN( 461)							 ::Dynamic pmin15 = p1;
+HXDLIN( 461)							 ::Dynamic pmax15 = null();
+HXDLIN( 461)							 ::Dynamic e26;
+HXDLIN( 461)							if (::hx::IsNull( e25 )) {
+HXLINE( 461)								e26 = null();
             							}
             							else {
-HXLINE( 472)								if (::hx::IsNull( pmin15 )) {
-HXLINE( 472)									pmin15 = this->tokenMin;
+HXLINE( 461)								if (::hx::IsNull( pmin15 )) {
+HXLINE( 461)									pmin15 = this->tokenMin;
             								}
-HXDLIN( 472)								if (::hx::IsNull( pmax15 )) {
-HXLINE( 472)									pmax15 = this->tokenMax;
+HXDLIN( 461)								if (::hx::IsNull( pmax15 )) {
+HXLINE( 461)									pmax15 = this->tokenMax;
             								}
-HXDLIN( 472)								e26 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 461)								e26 =  ::Dynamic(::hx::Anon_obj::Create(5)
             									->setFixed(0,HX_("e",65,00,00,00),e25)
             									->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             									->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax15)
             									->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin15)
             									->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             							}
-HXLINE( 473)							 ::Dynamic e27 = this->mapCompr(tmp1,a1->__get(0));
-HXLINE( 474)							 ::hscript::ExprDef e28 = ::hscript::ExprDef_obj::EIdent(tmp1);
-HXDLIN( 474)							 ::Dynamic pmin16 = p1;
-HXDLIN( 474)							 ::Dynamic pmax16 = null();
-HXDLIN( 474)							 ::Dynamic e29;
-HXDLIN( 474)							if (::hx::IsNull( e28 )) {
-HXLINE( 474)								e29 = null();
+HXLINE( 462)							 ::Dynamic e27 = this->mapCompr(tmp1,a1->__get(0));
+HXLINE( 463)							 ::hscript::ExprDef e28 = ::hscript::ExprDef_obj::EIdent(tmp1);
+HXDLIN( 463)							 ::Dynamic pmin16 = p1;
+HXDLIN( 463)							 ::Dynamic pmax16 = null();
+HXDLIN( 463)							 ::Dynamic e29;
+HXDLIN( 463)							if (::hx::IsNull( e28 )) {
+HXLINE( 463)								e29 = null();
             							}
             							else {
-HXLINE( 474)								if (::hx::IsNull( pmin16 )) {
-HXLINE( 474)									pmin16 = this->tokenMin;
+HXLINE( 463)								if (::hx::IsNull( pmin16 )) {
+HXLINE( 463)									pmin16 = this->tokenMin;
             								}
-HXDLIN( 474)								if (::hx::IsNull( pmax16 )) {
-HXLINE( 474)									pmax16 = this->tokenMax;
+HXDLIN( 463)								if (::hx::IsNull( pmax16 )) {
+HXLINE( 463)									pmax16 = this->tokenMax;
             								}
-HXDLIN( 474)								e29 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 463)								e29 =  ::Dynamic(::hx::Anon_obj::Create(5)
             									->setFixed(0,HX_("e",65,00,00,00),e28)
             									->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             									->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax16)
             									->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin16)
             									->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             							}
-HXLINE( 471)							 ::hscript::ExprDef e30 = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(3)->init(0,e26)->init(1,e27)->init(2,e29));
-HXDLIN( 471)							 ::Dynamic pmin17 = p1;
-HXDLIN( 471)							 ::Dynamic pmax17 = null();
-HXDLIN( 471)							 ::Dynamic e31;
-HXDLIN( 471)							if (::hx::IsNull( e30 )) {
-HXLINE( 471)								e31 = null();
+HXLINE( 460)							 ::hscript::ExprDef e30 = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(3)->init(0,e26)->init(1,e27)->init(2,e29));
+HXDLIN( 460)							 ::Dynamic pmin17 = p1;
+HXDLIN( 460)							 ::Dynamic pmax17 = null();
+HXDLIN( 460)							 ::Dynamic e31;
+HXDLIN( 460)							if (::hx::IsNull( e30 )) {
+HXLINE( 460)								e31 = null();
             							}
             							else {
-HXLINE( 471)								if (::hx::IsNull( pmin17 )) {
-HXLINE( 471)									pmin17 = this->tokenMin;
+HXLINE( 460)								if (::hx::IsNull( pmin17 )) {
+HXLINE( 460)									pmin17 = this->tokenMin;
             								}
-HXDLIN( 471)								if (::hx::IsNull( pmax17 )) {
-HXLINE( 471)									pmax17 = this->tokenMax;
+HXDLIN( 460)								if (::hx::IsNull( pmax17 )) {
+HXLINE( 460)									pmax17 = this->tokenMax;
             								}
-HXDLIN( 471)								e31 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 460)								e31 =  ::Dynamic(::hx::Anon_obj::Create(5)
             									->setFixed(0,HX_("e",65,00,00,00),e30)
             									->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             									->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax17)
             									->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin17)
             									->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             							}
-HXLINE( 476)							return this->parseExprNext(e31);
+HXLINE( 465)							return this->parseExprNext(e31);
             						}
             						break;
             						case (int)24: {
-HXLINE( 469)							 ::Dynamic _g12 = _g6->_hx_getObject(0);
-HXDLIN( 469)							 ::Dynamic _g13 = _g6->_hx_getObject(1);
-HXLINE( 470)							::String tmp2 = (HX_("__a_",fe,af,13,3f) + this->uid++);
-HXLINE( 472)							 ::hscript::ExprDef e32 = ::hscript::ExprDef_obj::EArrayDecl(::Array_obj< ::Dynamic>::__new(0));
-HXDLIN( 472)							 ::Dynamic pmin18 = p1;
-HXDLIN( 472)							 ::Dynamic pmax18 = null();
-HXDLIN( 472)							 ::Dynamic e33;
-HXDLIN( 472)							if (::hx::IsNull( e32 )) {
-HXLINE( 472)								e33 = null();
+HXLINE( 458)							 ::Dynamic _g12 = _g6->_hx_getObject(0);
+HXDLIN( 458)							 ::Dynamic _g13 = _g6->_hx_getObject(1);
+HXLINE( 459)							::String tmp2 = (HX_("__a_",fe,af,13,3f) + this->uid++);
+HXLINE( 461)							 ::hscript::ExprDef e32 = ::hscript::ExprDef_obj::EArrayDecl(::Array_obj< ::Dynamic>::__new(0));
+HXDLIN( 461)							 ::Dynamic pmin18 = p1;
+HXDLIN( 461)							 ::Dynamic pmax18 = null();
+HXDLIN( 461)							 ::Dynamic e33;
+HXDLIN( 461)							if (::hx::IsNull( e32 )) {
+HXLINE( 461)								e33 = null();
             							}
             							else {
-HXLINE( 472)								if (::hx::IsNull( pmin18 )) {
-HXLINE( 472)									pmin18 = this->tokenMin;
+HXLINE( 461)								if (::hx::IsNull( pmin18 )) {
+HXLINE( 461)									pmin18 = this->tokenMin;
             								}
-HXDLIN( 472)								if (::hx::IsNull( pmax18 )) {
-HXLINE( 472)									pmax18 = this->tokenMax;
+HXDLIN( 461)								if (::hx::IsNull( pmax18 )) {
+HXLINE( 461)									pmax18 = this->tokenMax;
             								}
-HXDLIN( 472)								e33 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 461)								e33 =  ::Dynamic(::hx::Anon_obj::Create(5)
             									->setFixed(0,HX_("e",65,00,00,00),e32)
             									->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             									->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax18)
             									->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin18)
             									->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             							}
-HXDLIN( 472)							 ::hscript::ExprDef e34 = ::hscript::ExprDef_obj::EVar(tmp2,null(),e33);
-HXDLIN( 472)							 ::Dynamic pmin19 = p1;
-HXDLIN( 472)							 ::Dynamic pmax19 = null();
-HXDLIN( 472)							 ::Dynamic e35;
-HXDLIN( 472)							if (::hx::IsNull( e34 )) {
-HXLINE( 472)								e35 = null();
+HXDLIN( 461)							 ::hscript::ExprDef e34 = ::hscript::ExprDef_obj::EVar(tmp2,null(),e33);
+HXDLIN( 461)							 ::Dynamic pmin19 = p1;
+HXDLIN( 461)							 ::Dynamic pmax19 = null();
+HXDLIN( 461)							 ::Dynamic e35;
+HXDLIN( 461)							if (::hx::IsNull( e34 )) {
+HXLINE( 461)								e35 = null();
             							}
             							else {
-HXLINE( 472)								if (::hx::IsNull( pmin19 )) {
-HXLINE( 472)									pmin19 = this->tokenMin;
+HXLINE( 461)								if (::hx::IsNull( pmin19 )) {
+HXLINE( 461)									pmin19 = this->tokenMin;
             								}
-HXDLIN( 472)								if (::hx::IsNull( pmax19 )) {
-HXLINE( 472)									pmax19 = this->tokenMax;
+HXDLIN( 461)								if (::hx::IsNull( pmax19 )) {
+HXLINE( 461)									pmax19 = this->tokenMax;
             								}
-HXDLIN( 472)								e35 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 461)								e35 =  ::Dynamic(::hx::Anon_obj::Create(5)
             									->setFixed(0,HX_("e",65,00,00,00),e34)
             									->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             									->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax19)
             									->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin19)
             									->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             							}
-HXLINE( 473)							 ::Dynamic e36 = this->mapCompr(tmp2,a1->__get(0));
-HXLINE( 474)							 ::hscript::ExprDef e37 = ::hscript::ExprDef_obj::EIdent(tmp2);
-HXDLIN( 474)							 ::Dynamic pmin20 = p1;
-HXDLIN( 474)							 ::Dynamic pmax20 = null();
-HXDLIN( 474)							 ::Dynamic e38;
-HXDLIN( 474)							if (::hx::IsNull( e37 )) {
-HXLINE( 474)								e38 = null();
+HXLINE( 462)							 ::Dynamic e36 = this->mapCompr(tmp2,a1->__get(0));
+HXLINE( 463)							 ::hscript::ExprDef e37 = ::hscript::ExprDef_obj::EIdent(tmp2);
+HXDLIN( 463)							 ::Dynamic pmin20 = p1;
+HXDLIN( 463)							 ::Dynamic pmax20 = null();
+HXDLIN( 463)							 ::Dynamic e38;
+HXDLIN( 463)							if (::hx::IsNull( e37 )) {
+HXLINE( 463)								e38 = null();
             							}
             							else {
-HXLINE( 474)								if (::hx::IsNull( pmin20 )) {
-HXLINE( 474)									pmin20 = this->tokenMin;
+HXLINE( 463)								if (::hx::IsNull( pmin20 )) {
+HXLINE( 463)									pmin20 = this->tokenMin;
             								}
-HXDLIN( 474)								if (::hx::IsNull( pmax20 )) {
-HXLINE( 474)									pmax20 = this->tokenMax;
+HXDLIN( 463)								if (::hx::IsNull( pmax20 )) {
+HXLINE( 463)									pmax20 = this->tokenMax;
             								}
-HXDLIN( 474)								e38 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 463)								e38 =  ::Dynamic(::hx::Anon_obj::Create(5)
             									->setFixed(0,HX_("e",65,00,00,00),e37)
             									->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             									->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax20)
             									->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin20)
             									->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             							}
-HXLINE( 471)							 ::hscript::ExprDef e39 = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(3)->init(0,e35)->init(1,e36)->init(2,e38));
-HXDLIN( 471)							 ::Dynamic pmin21 = p1;
-HXDLIN( 471)							 ::Dynamic pmax21 = null();
-HXDLIN( 471)							 ::Dynamic e40;
-HXDLIN( 471)							if (::hx::IsNull( e39 )) {
-HXLINE( 471)								e40 = null();
+HXLINE( 460)							 ::hscript::ExprDef e39 = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(3)->init(0,e35)->init(1,e36)->init(2,e38));
+HXDLIN( 460)							 ::Dynamic pmin21 = p1;
+HXDLIN( 460)							 ::Dynamic pmax21 = null();
+HXDLIN( 460)							 ::Dynamic e40;
+HXDLIN( 460)							if (::hx::IsNull( e39 )) {
+HXLINE( 460)								e40 = null();
             							}
             							else {
-HXLINE( 471)								if (::hx::IsNull( pmin21 )) {
-HXLINE( 471)									pmin21 = this->tokenMin;
+HXLINE( 460)								if (::hx::IsNull( pmin21 )) {
+HXLINE( 460)									pmin21 = this->tokenMin;
             								}
-HXDLIN( 471)								if (::hx::IsNull( pmax21 )) {
-HXLINE( 471)									pmax21 = this->tokenMax;
+HXDLIN( 460)								if (::hx::IsNull( pmax21 )) {
+HXLINE( 460)									pmax21 = this->tokenMax;
             								}
-HXDLIN( 471)								e40 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 460)								e40 =  ::Dynamic(::hx::Anon_obj::Create(5)
             									->setFixed(0,HX_("e",65,00,00,00),e39)
             									->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             									->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax21)
             									->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin21)
             									->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             							}
-HXLINE( 476)							return this->parseExprNext(e40);
+HXLINE( 465)							return this->parseExprNext(e40);
             						}
             						break;
             						default:{
             						}
             					}
             				}
-HXLINE( 479)				 ::hscript::ExprDef e41 = ::hscript::ExprDef_obj::EArrayDecl(a1);
-HXDLIN( 479)				 ::Dynamic pmin22 = p1;
-HXDLIN( 479)				 ::Dynamic pmax22 = null();
-HXDLIN( 479)				 ::Dynamic _hx_tmp9;
-HXDLIN( 479)				if (::hx::IsNull( e41 )) {
-HXLINE( 479)					_hx_tmp9 = null();
+HXLINE( 468)				 ::hscript::ExprDef e41 = ::hscript::ExprDef_obj::EArrayDecl(a1);
+HXDLIN( 468)				 ::Dynamic pmin22 = p1;
+HXDLIN( 468)				 ::Dynamic pmax22 = null();
+HXDLIN( 468)				 ::Dynamic _hx_tmp9;
+HXDLIN( 468)				if (::hx::IsNull( e41 )) {
+HXLINE( 468)					_hx_tmp9 = null();
             				}
             				else {
-HXLINE( 479)					if (::hx::IsNull( pmin22 )) {
-HXLINE( 479)						pmin22 = this->tokenMin;
+HXLINE( 468)					if (::hx::IsNull( pmin22 )) {
+HXLINE( 468)						pmin22 = this->tokenMin;
             					}
-HXDLIN( 479)					if (::hx::IsNull( pmax22 )) {
-HXLINE( 479)						pmax22 = this->tokenMax;
+HXDLIN( 468)					if (::hx::IsNull( pmax22 )) {
+HXLINE( 468)						pmax22 = this->tokenMax;
             					}
-HXDLIN( 479)					_hx_tmp9 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 468)					_hx_tmp9 =  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e41)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax22)
             						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin22)
             						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             				}
-HXDLIN( 479)				return this->parseExprNext(_hx_tmp9);
+HXDLIN( 468)				return this->parseExprNext(_hx_tmp9);
             			}
             			break;
-            			case (int)15: {
-HXLINE( 480)				::String id1 = tk->_hx_getString(0);
-HXDLIN( 480)				if (this->allowMetadata) {
-HXLINE( 481)					::Array< ::Dynamic> args = this->parseMetaArgs();
-HXLINE( 482)					 ::hscript::ExprDef e42 = ::hscript::ExprDef_obj::EMeta(id1,args,this->parseExpr());
-HXDLIN( 482)					 ::Dynamic pmin23 = p1;
-HXDLIN( 482)					 ::Dynamic pmax23 = null();
-HXDLIN( 482)					if (::hx::IsNull( e42 )) {
-HXLINE( 482)						return null();
+            			case (int)16: {
+HXLINE( 469)				::String id1 = tk->_hx_getString(0);
+HXDLIN( 469)				if (this->allowMetadata) {
+HXLINE( 470)					::Array< ::Dynamic> args = this->parseMetaArgs();
+HXLINE( 471)					 ::hscript::ExprDef e42 = ::hscript::ExprDef_obj::EMeta(id1,args,this->parseExpr());
+HXDLIN( 471)					 ::Dynamic pmin23 = p1;
+HXDLIN( 471)					 ::Dynamic pmax23 = null();
+HXDLIN( 471)					if (::hx::IsNull( e42 )) {
+HXLINE( 471)						return null();
             					}
             					else {
-HXLINE( 482)						if (::hx::IsNull( pmin23 )) {
-HXLINE( 482)							pmin23 = this->tokenMin;
+HXLINE( 471)						if (::hx::IsNull( pmin23 )) {
+HXLINE( 471)							pmin23 = this->tokenMin;
             						}
-HXDLIN( 482)						if (::hx::IsNull( pmax23 )) {
-HXLINE( 482)							pmax23 = this->tokenMax;
+HXDLIN( 471)						if (::hx::IsNull( pmax23 )) {
+HXLINE( 471)							pmax23 = this->tokenMax;
             						}
-HXDLIN( 482)						return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 471)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e42)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax23)
@@ -1606,494 +1618,494 @@ HXDLIN( 482)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             					}
             				}
             				else {
-HXLINE( 484)					return this->unexpected(tk);
+HXLINE( 473)					return this->unexpected(tk);
             				}
             			}
             			break;
             			default:{
-HXLINE( 484)				return this->unexpected(tk);
+HXLINE( 473)				return this->unexpected(tk);
             			}
             		}
-HXLINE( 354)		return null();
+HXLINE( 343)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,parseExpr,return )
 
  ::Dynamic Parser_obj::parseLambda(::Array< ::Dynamic> args, ::Dynamic pmin){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_488_parseLambda)
-HXLINE( 489)		while(true){
-HXLINE( 490)			::String id = this->getIdent();
-HXLINE( 491)			 ::hscript::CType t;
-HXDLIN( 491)			if (this->maybe(::hscript::Token_obj::TDoubleDot_dyn())) {
-HXLINE( 491)				t = this->parseType();
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_477_parseLambda)
+HXLINE( 478)		while(true){
+HXLINE( 479)			::String id = this->getIdent();
+HXLINE( 480)			 ::hscript::CType t;
+HXDLIN( 480)			if (this->maybe(::hscript::Token_obj::TDoubleDot_dyn())) {
+HXLINE( 480)				t = this->parseType();
             			}
             			else {
-HXLINE( 491)				t = null();
+HXLINE( 480)				t = null();
             			}
-HXLINE( 492)			args->push( ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE( 481)			args->push( ::Dynamic(::hx::Anon_obj::Create(2)
             				->setFixed(0,HX_("t",74,00,00,00),t)
             				->setFixed(1,HX_("name",4b,72,ff,48),id)));
-HXLINE( 493)			 ::hscript::Token tk = this->token();
-HXLINE( 494)			switch((int)(tk->_hx_getIndex())){
+HXLINE( 482)			 ::hscript::Token tk = this->token();
+HXLINE( 483)			switch((int)(tk->_hx_getIndex())){
             				case (int)5: {
-HXLINE( 497)					goto _hx_goto_41;
+HXLINE( 486)					goto _hx_goto_42;
             				}
             				break;
-            				case (int)9: {
+            				case (int)10: {
             				}
             				break;
             				default:{
-HXLINE( 499)					this->unexpected(tk);
-HXLINE( 500)					goto _hx_goto_41;
+HXLINE( 488)					this->unexpected(tk);
+HXLINE( 489)					goto _hx_goto_42;
             				}
             			}
             		}
-            		_hx_goto_41:;
-HXLINE( 503)		{
-HXLINE( 503)			 ::hscript::Token t1 = this->token();
-HXDLIN( 503)			if (!(__hxcpp_enum_eq(t1,::hscript::Token_obj::TOp(HX_("->",71,27,00,00))))) {
-HXLINE( 503)				this->unexpected(t1);
+            		_hx_goto_42:;
+HXLINE( 492)		{
+HXLINE( 492)			 ::hscript::Token t1 = this->token();
+HXDLIN( 492)			if (!(__hxcpp_enum_eq(t1,::hscript::Token_obj::TOp(HX_("->",71,27,00,00))))) {
+HXLINE( 492)				this->unexpected(t1);
             			}
             		}
-HXLINE( 504)		 ::Dynamic eret = this->parseExpr();
-HXLINE( 505)		 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EReturn(eret);
-HXDLIN( 505)		 ::Dynamic pmin1 = pmin;
-HXDLIN( 505)		 ::Dynamic pmax = null();
-HXDLIN( 505)		 ::Dynamic e1;
-HXDLIN( 505)		if (::hx::IsNull( e )) {
-HXLINE( 505)			e1 = null();
+HXLINE( 493)		 ::Dynamic eret = this->parseExpr();
+HXLINE( 494)		 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EReturn(eret);
+HXDLIN( 494)		 ::Dynamic pmin1 = pmin;
+HXDLIN( 494)		 ::Dynamic pmax = null();
+HXDLIN( 494)		 ::Dynamic e1;
+HXDLIN( 494)		if (::hx::IsNull( e )) {
+HXLINE( 494)			e1 = null();
             		}
             		else {
-HXLINE( 505)			if (::hx::IsNull( pmin1 )) {
-HXLINE( 505)				pmin1 = this->tokenMin;
+HXLINE( 494)			if (::hx::IsNull( pmin1 )) {
+HXLINE( 494)				pmin1 = this->tokenMin;
             			}
-HXDLIN( 505)			if (::hx::IsNull( pmax )) {
-HXLINE( 505)				pmax = this->tokenMax;
+HXDLIN( 494)			if (::hx::IsNull( pmax )) {
+HXLINE( 494)				pmax = this->tokenMax;
             			}
-HXDLIN( 505)			e1 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 494)			e1 =  ::Dynamic(::hx::Anon_obj::Create(5)
             				->setFixed(0,HX_("e",65,00,00,00),e)
             				->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             				->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax)
             				->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin1)
             				->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             		}
-HXDLIN( 505)		 ::hscript::ExprDef e2 = ::hscript::ExprDef_obj::EFunction(args,e1,null(),null());
-HXDLIN( 505)		 ::Dynamic pmin2 = pmin;
-HXDLIN( 505)		 ::Dynamic pmax1 = null();
-HXDLIN( 505)		if (::hx::IsNull( e2 )) {
-HXLINE( 505)			return null();
+HXDLIN( 494)		 ::hscript::ExprDef e2 = ::hscript::ExprDef_obj::EFunction(args,e1,null(),null());
+HXDLIN( 494)		 ::Dynamic pmin2 = pmin;
+HXDLIN( 494)		 ::Dynamic pmax1 = null();
+HXDLIN( 494)		if (::hx::IsNull( e2 )) {
+HXLINE( 494)			return null();
             		}
             		else {
-HXLINE( 505)			if (::hx::IsNull( pmin2 )) {
-HXLINE( 505)				pmin2 = this->tokenMin;
+HXLINE( 494)			if (::hx::IsNull( pmin2 )) {
+HXLINE( 494)				pmin2 = this->tokenMin;
             			}
-HXDLIN( 505)			if (::hx::IsNull( pmax1 )) {
-HXLINE( 505)				pmax1 = this->tokenMax;
+HXDLIN( 494)			if (::hx::IsNull( pmax1 )) {
+HXLINE( 494)				pmax1 = this->tokenMax;
             			}
-HXDLIN( 505)			return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 494)			return  ::Dynamic(::hx::Anon_obj::Create(5)
             				->setFixed(0,HX_("e",65,00,00,00),e2)
             				->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             				->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax1)
             				->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin2)
             				->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             		}
-HXDLIN( 505)		return null();
+HXDLIN( 494)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Parser_obj,parseLambda,return )
 
 ::Array< ::Dynamic> Parser_obj::parseMetaArgs(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_508_parseMetaArgs)
-HXLINE( 509)		 ::hscript::Token tk = this->token();
-HXLINE( 510)		if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TPOpen_dyn() )) {
-HXLINE( 511)			{
-HXLINE( 511)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_497_parseMetaArgs)
+HXLINE( 498)		 ::hscript::Token tk = this->token();
+HXLINE( 499)		if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TPOpen_dyn() )) {
+HXLINE( 500)			{
+HXLINE( 500)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             					->setFixed(0,HX_("t",74,00,00,00),tk)
             					->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             					->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 511)				this->tokenMin = this->oldTokenMin;
-HXDLIN( 511)				this->tokenMax = this->oldTokenMax;
+HXDLIN( 500)				this->tokenMin = this->oldTokenMin;
+HXDLIN( 500)				this->tokenMax = this->oldTokenMax;
             			}
-HXLINE( 512)			return null();
+HXLINE( 501)			return null();
             		}
-HXLINE( 514)		::Array< ::Dynamic> args = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE( 515)		tk = this->token();
-HXLINE( 516)		if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TPClose_dyn() )) {
-HXLINE( 517)			{
-HXLINE( 517)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 503)		::Array< ::Dynamic> args = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 504)		tk = this->token();
+HXLINE( 505)		if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TPClose_dyn() )) {
+HXLINE( 506)			{
+HXLINE( 506)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             					->setFixed(0,HX_("t",74,00,00,00),tk)
             					->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             					->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 517)				this->tokenMin = this->oldTokenMin;
-HXDLIN( 517)				this->tokenMax = this->oldTokenMax;
+HXDLIN( 506)				this->tokenMin = this->oldTokenMin;
+HXDLIN( 506)				this->tokenMax = this->oldTokenMax;
             			}
-HXLINE( 518)			while(true){
-HXLINE( 519)				args->push(this->parseExpr());
-HXLINE( 520)				{
-HXLINE( 520)					 ::hscript::Token _g = this->token();
-HXDLIN( 520)					switch((int)(_g->_hx_getIndex())){
+HXLINE( 507)			while(true){
+HXLINE( 508)				args->push(this->parseExpr());
+HXLINE( 509)				{
+HXLINE( 509)					 ::hscript::Token _g = this->token();
+HXDLIN( 509)					switch((int)(_g->_hx_getIndex())){
             						case (int)5: {
-HXLINE( 523)							goto _hx_goto_43;
+HXLINE( 512)							goto _hx_goto_44;
             						}
             						break;
-            						case (int)9: {
+            						case (int)10: {
             						}
             						break;
             						default:{
-HXLINE( 524)							 ::hscript::Token tk1 = _g;
-HXLINE( 525)							this->unexpected(tk1);
+HXLINE( 513)							 ::hscript::Token tk1 = _g;
+HXLINE( 514)							this->unexpected(tk1);
             						}
             					}
             				}
             			}
-            			_hx_goto_43:;
+            			_hx_goto_44:;
             		}
-HXLINE( 529)		return args;
+HXLINE( 518)		return args;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,parseMetaArgs,return )
 
  ::Dynamic Parser_obj::mapCompr(::String tmp, ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_532_mapCompr)
-HXLINE( 533)		if (::hx::IsNull( e )) {
-HXLINE( 533)			return null();
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_521_mapCompr)
+HXLINE( 522)		if (::hx::IsNull( e )) {
+HXLINE( 522)			return null();
             		}
-HXLINE( 534)		 ::hscript::ExprDef edef;
-HXDLIN( 534)		 ::hscript::ExprDef _g = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 534)		switch((int)(_g->_hx_getIndex())){
+HXLINE( 523)		 ::hscript::ExprDef edef;
+HXDLIN( 523)		 ::hscript::ExprDef _g = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 523)		switch((int)(_g->_hx_getIndex())){
             			case (int)3: {
-HXLINE( 545)				 ::Dynamic e2 = _g->_hx_getObject(0);
-HXLINE( 534)				edef = ::hscript::ExprDef_obj::EParent(this->mapCompr(tmp,e2));
+HXLINE( 534)				 ::Dynamic e2 = _g->_hx_getObject(0);
+HXLINE( 523)				edef = ::hscript::ExprDef_obj::EParent(this->mapCompr(tmp,e2));
             			}
             			break;
             			case (int)4: {
-HXLINE( 543)				::Array< ::Dynamic> _g1 = _g->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
-HXDLIN( 543)				if ((_g1->length == 1)) {
-HXLINE( 543)					 ::Dynamic e1 = _g1->__get(0);
-HXLINE( 534)					edef = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(1)->init(0,this->mapCompr(tmp,e1)));
+HXLINE( 532)				::Array< ::Dynamic> _g1 = _g->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
+HXDLIN( 532)				if ((_g1->length == 1)) {
+HXLINE( 532)					 ::Dynamic e1 = _g1->__get(0);
+HXLINE( 523)					edef = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(1)->init(0,this->mapCompr(tmp,e1)));
             				}
             				else {
-HXLINE( 548)					 ::hscript::ExprDef e3 = ::hscript::ExprDef_obj::EIdent(tmp);
-HXDLIN( 548)					 ::Dynamic pmin;
-HXDLIN( 548)					if (::hx::IsNull( e )) {
-HXLINE( 548)						pmin = 0;
+HXLINE( 537)					 ::hscript::ExprDef e3 = ::hscript::ExprDef_obj::EIdent(tmp);
+HXDLIN( 537)					 ::Dynamic pmin;
+HXDLIN( 537)					if (::hx::IsNull( e )) {
+HXLINE( 537)						pmin = 0;
             					}
             					else {
-HXLINE( 548)						pmin = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 537)						pmin = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             					}
-HXDLIN( 548)					 ::Dynamic pmax;
-HXDLIN( 548)					if (::hx::IsNull( e )) {
-HXLINE( 548)						pmax = 0;
-            					}
-            					else {
-HXLINE( 548)						pmax = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            					}
-HXDLIN( 548)					 ::Dynamic e4;
-HXDLIN( 548)					if (::hx::IsNull( e3 )) {
-HXLINE( 548)						e4 = null();
+HXDLIN( 537)					 ::Dynamic pmax;
+HXDLIN( 537)					if (::hx::IsNull( e )) {
+HXLINE( 537)						pmax = 0;
             					}
             					else {
-HXLINE( 548)						if (::hx::IsNull( pmin )) {
-HXLINE( 548)							pmin = this->tokenMin;
+HXLINE( 537)						pmax = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            					}
+HXDLIN( 537)					 ::Dynamic e4;
+HXDLIN( 537)					if (::hx::IsNull( e3 )) {
+HXLINE( 537)						e4 = null();
+            					}
+            					else {
+HXLINE( 537)						if (::hx::IsNull( pmin )) {
+HXLINE( 537)							pmin = this->tokenMin;
             						}
-HXDLIN( 548)						if (::hx::IsNull( pmax )) {
-HXLINE( 548)							pmax = this->tokenMax;
+HXDLIN( 537)						if (::hx::IsNull( pmax )) {
+HXLINE( 537)							pmax = this->tokenMax;
             						}
-HXDLIN( 548)						e4 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 537)						e4 =  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e3)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax)
             							->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin)
             							->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             					}
-HXDLIN( 548)					 ::hscript::ExprDef e5 = ::hscript::ExprDef_obj::EField(e4,HX_("push",da,11,61,4a));
-HXDLIN( 548)					 ::Dynamic pmin1;
-HXDLIN( 548)					if (::hx::IsNull( e )) {
-HXLINE( 548)						pmin1 = 0;
+HXDLIN( 537)					 ::hscript::ExprDef e5 = ::hscript::ExprDef_obj::EField(e4,HX_("push",da,11,61,4a));
+HXDLIN( 537)					 ::Dynamic pmin1;
+HXDLIN( 537)					if (::hx::IsNull( e )) {
+HXLINE( 537)						pmin1 = 0;
             					}
             					else {
-HXLINE( 548)						pmin1 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 537)						pmin1 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             					}
-HXDLIN( 548)					 ::Dynamic pmax1;
-HXDLIN( 548)					if (::hx::IsNull( e )) {
-HXLINE( 548)						pmax1 = 0;
-            					}
-            					else {
-HXLINE( 548)						pmax1 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            					}
-HXDLIN( 548)					 ::Dynamic edef1;
-HXDLIN( 548)					if (::hx::IsNull( e5 )) {
-HXLINE( 548)						edef1 = null();
+HXDLIN( 537)					 ::Dynamic pmax1;
+HXDLIN( 537)					if (::hx::IsNull( e )) {
+HXLINE( 537)						pmax1 = 0;
             					}
             					else {
-HXLINE( 548)						if (::hx::IsNull( pmin1 )) {
-HXLINE( 548)							pmin1 = this->tokenMin;
+HXLINE( 537)						pmax1 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            					}
+HXDLIN( 537)					 ::Dynamic edef1;
+HXDLIN( 537)					if (::hx::IsNull( e5 )) {
+HXLINE( 537)						edef1 = null();
+            					}
+            					else {
+HXLINE( 537)						if (::hx::IsNull( pmin1 )) {
+HXLINE( 537)							pmin1 = this->tokenMin;
             						}
-HXDLIN( 548)						if (::hx::IsNull( pmax1 )) {
-HXLINE( 548)							pmax1 = this->tokenMax;
+HXDLIN( 537)						if (::hx::IsNull( pmax1 )) {
+HXLINE( 537)							pmax1 = this->tokenMax;
             						}
-HXDLIN( 548)						edef1 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 537)						edef1 =  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e5)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax1)
             							->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin1)
             							->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             					}
-HXLINE( 534)					edef = ::hscript::ExprDef_obj::ECall(edef1,::Array_obj< ::Dynamic>::__new(1)->init(0,e));
+HXLINE( 523)					edef = ::hscript::ExprDef_obj::ECall(edef1,::Array_obj< ::Dynamic>::__new(1)->init(0,e));
             				}
             			}
             			break;
             			case (int)9: {
-HXLINE( 541)				 ::Dynamic cond = _g->_hx_getObject(0);
-HXDLIN( 541)				 ::Dynamic e11 = _g->_hx_getObject(1);
-HXDLIN( 541)				 ::Dynamic e21 = _g->_hx_getObject(2);
-HXDLIN( 541)				if (::hx::IsNull( e21 )) {
-HXLINE( 534)					edef = ::hscript::ExprDef_obj::EIf(cond,this->mapCompr(tmp,e11),null());
+HXLINE( 530)				 ::Dynamic cond = _g->_hx_getObject(0);
+HXDLIN( 530)				 ::Dynamic e11 = _g->_hx_getObject(1);
+HXDLIN( 530)				 ::Dynamic e21 = _g->_hx_getObject(2);
+HXDLIN( 530)				if (::hx::IsNull( e21 )) {
+HXLINE( 523)					edef = ::hscript::ExprDef_obj::EIf(cond,this->mapCompr(tmp,e11),null());
             				}
             				else {
-HXLINE( 548)					 ::hscript::ExprDef e6 = ::hscript::ExprDef_obj::EIdent(tmp);
-HXDLIN( 548)					 ::Dynamic pmin2;
-HXDLIN( 548)					if (::hx::IsNull( e )) {
-HXLINE( 548)						pmin2 = 0;
+HXLINE( 537)					 ::hscript::ExprDef e6 = ::hscript::ExprDef_obj::EIdent(tmp);
+HXDLIN( 537)					 ::Dynamic pmin2;
+HXDLIN( 537)					if (::hx::IsNull( e )) {
+HXLINE( 537)						pmin2 = 0;
             					}
             					else {
-HXLINE( 548)						pmin2 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 537)						pmin2 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             					}
-HXDLIN( 548)					 ::Dynamic pmax2;
-HXDLIN( 548)					if (::hx::IsNull( e )) {
-HXLINE( 548)						pmax2 = 0;
-            					}
-            					else {
-HXLINE( 548)						pmax2 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            					}
-HXDLIN( 548)					 ::Dynamic e7;
-HXDLIN( 548)					if (::hx::IsNull( e6 )) {
-HXLINE( 548)						e7 = null();
+HXDLIN( 537)					 ::Dynamic pmax2;
+HXDLIN( 537)					if (::hx::IsNull( e )) {
+HXLINE( 537)						pmax2 = 0;
             					}
             					else {
-HXLINE( 548)						if (::hx::IsNull( pmin2 )) {
-HXLINE( 548)							pmin2 = this->tokenMin;
+HXLINE( 537)						pmax2 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            					}
+HXDLIN( 537)					 ::Dynamic e7;
+HXDLIN( 537)					if (::hx::IsNull( e6 )) {
+HXLINE( 537)						e7 = null();
+            					}
+            					else {
+HXLINE( 537)						if (::hx::IsNull( pmin2 )) {
+HXLINE( 537)							pmin2 = this->tokenMin;
             						}
-HXDLIN( 548)						if (::hx::IsNull( pmax2 )) {
-HXLINE( 548)							pmax2 = this->tokenMax;
+HXDLIN( 537)						if (::hx::IsNull( pmax2 )) {
+HXLINE( 537)							pmax2 = this->tokenMax;
             						}
-HXDLIN( 548)						e7 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 537)						e7 =  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e6)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax2)
             							->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin2)
             							->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             					}
-HXDLIN( 548)					 ::hscript::ExprDef e8 = ::hscript::ExprDef_obj::EField(e7,HX_("push",da,11,61,4a));
-HXDLIN( 548)					 ::Dynamic pmin3;
-HXDLIN( 548)					if (::hx::IsNull( e )) {
-HXLINE( 548)						pmin3 = 0;
+HXDLIN( 537)					 ::hscript::ExprDef e8 = ::hscript::ExprDef_obj::EField(e7,HX_("push",da,11,61,4a));
+HXDLIN( 537)					 ::Dynamic pmin3;
+HXDLIN( 537)					if (::hx::IsNull( e )) {
+HXLINE( 537)						pmin3 = 0;
             					}
             					else {
-HXLINE( 548)						pmin3 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 537)						pmin3 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             					}
-HXDLIN( 548)					 ::Dynamic pmax3;
-HXDLIN( 548)					if (::hx::IsNull( e )) {
-HXLINE( 548)						pmax3 = 0;
-            					}
-            					else {
-HXLINE( 548)						pmax3 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            					}
-HXDLIN( 548)					 ::Dynamic edef2;
-HXDLIN( 548)					if (::hx::IsNull( e8 )) {
-HXLINE( 548)						edef2 = null();
+HXDLIN( 537)					 ::Dynamic pmax3;
+HXDLIN( 537)					if (::hx::IsNull( e )) {
+HXLINE( 537)						pmax3 = 0;
             					}
             					else {
-HXLINE( 548)						if (::hx::IsNull( pmin3 )) {
-HXLINE( 548)							pmin3 = this->tokenMin;
+HXLINE( 537)						pmax3 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            					}
+HXDLIN( 537)					 ::Dynamic edef2;
+HXDLIN( 537)					if (::hx::IsNull( e8 )) {
+HXLINE( 537)						edef2 = null();
+            					}
+            					else {
+HXLINE( 537)						if (::hx::IsNull( pmin3 )) {
+HXLINE( 537)							pmin3 = this->tokenMin;
             						}
-HXDLIN( 548)						if (::hx::IsNull( pmax3 )) {
-HXLINE( 548)							pmax3 = this->tokenMax;
+HXDLIN( 537)						if (::hx::IsNull( pmax3 )) {
+HXLINE( 537)							pmax3 = this->tokenMax;
             						}
-HXDLIN( 548)						edef2 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 537)						edef2 =  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e8)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax3)
             							->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin3)
             							->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             					}
-HXLINE( 534)					edef = ::hscript::ExprDef_obj::ECall(edef2,::Array_obj< ::Dynamic>::__new(1)->init(0,e));
+HXLINE( 523)					edef = ::hscript::ExprDef_obj::ECall(edef2,::Array_obj< ::Dynamic>::__new(1)->init(0,e));
             				}
             			}
             			break;
             			case (int)10: {
-HXLINE( 537)				 ::Dynamic cond1 = _g->_hx_getObject(0);
-HXDLIN( 537)				 ::Dynamic e22 = _g->_hx_getObject(1);
-HXLINE( 534)				edef = ::hscript::ExprDef_obj::EWhile(cond1,this->mapCompr(tmp,e22));
+HXLINE( 526)				 ::Dynamic cond1 = _g->_hx_getObject(0);
+HXDLIN( 526)				 ::Dynamic e22 = _g->_hx_getObject(1);
+HXLINE( 523)				edef = ::hscript::ExprDef_obj::EWhile(cond1,this->mapCompr(tmp,e22));
             			}
             			break;
             			case (int)11: {
-HXLINE( 535)				::String v = _g->_hx_getString(0);
-HXDLIN( 535)				 ::Dynamic it = _g->_hx_getObject(1);
-HXDLIN( 535)				 ::Dynamic e23 = _g->_hx_getObject(2);
-HXLINE( 534)				edef = ::hscript::ExprDef_obj::EFor(v,it,this->mapCompr(tmp,e23));
+HXLINE( 524)				::String v = _g->_hx_getString(0);
+HXDLIN( 524)				 ::Dynamic it = _g->_hx_getObject(1);
+HXDLIN( 524)				 ::Dynamic e23 = _g->_hx_getObject(2);
+HXLINE( 523)				edef = ::hscript::ExprDef_obj::EFor(v,it,this->mapCompr(tmp,e23));
             			}
             			break;
             			case (int)24: {
-HXLINE( 539)				 ::Dynamic cond2 = _g->_hx_getObject(0);
-HXDLIN( 539)				 ::Dynamic e24 = _g->_hx_getObject(1);
-HXLINE( 534)				edef = ::hscript::ExprDef_obj::EDoWhile(cond2,this->mapCompr(tmp,e24));
+HXLINE( 528)				 ::Dynamic cond2 = _g->_hx_getObject(0);
+HXDLIN( 528)				 ::Dynamic e24 = _g->_hx_getObject(1);
+HXLINE( 523)				edef = ::hscript::ExprDef_obj::EDoWhile(cond2,this->mapCompr(tmp,e24));
             			}
             			break;
             			default:{
-HXLINE( 548)				 ::hscript::ExprDef e9 = ::hscript::ExprDef_obj::EIdent(tmp);
-HXDLIN( 548)				 ::Dynamic pmin4;
-HXDLIN( 548)				if (::hx::IsNull( e )) {
-HXLINE( 548)					pmin4 = 0;
+HXLINE( 537)				 ::hscript::ExprDef e9 = ::hscript::ExprDef_obj::EIdent(tmp);
+HXDLIN( 537)				 ::Dynamic pmin4;
+HXDLIN( 537)				if (::hx::IsNull( e )) {
+HXLINE( 537)					pmin4 = 0;
             				}
             				else {
-HXLINE( 548)					pmin4 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 537)					pmin4 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             				}
-HXDLIN( 548)				 ::Dynamic pmax4;
-HXDLIN( 548)				if (::hx::IsNull( e )) {
-HXLINE( 548)					pmax4 = 0;
-            				}
-            				else {
-HXLINE( 548)					pmax4 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            				}
-HXDLIN( 548)				 ::Dynamic e10;
-HXDLIN( 548)				if (::hx::IsNull( e9 )) {
-HXLINE( 548)					e10 = null();
+HXDLIN( 537)				 ::Dynamic pmax4;
+HXDLIN( 537)				if (::hx::IsNull( e )) {
+HXLINE( 537)					pmax4 = 0;
             				}
             				else {
-HXLINE( 548)					if (::hx::IsNull( pmin4 )) {
-HXLINE( 548)						pmin4 = this->tokenMin;
+HXLINE( 537)					pmax4 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 537)				 ::Dynamic e10;
+HXDLIN( 537)				if (::hx::IsNull( e9 )) {
+HXLINE( 537)					e10 = null();
+            				}
+            				else {
+HXLINE( 537)					if (::hx::IsNull( pmin4 )) {
+HXLINE( 537)						pmin4 = this->tokenMin;
             					}
-HXDLIN( 548)					if (::hx::IsNull( pmax4 )) {
-HXLINE( 548)						pmax4 = this->tokenMax;
+HXDLIN( 537)					if (::hx::IsNull( pmax4 )) {
+HXLINE( 537)						pmax4 = this->tokenMax;
             					}
-HXDLIN( 548)					e10 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 537)					e10 =  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e9)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax4)
             						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin4)
             						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             				}
-HXDLIN( 548)				 ::hscript::ExprDef e12 = ::hscript::ExprDef_obj::EField(e10,HX_("push",da,11,61,4a));
-HXDLIN( 548)				 ::Dynamic pmin5;
-HXDLIN( 548)				if (::hx::IsNull( e )) {
-HXLINE( 548)					pmin5 = 0;
+HXDLIN( 537)				 ::hscript::ExprDef e12 = ::hscript::ExprDef_obj::EField(e10,HX_("push",da,11,61,4a));
+HXDLIN( 537)				 ::Dynamic pmin5;
+HXDLIN( 537)				if (::hx::IsNull( e )) {
+HXLINE( 537)					pmin5 = 0;
             				}
             				else {
-HXLINE( 548)					pmin5 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 537)					pmin5 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             				}
-HXDLIN( 548)				 ::Dynamic pmax5;
-HXDLIN( 548)				if (::hx::IsNull( e )) {
-HXLINE( 548)					pmax5 = 0;
-            				}
-            				else {
-HXLINE( 548)					pmax5 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            				}
-HXDLIN( 548)				 ::Dynamic edef3;
-HXDLIN( 548)				if (::hx::IsNull( e12 )) {
-HXLINE( 548)					edef3 = null();
+HXDLIN( 537)				 ::Dynamic pmax5;
+HXDLIN( 537)				if (::hx::IsNull( e )) {
+HXLINE( 537)					pmax5 = 0;
             				}
             				else {
-HXLINE( 548)					if (::hx::IsNull( pmin5 )) {
-HXLINE( 548)						pmin5 = this->tokenMin;
+HXLINE( 537)					pmax5 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 537)				 ::Dynamic edef3;
+HXDLIN( 537)				if (::hx::IsNull( e12 )) {
+HXLINE( 537)					edef3 = null();
+            				}
+            				else {
+HXLINE( 537)					if (::hx::IsNull( pmin5 )) {
+HXLINE( 537)						pmin5 = this->tokenMin;
             					}
-HXDLIN( 548)					if (::hx::IsNull( pmax5 )) {
-HXLINE( 548)						pmax5 = this->tokenMax;
+HXDLIN( 537)					if (::hx::IsNull( pmax5 )) {
+HXLINE( 537)						pmax5 = this->tokenMax;
             					}
-HXDLIN( 548)					edef3 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 537)					edef3 =  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e12)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax5)
             						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin5)
             						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             				}
-HXLINE( 534)				edef = ::hscript::ExprDef_obj::ECall(edef3,::Array_obj< ::Dynamic>::__new(1)->init(0,e));
+HXLINE( 523)				edef = ::hscript::ExprDef_obj::ECall(edef3,::Array_obj< ::Dynamic>::__new(1)->init(0,e));
             			}
             		}
-HXLINE( 550)		 ::Dynamic pmin6;
-HXDLIN( 550)		if (::hx::IsNull( e )) {
-HXLINE( 550)			pmin6 = 0;
+HXLINE( 539)		 ::Dynamic pmin6;
+HXDLIN( 539)		if (::hx::IsNull( e )) {
+HXLINE( 539)			pmin6 = 0;
             		}
             		else {
-HXLINE( 550)			pmin6 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 539)			pmin6 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             		}
-HXDLIN( 550)		 ::Dynamic pmax6;
-HXDLIN( 550)		if (::hx::IsNull( e )) {
-HXLINE( 550)			pmax6 = 0;
-            		}
-            		else {
-HXLINE( 550)			pmax6 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            		}
-HXDLIN( 550)		if (::hx::IsNull( edef )) {
-HXLINE( 550)			return null();
+HXDLIN( 539)		 ::Dynamic pmax6;
+HXDLIN( 539)		if (::hx::IsNull( e )) {
+HXLINE( 539)			pmax6 = 0;
             		}
             		else {
-HXLINE( 550)			if (::hx::IsNull( pmin6 )) {
-HXLINE( 550)				pmin6 = this->tokenMin;
+HXLINE( 539)			pmax6 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            		}
+HXDLIN( 539)		if (::hx::IsNull( edef )) {
+HXLINE( 539)			return null();
+            		}
+            		else {
+HXLINE( 539)			if (::hx::IsNull( pmin6 )) {
+HXLINE( 539)				pmin6 = this->tokenMin;
             			}
-HXDLIN( 550)			if (::hx::IsNull( pmax6 )) {
-HXLINE( 550)				pmax6 = this->tokenMax;
+HXDLIN( 539)			if (::hx::IsNull( pmax6 )) {
+HXLINE( 539)				pmax6 = this->tokenMax;
             			}
-HXDLIN( 550)			return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 539)			return  ::Dynamic(::hx::Anon_obj::Create(5)
             				->setFixed(0,HX_("e",65,00,00,00),edef)
             				->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             				->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax6)
             				->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin6)
             				->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             		}
-HXDLIN( 550)		return null();
+HXDLIN( 539)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Parser_obj,mapCompr,return )
 
  ::Dynamic Parser_obj::makeUnop(::String op, ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_553_makeUnop)
-HXLINE( 554)		bool _hx_tmp;
-HXDLIN( 554)		if (::hx::IsNull( e )) {
-HXLINE( 554)			_hx_tmp = this->resumeErrors;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_542_makeUnop)
+HXLINE( 543)		bool _hx_tmp;
+HXDLIN( 543)		if (::hx::IsNull( e )) {
+HXLINE( 543)			_hx_tmp = this->resumeErrors;
             		}
             		else {
-HXLINE( 554)			_hx_tmp = false;
+HXLINE( 543)			_hx_tmp = false;
             		}
-HXDLIN( 554)		if (_hx_tmp) {
-HXLINE( 555)			return null();
+HXDLIN( 543)		if (_hx_tmp) {
+HXLINE( 544)			return null();
             		}
-HXLINE( 556)		 ::hscript::ExprDef _g = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 556)		switch((int)(_g->_hx_getIndex())){
+HXLINE( 545)		 ::hscript::ExprDef _g = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 545)		switch((int)(_g->_hx_getIndex())){
             			case (int)6: {
-HXLINE( 557)				::String bop = _g->_hx_getString(0);
-HXDLIN( 557)				 ::Dynamic e1 = _g->_hx_getObject(1);
-HXDLIN( 557)				 ::Dynamic e2 = _g->_hx_getObject(2);
-HXDLIN( 557)				 ::hscript::ExprDef e3 = ::hscript::ExprDef_obj::EBinop(bop,this->makeUnop(op,e1),e2);
-HXDLIN( 557)				 ::Dynamic pmin;
-HXDLIN( 557)				if (::hx::IsNull( e1 )) {
-HXLINE( 557)					pmin = 0;
+HXLINE( 546)				::String bop = _g->_hx_getString(0);
+HXDLIN( 546)				 ::Dynamic e1 = _g->_hx_getObject(1);
+HXDLIN( 546)				 ::Dynamic e2 = _g->_hx_getObject(2);
+HXDLIN( 546)				 ::hscript::ExprDef e3 = ::hscript::ExprDef_obj::EBinop(bop,this->makeUnop(op,e1),e2);
+HXDLIN( 546)				 ::Dynamic pmin;
+HXDLIN( 546)				if (::hx::IsNull( e1 )) {
+HXLINE( 546)					pmin = 0;
             				}
             				else {
-HXLINE( 557)					pmin = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 546)					pmin = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             				}
-HXDLIN( 557)				 ::Dynamic pmax;
-HXDLIN( 557)				if (::hx::IsNull( e2 )) {
-HXLINE( 557)					pmax = 0;
-            				}
-            				else {
-HXLINE( 557)					pmax = e2->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            				}
-HXDLIN( 557)				if (::hx::IsNull( e3 )) {
-HXLINE( 557)					return null();
+HXDLIN( 546)				 ::Dynamic pmax;
+HXDLIN( 546)				if (::hx::IsNull( e2 )) {
+HXLINE( 546)					pmax = 0;
             				}
             				else {
-HXLINE( 557)					if (::hx::IsNull( pmin )) {
-HXLINE( 557)						pmin = this->tokenMin;
+HXLINE( 546)					pmax = e2->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 546)				if (::hx::IsNull( e3 )) {
+HXLINE( 546)					return null();
+            				}
+            				else {
+HXLINE( 546)					if (::hx::IsNull( pmin )) {
+HXLINE( 546)						pmin = this->tokenMin;
             					}
-HXDLIN( 557)					if (::hx::IsNull( pmax )) {
-HXLINE( 557)						pmax = this->tokenMax;
+HXDLIN( 546)					if (::hx::IsNull( pmax )) {
+HXLINE( 546)						pmax = this->tokenMax;
             					}
-HXDLIN( 557)					return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 546)					return  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e3)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax)
@@ -2103,35 +2115,35 @@ HXDLIN( 557)					return  ::Dynamic(::hx::Anon_obj::Create(5)
             			}
             			break;
             			case (int)22: {
-HXLINE( 558)				 ::Dynamic e11 = _g->_hx_getObject(0);
-HXDLIN( 558)				 ::Dynamic e21 = _g->_hx_getObject(1);
-HXDLIN( 558)				 ::Dynamic e31 = _g->_hx_getObject(2);
-HXDLIN( 558)				 ::hscript::ExprDef e4 = ::hscript::ExprDef_obj::ETernary(this->makeUnop(op,e11),e21,e31);
-HXDLIN( 558)				 ::Dynamic pmin1;
-HXDLIN( 558)				if (::hx::IsNull( e11 )) {
-HXLINE( 558)					pmin1 = 0;
+HXLINE( 547)				 ::Dynamic e11 = _g->_hx_getObject(0);
+HXDLIN( 547)				 ::Dynamic e21 = _g->_hx_getObject(1);
+HXDLIN( 547)				 ::Dynamic e31 = _g->_hx_getObject(2);
+HXDLIN( 547)				 ::hscript::ExprDef e4 = ::hscript::ExprDef_obj::ETernary(this->makeUnop(op,e11),e21,e31);
+HXDLIN( 547)				 ::Dynamic pmin1;
+HXDLIN( 547)				if (::hx::IsNull( e11 )) {
+HXLINE( 547)					pmin1 = 0;
             				}
             				else {
-HXLINE( 558)					pmin1 = e11->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 547)					pmin1 = e11->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             				}
-HXDLIN( 558)				 ::Dynamic pmax1;
-HXDLIN( 558)				if (::hx::IsNull( e31 )) {
-HXLINE( 558)					pmax1 = 0;
-            				}
-            				else {
-HXLINE( 558)					pmax1 = e31->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            				}
-HXDLIN( 558)				if (::hx::IsNull( e4 )) {
-HXLINE( 558)					return null();
+HXDLIN( 547)				 ::Dynamic pmax1;
+HXDLIN( 547)				if (::hx::IsNull( e31 )) {
+HXLINE( 547)					pmax1 = 0;
             				}
             				else {
-HXLINE( 558)					if (::hx::IsNull( pmin1 )) {
-HXLINE( 558)						pmin1 = this->tokenMin;
+HXLINE( 547)					pmax1 = e31->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 547)				if (::hx::IsNull( e4 )) {
+HXLINE( 547)					return null();
+            				}
+            				else {
+HXLINE( 547)					if (::hx::IsNull( pmin1 )) {
+HXLINE( 547)						pmin1 = this->tokenMin;
             					}
-HXDLIN( 558)					if (::hx::IsNull( pmax1 )) {
-HXLINE( 558)						pmax1 = this->tokenMax;
+HXDLIN( 547)					if (::hx::IsNull( pmax1 )) {
+HXLINE( 547)						pmax1 = this->tokenMax;
             					}
-HXDLIN( 558)					return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 547)					return  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e4)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax1)
@@ -2141,32 +2153,32 @@ HXDLIN( 558)					return  ::Dynamic(::hx::Anon_obj::Create(5)
             			}
             			break;
             			default:{
-HXLINE( 559)				 ::hscript::ExprDef e5 = ::hscript::ExprDef_obj::EUnop(op,true,e);
-HXDLIN( 559)				 ::Dynamic pmin2;
-HXDLIN( 559)				if (::hx::IsNull( e )) {
-HXLINE( 559)					pmin2 = 0;
+HXLINE( 548)				 ::hscript::ExprDef e5 = ::hscript::ExprDef_obj::EUnop(op,true,e);
+HXDLIN( 548)				 ::Dynamic pmin2;
+HXDLIN( 548)				if (::hx::IsNull( e )) {
+HXLINE( 548)					pmin2 = 0;
             				}
             				else {
-HXLINE( 559)					pmin2 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 548)					pmin2 = e->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             				}
-HXDLIN( 559)				 ::Dynamic pmax2;
-HXDLIN( 559)				if (::hx::IsNull( e )) {
-HXLINE( 559)					pmax2 = 0;
-            				}
-            				else {
-HXLINE( 559)					pmax2 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            				}
-HXDLIN( 559)				if (::hx::IsNull( e5 )) {
-HXLINE( 559)					return null();
+HXDLIN( 548)				 ::Dynamic pmax2;
+HXDLIN( 548)				if (::hx::IsNull( e )) {
+HXLINE( 548)					pmax2 = 0;
             				}
             				else {
-HXLINE( 559)					if (::hx::IsNull( pmin2 )) {
-HXLINE( 559)						pmin2 = this->tokenMin;
+HXLINE( 548)					pmax2 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 548)				if (::hx::IsNull( e5 )) {
+HXLINE( 548)					return null();
+            				}
+            				else {
+HXLINE( 548)					if (::hx::IsNull( pmin2 )) {
+HXLINE( 548)						pmin2 = this->tokenMin;
             					}
-HXDLIN( 559)					if (::hx::IsNull( pmax2 )) {
-HXLINE( 559)						pmax2 = this->tokenMax;
+HXDLIN( 548)					if (::hx::IsNull( pmax2 )) {
+HXLINE( 548)						pmax2 = this->tokenMax;
             					}
-HXDLIN( 559)					return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 548)					return  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e5)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax2)
@@ -2175,48 +2187,48 @@ HXDLIN( 559)					return  ::Dynamic(::hx::Anon_obj::Create(5)
             				}
             			}
             		}
-HXLINE( 556)		return null();
+HXLINE( 545)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Parser_obj,makeUnop,return )
 
  ::Dynamic Parser_obj::makeBinop(::String op, ::Dynamic e1, ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_563_makeBinop)
-HXLINE( 564)		bool _hx_tmp;
-HXDLIN( 564)		if (::hx::IsNull( e )) {
-HXLINE( 564)			_hx_tmp = this->resumeErrors;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_552_makeBinop)
+HXLINE( 553)		bool _hx_tmp;
+HXDLIN( 553)		if (::hx::IsNull( e )) {
+HXLINE( 553)			_hx_tmp = this->resumeErrors;
             		}
             		else {
-HXLINE( 564)			_hx_tmp = false;
+HXLINE( 553)			_hx_tmp = false;
             		}
-HXDLIN( 564)		if (_hx_tmp) {
-HXLINE( 565)			 ::hscript::ExprDef e2 = ::hscript::ExprDef_obj::EBinop(op,e1,e);
-HXDLIN( 565)			 ::Dynamic pmin;
-HXDLIN( 565)			if (::hx::IsNull( e1 )) {
-HXLINE( 565)				pmin = 0;
+HXDLIN( 553)		if (_hx_tmp) {
+HXLINE( 554)			 ::hscript::ExprDef e2 = ::hscript::ExprDef_obj::EBinop(op,e1,e);
+HXDLIN( 554)			 ::Dynamic pmin;
+HXDLIN( 554)			if (::hx::IsNull( e1 )) {
+HXLINE( 554)				pmin = 0;
             			}
             			else {
-HXLINE( 565)				pmin = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 554)				pmin = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             			}
-HXDLIN( 565)			 ::Dynamic pmax;
-HXDLIN( 565)			if (::hx::IsNull( e1 )) {
-HXLINE( 565)				pmax = 0;
-            			}
-            			else {
-HXLINE( 565)				pmax = e1->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            			}
-HXDLIN( 565)			if (::hx::IsNull( e2 )) {
-HXLINE( 565)				return null();
+HXDLIN( 554)			 ::Dynamic pmax;
+HXDLIN( 554)			if (::hx::IsNull( e1 )) {
+HXLINE( 554)				pmax = 0;
             			}
             			else {
-HXLINE( 565)				if (::hx::IsNull( pmin )) {
-HXLINE( 565)					pmin = this->tokenMin;
+HXLINE( 554)				pmax = e1->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            			}
+HXDLIN( 554)			if (::hx::IsNull( e2 )) {
+HXLINE( 554)				return null();
+            			}
+            			else {
+HXLINE( 554)				if (::hx::IsNull( pmin )) {
+HXLINE( 554)					pmin = this->tokenMin;
             				}
-HXDLIN( 565)				if (::hx::IsNull( pmax )) {
-HXLINE( 565)					pmax = this->tokenMax;
+HXDLIN( 554)				if (::hx::IsNull( pmax )) {
+HXLINE( 554)					pmax = this->tokenMax;
             				}
-HXDLIN( 565)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 554)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e2)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax)
@@ -2224,47 +2236,47 @@ HXDLIN( 565)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
             		}
-HXLINE( 566)		 ::hscript::ExprDef _g = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 566)		switch((int)(_g->_hx_getIndex())){
+HXLINE( 555)		 ::hscript::ExprDef _g = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 555)		switch((int)(_g->_hx_getIndex())){
             			case (int)6: {
-HXLINE( 567)				::String op2 = _g->_hx_getString(0);
-HXDLIN( 567)				 ::Dynamic e21 = _g->_hx_getObject(1);
-HXDLIN( 567)				 ::Dynamic e3 = _g->_hx_getObject(2);
-HXLINE( 568)				bool _hx_tmp1;
-HXDLIN( 568)				 ::Dynamic _hx_tmp2 = this->opPriority->get(op);
-HXDLIN( 568)				if (::hx::IsLessEq( _hx_tmp2,this->opPriority->get(op2) )) {
-HXLINE( 568)					_hx_tmp1 = !(this->opRightAssoc->exists(op));
+HXLINE( 556)				::String op2 = _g->_hx_getString(0);
+HXDLIN( 556)				 ::Dynamic e21 = _g->_hx_getObject(1);
+HXDLIN( 556)				 ::Dynamic e3 = _g->_hx_getObject(2);
+HXLINE( 557)				bool _hx_tmp1;
+HXDLIN( 557)				 ::Dynamic _hx_tmp2 = this->opPriority->get(op);
+HXDLIN( 557)				if (::hx::IsLessEq( _hx_tmp2,this->opPriority->get(op2) )) {
+HXLINE( 557)					_hx_tmp1 = !(this->opRightAssoc->exists(op));
             				}
             				else {
-HXLINE( 568)					_hx_tmp1 = false;
+HXLINE( 557)					_hx_tmp1 = false;
             				}
-HXDLIN( 568)				if (_hx_tmp1) {
-HXLINE( 569)					 ::hscript::ExprDef e4 = ::hscript::ExprDef_obj::EBinop(op2,this->makeBinop(op,e1,e21),e3);
-HXDLIN( 569)					 ::Dynamic pmin1;
-HXDLIN( 569)					if (::hx::IsNull( e1 )) {
-HXLINE( 569)						pmin1 = 0;
+HXDLIN( 557)				if (_hx_tmp1) {
+HXLINE( 558)					 ::hscript::ExprDef e4 = ::hscript::ExprDef_obj::EBinop(op2,this->makeBinop(op,e1,e21),e3);
+HXDLIN( 558)					 ::Dynamic pmin1;
+HXDLIN( 558)					if (::hx::IsNull( e1 )) {
+HXLINE( 558)						pmin1 = 0;
             					}
             					else {
-HXLINE( 569)						pmin1 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 558)						pmin1 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             					}
-HXDLIN( 569)					 ::Dynamic pmax1;
-HXDLIN( 569)					if (::hx::IsNull( e3 )) {
-HXLINE( 569)						pmax1 = 0;
-            					}
-            					else {
-HXLINE( 569)						pmax1 = e3->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            					}
-HXDLIN( 569)					if (::hx::IsNull( e4 )) {
-HXLINE( 569)						return null();
+HXDLIN( 558)					 ::Dynamic pmax1;
+HXDLIN( 558)					if (::hx::IsNull( e3 )) {
+HXLINE( 558)						pmax1 = 0;
             					}
             					else {
-HXLINE( 569)						if (::hx::IsNull( pmin1 )) {
-HXLINE( 569)							pmin1 = this->tokenMin;
+HXLINE( 558)						pmax1 = e3->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            					}
+HXDLIN( 558)					if (::hx::IsNull( e4 )) {
+HXLINE( 558)						return null();
+            					}
+            					else {
+HXLINE( 558)						if (::hx::IsNull( pmin1 )) {
+HXLINE( 558)							pmin1 = this->tokenMin;
             						}
-HXDLIN( 569)						if (::hx::IsNull( pmax1 )) {
-HXLINE( 569)							pmax1 = this->tokenMax;
+HXDLIN( 558)						if (::hx::IsNull( pmax1 )) {
+HXLINE( 558)							pmax1 = this->tokenMax;
             						}
-HXDLIN( 569)						return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 558)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e4)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax1)
@@ -2273,32 +2285,32 @@ HXDLIN( 569)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             					}
             				}
             				else {
-HXLINE( 571)					 ::hscript::ExprDef e5 = ::hscript::ExprDef_obj::EBinop(op,e1,e);
-HXDLIN( 571)					 ::Dynamic pmin2;
-HXDLIN( 571)					if (::hx::IsNull( e1 )) {
-HXLINE( 571)						pmin2 = 0;
+HXLINE( 560)					 ::hscript::ExprDef e5 = ::hscript::ExprDef_obj::EBinop(op,e1,e);
+HXDLIN( 560)					 ::Dynamic pmin2;
+HXDLIN( 560)					if (::hx::IsNull( e1 )) {
+HXLINE( 560)						pmin2 = 0;
             					}
             					else {
-HXLINE( 571)						pmin2 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 560)						pmin2 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             					}
-HXDLIN( 571)					 ::Dynamic pmax2;
-HXDLIN( 571)					if (::hx::IsNull( e )) {
-HXLINE( 571)						pmax2 = 0;
-            					}
-            					else {
-HXLINE( 571)						pmax2 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            					}
-HXDLIN( 571)					if (::hx::IsNull( e5 )) {
-HXLINE( 571)						return null();
+HXDLIN( 560)					 ::Dynamic pmax2;
+HXDLIN( 560)					if (::hx::IsNull( e )) {
+HXLINE( 560)						pmax2 = 0;
             					}
             					else {
-HXLINE( 571)						if (::hx::IsNull( pmin2 )) {
-HXLINE( 571)							pmin2 = this->tokenMin;
+HXLINE( 560)						pmax2 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            					}
+HXDLIN( 560)					if (::hx::IsNull( e5 )) {
+HXLINE( 560)						return null();
+            					}
+            					else {
+HXLINE( 560)						if (::hx::IsNull( pmin2 )) {
+HXLINE( 560)							pmin2 = this->tokenMin;
             						}
-HXDLIN( 571)						if (::hx::IsNull( pmax2 )) {
-HXLINE( 571)							pmax2 = this->tokenMax;
+HXDLIN( 560)						if (::hx::IsNull( pmax2 )) {
+HXLINE( 560)							pmax2 = this->tokenMax;
             						}
-HXDLIN( 571)						return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 560)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e5)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax2)
@@ -2309,36 +2321,36 @@ HXDLIN( 571)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             			}
             			break;
             			case (int)22: {
-HXLINE( 572)				 ::Dynamic e22 = _g->_hx_getObject(0);
-HXDLIN( 572)				 ::Dynamic e31 = _g->_hx_getObject(1);
-HXDLIN( 572)				 ::Dynamic e41 = _g->_hx_getObject(2);
-HXLINE( 573)				if (this->opRightAssoc->exists(op)) {
-HXLINE( 574)					 ::hscript::ExprDef e6 = ::hscript::ExprDef_obj::EBinop(op,e1,e);
-HXDLIN( 574)					 ::Dynamic pmin3;
-HXDLIN( 574)					if (::hx::IsNull( e1 )) {
-HXLINE( 574)						pmin3 = 0;
+HXLINE( 561)				 ::Dynamic e22 = _g->_hx_getObject(0);
+HXDLIN( 561)				 ::Dynamic e31 = _g->_hx_getObject(1);
+HXDLIN( 561)				 ::Dynamic e41 = _g->_hx_getObject(2);
+HXLINE( 562)				if (this->opRightAssoc->exists(op)) {
+HXLINE( 563)					 ::hscript::ExprDef e6 = ::hscript::ExprDef_obj::EBinop(op,e1,e);
+HXDLIN( 563)					 ::Dynamic pmin3;
+HXDLIN( 563)					if (::hx::IsNull( e1 )) {
+HXLINE( 563)						pmin3 = 0;
             					}
             					else {
-HXLINE( 574)						pmin3 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 563)						pmin3 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             					}
-HXDLIN( 574)					 ::Dynamic pmax3;
-HXDLIN( 574)					if (::hx::IsNull( e )) {
-HXLINE( 574)						pmax3 = 0;
-            					}
-            					else {
-HXLINE( 574)						pmax3 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            					}
-HXDLIN( 574)					if (::hx::IsNull( e6 )) {
-HXLINE( 574)						return null();
+HXDLIN( 563)					 ::Dynamic pmax3;
+HXDLIN( 563)					if (::hx::IsNull( e )) {
+HXLINE( 563)						pmax3 = 0;
             					}
             					else {
-HXLINE( 574)						if (::hx::IsNull( pmin3 )) {
-HXLINE( 574)							pmin3 = this->tokenMin;
+HXLINE( 563)						pmax3 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            					}
+HXDLIN( 563)					if (::hx::IsNull( e6 )) {
+HXLINE( 563)						return null();
+            					}
+            					else {
+HXLINE( 563)						if (::hx::IsNull( pmin3 )) {
+HXLINE( 563)							pmin3 = this->tokenMin;
             						}
-HXDLIN( 574)						if (::hx::IsNull( pmax3 )) {
-HXLINE( 574)							pmax3 = this->tokenMax;
+HXDLIN( 563)						if (::hx::IsNull( pmax3 )) {
+HXLINE( 563)							pmax3 = this->tokenMax;
             						}
-HXDLIN( 574)						return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 563)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e6)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax3)
@@ -2347,32 +2359,32 @@ HXDLIN( 574)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             					}
             				}
             				else {
-HXLINE( 576)					 ::hscript::ExprDef e7 = ::hscript::ExprDef_obj::ETernary(this->makeBinop(op,e1,e22),e31,e41);
-HXDLIN( 576)					 ::Dynamic pmin4;
-HXDLIN( 576)					if (::hx::IsNull( e1 )) {
-HXLINE( 576)						pmin4 = 0;
+HXLINE( 565)					 ::hscript::ExprDef e7 = ::hscript::ExprDef_obj::ETernary(this->makeBinop(op,e1,e22),e31,e41);
+HXDLIN( 565)					 ::Dynamic pmin4;
+HXDLIN( 565)					if (::hx::IsNull( e1 )) {
+HXLINE( 565)						pmin4 = 0;
             					}
             					else {
-HXLINE( 576)						pmin4 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 565)						pmin4 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             					}
-HXDLIN( 576)					 ::Dynamic pmax4;
-HXDLIN( 576)					if (::hx::IsNull( e )) {
-HXLINE( 576)						pmax4 = 0;
-            					}
-            					else {
-HXLINE( 576)						pmax4 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            					}
-HXDLIN( 576)					if (::hx::IsNull( e7 )) {
-HXLINE( 576)						return null();
+HXDLIN( 565)					 ::Dynamic pmax4;
+HXDLIN( 565)					if (::hx::IsNull( e )) {
+HXLINE( 565)						pmax4 = 0;
             					}
             					else {
-HXLINE( 576)						if (::hx::IsNull( pmin4 )) {
-HXLINE( 576)							pmin4 = this->tokenMin;
+HXLINE( 565)						pmax4 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            					}
+HXDLIN( 565)					if (::hx::IsNull( e7 )) {
+HXLINE( 565)						return null();
+            					}
+            					else {
+HXLINE( 565)						if (::hx::IsNull( pmin4 )) {
+HXLINE( 565)							pmin4 = this->tokenMin;
             						}
-HXDLIN( 576)						if (::hx::IsNull( pmax4 )) {
-HXLINE( 576)							pmax4 = this->tokenMax;
+HXDLIN( 565)						if (::hx::IsNull( pmax4 )) {
+HXLINE( 565)							pmax4 = this->tokenMax;
             						}
-HXDLIN( 576)						return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 565)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e7)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax4)
@@ -2383,32 +2395,32 @@ HXDLIN( 576)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             			}
             			break;
             			default:{
-HXLINE( 578)				 ::hscript::ExprDef e8 = ::hscript::ExprDef_obj::EBinop(op,e1,e);
-HXDLIN( 578)				 ::Dynamic pmin5;
-HXDLIN( 578)				if (::hx::IsNull( e1 )) {
-HXLINE( 578)					pmin5 = 0;
+HXLINE( 567)				 ::hscript::ExprDef e8 = ::hscript::ExprDef_obj::EBinop(op,e1,e);
+HXDLIN( 567)				 ::Dynamic pmin5;
+HXDLIN( 567)				if (::hx::IsNull( e1 )) {
+HXLINE( 567)					pmin5 = 0;
             				}
             				else {
-HXLINE( 578)					pmin5 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 567)					pmin5 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             				}
-HXDLIN( 578)				 ::Dynamic pmax5;
-HXDLIN( 578)				if (::hx::IsNull( e )) {
-HXLINE( 578)					pmax5 = 0;
-            				}
-            				else {
-HXLINE( 578)					pmax5 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            				}
-HXDLIN( 578)				if (::hx::IsNull( e8 )) {
-HXLINE( 578)					return null();
+HXDLIN( 567)				 ::Dynamic pmax5;
+HXDLIN( 567)				if (::hx::IsNull( e )) {
+HXLINE( 567)					pmax5 = 0;
             				}
             				else {
-HXLINE( 578)					if (::hx::IsNull( pmin5 )) {
-HXLINE( 578)						pmin5 = this->tokenMin;
+HXLINE( 567)					pmax5 = e->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 567)				if (::hx::IsNull( e8 )) {
+HXLINE( 567)					return null();
+            				}
+            				else {
+HXLINE( 567)					if (::hx::IsNull( pmin5 )) {
+HXLINE( 567)						pmin5 = this->tokenMin;
             					}
-HXDLIN( 578)					if (::hx::IsNull( pmax5 )) {
-HXLINE( 578)						pmax5 = this->tokenMax;
+HXDLIN( 567)					if (::hx::IsNull( pmax5 )) {
+HXLINE( 567)						pmax5 = this->tokenMax;
             					}
-HXDLIN( 578)					return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 567)					return  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e8)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax5)
@@ -2417,480 +2429,480 @@ HXDLIN( 578)					return  ::Dynamic(::hx::Anon_obj::Create(5)
             				}
             			}
             		}
-HXLINE( 566)		return null();
+HXLINE( 555)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Parser_obj,makeBinop,return )
 
  ::Dynamic Parser_obj::parseStructure(::String id){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_582_parseStructure)
-HXLINE( 584)		int p1 = this->tokenMin;
-HXLINE( 586)		::String _hx_switch_0 = id;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_571_parseStructure)
+HXLINE( 573)		int p1 = this->tokenMin;
+HXLINE( 575)		::String _hx_switch_0 = id;
             		if (  (_hx_switch_0==HX_("break",bf,24,ec,b8)) ){
-HXLINE( 642)			 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EBreak_dyn();
-HXDLIN( 642)			 ::Dynamic pmin = null();
-HXDLIN( 642)			 ::Dynamic pmax = null();
-HXDLIN( 642)			if (::hx::IsNull( e )) {
-HXLINE( 642)				return null();
+HXLINE( 631)			 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EBreak_dyn();
+HXDLIN( 631)			 ::Dynamic pmin = null();
+HXDLIN( 631)			 ::Dynamic pmax = null();
+HXDLIN( 631)			if (::hx::IsNull( e )) {
+HXLINE( 631)				return null();
             			}
             			else {
-HXLINE( 642)				if (::hx::IsNull( pmin )) {
-HXLINE( 642)					pmin = this->tokenMin;
+HXLINE( 631)				if (::hx::IsNull( pmin )) {
+HXLINE( 631)					pmin = this->tokenMin;
             				}
-HXDLIN( 642)				if (::hx::IsNull( pmax )) {
-HXLINE( 642)					pmax = this->tokenMax;
+HXDLIN( 631)				if (::hx::IsNull( pmax )) {
+HXLINE( 631)					pmax = this->tokenMax;
             				}
-HXDLIN( 642)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 631)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXDLIN( 642)			goto _hx_goto_48;
+HXDLIN( 631)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("continue",67,e0,c8,31)) ){
-HXLINE( 643)			 ::hscript::ExprDef e1 = ::hscript::ExprDef_obj::EContinue_dyn();
-HXDLIN( 643)			 ::Dynamic pmin1 = null();
-HXDLIN( 643)			 ::Dynamic pmax1 = null();
-HXDLIN( 643)			if (::hx::IsNull( e1 )) {
-HXLINE( 643)				return null();
+HXLINE( 632)			 ::hscript::ExprDef e1 = ::hscript::ExprDef_obj::EContinue_dyn();
+HXDLIN( 632)			 ::Dynamic pmin1 = null();
+HXDLIN( 632)			 ::Dynamic pmax1 = null();
+HXDLIN( 632)			if (::hx::IsNull( e1 )) {
+HXLINE( 632)				return null();
             			}
             			else {
-HXLINE( 643)				if (::hx::IsNull( pmin1 )) {
-HXLINE( 643)					pmin1 = this->tokenMin;
+HXLINE( 632)				if (::hx::IsNull( pmin1 )) {
+HXLINE( 632)					pmin1 = this->tokenMin;
             				}
-HXDLIN( 643)				if (::hx::IsNull( pmax1 )) {
-HXLINE( 643)					pmax1 = this->tokenMax;
+HXDLIN( 632)				if (::hx::IsNull( pmax1 )) {
+HXLINE( 632)					pmax1 = this->tokenMax;
             				}
-HXDLIN( 643)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 632)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e1)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax1)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin1)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXDLIN( 643)			goto _hx_goto_48;
+HXDLIN( 632)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("do",8b,57,00,00)) ){
-HXLINE( 625)			 ::Dynamic e2 = this->parseExpr();
-HXLINE( 626)			 ::hscript::Token tk = this->token();
-HXLINE( 627)			if ((tk->_hx_getIndex() == 2)) {
-HXLINE( 629)				if ((tk->_hx_getString(0) != HX_("while",b1,43,bd,c9))) {
-HXLINE( 630)					this->unexpected(tk);
+HXLINE( 614)			 ::Dynamic e2 = this->parseExpr();
+HXLINE( 615)			 ::hscript::Token tk = this->token();
+HXLINE( 616)			if ((tk->_hx_getIndex() == 2)) {
+HXLINE( 618)				if ((tk->_hx_getString(0) != HX_("while",b1,43,bd,c9))) {
+HXLINE( 619)					this->unexpected(tk);
             				}
             			}
             			else {
-HXLINE( 630)				this->unexpected(tk);
+HXLINE( 619)				this->unexpected(tk);
             			}
-HXLINE( 632)			 ::Dynamic econd = this->parseExpr();
-HXLINE( 633)			 ::hscript::ExprDef e3 = ::hscript::ExprDef_obj::EDoWhile(econd,e2);
-HXDLIN( 633)			 ::Dynamic pmin2 = p1;
-HXDLIN( 633)			 ::Dynamic pmax2;
-HXDLIN( 633)			if (::hx::IsNull( econd )) {
-HXLINE( 633)				pmax2 = 0;
-            			}
-            			else {
-HXLINE( 633)				pmax2 = econd->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            			}
-HXDLIN( 633)			if (::hx::IsNull( e3 )) {
-HXLINE( 633)				return null();
+HXLINE( 621)			 ::Dynamic econd = this->parseExpr();
+HXLINE( 622)			 ::hscript::ExprDef e3 = ::hscript::ExprDef_obj::EDoWhile(econd,e2);
+HXDLIN( 622)			 ::Dynamic pmin2 = p1;
+HXDLIN( 622)			 ::Dynamic pmax2;
+HXDLIN( 622)			if (::hx::IsNull( econd )) {
+HXLINE( 622)				pmax2 = 0;
             			}
             			else {
-HXLINE( 633)				if (::hx::IsNull( pmin2 )) {
-HXLINE( 633)					pmin2 = this->tokenMin;
+HXLINE( 622)				pmax2 = econd->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            			}
+HXDLIN( 622)			if (::hx::IsNull( e3 )) {
+HXLINE( 622)				return null();
+            			}
+            			else {
+HXLINE( 622)				if (::hx::IsNull( pmin2 )) {
+HXLINE( 622)					pmin2 = this->tokenMin;
             				}
-HXDLIN( 633)				if (::hx::IsNull( pmax2 )) {
-HXLINE( 633)					pmax2 = this->tokenMax;
+HXDLIN( 622)				if (::hx::IsNull( pmax2 )) {
+HXLINE( 622)					pmax2 = this->tokenMax;
             				}
-HXDLIN( 633)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 622)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e3)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax2)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin2)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXLINE( 624)			goto _hx_goto_48;
+HXLINE( 613)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("else",b9,e4,14,43)) ){
-HXLINE( 644)			return this->unexpected(::hscript::Token_obj::TId(id));
-HXDLIN( 644)			goto _hx_goto_48;
+HXLINE( 633)			return this->unexpected(::hscript::Token_obj::TId(id));
+HXDLIN( 633)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("for",09,c7,4d,00)) ){
-HXLINE( 635)			{
-HXLINE( 635)				 ::hscript::Token t = this->token();
-HXDLIN( 635)				if (::hx::IsPointerNotEq( t,::hscript::Token_obj::TPOpen_dyn() )) {
-HXLINE( 635)					this->unexpected(t);
+HXLINE( 624)			{
+HXLINE( 624)				 ::hscript::Token t = this->token();
+HXDLIN( 624)				if (::hx::IsPointerNotEq( t,::hscript::Token_obj::TPOpen_dyn() )) {
+HXLINE( 624)					this->unexpected(t);
             				}
             			}
-HXLINE( 636)			::String vname = this->getIdent();
-HXLINE( 637)			{
-HXLINE( 637)				 ::hscript::Token t1 = this->token();
-HXDLIN( 637)				if (!(__hxcpp_enum_eq(t1,::hscript::Token_obj::TId(HX_("in",e5,5b,00,00))))) {
-HXLINE( 637)					this->unexpected(t1);
+HXLINE( 625)			::String vname = this->getIdent();
+HXLINE( 626)			{
+HXLINE( 626)				 ::hscript::Token t1 = this->token();
+HXDLIN( 626)				if (!(__hxcpp_enum_eq(t1,::hscript::Token_obj::TId(HX_("in",e5,5b,00,00))))) {
+HXLINE( 626)					this->unexpected(t1);
             				}
             			}
-HXLINE( 638)			 ::Dynamic eiter = this->parseExpr();
-HXLINE( 639)			{
-HXLINE( 639)				 ::hscript::Token t2 = this->token();
-HXDLIN( 639)				if (::hx::IsPointerNotEq( t2,::hscript::Token_obj::TPClose_dyn() )) {
-HXLINE( 639)					this->unexpected(t2);
+HXLINE( 627)			 ::Dynamic eiter = this->parseExpr();
+HXLINE( 628)			{
+HXLINE( 628)				 ::hscript::Token t2 = this->token();
+HXDLIN( 628)				if (::hx::IsPointerNotEq( t2,::hscript::Token_obj::TPClose_dyn() )) {
+HXLINE( 628)					this->unexpected(t2);
             				}
             			}
-HXLINE( 640)			 ::Dynamic e4 = this->parseExpr();
-HXLINE( 641)			 ::hscript::ExprDef e5 = ::hscript::ExprDef_obj::EFor(vname,eiter,e4);
-HXDLIN( 641)			 ::Dynamic pmin3 = p1;
-HXDLIN( 641)			 ::Dynamic pmax3;
-HXDLIN( 641)			if (::hx::IsNull( e4 )) {
-HXLINE( 641)				pmax3 = 0;
+HXLINE( 629)			 ::Dynamic e4 = this->parseExpr();
+HXLINE( 630)			 ::hscript::ExprDef e5 = ::hscript::ExprDef_obj::EFor(vname,eiter,e4);
+HXDLIN( 630)			 ::Dynamic pmin3 = p1;
+HXDLIN( 630)			 ::Dynamic pmax3;
+HXDLIN( 630)			if (::hx::IsNull( e4 )) {
+HXLINE( 630)				pmax3 = 0;
             			}
             			else {
-HXLINE( 641)				pmax3 = e4->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+HXLINE( 630)				pmax3 = e4->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
             			}
-HXDLIN( 641)			if (::hx::IsNull( e5 )) {
-HXLINE( 641)				return null();
+HXDLIN( 630)			if (::hx::IsNull( e5 )) {
+HXLINE( 630)				return null();
             			}
             			else {
-HXLINE( 641)				if (::hx::IsNull( pmin3 )) {
-HXLINE( 641)					pmin3 = this->tokenMin;
+HXLINE( 630)				if (::hx::IsNull( pmin3 )) {
+HXLINE( 630)					pmin3 = this->tokenMin;
             				}
-HXDLIN( 641)				if (::hx::IsNull( pmax3 )) {
-HXLINE( 641)					pmax3 = this->tokenMax;
+HXDLIN( 630)				if (::hx::IsNull( pmax3 )) {
+HXLINE( 630)					pmax3 = this->tokenMax;
             				}
-HXDLIN( 641)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 630)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e5)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax3)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin3)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXLINE( 634)			goto _hx_goto_48;
+HXLINE( 623)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("function",18,ab,52,14)) ){
-HXLINE( 649)			 ::hscript::Token tk1 = this->token();
-HXLINE( 650)			::String name = null();
-HXLINE( 651)			if ((tk1->_hx_getIndex() == 2)) {
-HXLINE( 652)				::String id1 = tk1->_hx_getString(0);
-HXDLIN( 652)				name = id1;
+HXLINE( 638)			 ::hscript::Token tk1 = this->token();
+HXLINE( 639)			::String name = null();
+HXLINE( 640)			if ((tk1->_hx_getIndex() == 2)) {
+HXLINE( 641)				::String id1 = tk1->_hx_getString(0);
+HXDLIN( 641)				name = id1;
             			}
             			else {
-HXLINE( 653)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 642)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             					->setFixed(0,HX_("t",74,00,00,00),tk1)
             					->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             					->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 653)				this->tokenMin = this->oldTokenMin;
-HXDLIN( 653)				this->tokenMax = this->oldTokenMax;
+HXDLIN( 642)				this->tokenMin = this->oldTokenMin;
+HXDLIN( 642)				this->tokenMax = this->oldTokenMax;
             			}
-HXLINE( 655)			 ::Dynamic inf = this->parseFunctionDecl();
-HXLINE( 656)			 ::hscript::ExprDef e6 = ::hscript::ExprDef_obj::EFunction( ::Dynamic(inf->__Field(HX_("args",5d,8d,74,40),::hx::paccDynamic)), ::Dynamic(inf->__Field(HX_("body",a2,7a,1b,41),::hx::paccDynamic)),name, ::Dynamic(inf->__Field(HX_("ret",61,d9,56,00),::hx::paccDynamic)));
-HXDLIN( 656)			 ::Dynamic pmin4 = p1;
-HXDLIN( 656)			 ::Dynamic e7 = inf->__Field(HX_("body",a2,7a,1b,41),::hx::paccDynamic);
-HXDLIN( 656)			 ::Dynamic pmax4;
-HXDLIN( 656)			if (::hx::IsNull( e7 )) {
-HXLINE( 656)				pmax4 = 0;
-            			}
-            			else {
-HXLINE( 656)				pmax4 = e7->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            			}
-HXDLIN( 656)			if (::hx::IsNull( e6 )) {
-HXLINE( 656)				return null();
+HXLINE( 644)			 ::Dynamic inf = this->parseFunctionDecl();
+HXLINE( 645)			 ::hscript::ExprDef e6 = ::hscript::ExprDef_obj::EFunction( ::Dynamic(inf->__Field(HX_("args",5d,8d,74,40),::hx::paccDynamic)), ::Dynamic(inf->__Field(HX_("body",a2,7a,1b,41),::hx::paccDynamic)),name, ::Dynamic(inf->__Field(HX_("ret",61,d9,56,00),::hx::paccDynamic)));
+HXDLIN( 645)			 ::Dynamic pmin4 = p1;
+HXDLIN( 645)			 ::Dynamic e7 = inf->__Field(HX_("body",a2,7a,1b,41),::hx::paccDynamic);
+HXDLIN( 645)			 ::Dynamic pmax4;
+HXDLIN( 645)			if (::hx::IsNull( e7 )) {
+HXLINE( 645)				pmax4 = 0;
             			}
             			else {
-HXLINE( 656)				if (::hx::IsNull( pmin4 )) {
-HXLINE( 656)					pmin4 = this->tokenMin;
+HXLINE( 645)				pmax4 = e7->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            			}
+HXDLIN( 645)			if (::hx::IsNull( e6 )) {
+HXLINE( 645)				return null();
+            			}
+            			else {
+HXLINE( 645)				if (::hx::IsNull( pmin4 )) {
+HXLINE( 645)					pmin4 = this->tokenMin;
             				}
-HXDLIN( 656)				if (::hx::IsNull( pmax4 )) {
-HXLINE( 656)					pmax4 = this->tokenMax;
+HXDLIN( 645)				if (::hx::IsNull( pmax4 )) {
+HXLINE( 645)					pmax4 = this->tokenMax;
             				}
-HXDLIN( 656)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 645)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e6)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax4)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin4)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXLINE( 648)			goto _hx_goto_48;
+HXLINE( 637)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("if",dd,5b,00,00)) ){
-HXLINE( 588)			{
-HXLINE( 588)				 ::hscript::Token t3 = this->token();
-HXDLIN( 588)				if (::hx::IsPointerNotEq( t3,::hscript::Token_obj::TPOpen_dyn() )) {
-HXLINE( 588)					this->unexpected(t3);
+HXLINE( 577)			{
+HXLINE( 577)				 ::hscript::Token t3 = this->token();
+HXDLIN( 577)				if (::hx::IsPointerNotEq( t3,::hscript::Token_obj::TPOpen_dyn() )) {
+HXLINE( 577)					this->unexpected(t3);
             				}
             			}
-HXLINE( 589)			 ::Dynamic cond = this->parseExpr();
-HXLINE( 590)			{
-HXLINE( 590)				 ::hscript::Token t4 = this->token();
-HXDLIN( 590)				if (::hx::IsPointerNotEq( t4,::hscript::Token_obj::TPClose_dyn() )) {
-HXLINE( 590)					this->unexpected(t4);
+HXLINE( 578)			 ::Dynamic cond = this->parseExpr();
+HXLINE( 579)			{
+HXLINE( 579)				 ::hscript::Token t4 = this->token();
+HXDLIN( 579)				if (::hx::IsPointerNotEq( t4,::hscript::Token_obj::TPClose_dyn() )) {
+HXLINE( 579)					this->unexpected(t4);
             				}
             			}
-HXLINE( 591)			 ::Dynamic e11 = this->parseExpr();
-HXLINE( 592)			 ::Dynamic e21 = null();
-HXLINE( 593)			bool semic = false;
-HXLINE( 594)			 ::hscript::Token tk2 = this->token();
-HXLINE( 595)			if (::hx::IsPointerEq( tk2,::hscript::Token_obj::TSemicolon_dyn() )) {
-HXLINE( 596)				semic = true;
-HXLINE( 597)				tk2 = this->token();
+HXLINE( 580)			 ::Dynamic e11 = this->parseExpr();
+HXLINE( 581)			 ::Dynamic e21 = null();
+HXLINE( 582)			bool semic = false;
+HXLINE( 583)			 ::hscript::Token tk2 = this->token();
+HXLINE( 584)			if (::hx::IsPointerEq( tk2,::hscript::Token_obj::TSemicolon_dyn() )) {
+HXLINE( 585)				semic = true;
+HXLINE( 586)				tk2 = this->token();
             			}
-HXLINE( 599)			if (__hxcpp_enum_eq(tk2,::hscript::Token_obj::TId(HX_("else",b9,e4,14,43)))) {
-HXLINE( 600)				e21 = this->parseExpr();
+HXLINE( 588)			if (__hxcpp_enum_eq(tk2,::hscript::Token_obj::TId(HX_("else",b9,e4,14,43)))) {
+HXLINE( 589)				e21 = this->parseExpr();
             			}
             			else {
-HXLINE( 602)				{
-HXLINE( 602)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 591)				{
+HXLINE( 591)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),tk2)
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 602)					this->tokenMin = this->oldTokenMin;
-HXDLIN( 602)					this->tokenMax = this->oldTokenMax;
+HXDLIN( 591)					this->tokenMin = this->oldTokenMin;
+HXDLIN( 591)					this->tokenMax = this->oldTokenMax;
             				}
-HXLINE( 603)				if (semic) {
-HXLINE( 603)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 592)				if (semic) {
+HXLINE( 592)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),::hscript::Token_obj::TSemicolon_dyn())
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 603)					this->tokenMin = this->oldTokenMin;
-HXDLIN( 603)					this->tokenMax = this->oldTokenMax;
+HXDLIN( 592)					this->tokenMin = this->oldTokenMin;
+HXDLIN( 592)					this->tokenMax = this->oldTokenMax;
             				}
             			}
-HXLINE( 605)			 ::hscript::ExprDef e8 = ::hscript::ExprDef_obj::EIf(cond,e11,e21);
-HXDLIN( 605)			 ::Dynamic pmin5 = p1;
-HXDLIN( 605)			 ::Dynamic pmax5;
-HXDLIN( 605)			if (::hx::IsNull( e21 )) {
-HXLINE( 605)				pmax5 = this->tokenMax;
+HXLINE( 594)			 ::hscript::ExprDef e8 = ::hscript::ExprDef_obj::EIf(cond,e11,e21);
+HXDLIN( 594)			 ::Dynamic pmin5 = p1;
+HXDLIN( 594)			 ::Dynamic pmax5;
+HXDLIN( 594)			if (::hx::IsNull( e21 )) {
+HXLINE( 594)				pmax5 = this->tokenMax;
             			}
             			else {
-HXLINE( 605)				if (::hx::IsNull( e21 )) {
-HXLINE( 605)					pmax5 = 0;
+HXLINE( 594)				if (::hx::IsNull( e21 )) {
+HXLINE( 594)					pmax5 = 0;
             				}
             				else {
-HXLINE( 605)					pmax5 = e21->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+HXLINE( 594)					pmax5 = e21->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
             				}
             			}
-HXDLIN( 605)			if (::hx::IsNull( e8 )) {
-HXLINE( 605)				return null();
+HXDLIN( 594)			if (::hx::IsNull( e8 )) {
+HXLINE( 594)				return null();
             			}
             			else {
-HXLINE( 605)				if (::hx::IsNull( pmin5 )) {
-HXLINE( 605)					pmin5 = this->tokenMin;
+HXLINE( 594)				if (::hx::IsNull( pmin5 )) {
+HXLINE( 594)					pmin5 = this->tokenMin;
             				}
-HXDLIN( 605)				if (::hx::IsNull( pmax5 )) {
-HXLINE( 605)					pmax5 = this->tokenMax;
+HXDLIN( 594)				if (::hx::IsNull( pmax5 )) {
+HXLINE( 594)					pmax5 = this->tokenMax;
             				}
-HXDLIN( 605)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 594)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e8)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax5)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin5)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXLINE( 587)			goto _hx_goto_48;
+HXLINE( 576)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("inline",59,ca,3f,99)) ){
-HXLINE( 646)			if (!(this->maybe(::hscript::Token_obj::TId(HX_("function",18,ab,52,14))))) {
-HXLINE( 646)				this->unexpected(::hscript::Token_obj::TId(HX_("inline",59,ca,3f,99)));
+HXLINE( 635)			if (!(this->maybe(::hscript::Token_obj::TId(HX_("function",18,ab,52,14))))) {
+HXLINE( 635)				this->unexpected(::hscript::Token_obj::TId(HX_("inline",59,ca,3f,99)));
             			}
-HXLINE( 647)			return this->parseStructure(HX_("function",18,ab,52,14));
-HXLINE( 645)			goto _hx_goto_48;
+HXLINE( 636)			return this->parseStructure(HX_("function",18,ab,52,14));
+HXLINE( 634)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("new",60,d0,53,00)) ){
-HXLINE( 663)			::Array< ::String > a = ::Array_obj< ::String >::__new();
-HXLINE( 664)			a->push(this->getIdent());
-HXLINE( 665)			while(true){
-HXLINE( 666)				 ::hscript::Token tk3 = this->token();
-HXLINE( 667)				switch((int)(tk3->_hx_getIndex())){
+HXLINE( 652)			::Array< ::String > a = ::Array_obj< ::String >::__new();
+HXLINE( 653)			a->push(this->getIdent());
+HXLINE( 654)			while(true){
+HXLINE( 655)				 ::hscript::Token tk3 = this->token();
+HXLINE( 656)				switch((int)(tk3->_hx_getIndex())){
             					case (int)4: {
-HXLINE( 671)						goto _hx_goto_49;
+HXLINE( 660)						goto _hx_goto_50;
             					}
             					break;
             					case (int)8: {
-HXLINE( 669)						a->push(this->getIdent());
+HXLINE( 658)						a->push(this->getIdent());
             					}
             					break;
             					default:{
-HXLINE( 673)						this->unexpected(tk3);
-HXLINE( 674)						goto _hx_goto_49;
+HXLINE( 662)						this->unexpected(tk3);
+HXLINE( 663)						goto _hx_goto_50;
             					}
             				}
             			}
-            			_hx_goto_49:;
-HXLINE( 677)			::Array< ::Dynamic> args = this->parseExprList(::hscript::Token_obj::TPClose_dyn());
-HXLINE( 678)			 ::hscript::ExprDef e9 = ::hscript::ExprDef_obj::ENew(a->join(HX_(".",2e,00,00,00)),args);
-HXDLIN( 678)			 ::Dynamic pmin6 = p1;
-HXDLIN( 678)			 ::Dynamic pmax6 = null();
-HXDLIN( 678)			if (::hx::IsNull( e9 )) {
-HXLINE( 678)				return null();
+            			_hx_goto_50:;
+HXLINE( 666)			::Array< ::Dynamic> args = this->parseExprList(::hscript::Token_obj::TPClose_dyn());
+HXLINE( 667)			 ::hscript::ExprDef e9 = ::hscript::ExprDef_obj::ENew(a->join(HX_(".",2e,00,00,00)),args);
+HXDLIN( 667)			 ::Dynamic pmin6 = p1;
+HXDLIN( 667)			 ::Dynamic pmax6 = null();
+HXDLIN( 667)			if (::hx::IsNull( e9 )) {
+HXLINE( 667)				return null();
             			}
             			else {
-HXLINE( 678)				if (::hx::IsNull( pmin6 )) {
-HXLINE( 678)					pmin6 = this->tokenMin;
+HXLINE( 667)				if (::hx::IsNull( pmin6 )) {
+HXLINE( 667)					pmin6 = this->tokenMin;
             				}
-HXDLIN( 678)				if (::hx::IsNull( pmax6 )) {
-HXLINE( 678)					pmax6 = this->tokenMax;
+HXDLIN( 667)				if (::hx::IsNull( pmax6 )) {
+HXLINE( 667)					pmax6 = this->tokenMax;
             				}
-HXDLIN( 678)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 667)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e9)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax6)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin6)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXLINE( 662)			goto _hx_goto_48;
+HXLINE( 651)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("return",b0,a4,2d,09)) ){
-HXLINE( 658)			 ::hscript::Token tk4 = this->token();
-HXLINE( 659)			{
-HXLINE( 659)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 647)			 ::hscript::Token tk4 = this->token();
+HXLINE( 648)			{
+HXLINE( 648)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             					->setFixed(0,HX_("t",74,00,00,00),tk4)
             					->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             					->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 659)				this->tokenMin = this->oldTokenMin;
-HXDLIN( 659)				this->tokenMax = this->oldTokenMax;
+HXDLIN( 648)				this->tokenMin = this->oldTokenMin;
+HXDLIN( 648)				this->tokenMax = this->oldTokenMax;
             			}
-HXLINE( 660)			 ::Dynamic e10;
-HXDLIN( 660)			if (::hx::IsPointerEq( tk4,::hscript::Token_obj::TSemicolon_dyn() )) {
-HXLINE( 660)				e10 = null();
-            			}
-            			else {
-HXLINE( 660)				e10 = this->parseExpr();
-            			}
-HXLINE( 661)			 ::hscript::ExprDef e12 = ::hscript::ExprDef_obj::EReturn(e10);
-HXDLIN( 661)			 ::Dynamic pmin7 = p1;
-HXDLIN( 661)			 ::Dynamic pmax7;
-HXDLIN( 661)			if (::hx::IsNull( e10 )) {
-HXLINE( 661)				pmax7 = this->tokenMax;
+HXLINE( 649)			 ::Dynamic e10;
+HXDLIN( 649)			if (::hx::IsPointerEq( tk4,::hscript::Token_obj::TSemicolon_dyn() )) {
+HXLINE( 649)				e10 = null();
             			}
             			else {
-HXLINE( 661)				if (::hx::IsNull( e10 )) {
-HXLINE( 661)					pmax7 = 0;
+HXLINE( 649)				e10 = this->parseExpr();
+            			}
+HXLINE( 650)			 ::hscript::ExprDef e12 = ::hscript::ExprDef_obj::EReturn(e10);
+HXDLIN( 650)			 ::Dynamic pmin7 = p1;
+HXDLIN( 650)			 ::Dynamic pmax7;
+HXDLIN( 650)			if (::hx::IsNull( e10 )) {
+HXLINE( 650)				pmax7 = this->tokenMax;
+            			}
+            			else {
+HXLINE( 650)				if (::hx::IsNull( e10 )) {
+HXLINE( 650)					pmax7 = 0;
             				}
             				else {
-HXLINE( 661)					pmax7 = e10->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+HXLINE( 650)					pmax7 = e10->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
             				}
             			}
-HXDLIN( 661)			if (::hx::IsNull( e12 )) {
-HXLINE( 661)				return null();
+HXDLIN( 650)			if (::hx::IsNull( e12 )) {
+HXLINE( 650)				return null();
             			}
             			else {
-HXLINE( 661)				if (::hx::IsNull( pmin7 )) {
-HXLINE( 661)					pmin7 = this->tokenMin;
+HXLINE( 650)				if (::hx::IsNull( pmin7 )) {
+HXLINE( 650)					pmin7 = this->tokenMin;
             				}
-HXDLIN( 661)				if (::hx::IsNull( pmax7 )) {
-HXLINE( 661)					pmax7 = this->tokenMax;
+HXDLIN( 650)				if (::hx::IsNull( pmax7 )) {
+HXLINE( 650)					pmax7 = this->tokenMax;
             				}
-HXDLIN( 661)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 650)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e12)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax7)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin7)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXLINE( 657)			goto _hx_goto_48;
+HXLINE( 646)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("switch",f4,49,79,c5)) ){
-HXLINE( 697)			 ::Dynamic e13 = this->parseExpr();
-HXLINE( 698)			 ::Dynamic def = null();
-HXDLIN( 698)			::Array< ::Dynamic> cases = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE( 699)			{
-HXLINE( 699)				 ::hscript::Token t5 = this->token();
-HXDLIN( 699)				if (::hx::IsPointerNotEq( t5,::hscript::Token_obj::TBrOpen_dyn() )) {
-HXLINE( 699)					this->unexpected(t5);
+HXLINE( 686)			 ::Dynamic e13 = this->parseExpr();
+HXLINE( 687)			 ::Dynamic def = null();
+HXDLIN( 687)			::Array< ::Dynamic> cases = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 688)			{
+HXLINE( 688)				 ::hscript::Token t5 = this->token();
+HXDLIN( 688)				if (::hx::IsPointerNotEq( t5,::hscript::Token_obj::TBrOpen_dyn() )) {
+HXLINE( 688)					this->unexpected(t5);
             				}
             			}
-HXLINE( 700)			while(true){
-HXLINE( 701)				 ::hscript::Token tk5 = this->token();
-HXLINE( 702)				switch((int)(tk5->_hx_getIndex())){
+HXLINE( 689)			while(true){
+HXLINE( 690)				 ::hscript::Token tk5 = this->token();
+HXLINE( 691)				switch((int)(tk5->_hx_getIndex())){
             					case (int)2: {
-HXLINE( 739)						::String _hx_switch_1 = tk5->_hx_getString(0);
+HXLINE( 728)						::String _hx_switch_1 = tk5->_hx_getString(0);
             						if (  (_hx_switch_1==HX_("case",b0,1e,ba,41)) ){
-HXLINE( 704)							 ::Dynamic c =  ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE( 693)							 ::Dynamic c =  ::Dynamic(::hx::Anon_obj::Create(2)
             								->setFixed(0,HX_("expr",35,fd,1d,43),null())
             								->setFixed(1,HX_("values",e2,03,b7,4f),::Array_obj< ::Dynamic>::__new(0)));
-HXLINE( 705)							cases->push(c);
-HXLINE( 706)							while(true){
-HXLINE( 707)								 ::Dynamic e14 = this->parseExpr();
-HXLINE( 708)								( (::Array< ::Dynamic>)(c->__Field(HX_("values",e2,03,b7,4f),::hx::paccDynamic)) )->push(e14);
-HXLINE( 709)								tk5 = this->token();
-HXLINE( 710)								switch((int)(tk5->_hx_getIndex())){
-            									case (int)9: {
+HXLINE( 694)							cases->push(c);
+HXLINE( 695)							while(true){
+HXLINE( 696)								 ::Dynamic e14 = this->parseExpr();
+HXLINE( 697)								( (::Array< ::Dynamic>)(c->__Field(HX_("values",e2,03,b7,4f),::hx::paccDynamic)) )->push(e14);
+HXLINE( 698)								tk5 = this->token();
+HXLINE( 699)								switch((int)(tk5->_hx_getIndex())){
+            									case (int)10: {
             									}
             									break;
-            									case (int)14: {
-HXLINE( 714)										goto _hx_goto_52;
-            									}
-            									break;
-            									default:{
-HXLINE( 716)										this->unexpected(tk5);
-HXLINE( 717)										goto _hx_goto_52;
-            									}
-            								}
-            							}
-            							_hx_goto_52:;
-HXLINE( 720)							::Array< ::Dynamic> exprs = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE( 721)							while(true){
-HXLINE( 722)								tk5 = this->token();
-HXLINE( 723)								{
-HXLINE( 723)									this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
-            										->setFixed(0,HX_("t",74,00,00,00),tk5)
-            										->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
-            										->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 723)									this->tokenMin = this->oldTokenMin;
-HXDLIN( 723)									this->tokenMax = this->oldTokenMax;
-            								}
-HXLINE( 724)								switch((int)(tk5->_hx_getIndex())){
-            									case (int)0: {
-HXLINE( 727)										if (this->resumeErrors) {
-HXLINE( 728)											goto _hx_goto_53;
-            										}
-            										else {
-HXLINE( 730)											this->parseFullExpr(exprs);
-            										}
-            									}
-            									break;
-            									case (int)2: {
-HXLINE( 725)										::String _hx_switch_2 = tk5->_hx_getString(0);
-            										if (  (_hx_switch_2==HX_("case",b0,1e,ba,41)) ||  (_hx_switch_2==HX_("default",c1,d8,c3,9b)) ){
-HXLINE( 726)											goto _hx_goto_53;
-HXDLIN( 726)											goto _hx_goto_54;
-            										}
-            										/* default */{
-HXLINE( 730)											this->parseFullExpr(exprs);
-            										}
-            										_hx_goto_54:;
-            									}
-            									break;
-            									case (int)7: {
-HXLINE( 726)										goto _hx_goto_53;
+            									case (int)15: {
+HXLINE( 703)										goto _hx_goto_53;
             									}
             									break;
             									default:{
-HXLINE( 730)										this->parseFullExpr(exprs);
+HXLINE( 705)										this->unexpected(tk5);
+HXLINE( 706)										goto _hx_goto_53;
             									}
             								}
             							}
             							_hx_goto_53:;
-HXLINE( 733)							 ::Dynamic _hx_tmp;
-HXDLIN( 733)							if ((exprs->length == 1)) {
-HXLINE( 733)								_hx_tmp = exprs->__get(0);
+HXLINE( 709)							::Array< ::Dynamic> exprs = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 710)							while(true){
+HXLINE( 711)								tk5 = this->token();
+HXLINE( 712)								{
+HXLINE( 712)									this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+            										->setFixed(0,HX_("t",74,00,00,00),tk5)
+            										->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
+            										->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
+HXDLIN( 712)									this->tokenMin = this->oldTokenMin;
+HXDLIN( 712)									this->tokenMax = this->oldTokenMax;
+            								}
+HXLINE( 713)								switch((int)(tk5->_hx_getIndex())){
+            									case (int)0: {
+HXLINE( 716)										if (this->resumeErrors) {
+HXLINE( 717)											goto _hx_goto_54;
+            										}
+            										else {
+HXLINE( 719)											this->parseFullExpr(exprs);
+            										}
+            									}
+            									break;
+            									case (int)2: {
+HXLINE( 714)										::String _hx_switch_2 = tk5->_hx_getString(0);
+            										if (  (_hx_switch_2==HX_("case",b0,1e,ba,41)) ||  (_hx_switch_2==HX_("default",c1,d8,c3,9b)) ){
+HXLINE( 715)											goto _hx_goto_54;
+HXDLIN( 715)											goto _hx_goto_55;
+            										}
+            										/* default */{
+HXLINE( 719)											this->parseFullExpr(exprs);
+            										}
+            										_hx_goto_55:;
+            									}
+            									break;
+            									case (int)7: {
+HXLINE( 715)										goto _hx_goto_54;
+            									}
+            									break;
+            									default:{
+HXLINE( 719)										this->parseFullExpr(exprs);
+            									}
+            								}
+            							}
+            							_hx_goto_54:;
+HXLINE( 722)							 ::Dynamic _hx_tmp;
+HXDLIN( 722)							if ((exprs->length == 1)) {
+HXLINE( 722)								_hx_tmp = exprs->__get(0);
             							}
             							else {
-HXLINE( 735)								if ((exprs->length == 0)) {
-HXLINE( 736)									 ::hscript::ExprDef e15 = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(0));
-HXDLIN( 736)									 ::Dynamic pmin8 = this->tokenMin;
-HXDLIN( 736)									 ::Dynamic pmax8 = this->tokenMin;
-HXDLIN( 736)									if (::hx::IsNull( e15 )) {
-HXLINE( 733)										_hx_tmp = null();
+HXLINE( 724)								if ((exprs->length == 0)) {
+HXLINE( 725)									 ::hscript::ExprDef e15 = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(0));
+HXDLIN( 725)									 ::Dynamic pmin8 = this->tokenMin;
+HXDLIN( 725)									 ::Dynamic pmax8 = this->tokenMin;
+HXDLIN( 725)									if (::hx::IsNull( e15 )) {
+HXLINE( 722)										_hx_tmp = null();
             									}
             									else {
-HXLINE( 736)										if (::hx::IsNull( pmin8 )) {
-HXLINE( 736)											pmin8 = this->tokenMin;
+HXLINE( 725)										if (::hx::IsNull( pmin8 )) {
+HXLINE( 725)											pmin8 = this->tokenMin;
             										}
-HXDLIN( 736)										if (::hx::IsNull( pmax8 )) {
-HXLINE( 736)											pmax8 = this->tokenMax;
+HXDLIN( 725)										if (::hx::IsNull( pmax8 )) {
+HXLINE( 725)											pmax8 = this->tokenMax;
             										}
-HXLINE( 733)										_hx_tmp =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXLINE( 722)										_hx_tmp =  ::Dynamic(::hx::Anon_obj::Create(5)
             											->setFixed(0,HX_("e",65,00,00,00),e15)
             											->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             											->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax8)
@@ -2899,34 +2911,34 @@ HXLINE( 733)										_hx_tmp =  ::Dynamic(::hx::Anon_obj::Create(5)
             									}
             								}
             								else {
-HXLINE( 738)									 ::hscript::ExprDef e16 = ::hscript::ExprDef_obj::EBlock(exprs);
-HXDLIN( 738)									 ::Dynamic e17 = exprs->__get(0);
-HXDLIN( 738)									 ::Dynamic pmin9;
-HXDLIN( 738)									if (::hx::IsNull( e17 )) {
-HXLINE( 738)										pmin9 = 0;
+HXLINE( 727)									 ::hscript::ExprDef e16 = ::hscript::ExprDef_obj::EBlock(exprs);
+HXDLIN( 727)									 ::Dynamic e17 = exprs->__get(0);
+HXDLIN( 727)									 ::Dynamic pmin9;
+HXDLIN( 727)									if (::hx::IsNull( e17 )) {
+HXLINE( 727)										pmin9 = 0;
             									}
             									else {
-HXLINE( 738)										pmin9 = e17->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 727)										pmin9 = e17->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             									}
-HXDLIN( 738)									 ::Dynamic e18 = exprs->__get((exprs->length - 1));
-HXDLIN( 738)									 ::Dynamic pmax9;
-HXDLIN( 738)									if (::hx::IsNull( e18 )) {
-HXLINE( 738)										pmax9 = 0;
-            									}
-            									else {
-HXLINE( 738)										pmax9 = e18->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            									}
-HXDLIN( 738)									if (::hx::IsNull( e16 )) {
-HXLINE( 733)										_hx_tmp = null();
+HXDLIN( 727)									 ::Dynamic e18 = exprs->__get((exprs->length - 1));
+HXDLIN( 727)									 ::Dynamic pmax9;
+HXDLIN( 727)									if (::hx::IsNull( e18 )) {
+HXLINE( 727)										pmax9 = 0;
             									}
             									else {
-HXLINE( 738)										if (::hx::IsNull( pmin9 )) {
-HXLINE( 738)											pmin9 = this->tokenMin;
+HXLINE( 727)										pmax9 = e18->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            									}
+HXDLIN( 727)									if (::hx::IsNull( e16 )) {
+HXLINE( 722)										_hx_tmp = null();
+            									}
+            									else {
+HXLINE( 727)										if (::hx::IsNull( pmin9 )) {
+HXLINE( 727)											pmin9 = this->tokenMin;
             										}
-HXDLIN( 738)										if (::hx::IsNull( pmax9 )) {
-HXLINE( 738)											pmax9 = this->tokenMax;
+HXDLIN( 727)										if (::hx::IsNull( pmax9 )) {
+HXLINE( 727)											pmax9 = this->tokenMax;
             										}
-HXLINE( 733)										_hx_tmp =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXLINE( 722)										_hx_tmp =  ::Dynamic(::hx::Anon_obj::Create(5)
             											->setFixed(0,HX_("e",65,00,00,00),e16)
             											->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             											->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax9)
@@ -2935,81 +2947,81 @@ HXLINE( 733)										_hx_tmp =  ::Dynamic(::hx::Anon_obj::Create(5)
             									}
             								}
             							}
-HXDLIN( 733)							c->__SetField(HX_("expr",35,fd,1d,43),_hx_tmp,::hx::paccDynamic);
-HXLINE( 703)							goto _hx_goto_51;
+HXDLIN( 722)							c->__SetField(HX_("expr",35,fd,1d,43),_hx_tmp,::hx::paccDynamic);
+HXLINE( 692)							goto _hx_goto_52;
             						}
             						if (  (_hx_switch_1==HX_("default",c1,d8,c3,9b)) ){
-HXLINE( 740)							if (::hx::IsNotNull( def )) {
-HXLINE( 740)								this->unexpected(tk5);
+HXLINE( 729)							if (::hx::IsNotNull( def )) {
+HXLINE( 729)								this->unexpected(tk5);
             							}
-HXLINE( 741)							{
-HXLINE( 741)								 ::hscript::Token t6 = this->token();
-HXDLIN( 741)								if (::hx::IsPointerNotEq( t6,::hscript::Token_obj::TDoubleDot_dyn() )) {
-HXLINE( 741)									this->unexpected(t6);
+HXLINE( 730)							{
+HXLINE( 730)								 ::hscript::Token t6 = this->token();
+HXDLIN( 730)								if (::hx::IsPointerNotEq( t6,::hscript::Token_obj::TDoubleDot_dyn() )) {
+HXLINE( 730)									this->unexpected(t6);
             								}
             							}
-HXLINE( 742)							::Array< ::Dynamic> exprs1 = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE( 743)							while(true){
-HXLINE( 744)								tk5 = this->token();
-HXLINE( 745)								{
-HXLINE( 745)									this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 731)							::Array< ::Dynamic> exprs1 = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 732)							while(true){
+HXLINE( 733)								tk5 = this->token();
+HXLINE( 734)								{
+HXLINE( 734)									this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             										->setFixed(0,HX_("t",74,00,00,00),tk5)
             										->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             										->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 745)									this->tokenMin = this->oldTokenMin;
-HXDLIN( 745)									this->tokenMax = this->oldTokenMax;
+HXDLIN( 734)									this->tokenMin = this->oldTokenMin;
+HXDLIN( 734)									this->tokenMax = this->oldTokenMax;
             								}
-HXLINE( 746)								switch((int)(tk5->_hx_getIndex())){
+HXLINE( 735)								switch((int)(tk5->_hx_getIndex())){
             									case (int)0: {
-HXLINE( 749)										if (this->resumeErrors) {
-HXLINE( 750)											goto _hx_goto_55;
+HXLINE( 738)										if (this->resumeErrors) {
+HXLINE( 739)											goto _hx_goto_56;
             										}
             										else {
-HXLINE( 752)											this->parseFullExpr(exprs1);
+HXLINE( 741)											this->parseFullExpr(exprs1);
             										}
             									}
             									break;
             									case (int)2: {
-HXLINE( 747)										::String _hx_switch_3 = tk5->_hx_getString(0);
+HXLINE( 736)										::String _hx_switch_3 = tk5->_hx_getString(0);
             										if (  (_hx_switch_3==HX_("case",b0,1e,ba,41)) ||  (_hx_switch_3==HX_("default",c1,d8,c3,9b)) ){
-HXLINE( 748)											goto _hx_goto_55;
-HXDLIN( 748)											goto _hx_goto_56;
+HXLINE( 737)											goto _hx_goto_56;
+HXDLIN( 737)											goto _hx_goto_57;
             										}
             										/* default */{
-HXLINE( 752)											this->parseFullExpr(exprs1);
+HXLINE( 741)											this->parseFullExpr(exprs1);
             										}
-            										_hx_goto_56:;
+            										_hx_goto_57:;
             									}
             									break;
             									case (int)7: {
-HXLINE( 748)										goto _hx_goto_55;
+HXLINE( 737)										goto _hx_goto_56;
             									}
             									break;
             									default:{
-HXLINE( 752)										this->parseFullExpr(exprs1);
+HXLINE( 741)										this->parseFullExpr(exprs1);
             									}
             								}
             							}
-            							_hx_goto_55:;
-HXLINE( 755)							if ((exprs1->length == 1)) {
-HXLINE( 756)								def = exprs1->__get(0);
+            							_hx_goto_56:;
+HXLINE( 744)							if ((exprs1->length == 1)) {
+HXLINE( 745)								def = exprs1->__get(0);
             							}
             							else {
-HXLINE( 757)								if ((exprs1->length == 0)) {
-HXLINE( 758)									 ::hscript::ExprDef e19 = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(0));
-HXDLIN( 758)									 ::Dynamic pmin10 = this->tokenMin;
-HXDLIN( 758)									 ::Dynamic pmax10 = this->tokenMin;
-HXDLIN( 758)									if (::hx::IsNull( e19 )) {
-HXLINE( 758)										def = null();
+HXLINE( 746)								if ((exprs1->length == 0)) {
+HXLINE( 747)									 ::hscript::ExprDef e19 = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(0));
+HXDLIN( 747)									 ::Dynamic pmin10 = this->tokenMin;
+HXDLIN( 747)									 ::Dynamic pmax10 = this->tokenMin;
+HXDLIN( 747)									if (::hx::IsNull( e19 )) {
+HXLINE( 747)										def = null();
             									}
             									else {
-HXLINE( 758)										if (::hx::IsNull( pmin10 )) {
-HXLINE( 758)											pmin10 = this->tokenMin;
+HXLINE( 747)										if (::hx::IsNull( pmin10 )) {
+HXLINE( 747)											pmin10 = this->tokenMin;
             										}
-HXDLIN( 758)										if (::hx::IsNull( pmax10 )) {
-HXLINE( 758)											pmax10 = this->tokenMax;
+HXDLIN( 747)										if (::hx::IsNull( pmax10 )) {
+HXLINE( 747)											pmax10 = this->tokenMax;
             										}
-HXDLIN( 758)										def =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 747)										def =  ::Dynamic(::hx::Anon_obj::Create(5)
             											->setFixed(0,HX_("e",65,00,00,00),e19)
             											->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             											->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax10)
@@ -3018,34 +3030,34 @@ HXDLIN( 758)										def =  ::Dynamic(::hx::Anon_obj::Create(5)
             									}
             								}
             								else {
-HXLINE( 760)									 ::hscript::ExprDef e20 = ::hscript::ExprDef_obj::EBlock(exprs1);
-HXDLIN( 760)									 ::Dynamic e22 = exprs1->__get(0);
-HXDLIN( 760)									 ::Dynamic pmin11;
-HXDLIN( 760)									if (::hx::IsNull( e22 )) {
-HXLINE( 760)										pmin11 = 0;
+HXLINE( 749)									 ::hscript::ExprDef e20 = ::hscript::ExprDef_obj::EBlock(exprs1);
+HXDLIN( 749)									 ::Dynamic e22 = exprs1->__get(0);
+HXDLIN( 749)									 ::Dynamic pmin11;
+HXDLIN( 749)									if (::hx::IsNull( e22 )) {
+HXLINE( 749)										pmin11 = 0;
             									}
             									else {
-HXLINE( 760)										pmin11 = e22->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 749)										pmin11 = e22->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             									}
-HXDLIN( 760)									 ::Dynamic e23 = exprs1->__get((exprs1->length - 1));
-HXDLIN( 760)									 ::Dynamic pmax11;
-HXDLIN( 760)									if (::hx::IsNull( e23 )) {
-HXLINE( 760)										pmax11 = 0;
-            									}
-            									else {
-HXLINE( 760)										pmax11 = e23->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            									}
-HXDLIN( 760)									if (::hx::IsNull( e20 )) {
-HXLINE( 760)										def = null();
+HXDLIN( 749)									 ::Dynamic e23 = exprs1->__get((exprs1->length - 1));
+HXDLIN( 749)									 ::Dynamic pmax11;
+HXDLIN( 749)									if (::hx::IsNull( e23 )) {
+HXLINE( 749)										pmax11 = 0;
             									}
             									else {
-HXLINE( 760)										if (::hx::IsNull( pmin11 )) {
-HXLINE( 760)											pmin11 = this->tokenMin;
+HXLINE( 749)										pmax11 = e23->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            									}
+HXDLIN( 749)									if (::hx::IsNull( e20 )) {
+HXLINE( 749)										def = null();
+            									}
+            									else {
+HXLINE( 749)										if (::hx::IsNull( pmin11 )) {
+HXLINE( 749)											pmin11 = this->tokenMin;
             										}
-HXDLIN( 760)										if (::hx::IsNull( pmax11 )) {
-HXLINE( 760)											pmax11 = this->tokenMax;
+HXDLIN( 749)										if (::hx::IsNull( pmax11 )) {
+HXLINE( 749)											pmax11 = this->tokenMax;
             										}
-HXDLIN( 760)										def =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 749)										def =  ::Dynamic(::hx::Anon_obj::Create(5)
             											->setFixed(0,HX_("e",65,00,00,00),e20)
             											->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             											->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax11)
@@ -3054,306 +3066,324 @@ HXDLIN( 760)										def =  ::Dynamic(::hx::Anon_obj::Create(5)
             									}
             								}
             							}
-HXLINE( 739)							goto _hx_goto_51;
+HXLINE( 728)							goto _hx_goto_52;
             						}
             						/* default */{
-HXLINE( 764)							this->unexpected(tk5);
-HXLINE( 765)							goto _hx_goto_50;
+HXLINE( 753)							this->unexpected(tk5);
+HXLINE( 754)							goto _hx_goto_51;
             						}
-            						_hx_goto_51:;
+            						_hx_goto_52:;
             					}
             					break;
             					case (int)7: {
-HXLINE( 762)						goto _hx_goto_50;
+HXLINE( 751)						goto _hx_goto_51;
             					}
             					break;
             					default:{
-HXLINE( 764)						this->unexpected(tk5);
-HXLINE( 765)						goto _hx_goto_50;
+HXLINE( 753)						this->unexpected(tk5);
+HXLINE( 754)						goto _hx_goto_51;
             					}
             				}
             			}
-            			_hx_goto_50:;
-HXLINE( 768)			 ::hscript::ExprDef e24 = ::hscript::ExprDef_obj::ESwitch(e13,cases,def);
-HXDLIN( 768)			 ::Dynamic pmin12 = p1;
-HXDLIN( 768)			 ::Dynamic pmax12 = this->tokenMax;
-HXDLIN( 768)			if (::hx::IsNull( e24 )) {
-HXLINE( 768)				return null();
+            			_hx_goto_51:;
+HXLINE( 757)			 ::hscript::ExprDef e24 = ::hscript::ExprDef_obj::ESwitch(e13,cases,def);
+HXDLIN( 757)			 ::Dynamic pmin12 = p1;
+HXDLIN( 757)			 ::Dynamic pmax12 = this->tokenMax;
+HXDLIN( 757)			if (::hx::IsNull( e24 )) {
+HXLINE( 757)				return null();
             			}
             			else {
-HXLINE( 768)				if (::hx::IsNull( pmin12 )) {
-HXLINE( 768)					pmin12 = this->tokenMin;
+HXLINE( 757)				if (::hx::IsNull( pmin12 )) {
+HXLINE( 757)					pmin12 = this->tokenMin;
             				}
-HXDLIN( 768)				if (::hx::IsNull( pmax12 )) {
-HXLINE( 768)					pmax12 = this->tokenMax;
+HXDLIN( 757)				if (::hx::IsNull( pmax12 )) {
+HXLINE( 757)					pmax12 = this->tokenMax;
             				}
-HXDLIN( 768)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 757)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e24)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax12)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin12)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXLINE( 696)			goto _hx_goto_48;
+HXLINE( 685)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("throw",26,5d,90,0f)) ){
-HXLINE( 680)			 ::Dynamic e25 = this->parseExpr();
-HXLINE( 681)			 ::hscript::ExprDef e26 = ::hscript::ExprDef_obj::EThrow(e25);
-HXDLIN( 681)			 ::Dynamic pmin13 = p1;
-HXDLIN( 681)			 ::Dynamic pmax13;
-HXDLIN( 681)			if (::hx::IsNull( e25 )) {
-HXLINE( 681)				pmax13 = 0;
+HXLINE( 669)			 ::Dynamic e25 = this->parseExpr();
+HXLINE( 670)			 ::hscript::ExprDef e26 = ::hscript::ExprDef_obj::EThrow(e25);
+HXDLIN( 670)			 ::Dynamic pmin13 = p1;
+HXDLIN( 670)			 ::Dynamic pmax13;
+HXDLIN( 670)			if (::hx::IsNull( e25 )) {
+HXLINE( 670)				pmax13 = 0;
             			}
             			else {
-HXLINE( 681)				pmax13 = e25->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+HXLINE( 670)				pmax13 = e25->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
             			}
-HXDLIN( 681)			if (::hx::IsNull( e26 )) {
-HXLINE( 681)				return null();
+HXDLIN( 670)			if (::hx::IsNull( e26 )) {
+HXLINE( 670)				return null();
             			}
             			else {
-HXLINE( 681)				if (::hx::IsNull( pmin13 )) {
-HXLINE( 681)					pmin13 = this->tokenMin;
+HXLINE( 670)				if (::hx::IsNull( pmin13 )) {
+HXLINE( 670)					pmin13 = this->tokenMin;
             				}
-HXDLIN( 681)				if (::hx::IsNull( pmax13 )) {
-HXLINE( 681)					pmax13 = this->tokenMax;
+HXDLIN( 670)				if (::hx::IsNull( pmax13 )) {
+HXLINE( 670)					pmax13 = this->tokenMax;
             				}
-HXDLIN( 681)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 670)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e26)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax13)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin13)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXLINE( 679)			goto _hx_goto_48;
+HXLINE( 668)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("try",3b,69,58,00)) ){
-HXLINE( 683)			 ::Dynamic e27 = this->parseExpr();
-HXLINE( 684)			{
-HXLINE( 684)				 ::hscript::Token t7 = this->token();
-HXDLIN( 684)				if (!(__hxcpp_enum_eq(t7,::hscript::Token_obj::TId(HX_("catch",3b,7c,21,41))))) {
-HXLINE( 684)					this->unexpected(t7);
+HXLINE( 672)			 ::Dynamic e27 = this->parseExpr();
+HXLINE( 673)			{
+HXLINE( 673)				 ::hscript::Token t7 = this->token();
+HXDLIN( 673)				if (!(__hxcpp_enum_eq(t7,::hscript::Token_obj::TId(HX_("catch",3b,7c,21,41))))) {
+HXLINE( 673)					this->unexpected(t7);
             				}
             			}
-HXLINE( 685)			{
-HXLINE( 685)				 ::hscript::Token t8 = this->token();
-HXDLIN( 685)				if (::hx::IsPointerNotEq( t8,::hscript::Token_obj::TPOpen_dyn() )) {
-HXLINE( 685)					this->unexpected(t8);
+HXLINE( 674)			{
+HXLINE( 674)				 ::hscript::Token t8 = this->token();
+HXDLIN( 674)				if (::hx::IsPointerNotEq( t8,::hscript::Token_obj::TPOpen_dyn() )) {
+HXLINE( 674)					this->unexpected(t8);
             				}
             			}
-HXLINE( 686)			::String vname1 = this->getIdent();
-HXLINE( 687)			{
-HXLINE( 687)				 ::hscript::Token t9 = this->token();
-HXDLIN( 687)				if (::hx::IsPointerNotEq( t9,::hscript::Token_obj::TDoubleDot_dyn() )) {
-HXLINE( 687)					this->unexpected(t9);
+HXLINE( 675)			::String vname1 = this->getIdent();
+HXLINE( 676)			{
+HXLINE( 676)				 ::hscript::Token t9 = this->token();
+HXDLIN( 676)				if (::hx::IsPointerNotEq( t9,::hscript::Token_obj::TDoubleDot_dyn() )) {
+HXLINE( 676)					this->unexpected(t9);
             				}
             			}
-HXLINE( 688)			 ::hscript::CType t10 = null();
-HXLINE( 689)			if (this->allowTypes) {
-HXLINE( 690)				t10 = this->parseType();
+HXLINE( 677)			 ::hscript::CType t10 = null();
+HXLINE( 678)			if (this->allowTypes) {
+HXLINE( 679)				t10 = this->parseType();
             			}
             			else {
-HXLINE( 692)				 ::hscript::Token t11 = this->token();
-HXDLIN( 692)				if (!(__hxcpp_enum_eq(t11,::hscript::Token_obj::TId(HX_("Dynamic",5f,c7,66,03))))) {
-HXLINE( 692)					this->unexpected(t11);
+HXLINE( 681)				 ::hscript::Token t11 = this->token();
+HXDLIN( 681)				if (!(__hxcpp_enum_eq(t11,::hscript::Token_obj::TId(HX_("Dynamic",5f,c7,66,03))))) {
+HXLINE( 681)					this->unexpected(t11);
             				}
             			}
-HXLINE( 693)			{
-HXLINE( 693)				 ::hscript::Token t12 = this->token();
-HXDLIN( 693)				if (::hx::IsPointerNotEq( t12,::hscript::Token_obj::TPClose_dyn() )) {
-HXLINE( 693)					this->unexpected(t12);
+HXLINE( 682)			{
+HXLINE( 682)				 ::hscript::Token t12 = this->token();
+HXDLIN( 682)				if (::hx::IsPointerNotEq( t12,::hscript::Token_obj::TPClose_dyn() )) {
+HXLINE( 682)					this->unexpected(t12);
             				}
             			}
-HXLINE( 694)			 ::Dynamic ec = this->parseExpr();
-HXLINE( 695)			 ::hscript::ExprDef e28 = ::hscript::ExprDef_obj::ETry(e27,vname1,t10,ec);
-HXDLIN( 695)			 ::Dynamic pmin14 = p1;
-HXDLIN( 695)			 ::Dynamic pmax14;
-HXDLIN( 695)			if (::hx::IsNull( ec )) {
-HXLINE( 695)				pmax14 = 0;
+HXLINE( 683)			 ::Dynamic ec = this->parseExpr();
+HXLINE( 684)			 ::hscript::ExprDef e28 = ::hscript::ExprDef_obj::ETry(e27,vname1,t10,ec);
+HXDLIN( 684)			 ::Dynamic pmin14 = p1;
+HXDLIN( 684)			 ::Dynamic pmax14;
+HXDLIN( 684)			if (::hx::IsNull( ec )) {
+HXLINE( 684)				pmax14 = 0;
             			}
             			else {
-HXLINE( 695)				pmax14 = ec->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+HXLINE( 684)				pmax14 = ec->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
             			}
-HXDLIN( 695)			if (::hx::IsNull( e28 )) {
-HXLINE( 695)				return null();
+HXDLIN( 684)			if (::hx::IsNull( e28 )) {
+HXLINE( 684)				return null();
             			}
             			else {
-HXLINE( 695)				if (::hx::IsNull( pmin14 )) {
-HXLINE( 695)					pmin14 = this->tokenMin;
+HXLINE( 684)				if (::hx::IsNull( pmin14 )) {
+HXLINE( 684)					pmin14 = this->tokenMin;
             				}
-HXDLIN( 695)				if (::hx::IsNull( pmax14 )) {
-HXLINE( 695)					pmax14 = this->tokenMax;
+HXDLIN( 684)				if (::hx::IsNull( pmax14 )) {
+HXLINE( 684)					pmax14 = this->tokenMax;
             				}
-HXDLIN( 695)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 684)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e28)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax14)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin14)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXLINE( 682)			goto _hx_goto_48;
+HXLINE( 671)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("var",e7,de,59,00)) ){
-HXLINE( 607)			::String ident = this->getIdent();
-HXLINE( 608)			 ::hscript::Token tk6 = this->token();
-HXLINE( 609)			 ::hscript::CType t13 = null();
-HXLINE( 610)			bool _hx_tmp1;
-HXDLIN( 610)			if (::hx::IsPointerEq( tk6,::hscript::Token_obj::TDoubleDot_dyn() )) {
-HXLINE( 610)				_hx_tmp1 = this->allowTypes;
+HXLINE( 596)			::String ident = this->getIdent();
+HXLINE( 597)			 ::hscript::Token tk6 = this->token();
+HXLINE( 598)			 ::hscript::CType t13 = null();
+HXLINE( 599)			bool _hx_tmp1;
+HXDLIN( 599)			if (::hx::IsPointerEq( tk6,::hscript::Token_obj::TDoubleDot_dyn() )) {
+HXLINE( 599)				_hx_tmp1 = this->allowTypes;
             			}
             			else {
-HXLINE( 610)				_hx_tmp1 = false;
+HXLINE( 599)				_hx_tmp1 = false;
             			}
-HXDLIN( 610)			if (_hx_tmp1) {
-HXLINE( 611)				t13 = this->parseType();
-HXLINE( 612)				tk6 = this->token();
+HXDLIN( 599)			if (_hx_tmp1) {
+HXLINE( 600)				t13 = this->parseType();
+HXLINE( 601)				tk6 = this->token();
             			}
-HXLINE( 614)			 ::Dynamic e29 = null();
-HXLINE( 615)			if (__hxcpp_enum_eq(tk6,::hscript::Token_obj::TOp(HX_("=",3d,00,00,00)))) {
-HXLINE( 616)				e29 = this->parseExpr();
+HXLINE( 603)			 ::Dynamic e29 = null();
+HXLINE( 604)			if (__hxcpp_enum_eq(tk6,::hscript::Token_obj::TOp(HX_("=",3d,00,00,00)))) {
+HXLINE( 605)				e29 = this->parseExpr();
             			}
             			else {
-HXLINE( 618)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 607)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             					->setFixed(0,HX_("t",74,00,00,00),tk6)
             					->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             					->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 618)				this->tokenMin = this->oldTokenMin;
-HXDLIN( 618)				this->tokenMax = this->oldTokenMax;
+HXDLIN( 607)				this->tokenMin = this->oldTokenMin;
+HXDLIN( 607)				this->tokenMax = this->oldTokenMax;
             			}
-HXLINE( 619)			 ::hscript::ExprDef e30 = ::hscript::ExprDef_obj::EVar(ident,t13,e29);
-HXDLIN( 619)			 ::Dynamic pmin15 = p1;
-HXDLIN( 619)			 ::Dynamic pmax15;
-HXDLIN( 619)			if (::hx::IsNull( e29 )) {
-HXLINE( 619)				pmax15 = this->tokenMax;
+HXLINE( 608)			 ::hscript::ExprDef e30 = ::hscript::ExprDef_obj::EVar(ident,t13,e29);
+HXDLIN( 608)			 ::Dynamic pmin15 = p1;
+HXDLIN( 608)			 ::Dynamic pmax15;
+HXDLIN( 608)			if (::hx::IsNull( e29 )) {
+HXLINE( 608)				pmax15 = this->tokenMax;
             			}
             			else {
-HXLINE( 619)				if (::hx::IsNull( e29 )) {
-HXLINE( 619)					pmax15 = 0;
+HXLINE( 608)				if (::hx::IsNull( e29 )) {
+HXLINE( 608)					pmax15 = 0;
             				}
             				else {
-HXLINE( 619)					pmax15 = e29->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+HXLINE( 608)					pmax15 = e29->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
             				}
             			}
-HXDLIN( 619)			if (::hx::IsNull( e30 )) {
-HXLINE( 619)				return null();
+HXDLIN( 608)			if (::hx::IsNull( e30 )) {
+HXLINE( 608)				return null();
             			}
             			else {
-HXLINE( 619)				if (::hx::IsNull( pmin15 )) {
-HXLINE( 619)					pmin15 = this->tokenMin;
+HXLINE( 608)				if (::hx::IsNull( pmin15 )) {
+HXLINE( 608)					pmin15 = this->tokenMin;
             				}
-HXDLIN( 619)				if (::hx::IsNull( pmax15 )) {
-HXLINE( 619)					pmax15 = this->tokenMax;
+HXDLIN( 608)				if (::hx::IsNull( pmax15 )) {
+HXLINE( 608)					pmax15 = this->tokenMax;
             				}
-HXDLIN( 619)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 608)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e30)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax15)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin15)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXLINE( 606)			goto _hx_goto_48;
+HXLINE( 595)			goto _hx_goto_49;
             		}
             		if (  (_hx_switch_0==HX_("while",b1,43,bd,c9)) ){
-HXLINE( 621)			 ::Dynamic econd1 = this->parseExpr();
-HXLINE( 622)			 ::Dynamic e31 = this->parseExpr();
-HXLINE( 623)			 ::hscript::ExprDef e32 = ::hscript::ExprDef_obj::EWhile(econd1,e31);
-HXDLIN( 623)			 ::Dynamic pmin16 = p1;
-HXDLIN( 623)			 ::Dynamic pmax16;
-HXDLIN( 623)			if (::hx::IsNull( e31 )) {
-HXLINE( 623)				pmax16 = 0;
+HXLINE( 610)			 ::Dynamic econd1 = this->parseExpr();
+HXLINE( 611)			 ::Dynamic e31 = this->parseExpr();
+HXLINE( 612)			 ::hscript::ExprDef e32 = ::hscript::ExprDef_obj::EWhile(econd1,e31);
+HXDLIN( 612)			 ::Dynamic pmin16 = p1;
+HXDLIN( 612)			 ::Dynamic pmax16;
+HXDLIN( 612)			if (::hx::IsNull( e31 )) {
+HXLINE( 612)				pmax16 = 0;
             			}
             			else {
-HXLINE( 623)				pmax16 = e31->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+HXLINE( 612)				pmax16 = e31->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
             			}
-HXDLIN( 623)			if (::hx::IsNull( e32 )) {
-HXLINE( 623)				return null();
+HXDLIN( 612)			if (::hx::IsNull( e32 )) {
+HXLINE( 612)				return null();
             			}
             			else {
-HXLINE( 623)				if (::hx::IsNull( pmin16 )) {
-HXLINE( 623)					pmin16 = this->tokenMin;
+HXLINE( 612)				if (::hx::IsNull( pmin16 )) {
+HXLINE( 612)					pmin16 = this->tokenMin;
             				}
-HXDLIN( 623)				if (::hx::IsNull( pmax16 )) {
-HXLINE( 623)					pmax16 = this->tokenMax;
+HXDLIN( 612)				if (::hx::IsNull( pmax16 )) {
+HXLINE( 612)					pmax16 = this->tokenMax;
             				}
-HXDLIN( 623)				return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 612)				return  ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("e",65,00,00,00),e32)
             					->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             					->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax16)
             					->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin16)
             					->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             			}
-HXLINE( 620)			goto _hx_goto_48;
+HXLINE( 609)			goto _hx_goto_49;
             		}
             		/* default */{
-HXLINE( 770)			return null();
+HXLINE( 759)			return null();
             		}
-            		_hx_goto_48:;
-HXLINE( 586)		return null();
+            		_hx_goto_49:;
+HXLINE( 575)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,parseStructure,return )
 
  ::Dynamic Parser_obj::parseExprNext( ::Dynamic e1){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_774_parseExprNext)
-HXLINE( 775)		 ::hscript::Token tk = this->token();
-HXLINE( 776)		switch((int)(tk->_hx_getIndex())){
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_763_parseExprNext)
+HXLINE( 764)		 ::hscript::Token tk = this->token();
+HXLINE( 765)		switch((int)(tk->_hx_getIndex())){
+            			case (int)2: {
+HXLINE( 790)				::String op = tk->_hx_getString(0);
+HXDLIN( 790)				if ((op == HX_("is",ea,5b,00,00))) {
+HXLINE( 791)					return this->makeBinop(op,e1,this->parseExpr());
+            				}
+            				else {
+HXLINE( 819)					{
+HXLINE( 819)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+            							->setFixed(0,HX_("t",74,00,00,00),tk)
+            							->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
+            							->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
+HXDLIN( 819)						this->tokenMin = this->oldTokenMin;
+HXDLIN( 819)						this->tokenMax = this->oldTokenMax;
+            					}
+HXLINE( 820)					return e1;
+            				}
+            			}
+            			break;
             			case (int)3: {
-HXLINE( 777)				::String op = tk->_hx_getString(0);
-HXLINE( 779)				if ((op == HX_("->",71,27,00,00))) {
-HXLINE( 781)					{
-HXLINE( 781)						 ::hscript::ExprDef _g = e1->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 781)						switch((int)(_g->_hx_getIndex())){
+HXLINE( 766)				::String op1 = tk->_hx_getString(0);
+HXLINE( 768)				if ((op1 == HX_("->",71,27,00,00))) {
+HXLINE( 770)					{
+HXLINE( 770)						 ::hscript::ExprDef _g = e1->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 770)						switch((int)(_g->_hx_getIndex())){
             							case (int)1: {
-HXLINE( 782)								::String i = _g->_hx_getString(0);
-HXLINE( 783)								 ::Dynamic eret = this->parseExpr();
-HXLINE( 784)								 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EReturn(eret);
-HXDLIN( 784)								 ::Dynamic pmin;
-HXDLIN( 784)								if (::hx::IsNull( eret )) {
-HXLINE( 784)									pmin = 0;
+HXLINE( 771)								::String i = _g->_hx_getString(0);
+HXLINE( 772)								 ::Dynamic eret = this->parseExpr();
+HXLINE( 773)								 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EReturn(eret);
+HXDLIN( 773)								 ::Dynamic pmin;
+HXDLIN( 773)								if (::hx::IsNull( eret )) {
+HXLINE( 773)									pmin = 0;
             								}
             								else {
-HXLINE( 784)									pmin = eret->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 773)									pmin = eret->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             								}
-HXDLIN( 784)								 ::Dynamic pmax = null();
-HXDLIN( 784)								 ::Dynamic e2;
-HXDLIN( 784)								if (::hx::IsNull( e )) {
-HXLINE( 784)									e2 = null();
+HXDLIN( 773)								 ::Dynamic pmax = null();
+HXDLIN( 773)								 ::Dynamic e2;
+HXDLIN( 773)								if (::hx::IsNull( e )) {
+HXLINE( 773)									e2 = null();
             								}
             								else {
-HXLINE( 784)									if (::hx::IsNull( pmin )) {
-HXLINE( 784)										pmin = this->tokenMin;
+HXLINE( 773)									if (::hx::IsNull( pmin )) {
+HXLINE( 773)										pmin = this->tokenMin;
             									}
-HXDLIN( 784)									if (::hx::IsNull( pmax )) {
-HXLINE( 784)										pmax = this->tokenMax;
+HXDLIN( 773)									if (::hx::IsNull( pmax )) {
+HXLINE( 773)										pmax = this->tokenMax;
             									}
-HXDLIN( 784)									e2 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 773)									e2 =  ::Dynamic(::hx::Anon_obj::Create(5)
             										->setFixed(0,HX_("e",65,00,00,00),e)
             										->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             										->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax)
             										->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin)
             										->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             								}
-HXDLIN( 784)								 ::hscript::ExprDef e3 = ::hscript::ExprDef_obj::EFunction(::Array_obj< ::Dynamic>::__new(1)->init(0, ::Dynamic(::hx::Anon_obj::Create(1)
+HXDLIN( 773)								 ::hscript::ExprDef e3 = ::hscript::ExprDef_obj::EFunction(::Array_obj< ::Dynamic>::__new(1)->init(0, ::Dynamic(::hx::Anon_obj::Create(1)
             									->setFixed(0,HX_("name",4b,72,ff,48),i))),e2,null(),null());
-HXDLIN( 784)								 ::Dynamic pmin1;
-HXDLIN( 784)								if (::hx::IsNull( e1 )) {
-HXLINE( 784)									pmin1 = 0;
+HXDLIN( 773)								 ::Dynamic pmin1;
+HXDLIN( 773)								if (::hx::IsNull( e1 )) {
+HXLINE( 773)									pmin1 = 0;
             								}
             								else {
-HXLINE( 784)									pmin1 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 773)									pmin1 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             								}
-HXDLIN( 784)								 ::Dynamic pmax1 = null();
-HXDLIN( 784)								if (::hx::IsNull( e3 )) {
-HXLINE( 784)									return null();
+HXDLIN( 773)								 ::Dynamic pmax1 = null();
+HXDLIN( 773)								if (::hx::IsNull( e3 )) {
+HXLINE( 773)									return null();
             								}
             								else {
-HXLINE( 784)									if (::hx::IsNull( pmin1 )) {
-HXLINE( 784)										pmin1 = this->tokenMin;
+HXLINE( 773)									if (::hx::IsNull( pmin1 )) {
+HXLINE( 773)										pmin1 = this->tokenMin;
             									}
-HXDLIN( 784)									if (::hx::IsNull( pmax1 )) {
-HXLINE( 784)										pmax1 = this->tokenMax;
+HXDLIN( 773)									if (::hx::IsNull( pmax1 )) {
+HXLINE( 773)										pmax1 = this->tokenMax;
             									}
-HXDLIN( 784)									return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 773)									return  ::Dynamic(::hx::Anon_obj::Create(5)
             										->setFixed(0,HX_("e",65,00,00,00),e3)
             										->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             										->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax1)
@@ -3363,58 +3393,58 @@ HXDLIN( 784)									return  ::Dynamic(::hx::Anon_obj::Create(5)
             							}
             							break;
             							case (int)3: {
-HXLINE( 782)								 ::hscript::ExprDef _hx_tmp = _g->_hx_getObject(0)->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 782)								if ((_hx_tmp->_hx_getIndex() == 1)) {
-HXLINE( 782)									::String i1 = _hx_tmp->_hx_getString(0);
-HXLINE( 783)									 ::Dynamic eret1 = this->parseExpr();
-HXLINE( 784)									 ::hscript::ExprDef e4 = ::hscript::ExprDef_obj::EReturn(eret1);
-HXDLIN( 784)									 ::Dynamic pmin2;
-HXDLIN( 784)									if (::hx::IsNull( eret1 )) {
-HXLINE( 784)										pmin2 = 0;
+HXLINE( 771)								 ::hscript::ExprDef _hx_tmp = _g->_hx_getObject(0)->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 771)								if ((_hx_tmp->_hx_getIndex() == 1)) {
+HXLINE( 771)									::String i1 = _hx_tmp->_hx_getString(0);
+HXLINE( 772)									 ::Dynamic eret1 = this->parseExpr();
+HXLINE( 773)									 ::hscript::ExprDef e4 = ::hscript::ExprDef_obj::EReturn(eret1);
+HXDLIN( 773)									 ::Dynamic pmin2;
+HXDLIN( 773)									if (::hx::IsNull( eret1 )) {
+HXLINE( 773)										pmin2 = 0;
             									}
             									else {
-HXLINE( 784)										pmin2 = eret1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 773)										pmin2 = eret1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             									}
-HXDLIN( 784)									 ::Dynamic pmax2 = null();
-HXDLIN( 784)									 ::Dynamic e5;
-HXDLIN( 784)									if (::hx::IsNull( e4 )) {
-HXLINE( 784)										e5 = null();
+HXDLIN( 773)									 ::Dynamic pmax2 = null();
+HXDLIN( 773)									 ::Dynamic e5;
+HXDLIN( 773)									if (::hx::IsNull( e4 )) {
+HXLINE( 773)										e5 = null();
             									}
             									else {
-HXLINE( 784)										if (::hx::IsNull( pmin2 )) {
-HXLINE( 784)											pmin2 = this->tokenMin;
+HXLINE( 773)										if (::hx::IsNull( pmin2 )) {
+HXLINE( 773)											pmin2 = this->tokenMin;
             										}
-HXDLIN( 784)										if (::hx::IsNull( pmax2 )) {
-HXLINE( 784)											pmax2 = this->tokenMax;
+HXDLIN( 773)										if (::hx::IsNull( pmax2 )) {
+HXLINE( 773)											pmax2 = this->tokenMax;
             										}
-HXDLIN( 784)										e5 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 773)										e5 =  ::Dynamic(::hx::Anon_obj::Create(5)
             											->setFixed(0,HX_("e",65,00,00,00),e4)
             											->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             											->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax2)
             											->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin2)
             											->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             									}
-HXDLIN( 784)									 ::hscript::ExprDef e6 = ::hscript::ExprDef_obj::EFunction(::Array_obj< ::Dynamic>::__new(1)->init(0, ::Dynamic(::hx::Anon_obj::Create(1)
+HXDLIN( 773)									 ::hscript::ExprDef e6 = ::hscript::ExprDef_obj::EFunction(::Array_obj< ::Dynamic>::__new(1)->init(0, ::Dynamic(::hx::Anon_obj::Create(1)
             										->setFixed(0,HX_("name",4b,72,ff,48),i1))),e5,null(),null());
-HXDLIN( 784)									 ::Dynamic pmin3;
-HXDLIN( 784)									if (::hx::IsNull( e1 )) {
-HXLINE( 784)										pmin3 = 0;
+HXDLIN( 773)									 ::Dynamic pmin3;
+HXDLIN( 773)									if (::hx::IsNull( e1 )) {
+HXLINE( 773)										pmin3 = 0;
             									}
             									else {
-HXLINE( 784)										pmin3 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 773)										pmin3 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             									}
-HXDLIN( 784)									 ::Dynamic pmax3 = null();
-HXDLIN( 784)									if (::hx::IsNull( e6 )) {
-HXLINE( 784)										return null();
+HXDLIN( 773)									 ::Dynamic pmax3 = null();
+HXDLIN( 773)									if (::hx::IsNull( e6 )) {
+HXLINE( 773)										return null();
             									}
             									else {
-HXLINE( 784)										if (::hx::IsNull( pmin3 )) {
-HXLINE( 784)											pmin3 = this->tokenMin;
+HXLINE( 773)										if (::hx::IsNull( pmin3 )) {
+HXLINE( 773)											pmin3 = this->tokenMin;
             										}
-HXDLIN( 784)										if (::hx::IsNull( pmax3 )) {
-HXLINE( 784)											pmax3 = this->tokenMax;
+HXDLIN( 773)										if (::hx::IsNull( pmax3 )) {
+HXLINE( 773)											pmax3 = this->tokenMax;
             										}
-HXDLIN( 784)										return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 773)										return  ::Dynamic(::hx::Anon_obj::Create(5)
             											->setFixed(0,HX_("e",65,00,00,00),e6)
             											->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             											->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax3)
@@ -3425,60 +3455,60 @@ HXDLIN( 784)										return  ::Dynamic(::hx::Anon_obj::Create(5)
             							}
             							break;
             							case (int)26: {
-HXLINE( 785)								 ::hscript::ExprDef _hx_tmp1 = _g->_hx_getObject(0)->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 785)								if ((_hx_tmp1->_hx_getIndex() == 1)) {
-HXLINE( 785)									::String i2 = _hx_tmp1->_hx_getString(0);
-HXDLIN( 785)									 ::hscript::CType t = _g->_hx_getObject(1).StaticCast<  ::hscript::CType >();
-HXLINE( 786)									 ::Dynamic eret2 = this->parseExpr();
-HXLINE( 787)									 ::hscript::ExprDef e7 = ::hscript::ExprDef_obj::EReturn(eret2);
-HXDLIN( 787)									 ::Dynamic pmin4;
-HXDLIN( 787)									if (::hx::IsNull( eret2 )) {
-HXLINE( 787)										pmin4 = 0;
+HXLINE( 774)								 ::hscript::ExprDef _hx_tmp1 = _g->_hx_getObject(0)->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 774)								if ((_hx_tmp1->_hx_getIndex() == 1)) {
+HXLINE( 774)									::String i2 = _hx_tmp1->_hx_getString(0);
+HXDLIN( 774)									 ::hscript::CType t = _g->_hx_getObject(1).StaticCast<  ::hscript::CType >();
+HXLINE( 775)									 ::Dynamic eret2 = this->parseExpr();
+HXLINE( 776)									 ::hscript::ExprDef e7 = ::hscript::ExprDef_obj::EReturn(eret2);
+HXDLIN( 776)									 ::Dynamic pmin4;
+HXDLIN( 776)									if (::hx::IsNull( eret2 )) {
+HXLINE( 776)										pmin4 = 0;
             									}
             									else {
-HXLINE( 787)										pmin4 = eret2->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 776)										pmin4 = eret2->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             									}
-HXDLIN( 787)									 ::Dynamic pmax4 = null();
-HXDLIN( 787)									 ::Dynamic e8;
-HXDLIN( 787)									if (::hx::IsNull( e7 )) {
-HXLINE( 787)										e8 = null();
+HXDLIN( 776)									 ::Dynamic pmax4 = null();
+HXDLIN( 776)									 ::Dynamic e8;
+HXDLIN( 776)									if (::hx::IsNull( e7 )) {
+HXLINE( 776)										e8 = null();
             									}
             									else {
-HXLINE( 787)										if (::hx::IsNull( pmin4 )) {
-HXLINE( 787)											pmin4 = this->tokenMin;
+HXLINE( 776)										if (::hx::IsNull( pmin4 )) {
+HXLINE( 776)											pmin4 = this->tokenMin;
             										}
-HXDLIN( 787)										if (::hx::IsNull( pmax4 )) {
-HXLINE( 787)											pmax4 = this->tokenMax;
+HXDLIN( 776)										if (::hx::IsNull( pmax4 )) {
+HXLINE( 776)											pmax4 = this->tokenMax;
             										}
-HXDLIN( 787)										e8 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 776)										e8 =  ::Dynamic(::hx::Anon_obj::Create(5)
             											->setFixed(0,HX_("e",65,00,00,00),e7)
             											->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             											->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax4)
             											->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin4)
             											->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             									}
-HXDLIN( 787)									 ::hscript::ExprDef e9 = ::hscript::ExprDef_obj::EFunction(::Array_obj< ::Dynamic>::__new(1)->init(0, ::Dynamic(::hx::Anon_obj::Create(2)
+HXDLIN( 776)									 ::hscript::ExprDef e9 = ::hscript::ExprDef_obj::EFunction(::Array_obj< ::Dynamic>::__new(1)->init(0, ::Dynamic(::hx::Anon_obj::Create(2)
             										->setFixed(0,HX_("t",74,00,00,00),t)
             										->setFixed(1,HX_("name",4b,72,ff,48),i2))),e8,null(),null());
-HXDLIN( 787)									 ::Dynamic pmin5;
-HXDLIN( 787)									if (::hx::IsNull( e1 )) {
-HXLINE( 787)										pmin5 = 0;
+HXDLIN( 776)									 ::Dynamic pmin5;
+HXDLIN( 776)									if (::hx::IsNull( e1 )) {
+HXLINE( 776)										pmin5 = 0;
             									}
             									else {
-HXLINE( 787)										pmin5 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 776)										pmin5 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             									}
-HXDLIN( 787)									 ::Dynamic pmax5 = null();
-HXDLIN( 787)									if (::hx::IsNull( e9 )) {
-HXLINE( 787)										return null();
+HXDLIN( 776)									 ::Dynamic pmax5 = null();
+HXDLIN( 776)									if (::hx::IsNull( e9 )) {
+HXLINE( 776)										return null();
             									}
             									else {
-HXLINE( 787)										if (::hx::IsNull( pmin5 )) {
-HXLINE( 787)											pmin5 = this->tokenMin;
+HXLINE( 776)										if (::hx::IsNull( pmin5 )) {
+HXLINE( 776)											pmin5 = this->tokenMin;
             										}
-HXDLIN( 787)										if (::hx::IsNull( pmax5 )) {
-HXLINE( 787)											pmax5 = this->tokenMax;
+HXDLIN( 776)										if (::hx::IsNull( pmax5 )) {
+HXLINE( 776)											pmax5 = this->tokenMax;
             										}
-HXDLIN( 787)										return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 776)										return  ::Dynamic(::hx::Anon_obj::Create(5)
             											->setFixed(0,HX_("e",65,00,00,00),e9)
             											->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             											->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax5)
@@ -3492,311 +3522,578 @@ HXDLIN( 787)										return  ::Dynamic(::hx::Anon_obj::Create(5)
             							}
             						}
             					}
-HXLINE( 790)					this->unexpected(tk);
+HXLINE( 779)					this->unexpected(tk);
             				}
-HXLINE( 793)				if (::hx::IsEq( this->opPriority->get(op),-1 )) {
-HXLINE( 794)					bool _hx_tmp2;
-HXDLIN( 794)					if (!(this->isBlock(e1))) {
-HXLINE( 794)						 ::hscript::ExprDef _g1 = e1->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 794)						if ((_g1->_hx_getIndex() == 3)) {
-HXLINE( 794)							 ::Dynamic _g2 = _g1->_hx_getObject(0);
-HXDLIN( 794)							_hx_tmp2 = true;
+HXLINE( 782)				if (::hx::IsEq( this->opPriority->get(op1),-1 )) {
+HXLINE( 783)					bool _hx_tmp2;
+HXDLIN( 783)					if (!(this->isBlock(e1))) {
+HXLINE( 783)						 ::hscript::ExprDef _g1 = e1->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 783)						if ((_g1->_hx_getIndex() == 3)) {
+HXLINE( 783)							 ::Dynamic _g2 = _g1->_hx_getObject(0);
+HXDLIN( 783)							_hx_tmp2 = true;
             						}
             						else {
-HXLINE( 794)							_hx_tmp2 = false;
+HXLINE( 783)							_hx_tmp2 = false;
             						}
             					}
             					else {
-HXLINE( 794)						_hx_tmp2 = true;
+HXLINE( 783)						_hx_tmp2 = true;
             					}
-HXDLIN( 794)					if (_hx_tmp2) {
-HXLINE( 795)						{
-HXLINE( 795)							this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXDLIN( 783)					if (_hx_tmp2) {
+HXLINE( 784)						{
+HXLINE( 784)							this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             								->setFixed(0,HX_("t",74,00,00,00),tk)
             								->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             								->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 795)							this->tokenMin = this->oldTokenMin;
-HXDLIN( 795)							this->tokenMax = this->oldTokenMax;
+HXDLIN( 784)							this->tokenMin = this->oldTokenMin;
+HXDLIN( 784)							this->tokenMax = this->oldTokenMax;
             						}
-HXLINE( 796)						return e1;
+HXLINE( 785)						return e1;
             					}
-HXLINE( 798)					 ::hscript::ExprDef e10 = ::hscript::ExprDef_obj::EUnop(op,false,e1);
-HXDLIN( 798)					 ::Dynamic pmin6;
-HXDLIN( 798)					if (::hx::IsNull( e1 )) {
-HXLINE( 798)						pmin6 = 0;
+HXLINE( 787)					 ::hscript::ExprDef e10 = ::hscript::ExprDef_obj::EUnop(op1,false,e1);
+HXDLIN( 787)					 ::Dynamic pmin6;
+HXDLIN( 787)					if (::hx::IsNull( e1 )) {
+HXLINE( 787)						pmin6 = 0;
             					}
             					else {
-HXLINE( 798)						pmin6 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 787)						pmin6 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             					}
-HXDLIN( 798)					 ::Dynamic pmax6 = null();
-HXDLIN( 798)					 ::Dynamic _hx_tmp3;
-HXDLIN( 798)					if (::hx::IsNull( e10 )) {
-HXLINE( 798)						_hx_tmp3 = null();
+HXDLIN( 787)					 ::Dynamic pmax6 = null();
+HXDLIN( 787)					 ::Dynamic _hx_tmp3;
+HXDLIN( 787)					if (::hx::IsNull( e10 )) {
+HXLINE( 787)						_hx_tmp3 = null();
             					}
             					else {
-HXLINE( 798)						if (::hx::IsNull( pmin6 )) {
-HXLINE( 798)							pmin6 = this->tokenMin;
+HXLINE( 787)						if (::hx::IsNull( pmin6 )) {
+HXLINE( 787)							pmin6 = this->tokenMin;
             						}
-HXDLIN( 798)						if (::hx::IsNull( pmax6 )) {
-HXLINE( 798)							pmax6 = this->tokenMax;
+HXDLIN( 787)						if (::hx::IsNull( pmax6 )) {
+HXLINE( 787)							pmax6 = this->tokenMax;
             						}
-HXDLIN( 798)						_hx_tmp3 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 787)						_hx_tmp3 =  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e10)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax6)
             							->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin6)
             							->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             					}
-HXDLIN( 798)					return this->parseExprNext(_hx_tmp3);
+HXDLIN( 787)					return this->parseExprNext(_hx_tmp3);
             				}
-HXLINE( 800)				return this->makeBinop(op,e1,this->parseExpr());
+HXLINE( 789)				return this->makeBinop(op1,e1,this->parseExpr());
             			}
             			break;
             			case (int)4: {
-HXLINE( 805)				 ::hscript::ExprDef e11 = ::hscript::ExprDef_obj::ECall(e1,this->parseExprList(::hscript::Token_obj::TPClose_dyn()));
-HXDLIN( 805)				 ::Dynamic pmin7;
-HXDLIN( 805)				if (::hx::IsNull( e1 )) {
-HXLINE( 805)					pmin7 = 0;
+HXLINE( 808)				 ::hscript::ExprDef e11 = ::hscript::ExprDef_obj::ECall(e1,this->parseExprList(::hscript::Token_obj::TPClose_dyn()));
+HXDLIN( 808)				 ::Dynamic pmin7;
+HXDLIN( 808)				if (::hx::IsNull( e1 )) {
+HXLINE( 808)					pmin7 = 0;
             				}
             				else {
-HXLINE( 805)					pmin7 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 808)					pmin7 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             				}
-HXDLIN( 805)				 ::Dynamic pmax7 = null();
-HXDLIN( 805)				 ::Dynamic _hx_tmp4;
-HXDLIN( 805)				if (::hx::IsNull( e11 )) {
-HXLINE( 805)					_hx_tmp4 = null();
+HXDLIN( 808)				 ::Dynamic pmax7 = null();
+HXDLIN( 808)				 ::Dynamic _hx_tmp4;
+HXDLIN( 808)				if (::hx::IsNull( e11 )) {
+HXLINE( 808)					_hx_tmp4 = null();
             				}
             				else {
-HXLINE( 805)					if (::hx::IsNull( pmin7 )) {
-HXLINE( 805)						pmin7 = this->tokenMin;
+HXLINE( 808)					if (::hx::IsNull( pmin7 )) {
+HXLINE( 808)						pmin7 = this->tokenMin;
             					}
-HXDLIN( 805)					if (::hx::IsNull( pmax7 )) {
-HXLINE( 805)						pmax7 = this->tokenMax;
+HXDLIN( 808)					if (::hx::IsNull( pmax7 )) {
+HXLINE( 808)						pmax7 = this->tokenMax;
             					}
-HXDLIN( 805)					_hx_tmp4 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 808)					_hx_tmp4 =  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e11)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax7)
             						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin7)
             						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             				}
-HXDLIN( 805)				return this->parseExprNext(_hx_tmp4);
+HXDLIN( 808)				return this->parseExprNext(_hx_tmp4);
             			}
             			break;
             			case (int)8: {
-HXLINE( 802)				::String field = this->getIdent();
-HXLINE( 803)				 ::hscript::ExprDef e12 = ::hscript::ExprDef_obj::EField(e1,field);
-HXDLIN( 803)				 ::Dynamic pmin8;
-HXDLIN( 803)				if (::hx::IsNull( e1 )) {
-HXLINE( 803)					pmin8 = 0;
+HXLINE( 793)				::String field = this->getIdent();
+HXLINE( 794)				 ::hscript::ExprDef e12 = ::hscript::ExprDef_obj::EField(e1,field);
+HXDLIN( 794)				 ::Dynamic pmin8;
+HXDLIN( 794)				if (::hx::IsNull( e1 )) {
+HXLINE( 794)					pmin8 = 0;
             				}
             				else {
-HXLINE( 803)					pmin8 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 794)					pmin8 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             				}
-HXDLIN( 803)				 ::Dynamic pmax8 = null();
-HXDLIN( 803)				 ::Dynamic _hx_tmp5;
-HXDLIN( 803)				if (::hx::IsNull( e12 )) {
-HXLINE( 803)					_hx_tmp5 = null();
+HXDLIN( 794)				 ::Dynamic pmax8 = null();
+HXDLIN( 794)				 ::Dynamic _hx_tmp5;
+HXDLIN( 794)				if (::hx::IsNull( e12 )) {
+HXLINE( 794)					_hx_tmp5 = null();
             				}
             				else {
-HXLINE( 803)					if (::hx::IsNull( pmin8 )) {
-HXLINE( 803)						pmin8 = this->tokenMin;
+HXLINE( 794)					if (::hx::IsNull( pmin8 )) {
+HXLINE( 794)						pmin8 = this->tokenMin;
             					}
-HXDLIN( 803)					if (::hx::IsNull( pmax8 )) {
-HXLINE( 803)						pmax8 = this->tokenMax;
+HXDLIN( 794)					if (::hx::IsNull( pmax8 )) {
+HXLINE( 794)						pmax8 = this->tokenMax;
             					}
-HXDLIN( 803)					_hx_tmp5 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 794)					_hx_tmp5 =  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e12)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax8)
             						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin8)
             						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             				}
-HXDLIN( 803)				return this->parseExprNext(_hx_tmp5);
+HXDLIN( 794)				return this->parseExprNext(_hx_tmp5);
             			}
             			break;
-            			case (int)11: {
-HXLINE( 807)				 ::Dynamic e21 = this->parseExpr();
-HXLINE( 808)				{
-HXLINE( 808)					 ::hscript::Token t1 = this->token();
-HXDLIN( 808)					if (::hx::IsPointerNotEq( t1,::hscript::Token_obj::TBkClose_dyn() )) {
-HXLINE( 808)						this->unexpected(t1);
-            					}
-            				}
-HXLINE( 809)				 ::hscript::ExprDef e13 = ::hscript::ExprDef_obj::EArray(e1,e21);
-HXDLIN( 809)				 ::Dynamic pmin9;
-HXDLIN( 809)				if (::hx::IsNull( e1 )) {
-HXLINE( 809)					pmin9 = 0;
+            			case (int)9: {
+HXLINE( 796)				::String field1 = this->getIdent();
+HXLINE( 797)				::String tmp = (HX_("__a_",fe,af,13,3f) + this->uid++);
+HXLINE( 799)				 ::hscript::ExprDef e13 = ::hscript::ExprDef_obj::EVar(tmp,null(),e1);
+HXDLIN( 799)				 ::Dynamic pmin9;
+HXDLIN( 799)				if (::hx::IsNull( e1 )) {
+HXLINE( 799)					pmin9 = 0;
             				}
             				else {
-HXLINE( 809)					pmin9 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 799)					pmin9 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             				}
-HXDLIN( 809)				 ::Dynamic pmax9 = null();
-HXDLIN( 809)				 ::Dynamic _hx_tmp6;
-HXDLIN( 809)				if (::hx::IsNull( e13 )) {
-HXLINE( 809)					_hx_tmp6 = null();
+HXDLIN( 799)				 ::Dynamic pmax9;
+HXDLIN( 799)				if (::hx::IsNull( e1 )) {
+HXLINE( 799)					pmax9 = 0;
             				}
             				else {
-HXLINE( 809)					if (::hx::IsNull( pmin9 )) {
-HXLINE( 809)						pmin9 = this->tokenMin;
+HXLINE( 799)					pmax9 = e1->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 799)				 ::Dynamic e14;
+HXDLIN( 799)				if (::hx::IsNull( e13 )) {
+HXLINE( 799)					e14 = null();
+            				}
+            				else {
+HXLINE( 799)					if (::hx::IsNull( pmin9 )) {
+HXLINE( 799)						pmin9 = this->tokenMin;
             					}
-HXDLIN( 809)					if (::hx::IsNull( pmax9 )) {
-HXLINE( 809)						pmax9 = this->tokenMax;
+HXDLIN( 799)					if (::hx::IsNull( pmax9 )) {
+HXLINE( 799)						pmax9 = this->tokenMax;
             					}
-HXDLIN( 809)					_hx_tmp6 =  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 799)					e14 =  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e13)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax9)
             						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin9)
             						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             				}
-HXDLIN( 809)				return this->parseExprNext(_hx_tmp6);
-            			}
-            			break;
-            			case (int)13: {
-HXLINE( 811)				 ::Dynamic e22 = this->parseExpr();
-HXLINE( 812)				{
-HXLINE( 812)					 ::hscript::Token t2 = this->token();
-HXDLIN( 812)					if (::hx::IsPointerNotEq( t2,::hscript::Token_obj::TDoubleDot_dyn() )) {
-HXLINE( 812)						this->unexpected(t2);
-            					}
-            				}
-HXLINE( 813)				 ::Dynamic e31 = this->parseExpr();
-HXLINE( 814)				 ::hscript::ExprDef e14 = ::hscript::ExprDef_obj::ETernary(e1,e22,e31);
-HXDLIN( 814)				 ::Dynamic pmin10;
-HXDLIN( 814)				if (::hx::IsNull( e1 )) {
-HXLINE( 814)					pmin10 = 0;
+HXLINE( 801)				 ::hscript::ExprDef e15 = ::hscript::ExprDef_obj::EIdent(tmp);
+HXDLIN( 801)				 ::Dynamic pmin10;
+HXDLIN( 801)				if (::hx::IsNull( e1 )) {
+HXLINE( 801)					pmin10 = 0;
             				}
             				else {
-HXLINE( 814)					pmin10 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+HXLINE( 801)					pmin10 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
             				}
-HXDLIN( 814)				 ::Dynamic pmax10;
-HXDLIN( 814)				if (::hx::IsNull( e31 )) {
-HXLINE( 814)					pmax10 = 0;
-            				}
-            				else {
-HXLINE( 814)					pmax10 = e31->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
-            				}
-HXDLIN( 814)				if (::hx::IsNull( e14 )) {
-HXLINE( 814)					return null();
+HXDLIN( 801)				 ::Dynamic pmax10;
+HXDLIN( 801)				if (::hx::IsNull( e1 )) {
+HXLINE( 801)					pmax10 = 0;
             				}
             				else {
-HXLINE( 814)					if (::hx::IsNull( pmin10 )) {
-HXLINE( 814)						pmin10 = this->tokenMin;
+HXLINE( 801)					pmax10 = e1->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 801)				 ::Dynamic e16;
+HXDLIN( 801)				if (::hx::IsNull( e15 )) {
+HXLINE( 801)					e16 = null();
+            				}
+            				else {
+HXLINE( 801)					if (::hx::IsNull( pmin10 )) {
+HXLINE( 801)						pmin10 = this->tokenMin;
             					}
-HXDLIN( 814)					if (::hx::IsNull( pmax10 )) {
-HXLINE( 814)						pmax10 = this->tokenMax;
+HXDLIN( 801)					if (::hx::IsNull( pmax10 )) {
+HXLINE( 801)						pmax10 = this->tokenMax;
             					}
-HXDLIN( 814)					return  ::Dynamic(::hx::Anon_obj::Create(5)
-            						->setFixed(0,HX_("e",65,00,00,00),e14)
+HXDLIN( 801)					e16 =  ::Dynamic(::hx::Anon_obj::Create(5)
+            						->setFixed(0,HX_("e",65,00,00,00),e15)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax10)
             						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin10)
             						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
             				}
+HXDLIN( 801)				 ::hscript::ExprDef e17 = ::hscript::ExprDef_obj::EIdent(HX_("null",87,9e,0e,49));
+HXDLIN( 801)				 ::Dynamic pmin11;
+HXDLIN( 801)				if (::hx::IsNull( e1 )) {
+HXLINE( 801)					pmin11 = 0;
+            				}
+            				else {
+HXLINE( 801)					pmin11 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 801)				 ::Dynamic pmax11;
+HXDLIN( 801)				if (::hx::IsNull( e1 )) {
+HXLINE( 801)					pmax11 = 0;
+            				}
+            				else {
+HXLINE( 801)					pmax11 = e1->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 801)				 ::Dynamic e18;
+HXDLIN( 801)				if (::hx::IsNull( e17 )) {
+HXLINE( 801)					e18 = null();
+            				}
+            				else {
+HXLINE( 801)					if (::hx::IsNull( pmin11 )) {
+HXLINE( 801)						pmin11 = this->tokenMin;
+            					}
+HXDLIN( 801)					if (::hx::IsNull( pmax11 )) {
+HXLINE( 801)						pmax11 = this->tokenMax;
+            					}
+HXDLIN( 801)					e18 =  ::Dynamic(::hx::Anon_obj::Create(5)
+            						->setFixed(0,HX_("e",65,00,00,00),e17)
+            						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
+            						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax11)
+            						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin11)
+            						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
+            				}
+HXDLIN( 801)				 ::hscript::ExprDef e19 = ::hscript::ExprDef_obj::EBinop(HX_("==",60,35,00,00),e16,e18);
+HXDLIN( 801)				 ::Dynamic pmin12 = null();
+HXDLIN( 801)				 ::Dynamic pmax12 = null();
+HXDLIN( 801)				 ::Dynamic e20;
+HXDLIN( 801)				if (::hx::IsNull( e19 )) {
+HXLINE( 801)					e20 = null();
+            				}
+            				else {
+HXLINE( 801)					if (::hx::IsNull( pmin12 )) {
+HXLINE( 801)						pmin12 = this->tokenMin;
+            					}
+HXDLIN( 801)					if (::hx::IsNull( pmax12 )) {
+HXLINE( 801)						pmax12 = this->tokenMax;
+            					}
+HXDLIN( 801)					e20 =  ::Dynamic(::hx::Anon_obj::Create(5)
+            						->setFixed(0,HX_("e",65,00,00,00),e19)
+            						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
+            						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax12)
+            						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin12)
+            						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
+            				}
+HXLINE( 802)				 ::hscript::ExprDef e21 = ::hscript::ExprDef_obj::EIdent(HX_("null",87,9e,0e,49));
+HXDLIN( 802)				 ::Dynamic pmin13;
+HXDLIN( 802)				if (::hx::IsNull( e1 )) {
+HXLINE( 802)					pmin13 = 0;
+            				}
+            				else {
+HXLINE( 802)					pmin13 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 802)				 ::Dynamic pmax13;
+HXDLIN( 802)				if (::hx::IsNull( e1 )) {
+HXLINE( 802)					pmax13 = 0;
+            				}
+            				else {
+HXLINE( 802)					pmax13 = e1->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 802)				 ::Dynamic e22;
+HXDLIN( 802)				if (::hx::IsNull( e21 )) {
+HXLINE( 802)					e22 = null();
+            				}
+            				else {
+HXLINE( 802)					if (::hx::IsNull( pmin13 )) {
+HXLINE( 802)						pmin13 = this->tokenMin;
+            					}
+HXDLIN( 802)					if (::hx::IsNull( pmax13 )) {
+HXLINE( 802)						pmax13 = this->tokenMax;
+            					}
+HXDLIN( 802)					e22 =  ::Dynamic(::hx::Anon_obj::Create(5)
+            						->setFixed(0,HX_("e",65,00,00,00),e21)
+            						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
+            						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax13)
+            						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin13)
+            						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
+            				}
+HXLINE( 803)				 ::hscript::ExprDef e23 = ::hscript::ExprDef_obj::EIdent(tmp);
+HXDLIN( 803)				 ::Dynamic pmin14;
+HXDLIN( 803)				if (::hx::IsNull( e1 )) {
+HXLINE( 803)					pmin14 = 0;
+            				}
+            				else {
+HXLINE( 803)					pmin14 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 803)				 ::Dynamic pmax14;
+HXDLIN( 803)				if (::hx::IsNull( e1 )) {
+HXLINE( 803)					pmax14 = 0;
+            				}
+            				else {
+HXLINE( 803)					pmax14 = e1->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 803)				 ::Dynamic e24;
+HXDLIN( 803)				if (::hx::IsNull( e23 )) {
+HXLINE( 803)					e24 = null();
+            				}
+            				else {
+HXLINE( 803)					if (::hx::IsNull( pmin14 )) {
+HXLINE( 803)						pmin14 = this->tokenMin;
+            					}
+HXDLIN( 803)					if (::hx::IsNull( pmax14 )) {
+HXLINE( 803)						pmax14 = this->tokenMax;
+            					}
+HXDLIN( 803)					e24 =  ::Dynamic(::hx::Anon_obj::Create(5)
+            						->setFixed(0,HX_("e",65,00,00,00),e23)
+            						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
+            						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax14)
+            						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin14)
+            						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
+            				}
+HXDLIN( 803)				 ::hscript::ExprDef e25 = ::hscript::ExprDef_obj::EField(e24,field1);
+HXDLIN( 803)				 ::Dynamic pmin15;
+HXDLIN( 803)				if (::hx::IsNull( e1 )) {
+HXLINE( 803)					pmin15 = 0;
+            				}
+            				else {
+HXLINE( 803)					pmin15 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 803)				 ::Dynamic pmax15 = null();
+HXDLIN( 803)				 ::Dynamic e26;
+HXDLIN( 803)				if (::hx::IsNull( e25 )) {
+HXLINE( 803)					e26 = null();
+            				}
+            				else {
+HXLINE( 803)					if (::hx::IsNull( pmin15 )) {
+HXLINE( 803)						pmin15 = this->tokenMin;
+            					}
+HXDLIN( 803)					if (::hx::IsNull( pmax15 )) {
+HXLINE( 803)						pmax15 = this->tokenMax;
+            					}
+HXDLIN( 803)					e26 =  ::Dynamic(::hx::Anon_obj::Create(5)
+            						->setFixed(0,HX_("e",65,00,00,00),e25)
+            						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
+            						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax15)
+            						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin15)
+            						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
+            				}
+HXLINE( 800)				 ::hscript::ExprDef e27 = ::hscript::ExprDef_obj::ETernary(e20,e22,e26);
+HXDLIN( 800)				 ::Dynamic pmin16 = null();
+HXDLIN( 800)				 ::Dynamic pmax16 = null();
+HXDLIN( 800)				 ::Dynamic e28;
+HXDLIN( 800)				if (::hx::IsNull( e27 )) {
+HXLINE( 800)					e28 = null();
+            				}
+            				else {
+HXLINE( 800)					if (::hx::IsNull( pmin16 )) {
+HXLINE( 800)						pmin16 = this->tokenMin;
+            					}
+HXDLIN( 800)					if (::hx::IsNull( pmax16 )) {
+HXLINE( 800)						pmax16 = this->tokenMax;
+            					}
+HXDLIN( 800)					e28 =  ::Dynamic(::hx::Anon_obj::Create(5)
+            						->setFixed(0,HX_("e",65,00,00,00),e27)
+            						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
+            						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax16)
+            						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin16)
+            						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
+            				}
+HXLINE( 798)				 ::hscript::ExprDef e29 = ::hscript::ExprDef_obj::EBlock(::Array_obj< ::Dynamic>::__new(2)->init(0,e14)->init(1,e28));
+HXDLIN( 798)				 ::Dynamic pmin17;
+HXLINE( 805)				if (::hx::IsNull( e1 )) {
+HXLINE( 798)					pmin17 = 0;
+            				}
+            				else {
+HXLINE( 798)					pmin17 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 798)				 ::Dynamic pmax17 = null();
+HXDLIN( 798)				 ::Dynamic e30;
+HXDLIN( 798)				if (::hx::IsNull( e29 )) {
+HXLINE( 798)					e30 = null();
+            				}
+            				else {
+HXLINE( 798)					if (::hx::IsNull( pmin17 )) {
+HXLINE( 798)						pmin17 = this->tokenMin;
+            					}
+HXDLIN( 798)					if (::hx::IsNull( pmax17 )) {
+HXLINE( 798)						pmax17 = this->tokenMax;
+            					}
+HXDLIN( 798)					e30 =  ::Dynamic(::hx::Anon_obj::Create(5)
+            						->setFixed(0,HX_("e",65,00,00,00),e29)
+            						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
+            						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax17)
+            						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin17)
+            						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
+            				}
+HXLINE( 806)				return this->parseExprNext(e30);
+            			}
+            			break;
+            			case (int)12: {
+HXLINE( 810)				 ::Dynamic e210 = this->parseExpr();
+HXLINE( 811)				{
+HXLINE( 811)					 ::hscript::Token t1 = this->token();
+HXDLIN( 811)					if (::hx::IsPointerNotEq( t1,::hscript::Token_obj::TBkClose_dyn() )) {
+HXLINE( 811)						this->unexpected(t1);
+            					}
+            				}
+HXLINE( 812)				 ::hscript::ExprDef e31 = ::hscript::ExprDef_obj::EArray(e1,e210);
+HXDLIN( 812)				 ::Dynamic pmin18;
+HXDLIN( 812)				if (::hx::IsNull( e1 )) {
+HXLINE( 812)					pmin18 = 0;
+            				}
+            				else {
+HXLINE( 812)					pmin18 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 812)				 ::Dynamic pmax18 = null();
+HXDLIN( 812)				 ::Dynamic _hx_tmp6;
+HXDLIN( 812)				if (::hx::IsNull( e31 )) {
+HXLINE( 812)					_hx_tmp6 = null();
+            				}
+            				else {
+HXLINE( 812)					if (::hx::IsNull( pmin18 )) {
+HXLINE( 812)						pmin18 = this->tokenMin;
+            					}
+HXDLIN( 812)					if (::hx::IsNull( pmax18 )) {
+HXLINE( 812)						pmax18 = this->tokenMax;
+            					}
+HXDLIN( 812)					_hx_tmp6 =  ::Dynamic(::hx::Anon_obj::Create(5)
+            						->setFixed(0,HX_("e",65,00,00,00),e31)
+            						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
+            						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax18)
+            						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin18)
+            						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
+            				}
+HXDLIN( 812)				return this->parseExprNext(_hx_tmp6);
+            			}
+            			break;
+            			case (int)14: {
+HXLINE( 814)				 ::Dynamic e211 = this->parseExpr();
+HXLINE( 815)				{
+HXLINE( 815)					 ::hscript::Token t2 = this->token();
+HXDLIN( 815)					if (::hx::IsPointerNotEq( t2,::hscript::Token_obj::TDoubleDot_dyn() )) {
+HXLINE( 815)						this->unexpected(t2);
+            					}
+            				}
+HXLINE( 816)				 ::Dynamic e32 = this->parseExpr();
+HXLINE( 817)				 ::hscript::ExprDef e33 = ::hscript::ExprDef_obj::ETernary(e1,e211,e32);
+HXDLIN( 817)				 ::Dynamic pmin19;
+HXDLIN( 817)				if (::hx::IsNull( e1 )) {
+HXLINE( 817)					pmin19 = 0;
+            				}
+            				else {
+HXLINE( 817)					pmin19 = e1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 817)				 ::Dynamic pmax19;
+HXDLIN( 817)				if (::hx::IsNull( e32 )) {
+HXLINE( 817)					pmax19 = 0;
+            				}
+            				else {
+HXLINE( 817)					pmax19 = e32->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic);
+            				}
+HXDLIN( 817)				if (::hx::IsNull( e33 )) {
+HXLINE( 817)					return null();
+            				}
+            				else {
+HXLINE( 817)					if (::hx::IsNull( pmin19 )) {
+HXLINE( 817)						pmin19 = this->tokenMin;
+            					}
+HXDLIN( 817)					if (::hx::IsNull( pmax19 )) {
+HXLINE( 817)						pmax19 = this->tokenMax;
+            					}
+HXDLIN( 817)					return  ::Dynamic(::hx::Anon_obj::Create(5)
+            						->setFixed(0,HX_("e",65,00,00,00),e33)
+            						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
+            						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax19)
+            						->setFixed(3,HX_("pmin",22,f7,5a,4a),pmin19)
+            						->setFixed(4,HX_("origin",e6,19,01,4b),this->origin));
+            				}
             			}
             			break;
             			default:{
-HXLINE( 816)				{
-HXLINE( 816)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 819)				{
+HXLINE( 819)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),tk)
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 816)					this->tokenMin = this->oldTokenMin;
-HXDLIN( 816)					this->tokenMax = this->oldTokenMax;
+HXDLIN( 819)					this->tokenMin = this->oldTokenMin;
+HXDLIN( 819)					this->tokenMax = this->oldTokenMax;
             				}
-HXLINE( 817)				return e1;
+HXLINE( 820)				return e1;
             			}
             		}
-HXLINE( 776)		return null();
+HXLINE( 765)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,parseExprNext,return )
 
 ::Array< ::Dynamic> Parser_obj::parseFunctionArgs(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_821_parseFunctionArgs)
-HXLINE( 822)		::Array< ::Dynamic> args = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 823)		 ::hscript::Token tk = this->token();
-HXLINE( 824)		if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TPClose_dyn() )) {
-HXLINE( 825)			bool done = false;
-HXLINE( 826)			while(!(done)){
-HXLINE( 827)				::String name = null();
-HXDLIN( 827)				bool opt = false;
-HXLINE( 828)				if ((tk->_hx_getIndex() == 13)) {
-HXLINE( 830)					opt = true;
-HXLINE( 831)					tk = this->token();
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_824_parseFunctionArgs)
+HXLINE( 825)		::Array< ::Dynamic> args = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 826)		 ::hscript::Token tk = this->token();
+HXLINE( 827)		if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TPClose_dyn() )) {
+HXLINE( 828)			bool done = false;
+HXLINE( 829)			while(!(done)){
+HXLINE( 830)				::String name = null();
+HXDLIN( 830)				bool opt = false;
+HXLINE( 831)				if ((tk->_hx_getIndex() == 14)) {
+HXLINE( 833)					opt = true;
+HXLINE( 834)					tk = this->token();
             				}
-HXLINE( 834)				if ((tk->_hx_getIndex() == 2)) {
-HXLINE( 835)					::String id = tk->_hx_getString(0);
-HXDLIN( 835)					name = id;
+HXLINE( 837)				if ((tk->_hx_getIndex() == 2)) {
+HXLINE( 838)					::String id = tk->_hx_getString(0);
+HXDLIN( 838)					name = id;
             				}
             				else {
-HXLINE( 837)					this->unexpected(tk);
-HXLINE( 838)					goto _hx_goto_59;
+HXLINE( 840)					this->unexpected(tk);
+HXLINE( 841)					goto _hx_goto_60;
             				}
-HXLINE( 840)				 ::Dynamic arg =  ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE( 843)				 ::Dynamic arg =  ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("name",4b,72,ff,48),name));
-HXLINE( 841)				args->push(arg);
-HXLINE( 842)				if (opt) {
-HXLINE( 842)					arg->__SetField(HX_("opt",33,9c,54,00),true,::hx::paccDynamic);
+HXLINE( 844)				args->push(arg);
+HXLINE( 845)				if (opt) {
+HXLINE( 845)					arg->__SetField(HX_("opt",33,9c,54,00),true,::hx::paccDynamic);
             				}
-HXLINE( 843)				if (this->allowTypes) {
-HXLINE( 844)					if (this->maybe(::hscript::Token_obj::TDoubleDot_dyn())) {
-HXLINE( 845)						arg->__SetField(HX_("t",74,00,00,00),this->parseType(),::hx::paccDynamic);
+HXLINE( 846)				if (this->allowTypes) {
+HXLINE( 847)					if (this->maybe(::hscript::Token_obj::TDoubleDot_dyn())) {
+HXLINE( 848)						arg->__SetField(HX_("t",74,00,00,00),this->parseType(),::hx::paccDynamic);
             					}
-HXLINE( 846)					if (this->maybe(::hscript::Token_obj::TOp(HX_("=",3d,00,00,00)))) {
-HXLINE( 847)						arg->__SetField(HX_("value",71,7f,b8,31),this->parseExpr(),::hx::paccDynamic);
+HXLINE( 849)					if (this->maybe(::hscript::Token_obj::TOp(HX_("=",3d,00,00,00)))) {
+HXLINE( 850)						arg->__SetField(HX_("value",71,7f,b8,31),this->parseExpr(),::hx::paccDynamic);
             					}
             				}
-HXLINE( 849)				tk = this->token();
-HXLINE( 850)				switch((int)(tk->_hx_getIndex())){
+HXLINE( 852)				tk = this->token();
+HXLINE( 853)				switch((int)(tk->_hx_getIndex())){
             					case (int)5: {
-HXLINE( 854)						done = true;
+HXLINE( 857)						done = true;
             					}
             					break;
-            					case (int)9: {
-HXLINE( 852)						tk = this->token();
+            					case (int)10: {
+HXLINE( 855)						tk = this->token();
             					}
             					break;
             					default:{
-HXLINE( 856)						this->unexpected(tk);
+HXLINE( 859)						this->unexpected(tk);
             					}
             				}
             			}
-            			_hx_goto_59:;
+            			_hx_goto_60:;
             		}
-HXLINE( 860)		return args;
+HXLINE( 863)		return args;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,parseFunctionArgs,return )
 
  ::Dynamic Parser_obj::parseFunctionDecl(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_863_parseFunctionDecl)
-HXLINE( 864)		{
-HXLINE( 864)			 ::hscript::Token t = this->token();
-HXDLIN( 864)			if (::hx::IsPointerNotEq( t,::hscript::Token_obj::TPOpen_dyn() )) {
-HXLINE( 864)				this->unexpected(t);
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_866_parseFunctionDecl)
+HXLINE( 867)		{
+HXLINE( 867)			 ::hscript::Token t = this->token();
+HXDLIN( 867)			if (::hx::IsPointerNotEq( t,::hscript::Token_obj::TPOpen_dyn() )) {
+HXLINE( 867)				this->unexpected(t);
             			}
             		}
-HXLINE( 865)		::Array< ::Dynamic> args = this->parseFunctionArgs();
-HXLINE( 866)		 ::hscript::CType ret = null();
-HXLINE( 867)		if (this->allowTypes) {
-HXLINE( 868)			 ::hscript::Token tk = this->token();
-HXLINE( 869)			if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TDoubleDot_dyn() )) {
-HXLINE( 870)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 868)		::Array< ::Dynamic> args = this->parseFunctionArgs();
+HXLINE( 869)		 ::hscript::CType ret = null();
+HXLINE( 870)		if (this->allowTypes) {
+HXLINE( 871)			 ::hscript::Token tk = this->token();
+HXLINE( 872)			if (::hx::IsPointerNotEq( tk,::hscript::Token_obj::TDoubleDot_dyn() )) {
+HXLINE( 873)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             					->setFixed(0,HX_("t",74,00,00,00),tk)
             					->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             					->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 870)				this->tokenMin = this->oldTokenMin;
-HXDLIN( 870)				this->tokenMax = this->oldTokenMax;
+HXDLIN( 873)				this->tokenMin = this->oldTokenMin;
+HXDLIN( 873)				this->tokenMax = this->oldTokenMax;
             			}
             			else {
-HXLINE( 872)				ret = this->parseType();
+HXLINE( 875)				ret = this->parseType();
             			}
             		}
-HXLINE( 874)		return  ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 877)		return  ::Dynamic(::hx::Anon_obj::Create(3)
             			->setFixed(0,HX_("ret",61,d9,56,00),ret)
             			->setFixed(1,HX_("args",5d,8d,74,40),args)
             			->setFixed(2,HX_("body",a2,7a,1b,41),this->parseExpr()));
@@ -3806,267 +4103,267 @@ HXLINE( 874)		return  ::Dynamic(::hx::Anon_obj::Create(3)
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,parseFunctionDecl,return )
 
 ::Array< ::String > Parser_obj::parsePath(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_877_parsePath)
-HXLINE( 878)		::Array< ::String > path = ::Array_obj< ::String >::__new(1)->init(0,this->getIdent());
-HXLINE( 879)		while(true){
-HXLINE( 880)			 ::hscript::Token t = this->token();
-HXLINE( 881)			if (::hx::IsPointerNotEq( t,::hscript::Token_obj::TDot_dyn() )) {
-HXLINE( 882)				{
-HXLINE( 882)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_880_parsePath)
+HXLINE( 881)		::Array< ::String > path = ::Array_obj< ::String >::__new(1)->init(0,this->getIdent());
+HXLINE( 882)		while(true){
+HXLINE( 883)			 ::hscript::Token t = this->token();
+HXLINE( 884)			if (::hx::IsPointerNotEq( t,::hscript::Token_obj::TDot_dyn() )) {
+HXLINE( 885)				{
+HXLINE( 885)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),t)
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 882)					this->tokenMin = this->oldTokenMin;
-HXDLIN( 882)					this->tokenMax = this->oldTokenMax;
+HXDLIN( 885)					this->tokenMin = this->oldTokenMin;
+HXDLIN( 885)					this->tokenMax = this->oldTokenMax;
             				}
-HXLINE( 883)				goto _hx_goto_62;
+HXLINE( 886)				goto _hx_goto_63;
             			}
-HXLINE( 885)			path->push(this->getIdent());
+HXLINE( 888)			path->push(this->getIdent());
             		}
-            		_hx_goto_62:;
-HXLINE( 887)		return path;
+            		_hx_goto_63:;
+HXLINE( 890)		return path;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,parsePath,return )
 
  ::hscript::CType Parser_obj::parseType(){
-            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_890_parseType)
-HXDLIN( 890)		 ::hscript::Parser _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 891)		 ::hscript::Token t = this->token();
-HXLINE( 892)		switch((int)(t->_hx_getIndex())){
+            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_893_parseType)
+HXDLIN( 893)		 ::hscript::Parser _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 894)		 ::hscript::Token t = this->token();
+HXLINE( 895)		switch((int)(t->_hx_getIndex())){
             			case (int)2: {
-HXLINE( 893)				::String v = t->_hx_getString(0);
-HXLINE( 894)				{
-HXLINE( 894)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 896)				::String v = t->_hx_getString(0);
+HXLINE( 897)				{
+HXLINE( 897)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),t)
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 894)					this->tokenMin = this->oldTokenMin;
-HXDLIN( 894)					this->tokenMax = this->oldTokenMax;
+HXDLIN( 897)					this->tokenMin = this->oldTokenMin;
+HXDLIN( 897)					this->tokenMax = this->oldTokenMax;
             				}
-HXLINE( 895)				::Array< ::String > path = this->parsePath();
-HXLINE( 896)				::Array< ::Dynamic> params = null();
-HXLINE( 897)				t = this->token();
-HXLINE( 898)				if ((t->_hx_getIndex() == 3)) {
-HXLINE( 899)					::String op = t->_hx_getString(0);
-HXLINE( 900)					if ((op == HX_("<",3c,00,00,00))) {
-HXLINE( 901)						params = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE( 902)						while(true){
-HXLINE( 903)							params->push(this->parseType());
-HXLINE( 904)							t = this->token();
-HXLINE( 905)							switch((int)(t->_hx_getIndex())){
+HXLINE( 898)				::Array< ::String > path = this->parsePath();
+HXLINE( 899)				::Array< ::Dynamic> params = null();
+HXLINE( 900)				t = this->token();
+HXLINE( 901)				if ((t->_hx_getIndex() == 3)) {
+HXLINE( 902)					::String op = t->_hx_getString(0);
+HXLINE( 903)					if ((op == HX_("<",3c,00,00,00))) {
+HXLINE( 904)						params = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 905)						while(true){
+HXLINE( 906)							params->push(this->parseType());
+HXLINE( 907)							t = this->token();
+HXLINE( 908)							switch((int)(t->_hx_getIndex())){
             								case (int)3: {
-HXLINE( 907)									::String op1 = t->_hx_getString(0);
-HXDLIN( 907)									{
-HXLINE( 908)										if ((op1 == HX_(">",3e,00,00,00))) {
-HXLINE( 908)											goto _hx_goto_64;
+HXLINE( 910)									::String op1 = t->_hx_getString(0);
+HXDLIN( 910)									{
+HXLINE( 911)										if ((op1 == HX_(">",3e,00,00,00))) {
+HXLINE( 911)											goto _hx_goto_65;
             										}
-HXLINE( 909)										if (::hx::IsEq( op1.charCodeAt(0),62 )) {
-HXLINE( 911)											 ::haxe::ds::List _hx_tmp = this->tokens;
-HXDLIN( 911)											 ::hscript::Token _hx_tmp1 = ::hscript::Token_obj::TOp(op1.substr(1,null()));
-HXDLIN( 911)											_hx_tmp->add( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 912)										if (::hx::IsEq( op1.charCodeAt(0),62 )) {
+HXLINE( 914)											 ::haxe::ds::List _hx_tmp = this->tokens;
+HXDLIN( 914)											 ::hscript::Token _hx_tmp1 = ::hscript::Token_obj::TOp(op1.substr(1,null()));
+HXDLIN( 914)											_hx_tmp->add( ::Dynamic(::hx::Anon_obj::Create(3)
             												->setFixed(0,HX_("t",74,00,00,00),_hx_tmp1)
             												->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             												->setFixed(2,HX_("min",92,11,53,00),((this->tokenMax - op1.length) - 1))));
-HXLINE( 915)											goto _hx_goto_64;
+HXLINE( 918)											goto _hx_goto_65;
             										}
             									}
             								}
             								break;
-            								case (int)9: {
-HXLINE( 906)									continue;
+            								case (int)10: {
+HXLINE( 909)									continue;
             								}
             								break;
             								default:{
             								}
             							}
-HXLINE( 919)							this->unexpected(t);
-HXLINE( 920)							goto _hx_goto_64;
+HXLINE( 922)							this->unexpected(t);
+HXLINE( 923)							goto _hx_goto_65;
             						}
-            						_hx_goto_64:;
+            						_hx_goto_65:;
             					}
             					else {
-HXLINE( 923)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 926)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             							->setFixed(0,HX_("t",74,00,00,00),t)
             							->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             							->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 923)						this->tokenMin = this->oldTokenMin;
-HXDLIN( 923)						this->tokenMax = this->oldTokenMax;
+HXDLIN( 926)						this->tokenMin = this->oldTokenMin;
+HXDLIN( 926)						this->tokenMax = this->oldTokenMax;
             					}
             				}
             				else {
-HXLINE( 925)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 928)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),t)
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 925)					this->tokenMin = this->oldTokenMin;
-HXDLIN( 925)					this->tokenMax = this->oldTokenMax;
+HXDLIN( 928)					this->tokenMin = this->oldTokenMin;
+HXDLIN( 928)					this->tokenMax = this->oldTokenMax;
             				}
-HXLINE( 927)				return this->parseTypeNext(::hscript::CType_obj::CTPath(path,params));
+HXLINE( 930)				return this->parseTypeNext(::hscript::CType_obj::CTPath(path,params));
             			}
             			break;
             			case (int)4: {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::hscript::Parser,_gthis) HXARGC(1)
             				 ::hscript::CType _hx_run(::Array< ::Dynamic> args){
-            					HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_935_parseType)
-HXLINE( 936)					{
-HXLINE( 936)						 ::hscript::Token _g = _gthis->token();
-HXDLIN( 936)						if ((_g->_hx_getIndex() == 3)) {
-HXLINE( 937)							if ((_g->_hx_getString(0) != HX_("->",71,27,00,00))) {
-HXLINE( 938)								 ::hscript::Token t = _g;
-HXDLIN( 938)								_gthis->unexpected(t);
+            					HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_938_parseType)
+HXLINE( 939)					{
+HXLINE( 939)						 ::hscript::Token _g = _gthis->token();
+HXDLIN( 939)						if ((_g->_hx_getIndex() == 3)) {
+HXLINE( 940)							if ((_g->_hx_getString(0) != HX_("->",71,27,00,00))) {
+HXLINE( 941)								 ::hscript::Token t = _g;
+HXDLIN( 941)								_gthis->unexpected(t);
             							}
             						}
             						else {
-HXLINE( 938)							 ::hscript::Token t1 = _g;
-HXDLIN( 938)							_gthis->unexpected(t1);
+HXLINE( 941)							 ::hscript::Token t1 = _g;
+HXDLIN( 941)							_gthis->unexpected(t1);
             						}
             					}
-HXLINE( 941)					return ::hscript::CType_obj::CTFun(args,_gthis->parseType());
+HXLINE( 944)					return ::hscript::CType_obj::CTFun(args,_gthis->parseType());
             				}
             				HX_END_LOCAL_FUNC1(return)
 
-HXLINE( 929)				 ::hscript::Token a = this->token();
-HXDLIN( 929)				 ::hscript::Token b = this->token();
-HXLINE( 932)				{
-HXLINE( 932)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 932)				 ::hscript::Token a = this->token();
+HXDLIN( 932)				 ::hscript::Token b = this->token();
+HXLINE( 935)				{
+HXLINE( 935)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),b)
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 932)					this->tokenMin = this->oldTokenMin;
-HXDLIN( 932)					this->tokenMax = this->oldTokenMax;
+HXDLIN( 935)					this->tokenMin = this->oldTokenMin;
+HXDLIN( 935)					this->tokenMax = this->oldTokenMax;
             				}
-HXLINE( 933)				{
-HXLINE( 933)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 936)				{
+HXLINE( 936)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),a)
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN( 933)					this->tokenMin = this->oldTokenMin;
-HXDLIN( 933)					this->tokenMax = this->oldTokenMax;
+HXDLIN( 936)					this->tokenMin = this->oldTokenMin;
+HXDLIN( 936)					this->tokenMax = this->oldTokenMax;
             				}
-HXLINE( 935)				 ::Dynamic withReturn =  ::Dynamic(new _hx_Closure_0(_gthis));
-HXLINE( 944)				switch((int)(a->_hx_getIndex())){
+HXLINE( 938)				 ::Dynamic withReturn =  ::Dynamic(new _hx_Closure_0(_gthis));
+HXLINE( 947)				switch((int)(a->_hx_getIndex())){
             					case (int)2: {
-HXLINE( 945)						::String _g = a->_hx_getString(0);
-HXLINE( 944)						if ((b->_hx_getIndex() == 14)) {
-HXLINE( 947)							::Array< ::Dynamic> _g1 = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN( 947)							{
-HXLINE( 947)								int _g2 = 0;
-HXDLIN( 947)								::Array< ::Dynamic> _g3 = this->parseFunctionArgs();
-HXDLIN( 947)								while((_g2 < _g3->length)){
-HXLINE( 947)									 ::Dynamic arg = _g3->__get(_g2);
-HXDLIN( 947)									_g2 = (_g2 + 1);
-HXLINE( 948)									{
-HXLINE( 948)										 ::Dynamic _g4 = arg->__Field(HX_("value",71,7f,b8,31),::hx::paccDynamic);
-HXLINE( 949)										if (::hx::IsNotNull( _g4 )) {
-HXLINE( 950)											 ::Dynamic v1 = _g4;
-HXLINE( 951)											if (!(this->resumeErrors)) {
-HXLINE( 951)												HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::ECustom(HX_("Default values not allowed in function types",28,46,7a,e6)),( (int)(v1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(v1->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),this->origin,this->line));
+HXLINE( 948)						::String _g = a->_hx_getString(0);
+HXLINE( 947)						if ((b->_hx_getIndex() == 15)) {
+HXLINE( 950)							::Array< ::Dynamic> _g1 = ::Array_obj< ::Dynamic>::__new(0);
+HXDLIN( 950)							{
+HXLINE( 950)								int _g2 = 0;
+HXDLIN( 950)								::Array< ::Dynamic> _g3 = this->parseFunctionArgs();
+HXDLIN( 950)								while((_g2 < _g3->length)){
+HXLINE( 950)									 ::Dynamic arg = _g3->__get(_g2);
+HXDLIN( 950)									_g2 = (_g2 + 1);
+HXLINE( 951)									{
+HXLINE( 951)										 ::Dynamic _g4 = arg->__Field(HX_("value",71,7f,b8,31),::hx::paccDynamic);
+HXLINE( 952)										if (::hx::IsNotNull( _g4 )) {
+HXLINE( 953)											 ::Dynamic v1 = _g4;
+HXLINE( 954)											if (!(this->resumeErrors)) {
+HXLINE( 954)												HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::ECustom(HX_("Default values not allowed in function types",28,46,7a,e6)),( (int)(v1->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(v1->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),this->origin,this->line));
             											}
             										}
             									}
-HXLINE( 954)									 ::hscript::CType _hx_tmp2;
-HXDLIN( 954)									if (( (bool)(arg->__Field(HX_("opt",33,9c,54,00),::hx::paccDynamic)) )) {
-HXLINE( 954)										_hx_tmp2 = ::hscript::CType_obj::CTOpt( ::Dynamic(arg->__Field(HX_("t",74,00,00,00),::hx::paccDynamic)));
+HXLINE( 957)									 ::hscript::CType _hx_tmp2;
+HXDLIN( 957)									if (( (bool)(arg->__Field(HX_("opt",33,9c,54,00),::hx::paccDynamic)) )) {
+HXLINE( 957)										_hx_tmp2 = ::hscript::CType_obj::CTOpt( ::Dynamic(arg->__Field(HX_("t",74,00,00,00),::hx::paccDynamic)));
             									}
             									else {
-HXLINE( 954)										_hx_tmp2 = arg->__Field(HX_("t",74,00,00,00),::hx::paccDynamic);
+HXLINE( 957)										_hx_tmp2 = arg->__Field(HX_("t",74,00,00,00),::hx::paccDynamic);
             									}
-HXDLIN( 954)									_g1->push(::hscript::CType_obj::CTNamed( ::Dynamic(arg->__Field(HX_("name",4b,72,ff,48),::hx::paccDynamic)),_hx_tmp2));
+HXDLIN( 957)									_g1->push(::hscript::CType_obj::CTNamed( ::Dynamic(arg->__Field(HX_("name",4b,72,ff,48),::hx::paccDynamic)),_hx_tmp2));
             								}
             							}
-HXLINE( 947)							::Array< ::Dynamic> args = _g1;
-HXLINE( 957)							return withReturn(args);
+HXLINE( 950)							::Array< ::Dynamic> args = _g1;
+HXLINE( 960)							return withReturn(args);
             						}
             						else {
-HXLINE( 960)							 ::hscript::CType t1 = this->parseType();
-HXLINE( 961)							 ::hscript::Token _g5 = this->token();
-HXDLIN( 961)							switch((int)(_g5->_hx_getIndex())){
+HXLINE( 963)							 ::hscript::CType t1 = this->parseType();
+HXLINE( 964)							 ::hscript::Token _g5 = this->token();
+HXDLIN( 964)							switch((int)(_g5->_hx_getIndex())){
             								case (int)5: {
-HXLINE( 972)									return this->parseTypeNext(::hscript::CType_obj::CTParent(t1));
+HXLINE( 975)									return this->parseTypeNext(::hscript::CType_obj::CTParent(t1));
             								}
             								break;
-            								case (int)9: {
-HXLINE( 963)									::Array< ::Dynamic> args1 = ::Array_obj< ::Dynamic>::__new(1)->init(0,t1);
-HXLINE( 965)									do {
-HXLINE( 966)										args1->push(this->parseType());
+            								case (int)10: {
+HXLINE( 966)									::Array< ::Dynamic> args1 = ::Array_obj< ::Dynamic>::__new(1)->init(0,t1);
+HXLINE( 968)									do {
+HXLINE( 969)										args1->push(this->parseType());
             									} while(this->maybe(::hscript::Token_obj::TComma_dyn()));
 ;
-HXLINE( 969)									{
-HXLINE( 969)										 ::hscript::Token t2 = this->token();
-HXDLIN( 969)										if (::hx::IsPointerNotEq( t2,::hscript::Token_obj::TPClose_dyn() )) {
-HXLINE( 969)											this->unexpected(t2);
+HXLINE( 972)									{
+HXLINE( 972)										 ::hscript::Token t2 = this->token();
+HXDLIN( 972)										if (::hx::IsPointerNotEq( t2,::hscript::Token_obj::TPClose_dyn() )) {
+HXLINE( 972)											this->unexpected(t2);
             										}
             									}
-HXLINE( 970)									return withReturn(args1);
+HXLINE( 973)									return withReturn(args1);
             								}
             								break;
             								default:{
-HXLINE( 973)									 ::hscript::Token t3 = _g5;
-HXDLIN( 973)									return this->unexpected(t3);
+HXLINE( 976)									 ::hscript::Token t3 = _g5;
+HXDLIN( 976)									return this->unexpected(t3);
             								}
             							}
             						}
             					}
             					break;
             					case (int)5: {
-HXLINE( 947)						::Array< ::Dynamic> _g6 = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN( 947)						{
-HXLINE( 947)							int _g7 = 0;
-HXDLIN( 947)							::Array< ::Dynamic> _g8 = this->parseFunctionArgs();
-HXDLIN( 947)							while((_g7 < _g8->length)){
-HXLINE( 947)								 ::Dynamic arg1 = _g8->__get(_g7);
-HXDLIN( 947)								_g7 = (_g7 + 1);
-HXLINE( 948)								{
-HXLINE( 948)									 ::Dynamic _g9 = arg1->__Field(HX_("value",71,7f,b8,31),::hx::paccDynamic);
-HXLINE( 949)									if (::hx::IsNotNull( _g9 )) {
-HXLINE( 950)										 ::Dynamic v2 = _g9;
-HXLINE( 951)										if (!(this->resumeErrors)) {
-HXLINE( 951)											HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::ECustom(HX_("Default values not allowed in function types",28,46,7a,e6)),( (int)(v2->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(v2->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),this->origin,this->line));
+HXLINE( 950)						::Array< ::Dynamic> _g6 = ::Array_obj< ::Dynamic>::__new(0);
+HXDLIN( 950)						{
+HXLINE( 950)							int _g7 = 0;
+HXDLIN( 950)							::Array< ::Dynamic> _g8 = this->parseFunctionArgs();
+HXDLIN( 950)							while((_g7 < _g8->length)){
+HXLINE( 950)								 ::Dynamic arg1 = _g8->__get(_g7);
+HXDLIN( 950)								_g7 = (_g7 + 1);
+HXLINE( 951)								{
+HXLINE( 951)									 ::Dynamic _g9 = arg1->__Field(HX_("value",71,7f,b8,31),::hx::paccDynamic);
+HXLINE( 952)									if (::hx::IsNotNull( _g9 )) {
+HXLINE( 953)										 ::Dynamic v2 = _g9;
+HXLINE( 954)										if (!(this->resumeErrors)) {
+HXLINE( 954)											HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::ECustom(HX_("Default values not allowed in function types",28,46,7a,e6)),( (int)(v2->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(v2->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),this->origin,this->line));
             										}
             									}
             								}
-HXLINE( 954)								 ::hscript::CType _hx_tmp3;
-HXDLIN( 954)								if (( (bool)(arg1->__Field(HX_("opt",33,9c,54,00),::hx::paccDynamic)) )) {
-HXLINE( 954)									_hx_tmp3 = ::hscript::CType_obj::CTOpt( ::Dynamic(arg1->__Field(HX_("t",74,00,00,00),::hx::paccDynamic)));
+HXLINE( 957)								 ::hscript::CType _hx_tmp3;
+HXDLIN( 957)								if (( (bool)(arg1->__Field(HX_("opt",33,9c,54,00),::hx::paccDynamic)) )) {
+HXLINE( 957)									_hx_tmp3 = ::hscript::CType_obj::CTOpt( ::Dynamic(arg1->__Field(HX_("t",74,00,00,00),::hx::paccDynamic)));
             								}
             								else {
-HXLINE( 954)									_hx_tmp3 = arg1->__Field(HX_("t",74,00,00,00),::hx::paccDynamic);
+HXLINE( 957)									_hx_tmp3 = arg1->__Field(HX_("t",74,00,00,00),::hx::paccDynamic);
             								}
-HXDLIN( 954)								_g6->push(::hscript::CType_obj::CTNamed( ::Dynamic(arg1->__Field(HX_("name",4b,72,ff,48),::hx::paccDynamic)),_hx_tmp3));
+HXDLIN( 957)								_g6->push(::hscript::CType_obj::CTNamed( ::Dynamic(arg1->__Field(HX_("name",4b,72,ff,48),::hx::paccDynamic)),_hx_tmp3));
             							}
             						}
-HXLINE( 947)						::Array< ::Dynamic> args2 = _g6;
-HXLINE( 957)						return withReturn(args2);
+HXLINE( 950)						::Array< ::Dynamic> args2 = _g6;
+HXLINE( 960)						return withReturn(args2);
             					}
             					break;
             					default:{
-HXLINE( 960)						 ::hscript::CType t4 = this->parseType();
-HXLINE( 961)						 ::hscript::Token _g10 = this->token();
-HXDLIN( 961)						switch((int)(_g10->_hx_getIndex())){
+HXLINE( 963)						 ::hscript::CType t4 = this->parseType();
+HXLINE( 964)						 ::hscript::Token _g10 = this->token();
+HXDLIN( 964)						switch((int)(_g10->_hx_getIndex())){
             							case (int)5: {
-HXLINE( 972)								return this->parseTypeNext(::hscript::CType_obj::CTParent(t4));
+HXLINE( 975)								return this->parseTypeNext(::hscript::CType_obj::CTParent(t4));
             							}
             							break;
-            							case (int)9: {
-HXLINE( 963)								::Array< ::Dynamic> args3 = ::Array_obj< ::Dynamic>::__new(1)->init(0,t4);
-HXLINE( 965)								do {
-HXLINE( 966)									args3->push(this->parseType());
+            							case (int)10: {
+HXLINE( 966)								::Array< ::Dynamic> args3 = ::Array_obj< ::Dynamic>::__new(1)->init(0,t4);
+HXLINE( 968)								do {
+HXLINE( 969)									args3->push(this->parseType());
             								} while(this->maybe(::hscript::Token_obj::TComma_dyn()));
 ;
-HXLINE( 969)								{
-HXLINE( 969)									 ::hscript::Token t5 = this->token();
-HXDLIN( 969)									if (::hx::IsPointerNotEq( t5,::hscript::Token_obj::TPClose_dyn() )) {
-HXLINE( 969)										this->unexpected(t5);
+HXLINE( 972)								{
+HXLINE( 972)									 ::hscript::Token t5 = this->token();
+HXDLIN( 972)									if (::hx::IsPointerNotEq( t5,::hscript::Token_obj::TPClose_dyn() )) {
+HXLINE( 972)										this->unexpected(t5);
             									}
             								}
-HXLINE( 970)								return withReturn(args3);
+HXLINE( 973)								return withReturn(args3);
             							}
             							break;
             							default:{
-HXLINE( 973)								 ::hscript::Token t6 = _g10;
-HXDLIN( 973)								return this->unexpected(t6);
+HXLINE( 976)								 ::hscript::Token t6 = _g10;
+HXDLIN( 976)								return this->unexpected(t6);
             							}
             						}
             					}
@@ -4074,57 +4371,57 @@ HXDLIN( 973)								return this->unexpected(t6);
             			}
             			break;
             			case (int)6: {
-HXLINE( 977)				::Array< ::Dynamic> fields = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE( 978)				::Array< ::Dynamic> meta = null();
-HXLINE( 979)				while(true){
-HXLINE( 980)					t = this->token();
-HXLINE( 981)					switch((int)(t->_hx_getIndex())){
+HXLINE( 980)				::Array< ::Dynamic> fields = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE( 981)				::Array< ::Dynamic> meta = null();
+HXLINE( 982)				while(true){
+HXLINE( 983)					t = this->token();
+HXLINE( 984)					switch((int)(t->_hx_getIndex())){
             						case (int)2: {
-HXLINE( 989)							::String _g11 = t->_hx_getString(0);
-HXDLIN( 989)							if ((_g11 == HX_("var",e7,de,59,00))) {
-HXLINE( 984)								::String name = this->getIdent();
-HXLINE( 985)								{
-HXLINE( 985)									 ::hscript::Token t7 = this->token();
-HXDLIN( 985)									if (::hx::IsPointerNotEq( t7,::hscript::Token_obj::TDoubleDot_dyn() )) {
-HXLINE( 985)										this->unexpected(t7);
+HXLINE( 992)							::String _g11 = t->_hx_getString(0);
+HXDLIN( 992)							if ((_g11 == HX_("var",e7,de,59,00))) {
+HXLINE( 987)								::String name = this->getIdent();
+HXLINE( 988)								{
+HXLINE( 988)									 ::hscript::Token t7 = this->token();
+HXDLIN( 988)									if (::hx::IsPointerNotEq( t7,::hscript::Token_obj::TDoubleDot_dyn() )) {
+HXLINE( 988)										this->unexpected(t7);
             									}
             								}
-HXLINE( 986)								fields->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 989)								fields->push( ::Dynamic(::hx::Anon_obj::Create(3)
             									->setFixed(0,HX_("t",74,00,00,00),this->parseType())
             									->setFixed(1,HX_("meta",c5,4a,59,48),meta)
             									->setFixed(2,HX_("name",4b,72,ff,48),name)));
-HXLINE( 987)								meta = null();
-HXLINE( 988)								{
-HXLINE( 988)									 ::hscript::Token t8 = this->token();
-HXDLIN( 988)									if (::hx::IsPointerNotEq( t8,::hscript::Token_obj::TSemicolon_dyn() )) {
-HXLINE( 988)										this->unexpected(t8);
+HXLINE( 990)								meta = null();
+HXLINE( 991)								{
+HXLINE( 991)									 ::hscript::Token t8 = this->token();
+HXDLIN( 991)									if (::hx::IsPointerNotEq( t8,::hscript::Token_obj::TSemicolon_dyn() )) {
+HXLINE( 991)										this->unexpected(t8);
             									}
             								}
             							}
             							else {
-HXLINE( 989)								::String name1 = _g11;
-HXDLIN( 989)								{
-HXLINE( 990)									{
-HXLINE( 990)										 ::hscript::Token t9 = this->token();
-HXDLIN( 990)										if (::hx::IsPointerNotEq( t9,::hscript::Token_obj::TDoubleDot_dyn() )) {
-HXLINE( 990)											this->unexpected(t9);
+HXLINE( 992)								::String name1 = _g11;
+HXDLIN( 992)								{
+HXLINE( 993)									{
+HXLINE( 993)										 ::hscript::Token t9 = this->token();
+HXDLIN( 993)										if (::hx::IsPointerNotEq( t9,::hscript::Token_obj::TDoubleDot_dyn() )) {
+HXLINE( 993)											this->unexpected(t9);
             										}
             									}
-HXLINE( 991)									fields->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE( 994)									fields->push( ::Dynamic(::hx::Anon_obj::Create(3)
             										->setFixed(0,HX_("t",74,00,00,00),this->parseType())
             										->setFixed(1,HX_("meta",c5,4a,59,48),meta)
             										->setFixed(2,HX_("name",4b,72,ff,48),name1)));
-HXLINE( 992)									t = this->token();
-HXLINE( 993)									switch((int)(t->_hx_getIndex())){
+HXLINE( 995)									t = this->token();
+HXLINE( 996)									switch((int)(t->_hx_getIndex())){
             										case (int)7: {
-HXLINE( 995)											goto _hx_goto_69;
+HXLINE( 998)											goto _hx_goto_70;
             										}
             										break;
-            										case (int)9: {
+            										case (int)10: {
             										}
             										break;
             										default:{
-HXLINE( 996)											this->unexpected(t);
+HXLINE( 999)											this->unexpected(t);
             										}
             									}
             								}
@@ -4132,271 +4429,273 @@ HXLINE( 996)											this->unexpected(t);
             						}
             						break;
             						case (int)7: {
-HXLINE( 982)							goto _hx_goto_69;
+HXLINE( 985)							goto _hx_goto_70;
             						}
             						break;
-            						case (int)15: {
-HXLINE( 998)							::String name2 = t->_hx_getString(0);
-HXDLIN( 998)							{
-HXLINE( 999)								if (::hx::IsNull( meta )) {
-HXLINE( 999)									meta = ::Array_obj< ::Dynamic>::__new(0);
+            						case (int)16: {
+HXLINE(1001)							::String name2 = t->_hx_getString(0);
+HXDLIN(1001)							{
+HXLINE(1002)								if (::hx::IsNull( meta )) {
+HXLINE(1002)									meta = ::Array_obj< ::Dynamic>::__new(0);
             								}
-HXLINE(1000)								meta->push( ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE(1003)								meta->push( ::Dynamic(::hx::Anon_obj::Create(2)
             									->setFixed(0,HX_("params",46,fb,7a,ed),this->parseMetaArgs())
             									->setFixed(1,HX_("name",4b,72,ff,48),name2)));
             							}
             						}
             						break;
             						default:{
-HXLINE(1002)							this->unexpected(t);
-HXLINE(1003)							goto _hx_goto_69;
+HXLINE(1005)							this->unexpected(t);
+HXLINE(1006)							goto _hx_goto_70;
             						}
             					}
             				}
-            				_hx_goto_69:;
-HXLINE(1006)				return this->parseTypeNext(::hscript::CType_obj::CTAnon(fields));
+            				_hx_goto_70:;
+HXLINE(1009)				return this->parseTypeNext(::hscript::CType_obj::CTAnon(fields));
             			}
             			break;
             			default:{
-HXLINE(1008)				return this->unexpected(t);
+HXLINE(1011)				return this->unexpected(t);
             			}
             		}
-HXLINE( 892)		return null();
+HXLINE( 895)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,parseType,return )
 
  ::hscript::CType Parser_obj::parseTypeNext( ::hscript::CType t){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1012_parseTypeNext)
-HXLINE(1013)		 ::hscript::Token tk = this->token();
-HXLINE(1014)		if ((tk->_hx_getIndex() == 3)) {
-HXLINE(1015)			::String op = tk->_hx_getString(0);
-HXLINE(1016)			if ((op != HX_("->",71,27,00,00))) {
-HXLINE(1017)				{
-HXLINE(1017)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1015_parseTypeNext)
+HXLINE(1016)		 ::hscript::Token tk = this->token();
+HXLINE(1017)		if ((tk->_hx_getIndex() == 3)) {
+HXLINE(1018)			::String op = tk->_hx_getString(0);
+HXLINE(1019)			if ((op != HX_("->",71,27,00,00))) {
+HXLINE(1020)				{
+HXLINE(1020)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),tk)
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1017)					this->tokenMin = this->oldTokenMin;
-HXDLIN(1017)					this->tokenMax = this->oldTokenMax;
+HXDLIN(1020)					this->tokenMin = this->oldTokenMin;
+HXDLIN(1020)					this->tokenMax = this->oldTokenMax;
             				}
-HXLINE(1018)				return t;
+HXLINE(1021)				return t;
             			}
             		}
             		else {
-HXLINE(1021)			{
-HXLINE(1021)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1024)			{
+HXLINE(1024)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             					->setFixed(0,HX_("t",74,00,00,00),tk)
             					->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             					->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1021)				this->tokenMin = this->oldTokenMin;
-HXDLIN(1021)				this->tokenMax = this->oldTokenMax;
+HXDLIN(1024)				this->tokenMin = this->oldTokenMin;
+HXDLIN(1024)				this->tokenMax = this->oldTokenMax;
             			}
-HXLINE(1022)			return t;
+HXLINE(1025)			return t;
             		}
-HXLINE(1024)		 ::hscript::CType t2 = this->parseType();
-HXLINE(1025)		if ((t2->_hx_getIndex() == 1)) {
-HXLINE(1026)			 ::hscript::CType _g = t2->_hx_getObject(1).StaticCast<  ::hscript::CType >();
-HXDLIN(1026)			::Array< ::Dynamic> args = t2->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
-HXLINE(1027)			args->unshift(t);
-HXLINE(1028)			return t2;
+HXLINE(1027)		 ::hscript::CType t2 = this->parseType();
+HXLINE(1028)		if ((t2->_hx_getIndex() == 1)) {
+HXLINE(1029)			 ::hscript::CType _g = t2->_hx_getObject(1).StaticCast<  ::hscript::CType >();
+HXDLIN(1029)			::Array< ::Dynamic> args = t2->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
+HXLINE(1030)			args->unshift(t);
+HXLINE(1031)			return t2;
             		}
             		else {
-HXLINE(1030)			return ::hscript::CType_obj::CTFun(::Array_obj< ::Dynamic>::__new(1)->init(0,t),t2);
+HXLINE(1033)			return ::hscript::CType_obj::CTFun(::Array_obj< ::Dynamic>::__new(1)->init(0,t),t2);
             		}
-HXLINE(1025)		return null();
+HXLINE(1028)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,parseTypeNext,return )
 
 ::Array< ::Dynamic> Parser_obj::parseExprList( ::hscript::Token etk){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1034_parseExprList)
-HXLINE(1035)		::Array< ::Dynamic> args = ::Array_obj< ::Dynamic>::__new();
-HXLINE(1036)		 ::hscript::Token tk = this->token();
-HXLINE(1037)		if (::hx::IsPointerEq( tk,etk )) {
-HXLINE(1038)			return args;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1037_parseExprList)
+HXLINE(1038)		::Array< ::Dynamic> args = ::Array_obj< ::Dynamic>::__new();
+HXLINE(1039)		 ::hscript::Token tk = this->token();
+HXLINE(1040)		if (::hx::IsPointerEq( tk,etk )) {
+HXLINE(1041)			return args;
             		}
-HXLINE(1039)		{
-HXLINE(1039)			this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1042)		{
+HXLINE(1042)			this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             				->setFixed(0,HX_("t",74,00,00,00),tk)
             				->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             				->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1039)			this->tokenMin = this->oldTokenMin;
-HXDLIN(1039)			this->tokenMax = this->oldTokenMax;
+HXDLIN(1042)			this->tokenMin = this->oldTokenMin;
+HXDLIN(1042)			this->tokenMax = this->oldTokenMax;
             		}
-HXLINE(1040)		while(true){
-HXLINE(1041)			args->push(this->parseExpr());
-HXLINE(1042)			tk = this->token();
-HXLINE(1043)			if ((tk->_hx_getIndex() != 9)) {
-HXLINE(1046)				if (::hx::IsPointerEq( tk,etk )) {
-HXLINE(1046)					goto _hx_goto_73;
+HXLINE(1043)		while(true){
+HXLINE(1044)			args->push(this->parseExpr());
+HXLINE(1045)			tk = this->token();
+HXLINE(1046)			if ((tk->_hx_getIndex() != 10)) {
+HXLINE(1049)				if (::hx::IsPointerEq( tk,etk )) {
+HXLINE(1049)					goto _hx_goto_74;
             				}
-HXLINE(1047)				this->unexpected(tk);
-HXLINE(1048)				goto _hx_goto_73;
+HXLINE(1050)				this->unexpected(tk);
+HXLINE(1051)				goto _hx_goto_74;
             			}
             		}
-            		_hx_goto_73:;
-HXLINE(1051)		return args;
+            		_hx_goto_74:;
+HXLINE(1054)		return args;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,parseExprList,return )
 
-::Array< ::Dynamic> Parser_obj::parseModule(::String content,::String __o_origin){
+::Array< ::Dynamic> Parser_obj::parseModule(::String content,::String __o_origin, ::Dynamic __o_position){
             		::String origin = __o_origin;
             		if (::hx::IsNull(__o_origin)) origin = HX_("hscript",73,8c,18,2c);
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1056_parseModule)
-HXLINE(1057)		this->initParser(origin);
-HXLINE(1058)		this->input = content;
-HXLINE(1059)		this->readPos = 0;
-HXLINE(1060)		this->allowTypes = true;
-HXLINE(1061)		this->allowMetadata = true;
-HXLINE(1062)		::Array< ::Dynamic> decls = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(1063)		while(true){
-HXLINE(1064)			 ::hscript::Token tk = this->token();
-HXLINE(1065)			if (::hx::IsPointerEq( tk,::hscript::Token_obj::TEof_dyn() )) {
-HXLINE(1065)				goto _hx_goto_75;
+            		 ::Dynamic position = __o_position;
+            		if (::hx::IsNull(__o_position)) position = 0;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1059_parseModule)
+HXLINE(1060)		this->initParser(origin,( (int)(position) ));
+HXLINE(1061)		this->input = content;
+HXLINE(1062)		this->readPos = 0;
+HXLINE(1063)		this->allowTypes = true;
+HXLINE(1064)		this->allowMetadata = true;
+HXLINE(1065)		::Array< ::Dynamic> decls = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1066)		while(true){
+HXLINE(1067)			 ::hscript::Token tk = this->token();
+HXLINE(1068)			if (::hx::IsPointerEq( tk,::hscript::Token_obj::TEof_dyn() )) {
+HXLINE(1068)				goto _hx_goto_76;
             			}
-HXLINE(1066)			{
-HXLINE(1066)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1069)			{
+HXLINE(1069)				this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             					->setFixed(0,HX_("t",74,00,00,00),tk)
             					->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             					->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1066)				this->tokenMin = this->oldTokenMin;
-HXDLIN(1066)				this->tokenMax = this->oldTokenMax;
+HXDLIN(1069)				this->tokenMin = this->oldTokenMin;
+HXDLIN(1069)				this->tokenMax = this->oldTokenMax;
             			}
-HXLINE(1067)			decls->push(this->parseModuleDecl());
+HXLINE(1070)			decls->push(this->parseModuleDecl());
             		}
-            		_hx_goto_75:;
-HXLINE(1069)		return decls;
+            		_hx_goto_76:;
+HXLINE(1072)		return decls;
             	}
 
 
-HX_DEFINE_DYNAMIC_FUNC2(Parser_obj,parseModule,return )
+HX_DEFINE_DYNAMIC_FUNC3(Parser_obj,parseModule,return )
 
 ::Array< ::Dynamic> Parser_obj::parseMetadata(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1072_parseMetadata)
-HXLINE(1073)		::Array< ::Dynamic> meta = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(1074)		while(true){
-HXLINE(1075)			 ::hscript::Token tk = this->token();
-HXLINE(1076)			if ((tk->_hx_getIndex() == 15)) {
-HXLINE(1077)				::String name = tk->_hx_getString(0);
-HXLINE(1078)				meta->push( ::Dynamic(::hx::Anon_obj::Create(2)
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1075_parseMetadata)
+HXLINE(1076)		::Array< ::Dynamic> meta = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1077)		while(true){
+HXLINE(1078)			 ::hscript::Token tk = this->token();
+HXLINE(1079)			if ((tk->_hx_getIndex() == 16)) {
+HXLINE(1080)				::String name = tk->_hx_getString(0);
+HXLINE(1081)				meta->push( ::Dynamic(::hx::Anon_obj::Create(2)
             					->setFixed(0,HX_("params",46,fb,7a,ed),this->parseMetaArgs())
             					->setFixed(1,HX_("name",4b,72,ff,48),name)));
             			}
             			else {
-HXLINE(1080)				{
-HXLINE(1080)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1083)				{
+HXLINE(1083)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),tk)
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1080)					this->tokenMin = this->oldTokenMin;
-HXDLIN(1080)					this->tokenMax = this->oldTokenMax;
+HXDLIN(1083)					this->tokenMin = this->oldTokenMin;
+HXDLIN(1083)					this->tokenMax = this->oldTokenMax;
             				}
-HXLINE(1081)				goto _hx_goto_77;
+HXLINE(1084)				goto _hx_goto_78;
             			}
             		}
-            		_hx_goto_77:;
-HXLINE(1084)		return meta;
+            		_hx_goto_78:;
+HXLINE(1087)		return meta;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,parseMetadata,return )
 
  ::Dynamic Parser_obj::parseParams(){
-            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1087_parseParams)
-HXLINE(1088)		if (this->maybe(::hscript::Token_obj::TOp(HX_("<",3c,00,00,00)))) {
-HXLINE(1089)			if (!(this->resumeErrors)) {
-HXLINE(1089)				HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidOp(HX_("Unsupported class type parameters",9d,ae,a3,50)),this->readPos,this->readPos,this->origin,this->line));
+            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1090_parseParams)
+HXLINE(1091)		if (this->maybe(::hscript::Token_obj::TOp(HX_("<",3c,00,00,00)))) {
+HXLINE(1092)			if (!(this->resumeErrors)) {
+HXLINE(1092)				HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidOp(HX_("Unsupported class type parameters",9d,ae,a3,50)),(this->readPos + this->offset),(this->readPos + this->offset),this->origin,this->line));
             			}
             		}
-HXLINE(1090)		return  ::Dynamic(::hx::Anon_obj::Create(0));
+HXLINE(1093)		return  ::Dynamic(::hx::Anon_obj::Create(0));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,parseParams,return )
 
  ::hscript::ModuleDecl Parser_obj::parseModuleDecl(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1093_parseModuleDecl)
-HXLINE(1094)		::Array< ::Dynamic> meta = this->parseMetadata();
-HXLINE(1095)		::String ident = this->getIdent();
-HXLINE(1096)		bool isPrivate = false;
-HXDLIN(1096)		bool isExtern = false;
-HXLINE(1097)		while(true){
-HXLINE(1098)			::String _hx_switch_0 = ident;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1096_parseModuleDecl)
+HXLINE(1097)		::Array< ::Dynamic> meta = this->parseMetadata();
+HXLINE(1098)		::String ident = this->getIdent();
+HXLINE(1099)		bool isPrivate = false;
+HXDLIN(1099)		bool isExtern = false;
+HXLINE(1100)		while(true){
+HXLINE(1101)			::String _hx_switch_0 = ident;
             			if (  (_hx_switch_0==HX_("extern",60,d5,1a,c7)) ){
-HXLINE(1102)				isExtern = true;
-HXDLIN(1102)				goto _hx_goto_81;
+HXLINE(1105)				isExtern = true;
+HXDLIN(1105)				goto _hx_goto_82;
             			}
             			if (  (_hx_switch_0==HX_("private",03,2d,6f,89)) ){
-HXLINE(1100)				isPrivate = true;
-HXDLIN(1100)				goto _hx_goto_81;
+HXLINE(1103)				isPrivate = true;
+HXDLIN(1103)				goto _hx_goto_82;
             			}
             			/* default */{
-HXLINE(1104)				goto _hx_goto_80;
+HXLINE(1107)				goto _hx_goto_81;
             			}
-            			_hx_goto_81:;
-HXLINE(1106)			ident = this->getIdent();
+            			_hx_goto_82:;
+HXLINE(1109)			ident = this->getIdent();
             		}
-            		_hx_goto_80:;
-HXLINE(1108)		::String _hx_switch_1 = ident;
+            		_hx_goto_81:;
+HXLINE(1111)		::String _hx_switch_1 = ident;
             		if (  (_hx_switch_1==HX_("class",38,78,58,48)) ){
-HXLINE(1135)			::String name = this->getIdent();
-HXLINE(1136)			 ::Dynamic params = this->parseParams();
-HXLINE(1137)			 ::hscript::CType extend = null();
-HXLINE(1138)			::Array< ::Dynamic> implement = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(1140)			while(true){
-HXLINE(1141)				 ::hscript::Token t = this->token();
-HXLINE(1142)				if ((t->_hx_getIndex() == 2)) {
-HXLINE(1145)					::String _hx_switch_2 = t->_hx_getString(0);
+HXLINE(1138)			::String name = this->getIdent();
+HXLINE(1139)			 ::Dynamic params = this->parseParams();
+HXLINE(1140)			 ::hscript::CType extend = null();
+HXLINE(1141)			::Array< ::Dynamic> implement = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1143)			while(true){
+HXLINE(1144)				 ::hscript::Token t = this->token();
+HXLINE(1145)				if ((t->_hx_getIndex() == 2)) {
+HXLINE(1148)					::String _hx_switch_2 = t->_hx_getString(0);
             					if (  (_hx_switch_2==HX_("extends",59,cd,5c,70)) ){
-HXLINE(1144)						extend = this->parseType();
-HXDLIN(1144)						goto _hx_goto_84;
+HXLINE(1147)						extend = this->parseType();
+HXDLIN(1147)						goto _hx_goto_85;
             					}
             					if (  (_hx_switch_2==HX_("implements",70,fd,43,a8)) ){
-HXLINE(1146)						implement->push(this->parseType());
-HXDLIN(1146)						goto _hx_goto_84;
+HXLINE(1149)						implement->push(this->parseType());
+HXDLIN(1149)						goto _hx_goto_85;
             					}
             					/* default */{
-HXLINE(1148)						{
-HXLINE(1148)							this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1151)						{
+HXLINE(1151)							this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             								->setFixed(0,HX_("t",74,00,00,00),t)
             								->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             								->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1148)							this->tokenMin = this->oldTokenMin;
-HXDLIN(1148)							this->tokenMax = this->oldTokenMax;
+HXDLIN(1151)							this->tokenMin = this->oldTokenMin;
+HXDLIN(1151)							this->tokenMax = this->oldTokenMax;
             						}
-HXLINE(1149)						goto _hx_goto_83;
+HXLINE(1152)						goto _hx_goto_84;
             					}
-            					_hx_goto_84:;
+            					_hx_goto_85:;
             				}
             				else {
-HXLINE(1148)					{
-HXLINE(1148)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1151)					{
+HXLINE(1151)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             							->setFixed(0,HX_("t",74,00,00,00),t)
             							->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             							->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1148)						this->tokenMin = this->oldTokenMin;
-HXDLIN(1148)						this->tokenMax = this->oldTokenMax;
+HXDLIN(1151)						this->tokenMin = this->oldTokenMin;
+HXDLIN(1151)						this->tokenMax = this->oldTokenMax;
             					}
-HXLINE(1149)					goto _hx_goto_83;
+HXLINE(1152)					goto _hx_goto_84;
             				}
             			}
-            			_hx_goto_83:;
-HXLINE(1153)			::Array< ::Dynamic> fields = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(1154)			{
-HXLINE(1154)				 ::hscript::Token t1 = this->token();
-HXDLIN(1154)				if (::hx::IsPointerNotEq( t1,::hscript::Token_obj::TBrOpen_dyn() )) {
-HXLINE(1154)					this->unexpected(t1);
+            			_hx_goto_84:;
+HXLINE(1156)			::Array< ::Dynamic> fields = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1157)			{
+HXLINE(1157)				 ::hscript::Token t1 = this->token();
+HXDLIN(1157)				if (::hx::IsPointerNotEq( t1,::hscript::Token_obj::TBrOpen_dyn() )) {
+HXLINE(1157)					this->unexpected(t1);
             				}
             			}
-HXLINE(1155)			while(!(this->maybe(::hscript::Token_obj::TBrClose_dyn()))){
-HXLINE(1156)				fields->push(this->parseField());
+HXLINE(1158)			while(!(this->maybe(::hscript::Token_obj::TBrClose_dyn()))){
+HXLINE(1159)				fields->push(this->parseField());
             			}
-HXLINE(1158)			return ::hscript::ModuleDecl_obj::DClass( ::Dynamic(::hx::Anon_obj::Create(8)
+HXLINE(1161)			return ::hscript::ModuleDecl_obj::DClass( ::Dynamic(::hx::Anon_obj::Create(8)
             				->setFixed(0,HX_("fields",79,8e,8e,80),fields)
             				->setFixed(1,HX_("isPrivate",39,aa,6d,8d),isPrivate)
             				->setFixed(2,HX_("implement",a3,71,3f,af),implement)
@@ -4405,105 +4704,105 @@ HXLINE(1158)			return ::hscript::ModuleDecl_obj::DClass( ::Dynamic(::hx::Anon_ob
             				->setFixed(5,HX_("isExtern",ea,70,84,1f),isExtern)
             				->setFixed(6,HX_("meta",c5,4a,59,48),meta)
             				->setFixed(7,HX_("name",4b,72,ff,48),name)));
-HXLINE(1134)			goto _hx_goto_82;
+HXLINE(1137)			goto _hx_goto_83;
             		}
             		if (  (_hx_switch_1==HX_("import",65,a1,82,08)) ){
-HXLINE(1114)			::Array< ::String > path = ::Array_obj< ::String >::__new(1)->init(0,this->getIdent());
-HXLINE(1115)			bool star = false;
-HXLINE(1116)			while(true){
-HXLINE(1117)				 ::hscript::Token t2 = this->token();
-HXLINE(1118)				if (::hx::IsPointerNotEq( t2,::hscript::Token_obj::TDot_dyn() )) {
-HXLINE(1119)					{
-HXLINE(1119)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1117)			::Array< ::String > path = ::Array_obj< ::String >::__new(1)->init(0,this->getIdent());
+HXLINE(1118)			bool star = false;
+HXLINE(1119)			while(true){
+HXLINE(1120)				 ::hscript::Token t2 = this->token();
+HXLINE(1121)				if (::hx::IsPointerNotEq( t2,::hscript::Token_obj::TDot_dyn() )) {
+HXLINE(1122)					{
+HXLINE(1122)						this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             							->setFixed(0,HX_("t",74,00,00,00),t2)
             							->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             							->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1119)						this->tokenMin = this->oldTokenMin;
-HXDLIN(1119)						this->tokenMax = this->oldTokenMax;
+HXDLIN(1122)						this->tokenMin = this->oldTokenMin;
+HXDLIN(1122)						this->tokenMax = this->oldTokenMax;
             					}
-HXLINE(1120)					goto _hx_goto_86;
+HXLINE(1123)					goto _hx_goto_87;
             				}
-HXLINE(1122)				t2 = this->token();
-HXLINE(1123)				switch((int)(t2->_hx_getIndex())){
+HXLINE(1125)				t2 = this->token();
+HXLINE(1126)				switch((int)(t2->_hx_getIndex())){
             					case (int)2: {
-HXLINE(1124)						::String id = t2->_hx_getString(0);
-HXLINE(1125)						path->push(id);
+HXLINE(1127)						::String id = t2->_hx_getString(0);
+HXLINE(1128)						path->push(id);
             					}
             					break;
             					case (int)3: {
-HXLINE(1126)						if ((t2->_hx_getString(0) == HX_("*",2a,00,00,00))) {
-HXLINE(1127)							star = true;
+HXLINE(1129)						if ((t2->_hx_getString(0) == HX_("*",2a,00,00,00))) {
+HXLINE(1130)							star = true;
             						}
             						else {
-HXLINE(1129)							this->unexpected(t2);
+HXLINE(1132)							this->unexpected(t2);
             						}
             					}
             					break;
             					default:{
-HXLINE(1129)						this->unexpected(t2);
+HXLINE(1132)						this->unexpected(t2);
             					}
             				}
             			}
-            			_hx_goto_86:;
-HXLINE(1132)			{
-HXLINE(1132)				 ::hscript::Token t3 = this->token();
-HXDLIN(1132)				if (::hx::IsPointerNotEq( t3,::hscript::Token_obj::TSemicolon_dyn() )) {
-HXLINE(1132)					this->unexpected(t3);
+            			_hx_goto_87:;
+HXLINE(1135)			{
+HXLINE(1135)				 ::hscript::Token t3 = this->token();
+HXDLIN(1135)				if (::hx::IsPointerNotEq( t3,::hscript::Token_obj::TSemicolon_dyn() )) {
+HXLINE(1135)					this->unexpected(t3);
             				}
             			}
-HXLINE(1133)			return ::hscript::ModuleDecl_obj::DImport(path,star);
-HXLINE(1113)			goto _hx_goto_82;
+HXLINE(1136)			return ::hscript::ModuleDecl_obj::DImport(path,star);
+HXLINE(1116)			goto _hx_goto_83;
             		}
             		if (  (_hx_switch_1==HX_("package",86,2b,b1,41)) ){
-HXLINE(1110)			::Array< ::String > path1 = this->parsePath();
-HXLINE(1111)			{
-HXLINE(1111)				 ::hscript::Token t4 = this->token();
-HXDLIN(1111)				if (::hx::IsPointerNotEq( t4,::hscript::Token_obj::TSemicolon_dyn() )) {
-HXLINE(1111)					this->unexpected(t4);
+HXLINE(1113)			::Array< ::String > path1 = this->parsePath();
+HXLINE(1114)			{
+HXLINE(1114)				 ::hscript::Token t4 = this->token();
+HXDLIN(1114)				if (::hx::IsPointerNotEq( t4,::hscript::Token_obj::TSemicolon_dyn() )) {
+HXLINE(1114)					this->unexpected(t4);
             				}
             			}
-HXLINE(1112)			return ::hscript::ModuleDecl_obj::DPackage(path1);
-HXLINE(1109)			goto _hx_goto_82;
+HXLINE(1115)			return ::hscript::ModuleDecl_obj::DPackage(path1);
+HXLINE(1112)			goto _hx_goto_83;
             		}
             		if (  (_hx_switch_1==HX_("typedef",4b,37,d8,f8)) ){
-HXLINE(1169)			::String name1 = this->getIdent();
-HXLINE(1170)			 ::Dynamic params1 = this->parseParams();
-HXLINE(1171)			{
-HXLINE(1171)				 ::hscript::Token t5 = this->token();
-HXDLIN(1171)				if (!(__hxcpp_enum_eq(t5,::hscript::Token_obj::TOp(HX_("=",3d,00,00,00))))) {
-HXLINE(1171)					this->unexpected(t5);
+HXLINE(1172)			::String name1 = this->getIdent();
+HXLINE(1173)			 ::Dynamic params1 = this->parseParams();
+HXLINE(1174)			{
+HXLINE(1174)				 ::hscript::Token t5 = this->token();
+HXDLIN(1174)				if (!(__hxcpp_enum_eq(t5,::hscript::Token_obj::TOp(HX_("=",3d,00,00,00))))) {
+HXLINE(1174)					this->unexpected(t5);
             				}
             			}
-HXLINE(1172)			 ::hscript::CType t6 = this->parseType();
-HXLINE(1173)			return ::hscript::ModuleDecl_obj::DTypedef( ::Dynamic(::hx::Anon_obj::Create(5)
+HXLINE(1175)			 ::hscript::CType t6 = this->parseType();
+HXLINE(1176)			return ::hscript::ModuleDecl_obj::DTypedef( ::Dynamic(::hx::Anon_obj::Create(5)
             				->setFixed(0,HX_("isPrivate",39,aa,6d,8d),isPrivate)
             				->setFixed(1,HX_("params",46,fb,7a,ed),params1)
             				->setFixed(2,HX_("t",74,00,00,00),t6)
             				->setFixed(3,HX_("meta",c5,4a,59,48),meta)
             				->setFixed(4,HX_("name",4b,72,ff,48),name1)));
-HXLINE(1168)			goto _hx_goto_82;
+HXLINE(1171)			goto _hx_goto_83;
             		}
             		/* default */{
-HXLINE(1181)			this->unexpected(::hscript::Token_obj::TId(ident));
+HXLINE(1184)			this->unexpected(::hscript::Token_obj::TId(ident));
             		}
-            		_hx_goto_82:;
-HXLINE(1183)		return null();
+            		_hx_goto_83:;
+HXLINE(1186)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,parseModuleDecl,return )
 
  ::Dynamic Parser_obj::parseField(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1186_parseField)
-HXLINE(1187)		::Array< ::Dynamic> meta = this->parseMetadata();
-HXLINE(1188)		::Array< ::Dynamic> access = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(1189)		while(true){
-HXLINE(1190)			::String id = this->getIdent();
-HXLINE(1191)			::String _hx_switch_0 = id;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1189_parseField)
+HXLINE(1190)		::Array< ::Dynamic> meta = this->parseMetadata();
+HXLINE(1191)		::Array< ::Dynamic> access = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(1192)		while(true){
+HXLINE(1193)			::String id = this->getIdent();
+HXLINE(1194)			::String _hx_switch_0 = id;
             			if (  (_hx_switch_0==HX_("function",18,ab,52,14)) ){
-HXLINE(1205)				::String name = this->getIdent();
-HXLINE(1206)				 ::Dynamic inf = this->parseFunctionDecl();
-HXLINE(1207)				return  ::Dynamic(::hx::Anon_obj::Create(4)
+HXLINE(1208)				::String name = this->getIdent();
+HXLINE(1209)				 ::Dynamic inf = this->parseFunctionDecl();
+HXLINE(1210)				return  ::Dynamic(::hx::Anon_obj::Create(4)
             					->setFixed(0,HX_("access",a4,95,06,0b),access)
             					->setFixed(1,HX_("kind",54,e1,09,47),::hscript::FieldKind_obj::KFunction( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("ret",61,d9,56,00), ::Dynamic(inf->__Field(HX_("ret",61,d9,56,00),::hx::paccDynamic)))
@@ -4511,107 +4810,107 @@ HXLINE(1207)				return  ::Dynamic(::hx::Anon_obj::Create(4)
             						->setFixed(2,HX_("expr",35,fd,1d,43), ::Dynamic(inf->__Field(HX_("body",a2,7a,1b,41),::hx::paccDynamic))))))
             					->setFixed(2,HX_("meta",c5,4a,59,48),meta)
             					->setFixed(3,HX_("name",4b,72,ff,48),name));
-HXLINE(1204)				goto _hx_goto_89;
+HXLINE(1207)				goto _hx_goto_90;
             			}
             			if (  (_hx_switch_0==HX_("inline",59,ca,3f,99)) ){
-HXLINE(1199)				access->push(::hscript::FieldAccess_obj::AInline_dyn());
-HXDLIN(1199)				goto _hx_goto_89;
+HXLINE(1202)				access->push(::hscript::FieldAccess_obj::AInline_dyn());
+HXDLIN(1202)				goto _hx_goto_90;
             			}
             			if (  (_hx_switch_0==HX_("macro",0c,70,16,03)) ){
-HXLINE(1203)				access->push(::hscript::FieldAccess_obj::AMacro_dyn());
-HXDLIN(1203)				goto _hx_goto_89;
+HXLINE(1206)				access->push(::hscript::FieldAccess_obj::AMacro_dyn());
+HXDLIN(1206)				goto _hx_goto_90;
             			}
             			if (  (_hx_switch_0==HX_("override",4c,22,28,49)) ){
-HXLINE(1193)				access->push(::hscript::FieldAccess_obj::AOverride_dyn());
-HXDLIN(1193)				goto _hx_goto_89;
+HXLINE(1196)				access->push(::hscript::FieldAccess_obj::AOverride_dyn());
+HXDLIN(1196)				goto _hx_goto_90;
             			}
             			if (  (_hx_switch_0==HX_("private",03,2d,6f,89)) ){
-HXLINE(1197)				access->push(::hscript::FieldAccess_obj::APrivate_dyn());
-HXDLIN(1197)				goto _hx_goto_89;
+HXLINE(1200)				access->push(::hscript::FieldAccess_obj::APrivate_dyn());
+HXDLIN(1200)				goto _hx_goto_90;
             			}
             			if (  (_hx_switch_0==HX_("public",a9,80,f3,66)) ){
-HXLINE(1195)				access->push(::hscript::FieldAccess_obj::APublic_dyn());
-HXDLIN(1195)				goto _hx_goto_89;
+HXLINE(1198)				access->push(::hscript::FieldAccess_obj::APublic_dyn());
+HXDLIN(1198)				goto _hx_goto_90;
             			}
             			if (  (_hx_switch_0==HX_("static",ae,dc,fb,05)) ){
-HXLINE(1201)				access->push(::hscript::FieldAccess_obj::AStatic_dyn());
-HXDLIN(1201)				goto _hx_goto_89;
+HXLINE(1204)				access->push(::hscript::FieldAccess_obj::AStatic_dyn());
+HXDLIN(1204)				goto _hx_goto_90;
             			}
             			if (  (_hx_switch_0==HX_("var",e7,de,59,00)) ){
-HXLINE(1218)				::String name1 = this->getIdent();
-HXLINE(1219)				::String get = null();
-HXDLIN(1219)				::String set = null();
-HXLINE(1220)				if (this->maybe(::hscript::Token_obj::TPOpen_dyn())) {
-HXLINE(1221)					get = this->getIdent();
-HXLINE(1222)					{
-HXLINE(1222)						 ::hscript::Token t = this->token();
-HXDLIN(1222)						if (::hx::IsPointerNotEq( t,::hscript::Token_obj::TComma_dyn() )) {
-HXLINE(1222)							this->unexpected(t);
+HXLINE(1221)				::String name1 = this->getIdent();
+HXLINE(1222)				::String get = null();
+HXDLIN(1222)				::String set = null();
+HXLINE(1223)				if (this->maybe(::hscript::Token_obj::TPOpen_dyn())) {
+HXLINE(1224)					get = this->getIdent();
+HXLINE(1225)					{
+HXLINE(1225)						 ::hscript::Token t = this->token();
+HXDLIN(1225)						if (::hx::IsPointerNotEq( t,::hscript::Token_obj::TComma_dyn() )) {
+HXLINE(1225)							this->unexpected(t);
             						}
             					}
-HXLINE(1223)					set = this->getIdent();
-HXLINE(1224)					{
-HXLINE(1224)						 ::hscript::Token t1 = this->token();
-HXDLIN(1224)						if (::hx::IsPointerNotEq( t1,::hscript::Token_obj::TPClose_dyn() )) {
-HXLINE(1224)							this->unexpected(t1);
+HXLINE(1226)					set = this->getIdent();
+HXLINE(1227)					{
+HXLINE(1227)						 ::hscript::Token t1 = this->token();
+HXDLIN(1227)						if (::hx::IsPointerNotEq( t1,::hscript::Token_obj::TPClose_dyn() )) {
+HXLINE(1227)							this->unexpected(t1);
             						}
             					}
             				}
-HXLINE(1226)				 ::hscript::CType type;
-HXDLIN(1226)				if (this->maybe(::hscript::Token_obj::TDoubleDot_dyn())) {
-HXLINE(1226)					type = this->parseType();
+HXLINE(1229)				 ::hscript::CType type;
+HXDLIN(1229)				if (this->maybe(::hscript::Token_obj::TDoubleDot_dyn())) {
+HXLINE(1229)					type = this->parseType();
             				}
             				else {
-HXLINE(1226)					type = null();
+HXLINE(1229)					type = null();
             				}
-HXLINE(1227)				 ::Dynamic expr;
-HXDLIN(1227)				if (this->maybe(::hscript::Token_obj::TOp(HX_("=",3d,00,00,00)))) {
-HXLINE(1227)					expr = this->parseExpr();
+HXLINE(1230)				 ::Dynamic expr;
+HXDLIN(1230)				if (this->maybe(::hscript::Token_obj::TOp(HX_("=",3d,00,00,00)))) {
+HXLINE(1230)					expr = this->parseExpr();
             				}
             				else {
-HXLINE(1227)					expr = null();
+HXLINE(1230)					expr = null();
             				}
-HXLINE(1229)				if (::hx::IsNotNull( expr )) {
-HXLINE(1230)					if (this->isBlock(expr)) {
-HXLINE(1231)						this->maybe(::hscript::Token_obj::TSemicolon_dyn());
+HXLINE(1232)				if (::hx::IsNotNull( expr )) {
+HXLINE(1233)					if (this->isBlock(expr)) {
+HXLINE(1234)						this->maybe(::hscript::Token_obj::TSemicolon_dyn());
             					}
             					else {
-HXLINE(1233)						 ::hscript::Token t2 = this->token();
-HXDLIN(1233)						if (::hx::IsPointerNotEq( t2,::hscript::Token_obj::TSemicolon_dyn() )) {
-HXLINE(1233)							this->unexpected(t2);
+HXLINE(1236)						 ::hscript::Token t2 = this->token();
+HXDLIN(1236)						if (::hx::IsPointerNotEq( t2,::hscript::Token_obj::TSemicolon_dyn() )) {
+HXLINE(1236)							this->unexpected(t2);
             						}
             					}
             				}
             				else {
-HXLINE(1234)					bool _hx_tmp;
-HXDLIN(1234)					if (::hx::IsNotNull( type )) {
-HXLINE(1234)						if (::hx::IsNull( type )) {
-HXLINE(1234)							_hx_tmp = false;
+HXLINE(1237)					bool _hx_tmp;
+HXDLIN(1237)					if (::hx::IsNotNull( type )) {
+HXLINE(1237)						if (::hx::IsNull( type )) {
+HXLINE(1237)							_hx_tmp = false;
             						}
             						else {
-HXLINE(1234)							if ((type->_hx_getIndex() == 2)) {
-HXLINE(1234)								::Array< ::Dynamic> _g = type->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
-HXDLIN(1234)								_hx_tmp = true;
+HXLINE(1237)							if ((type->_hx_getIndex() == 2)) {
+HXLINE(1237)								::Array< ::Dynamic> _g = type->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
+HXDLIN(1237)								_hx_tmp = true;
             							}
             							else {
-HXLINE(1234)								_hx_tmp = false;
+HXLINE(1237)								_hx_tmp = false;
             							}
             						}
             					}
             					else {
-HXLINE(1234)						_hx_tmp = false;
+HXLINE(1237)						_hx_tmp = false;
             					}
-HXDLIN(1234)					if (_hx_tmp) {
-HXLINE(1235)						this->maybe(::hscript::Token_obj::TSemicolon_dyn());
+HXDLIN(1237)					if (_hx_tmp) {
+HXLINE(1238)						this->maybe(::hscript::Token_obj::TSemicolon_dyn());
             					}
             					else {
-HXLINE(1237)						 ::hscript::Token t3 = this->token();
-HXDLIN(1237)						if (::hx::IsPointerNotEq( t3,::hscript::Token_obj::TSemicolon_dyn() )) {
-HXLINE(1237)							this->unexpected(t3);
+HXLINE(1240)						 ::hscript::Token t3 = this->token();
+HXDLIN(1240)						if (::hx::IsPointerNotEq( t3,::hscript::Token_obj::TSemicolon_dyn() )) {
+HXLINE(1240)							this->unexpected(t3);
             						}
             					}
             				}
-HXLINE(1239)				return  ::Dynamic(::hx::Anon_obj::Create(4)
+HXLINE(1242)				return  ::Dynamic(::hx::Anon_obj::Create(4)
             					->setFixed(0,HX_("access",a4,95,06,0b),access)
             					->setFixed(1,HX_("kind",54,e1,09,47),::hscript::FieldKind_obj::KVar( ::Dynamic(::hx::Anon_obj::Create(4)
             						->setFixed(0,HX_("get",96,80,4e,00),get)
@@ -4620,682 +4919,687 @@ HXLINE(1239)				return  ::Dynamic(::hx::Anon_obj::Create(4)
             						->setFixed(3,HX_("type",ba,f2,08,4d),type))))
             					->setFixed(2,HX_("meta",c5,4a,59,48),meta)
             					->setFixed(3,HX_("name",4b,72,ff,48),name1));
-HXLINE(1217)				goto _hx_goto_89;
+HXLINE(1220)				goto _hx_goto_90;
             			}
             			/* default */{
-HXLINE(1251)				this->unexpected(::hscript::Token_obj::TId(id));
-HXLINE(1252)				goto _hx_goto_88;
+HXLINE(1254)				this->unexpected(::hscript::Token_obj::TId(id));
+HXLINE(1255)				goto _hx_goto_89;
             			}
-            			_hx_goto_89:;
+            			_hx_goto_90:;
             		}
-            		_hx_goto_88:;
-HXLINE(1255)		return null();
+            		_hx_goto_89:;
+HXLINE(1258)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,parseField,return )
 
 int Parser_obj::readChar(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1261_readChar)
-HXDLIN(1261)		return this->input.cca(this->readPos++);
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1264_readChar)
+HXDLIN(1264)		return this->input.cca(this->readPos++);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,readChar,return )
 
 ::String Parser_obj::readString(int until){
-            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1264_readString)
-HXLINE(1265)		int c = 0;
-HXLINE(1266)		 ::StringBuf b =  ::StringBuf_obj::__alloc( HX_CTX );
-HXLINE(1267)		bool esc = false;
-HXLINE(1268)		int old = this->line;
-HXLINE(1269)		::String s = this->input;
-HXLINE(1271)		int p1 = (this->readPos - 1);
-HXLINE(1273)		while(true){
-HXLINE(1274)			int c1 = this->input.cca(this->readPos++);
-HXLINE(1275)			if ((c1 == 0)) {
-HXLINE(1276)				this->line = old;
-HXLINE(1277)				if (!(this->resumeErrors)) {
-HXLINE(1277)					HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EUnterminatedString_dyn(),p1,p1,this->origin,this->line));
+            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1267_readString)
+HXLINE(1268)		int c = 0;
+HXLINE(1269)		 ::StringBuf b =  ::StringBuf_obj::__alloc( HX_CTX );
+HXLINE(1270)		bool esc = false;
+HXLINE(1271)		int old = this->line;
+HXLINE(1272)		::String s = this->input;
+HXLINE(1274)		int p1 = ((this->readPos + this->offset) - 1);
+HXLINE(1276)		while(true){
+HXLINE(1277)			int c1 = this->input.cca(this->readPos++);
+HXLINE(1278)			if ((c1 == 0)) {
+HXLINE(1279)				this->line = old;
+HXLINE(1280)				if (!(this->resumeErrors)) {
+HXLINE(1280)					HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EUnterminatedString_dyn(),p1,p1,this->origin,this->line));
             				}
-HXLINE(1278)				goto _hx_goto_92;
+HXLINE(1281)				goto _hx_goto_93;
             			}
-HXLINE(1280)			if (esc) {
-HXLINE(1281)				esc = false;
-HXLINE(1282)				switch((int)(c1)){
+HXLINE(1283)			if (esc) {
+HXLINE(1284)				esc = false;
+HXLINE(1285)				switch((int)(c1)){
             					case (int)47: {
-HXLINE(1287)						if (this->allowJSON) {
-HXLINE(1287)							if ((c1 >= 127)) {
-HXLINE(1287)								::String x = ::String::fromCharCode(c1);
-HXDLIN(1287)								if (::hx::IsNotNull( b->charBuf )) {
-HXLINE(1287)									b->flush();
+HXLINE(1290)						if (this->allowJSON) {
+HXLINE(1290)							if ((c1 >= 127)) {
+HXLINE(1290)								::String x = ::String::fromCharCode(c1);
+HXDLIN(1290)								if (::hx::IsNotNull( b->charBuf )) {
+HXLINE(1290)									b->flush();
             								}
-HXDLIN(1287)								if (::hx::IsNull( b->b )) {
-HXLINE(1287)									b->b = ::Array_obj< ::String >::__new(1)->init(0,::Std_obj::string(x));
+HXDLIN(1290)								if (::hx::IsNull( b->b )) {
+HXLINE(1290)									b->b = ::Array_obj< ::String >::__new(1)->init(0,::Std_obj::string(x));
             								}
             								else {
-HXLINE(1287)									::Array< ::String > b1 = b->b;
-HXDLIN(1287)									b1->push(::Std_obj::string(x));
+HXLINE(1290)									::Array< ::String > b1 = b->b;
+HXDLIN(1290)									b1->push(::Std_obj::string(x));
             								}
             							}
             							else {
-HXLINE(1287)								if (::hx::IsNull( b->charBuf )) {
-HXLINE(1287)									b->charBuf = ::Array_obj< char >::__new();
+HXLINE(1290)								if (::hx::IsNull( b->charBuf )) {
+HXLINE(1290)									b->charBuf = ::Array_obj< char >::__new();
             								}
-HXDLIN(1287)								b->charBuf->push(c1);
+HXDLIN(1290)								b->charBuf->push(c1);
             							}
             						}
             						else {
-HXLINE(1287)							this->invalidChar(c1);
+HXLINE(1290)							this->invalidChar(c1);
             						}
             					}
             					break;
             					case (int)34: case (int)39: case (int)92: {
-HXLINE(1286)						if ((c1 >= 127)) {
-HXLINE(1286)							::String x1 = ::String::fromCharCode(c1);
-HXDLIN(1286)							if (::hx::IsNotNull( b->charBuf )) {
-HXLINE(1286)								b->flush();
+HXLINE(1289)						if ((c1 >= 127)) {
+HXLINE(1289)							::String x1 = ::String::fromCharCode(c1);
+HXDLIN(1289)							if (::hx::IsNotNull( b->charBuf )) {
+HXLINE(1289)								b->flush();
             							}
-HXDLIN(1286)							if (::hx::IsNull( b->b )) {
-HXLINE(1286)								b->b = ::Array_obj< ::String >::__new(1)->init(0,::Std_obj::string(x1));
+HXDLIN(1289)							if (::hx::IsNull( b->b )) {
+HXLINE(1289)								b->b = ::Array_obj< ::String >::__new(1)->init(0,::Std_obj::string(x1));
             							}
             							else {
-HXLINE(1286)								::Array< ::String > b2 = b->b;
-HXDLIN(1286)								b2->push(::Std_obj::string(x1));
+HXLINE(1289)								::Array< ::String > b2 = b->b;
+HXDLIN(1289)								b2->push(::Std_obj::string(x1));
             							}
             						}
             						else {
-HXLINE(1286)							if (::hx::IsNull( b->charBuf )) {
-HXLINE(1286)								b->charBuf = ::Array_obj< char >::__new();
+HXLINE(1289)							if (::hx::IsNull( b->charBuf )) {
+HXLINE(1289)								b->charBuf = ::Array_obj< char >::__new();
             							}
-HXDLIN(1286)							b->charBuf->push(c1);
+HXDLIN(1289)							b->charBuf->push(c1);
             						}
             					}
             					break;
             					case (int)110: {
-HXLINE(1283)						if (::hx::IsNull( b->charBuf )) {
-HXLINE(1283)							b->charBuf = ::Array_obj< char >::__new();
+HXLINE(1286)						if (::hx::IsNull( b->charBuf )) {
+HXLINE(1286)							b->charBuf = ::Array_obj< char >::__new();
             						}
-HXDLIN(1283)						b->charBuf->push(10);
+HXDLIN(1286)						b->charBuf->push(10);
             					}
             					break;
             					case (int)114: {
-HXLINE(1284)						if (::hx::IsNull( b->charBuf )) {
-HXLINE(1284)							b->charBuf = ::Array_obj< char >::__new();
+HXLINE(1287)						if (::hx::IsNull( b->charBuf )) {
+HXLINE(1287)							b->charBuf = ::Array_obj< char >::__new();
             						}
-HXDLIN(1284)						b->charBuf->push(13);
+HXDLIN(1287)						b->charBuf->push(13);
             					}
             					break;
             					case (int)116: {
-HXLINE(1285)						if (::hx::IsNull( b->charBuf )) {
-HXLINE(1285)							b->charBuf = ::Array_obj< char >::__new();
+HXLINE(1288)						if (::hx::IsNull( b->charBuf )) {
+HXLINE(1288)							b->charBuf = ::Array_obj< char >::__new();
             						}
-HXDLIN(1285)						b->charBuf->push(9);
+HXDLIN(1288)						b->charBuf->push(9);
             					}
             					break;
             					case (int)117: {
-HXLINE(1289)						if (!(this->allowJSON)) {
-HXLINE(1289)							this->invalidChar(c1);
+HXLINE(1292)						if (!(this->allowJSON)) {
+HXLINE(1292)							this->invalidChar(c1);
             						}
-HXLINE(1290)						int k = 0;
-HXLINE(1291)						{
-HXLINE(1291)							int _g = 0;
-HXDLIN(1291)							while((_g < 4)){
-HXLINE(1291)								_g = (_g + 1);
-HXDLIN(1291)								int i = (_g - 1);
-HXLINE(1292)								k = (k << 4);
-HXLINE(1293)								int _hx_char = this->input.cca(this->readPos++);
-HXLINE(1294)								switch((int)(_hx_char)){
+HXLINE(1293)						int k = 0;
+HXLINE(1294)						{
+HXLINE(1294)							int _g = 0;
+HXDLIN(1294)							while((_g < 4)){
+HXLINE(1294)								_g = (_g + 1);
+HXDLIN(1294)								int i = (_g - 1);
+HXLINE(1295)								k = (k << 4);
+HXLINE(1296)								int _hx_char = this->input.cca(this->readPos++);
+HXLINE(1297)								switch((int)(_hx_char)){
             									case (int)48: case (int)49: case (int)50: case (int)51: case (int)52: case (int)53: case (int)54: case (int)55: case (int)56: case (int)57: {
-HXLINE(1296)										k = (k + (_hx_char - 48));
+HXLINE(1299)										k = (k + (_hx_char - 48));
             									}
             									break;
             									case (int)65: case (int)66: case (int)67: case (int)68: case (int)69: case (int)70: {
-HXLINE(1298)										k = (k + (_hx_char - 55));
+HXLINE(1301)										k = (k + (_hx_char - 55));
             									}
             									break;
             									case (int)97: case (int)98: case (int)99: case (int)100: case (int)101: case (int)102: {
-HXLINE(1300)										k = (k + (_hx_char - 87));
+HXLINE(1303)										k = (k + (_hx_char - 87));
             									}
             									break;
             									default:{
-HXLINE(1302)										if ((_hx_char == 0)) {
-HXLINE(1303)											this->line = old;
-HXLINE(1304)											if (!(this->resumeErrors)) {
-HXLINE(1304)												HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EUnterminatedString_dyn(),p1,p1,this->origin,this->line));
+HXLINE(1305)										if ((_hx_char == 0)) {
+HXLINE(1306)											this->line = old;
+HXLINE(1307)											if (!(this->resumeErrors)) {
+HXLINE(1307)												HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EUnterminatedString_dyn(),p1,p1,this->origin,this->line));
             											}
             										}
-HXLINE(1306)										this->invalidChar(_hx_char);
+HXLINE(1309)										this->invalidChar(_hx_char);
             									}
             								}
             							}
             						}
-HXLINE(1309)						if ((k >= 127)) {
-HXLINE(1309)							::String x2 = ::String::fromCharCode(k);
-HXDLIN(1309)							if (::hx::IsNotNull( b->charBuf )) {
-HXLINE(1309)								b->flush();
+HXLINE(1312)						if ((k >= 127)) {
+HXLINE(1312)							::String x2 = ::String::fromCharCode(k);
+HXDLIN(1312)							if (::hx::IsNotNull( b->charBuf )) {
+HXLINE(1312)								b->flush();
             							}
-HXDLIN(1309)							if (::hx::IsNull( b->b )) {
-HXLINE(1309)								b->b = ::Array_obj< ::String >::__new(1)->init(0,::Std_obj::string(x2));
+HXDLIN(1312)							if (::hx::IsNull( b->b )) {
+HXLINE(1312)								b->b = ::Array_obj< ::String >::__new(1)->init(0,::Std_obj::string(x2));
             							}
             							else {
-HXLINE(1309)								::Array< ::String > b3 = b->b;
-HXDLIN(1309)								b3->push(::Std_obj::string(x2));
+HXLINE(1312)								::Array< ::String > b3 = b->b;
+HXDLIN(1312)								b3->push(::Std_obj::string(x2));
             							}
             						}
             						else {
-HXLINE(1309)							if (::hx::IsNull( b->charBuf )) {
-HXLINE(1309)								b->charBuf = ::Array_obj< char >::__new();
+HXLINE(1312)							if (::hx::IsNull( b->charBuf )) {
+HXLINE(1312)								b->charBuf = ::Array_obj< char >::__new();
             							}
-HXDLIN(1309)							b->charBuf->push(k);
+HXDLIN(1312)							b->charBuf->push(k);
             						}
             					}
             					break;
             					default:{
-HXLINE(1310)						this->invalidChar(c1);
+HXLINE(1313)						this->invalidChar(c1);
             					}
             				}
             			}
             			else {
-HXLINE(1312)				if ((c1 == 92)) {
-HXLINE(1313)					esc = true;
+HXLINE(1315)				if ((c1 == 92)) {
+HXLINE(1316)					esc = true;
             				}
             				else {
-HXLINE(1314)					if ((c1 == until)) {
-HXLINE(1315)						goto _hx_goto_92;
+HXLINE(1317)					if ((c1 == until)) {
+HXLINE(1318)						goto _hx_goto_93;
             					}
             					else {
-HXLINE(1317)						if ((c1 == 10)) {
-HXLINE(1317)							this->line++;
+HXLINE(1320)						if ((c1 == 10)) {
+HXLINE(1320)							this->line++;
             						}
-HXLINE(1318)						if ((c1 >= 127)) {
-HXLINE(1318)							::String x3 = ::String::fromCharCode(c1);
-HXDLIN(1318)							if (::hx::IsNotNull( b->charBuf )) {
-HXLINE(1318)								b->flush();
+HXLINE(1321)						if ((c1 >= 127)) {
+HXLINE(1321)							::String x3 = ::String::fromCharCode(c1);
+HXDLIN(1321)							if (::hx::IsNotNull( b->charBuf )) {
+HXLINE(1321)								b->flush();
             							}
-HXDLIN(1318)							if (::hx::IsNull( b->b )) {
-HXLINE(1318)								b->b = ::Array_obj< ::String >::__new(1)->init(0,::Std_obj::string(x3));
+HXDLIN(1321)							if (::hx::IsNull( b->b )) {
+HXLINE(1321)								b->b = ::Array_obj< ::String >::__new(1)->init(0,::Std_obj::string(x3));
             							}
             							else {
-HXLINE(1318)								::Array< ::String > b4 = b->b;
-HXDLIN(1318)								b4->push(::Std_obj::string(x3));
+HXLINE(1321)								::Array< ::String > b4 = b->b;
+HXDLIN(1321)								b4->push(::Std_obj::string(x3));
             							}
             						}
             						else {
-HXLINE(1318)							if (::hx::IsNull( b->charBuf )) {
-HXLINE(1318)								b->charBuf = ::Array_obj< char >::__new();
+HXLINE(1321)							if (::hx::IsNull( b->charBuf )) {
+HXLINE(1321)								b->charBuf = ::Array_obj< char >::__new();
             							}
-HXDLIN(1318)							b->charBuf->push(c1);
+HXDLIN(1321)							b->charBuf->push(c1);
             						}
             					}
             				}
             			}
             		}
-            		_hx_goto_92:;
-HXLINE(1321)		return b->toString();
+            		_hx_goto_93:;
+HXLINE(1324)		return b->toString();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,readString,return )
 
  ::hscript::Token Parser_obj::token(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1324_token)
-HXLINE(1326)		 ::Dynamic t = this->tokens->pop();
-HXLINE(1327)		if (::hx::IsNotNull( t )) {
-HXLINE(1328)			this->tokenMin = ( (int)(t->__Field(HX_("min",92,11,53,00),::hx::paccDynamic)) );
-HXLINE(1329)			this->tokenMax = ( (int)(t->__Field(HX_("max",a4,0a,53,00),::hx::paccDynamic)) );
-HXLINE(1330)			return t->__Field(HX_("t",74,00,00,00),::hx::paccDynamic);
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1327_token)
+HXLINE(1329)		 ::Dynamic t = this->tokens->pop();
+HXLINE(1330)		if (::hx::IsNotNull( t )) {
+HXLINE(1331)			this->tokenMin = ( (int)(t->__Field(HX_("min",92,11,53,00),::hx::paccDynamic)) );
+HXLINE(1332)			this->tokenMax = ( (int)(t->__Field(HX_("max",a4,0a,53,00),::hx::paccDynamic)) );
+HXLINE(1333)			return t->__Field(HX_("t",74,00,00,00),::hx::paccDynamic);
             		}
-HXLINE(1332)		this->oldTokenMin = this->tokenMin;
-HXLINE(1333)		this->oldTokenMax = this->tokenMax;
-HXLINE(1334)		int _hx_tmp;
-HXDLIN(1334)		if ((this->_hx_char < 0)) {
-HXLINE(1334)			_hx_tmp = this->readPos;
-            		}
-            		else {
-HXLINE(1334)			_hx_tmp = (this->readPos - 1);
-            		}
-HXDLIN(1334)		this->tokenMin = _hx_tmp;
-HXLINE(1335)		 ::hscript::Token t1 = this->_token();
-HXLINE(1336)		int _hx_tmp1;
-HXDLIN(1336)		if ((this->_hx_char < 0)) {
-HXLINE(1336)			_hx_tmp1 = (this->readPos - 1);
+HXLINE(1335)		this->oldTokenMin = this->tokenMin;
+HXLINE(1336)		this->oldTokenMax = this->tokenMax;
+HXLINE(1337)		int _hx_tmp;
+HXDLIN(1337)		if ((this->_hx_char < 0)) {
+HXLINE(1337)			_hx_tmp = (this->readPos + this->offset);
             		}
             		else {
-HXLINE(1336)			_hx_tmp1 = (this->readPos - 2);
+HXLINE(1337)			_hx_tmp = ((this->readPos + this->offset) - 1);
             		}
-HXDLIN(1336)		this->tokenMax = _hx_tmp1;
-HXLINE(1337)		return t1;
+HXDLIN(1337)		this->tokenMin = _hx_tmp;
+HXLINE(1338)		 ::hscript::Token t1 = this->_token();
+HXLINE(1339)		int _hx_tmp1;
+HXDLIN(1339)		if ((this->_hx_char < 0)) {
+HXLINE(1339)			_hx_tmp1 = ((this->readPos + this->offset) - 1);
+            		}
+            		else {
+HXLINE(1339)			_hx_tmp1 = ((this->readPos + this->offset) - 2);
+            		}
+HXDLIN(1339)		this->tokenMax = _hx_tmp1;
+HXLINE(1340)		return t1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,token,return )
 
  ::hscript::Token Parser_obj::_token(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1340__token)
-HXLINE(1345)		int _hx_char;
-HXLINE(1346)		if ((this->_hx_char < 0)) {
-HXLINE(1347)			_hx_char = this->input.cca(this->readPos++);
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1343__token)
+HXLINE(1348)		int _hx_char;
+HXLINE(1349)		if ((this->_hx_char < 0)) {
+HXLINE(1350)			_hx_char = this->input.cca(this->readPos++);
             		}
             		else {
-HXLINE(1349)			_hx_char = this->_hx_char;
-HXLINE(1350)			this->_hx_char = -1;
+HXLINE(1352)			_hx_char = this->_hx_char;
+HXLINE(1353)			this->_hx_char = -1;
             		}
-HXLINE(1352)		while(true){
-HXLINE(1353)			if ((_hx_char == 0)) {
-HXLINE(1354)				this->_hx_char = _hx_char;
-HXLINE(1355)				return ::hscript::Token_obj::TEof_dyn();
+HXLINE(1355)		while(true){
+HXLINE(1356)			if ((_hx_char == 0)) {
+HXLINE(1357)				this->_hx_char = _hx_char;
+HXLINE(1358)				return ::hscript::Token_obj::TEof_dyn();
             			}
-HXLINE(1357)			switch((int)(_hx_char)){
+HXLINE(1360)			switch((int)(_hx_char)){
             				case (int)0: {
-HXLINE(1359)					return ::hscript::Token_obj::TEof_dyn();
+HXLINE(1362)					return ::hscript::Token_obj::TEof_dyn();
             				}
             				break;
             				case (int)10: {
-HXLINE(1364)					this->line++;
-HXLINE(1366)					this->tokenMin++;
+HXLINE(1367)					this->line++;
+HXLINE(1369)					this->tokenMin++;
             				}
             				break;
             				case (int)9: case (int)13: case (int)32: {
-HXLINE(1362)					this->tokenMin++;
+HXLINE(1365)					this->tokenMin++;
             				}
             				break;
             				case (int)34: case (int)39: {
-HXLINE(1486)					return ::hscript::Token_obj::TConst(::hscript::Const_obj::CString(this->readString(_hx_char)));
+HXLINE(1467)					return ::hscript::Token_obj::TConst(::hscript::Const_obj::CString(this->readString(_hx_char)));
             				}
             				break;
             				case (int)35: {
-HXLINE(1512)					_hx_char = this->input.cca(this->readPos++);
-HXLINE(1513)					if (this->idents->__get(_hx_char)) {
-HXLINE(1514)						::String id = ::String::fromCharCode(_hx_char);
-HXLINE(1515)						while(true){
-HXLINE(1516)							_hx_char = this->input.cca(this->readPos++);
-HXLINE(1517)							if (!(this->idents->__get(_hx_char))) {
-HXLINE(1518)								this->_hx_char = _hx_char;
-HXLINE(1519)								return this->preprocess(id);
+HXLINE(1498)					_hx_char = this->input.cca(this->readPos++);
+HXLINE(1499)					if (this->idents->__get(_hx_char)) {
+HXLINE(1500)						::String id = ::String::fromCharCode(_hx_char);
+HXLINE(1501)						while(true){
+HXLINE(1502)							_hx_char = this->input.cca(this->readPos++);
+HXLINE(1503)							if (!(this->idents->__get(_hx_char))) {
+HXLINE(1504)								this->_hx_char = _hx_char;
+HXLINE(1505)								return this->preprocess(id);
             							}
-HXLINE(1521)							id = (id + ::String::fromCharCode(_hx_char));
+HXLINE(1507)							id = (id + ::String::fromCharCode(_hx_char));
             						}
             					}
-HXLINE(1524)					this->invalidChar(_hx_char);
+HXLINE(1510)					this->invalidChar(_hx_char);
             				}
             				break;
             				case (int)40: {
-HXLINE(1453)					return ::hscript::Token_obj::TPOpen_dyn();
+HXLINE(1434)					return ::hscript::Token_obj::TPOpen_dyn();
             				}
             				break;
             				case (int)41: {
-HXLINE(1454)					return ::hscript::Token_obj::TPClose_dyn();
+HXLINE(1435)					return ::hscript::Token_obj::TPClose_dyn();
             				}
             				break;
             				case (int)44: {
-HXLINE(1455)					return ::hscript::Token_obj::TComma_dyn();
+HXLINE(1436)					return ::hscript::Token_obj::TComma_dyn();
             				}
             				break;
             				case (int)46: {
-HXLINE(1457)					_hx_char = this->input.cca(this->readPos++);
-HXLINE(1458)					switch((int)(_hx_char)){
+HXLINE(1438)					_hx_char = this->input.cca(this->readPos++);
+HXLINE(1439)					switch((int)(_hx_char)){
             						case (int)46: {
-HXLINE(1474)							_hx_char = this->input.cca(this->readPos++);
-HXLINE(1475)							if ((_hx_char != 46)) {
-HXLINE(1476)								this->invalidChar(_hx_char);
+HXLINE(1455)							_hx_char = this->input.cca(this->readPos++);
+HXLINE(1456)							if ((_hx_char != 46)) {
+HXLINE(1457)								this->invalidChar(_hx_char);
             							}
-HXLINE(1477)							return ::hscript::Token_obj::TOp(HX_("...",ee,0f,23,00));
+HXLINE(1458)							return ::hscript::Token_obj::TOp(HX_("...",ee,0f,23,00));
             						}
             						break;
             						case (int)48: case (int)49: case (int)50: case (int)51: case (int)52: case (int)53: case (int)54: case (int)55: case (int)56: case (int)57: {
-HXLINE(1460)							int n = (_hx_char - 48);
-HXLINE(1461)							int exp = 1;
-HXLINE(1462)							while(true){
-HXLINE(1463)								_hx_char = this->input.cca(this->readPos++);
-HXLINE(1464)								exp = (exp * 10);
-HXLINE(1465)								switch((int)(_hx_char)){
+HXLINE(1441)							int n = (_hx_char - 48);
+HXLINE(1442)							int exp = 1;
+HXLINE(1443)							while(true){
+HXLINE(1444)								_hx_char = this->input.cca(this->readPos++);
+HXLINE(1445)								exp = (exp * 10);
+HXLINE(1446)								switch((int)(_hx_char)){
             									case (int)48: case (int)49: case (int)50: case (int)51: case (int)52: case (int)53: case (int)54: case (int)55: case (int)56: case (int)57: {
-HXLINE(1467)										n = ((n * 10) + (_hx_char - 48));
+HXLINE(1448)										n = ((n * 10) + (_hx_char - 48));
             									}
             									break;
             									default:{
-HXLINE(1469)										this->_hx_char = _hx_char;
-HXLINE(1470)										return ::hscript::Token_obj::TConst(::hscript::Const_obj::CFloat((( (Float)(n) ) / ( (Float)(exp) ))));
+HXLINE(1450)										this->_hx_char = _hx_char;
+HXLINE(1451)										return ::hscript::Token_obj::TConst(::hscript::Const_obj::CFloat((( (Float)(n) ) / ( (Float)(exp) ))));
             									}
             								}
             							}
             						}
             						break;
             						default:{
-HXLINE(1479)							this->_hx_char = _hx_char;
-HXLINE(1480)							return ::hscript::Token_obj::TDot_dyn();
+HXLINE(1460)							this->_hx_char = _hx_char;
+HXLINE(1461)							return ::hscript::Token_obj::TDot_dyn();
             						}
             					}
             				}
             				break;
             				case (int)48: case (int)49: case (int)50: case (int)51: case (int)52: case (int)53: case (int)54: case (int)55: case (int)56: case (int)57: {
-HXLINE(1369)					Float n1 = (( (Float)((_hx_char - 48)) ) * ((Float)1.0));
-HXLINE(1370)					Float exp1 = ((Float)0.);
-HXLINE(1371)					while(true){
-HXLINE(1372)						_hx_char = this->input.cca(this->readPos++);
-HXLINE(1373)						exp1 = (exp1 * ( (Float)(10) ));
-HXLINE(1374)						switch((int)(_hx_char)){
+HXLINE(1372)					Float n1 = (( (Float)((_hx_char - 48)) ) * ((Float)1.0));
+HXLINE(1373)					Float exp1 = ((Float)0.);
+HXLINE(1374)					while(true){
+HXLINE(1375)						_hx_char = this->input.cca(this->readPos++);
+HXLINE(1376)						exp1 = (exp1 * ( (Float)(10) ));
+HXLINE(1377)						switch((int)(_hx_char)){
             							case (int)46: {
-HXLINE(1395)								if ((exp1 > 0)) {
-HXLINE(1397)									bool _hx_tmp;
-HXDLIN(1397)									if ((exp1 == 10)) {
-HXLINE(1397)										_hx_tmp = (this->input.cca(this->readPos++) == 46);
+HXLINE(1398)								if ((exp1 > 0)) {
+HXLINE(1400)									bool _hx_tmp;
+HXDLIN(1400)									if ((exp1 == 10)) {
+HXLINE(1400)										_hx_tmp = (this->input.cca(this->readPos++) == 46);
             									}
             									else {
-HXLINE(1397)										_hx_tmp = false;
+HXLINE(1400)										_hx_tmp = false;
             									}
-HXDLIN(1397)									if (_hx_tmp) {
-HXLINE(1398)										{
-HXLINE(1398)											this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXDLIN(1400)									if (_hx_tmp) {
+HXLINE(1401)										{
+HXLINE(1401)											this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             												->setFixed(0,HX_("t",74,00,00,00),::hscript::Token_obj::TOp(HX_("...",ee,0f,23,00)))
             												->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             												->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1398)											this->tokenMin = this->oldTokenMin;
-HXDLIN(1398)											this->tokenMax = this->oldTokenMax;
+HXDLIN(1401)											this->tokenMin = this->oldTokenMin;
+HXDLIN(1401)											this->tokenMax = this->oldTokenMax;
             										}
-HXLINE(1399)										int i = ::Std_obj::_hx_int(n1);
-HXLINE(1400)										 ::hscript::Const _hx_tmp1;
-HXDLIN(1400)										if ((i == n1)) {
-HXLINE(1400)											_hx_tmp1 = ::hscript::Const_obj::CInt(i);
+HXLINE(1402)										int i = ::Std_obj::_hx_int(n1);
+HXLINE(1403)										 ::hscript::Const _hx_tmp1;
+HXDLIN(1403)										if ((i == n1)) {
+HXLINE(1403)											_hx_tmp1 = ::hscript::Const_obj::CInt(i);
             										}
             										else {
-HXLINE(1400)											_hx_tmp1 = ::hscript::Const_obj::CFloat(n1);
+HXLINE(1403)											_hx_tmp1 = ::hscript::Const_obj::CFloat(n1);
             										}
-HXDLIN(1400)										return ::hscript::Token_obj::TConst(_hx_tmp1);
+HXDLIN(1403)										return ::hscript::Token_obj::TConst(_hx_tmp1);
             									}
-HXLINE(1402)									this->invalidChar(_hx_char);
+HXLINE(1405)									this->invalidChar(_hx_char);
             								}
-HXLINE(1404)								exp1 = ((Float)1.);
+HXLINE(1407)								exp1 = ((Float)1.);
             							}
             							break;
             							case (int)48: case (int)49: case (int)50: case (int)51: case (int)52: case (int)53: case (int)54: case (int)55: case (int)56: case (int)57: {
-HXLINE(1376)								n1 = ((n1 * ( (Float)(10) )) + (_hx_char - 48));
+HXLINE(1379)								n1 = ((n1 * ( (Float)(10) )) + (_hx_char - 48));
             							}
             							break;
             							case (int)69: case (int)101: {
-HXLINE(1378)								 ::hscript::Token tk = this->token();
-HXLINE(1379)								 ::Dynamic pow = null();
-HXLINE(1380)								switch((int)(tk->_hx_getIndex())){
+HXLINE(1381)								 ::hscript::Token tk = this->token();
+HXLINE(1382)								 ::Dynamic pow = null();
+HXLINE(1383)								switch((int)(tk->_hx_getIndex())){
             									case (int)1: {
-HXLINE(1381)										 ::hscript::Const _g = tk->_hx_getObject(0).StaticCast<  ::hscript::Const >();
-HXDLIN(1381)										if ((_g->_hx_getIndex() == 0)) {
-HXLINE(1381)											int e = _g->_hx_getInt(0);
-HXDLIN(1381)											pow = e;
+HXLINE(1384)										 ::hscript::Const _g = tk->_hx_getObject(0).StaticCast<  ::hscript::Const >();
+HXDLIN(1384)										if ((_g->_hx_getIndex() == 0)) {
+HXLINE(1384)											int e = _g->_hx_getInt(0);
+HXDLIN(1384)											pow = e;
             										}
             										else {
-HXLINE(1389)											this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1392)											this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             												->setFixed(0,HX_("t",74,00,00,00),tk)
             												->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             												->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1389)											this->tokenMin = this->oldTokenMin;
-HXDLIN(1389)											this->tokenMax = this->oldTokenMax;
+HXDLIN(1392)											this->tokenMin = this->oldTokenMin;
+HXDLIN(1392)											this->tokenMax = this->oldTokenMax;
             										}
             									}
             									break;
             									case (int)3: {
-HXLINE(1382)										if ((tk->_hx_getString(0) == HX_("-",2d,00,00,00))) {
-HXLINE(1383)											tk = this->token();
-HXLINE(1384)											if ((tk->_hx_getIndex() == 1)) {
-HXLINE(1385)												 ::hscript::Const _g1 = tk->_hx_getObject(0).StaticCast<  ::hscript::Const >();
-HXDLIN(1385)												if ((_g1->_hx_getIndex() == 0)) {
-HXLINE(1385)													int e1 = _g1->_hx_getInt(0);
-HXDLIN(1385)													pow = -(e1);
+HXLINE(1385)										if ((tk->_hx_getString(0) == HX_("-",2d,00,00,00))) {
+HXLINE(1386)											tk = this->token();
+HXLINE(1387)											if ((tk->_hx_getIndex() == 1)) {
+HXLINE(1388)												 ::hscript::Const _g1 = tk->_hx_getObject(0).StaticCast<  ::hscript::Const >();
+HXDLIN(1388)												if ((_g1->_hx_getIndex() == 0)) {
+HXLINE(1388)													int e1 = _g1->_hx_getInt(0);
+HXDLIN(1388)													pow = -(e1);
             												}
             												else {
-HXLINE(1386)													this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1389)													this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             														->setFixed(0,HX_("t",74,00,00,00),tk)
             														->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             														->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1386)													this->tokenMin = this->oldTokenMin;
-HXDLIN(1386)													this->tokenMax = this->oldTokenMax;
+HXDLIN(1389)													this->tokenMin = this->oldTokenMin;
+HXDLIN(1389)													this->tokenMax = this->oldTokenMax;
             												}
             											}
             											else {
-HXLINE(1386)												this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1389)												this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             													->setFixed(0,HX_("t",74,00,00,00),tk)
             													->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             													->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1386)												this->tokenMin = this->oldTokenMin;
-HXDLIN(1386)												this->tokenMax = this->oldTokenMax;
+HXDLIN(1389)												this->tokenMin = this->oldTokenMin;
+HXDLIN(1389)												this->tokenMax = this->oldTokenMax;
             											}
             										}
             										else {
-HXLINE(1389)											this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1392)											this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             												->setFixed(0,HX_("t",74,00,00,00),tk)
             												->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             												->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1389)											this->tokenMin = this->oldTokenMin;
-HXDLIN(1389)											this->tokenMax = this->oldTokenMax;
+HXDLIN(1392)											this->tokenMin = this->oldTokenMin;
+HXDLIN(1392)											this->tokenMax = this->oldTokenMax;
             										}
             									}
             									break;
             									default:{
-HXLINE(1389)										this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1392)										this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             											->setFixed(0,HX_("t",74,00,00,00),tk)
             											->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             											->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1389)										this->tokenMin = this->oldTokenMin;
-HXDLIN(1389)										this->tokenMax = this->oldTokenMax;
+HXDLIN(1392)										this->tokenMin = this->oldTokenMin;
+HXDLIN(1392)										this->tokenMax = this->oldTokenMax;
             									}
             								}
-HXLINE(1391)								if (::hx::IsNull( pow )) {
-HXLINE(1392)									this->invalidChar(_hx_char);
+HXLINE(1394)								if (::hx::IsNull( pow )) {
+HXLINE(1395)									this->invalidChar(_hx_char);
             								}
-HXLINE(1393)								return ::hscript::Token_obj::TConst(::hscript::Const_obj::CFloat((((::Math_obj::pow(( (Float)(10) ),( (Float)(pow) )) / exp1) * n1) * ( (Float)(10) ))));
+HXLINE(1396)								return ::hscript::Token_obj::TConst(::hscript::Const_obj::CFloat((((::Math_obj::pow(( (Float)(10) ),( (Float)(pow) )) / exp1) * n1) * ( (Float)(10) ))));
             							}
             							break;
             							case (int)120: {
-HXLINE(1406)								bool _hx_tmp2;
-HXDLIN(1406)								if (!((n1 > 0))) {
-HXLINE(1406)									_hx_tmp2 = (exp1 > 0);
+HXLINE(1409)								bool _hx_tmp2;
+HXDLIN(1409)								if (!((n1 > 0))) {
+HXLINE(1409)									_hx_tmp2 = (exp1 > 0);
             								}
             								else {
-HXLINE(1406)									_hx_tmp2 = true;
+HXLINE(1409)									_hx_tmp2 = true;
             								}
-HXDLIN(1406)								if (_hx_tmp2) {
-HXLINE(1407)									this->invalidChar(_hx_char);
+HXDLIN(1409)								if (_hx_tmp2) {
+HXLINE(1410)									this->invalidChar(_hx_char);
             								}
-HXLINE(1410)								int n2 = 0;
-HXLINE(1411)								while(true){
-HXLINE(1412)									_hx_char = this->input.cca(this->readPos++);
-HXLINE(1413)									switch((int)(_hx_char)){
+HXLINE(1412)								int n2 = 0;
+HXLINE(1413)								while(true){
+HXLINE(1414)									_hx_char = this->input.cca(this->readPos++);
+HXLINE(1415)									switch((int)(_hx_char)){
             										case (int)48: case (int)49: case (int)50: case (int)51: case (int)52: case (int)53: case (int)54: case (int)55: case (int)56: case (int)57: {
-HXLINE(1415)											n2 = (((n2 << 4) + _hx_char) - 48);
+HXLINE(1417)											n2 = (((n2 << 4) + _hx_char) - 48);
             										}
             										break;
             										case (int)65: case (int)66: case (int)67: case (int)68: case (int)69: case (int)70: {
-HXLINE(1417)											n2 = ((n2 << 4) + (_hx_char - 55));
+HXLINE(1419)											n2 = ((n2 << 4) + (_hx_char - 55));
             										}
             										break;
             										case (int)97: case (int)98: case (int)99: case (int)100: case (int)101: case (int)102: {
-HXLINE(1419)											n2 = ((n2 << 4) + (_hx_char - 87));
+HXLINE(1421)											n2 = ((n2 << 4) + (_hx_char - 87));
             										}
             										break;
             										default:{
-HXLINE(1421)											this->_hx_char = _hx_char;
-HXLINE(1422)											return ::hscript::Token_obj::TConst(::hscript::Const_obj::CInt(n2));
+HXLINE(1423)											this->_hx_char = _hx_char;
+HXLINE(1424)											return ::hscript::Token_obj::TConst(::hscript::Const_obj::CInt(n2));
             										}
             									}
             								}
             							}
             							break;
             							default:{
-HXLINE(1447)								this->_hx_char = _hx_char;
-HXLINE(1448)								int i1 = ::Std_obj::_hx_int(n1);
-HXLINE(1449)								 ::hscript::Const _hx_tmp3;
-HXDLIN(1449)								if ((exp1 > 0)) {
-HXLINE(1449)									_hx_tmp3 = ::hscript::Const_obj::CFloat(((n1 * ( (Float)(10) )) / exp1));
+HXLINE(1428)								this->_hx_char = _hx_char;
+HXLINE(1429)								int i1 = ::Std_obj::_hx_int(n1);
+HXLINE(1430)								 ::hscript::Const _hx_tmp3;
+HXDLIN(1430)								if ((exp1 > 0)) {
+HXLINE(1430)									_hx_tmp3 = ::hscript::Const_obj::CFloat(((n1 * ( (Float)(10) )) / exp1));
             								}
             								else {
-HXLINE(1449)									if ((i1 == n1)) {
-HXLINE(1449)										_hx_tmp3 = ::hscript::Const_obj::CInt(i1);
+HXLINE(1430)									if ((i1 == n1)) {
+HXLINE(1430)										_hx_tmp3 = ::hscript::Const_obj::CInt(i1);
             									}
             									else {
-HXLINE(1449)										_hx_tmp3 = ::hscript::Const_obj::CFloat(n1);
+HXLINE(1430)										_hx_tmp3 = ::hscript::Const_obj::CFloat(n1);
             									}
             								}
-HXDLIN(1449)								return ::hscript::Token_obj::TConst(_hx_tmp3);
+HXDLIN(1430)								return ::hscript::Token_obj::TConst(_hx_tmp3);
             							}
             						}
             					}
             				}
             				break;
             				case (int)58: {
-HXLINE(1488)					return ::hscript::Token_obj::TDoubleDot_dyn();
+HXLINE(1474)					return ::hscript::Token_obj::TDoubleDot_dyn();
             				}
             				break;
             				case (int)59: {
-HXLINE(1452)					return ::hscript::Token_obj::TSemicolon_dyn();
+HXLINE(1433)					return ::hscript::Token_obj::TSemicolon_dyn();
             				}
             				break;
             				case (int)61: {
-HXLINE(1490)					_hx_char = this->input.cca(this->readPos++);
-HXLINE(1491)					if ((_hx_char == 61)) {
-HXLINE(1492)						return ::hscript::Token_obj::TOp(HX_("==",60,35,00,00));
+HXLINE(1476)					_hx_char = this->input.cca(this->readPos++);
+HXLINE(1477)					if ((_hx_char == 61)) {
+HXLINE(1478)						return ::hscript::Token_obj::TOp(HX_("==",60,35,00,00));
             					}
             					else {
-HXLINE(1493)						if ((_hx_char == 62)) {
-HXLINE(1494)							return ::hscript::Token_obj::TOp(HX_("=>",61,35,00,00));
+HXLINE(1479)						if ((_hx_char == 62)) {
+HXLINE(1480)							return ::hscript::Token_obj::TOp(HX_("=>",61,35,00,00));
             						}
             					}
-HXLINE(1495)					this->_hx_char = _hx_char;
-HXLINE(1496)					return ::hscript::Token_obj::TOp(HX_("=",3d,00,00,00));
+HXLINE(1481)					this->_hx_char = _hx_char;
+HXLINE(1482)					return ::hscript::Token_obj::TOp(HX_("=",3d,00,00,00));
             				}
             				break;
             				case (int)63: {
-HXLINE(1487)					return ::hscript::Token_obj::TQuestion_dyn();
+HXLINE(1469)					_hx_char = this->input.cca(this->readPos++);
+HXLINE(1470)					if ((_hx_char == 46)) {
+HXLINE(1471)						return ::hscript::Token_obj::TQuestionDot_dyn();
+            					}
+HXLINE(1472)					this->_hx_char = _hx_char;
+HXLINE(1473)					return ::hscript::Token_obj::TQuestion_dyn();
             				}
             				break;
             				case (int)64: {
-HXLINE(1498)					_hx_char = this->input.cca(this->readPos++);
-HXLINE(1499)					bool _hx_tmp4;
-HXDLIN(1499)					if (!(this->idents->__get(_hx_char))) {
-HXLINE(1499)						_hx_tmp4 = (_hx_char == 58);
+HXLINE(1484)					_hx_char = this->input.cca(this->readPos++);
+HXLINE(1485)					bool _hx_tmp4;
+HXDLIN(1485)					if (!(this->idents->__get(_hx_char))) {
+HXLINE(1485)						_hx_tmp4 = (_hx_char == 58);
             					}
             					else {
-HXLINE(1499)						_hx_tmp4 = true;
+HXLINE(1485)						_hx_tmp4 = true;
             					}
-HXDLIN(1499)					if (_hx_tmp4) {
-HXLINE(1500)						::String id1 = ::String::fromCharCode(_hx_char);
-HXLINE(1501)						while(true){
-HXLINE(1502)							_hx_char = this->input.cca(this->readPos++);
-HXLINE(1503)							if (!(this->idents->__get(_hx_char))) {
-HXLINE(1504)								this->_hx_char = _hx_char;
-HXLINE(1505)								return ::hscript::Token_obj::TMeta(id1);
+HXDLIN(1485)					if (_hx_tmp4) {
+HXLINE(1486)						::String id1 = ::String::fromCharCode(_hx_char);
+HXLINE(1487)						while(true){
+HXLINE(1488)							_hx_char = this->input.cca(this->readPos++);
+HXLINE(1489)							if (!(this->idents->__get(_hx_char))) {
+HXLINE(1490)								this->_hx_char = _hx_char;
+HXLINE(1491)								return ::hscript::Token_obj::TMeta(id1);
             							}
-HXLINE(1507)							id1 = (id1 + ::String::fromCharCode(_hx_char));
+HXLINE(1493)							id1 = (id1 + ::String::fromCharCode(_hx_char));
             						}
             					}
-HXLINE(1510)					this->invalidChar(_hx_char);
+HXLINE(1496)					this->invalidChar(_hx_char);
             				}
             				break;
             				case (int)91: {
-HXLINE(1484)					return ::hscript::Token_obj::TBkOpen_dyn();
+HXLINE(1465)					return ::hscript::Token_obj::TBkOpen_dyn();
             				}
             				break;
             				case (int)93: {
-HXLINE(1485)					return ::hscript::Token_obj::TBkClose_dyn();
+HXLINE(1466)					return ::hscript::Token_obj::TBkClose_dyn();
             				}
             				break;
             				case (int)123: {
-HXLINE(1482)					return ::hscript::Token_obj::TBrOpen_dyn();
+HXLINE(1463)					return ::hscript::Token_obj::TBrOpen_dyn();
             				}
             				break;
             				case (int)125: {
-HXLINE(1483)					return ::hscript::Token_obj::TBrClose_dyn();
+HXLINE(1464)					return ::hscript::Token_obj::TBrClose_dyn();
             				}
             				break;
             				default:{
-HXLINE(1526)					if (this->ops->__get(_hx_char)) {
-HXLINE(1527)						::String op = ::String::fromCharCode(_hx_char);
-HXLINE(1528)						while(true){
-HXLINE(1529)							_hx_char = this->input.cca(this->readPos++);
-HXLINE(1530)							if ((_hx_char == 0)) {
-HXLINE(1530)								_hx_char = 0;
+HXLINE(1512)					if (this->ops->__get(_hx_char)) {
+HXLINE(1513)						::String op = ::String::fromCharCode(_hx_char);
+HXLINE(1514)						while(true){
+HXLINE(1515)							_hx_char = this->input.cca(this->readPos++);
+HXLINE(1516)							if ((_hx_char == 0)) {
+HXLINE(1516)								_hx_char = 0;
             							}
-HXLINE(1531)							if (!(this->ops->__get(_hx_char))) {
-HXLINE(1532)								this->_hx_char = _hx_char;
-HXLINE(1533)								return ::hscript::Token_obj::TOp(op);
+HXLINE(1517)							if (!(this->ops->__get(_hx_char))) {
+HXLINE(1518)								this->_hx_char = _hx_char;
+HXLINE(1519)								return ::hscript::Token_obj::TOp(op);
             							}
-HXLINE(1535)							::String pop = op;
-HXLINE(1536)							op = (op + ::String::fromCharCode(_hx_char));
-HXLINE(1537)							bool _hx_tmp5;
-HXDLIN(1537)							if (!(this->opPriority->exists(op))) {
-HXLINE(1537)								_hx_tmp5 = this->opPriority->exists(pop);
+HXLINE(1521)							::String pop = op;
+HXLINE(1522)							op = (op + ::String::fromCharCode(_hx_char));
+HXLINE(1523)							bool _hx_tmp5;
+HXDLIN(1523)							if (!(this->opPriority->exists(op))) {
+HXLINE(1523)								_hx_tmp5 = this->opPriority->exists(pop);
             							}
             							else {
-HXLINE(1537)								_hx_tmp5 = false;
+HXLINE(1523)								_hx_tmp5 = false;
             							}
-HXDLIN(1537)							if (_hx_tmp5) {
-HXLINE(1538)								bool _hx_tmp6;
-HXDLIN(1538)								if ((op != HX_("//",20,29,00,00))) {
-HXLINE(1538)									_hx_tmp6 = (op == HX_("/*",1b,29,00,00));
+HXDLIN(1523)							if (_hx_tmp5) {
+HXLINE(1524)								bool _hx_tmp6;
+HXDLIN(1524)								if ((op != HX_("//",20,29,00,00))) {
+HXLINE(1524)									_hx_tmp6 = (op == HX_("/*",1b,29,00,00));
             								}
             								else {
-HXLINE(1538)									_hx_tmp6 = true;
+HXLINE(1524)									_hx_tmp6 = true;
             								}
-HXDLIN(1538)								if (_hx_tmp6) {
-HXLINE(1539)									return this->tokenComment(op,_hx_char);
+HXDLIN(1524)								if (_hx_tmp6) {
+HXLINE(1525)									return this->tokenComment(op,_hx_char);
             								}
-HXLINE(1540)								this->_hx_char = _hx_char;
-HXLINE(1541)								return ::hscript::Token_obj::TOp(pop);
+HXLINE(1526)								this->_hx_char = _hx_char;
+HXLINE(1527)								return ::hscript::Token_obj::TOp(pop);
             							}
             						}
             					}
-HXLINE(1545)					if (this->idents->__get(_hx_char)) {
-HXLINE(1546)						::String id2 = ::String::fromCharCode(_hx_char);
-HXLINE(1547)						while(true){
-HXLINE(1548)							_hx_char = this->input.cca(this->readPos++);
-HXLINE(1549)							if ((_hx_char == 0)) {
-HXLINE(1549)								_hx_char = 0;
+HXLINE(1531)					if (this->idents->__get(_hx_char)) {
+HXLINE(1532)						::String id2 = ::String::fromCharCode(_hx_char);
+HXLINE(1533)						while(true){
+HXLINE(1534)							_hx_char = this->input.cca(this->readPos++);
+HXLINE(1535)							if ((_hx_char == 0)) {
+HXLINE(1535)								_hx_char = 0;
             							}
-HXLINE(1550)							if (!(this->idents->__get(_hx_char))) {
-HXLINE(1551)								this->_hx_char = _hx_char;
-HXLINE(1552)								return ::hscript::Token_obj::TId(id2);
+HXLINE(1536)							if (!(this->idents->__get(_hx_char))) {
+HXLINE(1537)								this->_hx_char = _hx_char;
+HXLINE(1538)								return ::hscript::Token_obj::TId(id2);
             							}
-HXLINE(1554)							id2 = (id2 + ::String::fromCharCode(_hx_char));
+HXLINE(1540)							id2 = (id2 + ::String::fromCharCode(_hx_char));
             						}
             					}
-HXLINE(1557)					this->invalidChar(_hx_char);
+HXLINE(1543)					this->invalidChar(_hx_char);
             				}
             			}
-HXLINE(1559)			_hx_char = this->input.cca(this->readPos++);
+HXLINE(1545)			_hx_char = this->input.cca(this->readPos++);
             		}
-HXLINE(1352)		return null();
+HXLINE(1355)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,_token,return )
 
  ::Dynamic Parser_obj::preprocValue(::String id){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1565_preprocValue)
-HXDLIN(1565)		return this->preprocesorValues->get(id);
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1551_preprocValue)
+HXDLIN(1551)		return this->preprocesorValues->get(id);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,preprocValue,return )
 
  ::Dynamic Parser_obj::parsePreproCond(){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1570_parsePreproCond)
-HXLINE(1571)		 ::hscript::Token tk = this->token();
-HXLINE(1572)		switch((int)(tk->_hx_getIndex())){
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1556_parsePreproCond)
+HXLINE(1557)		 ::hscript::Token tk = this->token();
+HXLINE(1558)		switch((int)(tk->_hx_getIndex())){
             			case (int)2: {
-HXLINE(1576)				::String id = tk->_hx_getString(0);
-HXLINE(1577)				 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EIdent(id);
-HXDLIN(1577)				 ::Dynamic pmin = this->tokenMin;
-HXDLIN(1577)				 ::Dynamic pmax = this->tokenMax;
-HXDLIN(1577)				if (::hx::IsNull( e )) {
-HXLINE(1577)					return null();
+HXLINE(1562)				::String id = tk->_hx_getString(0);
+HXLINE(1563)				 ::hscript::ExprDef e = ::hscript::ExprDef_obj::EIdent(id);
+HXDLIN(1563)				 ::Dynamic pmin = this->tokenMin;
+HXDLIN(1563)				 ::Dynamic pmax = this->tokenMax;
+HXDLIN(1563)				if (::hx::IsNull( e )) {
+HXLINE(1563)					return null();
             				}
             				else {
-HXLINE(1577)					if (::hx::IsNull( pmin )) {
-HXLINE(1577)						pmin = this->tokenMin;
+HXLINE(1563)					if (::hx::IsNull( pmin )) {
+HXLINE(1563)						pmin = this->tokenMin;
             					}
-HXDLIN(1577)					if (::hx::IsNull( pmax )) {
-HXLINE(1577)						pmax = this->tokenMax;
+HXDLIN(1563)					if (::hx::IsNull( pmax )) {
+HXLINE(1563)						pmax = this->tokenMax;
             					}
-HXDLIN(1577)					return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN(1563)					return  ::Dynamic(::hx::Anon_obj::Create(5)
             						->setFixed(0,HX_("e",65,00,00,00),e)
             						->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             						->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax)
@@ -5305,21 +5609,21 @@ HXDLIN(1577)					return  ::Dynamic(::hx::Anon_obj::Create(5)
             			}
             			break;
             			case (int)3: {
-HXLINE(1578)				if ((tk->_hx_getString(0) == HX_("!",21,00,00,00))) {
-HXLINE(1579)					 ::hscript::ExprDef e1 = ::hscript::ExprDef_obj::EUnop(HX_("!",21,00,00,00),true,this->parsePreproCond());
-HXDLIN(1579)					 ::Dynamic pmin1 = this->tokenMin;
-HXDLIN(1579)					 ::Dynamic pmax1 = this->tokenMax;
-HXDLIN(1579)					if (::hx::IsNull( e1 )) {
-HXLINE(1579)						return null();
+HXLINE(1564)				if ((tk->_hx_getString(0) == HX_("!",21,00,00,00))) {
+HXLINE(1565)					 ::hscript::ExprDef e1 = ::hscript::ExprDef_obj::EUnop(HX_("!",21,00,00,00),true,this->parsePreproCond());
+HXDLIN(1565)					 ::Dynamic pmin1 = this->tokenMin;
+HXDLIN(1565)					 ::Dynamic pmax1 = this->tokenMax;
+HXDLIN(1565)					if (::hx::IsNull( e1 )) {
+HXLINE(1565)						return null();
             					}
             					else {
-HXLINE(1579)						if (::hx::IsNull( pmin1 )) {
-HXLINE(1579)							pmin1 = this->tokenMin;
+HXLINE(1565)						if (::hx::IsNull( pmin1 )) {
+HXLINE(1565)							pmin1 = this->tokenMin;
             						}
-HXDLIN(1579)						if (::hx::IsNull( pmax1 )) {
-HXLINE(1579)							pmax1 = this->tokenMax;
+HXDLIN(1565)						if (::hx::IsNull( pmax1 )) {
+HXLINE(1565)							pmax1 = this->tokenMax;
             						}
-HXDLIN(1579)						return  ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN(1565)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             							->setFixed(0,HX_("e",65,00,00,00),e1)
             							->setFixed(1,HX_("line",f4,17,b3,47),this->line)
             							->setFixed(2,HX_("pmax",34,f0,5a,4a),pmax1)
@@ -5328,373 +5632,377 @@ HXDLIN(1579)						return  ::Dynamic(::hx::Anon_obj::Create(5)
             					}
             				}
             				else {
-HXLINE(1581)					return this->unexpected(tk);
+HXLINE(1567)					return this->unexpected(tk);
             				}
             			}
             			break;
             			case (int)4: {
-HXLINE(1574)				{
-HXLINE(1574)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1560)				{
+HXLINE(1560)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),::hscript::Token_obj::TPOpen_dyn())
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1574)					this->tokenMin = this->oldTokenMin;
-HXDLIN(1574)					this->tokenMax = this->oldTokenMax;
+HXDLIN(1560)					this->tokenMin = this->oldTokenMin;
+HXDLIN(1560)					this->tokenMax = this->oldTokenMax;
             				}
-HXLINE(1575)				return this->parseExpr();
+HXLINE(1561)				return this->parseExpr();
             			}
             			break;
             			default:{
-HXLINE(1581)				return this->unexpected(tk);
+HXLINE(1567)				return this->unexpected(tk);
             			}
             		}
-HXLINE(1572)		return null();
+HXLINE(1558)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,parsePreproCond,return )
 
 bool Parser_obj::evalPreproCond( ::Dynamic e){
-            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1586_evalPreproCond)
-HXDLIN(1586)		 ::hscript::ExprDef _g = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN(1586)		switch((int)(_g->_hx_getIndex())){
+            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1572_evalPreproCond)
+HXDLIN(1572)		 ::hscript::ExprDef _g = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN(1572)		switch((int)(_g->_hx_getIndex())){
             			case (int)1: {
-HXLINE(1587)				::String id = _g->_hx_getString(0);
-HXLINE(1588)				return ::hx::IsNotNull( this->preprocValue(id) );
+HXLINE(1573)				::String id = _g->_hx_getString(0);
+HXLINE(1574)				return ::hx::IsNotNull( this->preprocValue(id) );
             			}
             			break;
             			case (int)3: {
-HXLINE(1591)				 ::Dynamic e1 = _g->_hx_getObject(0);
-HXLINE(1592)				return this->evalPreproCond(e1);
+HXLINE(1577)				 ::Dynamic e1 = _g->_hx_getObject(0);
+HXLINE(1578)				return this->evalPreproCond(e1);
             			}
             			break;
             			case (int)6: {
-HXLINE(1595)				 ::Dynamic _g1 = _g->_hx_getObject(1);
-HXDLIN(1595)				 ::Dynamic _g2 = _g->_hx_getObject(2);
-HXDLIN(1595)				::String _hx_switch_0 = _g->_hx_getString(0);
+HXLINE(1581)				 ::Dynamic _g1 = _g->_hx_getObject(1);
+HXDLIN(1581)				 ::Dynamic _g2 = _g->_hx_getObject(2);
+HXDLIN(1581)				::String _hx_switch_0 = _g->_hx_getString(0);
             				if (  (_hx_switch_0==HX_("&&",40,21,00,00)) ){
-HXLINE(1593)					 ::Dynamic e11 = _g1;
-HXDLIN(1593)					 ::Dynamic e2 = _g2;
-HXLINE(1594)					if (this->evalPreproCond(e11)) {
-HXLINE(1594)						return this->evalPreproCond(e2);
+HXLINE(1579)					 ::Dynamic e11 = _g1;
+HXDLIN(1579)					 ::Dynamic e2 = _g2;
+HXLINE(1580)					if (this->evalPreproCond(e11)) {
+HXLINE(1580)						return this->evalPreproCond(e2);
             					}
             					else {
-HXLINE(1594)						return false;
+HXLINE(1580)						return false;
             					}
-HXLINE(1593)					goto _hx_goto_107;
+HXLINE(1579)					goto _hx_goto_108;
             				}
             				if (  (_hx_switch_0==HX_("||",80,6c,00,00)) ){
-HXLINE(1595)					 ::Dynamic e12 = _g1;
-HXDLIN(1595)					 ::Dynamic e21 = _g2;
-HXLINE(1596)					if (!(this->evalPreproCond(e12))) {
-HXLINE(1596)						return this->evalPreproCond(e21);
+HXLINE(1581)					 ::Dynamic e12 = _g1;
+HXDLIN(1581)					 ::Dynamic e21 = _g2;
+HXLINE(1582)					if (!(this->evalPreproCond(e12))) {
+HXLINE(1582)						return this->evalPreproCond(e21);
             					}
             					else {
-HXLINE(1596)						return true;
+HXLINE(1582)						return true;
             					}
-HXLINE(1595)					goto _hx_goto_107;
+HXLINE(1581)					goto _hx_goto_108;
             				}
             				/* default */{
-HXLINE(1598)					{
-HXLINE(1598)						 ::hscript::ErrorDef err = ::hscript::ErrorDef_obj::EInvalidPreprocessor((HX_("Can't eval ",01,17,bf,09) + ::Type_obj::enumConstructor(e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic))));
-HXDLIN(1598)						if (!(this->resumeErrors)) {
-HXLINE(1598)							HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,err,this->readPos,this->readPos,this->origin,this->line));
+HXLINE(1584)					{
+HXLINE(1584)						 ::hscript::ErrorDef err = ::hscript::ErrorDef_obj::EInvalidPreprocessor((HX_("Can't eval ",01,17,bf,09) + ::Type_obj::enumConstructor(e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic))));
+HXDLIN(1584)						if (!(this->resumeErrors)) {
+HXLINE(1584)							HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,err,(this->readPos + this->offset),(this->readPos + this->offset),this->origin,this->line));
             						}
             					}
-HXLINE(1599)					return false;
+HXLINE(1585)					return false;
             				}
-            				_hx_goto_107:;
+            				_hx_goto_108:;
             			}
             			break;
             			case (int)7: {
-HXLINE(1589)				bool _g3 = _g->_hx_getBool(1);
-HXDLIN(1589)				if ((_g->_hx_getString(0) == HX_("!",21,00,00,00))) {
-HXLINE(1589)					 ::Dynamic e3 = _g->_hx_getObject(2);
-HXLINE(1590)					return !(this->evalPreproCond(e3));
+HXLINE(1575)				bool _g3 = _g->_hx_getBool(1);
+HXDLIN(1575)				if ((_g->_hx_getString(0) == HX_("!",21,00,00,00))) {
+HXLINE(1575)					 ::Dynamic e3 = _g->_hx_getObject(2);
+HXLINE(1576)					return !(this->evalPreproCond(e3));
             				}
             				else {
-HXLINE(1598)					{
-HXLINE(1598)						 ::hscript::ErrorDef err1 = ::hscript::ErrorDef_obj::EInvalidPreprocessor((HX_("Can't eval ",01,17,bf,09) + ::Type_obj::enumConstructor(e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic))));
-HXDLIN(1598)						if (!(this->resumeErrors)) {
-HXLINE(1598)							HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,err1,this->readPos,this->readPos,this->origin,this->line));
+HXLINE(1584)					{
+HXLINE(1584)						 ::hscript::ErrorDef err1 = ::hscript::ErrorDef_obj::EInvalidPreprocessor((HX_("Can't eval ",01,17,bf,09) + ::Type_obj::enumConstructor(e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic))));
+HXDLIN(1584)						if (!(this->resumeErrors)) {
+HXLINE(1584)							HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,err1,(this->readPos + this->offset),(this->readPos + this->offset),this->origin,this->line));
             						}
             					}
-HXLINE(1599)					return false;
+HXLINE(1585)					return false;
             				}
             			}
             			break;
             			default:{
-HXLINE(1598)				{
-HXLINE(1598)					 ::hscript::ErrorDef err2 = ::hscript::ErrorDef_obj::EInvalidPreprocessor((HX_("Can't eval ",01,17,bf,09) + ::Type_obj::enumConstructor(e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic))));
-HXDLIN(1598)					if (!(this->resumeErrors)) {
-HXLINE(1598)						HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,err2,this->readPos,this->readPos,this->origin,this->line));
+HXLINE(1584)				{
+HXLINE(1584)					 ::hscript::ErrorDef err2 = ::hscript::ErrorDef_obj::EInvalidPreprocessor((HX_("Can't eval ",01,17,bf,09) + ::Type_obj::enumConstructor(e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic))));
+HXDLIN(1584)					if (!(this->resumeErrors)) {
+HXLINE(1584)						HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,err2,(this->readPos + this->offset),(this->readPos + this->offset),this->origin,this->line));
             					}
             				}
-HXLINE(1599)				return false;
+HXLINE(1585)				return false;
             			}
             		}
-HXLINE(1586)		return false;
+HXLINE(1572)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,evalPreproCond,return )
 
  ::hscript::Token Parser_obj::preprocess(::String id){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1604_preprocess)
-HXDLIN(1604)		::String _hx_switch_0 = id;
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1590_preprocess)
+HXDLIN(1590)		::String _hx_switch_0 = id;
             		if (  (_hx_switch_0==HX_("else",b9,e4,14,43)) ||  (_hx_switch_0==HX_("elseif",d6,a0,a2,dd)) ){
-HXLINE(1614)			if ((this->preprocStack->length > 0)) {
-HXLINE(1615)				if (( (bool)(this->preprocStack->__get((this->preprocStack->length - 1))->__Field(HX_("r",72,00,00,00),::hx::paccDynamic)) )) {
-HXLINE(1616)					this->preprocStack->__get((this->preprocStack->length - 1))->__SetField(HX_("r",72,00,00,00),false,::hx::paccDynamic);
-HXLINE(1617)					this->skipTokens();
-HXLINE(1618)					return this->token();
+HXLINE(1600)			if ((this->preprocStack->length > 0)) {
+HXLINE(1601)				if (( (bool)(this->preprocStack->__get((this->preprocStack->length - 1))->__Field(HX_("r",72,00,00,00),::hx::paccDynamic)) )) {
+HXLINE(1602)					this->preprocStack->__get((this->preprocStack->length - 1))->__SetField(HX_("r",72,00,00,00),false,::hx::paccDynamic);
+HXLINE(1603)					this->skipTokens();
+HXLINE(1604)					return this->token();
             				}
             				else {
-HXLINE(1619)					if ((id == HX_("else",b9,e4,14,43))) {
-HXLINE(1620)						this->preprocStack->pop();
-HXLINE(1621)						this->preprocStack->push( ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(1605)					if ((id == HX_("else",b9,e4,14,43))) {
+HXLINE(1606)						this->preprocStack->pop();
+HXLINE(1607)						this->preprocStack->push( ::Dynamic(::hx::Anon_obj::Create(1)
             							->setFixed(0,HX_("r",72,00,00,00),true)));
-HXLINE(1622)						return this->token();
+HXLINE(1608)						return this->token();
             					}
             					else {
-HXLINE(1625)						this->preprocStack->pop();
-HXLINE(1626)						return this->preprocess(HX_("if",dd,5b,00,00));
+HXLINE(1611)						this->preprocStack->pop();
+HXLINE(1612)						return this->preprocess(HX_("if",dd,5b,00,00));
             					}
             				}
             			}
             			else {
-HXLINE(1632)				return ::hscript::Token_obj::TPrepro(id);
+HXLINE(1618)				return ::hscript::Token_obj::TPrepro(id);
             			}
-HXLINE(1614)			goto _hx_goto_109;
+HXLINE(1600)			goto _hx_goto_110;
             		}
             		if (  (_hx_switch_0==HX_("end",db,03,4d,00)) ){
-HXLINE(1628)			if ((this->preprocStack->length > 0)) {
-HXLINE(1629)				this->preprocStack->pop();
-HXLINE(1630)				return this->token();
+HXLINE(1614)			if ((this->preprocStack->length > 0)) {
+HXLINE(1615)				this->preprocStack->pop();
+HXLINE(1616)				return this->token();
             			}
             			else {
-HXLINE(1632)				return ::hscript::Token_obj::TPrepro(id);
+HXLINE(1618)				return ::hscript::Token_obj::TPrepro(id);
             			}
-HXLINE(1628)			goto _hx_goto_109;
+HXLINE(1614)			goto _hx_goto_110;
             		}
             		if (  (_hx_switch_0==HX_("if",dd,5b,00,00)) ){
-HXLINE(1606)			 ::Dynamic e = this->parsePreproCond();
-HXLINE(1607)			if (this->evalPreproCond(e)) {
-HXLINE(1608)				this->preprocStack->push( ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(1592)			 ::Dynamic e = this->parsePreproCond();
+HXLINE(1593)			if (this->evalPreproCond(e)) {
+HXLINE(1594)				this->preprocStack->push( ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("r",72,00,00,00),true)));
-HXLINE(1609)				return this->token();
+HXLINE(1595)				return this->token();
             			}
-HXLINE(1611)			this->preprocStack->push( ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE(1597)			this->preprocStack->push( ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("r",72,00,00,00),false)));
-HXLINE(1612)			this->skipTokens();
-HXLINE(1613)			return this->token();
-HXLINE(1605)			goto _hx_goto_109;
+HXLINE(1598)			this->skipTokens();
+HXLINE(1599)			return this->token();
+HXLINE(1591)			goto _hx_goto_110;
             		}
             		/* default */{
-HXLINE(1632)			return ::hscript::Token_obj::TPrepro(id);
+HXLINE(1618)			return ::hscript::Token_obj::TPrepro(id);
             		}
-            		_hx_goto_109:;
-HXLINE(1604)		return null();
+            		_hx_goto_110:;
+HXLINE(1590)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,preprocess,return )
 
 void Parser_obj::skipTokens(){
-            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1636_skipTokens)
-HXLINE(1637)		int spos = (this->preprocStack->length - 1);
-HXLINE(1638)		 ::Dynamic obj = this->preprocStack->__get(spos);
-HXLINE(1639)		int pos = this->readPos;
-HXLINE(1640)		while(true){
-HXLINE(1641)			 ::hscript::Token tk = this->token();
-HXLINE(1642)			if (::hx::IsPointerEq( tk,::hscript::Token_obj::TEof_dyn() )) {
-HXLINE(1643)				if (!(this->resumeErrors)) {
-HXLINE(1643)					HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidPreprocessor(HX_("Unclosed",e5,94,4a,ea)),pos,pos,this->origin,this->line));
+            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1622_skipTokens)
+HXLINE(1623)		int spos = (this->preprocStack->length - 1);
+HXLINE(1624)		 ::Dynamic obj = this->preprocStack->__get(spos);
+HXLINE(1625)		int pos = (this->readPos + this->offset);
+HXLINE(1626)		while(true){
+HXLINE(1627)			 ::hscript::Token tk = this->token();
+HXLINE(1628)			if (::hx::IsPointerEq( tk,::hscript::Token_obj::TEof_dyn() )) {
+HXLINE(1629)				if (!(this->resumeErrors)) {
+HXLINE(1629)					HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidPreprocessor(HX_("Unclosed",e5,94,4a,ea)),pos,pos,this->origin,this->line));
             				}
             			}
-HXLINE(1644)			if (::hx::IsNotEq( this->preprocStack->__get(spos),obj )) {
-HXLINE(1645)				{
-HXLINE(1645)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
+HXLINE(1630)			if (::hx::IsNotEq( this->preprocStack->__get(spos),obj )) {
+HXLINE(1631)				{
+HXLINE(1631)					this->tokens->push( ::Dynamic(::hx::Anon_obj::Create(3)
             						->setFixed(0,HX_("t",74,00,00,00),tk)
             						->setFixed(1,HX_("max",a4,0a,53,00),this->tokenMax)
             						->setFixed(2,HX_("min",92,11,53,00),this->tokenMin)));
-HXDLIN(1645)					this->tokenMin = this->oldTokenMin;
-HXDLIN(1645)					this->tokenMax = this->oldTokenMax;
+HXDLIN(1631)					this->tokenMin = this->oldTokenMin;
+HXDLIN(1631)					this->tokenMax = this->oldTokenMax;
             				}
-HXLINE(1646)				goto _hx_goto_111;
+HXLINE(1632)				goto _hx_goto_112;
             			}
             		}
-            		_hx_goto_111:;
+            		_hx_goto_112:;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Parser_obj,skipTokens,(void))
 
  ::hscript::Token Parser_obj::tokenComment(::String op,int _hx_char){
-            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1651_tokenComment)
-HXLINE(1652)		 ::Dynamic c = op.charCodeAt(1);
-HXLINE(1653)		::String s = this->input;
-HXLINE(1654)		if (::hx::IsEq( c,47 )) {
-HXLINE(1655)			do {
-HXLINE(1655)				bool _hx_tmp;
-HXDLIN(1655)				if ((_hx_char != 13)) {
-HXLINE(1655)					_hx_tmp = (_hx_char != 10);
+            	HX_GC_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1637_tokenComment)
+HXLINE(1638)		 ::Dynamic c = op.charCodeAt(1);
+HXLINE(1639)		::String s = this->input;
+HXLINE(1640)		if (::hx::IsEq( c,47 )) {
+HXLINE(1641)			do {
+HXLINE(1641)				bool _hx_tmp;
+HXDLIN(1641)				if ((_hx_char != 13)) {
+HXLINE(1641)					_hx_tmp = (_hx_char != 10);
             				}
             				else {
-HXLINE(1655)					_hx_tmp = false;
+HXLINE(1641)					_hx_tmp = false;
             				}
-HXDLIN(1655)				if (!(_hx_tmp)) {
-HXLINE(1655)					goto _hx_goto_113;
+HXDLIN(1641)				if (!(_hx_tmp)) {
+HXLINE(1641)					goto _hx_goto_114;
             				}
-HXLINE(1656)				_hx_char = this->input.cca(this->readPos++);
+HXLINE(1642)				_hx_char = this->input.cca(this->readPos++);
             			} while((_hx_char != 0));
-            			_hx_goto_113:;
-HXLINE(1659)			this->_hx_char = _hx_char;
-HXLINE(1660)			return this->token();
+            			_hx_goto_114:;
+HXLINE(1645)			this->_hx_char = _hx_char;
+HXLINE(1646)			return this->token();
             		}
-HXLINE(1662)		if (::hx::IsEq( c,42 )) {
-HXLINE(1663)			int old = this->line;
-HXLINE(1664)			if ((op == HX_("/**/",a0,0a,31,1f))) {
-HXLINE(1665)				this->_hx_char = _hx_char;
-HXLINE(1666)				return this->token();
+HXLINE(1648)		if (::hx::IsEq( c,42 )) {
+HXLINE(1649)			int old = this->line;
+HXLINE(1650)			if ((op == HX_("/**/",a0,0a,31,1f))) {
+HXLINE(1651)				this->_hx_char = _hx_char;
+HXLINE(1652)				return this->token();
             			}
-HXLINE(1668)			do {
-HXLINE(1669)				while((_hx_char != 42)){
-HXLINE(1670)					if ((_hx_char == 10)) {
-HXLINE(1670)						this->line++;
+HXLINE(1654)			do {
+HXLINE(1655)				while((_hx_char != 42)){
+HXLINE(1656)					if ((_hx_char == 10)) {
+HXLINE(1656)						this->line++;
             					}
-HXLINE(1671)					_hx_char = this->input.cca(this->readPos++);
-HXLINE(1672)					if ((_hx_char == 0)) {
-HXLINE(1673)						this->line = old;
-HXLINE(1674)						if (!(this->resumeErrors)) {
-HXLINE(1674)							HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EUnterminatedComment_dyn(),this->tokenMin,this->tokenMin,this->origin,this->line));
+HXLINE(1657)					_hx_char = this->input.cca(this->readPos++);
+HXLINE(1658)					if ((_hx_char == 0)) {
+HXLINE(1659)						this->line = old;
+HXLINE(1660)						if (!(this->resumeErrors)) {
+HXLINE(1660)							HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EUnterminatedComment_dyn(),this->tokenMin,this->tokenMin,this->origin,this->line));
             						}
-HXLINE(1675)						goto _hx_goto_115;
+HXLINE(1661)						goto _hx_goto_116;
             					}
             				}
-            				_hx_goto_115:;
-HXLINE(1678)				_hx_char = this->input.cca(this->readPos++);
-HXLINE(1679)				if ((_hx_char == 0)) {
-HXLINE(1680)					this->line = old;
-HXLINE(1681)					if (!(this->resumeErrors)) {
-HXLINE(1681)						HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EUnterminatedComment_dyn(),this->tokenMin,this->tokenMin,this->origin,this->line));
+            				_hx_goto_116:;
+HXLINE(1664)				_hx_char = this->input.cca(this->readPos++);
+HXLINE(1665)				if ((_hx_char == 0)) {
+HXLINE(1666)					this->line = old;
+HXLINE(1667)					if (!(this->resumeErrors)) {
+HXLINE(1667)						HX_STACK_DO_THROW( ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EUnterminatedComment_dyn(),this->tokenMin,this->tokenMin,this->origin,this->line));
             					}
-HXLINE(1682)					goto _hx_goto_114;
+HXLINE(1668)					goto _hx_goto_115;
             				}
             			} while((_hx_char != 47));
-            			_hx_goto_114:;
-HXLINE(1687)			return this->token();
+            			_hx_goto_115:;
+HXLINE(1673)			return this->token();
             		}
-HXLINE(1689)		this->_hx_char = _hx_char;
-HXLINE(1690)		return ::hscript::Token_obj::TOp(op);
+HXLINE(1675)		this->_hx_char = _hx_char;
+HXLINE(1676)		return ::hscript::Token_obj::TOp(op);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Parser_obj,tokenComment,return )
 
 ::String Parser_obj::constString( ::hscript::Const c){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1694_constString)
-HXDLIN(1694)		switch((int)(c->_hx_getIndex())){
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1680_constString)
+HXDLIN(1680)		switch((int)(c->_hx_getIndex())){
             			case (int)0: {
-HXLINE(1695)				int v = c->_hx_getInt(0);
-HXDLIN(1695)				return ::Std_obj::string(v);
+HXLINE(1681)				int v = c->_hx_getInt(0);
+HXDLIN(1681)				return ::Std_obj::string(v);
             			}
             			break;
             			case (int)1: {
-HXLINE(1696)				Float f = c->_hx_getFloat(0);
-HXDLIN(1696)				return ::Std_obj::string(f);
+HXLINE(1682)				Float f = c->_hx_getFloat(0);
+HXDLIN(1682)				return ::Std_obj::string(f);
             			}
             			break;
             			case (int)2: {
-HXLINE(1697)				::String s = c->_hx_getString(0);
-HXDLIN(1697)				return s;
+HXLINE(1683)				::String s = c->_hx_getString(0);
+HXDLIN(1683)				return s;
             			}
             			break;
             		}
-HXLINE(1694)		return null();
+HXLINE(1680)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Parser_obj,constString,return )
 
 ::String Parser_obj::tokenString( ::hscript::Token t){
-            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1705_tokenString)
-HXDLIN(1705)		switch((int)(t->_hx_getIndex())){
+            	HX_STACKFRAME(&_hx_pos_2fd3d36595bebf3d_1688_tokenString)
+HXDLIN(1688)		switch((int)(t->_hx_getIndex())){
             			case (int)0: {
-HXLINE(1706)				return HX_("<eof>",3e,ee,21,cf);
+HXLINE(1689)				return HX_("<eof>",3e,ee,21,cf);
             			}
             			break;
             			case (int)1: {
-HXLINE(1707)				 ::hscript::Const c = t->_hx_getObject(0).StaticCast<  ::hscript::Const >();
-HXDLIN(1707)				return this->constString(c);
+HXLINE(1690)				 ::hscript::Const c = t->_hx_getObject(0).StaticCast<  ::hscript::Const >();
+HXDLIN(1690)				return this->constString(c);
             			}
             			break;
             			case (int)2: {
-HXLINE(1708)				::String s = t->_hx_getString(0);
-HXDLIN(1708)				return s;
+HXLINE(1691)				::String s = t->_hx_getString(0);
+HXDLIN(1691)				return s;
             			}
             			break;
             			case (int)3: {
-HXLINE(1709)				::String s1 = t->_hx_getString(0);
-HXDLIN(1709)				return s1;
+HXLINE(1692)				::String s1 = t->_hx_getString(0);
+HXDLIN(1692)				return s1;
             			}
             			break;
             			case (int)4: {
-HXLINE(1710)				return HX_("(",28,00,00,00);
+HXLINE(1693)				return HX_("(",28,00,00,00);
             			}
             			break;
             			case (int)5: {
-HXLINE(1711)				return HX_(")",29,00,00,00);
+HXLINE(1694)				return HX_(")",29,00,00,00);
             			}
             			break;
             			case (int)6: {
-HXLINE(1712)				return HX_("{",7b,00,00,00);
+HXLINE(1695)				return HX_("{",7b,00,00,00);
             			}
             			break;
             			case (int)7: {
-HXLINE(1713)				return HX_("}",7d,00,00,00);
+HXLINE(1696)				return HX_("}",7d,00,00,00);
             			}
             			break;
             			case (int)8: {
-HXLINE(1714)				return HX_(".",2e,00,00,00);
+HXLINE(1697)				return HX_(".",2e,00,00,00);
             			}
             			break;
             			case (int)9: {
-HXLINE(1715)				return HX_(",",2c,00,00,00);
+HXLINE(1698)				return HX_("?.",0f,37,00,00);
             			}
             			break;
             			case (int)10: {
-HXLINE(1716)				return HX_(";",3b,00,00,00);
+HXLINE(1699)				return HX_(",",2c,00,00,00);
             			}
             			break;
             			case (int)11: {
-HXLINE(1717)				return HX_("[",5b,00,00,00);
+HXLINE(1700)				return HX_(";",3b,00,00,00);
             			}
             			break;
             			case (int)12: {
-HXLINE(1718)				return HX_("]",5d,00,00,00);
+HXLINE(1701)				return HX_("[",5b,00,00,00);
             			}
             			break;
             			case (int)13: {
-HXLINE(1719)				return HX_("?",3f,00,00,00);
+HXLINE(1702)				return HX_("]",5d,00,00,00);
             			}
             			break;
             			case (int)14: {
-HXLINE(1720)				return HX_(":",3a,00,00,00);
+HXLINE(1703)				return HX_("?",3f,00,00,00);
             			}
             			break;
             			case (int)15: {
-HXLINE(1721)				::String id = t->_hx_getString(0);
-HXDLIN(1721)				return (HX_("@",40,00,00,00) + id);
+HXLINE(1704)				return HX_(":",3a,00,00,00);
             			}
             			break;
             			case (int)16: {
-HXLINE(1722)				::String id1 = t->_hx_getString(0);
-HXDLIN(1722)				return (HX_("#",23,00,00,00) + id1);
+HXLINE(1705)				::String id = t->_hx_getString(0);
+HXDLIN(1705)				return (HX_("@",40,00,00,00) + id);
+            			}
+            			break;
+            			case (int)17: {
+HXLINE(1706)				::String id1 = t->_hx_getString(0);
+HXDLIN(1706)				return (HX_("#",23,00,00,00) + id1);
             			}
             			break;
             		}
-HXLINE(1705)		return null();
+HXLINE(1688)		return null();
             	}
 
 
@@ -5733,6 +6041,7 @@ void Parser_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_MEMBER_NAME(resumeErrors,"resumeErrors");
 	HX_MARK_MEMBER_NAME(input,"input");
 	HX_MARK_MEMBER_NAME(readPos,"readPos");
+	HX_MARK_MEMBER_NAME(offset,"offset");
 	HX_MARK_MEMBER_NAME(_hx_char,"char");
 	HX_MARK_MEMBER_NAME(ops,"ops");
 	HX_MARK_MEMBER_NAME(idents,"idents");
@@ -5761,6 +6070,7 @@ void Parser_obj::__Visit(HX_VISIT_PARAMS)
 	HX_VISIT_MEMBER_NAME(resumeErrors,"resumeErrors");
 	HX_VISIT_MEMBER_NAME(input,"input");
 	HX_VISIT_MEMBER_NAME(readPos,"readPos");
+	HX_VISIT_MEMBER_NAME(offset,"offset");
 	HX_VISIT_MEMBER_NAME(_hx_char,"char");
 	HX_VISIT_MEMBER_NAME(ops,"ops");
 	HX_VISIT_MEMBER_NAME(idents,"idents");
@@ -5799,6 +6109,7 @@ void Parser_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"token") ) { return ::hx::Val( token_dyn() ); }
 		break;
 	case 6:
+		if (HX_FIELD_EQ(inName,"offset") ) { return ::hx::Val( offset ); }
 		if (HX_FIELD_EQ(inName,"idents") ) { return ::hx::Val( idents ); }
 		if (HX_FIELD_EQ(inName,"origin") ) { return ::hx::Val( origin ); }
 		if (HX_FIELD_EQ(inName,"tokens") ) { return ::hx::Val( tokens ); }
@@ -5829,6 +6140,7 @@ void Parser_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"identChars") ) { return ::hx::Val( identChars ); }
 		if (HX_FIELD_EQ(inName,"opPriority") ) { return ::hx::Val( opPriority ); }
 		if (HX_FIELD_EQ(inName,"allowTypes") ) { return ::hx::Val( allowTypes ); }
+		if (HX_FIELD_EQ(inName,"currentPos") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_currentPos() ); }
 		if (HX_FIELD_EQ(inName,"initParser") ) { return ::hx::Val( initParser_dyn() ); }
 		if (HX_FIELD_EQ(inName,"unexpected") ) { return ::hx::Val( unexpected_dyn() ); }
 		if (HX_FIELD_EQ(inName,"parseField") ) { return ::hx::Val( parseField_dyn() ); }
@@ -5866,6 +6178,7 @@ void Parser_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"parseMetadata") ) { return ::hx::Val( parseMetadata_dyn() ); }
 		break;
 	case 14:
+		if (HX_FIELD_EQ(inName,"get_currentPos") ) { return ::hx::Val( get_currentPos_dyn() ); }
 		if (HX_FIELD_EQ(inName,"parseStructure") ) { return ::hx::Val( parseStructure_dyn() ); }
 		if (HX_FIELD_EQ(inName,"evalPreproCond") ) { return ::hx::Val( evalPreproCond_dyn() ); }
 		break;
@@ -5896,6 +6209,7 @@ void Parser_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"input") ) { input=inValue.Cast< ::String >(); return inValue; }
 		break;
 	case 6:
+		if (HX_FIELD_EQ(inName,"offset") ) { offset=inValue.Cast< int >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"idents") ) { idents=inValue.Cast< ::Array< bool > >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"origin") ) { origin=inValue.Cast< ::String >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"tokens") ) { tokens=inValue.Cast<  ::haxe::ds::List >(); return inValue; }
@@ -5948,6 +6262,8 @@ void Parser_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("resumeErrors",38,61,37,31));
 	outFields->push(HX_("input",0a,c4,1d,be));
 	outFields->push(HX_("readPos",de,03,cf,02));
+	outFields->push(HX_("offset",93,97,3f,60));
+	outFields->push(HX_("currentPos",db,22,30,c7));
 	outFields->push(HX_("char",d6,5e,bf,41));
 	outFields->push(HX_("ops",32,9c,54,00));
 	outFields->push(HX_("idents",83,4f,a1,d2));
@@ -5976,6 +6292,7 @@ static ::hx::StorageInfo Parser_obj_sMemberStorageInfo[] = {
 	{::hx::fsBool,(int)offsetof(Parser_obj,resumeErrors),HX_("resumeErrors",38,61,37,31)},
 	{::hx::fsString,(int)offsetof(Parser_obj,input),HX_("input",0a,c4,1d,be)},
 	{::hx::fsInt,(int)offsetof(Parser_obj,readPos),HX_("readPos",de,03,cf,02)},
+	{::hx::fsInt,(int)offsetof(Parser_obj,offset),HX_("offset",93,97,3f,60)},
 	{::hx::fsInt,(int)offsetof(Parser_obj,_hx_char),HX_("char",d6,5e,bf,41)},
 	{::hx::fsObject /* ::Array< bool > */ ,(int)offsetof(Parser_obj,ops),HX_("ops",32,9c,54,00)},
 	{::hx::fsObject /* ::Array< bool > */ ,(int)offsetof(Parser_obj,idents),HX_("idents",83,4f,a1,d2)},
@@ -6005,6 +6322,7 @@ static ::String Parser_obj_sMemberFields[] = {
 	HX_("resumeErrors",38,61,37,31),
 	HX_("input",0a,c4,1d,be),
 	HX_("readPos",de,03,cf,02),
+	HX_("offset",93,97,3f,60),
 	HX_("char",d6,5e,bf,41),
 	HX_("ops",32,9c,54,00),
 	HX_("idents",83,4f,a1,d2),
@@ -6015,6 +6333,7 @@ static ::String Parser_obj_sMemberFields[] = {
 	HX_("oldTokenMin",e0,7b,1c,6b),
 	HX_("oldTokenMax",f2,74,1c,6b),
 	HX_("tokens",5a,17,e7,91),
+	HX_("get_currentPos",24,ab,25,3d),
 	HX_("error",c8,cb,29,73),
 	HX_("invalidChar",6d,ad,ce,a9),
 	HX_("initParser",0f,f8,cd,f1),

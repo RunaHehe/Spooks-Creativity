@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_0121d289f7f222d9_252_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_a547912459d988d9_252_new)
 HX_DECLARE_CLASS2(haxe,ds,TreeNode)
 
 namespace haxe{
@@ -40,7 +40,7 @@ class HXCPP_CLASS_ATTRIBUTES TreeNode_obj : public ::hx::Object
 			*(void **)__this = TreeNode_obj::_hx_vtable;
 {
             		int h = __o_h.Default(-1);
-            	HX_STACKFRAME(&_hx_pos_0121d289f7f222d9_252_new)
+            	HX_STACKFRAME(&_hx_pos_a547912459d988d9_252_new)
 HXLINE( 253)		( ( ::haxe::ds::TreeNode)(__this) )->left = l;
 HXLINE( 254)		( ( ::haxe::ds::TreeNode)(__this) )->key = k;
 HXLINE( 255)		( ( ::haxe::ds::TreeNode)(__this) )->value = v;

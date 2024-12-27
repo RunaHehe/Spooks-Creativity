@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_3d6168a40ca14b47_2088_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_black_ttf","new",0xcb170403,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_black_ttf.new","ManifestResources.hx",2088,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_3d6168a40ca14b47_2106_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_black_ttf","new",0xcb170403,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_black_ttf.new","ManifestResources.hx",2106,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_black_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_3d6168a40ca14b47_2088_new)
-HXDLIN(2088)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Roboto-Black.ttf",da,12,78,c7));
-HXDLIN(2088)		this->name = HX_("Roboto Black",24,0e,25,09);
-HXDLIN(2088)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_3d6168a40ca14b47_2106_new)
+HXDLIN(2106)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Roboto-Black.ttf",da,12,78,c7));
+HXDLIN(2106)		this->name = HX_("Roboto Black",24,0e,25,09);
+HXDLIN(2106)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_black_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_roboto_black_ttf_obj; }

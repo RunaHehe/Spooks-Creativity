@@ -5,19 +5,19 @@
 #include <Reflect.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_30_hasField,"Reflect","hasField",0xef8c2571,"Reflect.hasField","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",30,0x3ce76388)
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_35_field,"Reflect","field",0x54b04da9,"Reflect.field","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",35,0x3ce76388)
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_40_setField,"Reflect","setField",0x71684429,"Reflect.setField","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",40,0x3ce76388)
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_45_getProperty,"Reflect","getProperty",0x632ca13a,"Reflect.getProperty","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",45,0x3ce76388)
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_49_setProperty,"Reflect","setProperty",0x6d99a846,"Reflect.setProperty","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",49,0x3ce76388)
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_54_callMethod,"Reflect","callMethod",0xb49e52d0,"Reflect.callMethod","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",54,0x3ce76388)
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_67_fields,"Reflect","fields",0xc593a6aa,"Reflect.fields","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",67,0x3ce76388)
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_77_isFunction,"Reflect","isFunction",0x0f1541d3,"Reflect.isFunction","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",77,0x3ce76388)
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_81_compare,"Reflect","compare",0xa2d92b54,"Reflect.compare","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",81,0x3ce76388)
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_84_compareMethods,"Reflect","compareMethods",0x8b8ddd7e,"Reflect.compareMethods","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",84,0x3ce76388)
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_93_isObject,"Reflect","isObject",0xd04960ba,"Reflect.isObject","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",93,0x3ce76388)
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_102_isEnumValue,"Reflect","isEnumValue",0x97884d95,"Reflect.isEnumValue","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",102,0x3ce76388)
-HX_LOCAL_STACK_FRAME(_hx_pos_8afaec3d8103fc19_127_makeVarArgs,"Reflect","makeVarArgs",0x978955c5,"Reflect.makeVarArgs","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Reflect.hx",127,0x3ce76388)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_30_hasField,"Reflect","hasField",0xef8c2571,"Reflect.hasField","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",30,0x487b3827)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_35_field,"Reflect","field",0x54b04da9,"Reflect.field","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",35,0x487b3827)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_40_setField,"Reflect","setField",0x71684429,"Reflect.setField","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",40,0x487b3827)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_45_getProperty,"Reflect","getProperty",0x632ca13a,"Reflect.getProperty","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",45,0x487b3827)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_49_setProperty,"Reflect","setProperty",0x6d99a846,"Reflect.setProperty","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",49,0x487b3827)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_54_callMethod,"Reflect","callMethod",0xb49e52d0,"Reflect.callMethod","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",54,0x487b3827)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_67_fields,"Reflect","fields",0xc593a6aa,"Reflect.fields","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",67,0x487b3827)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_77_isFunction,"Reflect","isFunction",0x0f1541d3,"Reflect.isFunction","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",77,0x487b3827)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_81_compare,"Reflect","compare",0xa2d92b54,"Reflect.compare","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",81,0x487b3827)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_84_compareMethods,"Reflect","compareMethods",0x8b8ddd7e,"Reflect.compareMethods","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",84,0x487b3827)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_93_isObject,"Reflect","isObject",0xd04960ba,"Reflect.isObject","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",93,0x487b3827)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_102_isEnumValue,"Reflect","isEnumValue",0x97884d95,"Reflect.isEnumValue","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",102,0x487b3827)
+HX_LOCAL_STACK_FRAME(_hx_pos_4da882ff114ca894_127_makeVarArgs,"Reflect","makeVarArgs",0x978955c5,"Reflect.makeVarArgs","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Reflect.hx",127,0x487b3827)
 
 void Reflect_obj::__construct() { }
 
@@ -37,7 +37,7 @@ bool Reflect_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool Reflect_obj::hasField( ::Dynamic o,::String field){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_30_hasField)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_30_hasField)
 HXDLIN(  30)		return (::hx::IsNotNull( o ) && ( (bool)(o->__HasField(field)) ));
             	}
 
@@ -45,7 +45,7 @@ HXDLIN(  30)		return (::hx::IsNotNull( o ) && ( (bool)(o->__HasField(field)) ));
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Reflect_obj,hasField,return )
 
  ::Dynamic Reflect_obj::field( ::Dynamic o,::String field){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_35_field)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_35_field)
 HXDLIN(  35)		return ::hx::IsNull( o ) ? null() : o->__Field(field,::hx::paccNever);
             	}
 
@@ -53,7 +53,7 @@ HXDLIN(  35)		return ::hx::IsNull( o ) ? null() : o->__Field(field,::hx::paccNev
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Reflect_obj,field,return )
 
 void Reflect_obj::setField( ::Dynamic o,::String field, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_40_setField)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_40_setField)
 HXDLIN(  40)		if (::hx::IsNotNull( o )) {
 HXLINE(  41)			o->__SetField(field,value,::hx::paccNever);
             		}
@@ -63,7 +63,7 @@ HXLINE(  41)			o->__SetField(field,value,::hx::paccNever);
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Reflect_obj,setField,(void))
 
  ::Dynamic Reflect_obj::getProperty( ::Dynamic o,::String field){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_45_getProperty)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_45_getProperty)
 HXDLIN(  45)		return ::hx::IsNull( o ) ? null() : o->__Field(field,::hx::paccAlways);
             	}
 
@@ -71,7 +71,7 @@ HXDLIN(  45)		return ::hx::IsNull( o ) ? null() : o->__Field(field,::hx::paccAlw
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Reflect_obj,getProperty,return )
 
 void Reflect_obj::setProperty( ::Dynamic o,::String field, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_49_setProperty)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_49_setProperty)
 HXDLIN(  49)		if (::hx::IsNotNull( o )) {
 HXLINE(  50)			o->__SetField(field,value,::hx::paccAlways);
             		}
@@ -81,7 +81,7 @@ HXLINE(  50)			o->__SetField(field,value,::hx::paccAlways);
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Reflect_obj,setProperty,(void))
 
  ::Dynamic Reflect_obj::callMethod( ::Dynamic o, ::Dynamic func,::cpp::VirtualArray args){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_54_callMethod)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_54_callMethod)
 HXLINE(  55)		if ((::hx::IsNotNull( func ) && ::hx::IsEq( func->__GetType(),3 ))) {
 HXLINE(  56)			if (::hx::IsNull( o )) {
 HXLINE(  57)				HX_STACK_DO_THROW(HX_STACK_DO_THROW(HX_INVALID_OBJECT));
@@ -99,7 +99,7 @@ HXLINE(  63)		return func->__Run(args);
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Reflect_obj,callMethod,return )
 
 ::Array< ::String > Reflect_obj::fields( ::Dynamic o){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_67_fields)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_67_fields)
 HXLINE(  68)		if (::hx::IsNull( o )) {
 HXLINE(  69)			return ::Array_obj< ::String >::__new();
             		}
@@ -112,7 +112,7 @@ HXLINE(  72)		return a;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Reflect_obj,fields,return )
 
 bool Reflect_obj::isFunction( ::Dynamic f){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_77_isFunction)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_77_isFunction)
 HXDLIN(  77)		return (::hx::IsNotNull( f ) && ::hx::IsEq( f->__GetType(),6 ));
             	}
 
@@ -120,7 +120,7 @@ HXDLIN(  77)		return (::hx::IsNotNull( f ) && ::hx::IsEq( f->__GetType(),6 ));
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Reflect_obj,isFunction,return )
 
 int Reflect_obj::compare( ::Dynamic a, ::Dynamic b){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_81_compare)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_81_compare)
 HXDLIN(  81)		return ::hx::IsEq( a,b ) ? 0 : ::hx::IsGreater( a,b ) ? 1 : -1;
             	}
 
@@ -128,7 +128,7 @@ HXDLIN(  81)		return ::hx::IsEq( a,b ) ? 0 : ::hx::IsGreater( a,b ) ? 1 : -1;
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Reflect_obj,compare,return )
 
 bool Reflect_obj::compareMethods( ::Dynamic f1, ::Dynamic f2){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_84_compareMethods)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_84_compareMethods)
 HXLINE(  85)		if (::hx::IsEq( f1,f2 )) {
 HXLINE(  86)			return true;
             		}
@@ -142,7 +142,7 @@ HXLINE(  89)		return  ::__hxcpp_same_closure(f1,f2);
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Reflect_obj,compareMethods,return )
 
 bool Reflect_obj::isObject( ::Dynamic v){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_93_isObject)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_93_isObject)
 HXLINE(  94)		if (::hx::IsNull( v )) {
 HXLINE(  95)			return false;
             		}
@@ -154,7 +154,7 @@ HXLINE(  97)		return ((((t == 4) || (t == 8)) || (t == 3)) || (t == 5));
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Reflect_obj,isObject,return )
 
 bool Reflect_obj::isEnumValue( ::Dynamic v){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_102_isEnumValue)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_102_isEnumValue)
 HXDLIN( 102)		return (::hx::IsNotNull( v ) && ::hx::IsEq( v->__GetType(),7 ));
             	}
 
@@ -162,7 +162,7 @@ HXDLIN( 102)		return (::hx::IsNotNull( v ) && ::hx::IsEq( v->__GetType(),7 ));
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Reflect_obj,isEnumValue,return )
 
  ::Dynamic Reflect_obj::makeVarArgs( ::Dynamic f){
-            	HX_STACKFRAME(&_hx_pos_8afaec3d8103fc19_127_makeVarArgs)
+            	HX_STACKFRAME(&_hx_pos_4da882ff114ca894_127_makeVarArgs)
 HXDLIN( 127)		return  ::__hxcpp_create_var_args(f);
             	}
 

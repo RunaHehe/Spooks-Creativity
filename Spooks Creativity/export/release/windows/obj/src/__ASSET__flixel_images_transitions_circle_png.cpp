@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_3f745db377a8ef2b_346_new,"__ASSET__flixel_images_transitions_circle_png","new",0xaf1d1221,"__ASSET__flixel_images_transitions_circle_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_cd7900d23c6c056c_1917_boot,"__ASSET__flixel_images_transitions_circle_png","boot",0x826bcb51,"__ASSET__flixel_images_transitions_circle_png.boot","ManifestResources.hx",1917,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_cd7900d23c6c056c_1935_boot,"__ASSET__flixel_images_transitions_circle_png","boot",0x826bcb51,"__ASSET__flixel_images_transitions_circle_png.boot","ManifestResources.hx",1935,0xf77aa668)
 
 void __ASSET__flixel_images_transitions_circle_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_3f745db377a8ef2b_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_images_transitions_circle_png_obj::__register()
 void __ASSET__flixel_images_transitions_circle_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_cd7900d23c6c056c_1917_boot)
-HXDLIN(1917)		resourceName = HX_("__ASSET__:image___ASSET__flixel_images_transitions_circle_png",61,fc,ad,f9);
+            	HX_STACKFRAME(&_hx_pos_cd7900d23c6c056c_1935_boot)
+HXDLIN(1935)		resourceName = HX_("__ASSET__:image___ASSET__flixel_images_transitions_circle_png",61,fc,ad,f9);
             	}
 }
 

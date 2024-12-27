@@ -23,36 +23,36 @@
 #include <haxe/xml/Printer.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_629e212001c3ebc7_397_new,"Xml","new",0x2e496e29,"Xml.new","D:\\HaxeToolKit\\haxe\\std/Xml.hx",397,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_244_get,"Xml","get",0x2e441e5f,"Xml.get","D:\\HaxeToolKit\\haxe\\std/Xml.hx",244,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_255_set,"Xml","set",0x2e4d396b,"Xml.set","D:\\HaxeToolKit\\haxe\\std/Xml.hx",255,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_277_exists,"Xml","exists",0x446683b3,"Xml.exists","D:\\HaxeToolKit\\haxe\\std/Xml.hx",277,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_287_attributes,"Xml","attributes",0x1ab5462e,"Xml.attributes","D:\\HaxeToolKit\\haxe\\std/Xml.hx",287,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_307_elements,"Xml","elements",0x0310ffce,"Xml.elements","D:\\HaxeToolKit\\haxe\\std/Xml.hx",307,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_317_elementsNamed,"Xml","elementsNamed",0x6b28f50b,"Xml.elementsNamed","D:\\HaxeToolKit\\haxe\\std/Xml.hx",317,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_337_firstElement,"Xml","firstElement",0xc103a583,"Xml.firstElement","D:\\HaxeToolKit\\haxe\\std/Xml.hx",337,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_353_addChild,"Xml","addChild",0x3e639952,"Xml.addChild","D:\\HaxeToolKit\\haxe\\std/Xml.hx",353,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_366_removeChild,"Xml","removeChild",0x9bd39581,"Xml.removeChild","D:\\HaxeToolKit\\haxe\\std/Xml.hx",366,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_381_insertChild,"Xml","insertChild",0xe554966c,"Xml.insertChild","D:\\HaxeToolKit\\haxe\\std/Xml.hx",381,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_394_toString,"Xml","toString",0xb7bb9a43,"Xml.toString","D:\\HaxeToolKit\\haxe\\std/Xml.hx",394,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_122_parse,"Xml","parse",0x8a44f23c,"Xml.parse","D:\\HaxeToolKit\\haxe\\std/Xml.hx",122,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_182_createElement,"Xml","createElement",0x97359a29,"Xml.createElement","D:\\HaxeToolKit\\haxe\\std/Xml.hx",182,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_191_createPCData,"Xml","createPCData",0x3cc9ead0,"Xml.createPCData","D:\\HaxeToolKit\\haxe\\std/Xml.hx",191,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_200_createCData,"Xml","createCData",0xaf49365a,"Xml.createCData","D:\\HaxeToolKit\\haxe\\std/Xml.hx",200,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_209_createComment,"Xml","createComment",0x125165cc,"Xml.createComment","D:\\HaxeToolKit\\haxe\\std/Xml.hx",209,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_218_createDocType,"Xml","createDocType",0x696de8bf,"Xml.createDocType","D:\\HaxeToolKit\\haxe\\std/Xml.hx",218,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_227_createProcessingInstruction,"Xml","createProcessingInstruction",0x632a1f28,"Xml.createProcessingInstruction","D:\\HaxeToolKit\\haxe\\std/Xml.hx",227,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_237_createDocument,"Xml","createDocument",0xcf00030e,"Xml.createDocument","D:\\HaxeToolKit\\haxe\\std/Xml.hx",237,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_86_boot,"Xml","boot",0x4a0ff649,"Xml.boot","D:\\HaxeToolKit\\haxe\\std/Xml.hx",86,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_91_boot,"Xml","boot",0x4a0ff649,"Xml.boot","D:\\HaxeToolKit\\haxe\\std/Xml.hx",91,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_96_boot,"Xml","boot",0x4a0ff649,"Xml.boot","D:\\HaxeToolKit\\haxe\\std/Xml.hx",96,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_101_boot,"Xml","boot",0x4a0ff649,"Xml.boot","D:\\HaxeToolKit\\haxe\\std/Xml.hx",101,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_106_boot,"Xml","boot",0x4a0ff649,"Xml.boot","D:\\HaxeToolKit\\haxe\\std/Xml.hx",106,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_111_boot,"Xml","boot",0x4a0ff649,"Xml.boot","D:\\HaxeToolKit\\haxe\\std/Xml.hx",111,0x207c473f)
-HX_LOCAL_STACK_FRAME(_hx_pos_629e212001c3ebc7_116_boot,"Xml","boot",0x4a0ff649,"Xml.boot","D:\\HaxeToolKit\\haxe\\std/Xml.hx",116,0x207c473f)
+HX_DEFINE_STACK_FRAME(_hx_pos_61da4a8008b80acb_397_new,"Xml","new",0x2e496e29,"Xml.new","C:\\HaxeToolkit\\haxe\\std/Xml.hx",397,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_244_get,"Xml","get",0x2e441e5f,"Xml.get","C:\\HaxeToolkit\\haxe\\std/Xml.hx",244,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_255_set,"Xml","set",0x2e4d396b,"Xml.set","C:\\HaxeToolkit\\haxe\\std/Xml.hx",255,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_277_exists,"Xml","exists",0x446683b3,"Xml.exists","C:\\HaxeToolkit\\haxe\\std/Xml.hx",277,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_287_attributes,"Xml","attributes",0x1ab5462e,"Xml.attributes","C:\\HaxeToolkit\\haxe\\std/Xml.hx",287,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_307_elements,"Xml","elements",0x0310ffce,"Xml.elements","C:\\HaxeToolkit\\haxe\\std/Xml.hx",307,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_317_elementsNamed,"Xml","elementsNamed",0x6b28f50b,"Xml.elementsNamed","C:\\HaxeToolkit\\haxe\\std/Xml.hx",317,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_337_firstElement,"Xml","firstElement",0xc103a583,"Xml.firstElement","C:\\HaxeToolkit\\haxe\\std/Xml.hx",337,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_353_addChild,"Xml","addChild",0x3e639952,"Xml.addChild","C:\\HaxeToolkit\\haxe\\std/Xml.hx",353,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_366_removeChild,"Xml","removeChild",0x9bd39581,"Xml.removeChild","C:\\HaxeToolkit\\haxe\\std/Xml.hx",366,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_381_insertChild,"Xml","insertChild",0xe554966c,"Xml.insertChild","C:\\HaxeToolkit\\haxe\\std/Xml.hx",381,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_394_toString,"Xml","toString",0xb7bb9a43,"Xml.toString","C:\\HaxeToolkit\\haxe\\std/Xml.hx",394,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_122_parse,"Xml","parse",0x8a44f23c,"Xml.parse","C:\\HaxeToolkit\\haxe\\std/Xml.hx",122,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_182_createElement,"Xml","createElement",0x97359a29,"Xml.createElement","C:\\HaxeToolkit\\haxe\\std/Xml.hx",182,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_191_createPCData,"Xml","createPCData",0x3cc9ead0,"Xml.createPCData","C:\\HaxeToolkit\\haxe\\std/Xml.hx",191,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_200_createCData,"Xml","createCData",0xaf49365a,"Xml.createCData","C:\\HaxeToolkit\\haxe\\std/Xml.hx",200,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_209_createComment,"Xml","createComment",0x125165cc,"Xml.createComment","C:\\HaxeToolkit\\haxe\\std/Xml.hx",209,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_218_createDocType,"Xml","createDocType",0x696de8bf,"Xml.createDocType","C:\\HaxeToolkit\\haxe\\std/Xml.hx",218,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_227_createProcessingInstruction,"Xml","createProcessingInstruction",0x632a1f28,"Xml.createProcessingInstruction","C:\\HaxeToolkit\\haxe\\std/Xml.hx",227,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_237_createDocument,"Xml","createDocument",0xcf00030e,"Xml.createDocument","C:\\HaxeToolkit\\haxe\\std/Xml.hx",237,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_86_boot,"Xml","boot",0x4a0ff649,"Xml.boot","C:\\HaxeToolkit\\haxe\\std/Xml.hx",86,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_91_boot,"Xml","boot",0x4a0ff649,"Xml.boot","C:\\HaxeToolkit\\haxe\\std/Xml.hx",91,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_96_boot,"Xml","boot",0x4a0ff649,"Xml.boot","C:\\HaxeToolkit\\haxe\\std/Xml.hx",96,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_101_boot,"Xml","boot",0x4a0ff649,"Xml.boot","C:\\HaxeToolkit\\haxe\\std/Xml.hx",101,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_106_boot,"Xml","boot",0x4a0ff649,"Xml.boot","C:\\HaxeToolkit\\haxe\\std/Xml.hx",106,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_111_boot,"Xml","boot",0x4a0ff649,"Xml.boot","C:\\HaxeToolkit\\haxe\\std/Xml.hx",111,0x6fe08e00)
+HX_LOCAL_STACK_FRAME(_hx_pos_61da4a8008b80acb_116_boot,"Xml","boot",0x4a0ff649,"Xml.boot","C:\\HaxeToolkit\\haxe\\std/Xml.hx",116,0x6fe08e00)
 
 void Xml_obj::__construct(int nodeType){
-            	HX_GC_STACKFRAME(&_hx_pos_629e212001c3ebc7_397_new)
+            	HX_GC_STACKFRAME(&_hx_pos_61da4a8008b80acb_397_new)
 HXLINE( 398)		this->nodeType = nodeType;
 HXLINE( 399)		this->children = ::Array_obj< ::Dynamic>::__new(0);
 HXLINE( 400)		this->attributeMap =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
@@ -74,7 +74,7 @@ bool Xml_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String Xml_obj::get(::String att){
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_244_get)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_244_get)
 HXLINE( 245)		if ((this->nodeType != ::Xml_obj::Element)) {
 HXLINE( 246)			HX_STACK_DO_THROW((HX_("Bad node type, expected Element but found ",d8,90,8b,bb) + ::_Xml::XmlType_Impl__obj::toString(this->nodeType)));
             		}
@@ -85,7 +85,7 @@ HXLINE( 248)		return this->attributeMap->get_string(att);
 HX_DEFINE_DYNAMIC_FUNC1(Xml_obj,get,return )
 
 void Xml_obj::set(::String att,::String value){
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_255_set)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_255_set)
 HXLINE( 256)		if ((this->nodeType != ::Xml_obj::Element)) {
 HXLINE( 257)			HX_STACK_DO_THROW((HX_("Bad node type, expected Element but found ",d8,90,8b,bb) + ::_Xml::XmlType_Impl__obj::toString(this->nodeType)));
             		}
@@ -96,7 +96,7 @@ HXLINE( 259)		this->attributeMap->set(att,value);
 HX_DEFINE_DYNAMIC_FUNC2(Xml_obj,set,(void))
 
 bool Xml_obj::exists(::String att){
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_277_exists)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_277_exists)
 HXLINE( 278)		if ((this->nodeType != ::Xml_obj::Element)) {
 HXLINE( 279)			HX_STACK_DO_THROW((HX_("Bad node type, expected Element but found ",d8,90,8b,bb) + ::_Xml::XmlType_Impl__obj::toString(this->nodeType)));
             		}
@@ -107,7 +107,7 @@ HXLINE( 281)		return this->attributeMap->exists(att);
 HX_DEFINE_DYNAMIC_FUNC1(Xml_obj,exists,return )
 
  ::Dynamic Xml_obj::attributes(){
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_287_attributes)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_287_attributes)
 HXLINE( 288)		if ((this->nodeType != ::Xml_obj::Element)) {
 HXLINE( 289)			HX_STACK_DO_THROW((HX_("Bad node type, expected Element but found ",d8,90,8b,bb) + ::_Xml::XmlType_Impl__obj::toString(this->nodeType)));
             		}
@@ -118,7 +118,7 @@ HXLINE( 291)		return this->attributeMap->keys();
 HX_DEFINE_DYNAMIC_FUNC0(Xml_obj,attributes,return )
 
  ::Dynamic Xml_obj::elements(){
-            	HX_GC_STACKFRAME(&_hx_pos_629e212001c3ebc7_307_elements)
+            	HX_GC_STACKFRAME(&_hx_pos_61da4a8008b80acb_307_elements)
 HXLINE( 308)		bool _hx_tmp;
 HXDLIN( 308)		if ((this->nodeType != ::Xml_obj::Document)) {
 HXLINE( 308)			_hx_tmp = (this->nodeType != ::Xml_obj::Element);
@@ -149,7 +149,7 @@ HXLINE( 310)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,ret
 HX_DEFINE_DYNAMIC_FUNC0(Xml_obj,elements,return )
 
  ::Dynamic Xml_obj::elementsNamed(::String name){
-            	HX_GC_STACKFRAME(&_hx_pos_629e212001c3ebc7_317_elementsNamed)
+            	HX_GC_STACKFRAME(&_hx_pos_61da4a8008b80acb_317_elementsNamed)
 HXLINE( 318)		bool _hx_tmp;
 HXDLIN( 318)		if ((this->nodeType != ::Xml_obj::Document)) {
 HXLINE( 318)			_hx_tmp = (this->nodeType != ::Xml_obj::Element);
@@ -190,7 +190,7 @@ HXLINE( 323)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,ret
 HX_DEFINE_DYNAMIC_FUNC1(Xml_obj,elementsNamed,return )
 
  ::Xml Xml_obj::firstElement(){
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_337_firstElement)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_337_firstElement)
 HXLINE( 338)		bool _hx_tmp;
 HXDLIN( 338)		if ((this->nodeType != ::Xml_obj::Document)) {
 HXLINE( 338)			_hx_tmp = (this->nodeType != ::Xml_obj::Element);
@@ -219,7 +219,7 @@ HXLINE( 344)		return null();
 HX_DEFINE_DYNAMIC_FUNC0(Xml_obj,firstElement,return )
 
 void Xml_obj::addChild( ::Xml x){
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_353_addChild)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_353_addChild)
 HXLINE( 354)		bool _hx_tmp;
 HXDLIN( 354)		if ((this->nodeType != ::Xml_obj::Document)) {
 HXLINE( 354)			_hx_tmp = (this->nodeType != ::Xml_obj::Element);
@@ -241,7 +241,7 @@ HXLINE( 359)		x->parent = ::hx::ObjectPtr<OBJ_>(this);
 HX_DEFINE_DYNAMIC_FUNC1(Xml_obj,addChild,(void))
 
 bool Xml_obj::removeChild( ::Xml x){
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_366_removeChild)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_366_removeChild)
 HXLINE( 367)		bool _hx_tmp;
 HXDLIN( 367)		if ((this->nodeType != ::Xml_obj::Document)) {
 HXLINE( 367)			_hx_tmp = (this->nodeType != ::Xml_obj::Element);
@@ -263,7 +263,7 @@ HXLINE( 372)		return false;
 HX_DEFINE_DYNAMIC_FUNC1(Xml_obj,removeChild,return )
 
 void Xml_obj::insertChild( ::Xml x,int pos){
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_381_insertChild)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_381_insertChild)
 HXLINE( 382)		bool _hx_tmp;
 HXDLIN( 382)		if ((this->nodeType != ::Xml_obj::Document)) {
 HXLINE( 382)			_hx_tmp = (this->nodeType != ::Xml_obj::Element);
@@ -285,7 +285,7 @@ HXLINE( 387)		x->parent = ::hx::ObjectPtr<OBJ_>(this);
 HX_DEFINE_DYNAMIC_FUNC2(Xml_obj,insertChild,(void))
 
 ::String Xml_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_394_toString)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_394_toString)
 HXDLIN( 394)		return ::haxe::xml::Printer_obj::print(::hx::ObjectPtr<OBJ_>(this),null());
             	}
 
@@ -307,7 +307,7 @@ int Xml_obj::ProcessingInstruction;
 int Xml_obj::Document;
 
  ::Xml Xml_obj::parse(::String str){
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_122_parse)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_122_parse)
 HXDLIN( 122)		return ::haxe::xml::Parser_obj::parse(str,null());
             	}
 
@@ -315,7 +315,7 @@ HXDLIN( 122)		return ::haxe::xml::Parser_obj::parse(str,null());
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Xml_obj,parse,return )
 
  ::Xml Xml_obj::createElement(::String name){
-            	HX_GC_STACKFRAME(&_hx_pos_629e212001c3ebc7_182_createElement)
+            	HX_GC_STACKFRAME(&_hx_pos_61da4a8008b80acb_182_createElement)
 HXLINE( 183)		 ::Xml xml =  ::Xml_obj::__alloc( HX_CTX ,::Xml_obj::Element);
 HXLINE( 184)		{
 HXLINE( 184)			if ((xml->nodeType != ::Xml_obj::Element)) {
@@ -330,7 +330,7 @@ HXLINE( 185)		return xml;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Xml_obj,createElement,return )
 
  ::Xml Xml_obj::createPCData(::String data){
-            	HX_GC_STACKFRAME(&_hx_pos_629e212001c3ebc7_191_createPCData)
+            	HX_GC_STACKFRAME(&_hx_pos_61da4a8008b80acb_191_createPCData)
 HXLINE( 192)		 ::Xml xml =  ::Xml_obj::__alloc( HX_CTX ,::Xml_obj::PCData);
 HXLINE( 193)		{
 HXLINE( 193)			bool _hx_tmp;
@@ -352,7 +352,7 @@ HXLINE( 194)		return xml;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Xml_obj,createPCData,return )
 
  ::Xml Xml_obj::createCData(::String data){
-            	HX_GC_STACKFRAME(&_hx_pos_629e212001c3ebc7_200_createCData)
+            	HX_GC_STACKFRAME(&_hx_pos_61da4a8008b80acb_200_createCData)
 HXLINE( 201)		 ::Xml xml =  ::Xml_obj::__alloc( HX_CTX ,::Xml_obj::CData);
 HXLINE( 202)		{
 HXLINE( 202)			bool _hx_tmp;
@@ -374,7 +374,7 @@ HXLINE( 203)		return xml;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Xml_obj,createCData,return )
 
  ::Xml Xml_obj::createComment(::String data){
-            	HX_GC_STACKFRAME(&_hx_pos_629e212001c3ebc7_209_createComment)
+            	HX_GC_STACKFRAME(&_hx_pos_61da4a8008b80acb_209_createComment)
 HXLINE( 210)		 ::Xml xml =  ::Xml_obj::__alloc( HX_CTX ,::Xml_obj::Comment);
 HXLINE( 211)		{
 HXLINE( 211)			bool _hx_tmp;
@@ -396,7 +396,7 @@ HXLINE( 212)		return xml;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Xml_obj,createComment,return )
 
  ::Xml Xml_obj::createDocType(::String data){
-            	HX_GC_STACKFRAME(&_hx_pos_629e212001c3ebc7_218_createDocType)
+            	HX_GC_STACKFRAME(&_hx_pos_61da4a8008b80acb_218_createDocType)
 HXLINE( 219)		 ::Xml xml =  ::Xml_obj::__alloc( HX_CTX ,::Xml_obj::DocType);
 HXLINE( 220)		{
 HXLINE( 220)			bool _hx_tmp;
@@ -418,7 +418,7 @@ HXLINE( 221)		return xml;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Xml_obj,createDocType,return )
 
  ::Xml Xml_obj::createProcessingInstruction(::String data){
-            	HX_GC_STACKFRAME(&_hx_pos_629e212001c3ebc7_227_createProcessingInstruction)
+            	HX_GC_STACKFRAME(&_hx_pos_61da4a8008b80acb_227_createProcessingInstruction)
 HXLINE( 228)		 ::Xml xml =  ::Xml_obj::__alloc( HX_CTX ,::Xml_obj::ProcessingInstruction);
 HXLINE( 229)		{
 HXLINE( 229)			bool _hx_tmp;
@@ -440,7 +440,7 @@ HXLINE( 230)		return xml;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Xml_obj,createProcessingInstruction,return )
 
  ::Xml Xml_obj::createDocument(){
-            	HX_GC_STACKFRAME(&_hx_pos_629e212001c3ebc7_237_createDocument)
+            	HX_GC_STACKFRAME(&_hx_pos_61da4a8008b80acb_237_createDocument)
 HXDLIN( 237)		return  ::Xml_obj::__alloc( HX_CTX ,::Xml_obj::Document);
             	}
 
@@ -737,31 +737,31 @@ void Xml_obj::__register()
 void Xml_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_86_boot)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_86_boot)
 HXDLIN(  86)		Element = 0;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_91_boot)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_91_boot)
 HXDLIN(  91)		PCData = 1;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_96_boot)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_96_boot)
 HXDLIN(  96)		CData = 2;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_101_boot)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_101_boot)
 HXDLIN( 101)		Comment = 3;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_106_boot)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_106_boot)
 HXDLIN( 106)		DocType = 4;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_111_boot)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_111_boot)
 HXDLIN( 111)		ProcessingInstruction = 5;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_629e212001c3ebc7_116_boot)
+            	HX_STACKFRAME(&_hx_pos_61da4a8008b80acb_116_boot)
 HXDLIN( 116)		Document = 6;
             	}
 }

@@ -8,14 +8,14 @@
 #include <haxe/iterators/MapKeyValueIterator.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_88418ad39243a2af_35_new,"haxe.iterators.MapKeyValueIterator","new",0x902a97fd,"haxe.iterators.MapKeyValueIterator.new","D:\\HaxeToolKit\\haxe\\std/haxe/iterators/MapKeyValueIterator.hx",35,0x4f80c7fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_88418ad39243a2af_44_hasNext,"haxe.iterators.MapKeyValueIterator","hasNext",0x6e75ff8a,"haxe.iterators.MapKeyValueIterator.hasNext","D:\\HaxeToolKit\\haxe\\std/haxe/iterators/MapKeyValueIterator.hx",44,0x4f80c7fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_88418ad39243a2af_50_next,"haxe.iterators.MapKeyValueIterator","next",0x951a66b6,"haxe.iterators.MapKeyValueIterator.next","D:\\HaxeToolKit\\haxe\\std/haxe/iterators/MapKeyValueIterator.hx",50,0x4f80c7fd)
+HX_DEFINE_STACK_FRAME(_hx_pos_fd1abd04c0889fb5_35_new,"haxe.iterators.MapKeyValueIterator","new",0x902a97fd,"haxe.iterators.MapKeyValueIterator.new","C:\\HaxeToolkit\\haxe\\std/haxe/iterators/MapKeyValueIterator.hx",35,0xb3b9305c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1abd04c0889fb5_44_hasNext,"haxe.iterators.MapKeyValueIterator","hasNext",0x6e75ff8a,"haxe.iterators.MapKeyValueIterator.hasNext","C:\\HaxeToolkit\\haxe\\std/haxe/iterators/MapKeyValueIterator.hx",44,0xb3b9305c)
+HX_LOCAL_STACK_FRAME(_hx_pos_fd1abd04c0889fb5_50_next,"haxe.iterators.MapKeyValueIterator","next",0x951a66b6,"haxe.iterators.MapKeyValueIterator.next","C:\\HaxeToolkit\\haxe\\std/haxe/iterators/MapKeyValueIterator.hx",50,0xb3b9305c)
 namespace haxe{
 namespace iterators{
 
 void MapKeyValueIterator_obj::__construct(::Dynamic map){
-            	HX_STACKFRAME(&_hx_pos_88418ad39243a2af_35_new)
+            	HX_STACKFRAME(&_hx_pos_fd1abd04c0889fb5_35_new)
 HXLINE(  36)		this->map = map;
 HXLINE(  37)		this->keys = ::haxe::IMap_obj::keys(map);
             	}
@@ -36,7 +36,7 @@ bool MapKeyValueIterator_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool MapKeyValueIterator_obj::hasNext(){
-            	HX_STACKFRAME(&_hx_pos_88418ad39243a2af_44_hasNext)
+            	HX_STACKFRAME(&_hx_pos_fd1abd04c0889fb5_44_hasNext)
 HXDLIN(  44)		return ( (bool)(this->keys->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) );
             	}
 
@@ -44,7 +44,7 @@ HXDLIN(  44)		return ( (bool)(this->keys->__Field(HX_("hasNext",6d,a5,46,18),::h
 HX_DEFINE_DYNAMIC_FUNC0(MapKeyValueIterator_obj,hasNext,return )
 
  ::Dynamic MapKeyValueIterator_obj::next(){
-            	HX_STACKFRAME(&_hx_pos_88418ad39243a2af_50_next)
+            	HX_STACKFRAME(&_hx_pos_fd1abd04c0889fb5_50_next)
 HXLINE(  51)		 ::Dynamic key = this->keys->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)();
 HXLINE(  52)		return  ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("key",9f,89,51,00),key)

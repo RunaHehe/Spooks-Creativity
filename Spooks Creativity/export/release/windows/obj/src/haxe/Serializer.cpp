@@ -51,9 +51,9 @@
 #include <haxe/io/Bytes.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_5d1e593e9fe538af_103_new,"haxe.Serializer","new",0xcdbbc7ec,"haxe.Serializer.new","D:\\HaxeToolKit\\haxe\\std/haxe/Serializer.hx",103,0xef0e4e3b)
-HX_LOCAL_STACK_FRAME(_hx_pos_5d1e593e9fe538af_119_toString,"haxe.Serializer","toString",0x95bdfda0,"haxe.Serializer.toString","D:\\HaxeToolKit\\haxe\\std/haxe/Serializer.hx",119,0xef0e4e3b)
-HX_LOCAL_STACK_FRAME(_hx_pos_5d1e593e9fe538af_154_serializeString,"haxe.Serializer","serializeString",0xd565bc5d,"haxe.Serializer.serializeString","D:\\HaxeToolKit\\haxe\\std/haxe/Serializer.hx",154,0xef0e4e3b)
+HX_DEFINE_STACK_FRAME(_hx_pos_80055b2442a299a2_103_new,"haxe.Serializer","new",0xcdbbc7ec,"haxe.Serializer.new","C:\\HaxeToolkit\\haxe\\std/haxe/Serializer.hx",103,0xfce2327c)
+HX_LOCAL_STACK_FRAME(_hx_pos_80055b2442a299a2_119_toString,"haxe.Serializer","toString",0x95bdfda0,"haxe.Serializer.toString","C:\\HaxeToolkit\\haxe\\std/haxe/Serializer.hx",119,0xfce2327c)
+HX_LOCAL_STACK_FRAME(_hx_pos_80055b2442a299a2_154_serializeString,"haxe.Serializer","serializeString",0xd565bc5d,"haxe.Serializer.serializeString","C:\\HaxeToolkit\\haxe\\std/haxe/Serializer.hx",154,0xfce2327c)
 static const ::String _hx_array_data_6a6ea1fa_3[] = {
 	HX_("R",52,00,00,00),
 };
@@ -63,15 +63,15 @@ static const ::String _hx_array_data_6a6ea1fa_4[] = {
 static const ::String _hx_array_data_6a6ea1fa_5[] = {
 	HX_(":",3a,00,00,00),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_5d1e593e9fe538af_174_serializeRef,"haxe.Serializer","serializeRef",0x0b8ed647,"haxe.Serializer.serializeRef","D:\\HaxeToolKit\\haxe\\std/haxe/Serializer.hx",174,0xef0e4e3b)
+HX_LOCAL_STACK_FRAME(_hx_pos_80055b2442a299a2_174_serializeRef,"haxe.Serializer","serializeRef",0x0b8ed647,"haxe.Serializer.serializeRef","C:\\HaxeToolkit\\haxe\\std/haxe/Serializer.hx",174,0xfce2327c)
 static const ::String _hx_array_data_6a6ea1fa_8[] = {
 	HX_("r",72,00,00,00),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_5d1e593e9fe538af_211_serializeFields,"haxe.Serializer","serializeFields",0x44c42205,"haxe.Serializer.serializeFields","D:\\HaxeToolKit\\haxe\\std/haxe/Serializer.hx",211,0xef0e4e3b)
+HX_LOCAL_STACK_FRAME(_hx_pos_80055b2442a299a2_211_serializeFields,"haxe.Serializer","serializeFields",0x44c42205,"haxe.Serializer.serializeFields","C:\\HaxeToolkit\\haxe\\std/haxe/Serializer.hx",211,0xfce2327c)
 static const ::String _hx_array_data_6a6ea1fa_11[] = {
 	HX_("g",67,00,00,00),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_5d1e593e9fe538af_230_serialize,"haxe.Serializer","serialize",0x3cea866c,"haxe.Serializer.serialize","D:\\HaxeToolKit\\haxe\\std/haxe/Serializer.hx",230,0xef0e4e3b)
+HX_LOCAL_STACK_FRAME(_hx_pos_80055b2442a299a2_230_serialize,"haxe.Serializer","serialize",0x3cea866c,"haxe.Serializer.serialize","C:\\HaxeToolkit\\haxe\\std/haxe/Serializer.hx",230,0xfce2327c)
 static const ::String _hx_array_data_6a6ea1fa_22[] = {
 	HX_("n",6e,00,00,00),
 };
@@ -168,15 +168,15 @@ static const ::String _hx_array_data_6a6ea1fa_52[] = {
 static const ::String _hx_array_data_6a6ea1fa_53[] = {
 	HX_(":",3a,00,00,00),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_5d1e593e9fe538af_582_run,"haxe.Serializer","run",0xcdbeded7,"haxe.Serializer.run","D:\\HaxeToolKit\\haxe\\std/haxe/Serializer.hx",582,0xef0e4e3b)
-HX_LOCAL_STACK_FRAME(_hx_pos_5d1e593e9fe538af_57_boot,"haxe.Serializer","boot",0x2eac2726,"haxe.Serializer.boot","D:\\HaxeToolKit\\haxe\\std/haxe/Serializer.hx",57,0xef0e4e3b)
-HX_LOCAL_STACK_FRAME(_hx_pos_5d1e593e9fe538af_69_boot,"haxe.Serializer","boot",0x2eac2726,"haxe.Serializer.boot","D:\\HaxeToolKit\\haxe\\std/haxe/Serializer.hx",69,0xef0e4e3b)
-HX_LOCAL_STACK_FRAME(_hx_pos_5d1e593e9fe538af_71_boot,"haxe.Serializer","boot",0x2eac2726,"haxe.Serializer.boot","D:\\HaxeToolKit\\haxe\\std/haxe/Serializer.hx",71,0xef0e4e3b)
-HX_LOCAL_STACK_FRAME(_hx_pos_5d1e593e9fe538af_72_boot,"haxe.Serializer","boot",0x2eac2726,"haxe.Serializer.boot","D:\\HaxeToolKit\\haxe\\std/haxe/Serializer.hx",72,0xef0e4e3b)
+HX_LOCAL_STACK_FRAME(_hx_pos_80055b2442a299a2_582_run,"haxe.Serializer","run",0xcdbeded7,"haxe.Serializer.run","C:\\HaxeToolkit\\haxe\\std/haxe/Serializer.hx",582,0xfce2327c)
+HX_LOCAL_STACK_FRAME(_hx_pos_80055b2442a299a2_57_boot,"haxe.Serializer","boot",0x2eac2726,"haxe.Serializer.boot","C:\\HaxeToolkit\\haxe\\std/haxe/Serializer.hx",57,0xfce2327c)
+HX_LOCAL_STACK_FRAME(_hx_pos_80055b2442a299a2_69_boot,"haxe.Serializer","boot",0x2eac2726,"haxe.Serializer.boot","C:\\HaxeToolkit\\haxe\\std/haxe/Serializer.hx",69,0xfce2327c)
+HX_LOCAL_STACK_FRAME(_hx_pos_80055b2442a299a2_71_boot,"haxe.Serializer","boot",0x2eac2726,"haxe.Serializer.boot","C:\\HaxeToolkit\\haxe\\std/haxe/Serializer.hx",71,0xfce2327c)
+HX_LOCAL_STACK_FRAME(_hx_pos_80055b2442a299a2_72_boot,"haxe.Serializer","boot",0x2eac2726,"haxe.Serializer.boot","C:\\HaxeToolkit\\haxe\\std/haxe/Serializer.hx",72,0xfce2327c)
 namespace haxe{
 
 void Serializer_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_5d1e593e9fe538af_103_new)
+            	HX_GC_STACKFRAME(&_hx_pos_80055b2442a299a2_103_new)
 HXLINE( 104)		this->buf =  ::StringBuf_obj::__alloc( HX_CTX );
 HXLINE( 105)		this->cache = ::cpp::VirtualArray_obj::__new();
 HXLINE( 106)		this->useCache = ::haxe::Serializer_obj::USE_CACHE;
@@ -201,7 +201,7 @@ bool Serializer_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String Serializer_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_5d1e593e9fe538af_119_toString)
+            	HX_STACKFRAME(&_hx_pos_80055b2442a299a2_119_toString)
 HXDLIN( 119)		return this->buf->toString();
             	}
 
@@ -209,7 +209,7 @@ HXDLIN( 119)		return this->buf->toString();
 HX_DEFINE_DYNAMIC_FUNC0(Serializer_obj,toString,return )
 
 void Serializer_obj::serializeString(::String s){
-            	HX_STACKFRAME(&_hx_pos_5d1e593e9fe538af_154_serializeString)
+            	HX_STACKFRAME(&_hx_pos_80055b2442a299a2_154_serializeString)
 HXLINE( 155)		 ::Dynamic x = this->shash->get(s);
 HXLINE( 156)		if (::hx::IsNotNull( x )) {
 HXLINE( 157)			{
@@ -298,7 +298,7 @@ HXDLIN( 171)				_this8->push(::Std_obj::string(s));
 HX_DEFINE_DYNAMIC_FUNC1(Serializer_obj,serializeString,(void))
 
 bool Serializer_obj::serializeRef( ::Dynamic v){
-            	HX_STACKFRAME(&_hx_pos_5d1e593e9fe538af_174_serializeRef)
+            	HX_STACKFRAME(&_hx_pos_80055b2442a299a2_174_serializeRef)
 HXLINE( 178)		{
 HXLINE( 178)			int _g = 0;
 HXDLIN( 178)			int _g1 = this->cache->get_length();
@@ -343,7 +343,7 @@ HXLINE( 191)		return false;
 HX_DEFINE_DYNAMIC_FUNC1(Serializer_obj,serializeRef,return )
 
 void Serializer_obj::serializeFields( ::Dynamic v){
-            	HX_STACKFRAME(&_hx_pos_5d1e593e9fe538af_211_serializeFields)
+            	HX_STACKFRAME(&_hx_pos_80055b2442a299a2_211_serializeFields)
 HXLINE( 212)		{
 HXLINE( 212)			int _g = 0;
 HXDLIN( 212)			::Array< ::String > _g1 = ::Reflect_obj::fields(v);
@@ -372,7 +372,7 @@ HXLINE( 216)				_this->b->push(HX_("g",67,00,00,00));
 HX_DEFINE_DYNAMIC_FUNC1(Serializer_obj,serializeFields,(void))
 
 void Serializer_obj::serialize( ::Dynamic v){
-            	HX_STACKFRAME(&_hx_pos_5d1e593e9fe538af_230_serialize)
+            	HX_STACKFRAME(&_hx_pos_80055b2442a299a2_230_serialize)
 HXDLIN( 230)		 ::ValueType _g = ::Type_obj::_hx_typeof(v);
 HXDLIN( 230)		switch((int)(_g->_hx_getIndex())){
             			case (int)0: {
@@ -1406,7 +1406,7 @@ bool Serializer_obj::USE_ENUM_INDEX;
 ::Array< ::Dynamic> Serializer_obj::BASE64_CODES;
 
 ::String Serializer_obj::run( ::Dynamic v){
-            	HX_GC_STACKFRAME(&_hx_pos_5d1e593e9fe538af_582_run)
+            	HX_GC_STACKFRAME(&_hx_pos_80055b2442a299a2_582_run)
 HXLINE( 583)		 ::haxe::Serializer s =  ::haxe::Serializer_obj::__alloc( HX_CTX );
 HXLINE( 584)		s->serialize(v);
 HXLINE( 585)		return s->toString();
@@ -1649,19 +1649,19 @@ void Serializer_obj::__register()
 void Serializer_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_5d1e593e9fe538af_57_boot)
+            	HX_STACKFRAME(&_hx_pos_80055b2442a299a2_57_boot)
 HXDLIN(  57)		USE_CACHE = false;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_5d1e593e9fe538af_69_boot)
+            	HX_STACKFRAME(&_hx_pos_80055b2442a299a2_69_boot)
 HXDLIN(  69)		USE_ENUM_INDEX = false;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_5d1e593e9fe538af_71_boot)
+            	HX_STACKFRAME(&_hx_pos_80055b2442a299a2_71_boot)
 HXDLIN(  71)		BASE64 = HX_("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789%:",d4,3b,03,7f);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_5d1e593e9fe538af_72_boot)
+            	HX_STACKFRAME(&_hx_pos_80055b2442a299a2_72_boot)
 HXDLIN(  72)		BASE64_CODES = null();
             	}
 }

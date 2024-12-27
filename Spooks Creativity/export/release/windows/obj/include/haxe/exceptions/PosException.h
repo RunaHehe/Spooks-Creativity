@@ -9,7 +9,7 @@
 #ifndef INCLUDED_haxe_Exception
 #include <haxe/Exception.h>
 #endif
-HX_DECLARE_STACK_FRAME(_hx_pos_6edffc525681d2e9_12_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_c42ea8de6201fd00_12_new)
 HX_DECLARE_CLASS1(haxe,Exception)
 HX_DECLARE_CLASS2(haxe,exceptions,PosException)
 
@@ -43,7 +43,7 @@ class HXCPP_CLASS_ATTRIBUTES PosException_obj : public  ::haxe::Exception_obj
 			PosException_obj *__this = (PosException_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(PosException_obj), true, "haxe.exceptions.PosException"));
 			*(void **)__this = PosException_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_6edffc525681d2e9_12_new)
+            	HX_STACKFRAME(&_hx_pos_c42ea8de6201fd00_12_new)
 HXLINE(  13)		__this->super::__construct(message,previous,null());
 HXLINE(  14)		if (::hx::IsNull( pos )) {
 HXLINE(  15)			( ( ::haxe::exceptions::PosException)(__this) )->posInfos = ::hx::SourceInfo(HX_("(unknown)",87,5d,fc,5f),0,HX_("(unknown)",87,5d,fc,5f),HX_("(unknown)",87,5d,fc,5f));

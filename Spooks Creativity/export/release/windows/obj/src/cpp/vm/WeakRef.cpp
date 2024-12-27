@@ -5,14 +5,14 @@
 #include <cpp/vm/WeakRef.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_449cf5667b0e749e_29_new,"cpp.vm.WeakRef","new",0x9ce60541,"cpp.vm.WeakRef.new","D:\\HaxeToolKit\\haxe\\std/cpp/vm/WeakRef.hx",29,0xc5be7d17)
-HX_LOCAL_STACK_FRAME(_hx_pos_449cf5667b0e749e_37_get,"cpp.vm.WeakRef","get",0x9ce0b577,"cpp.vm.WeakRef.get","D:\\HaxeToolKit\\haxe\\std/cpp/vm/WeakRef.hx",37,0xc5be7d17)
+HX_DEFINE_STACK_FRAME(_hx_pos_4f0fd8a7980ded5c_29_new,"cpp.vm.WeakRef","new",0x9ce60541,"cpp.vm.WeakRef.new","C:\\HaxeToolkit\\haxe\\std/cpp/vm/WeakRef.hx",29,0x92259bf6)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f0fd8a7980ded5c_37_get,"cpp.vm.WeakRef","get",0x9ce0b577,"cpp.vm.WeakRef.get","C:\\HaxeToolkit\\haxe\\std/cpp/vm/WeakRef.hx",37,0x92259bf6)
 namespace cpp{
 namespace vm{
 
 void WeakRef_obj::__construct( ::Dynamic inObject,::hx::Null< bool >  __o_inHard){
             		bool inHard = __o_inHard.Default(false);
-            	HX_STACKFRAME(&_hx_pos_449cf5667b0e749e_29_new)
+            	HX_STACKFRAME(&_hx_pos_4f0fd8a7980ded5c_29_new)
 HXLINE(  30)		this->hardRef = inHard;
 HXLINE(  31)		if (this->hardRef) {
 HXLINE(  32)			this->ref = inObject;
@@ -38,7 +38,7 @@ bool WeakRef_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Dynamic WeakRef_obj::get(){
-            	HX_STACKFRAME(&_hx_pos_449cf5667b0e749e_37_get)
+            	HX_STACKFRAME(&_hx_pos_4f0fd8a7980ded5c_37_get)
 HXLINE(  38)		if (this->hardRef) {
 HXLINE(  39)			return this->ref;
             		}

@@ -58,13 +58,13 @@ static const ::String _hx_array_data_23c4ab78_7[] = {
 	HX_("User1",66,df,5f,3d),
 };
 static const ::String _hx_array_data_23c4ab78_8[] = {
-	HX_("Mint",c2,7a,35,33),HX_("Lumi",45,5e,95,32),HX_("Blue Evil Spook",e8,2f,6d,67),
+	HX_("Mint",c2,7a,35,33),HX_("Lumi",45,5e,95,32),HX_("Blue Evil Spook",e8,2f,6d,67),HX_("Floppa",b8,f5,f5,75),HX_("Dr Ludwig",8c,d7,ba,b6),
 };
 static const ::String _hx_array_data_23c4ab78_9[] = {
 	HX_("Spook",ae,a6,9e,14),
 };
 static const ::String _hx_array_data_23c4ab78_10[] = {
-	HX_("An Ammar",bf,8d,de,e4),HX_("Annoyer",58,7f,03,2a),HX_("Spook",ae,a6,9e,14),HX_("Mint",c2,7a,35,33),HX_("Tutu",62,19,df,37),HX_("Blue Evil Spook",e8,2f,6d,67),HX_("Dave",0c,84,3c,2d),HX_("Lumi",45,5e,95,32),HX_("Luna",1c,5f,95,32),HX_("Andro",34,72,0d,b6),
+	HX_("An Ammar",bf,8d,de,e4),HX_("Annoyer",58,7f,03,2a),HX_("Spook",ae,a6,9e,14),HX_("Mint",c2,7a,35,33),HX_("Tutu",62,19,df,37),HX_("Blue Evil Spook",e8,2f,6d,67),HX_("Dave",0c,84,3c,2d),HX_("Lumi",45,5e,95,32),HX_("Bellita",d3,d2,8d,91),HX_("Andro",34,72,0d,b6),HX_("Sharky",14,d8,bf,51),HX_("Silly",03,df,fb,0f),HX_("Smartty",ae,d7,ec,35),HX_("Brickman",d9,7d,c1,86),HX_("Floppa",b8,f5,f5,75),HX_("ImBakeyy",5d,12,79,88),HX_("Dr Ludwig",8c,d7,ba,b6),HX_("Thatoneguy",ac,02,1b,49),HX_("Vision",08,88,17,24),
 };
 HX_LOCAL_STACK_FRAME(_hx_pos_e5f2f76e78bcedfc_80_addCategory,"stagesprite.DiscordMembers","addCategory",0xaf021449,"stagesprite.DiscordMembers.addCategory","stagesprite/DiscordMembers.hx",80,0xf8110125)
 HX_LOCAL_STACK_FRAME(_hx_pos_e5f2f76e78bcedfc_93_sortAlphabet,"stagesprite.DiscordMembers","sortAlphabet",0xfd2804e7,"stagesprite.DiscordMembers.sortAlphabet","stagesprite/DiscordMembers.hx",93,0xf8110125)
@@ -87,11 +87,11 @@ HXLINE(  25)		this->space = ((Float)40);
 HXLINE(  24)		this->index = 0;
 HXLINE(  22)		this->organizeMembers = ::Array_obj< ::String >::__new(0);
 HXLINE(  20)		this->boosterList = ::Array_obj< ::String >::fromData( _hx_array_data_23c4ab78_7,1);
-HXLINE(  19)		this->modList = ::Array_obj< ::String >::fromData( _hx_array_data_23c4ab78_8,3);
+HXLINE(  19)		this->modList = ::Array_obj< ::String >::fromData( _hx_array_data_23c4ab78_8,5);
 HXLINE(  18)		this->ownerList = ::Array_obj< ::String >::fromData( _hx_array_data_23c4ab78_9,1);
 HXLINE(  16)		this->categories = ::Array_obj< ::Dynamic>::__new(0);
 HXLINE(  15)		this->members = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(  14)		this->daMembers = ::Array_obj< ::String >::fromData( _hx_array_data_23c4ab78_10,10);
+HXLINE(  14)		this->daMembers = ::Array_obj< ::String >::fromData( _hx_array_data_23c4ab78_10,19);
 HXLINE(  33)		super::__construct(x,y,null());
 HXLINE(  36)		::String library = null();
 HXDLIN(  36)		 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(HX_("MembersListBG",3c,43,09,eb),library);

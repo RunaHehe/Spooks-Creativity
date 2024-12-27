@@ -57,6 +57,8 @@ class Token_obj : public ::hx::EnumBase_obj
 		static ::Dynamic TPrepro_dyn();
 		static ::hscript::Token TQuestion;
 		static inline ::hscript::Token TQuestion_dyn() { return TQuestion; }
+		static ::hscript::Token TQuestionDot;
+		static inline ::hscript::Token TQuestionDot_dyn() { return TQuestionDot; }
 		static ::hscript::Token TSemicolon;
 		static inline ::hscript::Token TSemicolon_dyn() { return TSemicolon; }
 };

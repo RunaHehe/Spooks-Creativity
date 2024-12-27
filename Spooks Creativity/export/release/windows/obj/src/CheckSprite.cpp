@@ -71,47 +71,47 @@
 #include <sys/io/File.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a9be513903d60a44_2374_new,"CheckSprite","new",0xb355d23f,"CheckSprite.new","MainMenuStateAmmar.hx",2374,0x38c8c245)
-HX_LOCAL_STACK_FRAME(_hx_pos_a9be513903d60a44_2398_update,"CheckSprite","update",0x5de0b98a,"CheckSprite.update","MainMenuStateAmmar.hx",2398,0x38c8c245)
+HX_DEFINE_STACK_FRAME(_hx_pos_a9be513903d60a44_2378_new,"CheckSprite","new",0xb355d23f,"CheckSprite.new","MainMenuStateAmmar.hx",2378,0x38c8c245)
+HX_LOCAL_STACK_FRAME(_hx_pos_a9be513903d60a44_2402_update,"CheckSprite","update",0x5de0b98a,"CheckSprite.update","MainMenuStateAmmar.hx",2402,0x38c8c245)
 
 void CheckSprite_obj::__construct(::hx::Null< Float >  __o_X,::hx::Null< Float >  __o_Y,::hx::Null< int >  __o_difficulty){
             		Float X = __o_X.Default(0);
             		Float Y = __o_Y.Default(0);
             		int difficulty = __o_difficulty.Default(1);
-            	HX_STACKFRAME(&_hx_pos_a9be513903d60a44_2374_new)
-HXLINE(2384)		this->noMove = false;
-HXLINE(2383)		this->partOf = HX_("",00,00,00,00);
-HXLINE(2381)		this->addY = ((Float)0);
-HXLINE(2380)		this->addX = ((Float)0);
-HXLINE(2379)		this->followPartner = false;
-HXLINE(2376)		this->objectID = 0;
-HXLINE(2388)		super::__construct(X,Y,null());
-HXLINE(2389)		this->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
-HXLINE(2391)		::String path = ((HX_("ammar/",bd,7a,a1,d3) + ::MainMenuStateAmmar_obj::difficultyArray->__get(difficulty)) + HX_("Tick",7d,ef,d5,37));
-HXLINE(2392)		::String library = null();
-HXDLIN(2392)		 ::flixel::graphics::FlxGraphic imageLoaded = ::Paths_obj::returnGraphic(path,null());
-HXDLIN(2392)		bool xmlExists = false;
-HXDLIN(2392)		if (::sys::FileSystem_obj::exists(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + path) + HX_(".xml",69,3e,c3,1e))))) {
-HXLINE(2392)			xmlExists = true;
+            	HX_STACKFRAME(&_hx_pos_a9be513903d60a44_2378_new)
+HXLINE(2388)		this->noMove = false;
+HXLINE(2387)		this->partOf = HX_("",00,00,00,00);
+HXLINE(2385)		this->addY = ((Float)0);
+HXLINE(2384)		this->addX = ((Float)0);
+HXLINE(2383)		this->followPartner = false;
+HXLINE(2380)		this->objectID = 0;
+HXLINE(2392)		super::__construct(X,Y,null());
+HXLINE(2393)		this->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
+HXLINE(2395)		::String path = ((HX_("ammar/",bd,7a,a1,d3) + ::MainMenuStateAmmar_obj::difficultyArray->__get(difficulty)) + HX_("Tick",7d,ef,d5,37));
+HXLINE(2396)		::String library = null();
+HXDLIN(2396)		 ::flixel::graphics::FlxGraphic imageLoaded = ::Paths_obj::returnGraphic(path,null());
+HXDLIN(2396)		bool xmlExists = false;
+HXDLIN(2396)		if (::sys::FileSystem_obj::exists(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + path) + HX_(".xml",69,3e,c3,1e))))) {
+HXLINE(2396)			xmlExists = true;
             		}
-HXDLIN(2392)		 ::Dynamic _hx_tmp;
-HXDLIN(2392)		if (::hx::IsNotNull( imageLoaded )) {
-HXLINE(2392)			_hx_tmp = imageLoaded;
-            		}
-            		else {
-HXLINE(2392)			 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(path,library);
-HXDLIN(2392)			_hx_tmp = returnAsset;
-            		}
-HXDLIN(2392)		 ::Dynamic _hx_tmp1;
-HXDLIN(2392)		if (xmlExists) {
-HXLINE(2392)			_hx_tmp1 = ::sys::io::File_obj::getContent(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + path) + HX_(".xml",69,3e,c3,1e))));
+HXDLIN(2396)		 ::Dynamic _hx_tmp;
+HXDLIN(2396)		if (::hx::IsNotNull( imageLoaded )) {
+HXLINE(2396)			_hx_tmp = imageLoaded;
             		}
             		else {
-HXLINE(2392)			_hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + path) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library);
+HXLINE(2396)			 ::flixel::graphics::FlxGraphic returnAsset = ::Paths_obj::returnGraphic(path,library);
+HXDLIN(2396)			_hx_tmp = returnAsset;
             		}
-HXDLIN(2392)		this->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp,_hx_tmp1));
-HXLINE(2393)		this->animation->addByPrefix(HX_("idle",14,a7,b3,45),HX_("Checkmark",b5,bc,2f,53),10,true,null(),null());
-HXLINE(2394)		this->animation->play(HX_("idle",14,a7,b3,45),true,null(),null());
+HXDLIN(2396)		 ::Dynamic _hx_tmp1;
+HXDLIN(2396)		if (xmlExists) {
+HXLINE(2396)			_hx_tmp1 = ::sys::io::File_obj::getContent(::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + path) + HX_(".xml",69,3e,c3,1e))));
+            		}
+            		else {
+HXLINE(2396)			_hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + path) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library);
+            		}
+HXDLIN(2396)		this->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp,_hx_tmp1));
+HXLINE(2397)		this->animation->addByPrefix(HX_("idle",14,a7,b3,45),HX_("Checkmark",b5,bc,2f,53),10,true,null(),null());
+HXLINE(2398)		this->animation->play(HX_("idle",14,a7,b3,45),true,null(),null());
             	}
 
 Dynamic CheckSprite_obj::__CreateEmpty() { return new CheckSprite_obj; }
@@ -138,18 +138,18 @@ bool CheckSprite_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void CheckSprite_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_a9be513903d60a44_2398_update)
-HXLINE(2399)		this->super::update(elapsed);
-HXLINE(2400)		bool _hx_tmp;
-HXDLIN(2400)		if (this->followPartner) {
-HXLINE(2400)			_hx_tmp = ::hx::IsNotNull( this->partner );
+            	HX_STACKFRAME(&_hx_pos_a9be513903d60a44_2402_update)
+HXLINE(2403)		this->super::update(elapsed);
+HXLINE(2404)		bool _hx_tmp;
+HXDLIN(2404)		if (this->followPartner) {
+HXLINE(2404)			_hx_tmp = ::hx::IsNotNull( this->partner );
             		}
             		else {
-HXLINE(2400)			_hx_tmp = false;
+HXLINE(2404)			_hx_tmp = false;
             		}
-HXDLIN(2400)		if (_hx_tmp) {
-HXLINE(2401)			this->set_x((this->partner->x + this->addX));
-HXLINE(2402)			this->set_y((this->partner->y + this->addY));
+HXDLIN(2404)		if (_hx_tmp) {
+HXLINE(2405)			this->set_x((this->partner->x + this->addX));
+HXLINE(2406)			this->set_y((this->partner->y + this->addY));
             		}
             	}
 

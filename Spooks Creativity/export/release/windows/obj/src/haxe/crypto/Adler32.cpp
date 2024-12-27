@@ -11,15 +11,15 @@
 #include <haxe/io/Input.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_e1b21919322297c7_32_new,"haxe.crypto.Adler32","new",0xc900c8e2,"haxe.crypto.Adler32.new","D:\\HaxeToolKit\\haxe\\std/haxe/crypto/Adler32.hx",32,0x94e5f0c6)
-HX_LOCAL_STACK_FRAME(_hx_pos_e1b21919322297c7_41_update,"haxe.crypto.Adler32","update",0xb4b14ac7,"haxe.crypto.Adler32.update","D:\\HaxeToolKit\\haxe\\std/haxe/crypto/Adler32.hx",41,0x94e5f0c6)
-HX_LOCAL_STACK_FRAME(_hx_pos_e1b21919322297c7_53_equals,"haxe.crypto.Adler32","equals",0xed9eb2fd,"haxe.crypto.Adler32.equals","D:\\HaxeToolKit\\haxe\\std/haxe/crypto/Adler32.hx",53,0x94e5f0c6)
-HX_LOCAL_STACK_FRAME(_hx_pos_e1b21919322297c7_60_read,"haxe.crypto.Adler32","read",0x1a53c494,"haxe.crypto.Adler32.read","D:\\HaxeToolKit\\haxe\\std/haxe/crypto/Adler32.hx",60,0x94e5f0c6)
+HX_DEFINE_STACK_FRAME(_hx_pos_34b82606d183bd93_32_new,"haxe.crypto.Adler32","new",0xc900c8e2,"haxe.crypto.Adler32.new","C:\\HaxeToolkit\\haxe\\std/haxe/crypto/Adler32.hx",32,0x51878987)
+HX_LOCAL_STACK_FRAME(_hx_pos_34b82606d183bd93_41_update,"haxe.crypto.Adler32","update",0xb4b14ac7,"haxe.crypto.Adler32.update","C:\\HaxeToolkit\\haxe\\std/haxe/crypto/Adler32.hx",41,0x51878987)
+HX_LOCAL_STACK_FRAME(_hx_pos_34b82606d183bd93_53_equals,"haxe.crypto.Adler32","equals",0xed9eb2fd,"haxe.crypto.Adler32.equals","C:\\HaxeToolkit\\haxe\\std/haxe/crypto/Adler32.hx",53,0x51878987)
+HX_LOCAL_STACK_FRAME(_hx_pos_34b82606d183bd93_60_read,"haxe.crypto.Adler32","read",0x1a53c494,"haxe.crypto.Adler32.read","C:\\HaxeToolkit\\haxe\\std/haxe/crypto/Adler32.hx",60,0x51878987)
 namespace haxe{
 namespace crypto{
 
 void Adler32_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_e1b21919322297c7_32_new)
+            	HX_STACKFRAME(&_hx_pos_34b82606d183bd93_32_new)
 HXLINE(  33)		this->a1 = 1;
 HXLINE(  34)		this->a2 = 0;
             	}
@@ -40,7 +40,7 @@ bool Adler32_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Adler32_obj::update( ::haxe::io::Bytes b,int pos,int len){
-            	HX_STACKFRAME(&_hx_pos_e1b21919322297c7_41_update)
+            	HX_STACKFRAME(&_hx_pos_34b82606d183bd93_41_update)
 HXLINE(  42)		int a1 = this->a1;
 HXDLIN(  42)		int a2 = this->a2;
 HXLINE(  43)		{
@@ -62,7 +62,7 @@ HXLINE(  49)		this->a2 = a2;
 HX_DEFINE_DYNAMIC_FUNC3(Adler32_obj,update,(void))
 
 bool Adler32_obj::equals( ::haxe::crypto::Adler32 a){
-            	HX_STACKFRAME(&_hx_pos_e1b21919322297c7_53_equals)
+            	HX_STACKFRAME(&_hx_pos_34b82606d183bd93_53_equals)
 HXDLIN(  53)		if ((a->a1 == this->a1)) {
 HXDLIN(  53)			return (a->a2 == this->a2);
             		}
@@ -76,7 +76,7 @@ HXDLIN(  53)		return false;
 HX_DEFINE_DYNAMIC_FUNC1(Adler32_obj,equals,return )
 
  ::haxe::crypto::Adler32 Adler32_obj::read( ::haxe::io::Input i){
-            	HX_GC_STACKFRAME(&_hx_pos_e1b21919322297c7_60_read)
+            	HX_GC_STACKFRAME(&_hx_pos_34b82606d183bd93_60_read)
 HXLINE(  61)		 ::haxe::crypto::Adler32 a =  ::haxe::crypto::Adler32_obj::__alloc( HX_CTX );
 HXLINE(  62)		int a2a = i->readByte();
 HXLINE(  63)		int a2b = i->readByte();

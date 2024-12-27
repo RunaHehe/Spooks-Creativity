@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_8d03011608364d4f_346_new,"__ASSET__flixel_flixel_ui_img_tooltip_arrow_png","new",0x5c8947b2,"__ASSET__flixel_flixel_ui_img_tooltip_arrow_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_d142bc2cb9aa3b40_1947_boot,"__ASSET__flixel_flixel_ui_img_tooltip_arrow_png","boot",0x93ae74a0,"__ASSET__flixel_flixel_ui_img_tooltip_arrow_png.boot","ManifestResources.hx",1947,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_d142bc2cb9aa3b40_1965_boot,"__ASSET__flixel_flixel_ui_img_tooltip_arrow_png","boot",0x93ae74a0,"__ASSET__flixel_flixel_ui_img_tooltip_arrow_png.boot","ManifestResources.hx",1965,0xf77aa668)
 
 void __ASSET__flixel_flixel_ui_img_tooltip_arrow_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_8d03011608364d4f_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_flixel_ui_img_tooltip_arrow_png_obj::__register()
 void __ASSET__flixel_flixel_ui_img_tooltip_arrow_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_d142bc2cb9aa3b40_1947_boot)
-HXDLIN(1947)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_tooltip_arrow_png",f2,65,b0,31);
+            	HX_STACKFRAME(&_hx_pos_d142bc2cb9aa3b40_1965_boot)
+HXDLIN(1965)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_tooltip_arrow_png",f2,65,b0,31);
             	}
 }
 

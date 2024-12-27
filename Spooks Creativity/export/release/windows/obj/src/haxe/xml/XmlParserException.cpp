@@ -8,13 +8,13 @@
 #include <haxe/xml/XmlParserException.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_3787474996ef60d0_75_new,"haxe.xml.XmlParserException","new",0xcd6fdfea,"haxe.xml.XmlParserException.new","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Parser.hx",75,0xae54f896)
-HX_LOCAL_STACK_FRAME(_hx_pos_3787474996ef60d0_95_toString,"haxe.xml.XmlParserException","toString",0xed7c2ce2,"haxe.xml.XmlParserException.toString","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Parser.hx",95,0xae54f896)
+HX_DEFINE_STACK_FRAME(_hx_pos_bc1e3a125215c6c2_75_new,"haxe.xml.XmlParserException","new",0xcd6fdfea,"haxe.xml.XmlParserException.new","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Parser.hx",75,0xbc28dcd7)
+HX_LOCAL_STACK_FRAME(_hx_pos_bc1e3a125215c6c2_95_toString,"haxe.xml.XmlParserException","toString",0xed7c2ce2,"haxe.xml.XmlParserException.toString","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Parser.hx",95,0xbc28dcd7)
 namespace haxe{
 namespace xml{
 
 void XmlParserException_obj::__construct(::String message,::String xml,int position){
-            	HX_STACKFRAME(&_hx_pos_3787474996ef60d0_75_new)
+            	HX_STACKFRAME(&_hx_pos_bc1e3a125215c6c2_75_new)
 HXLINE(  76)		this->xml = xml;
 HXLINE(  77)		this->message = message;
 HXLINE(  78)		this->position = position;
@@ -56,7 +56,7 @@ bool XmlParserException_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String XmlParserException_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_3787474996ef60d0_95_toString)
+            	HX_STACKFRAME(&_hx_pos_bc1e3a125215c6c2_95_toString)
 HXDLIN(  95)		::String _hx_tmp = (::Type_obj::getClassName(::Type_obj::getClass(::hx::ObjectPtr<OBJ_>(this))) + HX_(": ",a6,32,00,00));
 HXDLIN(  95)		return (((((_hx_tmp + this->message) + HX_(" at line ",df,96,71,22)) + this->lineNumber) + HX_(" char ",6a,28,1f,11)) + this->positionAtLine);
             	}

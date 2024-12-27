@@ -5,14 +5,14 @@
 #include <haxe/_Unserializer/NullResolver.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_7a4930425254cc89_522_new,"haxe._Unserializer.NullResolver","new",0x49a2304b,"haxe._Unserializer.NullResolver.new","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",522,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_7a4930425254cc89_525_resolveClass,"haxe._Unserializer.NullResolver","resolveClass",0xc4a78861,"haxe._Unserializer.NullResolver.resolveClass","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",525,0xeaf3b602)
-HX_LOCAL_STACK_FRAME(_hx_pos_7a4930425254cc89_528_resolveEnum,"haxe._Unserializer.NullResolver","resolveEnum",0x5f3252f8,"haxe._Unserializer.NullResolver.resolveEnum","D:\\HaxeToolKit\\haxe\\std/haxe/Unserializer.hx",528,0xeaf3b602)
+HX_DEFINE_STACK_FRAME(_hx_pos_f44547bc8ed35520_522_new,"haxe._Unserializer.NullResolver","new",0x49a2304b,"haxe._Unserializer.NullResolver.new","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",522,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f44547bc8ed35520_525_resolveClass,"haxe._Unserializer.NullResolver","resolveClass",0xc4a78861,"haxe._Unserializer.NullResolver.resolveClass","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",525,0x00b9ec83)
+HX_LOCAL_STACK_FRAME(_hx_pos_f44547bc8ed35520_528_resolveEnum,"haxe._Unserializer.NullResolver","resolveEnum",0x5f3252f8,"haxe._Unserializer.NullResolver.resolveEnum","C:\\HaxeToolkit\\haxe\\std/haxe/Unserializer.hx",528,0x00b9ec83)
 namespace haxe{
 namespace _Unserializer{
 
 void NullResolver_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_7a4930425254cc89_522_new)
+            	HX_STACKFRAME(&_hx_pos_f44547bc8ed35520_522_new)
             	}
 
 Dynamic NullResolver_obj::__CreateEmpty() { return new NullResolver_obj; }
@@ -31,7 +31,7 @@ bool NullResolver_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::hx::Class NullResolver_obj::resolveClass(::String name){
-            	HX_STACKFRAME(&_hx_pos_7a4930425254cc89_525_resolveClass)
+            	HX_STACKFRAME(&_hx_pos_f44547bc8ed35520_525_resolveClass)
 HXDLIN( 525)		return null();
             	}
 
@@ -39,7 +39,7 @@ HXDLIN( 525)		return null();
 HX_DEFINE_DYNAMIC_FUNC1(NullResolver_obj,resolveClass,return )
 
 ::hx::Class NullResolver_obj::resolveEnum(::String name){
-            	HX_STACKFRAME(&_hx_pos_7a4930425254cc89_528_resolveEnum)
+            	HX_STACKFRAME(&_hx_pos_f44547bc8ed35520_528_resolveEnum)
 HXDLIN( 528)		return null();
             	}
 

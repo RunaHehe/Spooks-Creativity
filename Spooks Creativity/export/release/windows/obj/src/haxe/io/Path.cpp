@@ -14,13 +14,13 @@
 #include <haxe/io/Path.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_c401f28b0884e4ec_76_new,"haxe.io.Path","new",0x1b96d677,"haxe.io.Path.new","D:\\HaxeToolKit\\haxe\\std/haxe/io/Path.hx",76,0x56134961)
-HX_LOCAL_STACK_FRAME(_hx_pos_c401f28b0884e4ec_115_toString,"haxe.io.Path","toString",0xc0ab5735,"haxe.io.Path.toString","D:\\HaxeToolKit\\haxe\\std/haxe/io/Path.hx",115,0x56134961)
-HX_LOCAL_STACK_FRAME(_hx_pos_c401f28b0884e4ec_134_withoutDirectory,"haxe.io.Path","withoutDirectory",0xdf35ce8e,"haxe.io.Path.withoutDirectory","D:\\HaxeToolKit\\haxe\\std/haxe/io/Path.hx",134,0x56134961)
-HX_LOCAL_STACK_FRAME(_hx_pos_c401f28b0884e4ec_147_directory,"haxe.io.Path","directory",0xbcfe23c4,"haxe.io.Path.directory","D:\\HaxeToolKit\\haxe\\std/haxe/io/Path.hx",147,0x56134961)
-HX_LOCAL_STACK_FRAME(_hx_pos_c401f28b0884e4ec_161_extension,"haxe.io.Path","extension",0x91c9c4d6,"haxe.io.Path.extension","D:\\HaxeToolKit\\haxe\\std/haxe/io/Path.hx",161,0x56134961)
-HX_LOCAL_STACK_FRAME(_hx_pos_c401f28b0884e4ec_189_join,"haxe.io.Path","join",0x05c781f3,"haxe.io.Path.join","D:\\HaxeToolKit\\haxe\\std/haxe/io/Path.hx",189,0x56134961)
-HX_LOCAL_STACK_FRAME(_hx_pos_c401f28b0884e4ec_210_normalize,"haxe.io.Path","normalize",0x585a68e4,"haxe.io.Path.normalize","D:\\HaxeToolKit\\haxe\\std/haxe/io/Path.hx",210,0x56134961)
+HX_DEFINE_STACK_FRAME(_hx_pos_c76bafa893b9a603_76_new,"haxe.io.Path","new",0x1b96d677,"haxe.io.Path.new","C:\\HaxeToolkit\\haxe\\std/haxe/io/Path.hx",76,0x4f1aa280)
+HX_LOCAL_STACK_FRAME(_hx_pos_c76bafa893b9a603_115_toString,"haxe.io.Path","toString",0xc0ab5735,"haxe.io.Path.toString","C:\\HaxeToolkit\\haxe\\std/haxe/io/Path.hx",115,0x4f1aa280)
+HX_LOCAL_STACK_FRAME(_hx_pos_c76bafa893b9a603_134_withoutDirectory,"haxe.io.Path","withoutDirectory",0xdf35ce8e,"haxe.io.Path.withoutDirectory","C:\\HaxeToolkit\\haxe\\std/haxe/io/Path.hx",134,0x4f1aa280)
+HX_LOCAL_STACK_FRAME(_hx_pos_c76bafa893b9a603_147_directory,"haxe.io.Path","directory",0xbcfe23c4,"haxe.io.Path.directory","C:\\HaxeToolkit\\haxe\\std/haxe/io/Path.hx",147,0x4f1aa280)
+HX_LOCAL_STACK_FRAME(_hx_pos_c76bafa893b9a603_161_extension,"haxe.io.Path","extension",0x91c9c4d6,"haxe.io.Path.extension","C:\\HaxeToolkit\\haxe\\std/haxe/io/Path.hx",161,0x4f1aa280)
+HX_LOCAL_STACK_FRAME(_hx_pos_c76bafa893b9a603_189_join,"haxe.io.Path","join",0x05c781f3,"haxe.io.Path.join","C:\\HaxeToolkit\\haxe\\std/haxe/io/Path.hx",189,0x4f1aa280)
+HX_LOCAL_STACK_FRAME(_hx_pos_c76bafa893b9a603_210_normalize,"haxe.io.Path","normalize",0x585a68e4,"haxe.io.Path.normalize","C:\\HaxeToolkit\\haxe\\std/haxe/io/Path.hx",210,0x4f1aa280)
 static const ::String _hx_array_data_4ec6cf05_12[] = {
 	HX_("/",2f,00,00,00),
 };
@@ -30,14 +30,14 @@ static const ::String _hx_array_data_4ec6cf05_13[] = {
 static const ::String _hx_array_data_4ec6cf05_14[] = {
 	HX_("/",2f,00,00,00),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_c401f28b0884e4ec_271_addTrailingSlash,"haxe.io.Path","addTrailingSlash",0x8b4f8e69,"haxe.io.Path.addTrailingSlash","D:\\HaxeToolKit\\haxe\\std/haxe/io/Path.hx",271,0x56134961)
-HX_LOCAL_STACK_FRAME(_hx_pos_c401f28b0884e4ec_299_removeTrailingSlashes,"haxe.io.Path","removeTrailingSlashes",0x2dc73462,"haxe.io.Path.removeTrailingSlashes","D:\\HaxeToolKit\\haxe\\std/haxe/io/Path.hx",299,0x56134961)
-HX_LOCAL_STACK_FRAME(_hx_pos_c401f28b0884e4ec_314_isAbsolute,"haxe.io.Path","isAbsolute",0xb396db4a,"haxe.io.Path.isAbsolute","D:\\HaxeToolKit\\haxe\\std/haxe/io/Path.hx",314,0x56134961)
+HX_LOCAL_STACK_FRAME(_hx_pos_c76bafa893b9a603_271_addTrailingSlash,"haxe.io.Path","addTrailingSlash",0x8b4f8e69,"haxe.io.Path.addTrailingSlash","C:\\HaxeToolkit\\haxe\\std/haxe/io/Path.hx",271,0x4f1aa280)
+HX_LOCAL_STACK_FRAME(_hx_pos_c76bafa893b9a603_299_removeTrailingSlashes,"haxe.io.Path","removeTrailingSlashes",0x2dc73462,"haxe.io.Path.removeTrailingSlashes","C:\\HaxeToolkit\\haxe\\std/haxe/io/Path.hx",299,0x4f1aa280)
+HX_LOCAL_STACK_FRAME(_hx_pos_c76bafa893b9a603_314_isAbsolute,"haxe.io.Path","isAbsolute",0xb396db4a,"haxe.io.Path.isAbsolute","C:\\HaxeToolkit\\haxe\\std/haxe/io/Path.hx",314,0x4f1aa280)
 namespace haxe{
 namespace io{
 
 void Path_obj::__construct(::String path){
-            	HX_STACKFRAME(&_hx_pos_c401f28b0884e4ec_76_new)
+            	HX_STACKFRAME(&_hx_pos_c76bafa893b9a603_76_new)
 HXLINE(  77)		::String _hx_switch_0 = path;
             		if (  (_hx_switch_0==HX_(".",2e,00,00,00)) ||  (_hx_switch_0==HX_("..",40,28,00,00)) ){
 HXLINE(  79)			this->dir = path;
@@ -89,7 +89,7 @@ bool Path_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String Path_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_c401f28b0884e4ec_115_toString)
+            	HX_STACKFRAME(&_hx_pos_c76bafa893b9a603_115_toString)
 HXDLIN( 115)		::String _hx_tmp;
 HXDLIN( 115)		if (::hx::IsNull( this->dir )) {
 HXDLIN( 115)			_hx_tmp = HX_("",00,00,00,00);
@@ -118,7 +118,7 @@ HXDLIN( 115)		return ((_hx_tmp + this->file) + _hx_tmp2);
 HX_DEFINE_DYNAMIC_FUNC0(Path_obj,toString,return )
 
 ::String Path_obj::withoutDirectory(::String path){
-            	HX_GC_STACKFRAME(&_hx_pos_c401f28b0884e4ec_134_withoutDirectory)
+            	HX_GC_STACKFRAME(&_hx_pos_c76bafa893b9a603_134_withoutDirectory)
 HXLINE( 135)		 ::haxe::io::Path s =  ::haxe::io::Path_obj::__alloc( HX_CTX ,path);
 HXLINE( 136)		s->dir = null();
 HXLINE( 137)		return s->toString();
@@ -128,7 +128,7 @@ HXLINE( 137)		return s->toString();
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Path_obj,withoutDirectory,return )
 
 ::String Path_obj::directory(::String path){
-            	HX_GC_STACKFRAME(&_hx_pos_c401f28b0884e4ec_147_directory)
+            	HX_GC_STACKFRAME(&_hx_pos_c76bafa893b9a603_147_directory)
 HXLINE( 148)		 ::haxe::io::Path s =  ::haxe::io::Path_obj::__alloc( HX_CTX ,path);
 HXLINE( 149)		if (::hx::IsNull( s->dir )) {
 HXLINE( 150)			return HX_("",00,00,00,00);
@@ -140,7 +140,7 @@ HXLINE( 151)		return s->dir;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Path_obj,directory,return )
 
 ::String Path_obj::extension(::String path){
-            	HX_GC_STACKFRAME(&_hx_pos_c401f28b0884e4ec_161_extension)
+            	HX_GC_STACKFRAME(&_hx_pos_c76bafa893b9a603_161_extension)
 HXLINE( 162)		 ::haxe::io::Path s =  ::haxe::io::Path_obj::__alloc( HX_CTX ,path);
 HXLINE( 163)		if (::hx::IsNull( s->ext )) {
 HXLINE( 164)			return HX_("",00,00,00,00);
@@ -152,7 +152,7 @@ HXLINE( 165)		return s->ext;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Path_obj,extension,return )
 
 ::String Path_obj::join(::Array< ::String > paths){
-            	HX_STACKFRAME(&_hx_pos_c401f28b0884e4ec_189_join)
+            	HX_STACKFRAME(&_hx_pos_c76bafa893b9a603_189_join)
 HXLINE( 190)		::Array< ::String > _g = ::Array_obj< ::String >::__new(0);
 HXDLIN( 190)		{
 HXLINE( 190)			int _g1 = 0;
@@ -194,7 +194,7 @@ HXLINE( 199)		return ::haxe::io::Path_obj::normalize(path);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Path_obj,join,return )
 
 ::String Path_obj::normalize(::String path){
-            	HX_GC_STACKFRAME(&_hx_pos_c401f28b0884e4ec_210_normalize)
+            	HX_GC_STACKFRAME(&_hx_pos_c76bafa893b9a603_210_normalize)
 HXLINE( 211)		::String slash = HX_("/",2f,00,00,00);
 HXLINE( 212)		path = path.split(HX_("\\",5c,00,00,00))->join(slash);
 HXLINE( 213)		if ((path == slash)) {
@@ -382,7 +382,7 @@ HXLINE( 256)		return acc->toString();
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Path_obj,normalize,return )
 
 ::String Path_obj::addTrailingSlash(::String path){
-            	HX_STACKFRAME(&_hx_pos_c401f28b0884e4ec_271_addTrailingSlash)
+            	HX_STACKFRAME(&_hx_pos_c76bafa893b9a603_271_addTrailingSlash)
 HXLINE( 272)		if ((path.length == 0)) {
 HXLINE( 273)			return HX_("/",2f,00,00,00);
             		}
@@ -411,7 +411,7 @@ HXLINE( 276)		return null();
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Path_obj,addTrailingSlash,return )
 
 ::String Path_obj::removeTrailingSlashes(::String path){
-            	HX_STACKFRAME(&_hx_pos_c401f28b0884e4ec_299_removeTrailingSlashes)
+            	HX_STACKFRAME(&_hx_pos_c76bafa893b9a603_299_removeTrailingSlashes)
 HXLINE( 300)		while(true){
 HXLINE( 301)			 ::Dynamic _g = path.charCodeAt((path.length - 1));
 HXDLIN( 301)			if (::hx::IsNull( _g )) {
@@ -437,7 +437,7 @@ HXLINE( 308)		return path;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Path_obj,removeTrailingSlashes,return )
 
 bool Path_obj::isAbsolute(::String path){
-            	HX_STACKFRAME(&_hx_pos_c401f28b0884e4ec_314_isAbsolute)
+            	HX_STACKFRAME(&_hx_pos_c76bafa893b9a603_314_isAbsolute)
 HXLINE( 315)		if (::StringTools_obj::startsWith(path,HX_("/",2f,00,00,00))) {
 HXLINE( 316)			return true;
             		}

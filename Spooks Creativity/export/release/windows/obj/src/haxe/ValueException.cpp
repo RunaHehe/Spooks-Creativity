@@ -11,11 +11,11 @@
 #include <haxe/ValueException.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_e28409595a68747a_23_new,"haxe.ValueException","new",0xb19045f8,"haxe.ValueException.new","D:\\HaxeToolKit\\haxe\\std/haxe/ValueException.hx",23,0x9c88bd2f)
+HX_DEFINE_STACK_FRAME(_hx_pos_9359336388ad57a6_23_new,"haxe.ValueException","new",0xb19045f8,"haxe.ValueException.new","C:\\HaxeToolkit\\haxe\\std/haxe/ValueException.hx",23,0x592a55f0)
 namespace haxe{
 
 void ValueException_obj::__construct( ::Dynamic value, ::haxe::Exception previous, ::Dynamic native){
-            	HX_STACKFRAME(&_hx_pos_e28409595a68747a_23_new)
+            	HX_STACKFRAME(&_hx_pos_9359336388ad57a6_23_new)
 HXLINE(  24)		::String _hx_tmp;
 HXDLIN(  24)		if (::hx::IsNull( value )) {
 HXLINE(  24)			_hx_tmp = HX_("null",87,9e,0e,49);

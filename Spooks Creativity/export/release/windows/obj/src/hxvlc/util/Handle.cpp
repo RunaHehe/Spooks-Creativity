@@ -35,18 +35,18 @@
 #include <sys/thread/Mutex.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_118_init,"hxvlc.util.Handle","init",0x67b58f3b,"hxvlc.util.Handle.init","hxvlc/util/Handle.hx",118,0x9550d61b)
-HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_138_initAsync,"hxvlc.util.Handle","initAsync",0xe13dca01,"hxvlc.util.Handle.initAsync","hxvlc/util/Handle.hx",138,0x9550d61b)
-HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_133_initAsync,"hxvlc.util.Handle","initAsync",0xe13dca01,"hxvlc.util.Handle.initAsync","hxvlc/util/Handle.hx",133,0x9550d61b)
-HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_128_initAsync,"hxvlc.util.Handle","initAsync",0xe13dca01,"hxvlc.util.Handle.initAsync","hxvlc/util/Handle.hx",128,0x9550d61b)
-HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_148_dispose,"hxvlc.util.Handle","dispose",0x33ead954,"hxvlc.util.Handle.dispose","hxvlc/util/Handle.hx",148,0x9550d61b)
-HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_170_initWithRetry,"hxvlc.util.Handle","initWithRetry",0x70538cc7,"hxvlc.util.Handle.initWithRetry","hxvlc/util/Handle.hx",170,0x9550d61b)
-HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_396_get_version,"hxvlc.util.Handle","get_version",0x9d1d9e64,"hxvlc.util.Handle.get_version","hxvlc/util/Handle.hx",396,0x9550d61b)
-HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_402_get_compiler,"hxvlc.util.Handle","get_compiler",0x83e64ad3,"hxvlc.util.Handle.get_compiler","hxvlc/util/Handle.hx",402,0x9550d61b)
-HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_408_get_changeset,"hxvlc.util.Handle","get_changeset",0x6a1eb27e,"hxvlc.util.Handle.get_changeset","hxvlc/util/Handle.hx",408,0x9550d61b)
-HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_414_get_clock,"hxvlc.util.Handle","get_clock",0x2b7a161a,"hxvlc.util.Handle.get_clock","hxvlc/util/Handle.hx",414,0x9550d61b)
-HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_67_boot,"hxvlc.util.Handle","boot",0x6315d85d,"hxvlc.util.Handle.boot","hxvlc/util/Handle.hx",67,0x9550d61b)
-HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_104_boot,"hxvlc.util.Handle","boot",0x6315d85d,"hxvlc.util.Handle.boot","hxvlc/util/Handle.hx",104,0x9550d61b)
+HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_117_init,"hxvlc.util.Handle","init",0x67b58f3b,"hxvlc.util.Handle.init","hxvlc/util/Handle.hx",117,0x9550d61b)
+HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_137_initAsync,"hxvlc.util.Handle","initAsync",0xe13dca01,"hxvlc.util.Handle.initAsync","hxvlc/util/Handle.hx",137,0x9550d61b)
+HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_132_initAsync,"hxvlc.util.Handle","initAsync",0xe13dca01,"hxvlc.util.Handle.initAsync","hxvlc/util/Handle.hx",132,0x9550d61b)
+HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_127_initAsync,"hxvlc.util.Handle","initAsync",0xe13dca01,"hxvlc.util.Handle.initAsync","hxvlc/util/Handle.hx",127,0x9550d61b)
+HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_147_dispose,"hxvlc.util.Handle","dispose",0x33ead954,"hxvlc.util.Handle.dispose","hxvlc/util/Handle.hx",147,0x9550d61b)
+HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_169_initWithRetry,"hxvlc.util.Handle","initWithRetry",0x70538cc7,"hxvlc.util.Handle.initWithRetry","hxvlc/util/Handle.hx",169,0x9550d61b)
+HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_395_get_version,"hxvlc.util.Handle","get_version",0x9d1d9e64,"hxvlc.util.Handle.get_version","hxvlc/util/Handle.hx",395,0x9550d61b)
+HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_401_get_compiler,"hxvlc.util.Handle","get_compiler",0x83e64ad3,"hxvlc.util.Handle.get_compiler","hxvlc/util/Handle.hx",401,0x9550d61b)
+HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_407_get_changeset,"hxvlc.util.Handle","get_changeset",0x6a1eb27e,"hxvlc.util.Handle.get_changeset","hxvlc/util/Handle.hx",407,0x9550d61b)
+HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_413_get_clock,"hxvlc.util.Handle","get_clock",0x2b7a161a,"hxvlc.util.Handle.get_clock","hxvlc/util/Handle.hx",413,0x9550d61b)
+HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_66_boot,"hxvlc.util.Handle","boot",0x6315d85d,"hxvlc.util.Handle.boot","hxvlc/util/Handle.hx",66,0x9550d61b)
+HX_LOCAL_STACK_FRAME(_hx_pos_989d3d43f5b59b8c_103_boot,"hxvlc.util.Handle","boot",0x6315d85d,"hxvlc.util.Handle.boot","hxvlc/util/Handle.hx",103,0x9550d61b)
 namespace hxvlc{
 namespace util{
 
@@ -106,8 +106,8 @@ bool Handle_obj::loading;
  cpp::Pointer<FILE> Handle_obj::logFile;
 
 bool Handle_obj::init(::Array< ::String > options){
-            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_118_init)
-HXDLIN( 118)		return ::hxvlc::util::Handle_obj::initWithRetry(options,false);
+            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_117_init)
+HXDLIN( 117)		return ::hxvlc::util::Handle_obj::initWithRetry(options,false);
             	}
 
 
@@ -118,37 +118,37 @@ void Handle_obj::initAsync(::Array< ::String > options, ::Dynamic finishCallback
             		void _hx_run(){
             			HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0,bool,success, ::Dynamic,finishCallback) HXARGC(0)
             			void _hx_run(){
-            				HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_138_initAsync)
-HXLINE( 138)				if (::hx::IsNotNull( finishCallback )) {
-HXLINE( 139)					finishCallback(success);
+            				HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_137_initAsync)
+HXLINE( 137)				if (::hx::IsNotNull( finishCallback )) {
+HXLINE( 138)					finishCallback(success);
             				}
             			}
             			HX_END_LOCAL_FUNC0((void))
 
-            			HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_133_initAsync)
-HXLINE( 134)			bool success = ::hxvlc::util::Handle_obj::initWithRetry(options,false);
-HXLINE( 136)			::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_0(success,finishCallback)));
+            			HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_132_initAsync)
+HXLINE( 133)			bool success = ::hxvlc::util::Handle_obj::initWithRetry(options,false);
+HXLINE( 135)			::haxe::MainLoop_obj::runInMainThread( ::Dynamic(new _hx_Closure_0(success,finishCallback)));
             		}
             		HX_END_LOCAL_FUNC0((void))
 
-            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_128_initAsync)
-HXLINE( 129)		if (::hxvlc::util::Handle_obj::loading) {
-HXLINE( 130)			return;
+            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_127_initAsync)
+HXLINE( 128)		if (::hxvlc::util::Handle_obj::loading) {
+HXLINE( 129)			return;
             		}
-HXLINE( 132)		::haxe::MainLoop_obj::addThread( ::Dynamic(new _hx_Closure_1(options,finishCallback)));
+HXLINE( 131)		::haxe::MainLoop_obj::addThread( ::Dynamic(new _hx_Closure_1(options,finishCallback)));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Handle_obj,initAsync,(void))
 
 void Handle_obj::dispose(){
-            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_148_dispose)
-HXLINE( 149)		::hxvlc::util::Handle_obj::instanceMutex->acquire();
-HXLINE( 151)		if (::hx::IsNotNull( ::hxvlc::util::Handle_obj::instance )) {
-HXLINE( 153)			libvlc_release(::hxvlc::util::Handle_obj::instance);
-HXLINE( 154)			::hxvlc::util::Handle_obj::instance = null();
+            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_147_dispose)
+HXLINE( 148)		::hxvlc::util::Handle_obj::instanceMutex->acquire();
+HXLINE( 150)		if (::hx::IsNotNull( ::hxvlc::util::Handle_obj::instance )) {
+HXLINE( 152)			libvlc_release(::hxvlc::util::Handle_obj::instance);
+HXLINE( 153)			::hxvlc::util::Handle_obj::instance = null();
             		}
-HXLINE( 165)		::hxvlc::util::Handle_obj::instanceMutex->release();
+HXLINE( 164)		::hxvlc::util::Handle_obj::instanceMutex->release();
             	}
 
 
@@ -157,126 +157,126 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC0(Handle_obj,dispose,(void))
 bool Handle_obj::initWithRetry(::Array< ::String > options, ::Dynamic __o_resetCache){
             		 ::Dynamic resetCache = __o_resetCache;
             		if (::hx::IsNull(__o_resetCache)) resetCache = false;
-            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_170_initWithRetry)
-HXLINE( 171)		::hxvlc::util::Handle_obj::instanceMutex->acquire();
-HXLINE( 173)		if (::hxvlc::util::Handle_obj::loading) {
-HXLINE( 175)			::hxvlc::util::Handle_obj::instanceMutex->release();
-HXLINE( 177)			return false;
+            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_169_initWithRetry)
+HXLINE( 170)		::hxvlc::util::Handle_obj::instanceMutex->acquire();
+HXLINE( 172)		if (::hxvlc::util::Handle_obj::loading) {
+HXLINE( 174)			::hxvlc::util::Handle_obj::instanceMutex->release();
+HXLINE( 176)			return false;
             		}
-HXLINE( 180)		::hxvlc::util::Handle_obj::loading = true;
-HXLINE( 182)		if (::hx::IsNull( ::hxvlc::util::Handle_obj::instance )) {
-HXLINE( 227)			::String pluginPath = ::haxe::io::Path_obj::join(::Array_obj< ::String >::__new(2)->init(0,::haxe::io::Path_obj::directory(::Sys_obj::programPath()))->init(1,HX_("plugins",60,d2,35,02)));
-HXLINE( 229)			if (::sys::FileSystem_obj::exists(pluginPath)) {
-HXLINE( 230)				::Sys_obj::putEnv(HX_("VLC_PLUGIN_PATH",bf,5b,c2,b5),pluginPath);
+HXLINE( 179)		::hxvlc::util::Handle_obj::loading = true;
+HXLINE( 181)		if (::hx::IsNull( ::hxvlc::util::Handle_obj::instance )) {
+HXLINE( 226)			::String pluginPath = ::haxe::io::Path_obj::join(::Array_obj< ::String >::__new(2)->init(0,::haxe::io::Path_obj::directory(::Sys_obj::programPath()))->init(1,HX_("plugins",60,d2,35,02)));
+HXLINE( 228)			if (::sys::FileSystem_obj::exists(pluginPath)) {
+HXLINE( 229)				::Sys_obj::putEnv(HX_("VLC_PLUGIN_PATH",bf,5b,c2,b5),pluginPath);
             			}
-HXLINE( 233)			 std::vector< const char* > args =  std::vector< const char* >();
-HXLINE( 236)			args.push_back(HX_("--aout=directsound",96,05,a8,3e).utf8_str());
-HXLINE( 243)			args.push_back(HX_("--drop-late-frames",2f,44,71,3f).utf8_str());
-HXLINE( 244)			args.push_back(HX_("--ignore-config",7d,60,07,d0).utf8_str());
-HXLINE( 245)			args.push_back(HX_("--intf=none",1e,1a,7d,95).utf8_str());
-HXLINE( 246)			args.push_back(HX_("--http-reconnect",b2,bb,60,74).utf8_str());
-HXLINE( 247)			args.push_back(HX_("--no-interact",22,65,34,ce).utf8_str());
-HXLINE( 248)			args.push_back(HX_("--no-keyboard-events",53,d1,7b,b5).utf8_str());
-HXLINE( 249)			args.push_back(HX_("--no-mouse-events",ed,56,73,b2).utf8_str());
-HXLINE( 255)			args.push_back(HX_("--no-snapshot-preview",2b,11,06,ce).utf8_str());
-HXLINE( 256)			args.push_back(HX_("--no-spu",4c,43,f6,5f).utf8_str());
-HXLINE( 257)			args.push_back(HX_("--no-sub-autodetect-file",de,6e,ed,0a).utf8_str());
-HXLINE( 258)			args.push_back(HX_("--no-video-title-show",50,aa,da,3d).utf8_str());
-HXLINE( 259)			args.push_back(HX_("--no-volume-save",e4,57,03,dc).utf8_str());
-HXLINE( 260)			args.push_back(HX_("--no-xlib",39,9d,cf,9a).utf8_str());
-HXLINE( 263)			bool _hx_tmp;
-HXDLIN( 263)			if (::hx::IsEq( resetCache,false )) {
-HXLINE( 263)				_hx_tmp = ::sys::FileSystem_obj::exists(::haxe::io::Path_obj::join(::Array_obj< ::String >::__new(2)->init(0,pluginPath)->init(1,HX_("plugins.dat",49,89,b2,4b))));
-            			}
-            			else {
-HXLINE( 263)				_hx_tmp = false;
-            			}
-HXDLIN( 263)			if (_hx_tmp) {
-HXLINE( 264)				args.push_back(HX_("--no-plugins-scan",36,a9,79,1f).utf8_str());
+HXLINE( 232)			 std::vector< const char* > args =  std::vector< const char* >();
+HXLINE( 235)			args.push_back(HX_("--aout=directsound",96,05,a8,3e).utf8_str());
+HXLINE( 242)			args.push_back(HX_("--drop-late-frames",2f,44,71,3f).utf8_str());
+HXLINE( 243)			args.push_back(HX_("--ignore-config",7d,60,07,d0).utf8_str());
+HXLINE( 244)			args.push_back(HX_("--intf=none",1e,1a,7d,95).utf8_str());
+HXLINE( 245)			args.push_back(HX_("--http-reconnect",b2,bb,60,74).utf8_str());
+HXLINE( 246)			args.push_back(HX_("--no-interact",22,65,34,ce).utf8_str());
+HXLINE( 247)			args.push_back(HX_("--no-keyboard-events",53,d1,7b,b5).utf8_str());
+HXLINE( 248)			args.push_back(HX_("--no-mouse-events",ed,56,73,b2).utf8_str());
+HXLINE( 254)			args.push_back(HX_("--no-snapshot-preview",2b,11,06,ce).utf8_str());
+HXLINE( 255)			args.push_back(HX_("--no-spu",4c,43,f6,5f).utf8_str());
+HXLINE( 256)			args.push_back(HX_("--no-sub-autodetect-file",de,6e,ed,0a).utf8_str());
+HXLINE( 257)			args.push_back(HX_("--no-video-title-show",50,aa,da,3d).utf8_str());
+HXLINE( 258)			args.push_back(HX_("--no-volume-save",e4,57,03,dc).utf8_str());
+HXLINE( 259)			args.push_back(HX_("--no-xlib",39,9d,cf,9a).utf8_str());
+HXLINE( 262)			bool _hx_tmp;
+HXDLIN( 262)			if (::hx::IsEq( resetCache,false )) {
+HXLINE( 262)				_hx_tmp = ::sys::FileSystem_obj::exists(::haxe::io::Path_obj::join(::Array_obj< ::String >::__new(2)->init(0,pluginPath)->init(1,HX_("plugins.dat",49,89,b2,4b))));
             			}
             			else {
-HXLINE( 266)				args.push_back(HX_("--reset-plugins-cache",b7,83,a5,ea).utf8_str());
+HXLINE( 262)				_hx_tmp = false;
             			}
-HXLINE( 269)			args.push_back(HX_("--text-renderer=none",d2,a5,45,8f).utf8_str());
-HXLINE( 274)			args.push_back(HX_("--quiet",54,a5,42,ab).utf8_str());
-HXLINE( 277)			if (::hx::IsNotNull( options )) {
-HXLINE( 279)				int _g = 0;
-HXDLIN( 279)				while((_g < options->length)){
-HXLINE( 279)					::String option = options->__get(_g);
-HXDLIN( 279)					_g = (_g + 1);
-HXLINE( 281)					bool _hx_tmp1;
-HXDLIN( 281)					if (::hx::IsNotNull( option )) {
-HXLINE( 281)						_hx_tmp1 = (option.length > 0);
+HXDLIN( 262)			if (_hx_tmp) {
+HXLINE( 263)				args.push_back(HX_("--no-plugins-scan",36,a9,79,1f).utf8_str());
+            			}
+            			else {
+HXLINE( 265)				args.push_back(HX_("--reset-plugins-cache",b7,83,a5,ea).utf8_str());
+            			}
+HXLINE( 268)			args.push_back(HX_("--text-renderer=none",d2,a5,45,8f).utf8_str());
+HXLINE( 273)			args.push_back(HX_("--quiet",54,a5,42,ab).utf8_str());
+HXLINE( 276)			if (::hx::IsNotNull( options )) {
+HXLINE( 278)				int _g = 0;
+HXDLIN( 278)				while((_g < options->length)){
+HXLINE( 278)					::String option = options->__get(_g);
+HXDLIN( 278)					_g = (_g + 1);
+HXLINE( 280)					bool _hx_tmp1;
+HXDLIN( 280)					if (::hx::IsNotNull( option )) {
+HXLINE( 280)						_hx_tmp1 = (option.length > 0);
             					}
             					else {
-HXLINE( 281)						_hx_tmp1 = false;
+HXLINE( 280)						_hx_tmp1 = false;
             					}
-HXDLIN( 281)					if (_hx_tmp1) {
-HXLINE( 282)						args.push_back(option.utf8_str());
+HXDLIN( 280)					if (_hx_tmp1) {
+HXLINE( 281)						args.push_back(option.utf8_str());
             					}
             				}
             			}
-HXLINE( 286)			int _hx_tmp2 = args.size();
-HXDLIN( 286)			::hxvlc::util::Handle_obj::instance = libvlc_new(_hx_tmp2,args.data());
-HXLINE( 288)			if (::hx::IsNull( ::hxvlc::util::Handle_obj::instance )) {
-HXLINE( 290)				::hxvlc::util::Handle_obj::loading = false;
-HXLINE( 292)				::hxvlc::util::Handle_obj::instanceMutex->release();
-HXLINE( 295)				if (::hx::IsEq( resetCache,false )) {
-HXLINE( 297)					::lime::utils::Log_obj::warn(HX_("Failed to initialize the LibVLC instance, resetting plugins's cache",27,d3,4c,24),::hx::SourceInfo(HX_("hxvlc/util/Handle.hx",1b,d6,50,95),297,HX_("hxvlc.util.Handle",23,7c,b0,3b),HX_("initWithRetry",52,3e,b6,e5)));
-HXLINE( 299)					return ::hxvlc::util::Handle_obj::initWithRetry(options,true);
+HXLINE( 285)			int _hx_tmp2 = args.size();
+HXDLIN( 285)			::hxvlc::util::Handle_obj::instance = libvlc_new(_hx_tmp2,args.data());
+HXLINE( 287)			if (::hx::IsNull( ::hxvlc::util::Handle_obj::instance )) {
+HXLINE( 289)				::hxvlc::util::Handle_obj::loading = false;
+HXLINE( 291)				::hxvlc::util::Handle_obj::instanceMutex->release();
+HXLINE( 294)				if (::hx::IsEq( resetCache,false )) {
+HXLINE( 296)					::lime::utils::Log_obj::warn(HX_("Failed to initialize the LibVLC instance, resetting plugins's cache",27,d3,4c,24),::hx::SourceInfo(HX_("hxvlc/util/Handle.hx",1b,d6,50,95),296,HX_("hxvlc.util.Handle",23,7c,b0,3b),HX_("initWithRetry",52,3e,b6,e5)));
+HXLINE( 298)					return ::hxvlc::util::Handle_obj::initWithRetry(options,true);
             				}
-HXLINE( 303)				::String errmsg = ::String(libvlc_errmsg());
-HXLINE( 305)				bool _hx_tmp3;
-HXDLIN( 305)				if (::hx::IsNotNull( errmsg )) {
-HXLINE( 305)					_hx_tmp3 = (errmsg.length > 0);
-            				}
-            				else {
-HXLINE( 305)					_hx_tmp3 = false;
-            				}
-HXDLIN( 305)				if (_hx_tmp3) {
-HXLINE( 306)					::lime::utils::Log_obj::error((HX_("Failed to initialize the LibVLC instance, Error: ",6a,58,39,88) + errmsg),::hx::SourceInfo(HX_("hxvlc/util/Handle.hx",1b,d6,50,95),306,HX_("hxvlc.util.Handle",23,7c,b0,3b),HX_("initWithRetry",52,3e,b6,e5)));
+HXLINE( 302)				::String errmsg = ::String(libvlc_errmsg());
+HXLINE( 304)				bool _hx_tmp3;
+HXDLIN( 304)				if (::hx::IsNotNull( errmsg )) {
+HXLINE( 304)					_hx_tmp3 = (errmsg.length > 0);
             				}
             				else {
-HXLINE( 308)					::lime::utils::Log_obj::error(HX_("Failed to initialize the LibVLC instance",f0,e1,da,e4),::hx::SourceInfo(HX_("hxvlc/util/Handle.hx",1b,d6,50,95),308,HX_("hxvlc.util.Handle",23,7c,b0,3b),HX_("initWithRetry",52,3e,b6,e5)));
+HXLINE( 304)					_hx_tmp3 = false;
             				}
-HXLINE( 310)				return false;
+HXDLIN( 304)				if (_hx_tmp3) {
+HXLINE( 305)					::lime::utils::Log_obj::error((HX_("Failed to initialize the LibVLC instance, Error: ",6a,58,39,88) + errmsg),::hx::SourceInfo(HX_("hxvlc/util/Handle.hx",1b,d6,50,95),305,HX_("hxvlc.util.Handle",23,7c,b0,3b),HX_("initWithRetry",52,3e,b6,e5)));
+            				}
+            				else {
+HXLINE( 307)					::lime::utils::Log_obj::error(HX_("Failed to initialize the LibVLC instance",f0,e1,da,e4),::hx::SourceInfo(HX_("hxvlc/util/Handle.hx",1b,d6,50,95),307,HX_("hxvlc.util.Handle",23,7c,b0,3b),HX_("initWithRetry",52,3e,b6,e5)));
+            				}
+HXLINE( 309)				return false;
             			}
             		}
-HXLINE( 334)		::hxvlc::util::Handle_obj::loading = false;
-HXLINE( 336)		::hxvlc::util::Handle_obj::instanceMutex->release();
-HXLINE( 338)		return true;
+HXLINE( 333)		::hxvlc::util::Handle_obj::loading = false;
+HXLINE( 335)		::hxvlc::util::Handle_obj::instanceMutex->release();
+HXLINE( 337)		return true;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Handle_obj,initWithRetry,return )
 
 ::String Handle_obj::get_version(){
-            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_396_get_version)
-HXDLIN( 396)		return ::String(libvlc_get_version());
+            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_395_get_version)
+HXDLIN( 395)		return ::String(libvlc_get_version());
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Handle_obj,get_version,return )
 
 ::String Handle_obj::get_compiler(){
-            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_402_get_compiler)
-HXDLIN( 402)		return ::String(libvlc_get_compiler());
+            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_401_get_compiler)
+HXDLIN( 401)		return ::String(libvlc_get_compiler());
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Handle_obj,get_compiler,return )
 
 ::String Handle_obj::get_changeset(){
-            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_408_get_changeset)
-HXDLIN( 408)		return ::String(libvlc_get_changeset());
+            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_407_get_changeset)
+HXDLIN( 407)		return ::String(libvlc_get_changeset());
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Handle_obj,get_changeset,return )
 
 ::cpp::Int64 Handle_obj::get_clock(){
-            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_414_get_clock)
-HXDLIN( 414)		return libvlc_clock();
+            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_413_get_clock)
+HXDLIN( 413)		return libvlc_clock();
             	}
 
 
@@ -412,12 +412,12 @@ void Handle_obj::__register()
 void Handle_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_67_boot)
-HXDLIN(  67)		loading = false;
+            	HX_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_66_boot)
+HXDLIN(  66)		loading = false;
             	}
 {
-            	HX_GC_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_104_boot)
-HXDLIN( 104)		instanceMutex =  ::sys::thread::Mutex_obj::__alloc( HX_CTX );
+            	HX_GC_STACKFRAME(&_hx_pos_989d3d43f5b59b8c_103_boot)
+HXDLIN( 103)		instanceMutex =  ::sys::thread::Mutex_obj::__alloc( HX_CTX );
             	}
 }
 

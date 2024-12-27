@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_e866605334626d6d_346_new,"__ASSET__flixel_flixel_ui_img_check_box_png","new",0x50315bb9,"__ASSET__flixel_flixel_ui_img_check_box_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_69fac2a5e82205e5_1929_boot,"__ASSET__flixel_flixel_ui_img_check_box_png","boot",0xd317e6b9,"__ASSET__flixel_flixel_ui_img_check_box_png.boot","ManifestResources.hx",1929,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_69fac2a5e82205e5_1947_boot,"__ASSET__flixel_flixel_ui_img_check_box_png","boot",0xd317e6b9,"__ASSET__flixel_flixel_ui_img_check_box_png.boot","ManifestResources.hx",1947,0xf77aa668)
 
 void __ASSET__flixel_flixel_ui_img_check_box_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_e866605334626d6d_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_flixel_ui_img_check_box_png_obj::__register()
 void __ASSET__flixel_flixel_ui_img_check_box_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_69fac2a5e82205e5_1929_boot)
-HXDLIN(1929)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_check_box_png",79,29,1e,5c);
+            	HX_STACKFRAME(&_hx_pos_69fac2a5e82205e5_1947_boot)
+HXDLIN(1947)		resourceName = HX_("__ASSET__:image___ASSET__flixel_flixel_ui_img_check_box_png",79,29,1e,5c);
             	}
 }
 

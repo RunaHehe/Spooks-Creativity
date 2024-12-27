@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_cdf49a0f309fa51f_29_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_f8773e914a071cce_29_new)
 HX_DECLARE_CLASS2(haxe,io,Eof)
 
 namespace haxe{
@@ -39,7 +39,7 @@ class HXCPP_CLASS_ATTRIBUTES Eof_obj : public ::hx::Object
 			Eof_obj *__this = (Eof_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(Eof_obj), false, "haxe.io.Eof"));
 			*(void **)__this = Eof_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_cdf49a0f309fa51f_29_new)
+            	HX_STACKFRAME(&_hx_pos_f8773e914a071cce_29_new)
             	}
 		
 			return __this;

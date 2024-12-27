@@ -17,13 +17,13 @@
 #include <sys/io/_Process/Stdout.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_76908e3e5e595680_94_new,"sys.io.Process","new",0x849b4c7a,"sys.io.Process.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/Process.hx",94,0xf03b38ef)
-HX_LOCAL_STACK_FRAME(_hx_pos_76908e3e5e595680_112_close,"sys.io.Process","close",0x0a954e52,"sys.io.Process.close","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/Process.hx",112,0xf03b38ef)
+HX_DEFINE_STACK_FRAME(_hx_pos_213d55cc5cbbab8a_94_new,"sys.io.Process","new",0x849b4c7a,"sys.io.Process.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/Process.hx",94,0x19dec630)
+HX_LOCAL_STACK_FRAME(_hx_pos_213d55cc5cbbab8a_112_close,"sys.io.Process","close",0x0a954e52,"sys.io.Process.close","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/Process.hx",112,0x19dec630)
 namespace sys{
 namespace io{
 
 void Process_obj::__construct(::String cmd,::Array< ::String > args, ::Dynamic detached){
-            	HX_GC_STACKFRAME(&_hx_pos_76908e3e5e595680_94_new)
+            	HX_GC_STACKFRAME(&_hx_pos_213d55cc5cbbab8a_94_new)
 HXLINE(  95)		if (( (bool)(detached) )) {
 HXLINE(  96)			HX_STACK_DO_THROW(HX_("Detached process is not supported on this platform",8a,a6,56,0e));
             		}
@@ -66,7 +66,7 @@ bool Process_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Process_obj::close(){
-            	HX_STACKFRAME(&_hx_pos_76908e3e5e595680_112_close)
+            	HX_STACKFRAME(&_hx_pos_213d55cc5cbbab8a_112_close)
 HXDLIN( 112)		_hx_std_process_close(this->p);
             	}
 

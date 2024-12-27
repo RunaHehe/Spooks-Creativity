@@ -8,14 +8,14 @@
 #include <haxe/io/Bytes.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a4ee879d7e6018d9_33_new,"haxe.crypto.BaseCode","new",0xd63c60f5,"haxe.crypto.BaseCode.new","D:\\HaxeToolKit\\haxe\\std/haxe/crypto/BaseCode.hx",33,0x02162523)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4ee879d7e6018d9_72_initTable,"haxe.crypto.BaseCode","initTable",0xa1288133,"haxe.crypto.BaseCode.initTable","D:\\HaxeToolKit\\haxe\\std/haxe/crypto/BaseCode.hx",72,0x02162523)
-HX_LOCAL_STACK_FRAME(_hx_pos_a4ee879d7e6018d9_81_decodeBytes,"haxe.crypto.BaseCode","decodeBytes",0x152c41f2,"haxe.crypto.BaseCode.decodeBytes","D:\\HaxeToolKit\\haxe\\std/haxe/crypto/BaseCode.hx",81,0x02162523)
+HX_DEFINE_STACK_FRAME(_hx_pos_9ec72c1fa0ba7179_33_new,"haxe.crypto.BaseCode","new",0xd63c60f5,"haxe.crypto.BaseCode.new","C:\\HaxeToolkit\\haxe\\std/haxe/crypto/BaseCode.hx",33,0x52da3542)
+HX_LOCAL_STACK_FRAME(_hx_pos_9ec72c1fa0ba7179_72_initTable,"haxe.crypto.BaseCode","initTable",0xa1288133,"haxe.crypto.BaseCode.initTable","C:\\HaxeToolkit\\haxe\\std/haxe/crypto/BaseCode.hx",72,0x52da3542)
+HX_LOCAL_STACK_FRAME(_hx_pos_9ec72c1fa0ba7179_81_decodeBytes,"haxe.crypto.BaseCode","decodeBytes",0x152c41f2,"haxe.crypto.BaseCode.decodeBytes","C:\\HaxeToolkit\\haxe\\std/haxe/crypto/BaseCode.hx",81,0x52da3542)
 namespace haxe{
 namespace crypto{
 
 void BaseCode_obj::__construct( ::haxe::io::Bytes base){
-            	HX_STACKFRAME(&_hx_pos_a4ee879d7e6018d9_33_new)
+            	HX_STACKFRAME(&_hx_pos_9ec72c1fa0ba7179_33_new)
 HXLINE(  34)		int len = base->length;
 HXLINE(  35)		int nbits = 1;
 HXLINE(  36)		while((len > (1 << nbits))){
@@ -51,7 +51,7 @@ bool BaseCode_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void BaseCode_obj::initTable(){
-            	HX_STACKFRAME(&_hx_pos_a4ee879d7e6018d9_72_initTable)
+            	HX_STACKFRAME(&_hx_pos_9ec72c1fa0ba7179_72_initTable)
 HXLINE(  73)		::Array< int > tbl = ::Array_obj< int >::__new();
 HXLINE(  74)		{
 HXLINE(  74)			int _g = 0;
@@ -77,7 +77,7 @@ HXLINE(  78)		this->tbl = tbl;
 HX_DEFINE_DYNAMIC_FUNC0(BaseCode_obj,initTable,(void))
 
  ::haxe::io::Bytes BaseCode_obj::decodeBytes( ::haxe::io::Bytes b){
-            	HX_STACKFRAME(&_hx_pos_a4ee879d7e6018d9_81_decodeBytes)
+            	HX_STACKFRAME(&_hx_pos_9ec72c1fa0ba7179_81_decodeBytes)
 HXLINE(  85)		int nbits = this->nbits;
 HXLINE(  86)		 ::haxe::io::Bytes base = this->base;
 HXLINE(  87)		if (::hx::IsNull( this->tbl )) {

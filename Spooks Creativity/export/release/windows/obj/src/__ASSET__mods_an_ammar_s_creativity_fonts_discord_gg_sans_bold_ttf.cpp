@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_eaa89256e5233cd1_1953_new,"__ASSET__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf","new",0xd6e82ff3,"__ASSET__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf.new","ManifestResources.hx",1953,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_eaa89256e5233cd1_1971_new,"__ASSET__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf","new",0xd6e82ff3,"__ASSET__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf.new","ManifestResources.hx",1971,0xf77aa668)
 
 void __ASSET__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_eaa89256e5233cd1_1953_new)
-HXDLIN(1953)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Discord/gg sans Bold.ttf",18,ba,0a,d0));
-HXDLIN(1953)		this->name = HX_("gg sans Bold",92,6a,6b,37);
-HXDLIN(1953)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_eaa89256e5233cd1_1971_new)
+HXDLIN(1971)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Discord/gg sans Bold.ttf",18,ba,0a,d0));
+HXDLIN(1971)		this->name = HX_("gg sans Bold",92,6a,6b,37);
+HXDLIN(1971)		super::__construct(null());
             	}
 
 Dynamic __ASSET__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf_obj::__CreateEmpty() { return new __ASSET__mods_an_ammar_s_creativity_fonts_discord_gg_sans_bold_ttf_obj; }

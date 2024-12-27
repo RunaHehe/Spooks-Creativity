@@ -26,21 +26,21 @@
 #include <flixel/util/IFlxDestroyable.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6da75727032b0de2_2144_new,"MenuSprite","new",0x091d1e16,"MenuSprite.new","MainMenuStateAmmar.hx",2144,0x38c8c245)
-HX_LOCAL_STACK_FRAME(_hx_pos_6da75727032b0de2_2162_update,"MenuSprite","update",0xbf972e13,"MenuSprite.update","MainMenuStateAmmar.hx",2162,0x38c8c245)
+HX_DEFINE_STACK_FRAME(_hx_pos_6da75727032b0de2_2148_new,"MenuSprite","new",0x091d1e16,"MenuSprite.new","MainMenuStateAmmar.hx",2148,0x38c8c245)
+HX_LOCAL_STACK_FRAME(_hx_pos_6da75727032b0de2_2166_update,"MenuSprite","update",0xbf972e13,"MenuSprite.update","MainMenuStateAmmar.hx",2166,0x38c8c245)
 
 void MenuSprite_obj::__construct(::hx::Null< Float >  __o_X,::hx::Null< Float >  __o_Y, ::Dynamic SimpleGraphic){
             		Float X = __o_X.Default(0);
             		Float Y = __o_Y.Default(0);
-            	HX_STACKFRAME(&_hx_pos_6da75727032b0de2_2144_new)
-HXLINE(2154)		this->noMove = false;
-HXLINE(2153)		this->partOf = HX_("",00,00,00,00);
-HXLINE(2151)		this->addY = ((Float)0);
-HXLINE(2150)		this->addX = ((Float)0);
-HXLINE(2149)		this->followPartner = false;
-HXLINE(2146)		this->objectID = 0;
-HXLINE(2157)		super::__construct(X,Y,SimpleGraphic);
-HXLINE(2158)		this->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
+            	HX_STACKFRAME(&_hx_pos_6da75727032b0de2_2148_new)
+HXLINE(2158)		this->noMove = false;
+HXLINE(2157)		this->partOf = HX_("",00,00,00,00);
+HXLINE(2155)		this->addY = ((Float)0);
+HXLINE(2154)		this->addX = ((Float)0);
+HXLINE(2153)		this->followPartner = false;
+HXLINE(2150)		this->objectID = 0;
+HXLINE(2161)		super::__construct(X,Y,SimpleGraphic);
+HXLINE(2162)		this->set_antialiasing(::ClientPrefs_obj::globalAntialiasing);
             	}
 
 Dynamic MenuSprite_obj::__CreateEmpty() { return new MenuSprite_obj; }
@@ -67,18 +67,18 @@ bool MenuSprite_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void MenuSprite_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_6da75727032b0de2_2162_update)
-HXLINE(2163)		this->super::update(elapsed);
-HXLINE(2164)		bool _hx_tmp;
-HXDLIN(2164)		if (::hx::IsNotNull( this->partner )) {
-HXLINE(2164)			_hx_tmp = this->followPartner;
+            	HX_STACKFRAME(&_hx_pos_6da75727032b0de2_2166_update)
+HXLINE(2167)		this->super::update(elapsed);
+HXLINE(2168)		bool _hx_tmp;
+HXDLIN(2168)		if (::hx::IsNotNull( this->partner )) {
+HXLINE(2168)			_hx_tmp = this->followPartner;
             		}
             		else {
-HXLINE(2164)			_hx_tmp = false;
+HXLINE(2168)			_hx_tmp = false;
             		}
-HXDLIN(2164)		if (_hx_tmp) {
-HXLINE(2165)			this->set_x((this->partner->x + this->addX));
-HXLINE(2166)			this->set_y((this->partner->y + this->addY));
+HXDLIN(2168)		if (_hx_tmp) {
+HXLINE(2169)			this->set_x((this->partner->x + this->addX));
+HXLINE(2170)			this->set_y((this->partner->y + this->addY));
             		}
             	}
 

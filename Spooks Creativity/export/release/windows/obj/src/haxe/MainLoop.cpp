@@ -14,11 +14,11 @@
 #include <lime/system/System.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_8bbce0d2d087f25b_71_hasEvents,"haxe.MainLoop","hasEvents",0xbbf2790a,"haxe.MainLoop.hasEvents","D:\\HaxeToolKit\\haxe\\std/haxe/MainLoop.hx",71,0xa73854b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_8bbce0d2d087f25b_82_addThread,"haxe.MainLoop","addThread",0x2b7d26c2,"haxe.MainLoop.addThread","D:\\HaxeToolKit\\haxe\\std/haxe/MainLoop.hx",82,0xa73854b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_8bbce0d2d087f25b_86_runInMainThread,"haxe.MainLoop","runInMainThread",0xee0aaa4a,"haxe.MainLoop.runInMainThread","D:\\HaxeToolKit\\haxe\\std/haxe/MainLoop.hx",86,0xa73854b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_8bbce0d2d087f25b_104_sortEvents,"haxe.MainLoop","sortEvents",0x1a386640,"haxe.MainLoop.sortEvents","D:\\HaxeToolKit\\haxe\\std/haxe/MainLoop.hx",104,0xa73854b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_8bbce0d2d087f25b_169_tick,"haxe.MainLoop","tick",0x9d5eafc6,"haxe.MainLoop.tick","D:\\HaxeToolKit\\haxe\\std/haxe/MainLoop.hx",169,0xa73854b0)
+HX_LOCAL_STACK_FRAME(_hx_pos_d203511e47ccd6c9_71_hasEvents,"haxe.MainLoop","hasEvents",0xbbf2790a,"haxe.MainLoop.hasEvents","C:\\HaxeToolkit\\haxe\\std/haxe/MainLoop.hx",71,0x949ef6b1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d203511e47ccd6c9_82_addThread,"haxe.MainLoop","addThread",0x2b7d26c2,"haxe.MainLoop.addThread","C:\\HaxeToolkit\\haxe\\std/haxe/MainLoop.hx",82,0x949ef6b1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d203511e47ccd6c9_86_runInMainThread,"haxe.MainLoop","runInMainThread",0xee0aaa4a,"haxe.MainLoop.runInMainThread","C:\\HaxeToolkit\\haxe\\std/haxe/MainLoop.hx",86,0x949ef6b1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d203511e47ccd6c9_104_sortEvents,"haxe.MainLoop","sortEvents",0x1a386640,"haxe.MainLoop.sortEvents","C:\\HaxeToolkit\\haxe\\std/haxe/MainLoop.hx",104,0x949ef6b1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d203511e47ccd6c9_169_tick,"haxe.MainLoop","tick",0x9d5eafc6,"haxe.MainLoop.tick","C:\\HaxeToolkit\\haxe\\std/haxe/MainLoop.hx",169,0x949ef6b1)
 namespace haxe{
 
 void MainLoop_obj::__construct() { }
@@ -41,7 +41,7 @@ bool MainLoop_obj::_hx_isInstanceOf(int inClassId) {
  ::haxe::MainEvent MainLoop_obj::pending;
 
 bool MainLoop_obj::hasEvents(){
-            	HX_STACKFRAME(&_hx_pos_8bbce0d2d087f25b_71_hasEvents)
+            	HX_STACKFRAME(&_hx_pos_d203511e47ccd6c9_71_hasEvents)
 HXLINE(  72)		 ::haxe::MainEvent p = ::haxe::MainLoop_obj::pending;
 HXLINE(  73)		while(::hx::IsNotNull( p )){
 HXLINE(  74)			if (p->isBlocking) {
@@ -56,7 +56,7 @@ HXLINE(  78)		return false;
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(MainLoop_obj,hasEvents,return )
 
 void MainLoop_obj::addThread( ::Dynamic f){
-            	HX_STACKFRAME(&_hx_pos_8bbce0d2d087f25b_82_addThread)
+            	HX_STACKFRAME(&_hx_pos_d203511e47ccd6c9_82_addThread)
 HXDLIN(  82)		::haxe::EntryPoint_obj::addThread(f);
             	}
 
@@ -64,7 +64,7 @@ HXDLIN(  82)		::haxe::EntryPoint_obj::addThread(f);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(MainLoop_obj,addThread,(void))
 
 void MainLoop_obj::runInMainThread( ::Dynamic f){
-            	HX_STACKFRAME(&_hx_pos_8bbce0d2d087f25b_86_runInMainThread)
+            	HX_STACKFRAME(&_hx_pos_d203511e47ccd6c9_86_runInMainThread)
 HXDLIN(  86)		::haxe::EntryPoint_obj::runInMainThread(f);
             	}
 
@@ -72,7 +72,7 @@ HXDLIN(  86)		::haxe::EntryPoint_obj::runInMainThread(f);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(MainLoop_obj,runInMainThread,(void))
 
 void MainLoop_obj::sortEvents(){
-            	HX_STACKFRAME(&_hx_pos_8bbce0d2d087f25b_104_sortEvents)
+            	HX_STACKFRAME(&_hx_pos_d203511e47ccd6c9_104_sortEvents)
 HXLINE( 108)		 ::haxe::MainEvent list = ::haxe::MainLoop_obj::pending;
 HXLINE( 110)		if (::hx::IsNull( list )) {
 HXLINE( 111)			return;
@@ -193,7 +193,7 @@ HXLINE( 163)		::haxe::MainLoop_obj::pending = list;
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(MainLoop_obj,sortEvents,(void))
 
 Float MainLoop_obj::tick(){
-            	HX_STACKFRAME(&_hx_pos_8bbce0d2d087f25b_169_tick)
+            	HX_STACKFRAME(&_hx_pos_d203511e47ccd6c9_169_tick)
 HXLINE( 170)		::haxe::MainLoop_obj::sortEvents();
 HXLINE( 171)		 ::haxe::MainEvent e = ::haxe::MainLoop_obj::pending;
 HXLINE( 172)		int timer = ::lime::_hx_system::System_obj::getTimer();

@@ -8,17 +8,17 @@
 #include <Std.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_42a520004f1b469c_26_new,"Date","new",0x9aa26240,"Date.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Date.hx",26,0x2e5fd609)
-HX_LOCAL_STACK_FRAME(_hx_pos_42a520004f1b469c_30_getTime,"Date","getTime",0x0cac7da3,"Date.getTime","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Date.hx",30,0x2e5fd609)
-HX_LOCAL_STACK_FRAME(_hx_pos_42a520004f1b469c_34_getHours,"Date","getHours",0x256fe079,"Date.getHours","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Date.hx",34,0x2e5fd609)
-HX_LOCAL_STACK_FRAME(_hx_pos_42a520004f1b469c_58_getDay,"Date","getDay",0x598d4986,"Date.getDay","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Date.hx",58,0x2e5fd609)
-HX_LOCAL_STACK_FRAME(_hx_pos_42a520004f1b469c_94_toString,"Date","toString",0xd2a372cc,"Date.toString","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Date.hx",94,0x2e5fd609)
-HX_LOCAL_STACK_FRAME(_hx_pos_42a520004f1b469c_98_now,"Date","now",0x9aa26af6,"Date.now","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Date.hx",98,0x2e5fd609)
-HX_LOCAL_STACK_FRAME(_hx_pos_42a520004f1b469c_105_fromTime,"Date","fromTime",0x44fd3cb7,"Date.fromTime","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Date.hx",105,0x2e5fd609)
-HX_LOCAL_STACK_FRAME(_hx_pos_42a520004f1b469c_112_fromString,"Date","fromString",0x5ead97fb,"Date.fromString","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Date.hx",112,0x2e5fd609)
+HX_DEFINE_STACK_FRAME(_hx_pos_c0151d669b9b886e_26_new,"Date","new",0x9aa26240,"Date.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Date.hx",26,0x1bc6780a)
+HX_LOCAL_STACK_FRAME(_hx_pos_c0151d669b9b886e_30_getTime,"Date","getTime",0x0cac7da3,"Date.getTime","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Date.hx",30,0x1bc6780a)
+HX_LOCAL_STACK_FRAME(_hx_pos_c0151d669b9b886e_34_getHours,"Date","getHours",0x256fe079,"Date.getHours","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Date.hx",34,0x1bc6780a)
+HX_LOCAL_STACK_FRAME(_hx_pos_c0151d669b9b886e_58_getDay,"Date","getDay",0x598d4986,"Date.getDay","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Date.hx",58,0x1bc6780a)
+HX_LOCAL_STACK_FRAME(_hx_pos_c0151d669b9b886e_94_toString,"Date","toString",0xd2a372cc,"Date.toString","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Date.hx",94,0x1bc6780a)
+HX_LOCAL_STACK_FRAME(_hx_pos_c0151d669b9b886e_98_now,"Date","now",0x9aa26af6,"Date.now","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Date.hx",98,0x1bc6780a)
+HX_LOCAL_STACK_FRAME(_hx_pos_c0151d669b9b886e_105_fromTime,"Date","fromTime",0x44fd3cb7,"Date.fromTime","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Date.hx",105,0x1bc6780a)
+HX_LOCAL_STACK_FRAME(_hx_pos_c0151d669b9b886e_112_fromString,"Date","fromString",0x5ead97fb,"Date.fromString","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Date.hx",112,0x1bc6780a)
 
 void Date_obj::__construct(int year,int month,int day,int hour,int min,int sec){
-            	HX_STACKFRAME(&_hx_pos_42a520004f1b469c_26_new)
+            	HX_STACKFRAME(&_hx_pos_c0151d669b9b886e_26_new)
 HXDLIN(  26)		this->mSeconds =  ::__hxcpp_new_date(year,month,day,hour,min,sec);
             	}
 
@@ -38,7 +38,7 @@ bool Date_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 Float Date_obj::getTime(){
-            	HX_STACKFRAME(&_hx_pos_42a520004f1b469c_30_getTime)
+            	HX_STACKFRAME(&_hx_pos_c0151d669b9b886e_30_getTime)
 HXDLIN(  30)		return (this->mSeconds * ((Float)1000.0));
             	}
 
@@ -46,7 +46,7 @@ HXDLIN(  30)		return (this->mSeconds * ((Float)1000.0));
 HX_DEFINE_DYNAMIC_FUNC0(Date_obj,getTime,return )
 
 int Date_obj::getHours(){
-            	HX_STACKFRAME(&_hx_pos_42a520004f1b469c_34_getHours)
+            	HX_STACKFRAME(&_hx_pos_c0151d669b9b886e_34_getHours)
 HXDLIN(  34)		return  ::__hxcpp_get_hours(this->mSeconds);
             	}
 
@@ -54,7 +54,7 @@ HXDLIN(  34)		return  ::__hxcpp_get_hours(this->mSeconds);
 HX_DEFINE_DYNAMIC_FUNC0(Date_obj,getHours,return )
 
 int Date_obj::getDay(){
-            	HX_STACKFRAME(&_hx_pos_42a520004f1b469c_58_getDay)
+            	HX_STACKFRAME(&_hx_pos_c0151d669b9b886e_58_getDay)
 HXDLIN(  58)		return  ::__hxcpp_get_day(this->mSeconds);
             	}
 
@@ -62,7 +62,7 @@ HXDLIN(  58)		return  ::__hxcpp_get_day(this->mSeconds);
 HX_DEFINE_DYNAMIC_FUNC0(Date_obj,getDay,return )
 
 ::String Date_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_42a520004f1b469c_94_toString)
+            	HX_STACKFRAME(&_hx_pos_c0151d669b9b886e_94_toString)
 HXDLIN(  94)		return  ::__hxcpp_to_string(this->mSeconds);
             	}
 
@@ -70,7 +70,7 @@ HXDLIN(  94)		return  ::__hxcpp_to_string(this->mSeconds);
 HX_DEFINE_DYNAMIC_FUNC0(Date_obj,toString,return )
 
  ::Date Date_obj::now(){
-            	HX_STACKFRAME(&_hx_pos_42a520004f1b469c_98_now)
+            	HX_STACKFRAME(&_hx_pos_c0151d669b9b886e_98_now)
 HXDLIN(  98)		return ::Date_obj::fromTime((( (Float)( ::__hxcpp_date_now()) ) * ((Float)1000.0)));
             	}
 
@@ -78,7 +78,7 @@ HXDLIN(  98)		return ::Date_obj::fromTime((( (Float)( ::__hxcpp_date_now()) ) * 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Date_obj,now,return )
 
  ::Date Date_obj::fromTime(Float t){
-            	HX_GC_STACKFRAME(&_hx_pos_42a520004f1b469c_105_fromTime)
+            	HX_GC_STACKFRAME(&_hx_pos_c0151d669b9b886e_105_fromTime)
 HXLINE( 106)		 ::Date result =  ::Date_obj::__alloc( HX_CTX ,0,0,0,0,0,0);
 HXLINE( 107)		result->mSeconds = (t * ((Float)0.001));
 HXLINE( 108)		return result;
@@ -88,7 +88,7 @@ HXLINE( 108)		return result;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Date_obj,fromTime,return )
 
  ::Date Date_obj::fromString(::String s){
-            	HX_GC_STACKFRAME(&_hx_pos_42a520004f1b469c_112_fromString)
+            	HX_GC_STACKFRAME(&_hx_pos_c0151d669b9b886e_112_fromString)
 HXDLIN( 112)		switch((int)(s.length)){
             			case (int)8: {
 HXLINE( 114)				::Array< ::String > k = s.split(HX_(":",3a,00,00,00));

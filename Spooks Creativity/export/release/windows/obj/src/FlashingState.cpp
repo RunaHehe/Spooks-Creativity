@@ -148,7 +148,7 @@ void FlashingState_obj::create(){
 HXLINE(  21)		this->super::create();
 HXLINE(  23)		 ::flixel::FlxSprite bg =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null())->makeGraphic(::flixel::FlxG_obj::width,::flixel::FlxG_obj::height,-16777216,null(),null());
 HXLINE(  24)		this->add(bg);
-HXLINE(  26)		this->warnText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,0,::flixel::FlxG_obj::width,HX_("\n\t\t\tNOTICE\n\n\t\t\tThis Mod contains some flashing lights!\n\n\t\t\tYou can disable it on the options menu.\n\n\t\t\tAnd also, don't try cheat!\n\n\t\t\tYou have to enable developer mode first!\n\n\t\t\tAnyways,\n\n\t\t\tThank you for playing!",16,8d,16,80),32,null());
+HXLINE(  26)		this->warnText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,0,::flixel::FlxG_obj::width,HX_("\r\n\t\t\tNOTICE\n\r\n\t\t\tThis Mod contains some flashing lights!\n\r\n\t\t\tYou can disable it on the options menu.\n\r\n\t\t\tAnd also, don't try cheat!\n\r\n\t\t\tYou have to enable developer mode first!\n\r\n\t\t\tAnyways,\n\r\n\t\t\tThank you for playing!",81,30,c5,01),32,null());
 HXLINE(  36)		 ::flixel::text::FlxText _hx_tmp = this->warnText;
 HXDLIN(  36)		::String file = ::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("Phantomuff/aPhantomMuff Full Letters.ttf",f9,15,90,99)));
 HXDLIN(  36)		::String _hx_tmp1;

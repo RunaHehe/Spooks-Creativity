@@ -11,19 +11,19 @@
 #include <haxe/zip/_InflateImpl/Window.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d560eb4061fd9330_37_new,"haxe.zip._InflateImpl.Window","new",0x88adb9f3,"haxe.zip._InflateImpl.Window.new","D:\\HaxeToolKit\\haxe\\std/haxe/zip/InflateImpl.hx",37,0x72d4cb96)
-HX_LOCAL_STACK_FRAME(_hx_pos_d560eb4061fd9330_44_slide,"haxe.zip._InflateImpl.Window","slide",0x409d7984,"haxe.zip._InflateImpl.Window.slide","D:\\HaxeToolKit\\haxe\\std/haxe/zip/InflateImpl.hx",44,0x72d4cb96)
-HX_LOCAL_STACK_FRAME(_hx_pos_d560eb4061fd9330_53_addBytes,"haxe.zip._InflateImpl.Window","addBytes",0xb984b017,"haxe.zip._InflateImpl.Window.addBytes","D:\\HaxeToolKit\\haxe\\std/haxe/zip/InflateImpl.hx",53,0x72d4cb96)
-HX_LOCAL_STACK_FRAME(_hx_pos_d560eb4061fd9330_60_addByte,"haxe.zip._InflateImpl.Window","addByte",0xa74a10dc,"haxe.zip._InflateImpl.Window.addByte","D:\\HaxeToolKit\\haxe\\std/haxe/zip/InflateImpl.hx",60,0x72d4cb96)
-HX_LOCAL_STACK_FRAME(_hx_pos_d560eb4061fd9330_68_getLastChar,"haxe.zip._InflateImpl.Window","getLastChar",0xdd866f95,"haxe.zip._InflateImpl.Window.getLastChar","D:\\HaxeToolKit\\haxe\\std/haxe/zip/InflateImpl.hx",68,0x72d4cb96)
-HX_LOCAL_STACK_FRAME(_hx_pos_d560eb4061fd9330_72_available,"haxe.zip._InflateImpl.Window","available",0x3285339c,"haxe.zip._InflateImpl.Window.available","D:\\HaxeToolKit\\haxe\\std/haxe/zip/InflateImpl.hx",72,0x72d4cb96)
-HX_LOCAL_STACK_FRAME(_hx_pos_d560eb4061fd9330_75_checksum,"haxe.zip._InflateImpl.Window","checksum",0x2f923f50,"haxe.zip._InflateImpl.Window.checksum","D:\\HaxeToolKit\\haxe\\std/haxe/zip/InflateImpl.hx",75,0x72d4cb96)
+HX_DEFINE_STACK_FRAME(_hx_pos_8510a39dc8fa11fa_37_new,"haxe.zip._InflateImpl.Window","new",0x88adb9f3,"haxe.zip._InflateImpl.Window.new","C:\\HaxeToolkit\\haxe\\std/haxe/zip/InflateImpl.hx",37,0xc398dbb5)
+HX_LOCAL_STACK_FRAME(_hx_pos_8510a39dc8fa11fa_44_slide,"haxe.zip._InflateImpl.Window","slide",0x409d7984,"haxe.zip._InflateImpl.Window.slide","C:\\HaxeToolkit\\haxe\\std/haxe/zip/InflateImpl.hx",44,0xc398dbb5)
+HX_LOCAL_STACK_FRAME(_hx_pos_8510a39dc8fa11fa_53_addBytes,"haxe.zip._InflateImpl.Window","addBytes",0xb984b017,"haxe.zip._InflateImpl.Window.addBytes","C:\\HaxeToolkit\\haxe\\std/haxe/zip/InflateImpl.hx",53,0xc398dbb5)
+HX_LOCAL_STACK_FRAME(_hx_pos_8510a39dc8fa11fa_60_addByte,"haxe.zip._InflateImpl.Window","addByte",0xa74a10dc,"haxe.zip._InflateImpl.Window.addByte","C:\\HaxeToolkit\\haxe\\std/haxe/zip/InflateImpl.hx",60,0xc398dbb5)
+HX_LOCAL_STACK_FRAME(_hx_pos_8510a39dc8fa11fa_68_getLastChar,"haxe.zip._InflateImpl.Window","getLastChar",0xdd866f95,"haxe.zip._InflateImpl.Window.getLastChar","C:\\HaxeToolkit\\haxe\\std/haxe/zip/InflateImpl.hx",68,0xc398dbb5)
+HX_LOCAL_STACK_FRAME(_hx_pos_8510a39dc8fa11fa_72_available,"haxe.zip._InflateImpl.Window","available",0x3285339c,"haxe.zip._InflateImpl.Window.available","C:\\HaxeToolkit\\haxe\\std/haxe/zip/InflateImpl.hx",72,0xc398dbb5)
+HX_LOCAL_STACK_FRAME(_hx_pos_8510a39dc8fa11fa_75_checksum,"haxe.zip._InflateImpl.Window","checksum",0x2f923f50,"haxe.zip._InflateImpl.Window.checksum","C:\\HaxeToolkit\\haxe\\std/haxe/zip/InflateImpl.hx",75,0xc398dbb5)
 namespace haxe{
 namespace zip{
 namespace _InflateImpl{
 
 void Window_obj::__construct(bool hasCrc){
-            	HX_GC_STACKFRAME(&_hx_pos_d560eb4061fd9330_37_new)
+            	HX_GC_STACKFRAME(&_hx_pos_8510a39dc8fa11fa_37_new)
 HXLINE(  38)		this->buffer = ::haxe::io::Bytes_obj::alloc(65536);
 HXLINE(  39)		this->pos = 0;
 HXLINE(  40)		if (hasCrc) {
@@ -47,7 +47,7 @@ bool Window_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Window_obj::slide(){
-            	HX_STACKFRAME(&_hx_pos_d560eb4061fd9330_44_slide)
+            	HX_STACKFRAME(&_hx_pos_8510a39dc8fa11fa_44_slide)
 HXLINE(  45)		if (::hx::IsNotNull( this->crc )) {
 HXLINE(  46)			this->crc->update(this->buffer,0,32768);
             		}
@@ -62,7 +62,7 @@ HXLINE(  50)		this->buffer = b;
 HX_DEFINE_DYNAMIC_FUNC0(Window_obj,slide,(void))
 
 void Window_obj::addBytes( ::haxe::io::Bytes b,int p,int len){
-            	HX_STACKFRAME(&_hx_pos_d560eb4061fd9330_53_addBytes)
+            	HX_STACKFRAME(&_hx_pos_8510a39dc8fa11fa_53_addBytes)
 HXLINE(  54)		if (((this->pos + len) > 65536)) {
 HXLINE(  55)			this->slide();
             		}
@@ -75,7 +75,7 @@ HXDLIN(  57)		_hx_tmp->pos = (_hx_tmp->pos + len);
 HX_DEFINE_DYNAMIC_FUNC3(Window_obj,addBytes,(void))
 
 void Window_obj::addByte(int c){
-            	HX_STACKFRAME(&_hx_pos_d560eb4061fd9330_60_addByte)
+            	HX_STACKFRAME(&_hx_pos_8510a39dc8fa11fa_60_addByte)
 HXLINE(  61)		if ((this->pos == 65536)) {
 HXLINE(  62)			this->slide();
             		}
@@ -87,7 +87,7 @@ HXLINE(  64)		this->pos++;
 HX_DEFINE_DYNAMIC_FUNC1(Window_obj,addByte,(void))
 
 int Window_obj::getLastChar(){
-            	HX_STACKFRAME(&_hx_pos_d560eb4061fd9330_68_getLastChar)
+            	HX_STACKFRAME(&_hx_pos_8510a39dc8fa11fa_68_getLastChar)
 HXDLIN(  68)		return ( (int)(this->buffer->b->__get((this->pos - 1))) );
             	}
 
@@ -95,7 +95,7 @@ HXDLIN(  68)		return ( (int)(this->buffer->b->__get((this->pos - 1))) );
 HX_DEFINE_DYNAMIC_FUNC0(Window_obj,getLastChar,return )
 
 int Window_obj::available(){
-            	HX_STACKFRAME(&_hx_pos_d560eb4061fd9330_72_available)
+            	HX_STACKFRAME(&_hx_pos_8510a39dc8fa11fa_72_available)
 HXDLIN(  72)		return this->pos;
             	}
 
@@ -103,7 +103,7 @@ HXDLIN(  72)		return this->pos;
 HX_DEFINE_DYNAMIC_FUNC0(Window_obj,available,return )
 
  ::haxe::crypto::Adler32 Window_obj::checksum(){
-            	HX_STACKFRAME(&_hx_pos_d560eb4061fd9330_75_checksum)
+            	HX_STACKFRAME(&_hx_pos_8510a39dc8fa11fa_75_checksum)
 HXLINE(  76)		if (::hx::IsNotNull( this->crc )) {
 HXLINE(  77)			this->crc->update(this->buffer,0,this->pos);
             		}

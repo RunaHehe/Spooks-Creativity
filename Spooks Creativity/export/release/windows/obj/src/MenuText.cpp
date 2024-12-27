@@ -44,8 +44,8 @@
 #include <haxe/ds/StringMap.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_224a86b8ee77a7ba_2171_new,"MenuText","new",0xb7384cfe,"MenuText.new","MainMenuStateAmmar.hx",2171,0x38c8c245)
-HX_LOCAL_STACK_FRAME(_hx_pos_224a86b8ee77a7ba_2191_setLastPos,"MenuText","setLastPos",0x948f3c7e,"MenuText.setLastPos","MainMenuStateAmmar.hx",2191,0x38c8c245)
+HX_DEFINE_STACK_FRAME(_hx_pos_224a86b8ee77a7ba_2175_new,"MenuText","new",0xb7384cfe,"MenuText.new","MainMenuStateAmmar.hx",2175,0x38c8c245)
+HX_LOCAL_STACK_FRAME(_hx_pos_224a86b8ee77a7ba_2195_setLastPos,"MenuText","setLastPos",0x948f3c7e,"MenuText.setLastPos","MainMenuStateAmmar.hx",2195,0x38c8c245)
 
 void MenuText_obj::__construct(::hx::Null< Float >  __o_X,::hx::Null< Float >  __o_Y,::hx::Null< Float >  __o_FieldWidth,::String Text,::hx::Null< int >  __o_Size,::hx::Null< bool >  __o_EmbeddedFont){
             		Float X = __o_X.Default(0);
@@ -53,17 +53,17 @@ void MenuText_obj::__construct(::hx::Null< Float >  __o_X,::hx::Null< Float >  _
             		Float FieldWidth = __o_FieldWidth.Default(0);
             		int Size = __o_Size.Default(8);
             		bool EmbeddedFont = __o_EmbeddedFont.Default(true);
-            	HX_GC_STACKFRAME(&_hx_pos_224a86b8ee77a7ba_2171_new)
-HXLINE(2182)		this->checks = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(2178)		this->extraData =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(2177)		this->noMove = false;
-HXLINE(2176)		this->partOf = HX_("",00,00,00,00);
-HXLINE(2173)		this->objectID = 0;
-HXLINE(2185)		super::__construct(X,Y,FieldWidth,Text,Size,EmbeddedFont);
-HXLINE(2186)		this->set_borderSize(((Float)0.5));
-HXLINE(2187)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(0,0);
-HXDLIN(2187)		point->_inPool = false;
-HXDLIN(2187)		this->lastPos = point;
+            	HX_GC_STACKFRAME(&_hx_pos_224a86b8ee77a7ba_2175_new)
+HXLINE(2186)		this->checks = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(2182)		this->extraData =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(2181)		this->noMove = false;
+HXLINE(2180)		this->partOf = HX_("",00,00,00,00);
+HXLINE(2177)		this->objectID = 0;
+HXLINE(2189)		super::__construct(X,Y,FieldWidth,Text,Size,EmbeddedFont);
+HXLINE(2190)		this->set_borderSize(((Float)0.5));
+HXLINE(2191)		 ::flixel::math::FlxBasePoint point = ::flixel::math::FlxBasePoint_obj::pool->get().StaticCast<  ::flixel::math::FlxBasePoint >()->set(0,0);
+HXDLIN(2191)		point->_inPool = false;
+HXDLIN(2191)		this->lastPos = point;
             	}
 
 Dynamic MenuText_obj::__CreateEmpty() { return new MenuText_obj; }
@@ -94,11 +94,11 @@ bool MenuText_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void MenuText_obj::setLastPos(){
-            	HX_STACKFRAME(&_hx_pos_224a86b8ee77a7ba_2191_setLastPos)
-HXDLIN(2191)		 ::flixel::math::FlxBasePoint this1 = this->lastPos;
-HXDLIN(2191)		Float y = this->y;
-HXDLIN(2191)		this1->set_x(this->x);
-HXDLIN(2191)		this1->set_y(y);
+            	HX_STACKFRAME(&_hx_pos_224a86b8ee77a7ba_2195_setLastPos)
+HXDLIN(2195)		 ::flixel::math::FlxBasePoint this1 = this->lastPos;
+HXDLIN(2195)		Float y = this->y;
+HXDLIN(2195)		this1->set_x(this->x);
+HXDLIN(2195)		this1->set_y(y);
             	}
 
 

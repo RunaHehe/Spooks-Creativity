@@ -14,22 +14,22 @@
 #include <haxe/iterators/MapKeyValueIterator.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_898e7d3a60531855_60_new,"haxe.ds.StringMap","new",0x0f13f0c6,"haxe.ds.StringMap.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",60,0xfa51eb91)
-HX_LOCAL_STACK_FRAME(_hx_pos_898e7d3a60531855_63_set,"haxe.ds.StringMap","set",0x0f17bc08,"haxe.ds.StringMap.set","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",63,0xfa51eb91)
-HX_LOCAL_STACK_FRAME(_hx_pos_898e7d3a60531855_67_get,"haxe.ds.StringMap","get",0x0f0ea0fc,"haxe.ds.StringMap.get","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",67,0xfa51eb91)
-HX_LOCAL_STACK_FRAME(_hx_pos_898e7d3a60531855_71_exists,"haxe.ds.StringMap","exists",0xd35fc136,"haxe.ds.StringMap.exists","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",71,0xfa51eb91)
-HX_LOCAL_STACK_FRAME(_hx_pos_898e7d3a60531855_75_remove,"haxe.ds.StringMap","remove",0x18083f9e,"haxe.ds.StringMap.remove","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",75,0xfa51eb91)
-HX_LOCAL_STACK_FRAME(_hx_pos_898e7d3a60531855_78_keys,"haxe.ds.StringMap","keys",0x20631ace,"haxe.ds.StringMap.keys","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",78,0xfa51eb91)
-HX_LOCAL_STACK_FRAME(_hx_pos_898e7d3a60531855_83_iterator,"haxe.ds.StringMap","iterator",0x40ccf7c8,"haxe.ds.StringMap.iterator","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",83,0xfa51eb91)
-HX_LOCAL_STACK_FRAME(_hx_pos_898e7d3a60531855_89_keyValueIterator,"haxe.ds.StringMap","keyValueIterator",0x3fa9e53a,"haxe.ds.StringMap.keyValueIterator","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",89,0xfa51eb91)
-HX_LOCAL_STACK_FRAME(_hx_pos_898e7d3a60531855_92_copy,"haxe.ds.StringMap","copy",0x1b20f48f,"haxe.ds.StringMap.copy","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",92,0xfa51eb91)
-HX_LOCAL_STACK_FRAME(_hx_pos_898e7d3a60531855_100_toString,"haxe.ds.StringMap","toString",0xe5a17e86,"haxe.ds.StringMap.toString","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",100,0xfa51eb91)
-HX_LOCAL_STACK_FRAME(_hx_pos_898e7d3a60531855_105_clear,"haxe.ds.StringMap","clear",0x9fb0f773,"haxe.ds.StringMap.clear","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",105,0xfa51eb91)
+HX_DEFINE_STACK_FRAME(_hx_pos_cdf59c2a6fa2817a_60_new,"haxe.ds.StringMap","new",0x0f13f0c6,"haxe.ds.StringMap.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",60,0x969b5cf0)
+HX_LOCAL_STACK_FRAME(_hx_pos_cdf59c2a6fa2817a_63_set,"haxe.ds.StringMap","set",0x0f17bc08,"haxe.ds.StringMap.set","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",63,0x969b5cf0)
+HX_LOCAL_STACK_FRAME(_hx_pos_cdf59c2a6fa2817a_67_get,"haxe.ds.StringMap","get",0x0f0ea0fc,"haxe.ds.StringMap.get","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",67,0x969b5cf0)
+HX_LOCAL_STACK_FRAME(_hx_pos_cdf59c2a6fa2817a_71_exists,"haxe.ds.StringMap","exists",0xd35fc136,"haxe.ds.StringMap.exists","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",71,0x969b5cf0)
+HX_LOCAL_STACK_FRAME(_hx_pos_cdf59c2a6fa2817a_75_remove,"haxe.ds.StringMap","remove",0x18083f9e,"haxe.ds.StringMap.remove","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",75,0x969b5cf0)
+HX_LOCAL_STACK_FRAME(_hx_pos_cdf59c2a6fa2817a_78_keys,"haxe.ds.StringMap","keys",0x20631ace,"haxe.ds.StringMap.keys","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",78,0x969b5cf0)
+HX_LOCAL_STACK_FRAME(_hx_pos_cdf59c2a6fa2817a_83_iterator,"haxe.ds.StringMap","iterator",0x40ccf7c8,"haxe.ds.StringMap.iterator","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",83,0x969b5cf0)
+HX_LOCAL_STACK_FRAME(_hx_pos_cdf59c2a6fa2817a_89_keyValueIterator,"haxe.ds.StringMap","keyValueIterator",0x3fa9e53a,"haxe.ds.StringMap.keyValueIterator","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",89,0x969b5cf0)
+HX_LOCAL_STACK_FRAME(_hx_pos_cdf59c2a6fa2817a_92_copy,"haxe.ds.StringMap","copy",0x1b20f48f,"haxe.ds.StringMap.copy","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",92,0x969b5cf0)
+HX_LOCAL_STACK_FRAME(_hx_pos_cdf59c2a6fa2817a_100_toString,"haxe.ds.StringMap","toString",0xe5a17e86,"haxe.ds.StringMap.toString","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",100,0x969b5cf0)
+HX_LOCAL_STACK_FRAME(_hx_pos_cdf59c2a6fa2817a_105_clear,"haxe.ds.StringMap","clear",0x9fb0f773,"haxe.ds.StringMap.clear","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/StringMap.hx",105,0x969b5cf0)
 namespace haxe{
 namespace ds{
 
 void StringMap_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_898e7d3a60531855_60_new)
+            	HX_STACKFRAME(&_hx_pos_cdf59c2a6fa2817a_60_new)
             	}
 
 Dynamic StringMap_obj::__CreateEmpty() { return new StringMap_obj; }
@@ -84,7 +84,7 @@ void *StringMap_obj::_hx_getInterface(int inHash) {
 }
 
 void StringMap_obj::set(::String key, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_898e7d3a60531855_63_set)
+            	HX_STACKFRAME(&_hx_pos_cdf59c2a6fa2817a_63_set)
 HXDLIN(  63)		 ::__string_hash_set(HX_MAP_THIS,key,value);
             	}
 
@@ -92,7 +92,7 @@ HXDLIN(  63)		 ::__string_hash_set(HX_MAP_THIS,key,value);
 HX_DEFINE_DYNAMIC_FUNC2(StringMap_obj,set,(void))
 
  ::Dynamic StringMap_obj::get(::String key){
-            	HX_STACKFRAME(&_hx_pos_898e7d3a60531855_67_get)
+            	HX_STACKFRAME(&_hx_pos_cdf59c2a6fa2817a_67_get)
 HXDLIN(  67)		return  ::__string_hash_get(this->h,key);
             	}
 
@@ -100,7 +100,7 @@ HXDLIN(  67)		return  ::__string_hash_get(this->h,key);
 HX_DEFINE_DYNAMIC_FUNC1(StringMap_obj,get,return )
 
 bool StringMap_obj::exists(::String key){
-            	HX_STACKFRAME(&_hx_pos_898e7d3a60531855_71_exists)
+            	HX_STACKFRAME(&_hx_pos_cdf59c2a6fa2817a_71_exists)
 HXDLIN(  71)		return  ::__string_hash_exists(this->h,key);
             	}
 
@@ -108,7 +108,7 @@ HXDLIN(  71)		return  ::__string_hash_exists(this->h,key);
 HX_DEFINE_DYNAMIC_FUNC1(StringMap_obj,exists,return )
 
 bool StringMap_obj::remove(::String key){
-            	HX_STACKFRAME(&_hx_pos_898e7d3a60531855_75_remove)
+            	HX_STACKFRAME(&_hx_pos_cdf59c2a6fa2817a_75_remove)
 HXDLIN(  75)		return  ::__string_hash_remove(this->h,key);
             	}
 
@@ -116,7 +116,7 @@ HXDLIN(  75)		return  ::__string_hash_remove(this->h,key);
 HX_DEFINE_DYNAMIC_FUNC1(StringMap_obj,remove,return )
 
  ::Dynamic StringMap_obj::keys(){
-            	HX_GC_STACKFRAME(&_hx_pos_898e7d3a60531855_78_keys)
+            	HX_GC_STACKFRAME(&_hx_pos_cdf59c2a6fa2817a_78_keys)
 HXLINE(  79)		::Array< ::String > a =  ::__string_hash_keys(this->h);
 HXLINE(  80)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,a);
             	}
@@ -125,7 +125,7 @@ HXLINE(  80)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,a);
 HX_DEFINE_DYNAMIC_FUNC0(StringMap_obj,keys,return )
 
  ::Dynamic StringMap_obj::iterator(){
-            	HX_GC_STACKFRAME(&_hx_pos_898e7d3a60531855_83_iterator)
+            	HX_GC_STACKFRAME(&_hx_pos_cdf59c2a6fa2817a_83_iterator)
 HXLINE(  84)		::cpp::VirtualArray a =  ::__string_hash_values(this->h);
 HXLINE(  85)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,a);
             	}
@@ -134,7 +134,7 @@ HXLINE(  85)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,a);
 HX_DEFINE_DYNAMIC_FUNC0(StringMap_obj,iterator,return )
 
  ::Dynamic StringMap_obj::keyValueIterator(){
-            	HX_GC_STACKFRAME(&_hx_pos_898e7d3a60531855_89_keyValueIterator)
+            	HX_GC_STACKFRAME(&_hx_pos_cdf59c2a6fa2817a_89_keyValueIterator)
 HXDLIN(  89)		return  ::haxe::iterators::MapKeyValueIterator_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
             	}
 
@@ -142,7 +142,7 @@ HXDLIN(  89)		return  ::haxe::iterators::MapKeyValueIterator_obj::__alloc( HX_CT
 HX_DEFINE_DYNAMIC_FUNC0(StringMap_obj,keyValueIterator,return )
 
  ::haxe::ds::StringMap StringMap_obj::copy(){
-            	HX_GC_STACKFRAME(&_hx_pos_898e7d3a60531855_92_copy)
+            	HX_GC_STACKFRAME(&_hx_pos_cdf59c2a6fa2817a_92_copy)
 HXLINE(  93)		 ::haxe::ds::StringMap copied =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
 HXLINE(  94)		{
 HXLINE(  94)			 ::Dynamic key = this->keys();
@@ -158,7 +158,7 @@ HXLINE(  96)		return copied;
 HX_DEFINE_DYNAMIC_FUNC0(StringMap_obj,copy,return )
 
 ::String StringMap_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_898e7d3a60531855_100_toString)
+            	HX_STACKFRAME(&_hx_pos_cdf59c2a6fa2817a_100_toString)
 HXDLIN( 100)		return  ::__string_hash_to_string(this->h);
             	}
 
@@ -166,7 +166,7 @@ HXDLIN( 100)		return  ::__string_hash_to_string(this->h);
 HX_DEFINE_DYNAMIC_FUNC0(StringMap_obj,toString,return )
 
 void StringMap_obj::clear(){
-            	HX_STACKFRAME(&_hx_pos_898e7d3a60531855_105_clear)
+            	HX_STACKFRAME(&_hx_pos_cdf59c2a6fa2817a_105_clear)
 HXDLIN( 105)		 ::__string_hash_clear(this->h);
             	}
 

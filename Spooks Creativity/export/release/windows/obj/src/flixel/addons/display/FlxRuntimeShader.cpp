@@ -200,12 +200,12 @@ HX_DEFINE_DYNAMIC_FUNC1(FlxRuntimeShader_obj,processVertexSource,return )
             	HX_STACKFRAME(&_hx_pos_880c0549bfe0a230_256_buildPrecisionHeaders)
 HXLINE( 257)		::String _hx_tmp;
 HXDLIN( 257)		if (::hx::IsEq( this->precisionHint,1 )) {
-HXLINE( 257)			_hx_tmp = HX_("#ifdef GL_FRAGMENT_PRECISION_HIGH\n\t\t\t\t\tprecision highp float;\n\t\t\t\t#else\n\t\t\t\t\tprecision mediump float;\n\t\t\t\t#endif",63,45,78,18);
+HXLINE( 257)			_hx_tmp = HX_("#ifdef GL_FRAGMENT_PRECISION_HIGH\r\n\t\t\t\t\tprecision highp float;\r\n\t\t\t\t#else\r\n\t\t\t\t\tprecision mediump float;\r\n\t\t\t\t#endif",71,49,13,0e);
             		}
             		else {
 HXLINE( 257)			_hx_tmp = HX_("precision lowp float;",81,5f,ad,9a);
             		}
-HXLINE( 256)		return ((HX_("#ifdef GL_ES\n\t\t\t\t",7d,b3,ff,2f) + _hx_tmp) + HX_("\n\t\t\t\t#endif\n\t\t\t\t",ab,2a,3b,b6));
+HXLINE( 256)		return ((HX_("#ifdef GL_ES\r\n\t\t\t\t",8a,03,36,96) + _hx_tmp) + HX_("\r\n\t\t\t\t#endif\r\n\t\t\t\t",ef,f5,15,73));
             	}
 
 
@@ -1220,27 +1220,27 @@ void FlxRuntimeShader_obj::__boot()
 {
 {
             	HX_STACKFRAME(&_hx_pos_880c0549bfe0a230_35_boot)
-HXDLIN(  35)		BASE_VERTEX_HEADER = HX_("\n\t\t#pragma version\n\n\t\t#pragma precision\n\n\t\tattribute float openfl_Alpha;\n\t\tattribute vec4 openfl_ColorMultiplier;\n\t\tattribute vec4 openfl_ColorOffset;\n\t\tattribute vec4 openfl_Position;\n\t\tattribute vec2 openfl_TextureCoord;\n\t\tvarying float openfl_Alphav;\n\t\tvarying vec4 openfl_ColorMultiplierv;\n\t\tvarying vec4 openfl_ColorOffsetv;\n\t\tvarying vec2 openfl_TextureCoordv;\n\t\tuniform mat4 openfl_Matrix;\n\t\tuniform bool openfl_HasColorTransform;\n\t\tuniform vec2 openfl_TextureSize;\n\t",ba,49,b7,f0);
+HXDLIN(  35)		BASE_VERTEX_HEADER = HX_("\r\n\t\t#pragma version\r\n\r\n\t\t#pragma precision\r\n\r\n\t\tattribute float openfl_Alpha;\r\n\t\tattribute vec4 openfl_ColorMultiplier;\r\n\t\tattribute vec4 openfl_ColorOffset;\r\n\t\tattribute vec4 openfl_Position;\r\n\t\tattribute vec2 openfl_TextureCoord;\r\n\t\tvarying float openfl_Alphav;\r\n\t\tvarying vec4 openfl_ColorMultiplierv;\r\n\t\tvarying vec4 openfl_ColorOffsetv;\r\n\t\tvarying vec2 openfl_TextureCoordv;\r\n\t\tuniform mat4 openfl_Matrix;\r\n\t\tuniform bool openfl_HasColorTransform;\r\n\t\tuniform vec2 openfl_TextureSize;\r\n\t",0d,91,84,80);
             	}
 {
             	HX_STACKFRAME(&_hx_pos_880c0549bfe0a230_53_boot)
-HXDLIN(  53)		BASE_VERTEX_BODY = HX_("\n\t\topenfl_Alphav = openfl_Alpha;\n\t\topenfl_TextureCoordv = openfl_TextureCoord;\n\t\tif (openfl_HasColorTransform) {\n\t\t\topenfl_ColorMultiplierv = openfl_ColorMultiplier;\n\t\t\topenfl_ColorOffsetv = openfl_ColorOffset / 255.0;\n\t\t}\n\t\tgl_Position = openfl_Matrix * openfl_Position;\n\t",a1,96,4b,c0);
+HXDLIN(  53)		BASE_VERTEX_BODY = HX_("\r\n\t\topenfl_Alphav = openfl_Alpha;\r\n\t\topenfl_TextureCoordv = openfl_TextureCoord;\r\n\t\tif (openfl_HasColorTransform) {\r\n\t\t\topenfl_ColorMultiplierv = openfl_ColorMultiplier;\r\n\t\t\topenfl_ColorOffsetv = openfl_ColorOffset / 255.0;\r\n\t\t}\r\n\t\tgl_Position = openfl_Matrix * openfl_Position;\r\n\t",85,10,af,13);
             	}
 {
             	HX_STACKFRAME(&_hx_pos_880c0549bfe0a230_63_boot)
-HXDLIN(  63)		BASE_FRAGMENT_HEADER = (HX_("\n\t\t#pragma version\n\n\t\t#pragma precision\n\n\t\tvarying float openfl_Alphav;\n\t\tvarying vec4 openfl_ColorMultiplierv;\n\t\tvarying vec4 openfl_ColorOffsetv;\n\t\tvarying vec2 openfl_TextureCoordv;\n\t\tuniform bool openfl_HasColorTransform;\n\t\tuniform vec2 openfl_TextureSize;\n\t\tuniform sampler2D bitmap;\n\t",e6,0e,d1,27) + HX_("\n\t\tuniform bool hasTransform;\n\t\tuniform bool hasColorTransform;\n\t\tvec4 flixel_texture2D(sampler2D bitmap, vec2 coord)\n\t\t{\n\t\t\tvec4 color = texture2D(bitmap, coord);\n\t\t\tif (!hasTransform)\n\t\t\t{\n\t\t\t\treturn color;\n\t\t\t}\n\t\t\tif (color.a == 0.0)\n\t\t\t{\n\t\t\t\treturn vec4(0.0, 0.0, 0.0, 0.0);\n\t\t\t}\n\t\t\tif (!hasColorTransform)\n\t\t\t{\n\t\t\t\treturn color * openfl_Alphav;\n\t\t\t}\n\t\t\tcolor = vec4(color.rgb / color.a, color.a);\n\t\t\tmat4 colorMultiplier = mat4(0);\n\t\t\tcolorMultiplier[0][0] = openfl_ColorMultiplierv.x;\n\t\t\tcolorMultiplier[1][1] = openfl_ColorMultiplierv.y;\n\t\t\tcolorMultiplier[2][2] = openfl_ColorMultiplierv.z;\n\t\t\tcolorMultiplier[3][3] = openfl_ColorMultiplierv.w;\n\t\t\tcolor = clamp(openfl_ColorOffsetv + (color * colorMultiplier), 0.0, 1.0);\n\t\t\tif (color.a > 0.0)\n\t\t\t{\n\t\t\t\treturn vec4(color.rgb * color.a * openfl_Alphav, color.a * openfl_Alphav);\n\t\t\t}\n\t\t\treturn vec4(0.0, 0.0, 0.0, 0.0);\n\t\t}\n\t",c9,16,d4,a1));
+HXDLIN(  63)		BASE_FRAGMENT_HEADER = (HX_("\r\n\t\t#pragma version\r\n\r\n\t\t#pragma precision\r\n\r\n\t\tvarying float openfl_Alphav;\r\n\t\tvarying vec4 openfl_ColorMultiplierv;\r\n\t\tvarying vec4 openfl_ColorOffsetv;\r\n\t\tvarying vec2 openfl_TextureCoordv;\r\n\t\tuniform bool openfl_HasColorTransform;\r\n\t\tuniform vec2 openfl_TextureSize;\r\n\t\tuniform sampler2D bitmap;\r\n\t",14,91,67,ad) + HX_("\r\n\t\tuniform bool hasTransform;\r\n\t\tuniform bool hasColorTransform;\r\n\t\tvec4 flixel_texture2D(sampler2D bitmap, vec2 coord)\r\n\t\t{\r\n\t\t\tvec4 color = texture2D(bitmap, coord);\r\n\t\t\tif (!hasTransform)\r\n\t\t\t{\r\n\t\t\t\treturn color;\r\n\t\t\t}\r\n\t\t\tif (color.a == 0.0)\r\n\t\t\t{\r\n\t\t\t\treturn vec4(0.0, 0.0, 0.0, 0.0);\r\n\t\t\t}\r\n\t\t\tif (!hasColorTransform)\r\n\t\t\t{\r\n\t\t\t\treturn color * openfl_Alphav;\r\n\t\t\t}\r\n\t\t\tcolor = vec4(color.rgb / color.a, color.a);\r\n\t\t\tmat4 colorMultiplier = mat4(0);\r\n\t\t\tcolorMultiplier[0][0] = openfl_ColorMultiplierv.x;\r\n\t\t\tcolorMultiplier[1][1] = openfl_ColorMultiplierv.y;\r\n\t\t\tcolorMultiplier[2][2] = openfl_ColorMultiplierv.z;\r\n\t\t\tcolorMultiplier[3][3] = openfl_ColorMultiplierv.w;\r\n\t\t\tcolor = clamp(openfl_ColorOffsetv + (color * colorMultiplier), 0.0, 1.0);\r\n\t\t\tif (color.a > 0.0)\r\n\t\t\t{\r\n\t\t\t\treturn vec4(color.rgb * color.a * openfl_Alphav, color.a * openfl_Alphav);\r\n\t\t\t}\r\n\t\t\treturn vec4(0.0, 0.0, 0.0, 0.0);\r\n\t\t}\r\n\t",50,b8,6d,04));
             	}
 {
             	HX_STACKFRAME(&_hx_pos_880c0549bfe0a230_115_boot)
-HXDLIN( 115)		BASE_FRAGMENT_BODY = HX_("\n\t\tvec4 color = texture2D (bitmap, openfl_TextureCoordv);\n\t\tif (color.a == 0.0) {\n\t\t\tgl_FragColor = vec4 (0.0, 0.0, 0.0, 0.0);\n\t\t} else if (openfl_HasColorTransform) {\n\t\t\tcolor = vec4 (color.rgb / color.a, color.a);\n\t\t\tmat4 colorMultiplier = mat4 (0);\n\t\t\tcolorMultiplier[0][0] = openfl_ColorMultiplierv.x;\n\t\t\tcolorMultiplier[1][1] = openfl_ColorMultiplierv.y;\n\t\t\tcolorMultiplier[2][2] = openfl_ColorMultiplierv.z;\n\t\t\tcolorMultiplier[3][3] = 1.0; // openfl_ColorMultiplierv.w;\n\t\t\tcolor = clamp (openfl_ColorOffsetv + (color * colorMultiplier), 0.0, 1.0);\n\t\t\tif (color.a > 0.0) {\n\t\t\t\tgl_FragColor = vec4 (color.rgb * color.a * openfl_Alphav, color.a * openfl_Alphav);\n\t\t\t} else {\n\t\t\t\tgl_FragColor = vec4 (0.0, 0.0, 0.0, 0.0);\n\t\t\t}\n\t\t} else {\n\t\t\tgl_FragColor = color * openfl_Alphav;\n\t\t}\n\t",ba,e4,39,e5);
+HXDLIN( 115)		BASE_FRAGMENT_BODY = HX_("\r\n\t\tvec4 color = texture2D (bitmap, openfl_TextureCoordv);\r\n\t\tif (color.a == 0.0) {\r\n\t\t\tgl_FragColor = vec4 (0.0, 0.0, 0.0, 0.0);\r\n\t\t} else if (openfl_HasColorTransform) {\r\n\t\t\tcolor = vec4 (color.rgb / color.a, color.a);\r\n\t\t\tmat4 colorMultiplier = mat4 (0);\r\n\t\t\tcolorMultiplier[0][0] = openfl_ColorMultiplierv.x;\r\n\t\t\tcolorMultiplier[1][1] = openfl_ColorMultiplierv.y;\r\n\t\t\tcolorMultiplier[2][2] = openfl_ColorMultiplierv.z;\r\n\t\t\tcolorMultiplier[3][3] = 1.0; // openfl_ColorMultiplierv.w;\r\n\t\t\tcolor = clamp (openfl_ColorOffsetv + (color * colorMultiplier), 0.0, 1.0);\r\n\t\t\tif (color.a > 0.0) {\r\n\t\t\t\tgl_FragColor = vec4 (color.rgb * color.a * openfl_Alphav, color.a * openfl_Alphav);\r\n\t\t\t} else {\r\n\t\t\t\tgl_FragColor = vec4 (0.0, 0.0, 0.0, 0.0);\r\n\t\t\t}\r\n\t\t} else {\r\n\t\t\tgl_FragColor = color * openfl_Alphav;\r\n\t\t}\r\n\t",0e,50,d5,15);
             	}
 {
             	HX_STACKFRAME(&_hx_pos_880c0549bfe0a230_138_boot)
-HXDLIN( 138)		DEFAULT_FRAGMENT_SOURCE = HX_("\n\t\t#pragma header\n\t\t\n\t\tvoid main(void)\n\t\t{\n\t\t\tgl_FragColor = flixel_texture2D(bitmap, openfl_TextureCoordv);\n\t\t}\n\t",f0,1b,a7,00);
+HXDLIN( 138)		DEFAULT_FRAGMENT_SOURCE = HX_("\r\n\t\t#pragma header\r\n\t\t\r\n\t\tvoid main(void)\r\n\t\t{\r\n\t\t\tgl_FragColor = flixel_texture2D(bitmap, openfl_TextureCoordv);\r\n\t\t}\r\n\t",fb,60,b7,ce);
             	}
 {
             	HX_STACKFRAME(&_hx_pos_880c0549bfe0a230_156_boot)
-HXDLIN( 156)		DEFAULT_VERTEX_SOURCE = HX_("\n\t\t#pragma header\n\t\t\n\t\tattribute float alpha;\n\t\tattribute vec4 colorMultiplier;\n\t\tattribute vec4 colorOffset;\n\t\tuniform bool hasColorTransform;\n\t\t\n\t\tvoid main(void)\n\t\t{\n\t\t\t#pragma body\n\t\t\t\n\t\t\topenfl_Alphav = openfl_Alpha * alpha;\n\t\t\t\n\t\t\tif (hasColorTransform)\n\t\t\t{\n\t\t\t\topenfl_ColorOffsetv = colorOffset / 255.0;\n\t\t\t\topenfl_ColorMultiplierv = colorMultiplier;\n\t\t\t}\n\t\t}\n\t",74,c4,fb,f8);
+HXDLIN( 156)		DEFAULT_VERTEX_SOURCE = HX_("\r\n\t\t#pragma header\r\n\t\t\r\n\t\tattribute float alpha;\r\n\t\tattribute vec4 colorMultiplier;\r\n\t\tattribute vec4 colorOffset;\r\n\t\tuniform bool hasColorTransform;\r\n\t\t\r\n\t\tvoid main(void)\r\n\t\t{\r\n\t\t\t#pragma body\r\n\t\t\t\r\n\t\t\topenfl_Alphav = openfl_Alpha * alpha;\r\n\t\t\t\r\n\t\t\tif (hasColorTransform)\r\n\t\t\t{\r\n\t\t\t\topenfl_ColorOffsetv = colorOffset / 255.0;\r\n\t\t\t\topenfl_ColorMultiplierv = colorMultiplier;\r\n\t\t\t}\r\n\t\t}\r\n\t",ac,3d,be,ed);
             	}
 {
             	HX_STACKFRAME(&_hx_pos_880c0549bfe0a230_186_boot)

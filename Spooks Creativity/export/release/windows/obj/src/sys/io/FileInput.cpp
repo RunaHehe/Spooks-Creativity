@@ -17,15 +17,15 @@
 #include <sys/io/FileInput.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_76a1fbaa7d0781c4_33_new,"sys.io.FileInput","new",0x565591b9,"sys.io.FileInput.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/FileInput.hx",33,0xd08e00d0)
-HX_LOCAL_STACK_FRAME(_hx_pos_76a1fbaa7d0781c4_37_readByte,"sys.io.FileInput","readByte",0x25e0b585,"sys.io.FileInput.readByte","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/FileInput.hx",37,0xd08e00d0)
-HX_LOCAL_STACK_FRAME(_hx_pos_76a1fbaa7d0781c4_48_readBytes,"sys.io.FileInput","readBytes",0xfebe1f4e,"sys.io.FileInput.readBytes","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/FileInput.hx",48,0xd08e00d0)
-HX_LOCAL_STACK_FRAME(_hx_pos_76a1fbaa7d0781c4_58_close,"sys.io.FileInput","close",0x735aa151,"sys.io.FileInput.close","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/FileInput.hx",58,0xd08e00d0)
+HX_DEFINE_STACK_FRAME(_hx_pos_4d49a2b5c395a512_33_new,"sys.io.FileInput","new",0x565591b9,"sys.io.FileInput.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/FileInput.hx",33,0x54202051)
+HX_LOCAL_STACK_FRAME(_hx_pos_4d49a2b5c395a512_37_readByte,"sys.io.FileInput","readByte",0x25e0b585,"sys.io.FileInput.readByte","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/FileInput.hx",37,0x54202051)
+HX_LOCAL_STACK_FRAME(_hx_pos_4d49a2b5c395a512_48_readBytes,"sys.io.FileInput","readBytes",0xfebe1f4e,"sys.io.FileInput.readBytes","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/FileInput.hx",48,0x54202051)
+HX_LOCAL_STACK_FRAME(_hx_pos_4d49a2b5c395a512_58_close,"sys.io.FileInput","close",0x735aa151,"sys.io.FileInput.close","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/FileInput.hx",58,0x54202051)
 namespace sys{
 namespace io{
 
 void FileInput_obj::__construct( ::Dynamic f){
-            	HX_STACKFRAME(&_hx_pos_76a1fbaa7d0781c4_33_new)
+            	HX_STACKFRAME(&_hx_pos_4d49a2b5c395a512_33_new)
 HXDLIN(  33)		this->_hx___f = f;
             	}
 
@@ -49,7 +49,7 @@ bool FileInput_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 int FileInput_obj::readByte(){
-            	HX_GC_STACKFRAME(&_hx_pos_76a1fbaa7d0781c4_37_readByte)
+            	HX_GC_STACKFRAME(&_hx_pos_4d49a2b5c395a512_37_readByte)
 HXDLIN(  37)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
 HXLINE(  38)			return _hx_std_file_read_char(this->_hx___f);
@@ -77,7 +77,7 @@ HXLINE(  37)		return 0;
 
 
 int FileInput_obj::readBytes( ::haxe::io::Bytes s,int p,int l){
-            	HX_GC_STACKFRAME(&_hx_pos_76a1fbaa7d0781c4_48_readBytes)
+            	HX_GC_STACKFRAME(&_hx_pos_4d49a2b5c395a512_48_readBytes)
 HXDLIN(  48)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
 HXLINE(  49)			return _hx_std_file_read(this->_hx___f,s->b,p,l);
@@ -105,7 +105,7 @@ HXLINE(  48)		return 0;
 
 
 void FileInput_obj::close(){
-            	HX_STACKFRAME(&_hx_pos_76a1fbaa7d0781c4_58_close)
+            	HX_STACKFRAME(&_hx_pos_4d49a2b5c395a512_58_close)
 HXLINE(  59)		this->super::close();
 HXLINE(  60)		_hx_std_file_close(this->_hx___f);
             	}

@@ -63,7 +63,7 @@ class HXCPP_CLASS_ATTRIBUTES Interp_obj : public ::hx::Object
 		void initOps();
 		::Dynamic initOps_dyn();
 
-		void setVar(::String name, ::Dynamic v);
+		 ::Dynamic setVar(::String name, ::Dynamic v);
 		::Dynamic setVar_dyn();
 
 		 ::Dynamic assign( ::Dynamic e1, ::Dynamic e2);
@@ -114,6 +114,9 @@ class HXCPP_CLASS_ATTRIBUTES Interp_obj : public ::hx::Object
 		void forLoop(::String n, ::Dynamic it, ::Dynamic e);
 		::Dynamic forLoop_dyn();
 
+		bool loopRun( ::Dynamic f);
+		::Dynamic loopRun_dyn();
+
 		bool isMap( ::Dynamic o);
 		::Dynamic isMap_dyn();
 
@@ -122,6 +125,9 @@ class HXCPP_CLASS_ATTRIBUTES Interp_obj : public ::hx::Object
 
 		void setMapValue( ::Dynamic map, ::Dynamic key, ::Dynamic value);
 		::Dynamic setMapValue_dyn();
+
+		 ::Dynamic makeMap(::cpp::VirtualArray keys,::cpp::VirtualArray values);
+		::Dynamic makeMap_dyn();
 
 		virtual  ::Dynamic get( ::Dynamic o,::String f);
 		::Dynamic get_dyn();

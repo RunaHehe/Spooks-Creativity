@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_a09e6e812c61144f_30_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_f17acceeafd9582a_30_new)
 HX_DECLARE_CLASS2(sys,thread,Lock)
 
 namespace sys{
@@ -39,7 +39,7 @@ class HXCPP_CLASS_ATTRIBUTES Lock_obj : public ::hx::Object
 			Lock_obj *__this = (Lock_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(Lock_obj), true, "sys.thread.Lock"));
 			*(void **)__this = Lock_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_a09e6e812c61144f_30_new)
+            	HX_STACKFRAME(&_hx_pos_f17acceeafd9582a_30_new)
 HXDLIN(  30)		( ( ::sys::thread::Lock)(__this) )->l =  ::__hxcpp_lock_create();
             	}
 		

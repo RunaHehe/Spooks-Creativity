@@ -23,13 +23,13 @@
 #include <sys/io/FileOutput.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_00ab386cfd4f6b1d_30_getContent,"sys.io.File","getContent",0xb28b4a0e,"sys.io.File.getContent","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/File.hx",30,0x83c5b882)
-HX_LOCAL_STACK_FRAME(_hx_pos_00ab386cfd4f6b1d_33_getBytes,"sys.io.File","getBytes",0xbe457600,"sys.io.File.getBytes","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/File.hx",33,0x83c5b882)
-HX_LOCAL_STACK_FRAME(_hx_pos_00ab386cfd4f6b1d_38_saveContent,"sys.io.File","saveContent",0xa5557651,"sys.io.File.saveContent","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/File.hx",38,0x83c5b882)
-HX_LOCAL_STACK_FRAME(_hx_pos_00ab386cfd4f6b1d_44_saveBytes,"sys.io.File","saveBytes",0x6700fb83,"sys.io.File.saveBytes","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/File.hx",44,0x83c5b882)
-HX_LOCAL_STACK_FRAME(_hx_pos_00ab386cfd4f6b1d_51_read,"sys.io.File","read",0x203d07e1,"sys.io.File.read","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/File.hx",51,0x83c5b882)
-HX_LOCAL_STACK_FRAME(_hx_pos_00ab386cfd4f6b1d_55_write,"sys.io.File","write",0xfec8a9f4,"sys.io.File.write","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/File.hx",55,0x83c5b882)
-HX_LOCAL_STACK_FRAME(_hx_pos_00ab386cfd4f6b1d_69_copy,"sys.io.File","copy",0x165a7840,"sys.io.File.copy","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/File.hx",69,0x83c5b882)
+HX_LOCAL_STACK_FRAME(_hx_pos_57691c97f4384ed7_30_getContent,"sys.io.File","getContent",0xb28b4a0e,"sys.io.File.getContent","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/File.hx",30,0xd489c8a1)
+HX_LOCAL_STACK_FRAME(_hx_pos_57691c97f4384ed7_33_getBytes,"sys.io.File","getBytes",0xbe457600,"sys.io.File.getBytes","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/File.hx",33,0xd489c8a1)
+HX_LOCAL_STACK_FRAME(_hx_pos_57691c97f4384ed7_38_saveContent,"sys.io.File","saveContent",0xa5557651,"sys.io.File.saveContent","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/File.hx",38,0xd489c8a1)
+HX_LOCAL_STACK_FRAME(_hx_pos_57691c97f4384ed7_44_saveBytes,"sys.io.File","saveBytes",0x6700fb83,"sys.io.File.saveBytes","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/File.hx",44,0xd489c8a1)
+HX_LOCAL_STACK_FRAME(_hx_pos_57691c97f4384ed7_51_read,"sys.io.File","read",0x203d07e1,"sys.io.File.read","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/File.hx",51,0xd489c8a1)
+HX_LOCAL_STACK_FRAME(_hx_pos_57691c97f4384ed7_55_write,"sys.io.File","write",0xfec8a9f4,"sys.io.File.write","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/File.hx",55,0xd489c8a1)
+HX_LOCAL_STACK_FRAME(_hx_pos_57691c97f4384ed7_69_copy,"sys.io.File","copy",0x165a7840,"sys.io.File.copy","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/File.hx",69,0xd489c8a1)
 namespace sys{
 namespace io{
 
@@ -51,7 +51,7 @@ bool File_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String File_obj::getContent(::String path){
-            	HX_STACKFRAME(&_hx_pos_00ab386cfd4f6b1d_30_getContent)
+            	HX_STACKFRAME(&_hx_pos_57691c97f4384ed7_30_getContent)
 HXDLIN(  30)		return _hx_std_file_contents_string(path);
             	}
 
@@ -59,7 +59,7 @@ HXDLIN(  30)		return _hx_std_file_contents_string(path);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(File_obj,getContent,return )
 
  ::haxe::io::Bytes File_obj::getBytes(::String path){
-            	HX_STACKFRAME(&_hx_pos_00ab386cfd4f6b1d_33_getBytes)
+            	HX_STACKFRAME(&_hx_pos_57691c97f4384ed7_33_getBytes)
 HXLINE(  34)		::Array< unsigned char > data = _hx_std_file_contents_bytes(path);
 HXLINE(  35)		return ::haxe::io::Bytes_obj::ofData(data);
             	}
@@ -68,7 +68,7 @@ HXLINE(  35)		return ::haxe::io::Bytes_obj::ofData(data);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(File_obj,getBytes,return )
 
 void File_obj::saveContent(::String path,::String content){
-            	HX_STACKFRAME(&_hx_pos_00ab386cfd4f6b1d_38_saveContent)
+            	HX_STACKFRAME(&_hx_pos_57691c97f4384ed7_38_saveContent)
 HXLINE(  39)		 ::sys::io::FileOutput f = ::sys::io::File_obj::write(path,null());
 HXLINE(  40)		f->writeString(content,null());
 HXLINE(  41)		f->close();
@@ -78,7 +78,7 @@ HXLINE(  41)		f->close();
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(File_obj,saveContent,(void))
 
 void File_obj::saveBytes(::String path, ::haxe::io::Bytes bytes){
-            	HX_STACKFRAME(&_hx_pos_00ab386cfd4f6b1d_44_saveBytes)
+            	HX_STACKFRAME(&_hx_pos_57691c97f4384ed7_44_saveBytes)
 HXLINE(  45)		 ::sys::io::FileOutput f = ::sys::io::File_obj::write(path,null());
 HXLINE(  46)		f->write(bytes);
 HXLINE(  47)		f->close();
@@ -89,7 +89,7 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC2(File_obj,saveBytes,(void))
 
  ::sys::io::FileInput File_obj::read(::String path,::hx::Null< bool >  __o_binary){
             		bool binary = __o_binary.Default(true);
-            	HX_GC_STACKFRAME(&_hx_pos_00ab386cfd4f6b1d_51_read)
+            	HX_GC_STACKFRAME(&_hx_pos_57691c97f4384ed7_51_read)
 HXDLIN(  51)		::String _hx_tmp;
 HXDLIN(  51)		if (binary) {
 HXDLIN(  51)			_hx_tmp = HX_("rb",b0,63,00,00);
@@ -105,7 +105,7 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC2(File_obj,read,return )
 
  ::sys::io::FileOutput File_obj::write(::String path,::hx::Null< bool >  __o_binary){
             		bool binary = __o_binary.Default(true);
-            	HX_GC_STACKFRAME(&_hx_pos_00ab386cfd4f6b1d_55_write)
+            	HX_GC_STACKFRAME(&_hx_pos_57691c97f4384ed7_55_write)
 HXDLIN(  55)		::String _hx_tmp;
 HXDLIN(  55)		if (binary) {
 HXDLIN(  55)			_hx_tmp = HX_("wb",0b,68,00,00);
@@ -120,7 +120,7 @@ HXDLIN(  55)		return  ::sys::io::FileOutput_obj::__alloc( HX_CTX ,_hx_std_file_o
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(File_obj,write,return )
 
 void File_obj::copy(::String srcPath,::String dstPath){
-            	HX_STACKFRAME(&_hx_pos_00ab386cfd4f6b1d_69_copy)
+            	HX_STACKFRAME(&_hx_pos_57691c97f4384ed7_69_copy)
 HXLINE(  70)		 ::sys::io::FileInput s = ::sys::io::File_obj::read(srcPath,true);
 HXLINE(  71)		 ::sys::io::FileOutput d = ::sys::io::File_obj::write(dstPath,true);
 HXLINE(  72)		d->writeInput(s,null());

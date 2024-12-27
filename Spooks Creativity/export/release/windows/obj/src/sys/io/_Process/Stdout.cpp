@@ -17,15 +17,15 @@
 #include <sys/io/_Process/Stdout.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_dd7a1b7b59fdb1bb_61_new,"sys.io._Process.Stdout","new",0xc765a8f4,"sys.io._Process.Stdout.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/Process.hx",61,0xf03b38ef)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a1b7b59fdb1bb_67_readByte,"sys.io._Process.Stdout","readByte",0xa72b886a,"sys.io._Process.Stdout.readByte","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/Process.hx",67,0xf03b38ef)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a1b7b59fdb1bb_73_readBytes,"sys.io._Process.Stdout","readBytes",0x9eebd4c9,"sys.io._Process.Stdout.readBytes","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/Process.hx",73,0xf03b38ef)
+HX_DEFINE_STACK_FRAME(_hx_pos_6c81120005fbaddb_61_new,"sys.io._Process.Stdout","new",0xc765a8f4,"sys.io._Process.Stdout.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/Process.hx",61,0x19dec630)
+HX_LOCAL_STACK_FRAME(_hx_pos_6c81120005fbaddb_67_readByte,"sys.io._Process.Stdout","readByte",0xa72b886a,"sys.io._Process.Stdout.readByte","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/Process.hx",67,0x19dec630)
+HX_LOCAL_STACK_FRAME(_hx_pos_6c81120005fbaddb_73_readBytes,"sys.io._Process.Stdout","readBytes",0x9eebd4c9,"sys.io._Process.Stdout.readBytes","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/Process.hx",73,0x19dec630)
 namespace sys{
 namespace io{
 namespace _Process{
 
 void Stdout_obj::__construct( ::Dynamic p,bool out){
-            	HX_STACKFRAME(&_hx_pos_dd7a1b7b59fdb1bb_61_new)
+            	HX_STACKFRAME(&_hx_pos_6c81120005fbaddb_61_new)
 HXLINE(  62)		this->p = p;
 HXLINE(  63)		this->out = out;
 HXLINE(  64)		this->buf = ::haxe::io::Bytes_obj::alloc(1);
@@ -51,7 +51,7 @@ bool Stdout_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 int Stdout_obj::readByte(){
-            	HX_STACKFRAME(&_hx_pos_dd7a1b7b59fdb1bb_67_readByte)
+            	HX_STACKFRAME(&_hx_pos_6c81120005fbaddb_67_readByte)
 HXLINE(  68)		if ((this->readBytes(this->buf,0,1) == 0)) {
 HXLINE(  69)			HX_STACK_DO_THROW(::haxe::io::Error_obj::Blocked_dyn());
             		}
@@ -60,7 +60,7 @@ HXLINE(  70)		return ( (int)(this->buf->b->__get(0)) );
 
 
 int Stdout_obj::readBytes( ::haxe::io::Bytes str,int pos,int len){
-            	HX_GC_STACKFRAME(&_hx_pos_dd7a1b7b59fdb1bb_73_readBytes)
+            	HX_GC_STACKFRAME(&_hx_pos_6c81120005fbaddb_73_readBytes)
 HXLINE(  74)		int result;
 HXLINE(  75)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);

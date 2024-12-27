@@ -62,11 +62,29 @@
 #include <hscript/_Interp/Stop.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_f37559d470356c9e_54_new,"hscript.Interp","new",0xf7e71101,"hscript.Interp.new","hscript/Interp.hx",54,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_65_resetVariables,"hscript.Interp","resetVariables",0x6cebf7e7,"hscript.Interp.resetVariables","hscript/Interp.hx",65,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_75_resetVariables,"hscript.Interp","resetVariables",0x6cebf7e7,"hscript.Interp.resetVariables","hscript/Interp.hx",75,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_83_posInfos,"hscript.Interp","posInfos",0x444859d0,"hscript.Interp.posInfos","hscript/Interp.hx",83,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_98_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",98,0xf078416e)
+HX_DEFINE_STACK_FRAME(_hx_pos_f37559d470356c9e_48_new,"hscript.Interp","new",0xf7e71101,"hscript.Interp.new","hscript/Interp.hx",48,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_55_resetVariables,"hscript.Interp","resetVariables",0x6cebf7e7,"hscript.Interp.resetVariables","hscript/Interp.hx",55,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_60_resetVariables,"hscript.Interp","resetVariables",0x6cebf7e7,"hscript.Interp.resetVariables","hscript/Interp.hx",60,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_68_posInfos,"hscript.Interp","posInfos",0x444859d0,"hscript.Interp.posInfos","hscript/Interp.hx",68,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_79_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",79,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_80_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",80,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_81_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",81,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_82_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",82,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_83_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",83,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_84_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",84,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_85_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",85,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_86_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",86,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_87_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",87,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_88_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",88,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_89_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",89,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_90_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",90,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_91_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",91,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_92_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",92,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_93_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",93,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_94_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",94,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_95_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",95,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_96_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",96,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_97_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",97,0xf078416e)
 HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_99_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",99,0xf078416e)
 HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_100_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",100,0xf078416e)
 HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_101_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",101,0xf078416e)
@@ -80,62 +98,47 @@ HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_108_initOps,"hscript.Interp","init
 HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_109_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",109,0xf078416e)
 HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_110_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",110,0xf078416e)
 HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_111_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",111,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_112_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",112,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_113_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",113,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_114_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",114,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_115_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",115,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_116_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",116,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_118_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",118,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_119_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",119,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_120_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",120,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_121_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",121,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_122_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",122,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_123_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",123,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_124_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",124,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_125_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",125,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_126_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",126,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_127_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",127,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_128_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",128,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_129_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",129,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_91_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",91,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_133_setVar,"hscript.Interp","setVar",0xedd18664,"hscript.Interp.setVar","hscript/Interp.hx",133,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_136_assign,"hscript.Interp","assign",0xca66602e,"hscript.Interp.assign","hscript/Interp.hx",136,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_165_assignOp,"hscript.Interp","assignOp",0xf8e18cef,"hscript.Interp.assignOp","hscript/Interp.hx",165,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_163_assignOp,"hscript.Interp","assignOp",0xf8e18cef,"hscript.Interp.assignOp","hscript/Interp.hx",163,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_168_evalAssignOp,"hscript.Interp","evalAssignOp",0xa46efc2b,"hscript.Interp.evalAssignOp","hscript/Interp.hx",168,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_199_increment,"hscript.Interp","increment",0x1e81f590,"hscript.Interp.increment","hscript/Interp.hx",199,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_251_execute,"hscript.Interp","execute",0xe1c3af56,"hscript.Interp.execute","hscript/Interp.hx",251,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_263_exprReturn,"hscript.Interp","exprReturn",0x8cfbf144,"hscript.Interp.exprReturn","hscript/Interp.hx",263,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_278_duplicate,"hscript.Interp","duplicate",0x8d9a10ec,"hscript.Interp.duplicate","hscript/Interp.hx",278,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_290_restore,"hscript.Interp","restore",0x80670c6f,"hscript.Interp.restore","hscript/Interp.hx",290,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_296_error,"hscript.Interp","error",0xe68736a9,"hscript.Interp.error","hscript/Interp.hx",296,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_306_rethrow,"hscript.Interp","rethrow",0x0be155b4,"hscript.Interp.rethrow","hscript/Interp.hx",306,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_310_resolve,"hscript.Interp","resolve",0x7d16b80d,"hscript.Interp.resolve","hscript/Interp.hx",310,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_320_expr,"hscript.Interp","expr",0xec634974,"hscript.Interp.expr","hscript/Interp.hx",320,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_415_expr,"hscript.Interp","expr",0xec634974,"hscript.Interp.expr","hscript/Interp.hx",415,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_76_initOps,"hscript.Interp","initOps",0xe1420823,"hscript.Interp.initOps","hscript/Interp.hx",76,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_114_setVar,"hscript.Interp","setVar",0xedd18664,"hscript.Interp.setVar","hscript/Interp.hx",114,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_119_assign,"hscript.Interp","assign",0xca66602e,"hscript.Interp.assign","hscript/Interp.hx",119,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_148_assignOp,"hscript.Interp","assignOp",0xf8e18cef,"hscript.Interp.assignOp","hscript/Interp.hx",148,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_146_assignOp,"hscript.Interp","assignOp",0xf8e18cef,"hscript.Interp.assignOp","hscript/Interp.hx",146,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_151_evalAssignOp,"hscript.Interp","evalAssignOp",0xa46efc2b,"hscript.Interp.evalAssignOp","hscript/Interp.hx",151,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_182_increment,"hscript.Interp","increment",0x1e81f590,"hscript.Interp.increment","hscript/Interp.hx",182,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_234_execute,"hscript.Interp","execute",0xe1c3af56,"hscript.Interp.execute","hscript/Interp.hx",234,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_242_exprReturn,"hscript.Interp","exprReturn",0x8cfbf144,"hscript.Interp.exprReturn","hscript/Interp.hx",242,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_257_duplicate,"hscript.Interp","duplicate",0x8d9a10ec,"hscript.Interp.duplicate","hscript/Interp.hx",257,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_265_restore,"hscript.Interp","restore",0x80670c6f,"hscript.Interp.restore","hscript/Interp.hx",265,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_271_error,"hscript.Interp","error",0xe68736a9,"hscript.Interp.error","hscript/Interp.hx",271,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_281_rethrow,"hscript.Interp","rethrow",0x0be155b4,"hscript.Interp.rethrow","hscript/Interp.hx",281,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_285_resolve,"hscript.Interp","resolve",0x7d16b80d,"hscript.Interp.resolve","hscript/Interp.hx",285,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_292_expr,"hscript.Interp","expr",0xec634974,"hscript.Interp.expr","hscript/Interp.hx",292,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_383_expr,"hscript.Interp","expr",0xec634974,"hscript.Interp.expr","hscript/Interp.hx",383,0xf078416e)
 static const int _hx_array_data_9af07c8f_66[] = {
 	(int)0,
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_590_doWhileLoop,"hscript.Interp","doWhileLoop",0x813d4b4b,"hscript.Interp.doWhileLoop","hscript/Interp.hx",590,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_607_whileLoop,"hscript.Interp","whileLoop",0xce1b3216,"hscript.Interp.whileLoop","hscript/Interp.hx",607,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_623_makeIterator,"hscript.Interp","makeIterator",0x634d013b,"hscript.Interp.makeIterator","hscript/Interp.hx",623,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_633_forLoop,"hscript.Interp","forLoop",0xdf1ff72e,"hscript.Interp.forLoop","hscript/Interp.hx",633,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_653_isMap,"hscript.Interp","isMap",0x34ae9fb3,"hscript.Interp.isMap","hscript/Interp.hx",653,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_657_getMapValue,"hscript.Interp","getMapValue",0x1594fb8c,"hscript.Interp.getMapValue","hscript/Interp.hx",657,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_661_setMapValue,"hscript.Interp","setMapValue",0x20020298,"hscript.Interp.setMapValue","hscript/Interp.hx",661,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_664_get,"hscript.Interp","get",0xf7e1c137,"hscript.Interp.get","hscript/Interp.hx",664,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_680_set,"hscript.Interp","set",0xf7eadc43,"hscript.Interp.set","hscript/Interp.hx",680,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_687_fcall,"hscript.Interp","fcall",0x6ff6aee5,"hscript.Interp.fcall","hscript/Interp.hx",687,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_691_call,"hscript.Interp","call",0xeaff64dd,"hscript.Interp.call","hscript/Interp.hx",691,0xf078416e)
-HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_694_cnew,"hscript.Interp","cnew",0xeb093c1c,"hscript.Interp.cnew","hscript/Interp.hx",694,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_537_doWhileLoop,"hscript.Interp","doWhileLoop",0x813d4b4b,"hscript.Interp.doWhileLoop","hscript/Interp.hx",537,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_547_whileLoop,"hscript.Interp","whileLoop",0xce1b3216,"hscript.Interp.whileLoop","hscript/Interp.hx",547,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_556_makeIterator,"hscript.Interp","makeIterator",0x634d013b,"hscript.Interp.makeIterator","hscript/Interp.hx",556,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_571_forLoop,"hscript.Interp","forLoop",0xdf1ff72e,"hscript.Interp.forLoop","hscript/Interp.hx",571,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_583_loopRun,"hscript.Interp","loopRun",0x3622b468,"hscript.Interp.loopRun","hscript/Interp.hx",583,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_600_isMap,"hscript.Interp","isMap",0x34ae9fb3,"hscript.Interp.isMap","hscript/Interp.hx",600,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_604_getMapValue,"hscript.Interp","getMapValue",0x1594fb8c,"hscript.Interp.getMapValue","hscript/Interp.hx",604,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_608_setMapValue,"hscript.Interp","setMapValue",0x20020298,"hscript.Interp.setMapValue","hscript/Interp.hx",608,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_611_makeMap,"hscript.Interp","makeMap",0x71d5966f,"hscript.Interp.makeMap","hscript/Interp.hx",611,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_650_get,"hscript.Interp","get",0xf7e1c137,"hscript.Interp.get","hscript/Interp.hx",650,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_666_set,"hscript.Interp","set",0xf7eadc43,"hscript.Interp.set","hscript/Interp.hx",666,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_673_fcall,"hscript.Interp","fcall",0x6ff6aee5,"hscript.Interp.fcall","hscript/Interp.hx",673,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_677_call,"hscript.Interp","call",0xeaff64dd,"hscript.Interp.call","hscript/Interp.hx",677,0xf078416e)
+HX_LOCAL_STACK_FRAME(_hx_pos_f37559d470356c9e_680_cnew,"hscript.Interp","cnew",0xeb093c1c,"hscript.Interp.cnew","hscript/Interp.hx",680,0xf078416e)
 namespace hscript{
 
 void Interp_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_54_new)
-HXLINE(  56)		this->locals =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(  60)		this->declared = ::Array_obj< ::Dynamic>::__new();
-HXLINE(  61)		this->resetVariables();
-HXLINE(  62)		this->initOps();
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_48_new)
+HXLINE(  49)		this->locals =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(  50)		this->declared = ::Array_obj< ::Dynamic>::__new();
+HXLINE(  51)		this->resetVariables();
+HXLINE(  52)		this->initOps();
             	}
 
 Dynamic Interp_obj::__CreateEmpty() { return new Interp_obj; }
@@ -154,28 +157,28 @@ bool Interp_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Interp_obj::resetVariables(){
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_65_resetVariables)
-HXDLIN(  65)		 ::hscript::Interp _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(  67)		this->variables =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(  72)		this->variables->set(HX_("null",87,9e,0e,49),null());
-HXLINE(  73)		this->variables->set(HX_("true",4e,a7,03,4d),true);
-HXLINE(  74)		this->variables->set(HX_("false",a3,35,4f,fb),false);
-HXLINE(  75)		{
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_55_resetVariables)
+HXDLIN(  55)		 ::hscript::Interp _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(  56)		this->variables =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(  57)		this->variables->set(HX_("null",87,9e,0e,49),null());
+HXLINE(  58)		this->variables->set(HX_("true",4e,a7,03,4d),true);
+HXLINE(  59)		this->variables->set(HX_("false",a3,35,4f,fb),false);
+HXLINE(  60)		{
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::hscript::Interp,_gthis) HXARGC(1)
             			void _hx_run(::cpp::VirtualArray el){
-            				HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_75_resetVariables)
-HXLINE(  76)				 ::Dynamic inf = _gthis->posInfos();
-HXLINE(  77)				 ::Dynamic v = el->shift();
-HXLINE(  78)				if ((el->get_length() > 0)) {
-HXLINE(  78)					inf->__SetField(HX_("customParams",d7,51,18,ed),el,::hx::paccDynamic);
+            				HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_60_resetVariables)
+HXLINE(  61)				 ::Dynamic inf = _gthis->posInfos();
+HXLINE(  62)				 ::Dynamic v = el->shift();
+HXLINE(  63)				if ((el->get_length() > 0)) {
+HXLINE(  63)					inf->__SetField(HX_("customParams",d7,51,18,ed),el,::hx::paccDynamic);
             				}
-HXLINE(  79)				 ::Dynamic value = ::haxe::Log_obj::trace;
-HXDLIN(  79)				value(::Std_obj::string(v),inf);
+HXLINE(  64)				 ::Dynamic value = ::haxe::Log_obj::trace;
+HXDLIN(  64)				value(::Std_obj::string(v),inf);
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE(  75)			::Dynamic this1 = this->variables;
-HXDLIN(  75)			( ( ::haxe::ds::StringMap)(this1) )->set(HX_("trace",85,8e,1f,16),::Reflect_obj::makeVarArgs( ::Dynamic(new _hx_Closure_0(_gthis))));
+HXLINE(  60)			::Dynamic this1 = this->variables;
+HXDLIN(  60)			( ( ::haxe::ds::StringMap)(this1) )->set(HX_("trace",85,8e,1f,16),::Reflect_obj::makeVarArgs( ::Dynamic(new _hx_Closure_0(_gthis))));
             		}
             	}
 
@@ -183,13 +186,13 @@ HXDLIN(  75)			( ( ::haxe::ds::StringMap)(this1) )->set(HX_("trace",85,8e,1f,16)
 HX_DEFINE_DYNAMIC_FUNC0(Interp_obj,resetVariables,(void))
 
  ::Dynamic Interp_obj::posInfos(){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_83_posInfos)
-HXLINE(  85)		if (::hx::IsNotNull( this->curExpr )) {
-HXLINE(  86)			return  ::Dynamic(::hx::Anon_obj::Create(2)
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_68_posInfos)
+HXLINE(  70)		if (::hx::IsNotNull( this->curExpr )) {
+HXLINE(  71)			return  ::Dynamic(::hx::Anon_obj::Create(2)
             				->setFixed(0,HX_("fileName",e7,5a,43,62), ::Dynamic(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)))
             				->setFixed(1,HX_("lineNumber",dd,81,22,76), ::Dynamic(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic))));
             		}
-HXLINE(  88)		return  ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE(  73)		return  ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("fileName",e7,5a,43,62),HX_("hscript",73,8c,18,2c))
             			->setFixed(1,HX_("lineNumber",dd,81,22,76),0));
             	}
@@ -200,346 +203,356 @@ HX_DEFINE_DYNAMIC_FUNC0(Interp_obj,posInfos,return )
 void Interp_obj::initOps(){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::hscript::Interp,me) HXARGC(2)
             		 ::Dynamic _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_98_initOps)
-HXLINE(  98)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN(  98)			return (_hx_tmp + me->expr(e2));
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_79_initOps)
+HXLINE(  79)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  79)			return (_hx_tmp + me->expr(e2));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::hscript::Interp,me) HXARGC(2)
             		Float _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_99_initOps)
-HXLINE(  99)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN(  99)			return (( (Float)(_hx_tmp) ) - ( (Float)(me->expr(e2)) ));
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_80_initOps)
+HXLINE(  80)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  80)			return (( (Float)(_hx_tmp) ) - ( (Float)(me->expr(e2)) ));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::hscript::Interp,me) HXARGC(2)
             		Float _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_100_initOps)
-HXLINE( 100)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 100)			return (( (Float)(_hx_tmp) ) * ( (Float)(me->expr(e2)) ));
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_81_initOps)
+HXLINE(  81)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  81)			return (( (Float)(_hx_tmp) ) * ( (Float)(me->expr(e2)) ));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_3, ::hscript::Interp,me) HXARGC(2)
             		Float _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_101_initOps)
-HXLINE( 101)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 101)			return (( (Float)(_hx_tmp) ) / ( (Float)(me->expr(e2)) ));
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_82_initOps)
+HXLINE(  82)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  82)			return (( (Float)(_hx_tmp) ) / ( (Float)(me->expr(e2)) ));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_4, ::hscript::Interp,me) HXARGC(2)
             		Float _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_102_initOps)
-HXLINE( 102)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 102)			return ::hx::Mod(_hx_tmp,me->expr(e2));
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_83_initOps)
+HXLINE(  83)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  83)			return ::hx::Mod(_hx_tmp,me->expr(e2));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_5, ::hscript::Interp,me) HXARGC(2)
             		int _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_103_initOps)
-HXLINE( 103)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 103)			return (( (int)(_hx_tmp) ) & ( (int)(me->expr(e2)) ));
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_84_initOps)
+HXLINE(  84)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  84)			return (( (int)(_hx_tmp) ) & ( (int)(me->expr(e2)) ));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_6, ::hscript::Interp,me) HXARGC(2)
             		int _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_104_initOps)
-HXLINE( 104)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 104)			return (( (int)(_hx_tmp) ) | ( (int)(me->expr(e2)) ));
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_85_initOps)
+HXLINE(  85)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  85)			return (( (int)(_hx_tmp) ) | ( (int)(me->expr(e2)) ));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_7, ::hscript::Interp,me) HXARGC(2)
             		int _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_105_initOps)
-HXLINE( 105)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 105)			return (( (int)(_hx_tmp) ) ^ ( (int)(me->expr(e2)) ));
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_86_initOps)
+HXLINE(  86)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  86)			return (( (int)(_hx_tmp) ) ^ ( (int)(me->expr(e2)) ));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_8, ::hscript::Interp,me) HXARGC(2)
             		int _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_106_initOps)
-HXLINE( 106)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 106)			return (( (int)(_hx_tmp) ) << ( (int)(me->expr(e2)) ));
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_87_initOps)
+HXLINE(  87)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  87)			return (( (int)(_hx_tmp) ) << ( (int)(me->expr(e2)) ));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_9, ::hscript::Interp,me) HXARGC(2)
             		int _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_107_initOps)
-HXLINE( 107)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 107)			return (( (int)(_hx_tmp) ) >> ( (int)(me->expr(e2)) ));
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_88_initOps)
+HXLINE(  88)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  88)			return (( (int)(_hx_tmp) ) >> ( (int)(me->expr(e2)) ));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_10, ::hscript::Interp,me) HXARGC(2)
             		int _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_108_initOps)
-HXLINE( 108)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 108)			return ::hx::UShr(( (int)(_hx_tmp) ),( (int)(me->expr(e2)) ));
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_89_initOps)
+HXLINE(  89)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  89)			return ::hx::UShr(( (int)(_hx_tmp) ),( (int)(me->expr(e2)) ));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_11, ::hscript::Interp,me) HXARGC(2)
             		bool _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_109_initOps)
-HXLINE( 109)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 109)			return ::hx::IsEq( _hx_tmp,me->expr(e2) );
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_90_initOps)
+HXLINE(  90)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  90)			return ::hx::IsEq( _hx_tmp,me->expr(e2) );
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_12, ::hscript::Interp,me) HXARGC(2)
             		bool _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_110_initOps)
-HXLINE( 110)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 110)			return ::hx::IsNotEq( _hx_tmp,me->expr(e2) );
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_91_initOps)
+HXLINE(  91)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  91)			return ::hx::IsNotEq( _hx_tmp,me->expr(e2) );
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_13, ::hscript::Interp,me) HXARGC(2)
             		bool _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_111_initOps)
-HXLINE( 111)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 111)			return ::hx::IsGreaterEq( _hx_tmp,me->expr(e2) );
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_92_initOps)
+HXLINE(  92)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  92)			return ::hx::IsGreaterEq( _hx_tmp,me->expr(e2) );
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_14, ::hscript::Interp,me) HXARGC(2)
             		bool _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_112_initOps)
-HXLINE( 112)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 112)			return ::hx::IsLessEq( _hx_tmp,me->expr(e2) );
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_93_initOps)
+HXLINE(  93)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  93)			return ::hx::IsLessEq( _hx_tmp,me->expr(e2) );
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_15, ::hscript::Interp,me) HXARGC(2)
             		bool _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_113_initOps)
-HXLINE( 113)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 113)			return ::hx::IsGreater( _hx_tmp,me->expr(e2) );
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_94_initOps)
+HXLINE(  94)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  94)			return ::hx::IsGreater( _hx_tmp,me->expr(e2) );
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_16, ::hscript::Interp,me) HXARGC(2)
             		bool _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_114_initOps)
-HXLINE( 114)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 114)			return ::hx::IsLess( _hx_tmp,me->expr(e2) );
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_95_initOps)
+HXLINE(  95)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  95)			return ::hx::IsLess( _hx_tmp,me->expr(e2) );
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_17, ::hscript::Interp,me) HXARGC(2)
             		bool _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_115_initOps)
-HXLINE( 115)			if (::hx::IsNotEq( me->expr(e1),true )) {
-HXLINE( 115)				return ::hx::IsEq( me->expr(e2),true );
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_96_initOps)
+HXLINE(  96)			if (::hx::IsNotEq( me->expr(e1),true )) {
+HXLINE(  96)				return ::hx::IsEq( me->expr(e2),true );
             			}
             			else {
-HXLINE( 115)				return true;
+HXLINE(  96)				return true;
             			}
-HXDLIN( 115)			return false;
+HXDLIN(  96)			return false;
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_18, ::hscript::Interp,me) HXARGC(2)
             		bool _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_116_initOps)
-HXLINE( 116)			if (::hx::IsEq( me->expr(e1),true )) {
-HXLINE( 116)				return ::hx::IsEq( me->expr(e2),true );
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_97_initOps)
+HXLINE(  97)			if (::hx::IsEq( me->expr(e1),true )) {
+HXLINE(  97)				return ::hx::IsEq( me->expr(e2),true );
             			}
             			else {
-HXLINE( 116)				return false;
+HXLINE(  97)				return false;
             			}
-HXDLIN( 116)			return false;
+HXDLIN(  97)			return false;
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_19, ::hscript::Interp,me) HXARGC(2)
             		 ::IntIterator _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_118_initOps)
-HXLINE( 118)			 ::Dynamic _hx_tmp = me->expr(e1);
-HXDLIN( 118)			return  ::IntIterator_obj::__alloc( HX_CTX ,( (int)(_hx_tmp) ),( (int)(me->expr(e2)) ));
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_99_initOps)
+HXLINE(  99)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN(  99)			return  ::IntIterator_obj::__alloc( HX_CTX ,( (int)(_hx_tmp) ),( (int)(me->expr(e2)) ));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
-            		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_20) HXARGC(2)
-            		 ::Dynamic _hx_run( ::Dynamic v1, ::Dynamic v2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_119_initOps)
-HXLINE( 119)			return (v1 + v2);
+            		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_20, ::hscript::Interp,me) HXARGC(2)
+            		bool _hx_run( ::Dynamic e1, ::Dynamic e2){
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_100_initOps)
+HXLINE( 100)			 ::Dynamic _hx_tmp = me->expr(e1);
+HXDLIN( 100)			return ::Std_obj::isOfType(_hx_tmp,me->expr(e2));
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_21) HXARGC(2)
-            		Float _hx_run(Float v1,Float v2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_120_initOps)
-HXLINE( 120)			return (v1 - v2);
+            		 ::Dynamic _hx_run( ::Dynamic v1, ::Dynamic v2){
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_101_initOps)
+HXLINE( 101)			return (v1 + v2);
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_22) HXARGC(2)
             		Float _hx_run(Float v1,Float v2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_121_initOps)
-HXLINE( 121)			return (v1 * v2);
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_102_initOps)
+HXLINE( 102)			return (v1 - v2);
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_23) HXARGC(2)
             		Float _hx_run(Float v1,Float v2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_122_initOps)
-HXLINE( 122)			return (v1 / v2);
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_103_initOps)
+HXLINE( 103)			return (v1 * v2);
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_24) HXARGC(2)
             		Float _hx_run(Float v1,Float v2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_123_initOps)
-HXLINE( 123)			return ::hx::Mod(v1,v2);
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_104_initOps)
+HXLINE( 104)			return (v1 / v2);
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_25) HXARGC(2)
-            		int _hx_run(int v1,int v2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_124_initOps)
-HXLINE( 124)			return (v1 & v2);
+            		Float _hx_run(Float v1,Float v2){
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_105_initOps)
+HXLINE( 105)			return ::hx::Mod(v1,v2);
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_26) HXARGC(2)
             		int _hx_run(int v1,int v2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_125_initOps)
-HXLINE( 125)			return (v1 | v2);
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_106_initOps)
+HXLINE( 106)			return (v1 & v2);
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_27) HXARGC(2)
             		int _hx_run(int v1,int v2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_126_initOps)
-HXLINE( 126)			return (v1 ^ v2);
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_107_initOps)
+HXLINE( 107)			return (v1 | v2);
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_28) HXARGC(2)
             		int _hx_run(int v1,int v2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_127_initOps)
-HXLINE( 127)			return (v1 << v2);
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_108_initOps)
+HXLINE( 108)			return (v1 ^ v2);
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_29) HXARGC(2)
             		int _hx_run(int v1,int v2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_128_initOps)
-HXLINE( 128)			return (v1 >> v2);
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_109_initOps)
+HXLINE( 109)			return (v1 << v2);
             		}
             		HX_END_LOCAL_FUNC2(return)
 
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_30) HXARGC(2)
             		int _hx_run(int v1,int v2){
-            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_129_initOps)
-HXLINE( 129)			return ::hx::UShr(v1,v2);
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_110_initOps)
+HXLINE( 110)			return (v1 >> v2);
             		}
             		HX_END_LOCAL_FUNC2(return)
 
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_91_initOps)
-HXLINE(  92)		 ::hscript::Interp me = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE(  94)		this->binops =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(  98)		this->binops->set(HX_("+",2b,00,00,00), ::Dynamic(new _hx_Closure_0(me)));
-HXLINE(  99)		this->binops->set(HX_("-",2d,00,00,00), ::Dynamic(new _hx_Closure_1(me)));
-HXLINE( 100)		this->binops->set(HX_("*",2a,00,00,00), ::Dynamic(new _hx_Closure_2(me)));
-HXLINE( 101)		this->binops->set(HX_("/",2f,00,00,00), ::Dynamic(new _hx_Closure_3(me)));
-HXLINE( 102)		this->binops->set(HX_("%",25,00,00,00), ::Dynamic(new _hx_Closure_4(me)));
-HXLINE( 103)		this->binops->set(HX_("&",26,00,00,00), ::Dynamic(new _hx_Closure_5(me)));
-HXLINE( 104)		this->binops->set(HX_("|",7c,00,00,00), ::Dynamic(new _hx_Closure_6(me)));
-HXLINE( 105)		this->binops->set(HX_("^",5e,00,00,00), ::Dynamic(new _hx_Closure_7(me)));
-HXLINE( 106)		this->binops->set(HX_("<<",80,34,00,00), ::Dynamic(new _hx_Closure_8(me)));
-HXLINE( 107)		this->binops->set(HX_(">>",40,36,00,00), ::Dynamic(new _hx_Closure_9(me)));
-HXLINE( 108)		this->binops->set(HX_(">>>",fe,41,2f,00), ::Dynamic(new _hx_Closure_10(me)));
-HXLINE( 109)		this->binops->set(HX_("==",60,35,00,00), ::Dynamic(new _hx_Closure_11(me)));
-HXLINE( 110)		this->binops->set(HX_("!=",fc,1c,00,00), ::Dynamic(new _hx_Closure_12(me)));
-HXLINE( 111)		this->binops->set(HX_(">=",3f,36,00,00), ::Dynamic(new _hx_Closure_13(me)));
-HXLINE( 112)		this->binops->set(HX_("<=",81,34,00,00), ::Dynamic(new _hx_Closure_14(me)));
-HXLINE( 113)		this->binops->set(HX_(">",3e,00,00,00), ::Dynamic(new _hx_Closure_15(me)));
-HXLINE( 114)		this->binops->set(HX_("<",3c,00,00,00), ::Dynamic(new _hx_Closure_16(me)));
-HXLINE( 115)		this->binops->set(HX_("||",80,6c,00,00), ::Dynamic(new _hx_Closure_17(me)));
-HXLINE( 116)		this->binops->set(HX_("&&",40,21,00,00), ::Dynamic(new _hx_Closure_18(me)));
-HXLINE( 117)		this->binops->set(HX_("=",3d,00,00,00),this->assign_dyn());
-HXLINE( 118)		this->binops->set(HX_("...",ee,0f,23,00), ::Dynamic(new _hx_Closure_19(me)));
-HXLINE( 119)		this->assignOp(HX_("+=",b2,25,00,00), ::Dynamic(new _hx_Closure_20()));
-HXLINE( 120)		this->assignOp(HX_("-=",70,27,00,00), ::Dynamic(new _hx_Closure_21()));
-HXLINE( 121)		this->assignOp(HX_("*=",d3,24,00,00), ::Dynamic(new _hx_Closure_22()));
-HXLINE( 122)		this->assignOp(HX_("/=",2e,29,00,00), ::Dynamic(new _hx_Closure_23()));
-HXLINE( 123)		this->assignOp(HX_("%=",78,20,00,00), ::Dynamic(new _hx_Closure_24()));
-HXLINE( 124)		this->assignOp(HX_("&=",57,21,00,00), ::Dynamic(new _hx_Closure_25()));
-HXLINE( 125)		this->assignOp(HX_("|=",41,6c,00,00), ::Dynamic(new _hx_Closure_26()));
-HXLINE( 126)		this->assignOp(HX_("^=",1f,52,00,00), ::Dynamic(new _hx_Closure_27()));
-HXLINE( 127)		this->assignOp(HX_("<<=",bd,bb,2d,00), ::Dynamic(new _hx_Closure_28()));
-HXLINE( 128)		this->assignOp(HX_(">>=",fd,41,2f,00), ::Dynamic(new _hx_Closure_29()));
-HXLINE( 129)		this->assignOp(HX_(">>>=",7f,7c,2a,29), ::Dynamic(new _hx_Closure_30()));
+            		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_31) HXARGC(2)
+            		int _hx_run(int v1,int v2){
+            			HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_111_initOps)
+HXLINE( 111)			return ::hx::UShr(v1,v2);
+            		}
+            		HX_END_LOCAL_FUNC2(return)
+
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_76_initOps)
+HXLINE(  77)		 ::hscript::Interp me = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(  78)		this->binops =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(  79)		this->binops->set(HX_("+",2b,00,00,00), ::Dynamic(new _hx_Closure_0(me)));
+HXLINE(  80)		this->binops->set(HX_("-",2d,00,00,00), ::Dynamic(new _hx_Closure_1(me)));
+HXLINE(  81)		this->binops->set(HX_("*",2a,00,00,00), ::Dynamic(new _hx_Closure_2(me)));
+HXLINE(  82)		this->binops->set(HX_("/",2f,00,00,00), ::Dynamic(new _hx_Closure_3(me)));
+HXLINE(  83)		this->binops->set(HX_("%",25,00,00,00), ::Dynamic(new _hx_Closure_4(me)));
+HXLINE(  84)		this->binops->set(HX_("&",26,00,00,00), ::Dynamic(new _hx_Closure_5(me)));
+HXLINE(  85)		this->binops->set(HX_("|",7c,00,00,00), ::Dynamic(new _hx_Closure_6(me)));
+HXLINE(  86)		this->binops->set(HX_("^",5e,00,00,00), ::Dynamic(new _hx_Closure_7(me)));
+HXLINE(  87)		this->binops->set(HX_("<<",80,34,00,00), ::Dynamic(new _hx_Closure_8(me)));
+HXLINE(  88)		this->binops->set(HX_(">>",40,36,00,00), ::Dynamic(new _hx_Closure_9(me)));
+HXLINE(  89)		this->binops->set(HX_(">>>",fe,41,2f,00), ::Dynamic(new _hx_Closure_10(me)));
+HXLINE(  90)		this->binops->set(HX_("==",60,35,00,00), ::Dynamic(new _hx_Closure_11(me)));
+HXLINE(  91)		this->binops->set(HX_("!=",fc,1c,00,00), ::Dynamic(new _hx_Closure_12(me)));
+HXLINE(  92)		this->binops->set(HX_(">=",3f,36,00,00), ::Dynamic(new _hx_Closure_13(me)));
+HXLINE(  93)		this->binops->set(HX_("<=",81,34,00,00), ::Dynamic(new _hx_Closure_14(me)));
+HXLINE(  94)		this->binops->set(HX_(">",3e,00,00,00), ::Dynamic(new _hx_Closure_15(me)));
+HXLINE(  95)		this->binops->set(HX_("<",3c,00,00,00), ::Dynamic(new _hx_Closure_16(me)));
+HXLINE(  96)		this->binops->set(HX_("||",80,6c,00,00), ::Dynamic(new _hx_Closure_17(me)));
+HXLINE(  97)		this->binops->set(HX_("&&",40,21,00,00), ::Dynamic(new _hx_Closure_18(me)));
+HXLINE(  98)		this->binops->set(HX_("=",3d,00,00,00),this->assign_dyn());
+HXLINE(  99)		this->binops->set(HX_("...",ee,0f,23,00), ::Dynamic(new _hx_Closure_19(me)));
+HXLINE( 100)		this->binops->set(HX_("is",ea,5b,00,00), ::Dynamic(new _hx_Closure_20(me)));
+HXLINE( 101)		this->assignOp(HX_("+=",b2,25,00,00), ::Dynamic(new _hx_Closure_21()));
+HXLINE( 102)		this->assignOp(HX_("-=",70,27,00,00), ::Dynamic(new _hx_Closure_22()));
+HXLINE( 103)		this->assignOp(HX_("*=",d3,24,00,00), ::Dynamic(new _hx_Closure_23()));
+HXLINE( 104)		this->assignOp(HX_("/=",2e,29,00,00), ::Dynamic(new _hx_Closure_24()));
+HXLINE( 105)		this->assignOp(HX_("%=",78,20,00,00), ::Dynamic(new _hx_Closure_25()));
+HXLINE( 106)		this->assignOp(HX_("&=",57,21,00,00), ::Dynamic(new _hx_Closure_26()));
+HXLINE( 107)		this->assignOp(HX_("|=",41,6c,00,00), ::Dynamic(new _hx_Closure_27()));
+HXLINE( 108)		this->assignOp(HX_("^=",1f,52,00,00), ::Dynamic(new _hx_Closure_28()));
+HXLINE( 109)		this->assignOp(HX_("<<=",bd,bb,2d,00), ::Dynamic(new _hx_Closure_29()));
+HXLINE( 110)		this->assignOp(HX_(">>=",fd,41,2f,00), ::Dynamic(new _hx_Closure_30()));
+HXLINE( 111)		this->assignOp(HX_(">>>=",7f,7c,2a,29), ::Dynamic(new _hx_Closure_31()));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Interp_obj,initOps,(void))
 
-void Interp_obj::setVar(::String name, ::Dynamic v){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_133_setVar)
-HXDLIN( 133)		this->variables->set(name,v);
+ ::Dynamic Interp_obj::setVar(::String name, ::Dynamic v){
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_114_setVar)
+HXLINE( 115)		this->variables->set(name,v);
+HXLINE( 116)		return v;
             	}
 
 
-HX_DEFINE_DYNAMIC_FUNC2(Interp_obj,setVar,(void))
+HX_DEFINE_DYNAMIC_FUNC2(Interp_obj,setVar,return )
 
  ::Dynamic Interp_obj::assign( ::Dynamic e1, ::Dynamic e2){
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_136_assign)
-HXLINE( 137)		 ::Dynamic v = this->expr(e2);
-HXLINE( 138)		{
-HXLINE( 138)			 ::hscript::ExprDef _g = e1->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 138)			switch((int)(_g->_hx_getIndex())){
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_119_assign)
+HXLINE( 120)		 ::Dynamic v = this->expr(e2);
+HXLINE( 121)		{
+HXLINE( 121)			 ::hscript::ExprDef _g = e1->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 121)			switch((int)(_g->_hx_getIndex())){
             				case (int)1: {
-HXLINE( 139)					::String id = _g->_hx_getString(0);
-HXDLIN( 139)					{
-HXLINE( 140)						 ::Dynamic l = this->locals->get(id);
-HXLINE( 141)						if (::hx::IsNull( l )) {
-HXLINE( 142)							this->setVar(id,v);
+HXLINE( 122)					::String id = _g->_hx_getString(0);
+HXDLIN( 122)					{
+HXLINE( 123)						 ::Dynamic l = this->locals->get(id);
+HXLINE( 124)						if (::hx::IsNull( l )) {
+HXLINE( 125)							this->setVar(id,v);
             						}
             						else {
-HXLINE( 144)							l->__SetField(HX_("r",72,00,00,00),v,::hx::paccDynamic);
+HXLINE( 127)							l->__SetField(HX_("r",72,00,00,00),v,::hx::paccDynamic);
             						}
             					}
             				}
             				break;
             				case (int)5: {
-HXLINE( 145)					 ::Dynamic e = _g->_hx_getObject(0);
-HXDLIN( 145)					::String f = _g->_hx_getString(1);
-HXLINE( 146)					v = this->set(this->expr(e),f,v);
+HXLINE( 128)					 ::Dynamic e = _g->_hx_getObject(0);
+HXDLIN( 128)					::String f = _g->_hx_getString(1);
+HXLINE( 129)					v = this->set(this->expr(e),f,v);
             				}
             				break;
             				case (int)16: {
-HXLINE( 147)					 ::Dynamic e3 = _g->_hx_getObject(0);
-HXDLIN( 147)					 ::Dynamic index = _g->_hx_getObject(1);
-HXDLIN( 147)					{
-HXLINE( 148)						 ::Dynamic arr = this->expr(e3);
-HXLINE( 149)						 ::Dynamic index1 = this->expr(index);
-HXLINE( 150)						if (::Std_obj::isOfType(arr,::hx::ClassOf< ::haxe::IMap >())) {
-HXLINE( 151)							::haxe::IMap_obj::set( ::hx::interface_check(arr,0x09c2bd39),index1,v);
+HXLINE( 130)					 ::Dynamic e3 = _g->_hx_getObject(0);
+HXDLIN( 130)					 ::Dynamic index = _g->_hx_getObject(1);
+HXDLIN( 130)					{
+HXLINE( 131)						 ::Dynamic arr = this->expr(e3);
+HXLINE( 132)						 ::Dynamic index1 = this->expr(index);
+HXLINE( 133)						if (::Std_obj::isOfType(arr,::hx::ClassOf< ::haxe::IMap >())) {
+HXLINE( 134)							::haxe::IMap_obj::set( ::hx::interface_check(arr,0x09c2bd39),index1,v);
             						}
             						else {
-HXLINE( 154)							arr->__SetItem(( (int)(index1) ),v);
+HXLINE( 137)							arr->__SetItem(( (int)(index1) ),v);
             						}
             					}
             				}
             				break;
             				default:{
-HXLINE( 158)					 ::hscript::Error e4 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidOp(HX_("=",3d,00,00,00)),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
-HXDLIN( 158)					HX_STACK_DO_THROW(e4);
+HXLINE( 141)					 ::hscript::Error e4 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidOp(HX_("=",3d,00,00,00)),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 141)					HX_STACK_DO_THROW(e4);
             				}
             			}
             		}
-HXLINE( 160)		return v;
+HXLINE( 143)		return v;
             	}
 
 
@@ -548,213 +561,213 @@ HX_DEFINE_DYNAMIC_FUNC2(Interp_obj,assign,return )
 void Interp_obj::assignOp(::String op, ::Dynamic fop){
             		HX_BEGIN_LOCAL_FUNC_S3(::hx::LocalFunc,_hx_Closure_0,::String,op, ::hscript::Interp,me, ::Dynamic,fop) HXARGC(2)
             		 ::Dynamic _hx_run( ::Dynamic e1, ::Dynamic e2){
-            			HX_STACKFRAME(&_hx_pos_f37559d470356c9e_165_assignOp)
-HXLINE( 165)			return me->evalAssignOp(op,fop,e1,e2);
+            			HX_STACKFRAME(&_hx_pos_f37559d470356c9e_148_assignOp)
+HXLINE( 148)			return me->evalAssignOp(op,fop,e1,e2);
             		}
             		HX_END_LOCAL_FUNC2(return)
 
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_163_assignOp)
-HXLINE( 164)		 ::hscript::Interp me = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 165)		this->binops->set(op, ::Dynamic(new _hx_Closure_0(op,me,fop)));
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_146_assignOp)
+HXLINE( 147)		 ::hscript::Interp me = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 148)		this->binops->set(op, ::Dynamic(new _hx_Closure_0(op,me,fop)));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Interp_obj,assignOp,(void))
 
  ::Dynamic Interp_obj::evalAssignOp(::String op, ::Dynamic fop, ::Dynamic e1, ::Dynamic e2){
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_168_evalAssignOp)
-HXLINE( 169)		 ::Dynamic v;
-HXLINE( 170)		{
-HXLINE( 170)			 ::hscript::ExprDef _g = e1->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 170)			switch((int)(_g->_hx_getIndex())){
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_151_evalAssignOp)
+HXLINE( 152)		 ::Dynamic v;
+HXLINE( 153)		{
+HXLINE( 153)			 ::hscript::ExprDef _g = e1->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 153)			switch((int)(_g->_hx_getIndex())){
             				case (int)1: {
-HXLINE( 171)					::String id = _g->_hx_getString(0);
-HXDLIN( 171)					{
-HXLINE( 172)						 ::Dynamic l = this->locals->get(id);
-HXLINE( 173)						 ::Dynamic v1 = this->expr(e1);
-HXDLIN( 173)						v = fop(v1,this->expr(e2));
-HXLINE( 174)						if (::hx::IsNull( l )) {
-HXLINE( 175)							this->setVar(id,v);
+HXLINE( 154)					::String id = _g->_hx_getString(0);
+HXDLIN( 154)					{
+HXLINE( 155)						 ::Dynamic l = this->locals->get(id);
+HXLINE( 156)						 ::Dynamic v1 = this->expr(e1);
+HXDLIN( 156)						v = fop(v1,this->expr(e2));
+HXLINE( 157)						if (::hx::IsNull( l )) {
+HXLINE( 158)							this->setVar(id,v);
             						}
             						else {
-HXLINE( 177)							l->__SetField(HX_("r",72,00,00,00),v,::hx::paccDynamic);
+HXLINE( 160)							l->__SetField(HX_("r",72,00,00,00),v,::hx::paccDynamic);
             						}
             					}
             				}
             				break;
             				case (int)5: {
-HXLINE( 178)					 ::Dynamic e = _g->_hx_getObject(0);
-HXDLIN( 178)					::String f = _g->_hx_getString(1);
-HXDLIN( 178)					{
-HXLINE( 179)						 ::Dynamic obj = this->expr(e);
-HXLINE( 180)						 ::Dynamic v2 = this->get(obj,f);
-HXDLIN( 180)						v = fop(v2,this->expr(e2));
-HXLINE( 181)						v = this->set(obj,f,v);
+HXLINE( 161)					 ::Dynamic e = _g->_hx_getObject(0);
+HXDLIN( 161)					::String f = _g->_hx_getString(1);
+HXDLIN( 161)					{
+HXLINE( 162)						 ::Dynamic obj = this->expr(e);
+HXLINE( 163)						 ::Dynamic v2 = this->get(obj,f);
+HXDLIN( 163)						v = fop(v2,this->expr(e2));
+HXLINE( 164)						v = this->set(obj,f,v);
             					}
             				}
             				break;
             				case (int)16: {
-HXLINE( 182)					 ::Dynamic e3 = _g->_hx_getObject(0);
-HXDLIN( 182)					 ::Dynamic index = _g->_hx_getObject(1);
-HXDLIN( 182)					{
-HXLINE( 183)						 ::Dynamic arr = this->expr(e3);
-HXLINE( 184)						 ::Dynamic index1 = this->expr(index);
-HXLINE( 185)						if (::Std_obj::isOfType(arr,::hx::ClassOf< ::haxe::IMap >())) {
-HXLINE( 186)							 ::Dynamic v3 = ::haxe::IMap_obj::get( ::hx::interface_check(arr,0x09c2bd39),index1);
-HXDLIN( 186)							v = fop(v3,this->expr(e2));
-HXLINE( 187)							::haxe::IMap_obj::set( ::hx::interface_check(arr,0x09c2bd39),index1,v);
+HXLINE( 165)					 ::Dynamic e3 = _g->_hx_getObject(0);
+HXDLIN( 165)					 ::Dynamic index = _g->_hx_getObject(1);
+HXDLIN( 165)					{
+HXLINE( 166)						 ::Dynamic arr = this->expr(e3);
+HXLINE( 167)						 ::Dynamic index1 = this->expr(index);
+HXLINE( 168)						if (::Std_obj::isOfType(arr,::hx::ClassOf< ::haxe::IMap >())) {
+HXLINE( 169)							 ::Dynamic v3 = ::haxe::IMap_obj::get( ::hx::interface_check(arr,0x09c2bd39),index1);
+HXDLIN( 169)							v = fop(v3,this->expr(e2));
+HXLINE( 170)							::haxe::IMap_obj::set( ::hx::interface_check(arr,0x09c2bd39),index1,v);
             						}
             						else {
-HXLINE( 190)							 ::Dynamic arr1 = arr->__GetItem(( (int)(index1) ));
-HXDLIN( 190)							v = fop(arr1,this->expr(e2));
-HXLINE( 191)							arr->__SetItem(( (int)(index1) ),v);
+HXLINE( 173)							 ::Dynamic arr1 = arr->__GetItem(( (int)(index1) ));
+HXDLIN( 173)							v = fop(arr1,this->expr(e2));
+HXLINE( 174)							arr->__SetItem(( (int)(index1) ),v);
             						}
             					}
             				}
             				break;
             				default:{
-HXLINE( 194)					 ::hscript::Error e4 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidOp(op),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
-HXDLIN( 194)					HX_STACK_DO_THROW(e4);
+HXLINE( 177)					 ::hscript::Error e4 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidOp(op),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 177)					HX_STACK_DO_THROW(e4);
             				}
             			}
             		}
-HXLINE( 196)		return v;
+HXLINE( 179)		return v;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC4(Interp_obj,evalAssignOp,return )
 
  ::Dynamic Interp_obj::increment( ::Dynamic e,bool prefix,int delta){
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_199_increment)
-HXLINE( 201)		this->curExpr = e;
-HXLINE( 202)		 ::hscript::ExprDef e1 = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXLINE( 204)		switch((int)(e1->_hx_getIndex())){
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_182_increment)
+HXLINE( 184)		this->curExpr = e;
+HXLINE( 185)		 ::hscript::ExprDef e1 = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXLINE( 187)		switch((int)(e1->_hx_getIndex())){
             			case (int)1: {
-HXLINE( 205)				::String id = e1->_hx_getString(0);
-HXLINE( 206)				 ::Dynamic l = this->locals->get(id);
-HXLINE( 207)				 ::Dynamic v;
-HXDLIN( 207)				if (::hx::IsNull( l )) {
-HXLINE( 207)					v = this->resolve(id);
+HXLINE( 188)				::String id = e1->_hx_getString(0);
+HXLINE( 189)				 ::Dynamic l = this->locals->get(id);
+HXLINE( 190)				 ::Dynamic v;
+HXDLIN( 190)				if (::hx::IsNull( l )) {
+HXLINE( 190)					v = this->resolve(id);
             				}
             				else {
-HXLINE( 207)					v =  ::Dynamic(l->__Field(HX_("r",72,00,00,00),::hx::paccDynamic));
+HXLINE( 190)					v =  ::Dynamic(l->__Field(HX_("r",72,00,00,00),::hx::paccDynamic));
             				}
-HXLINE( 208)				if (prefix) {
-HXLINE( 209)					v = (v + delta);
-HXLINE( 210)					if (::hx::IsNull( l )) {
-HXLINE( 210)						this->setVar(id,v);
+HXLINE( 191)				if (prefix) {
+HXLINE( 192)					v = (v + delta);
+HXLINE( 193)					if (::hx::IsNull( l )) {
+HXLINE( 193)						this->setVar(id,v);
             					}
             					else {
-HXLINE( 210)						l->__SetField(HX_("r",72,00,00,00),v,::hx::paccDynamic);
+HXLINE( 193)						l->__SetField(HX_("r",72,00,00,00),v,::hx::paccDynamic);
             					}
             				}
             				else {
-HXLINE( 212)					if (::hx::IsNull( l )) {
-HXLINE( 212)						this->setVar(id,(v + delta));
+HXLINE( 195)					if (::hx::IsNull( l )) {
+HXLINE( 195)						this->setVar(id,(v + delta));
             					}
             					else {
-HXLINE( 212)						l->__SetField(HX_("r",72,00,00,00),(v + delta),::hx::paccDynamic);
+HXLINE( 195)						l->__SetField(HX_("r",72,00,00,00),(v + delta),::hx::paccDynamic);
             					}
             				}
-HXLINE( 213)				return v;
+HXLINE( 196)				return v;
             			}
             			break;
             			case (int)5: {
-HXLINE( 214)				 ::Dynamic e2 = e1->_hx_getObject(0);
-HXDLIN( 214)				::String f = e1->_hx_getString(1);
-HXLINE( 215)				 ::Dynamic obj = this->expr(e2);
-HXLINE( 216)				 ::Dynamic v1 = this->get(obj,f);
-HXLINE( 217)				if (prefix) {
-HXLINE( 218)					v1 = (v1 + delta);
-HXLINE( 219)					this->set(obj,f,v1);
+HXLINE( 197)				 ::Dynamic e2 = e1->_hx_getObject(0);
+HXDLIN( 197)				::String f = e1->_hx_getString(1);
+HXLINE( 198)				 ::Dynamic obj = this->expr(e2);
+HXLINE( 199)				 ::Dynamic v1 = this->get(obj,f);
+HXLINE( 200)				if (prefix) {
+HXLINE( 201)					v1 = (v1 + delta);
+HXLINE( 202)					this->set(obj,f,v1);
             				}
             				else {
-HXLINE( 221)					this->set(obj,f,(v1 + delta));
+HXLINE( 204)					this->set(obj,f,(v1 + delta));
             				}
-HXLINE( 222)				return v1;
+HXLINE( 205)				return v1;
             			}
             			break;
             			case (int)16: {
-HXLINE( 223)				 ::Dynamic e3 = e1->_hx_getObject(0);
-HXDLIN( 223)				 ::Dynamic index = e1->_hx_getObject(1);
-HXLINE( 224)				 ::Dynamic arr = this->expr(e3);
-HXLINE( 225)				 ::Dynamic index1 = this->expr(index);
-HXLINE( 226)				if (::Std_obj::isOfType(arr,::hx::ClassOf< ::haxe::IMap >())) {
-HXLINE( 227)					int v2 = ( (int)(::haxe::IMap_obj::get( ::hx::interface_check(arr,0x09c2bd39),index1)) );
-HXLINE( 228)					if (prefix) {
-HXLINE( 229)						v2 = (v2 + delta);
-HXLINE( 230)						::haxe::IMap_obj::set( ::hx::interface_check(arr,0x09c2bd39),index1,v2);
+HXLINE( 206)				 ::Dynamic e3 = e1->_hx_getObject(0);
+HXDLIN( 206)				 ::Dynamic index = e1->_hx_getObject(1);
+HXLINE( 207)				 ::Dynamic arr = this->expr(e3);
+HXLINE( 208)				 ::Dynamic index1 = this->expr(index);
+HXLINE( 209)				if (::Std_obj::isOfType(arr,::hx::ClassOf< ::haxe::IMap >())) {
+HXLINE( 210)					int v2 = ( (int)(::haxe::IMap_obj::get( ::hx::interface_check(arr,0x09c2bd39),index1)) );
+HXLINE( 211)					if (prefix) {
+HXLINE( 212)						v2 = (v2 + delta);
+HXLINE( 213)						::haxe::IMap_obj::set( ::hx::interface_check(arr,0x09c2bd39),index1,v2);
             					}
             					else {
-HXLINE( 233)						::haxe::IMap_obj::set( ::hx::interface_check(arr,0x09c2bd39),index1,(v2 + delta));
+HXLINE( 216)						::haxe::IMap_obj::set( ::hx::interface_check(arr,0x09c2bd39),index1,(v2 + delta));
             					}
-HXLINE( 235)					return v2;
+HXLINE( 218)					return v2;
             				}
             				else {
-HXLINE( 238)					int v3 = ( (int)(arr->__GetItem(( (int)(index1) ))) );
-HXLINE( 239)					if (prefix) {
-HXLINE( 240)						v3 = (v3 + delta);
-HXLINE( 241)						arr->__SetItem(( (int)(index1) ),v3);
+HXLINE( 221)					int v3 = ( (int)(arr->__GetItem(( (int)(index1) ))) );
+HXLINE( 222)					if (prefix) {
+HXLINE( 223)						v3 = (v3 + delta);
+HXLINE( 224)						arr->__SetItem(( (int)(index1) ),v3);
             					}
             					else {
-HXLINE( 243)						arr->__SetItem(( (int)(index1) ),(v3 + delta));
+HXLINE( 226)						arr->__SetItem(( (int)(index1) ),(v3 + delta));
             					}
-HXLINE( 244)					return v3;
+HXLINE( 227)					return v3;
             				}
             			}
             			break;
             			default:{
-HXLINE( 247)				::String e4;
-HXDLIN( 247)				if ((delta > 0)) {
-HXLINE( 247)					e4 = HX_("++",a0,25,00,00);
+HXLINE( 230)				::String e4;
+HXDLIN( 230)				if ((delta > 0)) {
+HXLINE( 230)					e4 = HX_("++",a0,25,00,00);
             				}
             				else {
-HXLINE( 247)					e4 = HX_("--",60,27,00,00);
+HXLINE( 230)					e4 = HX_("--",60,27,00,00);
             				}
-HXDLIN( 247)				 ::hscript::Error e5 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidOp(e4),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
-HXDLIN( 247)				HX_STACK_DO_THROW(e5);
+HXDLIN( 230)				 ::hscript::Error e5 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidOp(e4),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 230)				HX_STACK_DO_THROW(e5);
             			}
             		}
-HXLINE( 204)		return null();
+HXLINE( 187)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Interp_obj,increment,return )
 
  ::Dynamic Interp_obj::execute( ::Dynamic expr){
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_251_execute)
-HXLINE( 252)		this->depth = 0;
-HXLINE( 254)		this->locals =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE( 258)		this->declared = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 259)		return this->exprReturn(expr);
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_234_execute)
+HXLINE( 235)		this->depth = 0;
+HXLINE( 236)		this->locals =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE( 237)		this->declared = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 238)		return this->exprReturn(expr);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interp_obj,execute,return )
 
  ::Dynamic Interp_obj::exprReturn( ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_263_exprReturn)
-HXDLIN( 263)		try {
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_242_exprReturn)
+HXDLIN( 242)		try {
             			HX_STACK_CATCHABLE( ::hscript::_Interp::Stop, 0);
             			HX_STACK_CATCHABLE( ::haxe::ValueException, 1);
-HXLINE( 264)			return this->expr(e);
+HXLINE( 243)			return this->expr(e);
             		} catch( ::Dynamic _hx_e) {
             			if (_hx_e.IsClass<  ::hscript::_Interp::Stop >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::hscript::_Interp::Stop e11 = _hx_e;
-HXLINE( 266)				switch((int)(e11->_hx_getIndex())){
+HXLINE( 245)				switch((int)(e11->_hx_getIndex())){
             					case (int)0: {
-HXLINE( 267)						HX_STACK_DO_THROW(HX_("Invalid break",b6,ee,24,9d));
+HXLINE( 246)						HX_STACK_DO_THROW(HX_("Invalid break",b6,ee,24,9d));
             					}
             					break;
             					case (int)1: {
-HXLINE( 268)						HX_STACK_DO_THROW(HX_("Invalid continue",d0,6a,b7,3f));
+HXLINE( 247)						HX_STACK_DO_THROW(HX_("Invalid continue",d0,6a,b7,3f));
             					}
             					break;
             					case (int)2: {
-HXLINE( 270)						 ::Dynamic v1 = this->returnValue;
-HXLINE( 271)						this->returnValue = null();
-HXLINE( 272)						return v1;
+HXLINE( 249)						 ::Dynamic v1 = this->returnValue;
+HXLINE( 250)						this->returnValue = null();
+HXLINE( 251)						return v1;
             					}
             					break;
             				}
@@ -762,63 +775,63 @@ HXLINE( 272)						return v1;
             			else if (_hx_e.IsClass<  ::haxe::ValueException >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::haxe::ValueException _g = _hx_e;
-HXLINE( 265)				{
-HXLINE( 265)					null();
+HXLINE( 244)				{
+HXLINE( 244)					null();
             				}
-HXLINE( 263)				if (::Std_obj::isOfType(_g->value,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
-HXLINE( 265)					 ::hscript::_Interp::Stop e11 = _g->value;
-HXLINE( 266)					switch((int)(e11->_hx_getIndex())){
+HXLINE( 242)				if (::Std_obj::isOfType(_g->value,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
+HXLINE( 244)					 ::hscript::_Interp::Stop e11 = _g->value;
+HXLINE( 245)					switch((int)(e11->_hx_getIndex())){
             						case (int)0: {
-HXLINE( 267)							HX_STACK_DO_THROW(HX_("Invalid break",b6,ee,24,9d));
+HXLINE( 246)							HX_STACK_DO_THROW(HX_("Invalid break",b6,ee,24,9d));
             						}
             						break;
             						case (int)1: {
-HXLINE( 268)							HX_STACK_DO_THROW(HX_("Invalid continue",d0,6a,b7,3f));
+HXLINE( 247)							HX_STACK_DO_THROW(HX_("Invalid continue",d0,6a,b7,3f));
             						}
             						break;
             						case (int)2: {
-HXLINE( 270)							 ::Dynamic v1 = this->returnValue;
-HXLINE( 271)							this->returnValue = null();
-HXLINE( 272)							return v1;
+HXLINE( 249)							 ::Dynamic v1 = this->returnValue;
+HXLINE( 250)							this->returnValue = null();
+HXLINE( 251)							return v1;
             						}
             						break;
             					}
             				}
             				else {
-HXDLIN( 263)					HX_STACK_DO_THROW(_g);
+HXDLIN( 242)					HX_STACK_DO_THROW(_g);
             				}
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
             			}
             		}
-HXDLIN( 263)		return null();
+HXDLIN( 242)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interp_obj,exprReturn,return )
 
  ::haxe::ds::StringMap Interp_obj::duplicate( ::haxe::ds::StringMap h){
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_278_duplicate)
-HXLINE( 280)		 ::haxe::ds::StringMap h2 =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE( 284)		{
-HXLINE( 284)			 ::Dynamic k = h->keys();
-HXDLIN( 284)			while(( (bool)(k->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 284)				::String k1 = ( (::String)(k->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE( 285)				h2->set(k1,h->get(k1));
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_257_duplicate)
+HXLINE( 258)		 ::haxe::ds::StringMap h2 =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE( 259)		{
+HXLINE( 259)			 ::Dynamic k = h->keys();
+HXDLIN( 259)			while(( (bool)(k->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 259)				::String k1 = ( (::String)(k->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE( 260)				h2->set(k1,h->get(k1));
             			}
             		}
-HXLINE( 286)		return h2;
+HXLINE( 261)		return h2;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interp_obj,duplicate,return )
 
 void Interp_obj::restore(int old){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_290_restore)
-HXDLIN( 290)		while((this->declared->length > old)){
-HXLINE( 291)			 ::Dynamic d = this->declared->pop();
-HXLINE( 292)			this->locals->set(( (::String)(d->__Field(HX_("n",6e,00,00,00),::hx::paccDynamic)) ), ::Dynamic(d->__Field(HX_("old",a7,98,54,00),::hx::paccDynamic)));
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_265_restore)
+HXDLIN( 265)		while((this->declared->length > old)){
+HXLINE( 266)			 ::Dynamic d = this->declared->pop();
+HXLINE( 267)			this->locals->set(( (::String)(d->__Field(HX_("n",6e,00,00,00),::hx::paccDynamic)) ), ::Dynamic(d->__Field(HX_("old",a7,98,54,00),::hx::paccDynamic)));
             		}
             	}
 
@@ -827,323 +840,324 @@ HX_DEFINE_DYNAMIC_FUNC1(Interp_obj,restore,(void))
 
  ::Dynamic Interp_obj::error( ::hscript::ErrorDef e,::hx::Null< bool >  __o_rethrow){
             		bool rethrow = __o_rethrow.Default(false);
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_296_error)
-HXLINE( 297)		 ::hscript::Error e1 =  ::hscript::Error_obj::__alloc( HX_CTX ,e,( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
-HXLINE( 298)		if (rethrow) {
-HXLINE( 298)			HX_STACK_DO_THROW(e1);
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_271_error)
+HXLINE( 272)		 ::hscript::Error e1 =  ::hscript::Error_obj::__alloc( HX_CTX ,e,( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXLINE( 273)		if (rethrow) {
+HXLINE( 273)			HX_STACK_DO_THROW(e1);
             		}
             		else {
-HXLINE( 298)			HX_STACK_DO_THROW(e1);
+HXLINE( 273)			HX_STACK_DO_THROW(e1);
             		}
-HXDLIN( 298)		return null();
+HXDLIN( 273)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Interp_obj,error,return )
 
 void Interp_obj::rethrow( ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_306_rethrow)
-HXDLIN( 306)		HX_STACK_DO_THROW(e);
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_281_rethrow)
+HXDLIN( 281)		HX_STACK_DO_THROW(e);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interp_obj,rethrow,(void))
 
  ::Dynamic Interp_obj::resolve(::String id){
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_310_resolve)
-HXLINE( 311)		 ::Dynamic l = this->locals->get(id);
-HXLINE( 312)		if (::hx::IsNotNull( l )) {
-HXLINE( 313)			return  ::Dynamic(l->__Field(HX_("r",72,00,00,00),::hx::paccDynamic));
-            		}
-HXLINE( 314)		 ::Dynamic v = this->variables->get(id);
-HXLINE( 315)		bool _hx_tmp;
-HXDLIN( 315)		if (::hx::IsNull( v )) {
-HXLINE( 315)			_hx_tmp = !(this->variables->exists(id));
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_285_resolve)
+HXLINE( 286)		 ::Dynamic v = this->variables->get(id);
+HXLINE( 287)		bool _hx_tmp;
+HXDLIN( 287)		if (::hx::IsNull( v )) {
+HXLINE( 287)			_hx_tmp = !(this->variables->exists(id));
             		}
             		else {
-HXLINE( 315)			_hx_tmp = false;
+HXLINE( 287)			_hx_tmp = false;
             		}
-HXDLIN( 315)		if (_hx_tmp) {
-HXLINE( 316)			 ::hscript::Error e =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EUnknownVariable(id),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
-HXDLIN( 316)			HX_STACK_DO_THROW(e);
+HXDLIN( 287)		if (_hx_tmp) {
+HXLINE( 288)			 ::hscript::Error e =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EUnknownVariable(id),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 288)			HX_STACK_DO_THROW(e);
             		}
-HXLINE( 317)		return v;
+HXLINE( 289)		return v;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interp_obj,resolve,return )
 
  ::Dynamic Interp_obj::expr( ::Dynamic e){
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_320_expr)
-HXDLIN( 320)		 ::hscript::Interp _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 322)		this->curExpr = e;
-HXLINE( 323)		 ::hscript::ExprDef e1 = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXLINE( 325)		switch((int)(e1->_hx_getIndex())){
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_292_expr)
+HXDLIN( 292)		 ::hscript::Interp _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 294)		this->curExpr = e;
+HXLINE( 295)		 ::hscript::ExprDef e1 = e->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXLINE( 297)		switch((int)(e1->_hx_getIndex())){
             			case (int)0: {
-HXLINE( 326)				 ::hscript::Const c = e1->_hx_getObject(0).StaticCast<  ::hscript::Const >();
-HXLINE( 327)				switch((int)(c->_hx_getIndex())){
+HXLINE( 298)				 ::hscript::Const c = e1->_hx_getObject(0).StaticCast<  ::hscript::Const >();
+HXLINE( 299)				switch((int)(c->_hx_getIndex())){
             					case (int)0: {
-HXLINE( 328)						int v = c->_hx_getInt(0);
-HXDLIN( 328)						return v;
+HXLINE( 300)						int v = c->_hx_getInt(0);
+HXDLIN( 300)						return v;
             					}
             					break;
             					case (int)1: {
-HXLINE( 329)						Float f = c->_hx_getFloat(0);
-HXDLIN( 329)						return f;
+HXLINE( 301)						Float f = c->_hx_getFloat(0);
+HXDLIN( 301)						return f;
             					}
             					break;
             					case (int)2: {
-HXLINE( 330)						::String s = c->_hx_getString(0);
-HXDLIN( 330)						return s;
+HXLINE( 302)						::String s = c->_hx_getString(0);
+HXDLIN( 302)						return s;
             					}
             					break;
             				}
             			}
             			break;
             			case (int)1: {
-HXLINE( 335)				::String id = e1->_hx_getString(0);
-HXLINE( 336)				return this->resolve(id);
+HXLINE( 304)				::String id = e1->_hx_getString(0);
+HXLINE( 305)				 ::Dynamic l = this->locals->get(id);
+HXLINE( 306)				if (::hx::IsNotNull( l )) {
+HXLINE( 307)					return  ::Dynamic(l->__Field(HX_("r",72,00,00,00),::hx::paccDynamic));
+            				}
+HXLINE( 308)				return this->resolve(id);
             			}
             			break;
             			case (int)2: {
-HXLINE( 337)				 ::hscript::CType _g = e1->_hx_getObject(1).StaticCast<  ::hscript::CType >();
-HXDLIN( 337)				::String n = e1->_hx_getString(0);
-HXDLIN( 337)				 ::Dynamic e2 = e1->_hx_getObject(2);
-HXLINE( 338)				::Array< ::Dynamic> _hx_tmp = this->declared;
-HXDLIN( 338)				_hx_tmp->push( ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE( 309)				 ::hscript::CType _g = e1->_hx_getObject(1).StaticCast<  ::hscript::CType >();
+HXDLIN( 309)				::String n = e1->_hx_getString(0);
+HXDLIN( 309)				 ::Dynamic e2 = e1->_hx_getObject(2);
+HXLINE( 310)				::Array< ::Dynamic> _hx_tmp = this->declared;
+HXDLIN( 310)				_hx_tmp->push( ::Dynamic(::hx::Anon_obj::Create(2)
             					->setFixed(0,HX_("n",6e,00,00,00),n)
             					->setFixed(1,HX_("old",a7,98,54,00),this->locals->get(n))));
-HXLINE( 339)				{
-HXLINE( 339)					::Dynamic this1 = this->locals;
-HXDLIN( 339)					 ::Dynamic value;
-HXDLIN( 339)					if (::hx::IsNull( e2 )) {
-HXLINE( 339)						value = null();
+HXLINE( 311)				{
+HXLINE( 311)					::Dynamic this1 = this->locals;
+HXDLIN( 311)					 ::Dynamic value;
+HXDLIN( 311)					if (::hx::IsNull( e2 )) {
+HXLINE( 311)						value = null();
             					}
             					else {
-HXLINE( 339)						value = this->expr(e2);
+HXLINE( 311)						value = this->expr(e2);
             					}
-HXDLIN( 339)					( ( ::haxe::ds::StringMap)(this1) )->set(n, ::Dynamic(::hx::Anon_obj::Create(1)
+HXDLIN( 311)					( ( ::haxe::ds::StringMap)(this1) )->set(n, ::Dynamic(::hx::Anon_obj::Create(1)
             						->setFixed(0,HX_("r",72,00,00,00),value)));
             				}
-HXLINE( 340)				return null();
+HXLINE( 312)				return null();
             			}
             			break;
             			case (int)3: {
-HXLINE( 341)				 ::Dynamic e3 = e1->_hx_getObject(0);
-HXLINE( 342)				return this->expr(e3);
+HXLINE( 313)				 ::Dynamic e3 = e1->_hx_getObject(0);
+HXLINE( 314)				return this->expr(e3);
             			}
             			break;
             			case (int)4: {
-HXLINE( 343)				::Array< ::Dynamic> exprs = e1->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
-HXLINE( 344)				int old = this->declared->length;
-HXLINE( 345)				 ::Dynamic v1 = null();
-HXLINE( 346)				{
-HXLINE( 346)					int _g1 = 0;
-HXDLIN( 346)					while((_g1 < exprs->length)){
-HXLINE( 346)						 ::Dynamic e4 = exprs->__get(_g1);
-HXDLIN( 346)						_g1 = (_g1 + 1);
-HXLINE( 347)						v1 = this->expr(e4);
+HXLINE( 315)				::Array< ::Dynamic> exprs = e1->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
+HXLINE( 316)				int old = this->declared->length;
+HXLINE( 317)				 ::Dynamic v1 = null();
+HXLINE( 318)				{
+HXLINE( 318)					int _g1 = 0;
+HXDLIN( 318)					while((_g1 < exprs->length)){
+HXLINE( 318)						 ::Dynamic e4 = exprs->__get(_g1);
+HXDLIN( 318)						_g1 = (_g1 + 1);
+HXLINE( 319)						v1 = this->expr(e4);
             					}
             				}
-HXLINE( 348)				this->restore(old);
-HXLINE( 349)				return v1;
+HXLINE( 320)				this->restore(old);
+HXLINE( 321)				return v1;
             			}
             			break;
             			case (int)5: {
-HXLINE( 350)				 ::Dynamic e5 = e1->_hx_getObject(0);
-HXDLIN( 350)				::String f1 = e1->_hx_getString(1);
-HXLINE( 351)				return this->get(this->expr(e5),f1);
+HXLINE( 322)				 ::Dynamic e5 = e1->_hx_getObject(0);
+HXDLIN( 322)				::String f1 = e1->_hx_getString(1);
+HXLINE( 323)				return this->get(this->expr(e5),f1);
             			}
             			break;
             			case (int)6: {
-HXLINE( 352)				::String op = e1->_hx_getString(0);
-HXDLIN( 352)				 ::Dynamic e11 = e1->_hx_getObject(1);
-HXDLIN( 352)				 ::Dynamic e21 = e1->_hx_getObject(2);
-HXLINE( 353)				 ::Dynamic fop = this->binops->get(op);
-HXLINE( 354)				if (::hx::IsNull( fop )) {
-HXLINE( 354)					 ::hscript::Error e6 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidOp(op),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
-HXDLIN( 354)					HX_STACK_DO_THROW(e6);
+HXLINE( 324)				::String op = e1->_hx_getString(0);
+HXDLIN( 324)				 ::Dynamic e11 = e1->_hx_getObject(1);
+HXDLIN( 324)				 ::Dynamic e21 = e1->_hx_getObject(2);
+HXLINE( 325)				 ::Dynamic fop = this->binops->get(op);
+HXLINE( 326)				if (::hx::IsNull( fop )) {
+HXLINE( 326)					 ::hscript::Error e6 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidOp(op),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 326)					HX_STACK_DO_THROW(e6);
             				}
-HXLINE( 355)				return fop(e11,e21);
+HXLINE( 327)				return fop(e11,e21);
             			}
             			break;
             			case (int)7: {
-HXLINE( 356)				::String op1 = e1->_hx_getString(0);
-HXDLIN( 356)				bool prefix = e1->_hx_getBool(1);
-HXDLIN( 356)				 ::Dynamic e7 = e1->_hx_getObject(2);
-HXLINE( 357)				::String _hx_switch_0 = op1;
+HXLINE( 328)				::String op1 = e1->_hx_getString(0);
+HXDLIN( 328)				bool prefix = e1->_hx_getBool(1);
+HXDLIN( 328)				 ::Dynamic e7 = e1->_hx_getObject(2);
+HXLINE( 329)				::String _hx_switch_0 = op1;
             				if (  (_hx_switch_0==HX_("!",21,00,00,00)) ){
-HXLINE( 359)					return ::hx::IsNotEq( this->expr(e7),true );
-HXDLIN( 359)					goto _hx_goto_52;
+HXLINE( 331)					return ::hx::IsNotEq( this->expr(e7),true );
+HXDLIN( 331)					goto _hx_goto_53;
             				}
             				if (  (_hx_switch_0==HX_("++",a0,25,00,00)) ){
-HXLINE( 363)					return this->increment(e7,prefix,1);
-HXDLIN( 363)					goto _hx_goto_52;
+HXLINE( 335)					return this->increment(e7,prefix,1);
+HXDLIN( 335)					goto _hx_goto_53;
             				}
             				if (  (_hx_switch_0==HX_("-",2d,00,00,00)) ){
-HXLINE( 361)					return -(this->expr(e7));
-HXDLIN( 361)					goto _hx_goto_52;
+HXLINE( 333)					return -(this->expr(e7));
+HXDLIN( 333)					goto _hx_goto_53;
             				}
             				if (  (_hx_switch_0==HX_("--",60,27,00,00)) ){
-HXLINE( 365)					return this->increment(e7,prefix,-1);
-HXDLIN( 365)					goto _hx_goto_52;
+HXLINE( 337)					return this->increment(e7,prefix,-1);
+HXDLIN( 337)					goto _hx_goto_53;
             				}
             				if (  (_hx_switch_0==HX_("~",7e,00,00,00)) ){
-HXLINE( 370)					return ~(( (int)(this->expr(e7)) ));
-HXDLIN( 370)					goto _hx_goto_52;
+HXLINE( 339)					return ~(( (int)(this->expr(e7)) ));
+HXDLIN( 339)					goto _hx_goto_53;
             				}
             				/* default */{
-HXLINE( 373)					 ::hscript::Error e8 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidOp(op1),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
-HXDLIN( 373)					HX_STACK_DO_THROW(e8);
+HXLINE( 341)					 ::hscript::Error e8 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidOp(op1),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 341)					HX_STACK_DO_THROW(e8);
             				}
-            				_hx_goto_52:;
+            				_hx_goto_53:;
             			}
             			break;
             			case (int)8: {
-HXLINE( 375)				 ::Dynamic e9 = e1->_hx_getObject(0);
-HXDLIN( 375)				::Array< ::Dynamic> params = e1->_hx_getObject(1).StaticCast< ::Array< ::Dynamic> >();
-HXLINE( 376)				::cpp::VirtualArray args = ::cpp::VirtualArray_obj::__new();
-HXLINE( 377)				{
-HXLINE( 377)					int _g2 = 0;
-HXDLIN( 377)					while((_g2 < params->length)){
-HXLINE( 377)						 ::Dynamic p = params->__get(_g2);
-HXDLIN( 377)						_g2 = (_g2 + 1);
-HXLINE( 378)						args->push(this->expr(p));
+HXLINE( 343)				 ::Dynamic e9 = e1->_hx_getObject(0);
+HXDLIN( 343)				::Array< ::Dynamic> params = e1->_hx_getObject(1).StaticCast< ::Array< ::Dynamic> >();
+HXLINE( 344)				::cpp::VirtualArray args = ::cpp::VirtualArray_obj::__new();
+HXLINE( 345)				{
+HXLINE( 345)					int _g2 = 0;
+HXDLIN( 345)					while((_g2 < params->length)){
+HXLINE( 345)						 ::Dynamic p = params->__get(_g2);
+HXDLIN( 345)						_g2 = (_g2 + 1);
+HXLINE( 346)						args->push(this->expr(p));
             					}
             				}
-HXLINE( 380)				 ::hscript::ExprDef _g3 = e9->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 380)				if ((_g3->_hx_getIndex() == 5)) {
-HXLINE( 381)					 ::Dynamic e10 = _g3->_hx_getObject(0);
-HXDLIN( 381)					::String f2 = _g3->_hx_getString(1);
-HXLINE( 382)					 ::Dynamic obj = this->expr(e10);
-HXLINE( 383)					if (::hx::IsNull( obj )) {
-HXLINE( 383)						 ::hscript::Error e12 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidAccess(f2),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
-HXDLIN( 383)						HX_STACK_DO_THROW(e12);
+HXLINE( 348)				 ::hscript::ExprDef _g3 = e9->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 348)				if ((_g3->_hx_getIndex() == 5)) {
+HXLINE( 349)					 ::Dynamic e10 = _g3->_hx_getObject(0);
+HXDLIN( 349)					::String f2 = _g3->_hx_getString(1);
+HXLINE( 350)					 ::Dynamic obj = this->expr(e10);
+HXLINE( 351)					if (::hx::IsNull( obj )) {
+HXLINE( 351)						 ::hscript::Error e12 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidAccess(f2),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 351)						HX_STACK_DO_THROW(e12);
             					}
-HXLINE( 384)					return this->fcall(obj,f2,args);
+HXLINE( 352)					return this->fcall(obj,f2,args);
             				}
             				else {
-HXLINE( 386)					return this->call(null(),this->expr(e9),args);
+HXLINE( 354)					return this->call(null(),this->expr(e9),args);
             				}
             			}
             			break;
             			case (int)9: {
-HXLINE( 388)				 ::Dynamic econd = e1->_hx_getObject(0);
-HXDLIN( 388)				 ::Dynamic e13 = e1->_hx_getObject(1);
-HXDLIN( 388)				 ::Dynamic e22 = e1->_hx_getObject(2);
-HXLINE( 389)				if (::hx::IsEq( this->expr(econd),true )) {
-HXLINE( 389)					return this->expr(e13);
+HXLINE( 356)				 ::Dynamic econd = e1->_hx_getObject(0);
+HXDLIN( 356)				 ::Dynamic e13 = e1->_hx_getObject(1);
+HXDLIN( 356)				 ::Dynamic e22 = e1->_hx_getObject(2);
+HXLINE( 357)				if (::hx::IsEq( this->expr(econd),true )) {
+HXLINE( 357)					return this->expr(e13);
             				}
             				else {
-HXLINE( 389)					if (::hx::IsNull( e22 )) {
-HXLINE( 389)						return null();
+HXLINE( 357)					if (::hx::IsNull( e22 )) {
+HXLINE( 357)						return null();
             					}
             					else {
-HXLINE( 389)						return this->expr(e22);
+HXLINE( 357)						return this->expr(e22);
             					}
             				}
             			}
             			break;
             			case (int)10: {
-HXLINE( 390)				 ::Dynamic econd1 = e1->_hx_getObject(0);
-HXDLIN( 390)				 ::Dynamic e14 = e1->_hx_getObject(1);
-HXLINE( 391)				this->whileLoop(econd1,e14);
-HXLINE( 392)				return null();
+HXLINE( 358)				 ::Dynamic econd1 = e1->_hx_getObject(0);
+HXDLIN( 358)				 ::Dynamic e14 = e1->_hx_getObject(1);
+HXLINE( 359)				this->whileLoop(econd1,e14);
+HXLINE( 360)				return null();
             			}
             			break;
             			case (int)11: {
-HXLINE( 396)				::String v2 = e1->_hx_getString(0);
-HXDLIN( 396)				 ::Dynamic it = e1->_hx_getObject(1);
-HXDLIN( 396)				 ::Dynamic e15 = e1->_hx_getObject(2);
-HXLINE( 397)				this->forLoop(v2,it,e15);
-HXLINE( 398)				return null();
+HXLINE( 364)				::String v2 = e1->_hx_getString(0);
+HXDLIN( 364)				 ::Dynamic it = e1->_hx_getObject(1);
+HXDLIN( 364)				 ::Dynamic e15 = e1->_hx_getObject(2);
+HXLINE( 365)				this->forLoop(v2,it,e15);
+HXLINE( 366)				return null();
             			}
             			break;
             			case (int)12: {
-HXLINE( 400)				HX_STACK_DO_THROW(::hscript::_Interp::Stop_obj::SBreak_dyn());
+HXLINE( 368)				HX_STACK_DO_THROW(::hscript::_Interp::Stop_obj::SBreak_dyn());
             			}
             			break;
             			case (int)13: {
-HXLINE( 402)				HX_STACK_DO_THROW(::hscript::_Interp::Stop_obj::SContinue_dyn());
+HXLINE( 370)				HX_STACK_DO_THROW(::hscript::_Interp::Stop_obj::SContinue_dyn());
             			}
             			break;
             			case (int)14: {
             				HX_BEGIN_LOCAL_FUNC_S7(::hx::LocalFunc,_hx_Closure_0,::String,name, ::Dynamic,fexpr, ::hscript::Interp,_gthis,::Array< int >,minParams, ::hscript::Interp,me, ::haxe::ds::StringMap,capturedLocals,::Array< ::Dynamic>,params1) HXARGC(1)
             				 ::Dynamic _hx_run(::cpp::VirtualArray args){
-            					HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_415_expr)
-HXLINE( 416)					int f;
-HXDLIN( 416)					if (::hx::IsNull( args )) {
-HXLINE( 416)						f = 0;
+            					HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_383_expr)
+HXLINE( 384)					int f;
+HXDLIN( 384)					if (::hx::IsNull( args )) {
+HXLINE( 384)						f = 0;
             					}
             					else {
-HXLINE( 416)						f = args->get_length();
+HXLINE( 384)						f = args->get_length();
             					}
-HXDLIN( 416)					if ((f != params1->length)) {
-HXLINE( 417)						if ((args->get_length() < minParams->__get(0))) {
-HXLINE( 418)							::String str = (((HX_("Invalid number of parameters. Got ",cb,2b,d9,b1) + args->get_length()) + HX_(", required ",ed,0c,66,93)) + minParams->__get(0));
-HXLINE( 419)							if (::hx::IsNotNull( name )) {
-HXLINE( 419)								str = (str + ((HX_(" for function '",f6,90,ab,a0) + name) + HX_("'",27,00,00,00)));
+HXDLIN( 384)					if ((f != params1->length)) {
+HXLINE( 385)						if ((args->get_length() < minParams->__get(0))) {
+HXLINE( 386)							::String str = (((HX_("Invalid number of parameters. Got ",cb,2b,d9,b1) + args->get_length()) + HX_(", required ",ed,0c,66,93)) + minParams->__get(0));
+HXLINE( 387)							if (::hx::IsNotNull( name )) {
+HXLINE( 387)								str = (str + ((HX_(" for function '",f6,90,ab,a0) + name) + HX_("'",27,00,00,00)));
             							}
-HXLINE( 420)							 ::hscript::Error e =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::ECustom(str),( (int)(_gthis->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(_gthis->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(_gthis->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(_gthis->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
-HXDLIN( 420)							HX_STACK_DO_THROW(e);
+HXLINE( 388)							 ::hscript::Error e =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::ECustom(str),( (int)(_gthis->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(_gthis->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(_gthis->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(_gthis->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 388)							HX_STACK_DO_THROW(e);
             						}
-HXLINE( 423)						::cpp::VirtualArray args2 = ::cpp::VirtualArray_obj::__new(0);
-HXLINE( 424)						int extraParams = (args->get_length() - minParams->__get(0));
-HXLINE( 425)						int pos = 0;
-HXLINE( 426)						{
-HXLINE( 426)							int _g = 0;
-HXDLIN( 426)							while((_g < params1->length)){
-HXLINE( 426)								 ::Dynamic p = params1->__get(_g);
-HXDLIN( 426)								_g = (_g + 1);
-HXLINE( 427)								if (( (bool)(p->__Field(HX_("opt",33,9c,54,00),::hx::paccDynamic)) )) {
-HXLINE( 428)									if ((extraParams > 0)) {
-HXLINE( 429)										pos = (pos + 1);
-HXDLIN( 429)										args2->push(args->__get((pos - 1)));
-HXLINE( 430)										extraParams = (extraParams - 1);
+HXLINE( 391)						::cpp::VirtualArray args2 = ::cpp::VirtualArray_obj::__new(0);
+HXLINE( 392)						int extraParams = (args->get_length() - minParams->__get(0));
+HXLINE( 393)						int pos = 0;
+HXLINE( 394)						{
+HXLINE( 394)							int _g = 0;
+HXDLIN( 394)							while((_g < params1->length)){
+HXLINE( 394)								 ::Dynamic p = params1->__get(_g);
+HXDLIN( 394)								_g = (_g + 1);
+HXLINE( 395)								if (( (bool)(p->__Field(HX_("opt",33,9c,54,00),::hx::paccDynamic)) )) {
+HXLINE( 396)									if ((extraParams > 0)) {
+HXLINE( 397)										pos = (pos + 1);
+HXDLIN( 397)										args2->push(args->__get((pos - 1)));
+HXLINE( 398)										extraParams = (extraParams - 1);
             									}
             									else {
-HXLINE( 432)										args2->push(null());
+HXLINE( 400)										args2->push(null());
             									}
             								}
             								else {
-HXLINE( 434)									pos = (pos + 1);
-HXDLIN( 434)									args2->push(args->__get((pos - 1)));
+HXLINE( 402)									pos = (pos + 1);
+HXDLIN( 402)									args2->push(args->__get((pos - 1)));
             								}
             							}
             						}
-HXLINE( 435)						args = args2;
+HXLINE( 403)						args = args2;
             					}
-HXLINE( 437)					 ::haxe::ds::StringMap old = me->locals;
-HXDLIN( 437)					int depth = me->depth;
-HXLINE( 438)					me->depth++;
-HXLINE( 439)					me->locals = me->duplicate(capturedLocals);
-HXLINE( 440)					{
-HXLINE( 440)						int _g1 = 0;
-HXDLIN( 440)						int _g2 = params1->length;
-HXDLIN( 440)						while((_g1 < _g2)){
-HXLINE( 440)							_g1 = (_g1 + 1);
-HXDLIN( 440)							int i = (_g1 - 1);
-HXLINE( 441)							me->locals->set(( (::String)(params1->__get(i)->__Field(HX_("name",4b,72,ff,48),::hx::paccDynamic)) ), ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE( 405)					 ::haxe::ds::StringMap old = me->locals;
+HXDLIN( 405)					int depth = me->depth;
+HXLINE( 406)					me->depth++;
+HXLINE( 407)					me->locals = me->duplicate(capturedLocals);
+HXLINE( 408)					{
+HXLINE( 408)						int _g1 = 0;
+HXDLIN( 408)						int _g2 = params1->length;
+HXDLIN( 408)						while((_g1 < _g2)){
+HXLINE( 408)							_g1 = (_g1 + 1);
+HXDLIN( 408)							int i = (_g1 - 1);
+HXLINE( 409)							me->locals->set(( (::String)(params1->__get(i)->__Field(HX_("name",4b,72,ff,48),::hx::paccDynamic)) ), ::Dynamic(::hx::Anon_obj::Create(1)
             								->setFixed(0,HX_("r",72,00,00,00),args->__get(i))));
             						}
             					}
-HXLINE( 442)					 ::Dynamic r = null();
-HXLINE( 443)					int oldDecl = _gthis->declared->length;
-HXLINE( 444)					if (_gthis->inTry) {
-HXLINE( 445)						try {
+HXLINE( 410)					 ::Dynamic r = null();
+HXLINE( 411)					int oldDecl = _gthis->declared->length;
+HXLINE( 412)					if (_gthis->inTry) {
+HXLINE( 413)						try {
             							HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE( 446)							r = me->exprReturn(fexpr);
+HXLINE( 414)							r = me->exprReturn(fexpr);
             						} catch( ::Dynamic _hx_e) {
             							if (_hx_e.IsClass<  ::Dynamic >() ){
             								HX_STACK_BEGIN_CATCH
             								 ::Dynamic _g3 = _hx_e;
-HXLINE( 447)								{
-HXLINE( 447)									null();
+HXLINE( 415)								{
+HXLINE( 415)									null();
             								}
-HXDLIN( 447)								 ::Dynamic e1 = _g3;
-HXLINE( 448)								me->locals = old;
-HXLINE( 449)								me->depth = depth;
-HXLINE( 453)								HX_STACK_DO_THROW(e1);
+HXDLIN( 415)								 ::Dynamic e1 = _g3;
+HXLINE( 416)								_gthis->restore(oldDecl);
+HXLINE( 417)								me->locals = old;
+HXLINE( 418)								me->depth = depth;
+HXLINE( 422)								HX_STACK_DO_THROW(e1);
             							}
             							else {
             								HX_STACK_DO_THROW(_hx_e);
@@ -1151,287 +1165,228 @@ HXLINE( 453)								HX_STACK_DO_THROW(e1);
             						}
             					}
             					else {
-HXLINE( 457)						r = me->exprReturn(fexpr);
+HXLINE( 426)						r = me->exprReturn(fexpr);
             					}
-HXLINE( 458)					_gthis->restore(oldDecl);
-HXLINE( 459)					me->locals = old;
-HXLINE( 460)					me->depth = depth;
-HXLINE( 461)					return r;
+HXLINE( 427)					_gthis->restore(oldDecl);
+HXLINE( 428)					me->locals = old;
+HXLINE( 429)					me->depth = depth;
+HXLINE( 430)					return r;
             				}
             				HX_END_LOCAL_FUNC1(return)
 
-HXLINE( 406)				 ::hscript::CType _g4 = e1->_hx_getObject(3).StaticCast<  ::hscript::CType >();
-HXDLIN( 406)				::Array< ::Dynamic> params1 = e1->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
-HXDLIN( 406)				 ::Dynamic fexpr = e1->_hx_getObject(1);
-HXDLIN( 406)				::String name = e1->_hx_getString(2);
-HXLINE( 407)				 ::haxe::ds::StringMap capturedLocals = this->duplicate(this->locals);
-HXLINE( 408)				 ::hscript::Interp me = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 409)				bool hasOpt = false;
-HXDLIN( 409)				::Array< int > minParams = ::Array_obj< int >::fromData( _hx_array_data_9af07c8f_66,1);
-HXLINE( 410)				{
-HXLINE( 410)					int _g5 = 0;
-HXDLIN( 410)					while((_g5 < params1->length)){
-HXLINE( 410)						 ::Dynamic p1 = params1->__get(_g5);
-HXDLIN( 410)						_g5 = (_g5 + 1);
-HXLINE( 411)						if (( (bool)(p1->__Field(HX_("opt",33,9c,54,00),::hx::paccDynamic)) )) {
-HXLINE( 412)							hasOpt = true;
+HXLINE( 374)				 ::hscript::CType _g4 = e1->_hx_getObject(3).StaticCast<  ::hscript::CType >();
+HXDLIN( 374)				::Array< ::Dynamic> params1 = e1->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
+HXDLIN( 374)				 ::Dynamic fexpr = e1->_hx_getObject(1);
+HXDLIN( 374)				::String name = e1->_hx_getString(2);
+HXLINE( 375)				 ::haxe::ds::StringMap capturedLocals = this->duplicate(this->locals);
+HXLINE( 376)				 ::hscript::Interp me = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 377)				bool hasOpt = false;
+HXDLIN( 377)				::Array< int > minParams = ::Array_obj< int >::fromData( _hx_array_data_9af07c8f_66,1);
+HXLINE( 378)				{
+HXLINE( 378)					int _g5 = 0;
+HXDLIN( 378)					while((_g5 < params1->length)){
+HXLINE( 378)						 ::Dynamic p1 = params1->__get(_g5);
+HXDLIN( 378)						_g5 = (_g5 + 1);
+HXLINE( 379)						if (( (bool)(p1->__Field(HX_("opt",33,9c,54,00),::hx::paccDynamic)) )) {
+HXLINE( 380)							hasOpt = true;
             						}
             						else {
-HXLINE( 414)							minParams[0]++;
+HXLINE( 382)							minParams[0]++;
             						}
             					}
             				}
-HXLINE( 415)				 ::Dynamic f3 =  ::Dynamic(new _hx_Closure_0(name,fexpr,_gthis,minParams,me,capturedLocals,params1));
-HXLINE( 463)				 ::Dynamic f4 = ::Reflect_obj::makeVarArgs(f3);
-HXLINE( 464)				if (::hx::IsNotNull( name )) {
-HXLINE( 465)					if ((this->depth == 0)) {
-HXLINE( 467)						this->variables->set(name,f4);
+HXLINE( 383)				 ::Dynamic f3 =  ::Dynamic(new _hx_Closure_0(name,fexpr,_gthis,minParams,me,capturedLocals,params1));
+HXLINE( 432)				 ::Dynamic f4 = ::Reflect_obj::makeVarArgs(f3);
+HXLINE( 433)				if (::hx::IsNotNull( name )) {
+HXLINE( 434)					if ((this->depth == 0)) {
+HXLINE( 436)						this->variables->set(name,f4);
             					}
             					else {
-HXLINE( 470)						::Array< ::Dynamic> _hx_tmp1 = this->declared;
-HXDLIN( 470)						::String name1 = name;
-HXDLIN( 470)						_hx_tmp1->push( ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE( 439)						::Array< ::Dynamic> _hx_tmp1 = this->declared;
+HXDLIN( 439)						::String name1 = name;
+HXDLIN( 439)						_hx_tmp1->push( ::Dynamic(::hx::Anon_obj::Create(2)
             							->setFixed(0,HX_("n",6e,00,00,00),name1)
             							->setFixed(1,HX_("old",a7,98,54,00),this->locals->get(name))));
-HXLINE( 471)						 ::Dynamic ref =  ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE( 440)						 ::Dynamic ref =  ::Dynamic(::hx::Anon_obj::Create(1)
             							->setFixed(0,HX_("r",72,00,00,00),f4));
-HXLINE( 472)						this->locals->set(name,ref);
-HXLINE( 473)						capturedLocals->set(name,ref);
+HXLINE( 441)						this->locals->set(name,ref);
+HXLINE( 442)						capturedLocals->set(name,ref);
             					}
             				}
-HXLINE( 476)				return f4;
+HXLINE( 445)				return f4;
             			}
             			break;
             			case (int)15: {
-HXLINE( 403)				 ::Dynamic e16 = e1->_hx_getObject(0);
-HXLINE( 404)				 ::Dynamic _hx_tmp2;
-HXDLIN( 404)				if (::hx::IsNull( e16 )) {
-HXLINE( 404)					_hx_tmp2 = null();
+HXLINE( 371)				 ::Dynamic e16 = e1->_hx_getObject(0);
+HXLINE( 372)				 ::Dynamic _hx_tmp2;
+HXDLIN( 372)				if (::hx::IsNull( e16 )) {
+HXLINE( 372)					_hx_tmp2 = null();
             				}
             				else {
-HXLINE( 404)					_hx_tmp2 = this->expr(e16);
+HXLINE( 372)					_hx_tmp2 = this->expr(e16);
             				}
-HXDLIN( 404)				this->returnValue = _hx_tmp2;
-HXLINE( 405)				HX_STACK_DO_THROW(::hscript::_Interp::Stop_obj::SReturn_dyn());
+HXDLIN( 372)				this->returnValue = _hx_tmp2;
+HXLINE( 373)				HX_STACK_DO_THROW(::hscript::_Interp::Stop_obj::SReturn_dyn());
             			}
             			break;
             			case (int)16: {
-HXLINE( 519)				 ::Dynamic e17 = e1->_hx_getObject(0);
-HXDLIN( 519)				 ::Dynamic index = e1->_hx_getObject(1);
-HXLINE( 520)				 ::Dynamic arr = this->expr(e17);
-HXLINE( 521)				 ::Dynamic index1 = this->expr(index);
-HXLINE( 522)				if (::Std_obj::isOfType(arr,::hx::ClassOf< ::haxe::IMap >())) {
-HXLINE( 523)					return ::haxe::IMap_obj::get( ::hx::interface_check(arr,0x09c2bd39),index1);
+HXLINE( 469)				 ::Dynamic e17 = e1->_hx_getObject(0);
+HXDLIN( 469)				 ::Dynamic index = e1->_hx_getObject(1);
+HXLINE( 470)				 ::Dynamic arr = this->expr(e17);
+HXLINE( 471)				 ::Dynamic index1 = this->expr(index);
+HXLINE( 472)				if (::Std_obj::isOfType(arr,::hx::ClassOf< ::haxe::IMap >())) {
+HXLINE( 473)					return ::haxe::IMap_obj::get( ::hx::interface_check(arr,0x09c2bd39),index1);
             				}
-            				else {
-HXLINE( 526)					return arr->__GetItem(( (int)(index1) ));
-            				}
+HXLINE( 474)				return arr->__GetItem(( (int)(index1) ));
             			}
             			break;
             			case (int)17: {
-HXLINE( 477)				::Array< ::Dynamic> arr1 = e1->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
-HXLINE( 478)				bool _hx_tmp3;
-HXDLIN( 478)				if ((arr1->length > 0)) {
-HXLINE( 478)					 ::hscript::ExprDef _g6 = arr1->__get(0)->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 478)					if ((_g6->_hx_getIndex() == 6)) {
-HXLINE( 478)						 ::Dynamic _g7 = _g6->_hx_getObject(1);
-HXDLIN( 478)						 ::Dynamic _g8 = _g6->_hx_getObject(2);
-HXDLIN( 478)						if ((_g6->_hx_getString(0) == HX_("=>",61,35,00,00))) {
-HXLINE( 478)							_hx_tmp3 = true;
+HXLINE( 446)				::Array< ::Dynamic> arr1 = e1->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
+HXLINE( 447)				bool _hx_tmp3;
+HXDLIN( 447)				if ((arr1->length > 0)) {
+HXLINE( 447)					 ::hscript::ExprDef _g6 = arr1->__get(0)->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 447)					if ((_g6->_hx_getIndex() == 6)) {
+HXLINE( 447)						 ::Dynamic _g7 = _g6->_hx_getObject(1);
+HXDLIN( 447)						 ::Dynamic _g8 = _g6->_hx_getObject(2);
+HXDLIN( 447)						if ((_g6->_hx_getString(0) == HX_("=>",61,35,00,00))) {
+HXLINE( 447)							_hx_tmp3 = true;
             						}
             						else {
-HXLINE( 478)							_hx_tmp3 = false;
+HXLINE( 447)							_hx_tmp3 = false;
             						}
             					}
             					else {
-HXLINE( 478)						_hx_tmp3 = false;
+HXLINE( 447)						_hx_tmp3 = false;
             					}
             				}
             				else {
-HXLINE( 478)					_hx_tmp3 = false;
+HXLINE( 447)					_hx_tmp3 = false;
             				}
-HXDLIN( 478)				if (_hx_tmp3) {
-HXLINE( 479)					bool isAllString = true;
-HXLINE( 480)					bool isAllInt = true;
-HXLINE( 481)					bool isAllObject = true;
-HXLINE( 482)					bool isAllEnum = true;
-HXLINE( 483)					::cpp::VirtualArray keys = ::cpp::VirtualArray_obj::__new(0);
-HXLINE( 484)					::cpp::VirtualArray values = ::cpp::VirtualArray_obj::__new(0);
-HXLINE( 485)					{
-HXLINE( 485)						int _g9 = 0;
-HXDLIN( 485)						while((_g9 < arr1->length)){
-HXLINE( 485)							 ::Dynamic e18 = arr1->__get(_g9);
-HXDLIN( 485)							_g9 = (_g9 + 1);
-HXLINE( 486)							{
-HXLINE( 486)								 ::hscript::ExprDef _g10 = e18->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
-HXDLIN( 486)								if ((_g10->_hx_getIndex() == 6)) {
-HXLINE( 487)									if ((_g10->_hx_getString(0) == HX_("=>",61,35,00,00))) {
-HXLINE( 487)										 ::Dynamic eKey = _g10->_hx_getObject(1);
-HXDLIN( 487)										 ::Dynamic eValue = _g10->_hx_getObject(2);
-HXDLIN( 487)										{
-HXLINE( 488)											 ::Dynamic key = this->expr(eKey);
-HXLINE( 489)											 ::Dynamic value1 = this->expr(eValue);
-HXLINE( 490)											if (isAllString) {
-HXLINE( 490)												isAllString = ::Std_obj::isOfType(key,::hx::ClassOf< ::String >());
-            											}
-            											else {
-HXLINE( 490)												isAllString = false;
-            											}
-HXLINE( 491)											if (isAllInt) {
-HXLINE( 491)												isAllInt = ::Std_obj::isOfType(key,::hx::ClassOf< int >());
-            											}
-            											else {
-HXLINE( 491)												isAllInt = false;
-            											}
-HXLINE( 492)											if (isAllObject) {
-HXLINE( 492)												isAllObject = ::Reflect_obj::isObject(key);
-            											}
-            											else {
-HXLINE( 492)												isAllObject = false;
-            											}
-HXLINE( 493)											if (isAllEnum) {
-HXLINE( 493)												isAllEnum = ::Reflect_obj::isEnumValue(key);
-            											}
-            											else {
-HXLINE( 493)												isAllEnum = false;
-            											}
-HXLINE( 494)											keys->push(key);
-HXLINE( 495)											values->push(value1);
+HXDLIN( 447)				if (_hx_tmp3) {
+HXLINE( 448)					::cpp::VirtualArray keys = ::cpp::VirtualArray_obj::__new(0);
+HXLINE( 449)					::cpp::VirtualArray values = ::cpp::VirtualArray_obj::__new(0);
+HXLINE( 450)					{
+HXLINE( 450)						int _g9 = 0;
+HXDLIN( 450)						while((_g9 < arr1->length)){
+HXLINE( 450)							 ::Dynamic e18 = arr1->__get(_g9);
+HXDLIN( 450)							_g9 = (_g9 + 1);
+HXLINE( 451)							{
+HXLINE( 451)								 ::hscript::ExprDef _g10 = e18->__Field(HX_("e",65,00,00,00),::hx::paccDynamic);
+HXDLIN( 451)								if ((_g10->_hx_getIndex() == 6)) {
+HXLINE( 452)									if ((_g10->_hx_getString(0) == HX_("=>",61,35,00,00))) {
+HXLINE( 452)										 ::Dynamic eKey = _g10->_hx_getObject(1);
+HXDLIN( 452)										 ::Dynamic eValue = _g10->_hx_getObject(2);
+HXDLIN( 452)										{
+HXLINE( 453)											keys->push(this->expr(eKey));
+HXLINE( 454)											values->push(this->expr(eValue));
             										}
             									}
             									else {
-HXLINE( 497)										HX_STACK_DO_THROW(HX_("=> expected",17,e5,65,e5));
+HXLINE( 457)										this->curExpr = e18;
+HXLINE( 459)										 ::hscript::Error e19 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::ECustom(HX_("Invalid map key=>value expression",9a,3d,33,b0)),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 459)										HX_STACK_DO_THROW(e19);
             									}
             								}
             								else {
-HXLINE( 497)									HX_STACK_DO_THROW(HX_("=> expected",17,e5,65,e5));
+HXLINE( 457)									this->curExpr = e18;
+HXLINE( 459)									 ::hscript::Error e20 =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::ECustom(HX_("Invalid map key=>value expression",9a,3d,33,b0)),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 459)									HX_STACK_DO_THROW(e20);
             								}
             							}
             						}
             					}
-HXLINE( 500)					 ::Dynamic map;
-HXLINE( 501)					if (isAllInt) {
-HXLINE( 500)						map =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
-            					}
-            					else {
-HXLINE( 502)						if (isAllString) {
-HXLINE( 500)							map =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-            						}
-            						else {
-HXLINE( 503)							if (isAllEnum) {
-HXLINE( 500)								map =  ::haxe::ds::EnumValueMap_obj::__alloc( HX_CTX );
-            							}
-            							else {
-HXLINE( 504)								if (isAllObject) {
-HXLINE( 500)									map =  ::haxe::ds::ObjectMap_obj::__alloc( HX_CTX );
-            								}
-            								else {
-HXLINE( 505)									HX_STACK_DO_THROW(HX_("Inconsistent key types",af,4f,50,a9));
-            								}
-            							}
-            						}
-            					}
-HXLINE( 507)					{
-HXLINE( 507)						int _g11 = 0;
-HXDLIN( 507)						int _g12 = keys->get_length();
-HXDLIN( 507)						while((_g11 < _g12)){
-HXLINE( 507)							_g11 = (_g11 + 1);
-HXDLIN( 507)							int n1 = (_g11 - 1);
-HXLINE( 508)							::haxe::IMap_obj::set( ::hx::interface_check(map,0x09c2bd39),keys->__get(n1),values->__get(n1));
-            						}
-            					}
-HXLINE( 510)					return map;
+HXLINE( 462)					return this->makeMap(keys,values);
             				}
             				else {
-HXLINE( 513)					::cpp::VirtualArray a = ::cpp::VirtualArray_obj::__new();
-HXLINE( 514)					{
-HXLINE( 514)						int _g13 = 0;
-HXDLIN( 514)						while((_g13 < arr1->length)){
-HXLINE( 514)							 ::Dynamic e19 = arr1->__get(_g13);
-HXDLIN( 514)							_g13 = (_g13 + 1);
-HXLINE( 515)							a->push(this->expr(e19));
+HXLINE( 464)					::cpp::VirtualArray a = ::cpp::VirtualArray_obj::__new();
+HXLINE( 465)					{
+HXLINE( 465)						int _g11 = 0;
+HXDLIN( 465)						while((_g11 < arr1->length)){
+HXLINE( 465)							 ::Dynamic e23 = arr1->__get(_g11);
+HXDLIN( 465)							_g11 = (_g11 + 1);
+HXLINE( 466)							a->push(this->expr(e23));
             						}
             					}
-HXLINE( 517)					return a;
+HXLINE( 467)					return a;
             				}
             			}
             			break;
             			case (int)18: {
-HXLINE( 528)				::String cl = e1->_hx_getString(0);
-HXDLIN( 528)				::Array< ::Dynamic> params2 = e1->_hx_getObject(1).StaticCast< ::Array< ::Dynamic> >();
-HXLINE( 529)				::cpp::VirtualArray a1 = ::cpp::VirtualArray_obj::__new();
-HXLINE( 530)				{
-HXLINE( 530)					int _g14 = 0;
-HXDLIN( 530)					while((_g14 < params2->length)){
-HXLINE( 530)						 ::Dynamic e20 = params2->__get(_g14);
-HXDLIN( 530)						_g14 = (_g14 + 1);
-HXLINE( 531)						a1->push(this->expr(e20));
+HXLINE( 475)				::String cl = e1->_hx_getString(0);
+HXDLIN( 475)				::Array< ::Dynamic> params2 = e1->_hx_getObject(1).StaticCast< ::Array< ::Dynamic> >();
+HXLINE( 476)				::cpp::VirtualArray a1 = ::cpp::VirtualArray_obj::__new();
+HXLINE( 477)				{
+HXLINE( 477)					int _g12 = 0;
+HXDLIN( 477)					while((_g12 < params2->length)){
+HXLINE( 477)						 ::Dynamic e24 = params2->__get(_g12);
+HXDLIN( 477)						_g12 = (_g12 + 1);
+HXLINE( 478)						a1->push(this->expr(e24));
             					}
             				}
-HXLINE( 532)				return this->cnew(cl,a1);
+HXLINE( 479)				return this->cnew(cl,a1);
             			}
             			break;
             			case (int)19: {
-HXLINE( 533)				 ::Dynamic e23 = e1->_hx_getObject(0);
-HXLINE( 534)				HX_STACK_DO_THROW(this->expr(e23));
+HXLINE( 480)				 ::Dynamic e25 = e1->_hx_getObject(0);
+HXLINE( 481)				HX_STACK_DO_THROW(this->expr(e25));
             			}
             			break;
             			case (int)20: {
-HXLINE( 535)				 ::hscript::CType _g15 = e1->_hx_getObject(2).StaticCast<  ::hscript::CType >();
-HXDLIN( 535)				 ::Dynamic e24 = e1->_hx_getObject(0);
-HXDLIN( 535)				::String n2 = e1->_hx_getString(1);
-HXDLIN( 535)				 ::Dynamic ecatch = e1->_hx_getObject(3);
-HXLINE( 536)				int old1 = this->declared->length;
-HXLINE( 537)				bool oldTry = this->inTry;
-HXLINE( 538)				try {
+HXLINE( 482)				 ::hscript::CType _g13 = e1->_hx_getObject(2).StaticCast<  ::hscript::CType >();
+HXDLIN( 482)				 ::Dynamic e26 = e1->_hx_getObject(0);
+HXDLIN( 482)				::String n1 = e1->_hx_getString(1);
+HXDLIN( 482)				 ::Dynamic ecatch = e1->_hx_getObject(3);
+HXLINE( 483)				int old1 = this->declared->length;
+HXLINE( 484)				bool oldTry = this->inTry;
+HXLINE( 485)				try {
             					HX_STACK_CATCHABLE( ::hscript::_Interp::Stop, 0);
             					HX_STACK_CATCHABLE( ::haxe::ValueException, 1);
             					HX_STACK_CATCHABLE( ::Dynamic, 2);
-HXLINE( 539)					this->inTry = true;
-HXLINE( 540)					 ::Dynamic v3 = this->expr(e24);
-HXLINE( 541)					this->restore(old1);
-HXLINE( 542)					this->inTry = oldTry;
-HXLINE( 543)					return v3;
+HXLINE( 486)					this->inTry = true;
+HXLINE( 487)					 ::Dynamic v3 = this->expr(e26);
+HXLINE( 488)					this->restore(old1);
+HXLINE( 489)					this->inTry = oldTry;
+HXLINE( 490)					return v3;
             				} catch( ::Dynamic _hx_e) {
             					if (_hx_e.IsClass<  ::hscript::_Interp::Stop >() ){
             						HX_STACK_BEGIN_CATCH
             						 ::hscript::_Interp::Stop err1 = _hx_e;
-HXLINE( 545)						this->inTry = oldTry;
-HXLINE( 546)						HX_STACK_DO_THROW(err1);
+HXLINE( 492)						this->inTry = oldTry;
+HXLINE( 493)						HX_STACK_DO_THROW(err1);
             					}
             					else if (_hx_e.IsClass<  ::haxe::ValueException >() ){
             						HX_STACK_BEGIN_CATCH
-            						 ::haxe::ValueException _g16 = _hx_e;
-HXLINE( 544)						{
-HXLINE( 544)							null();
+            						 ::haxe::ValueException _g14 = _hx_e;
+HXLINE( 491)						{
+HXLINE( 491)							null();
             						}
-HXLINE( 538)						if (::Std_obj::isOfType(_g16->value,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
-HXLINE( 544)							 ::hscript::_Interp::Stop err1 = _g16->value;
-HXLINE( 545)							this->inTry = oldTry;
-HXLINE( 546)							HX_STACK_DO_THROW(err1);
+HXLINE( 485)						if (::Std_obj::isOfType(_g14->value,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
+HXLINE( 491)							 ::hscript::_Interp::Stop err1 = _g14->value;
+HXLINE( 492)							this->inTry = oldTry;
+HXLINE( 493)							HX_STACK_DO_THROW(err1);
             						}
             						else {
-HXLINE( 538)							HX_STACK_DO_THROW(_g16);
+HXLINE( 485)							HX_STACK_DO_THROW(_g14);
             						}
             					}
             					else if (_hx_e.IsClass<  ::Dynamic >() ){
             						HX_STACK_BEGIN_CATCH
-            						 ::Dynamic _g17 = _hx_e;
-HXLINE( 547)						{
-HXLINE( 547)							null();
+            						 ::Dynamic _g15 = _hx_e;
+HXLINE( 494)						{
+HXLINE( 494)							null();
             						}
-HXDLIN( 547)						 ::Dynamic err2 = _g17;
-HXLINE( 549)						this->restore(old1);
-HXLINE( 550)						this->inTry = oldTry;
-HXLINE( 552)						::Array< ::Dynamic> _hx_tmp4 = this->declared;
-HXDLIN( 552)						_hx_tmp4->push( ::Dynamic(::hx::Anon_obj::Create(2)
-            							->setFixed(0,HX_("n",6e,00,00,00),n2)
-            							->setFixed(1,HX_("old",a7,98,54,00),this->locals->get(n2))));
-HXLINE( 553)						this->locals->set(n2, ::Dynamic(::hx::Anon_obj::Create(1)
+HXDLIN( 494)						 ::Dynamic err2 = _g15;
+HXLINE( 496)						this->restore(old1);
+HXLINE( 497)						this->inTry = oldTry;
+HXLINE( 499)						::Array< ::Dynamic> _hx_tmp4 = this->declared;
+HXDLIN( 499)						_hx_tmp4->push( ::Dynamic(::hx::Anon_obj::Create(2)
+            							->setFixed(0,HX_("n",6e,00,00,00),n1)
+            							->setFixed(1,HX_("old",a7,98,54,00),this->locals->get(n1))));
+HXLINE( 500)						this->locals->set(n1, ::Dynamic(::hx::Anon_obj::Create(1)
             							->setFixed(0,HX_("r",72,00,00,00),err2)));
-HXLINE( 554)						 ::Dynamic v4 = this->expr(ecatch);
-HXLINE( 555)						this->restore(old1);
-HXLINE( 556)						return v4;
+HXLINE( 501)						 ::Dynamic v4 = this->expr(ecatch);
+HXLINE( 502)						this->restore(old1);
+HXLINE( 503)						return v4;
             					}
             					else {
             						HX_STACK_DO_THROW(_hx_e);
@@ -1440,123 +1395,125 @@ HXLINE( 556)						return v4;
             			}
             			break;
             			case (int)21: {
-HXLINE( 558)				::Array< ::Dynamic> fl = e1->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
-HXLINE( 559)				 ::Dynamic o =  ::Dynamic(::hx::Anon_obj::Create(0));
-HXLINE( 560)				{
-HXLINE( 560)					int _g18 = 0;
-HXDLIN( 560)					while((_g18 < fl->length)){
-HXLINE( 560)						 ::Dynamic f5 = fl->__get(_g18);
-HXDLIN( 560)						_g18 = (_g18 + 1);
-HXLINE( 561)						::String f6 = ( (::String)(f5->__Field(HX_("name",4b,72,ff,48),::hx::paccDynamic)) );
-HXDLIN( 561)						this->set(o,f6,this->expr(f5->__Field(HX_("e",65,00,00,00),::hx::paccDynamic)));
+HXLINE( 505)				::Array< ::Dynamic> fl = e1->_hx_getObject(0).StaticCast< ::Array< ::Dynamic> >();
+HXLINE( 506)				 ::Dynamic o =  ::Dynamic(::hx::Anon_obj::Create(0));
+HXLINE( 507)				{
+HXLINE( 507)					int _g16 = 0;
+HXDLIN( 507)					while((_g16 < fl->length)){
+HXLINE( 507)						 ::Dynamic f5 = fl->__get(_g16);
+HXDLIN( 507)						_g16 = (_g16 + 1);
+HXLINE( 508)						::String f6 = ( (::String)(f5->__Field(HX_("name",4b,72,ff,48),::hx::paccDynamic)) );
+HXDLIN( 508)						this->set(o,f6,this->expr(f5->__Field(HX_("e",65,00,00,00),::hx::paccDynamic)));
             					}
             				}
-HXLINE( 562)				return o;
+HXLINE( 509)				return o;
             			}
             			break;
             			case (int)22: {
-HXLINE( 563)				 ::Dynamic econd2 = e1->_hx_getObject(0);
-HXDLIN( 563)				 ::Dynamic e110 = e1->_hx_getObject(1);
-HXDLIN( 563)				 ::Dynamic e25 = e1->_hx_getObject(2);
-HXLINE( 564)				if (::hx::IsEq( this->expr(econd2),true )) {
-HXLINE( 564)					return this->expr(e110);
+HXLINE( 510)				 ::Dynamic econd2 = e1->_hx_getObject(0);
+HXDLIN( 510)				 ::Dynamic e110 = e1->_hx_getObject(1);
+HXDLIN( 510)				 ::Dynamic e27 = e1->_hx_getObject(2);
+HXLINE( 511)				if (::hx::IsEq( this->expr(econd2),true )) {
+HXLINE( 511)					return this->expr(e110);
             				}
             				else {
-HXLINE( 564)					return this->expr(e25);
+HXLINE( 511)					return this->expr(e27);
             				}
             			}
             			break;
             			case (int)23: {
-HXLINE( 565)				 ::Dynamic e26 = e1->_hx_getObject(0);
-HXDLIN( 565)				::Array< ::Dynamic> cases = e1->_hx_getObject(1).StaticCast< ::Array< ::Dynamic> >();
-HXDLIN( 565)				 ::Dynamic def = e1->_hx_getObject(2);
-HXLINE( 566)				 ::Dynamic val = this->expr(e26);
-HXLINE( 567)				bool match = false;
-HXLINE( 568)				{
-HXLINE( 568)					int _g19 = 0;
-HXDLIN( 568)					while((_g19 < cases->length)){
-HXLINE( 568)						 ::Dynamic c1 = cases->__get(_g19);
-HXDLIN( 568)						_g19 = (_g19 + 1);
-HXLINE( 569)						{
-HXLINE( 569)							int _g20 = 0;
-HXDLIN( 569)							::Array< ::Dynamic> _g21 = ( (::Array< ::Dynamic>)(c1->__Field(HX_("values",e2,03,b7,4f),::hx::paccDynamic)) );
-HXDLIN( 569)							while((_g20 < _g21->length)){
-HXLINE( 569)								 ::Dynamic v5 = _g21->__get(_g20);
-HXDLIN( 569)								_g20 = (_g20 + 1);
-HXLINE( 570)								if (::hx::IsEq( this->expr(v5),val )) {
-HXLINE( 571)									match = true;
-HXLINE( 572)									goto _hx_goto_63;
+HXLINE( 512)				 ::Dynamic e28 = e1->_hx_getObject(0);
+HXDLIN( 512)				::Array< ::Dynamic> cases = e1->_hx_getObject(1).StaticCast< ::Array< ::Dynamic> >();
+HXDLIN( 512)				 ::Dynamic def = e1->_hx_getObject(2);
+HXLINE( 513)				 ::Dynamic val = this->expr(e28);
+HXLINE( 514)				bool match = false;
+HXLINE( 515)				{
+HXLINE( 515)					int _g17 = 0;
+HXDLIN( 515)					while((_g17 < cases->length)){
+HXLINE( 515)						 ::Dynamic c1 = cases->__get(_g17);
+HXDLIN( 515)						_g17 = (_g17 + 1);
+HXLINE( 516)						{
+HXLINE( 516)							int _g18 = 0;
+HXDLIN( 516)							::Array< ::Dynamic> _g19 = ( (::Array< ::Dynamic>)(c1->__Field(HX_("values",e2,03,b7,4f),::hx::paccDynamic)) );
+HXDLIN( 516)							while((_g18 < _g19->length)){
+HXLINE( 516)								 ::Dynamic v5 = _g19->__get(_g18);
+HXDLIN( 516)								_g18 = (_g18 + 1);
+HXLINE( 517)								if (::hx::IsEq( this->expr(v5),val )) {
+HXLINE( 518)									match = true;
+HXLINE( 519)									goto _hx_goto_63;
             								}
             							}
             							_hx_goto_63:;
             						}
-HXLINE( 574)						if (match) {
-HXLINE( 575)							val = this->expr(c1->__Field(HX_("expr",35,fd,1d,43),::hx::paccDynamic));
-HXLINE( 576)							goto _hx_goto_62;
+HXLINE( 521)						if (match) {
+HXLINE( 522)							val = this->expr(c1->__Field(HX_("expr",35,fd,1d,43),::hx::paccDynamic));
+HXLINE( 523)							goto _hx_goto_62;
             						}
             					}
             					_hx_goto_62:;
             				}
-HXLINE( 579)				if (!(match)) {
-HXLINE( 580)					if (::hx::IsNull( def )) {
-HXLINE( 580)						val = null();
+HXLINE( 526)				if (!(match)) {
+HXLINE( 527)					if (::hx::IsNull( def )) {
+HXLINE( 527)						val = null();
             					}
             					else {
-HXLINE( 580)						val = this->expr(def);
+HXLINE( 527)						val = this->expr(def);
             					}
             				}
-HXLINE( 581)				return val;
+HXLINE( 528)				return val;
             			}
             			break;
             			case (int)24: {
-HXLINE( 393)				 ::Dynamic econd3 = e1->_hx_getObject(0);
-HXDLIN( 393)				 ::Dynamic e27 = e1->_hx_getObject(1);
-HXLINE( 394)				this->doWhileLoop(econd3,e27);
-HXLINE( 395)				return null();
+HXLINE( 361)				 ::Dynamic econd3 = e1->_hx_getObject(0);
+HXDLIN( 361)				 ::Dynamic e29 = e1->_hx_getObject(1);
+HXLINE( 362)				this->doWhileLoop(econd3,e29);
+HXLINE( 363)				return null();
             			}
             			break;
             			case (int)25: {
-HXLINE( 582)				::String _g22 = e1->_hx_getString(0);
-HXDLIN( 582)				::Array< ::Dynamic> _g23 = e1->_hx_getObject(1).StaticCast< ::Array< ::Dynamic> >();
-HXDLIN( 582)				 ::Dynamic e28 = e1->_hx_getObject(2);
-HXLINE( 583)				return this->expr(e28);
+HXLINE( 529)				::String _g20 = e1->_hx_getString(0);
+HXDLIN( 529)				::Array< ::Dynamic> _g21 = e1->_hx_getObject(1).StaticCast< ::Array< ::Dynamic> >();
+HXDLIN( 529)				 ::Dynamic e30 = e1->_hx_getObject(2);
+HXLINE( 530)				return this->expr(e30);
             			}
             			break;
             			case (int)26: {
-HXLINE( 584)				 ::hscript::CType _g24 = e1->_hx_getObject(1).StaticCast<  ::hscript::CType >();
-HXDLIN( 584)				 ::Dynamic e29 = e1->_hx_getObject(0);
-HXLINE( 585)				return this->expr(e29);
+HXLINE( 531)				 ::hscript::CType _g22 = e1->_hx_getObject(1).StaticCast<  ::hscript::CType >();
+HXDLIN( 531)				 ::Dynamic e31 = e1->_hx_getObject(0);
+HXLINE( 532)				return this->expr(e31);
             			}
             			break;
             		}
-HXLINE( 325)		return null();
+HXLINE( 297)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interp_obj,expr,return )
 
 void Interp_obj::doWhileLoop( ::Dynamic econd, ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_590_doWhileLoop)
-HXLINE( 591)		int old = this->declared->length;
-HXLINE( 592)		do {
-HXLINE( 593)			try {
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_537_doWhileLoop)
+HXDLIN( 537)		 ::hscript::Interp _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 538)		int old = this->declared->length;
+HXLINE( 539)		do {
+HXLINE( 540)			bool cont = true;
+HXDLIN( 540)			try {
             				HX_STACK_CATCHABLE( ::hscript::_Interp::Stop, 0);
             				HX_STACK_CATCHABLE( ::haxe::ValueException, 1);
-HXLINE( 594)				this->expr(e);
+HXLINE( 540)				_gthis->expr(e);
             			} catch( ::Dynamic _hx_e) {
             				if (_hx_e.IsClass<  ::hscript::_Interp::Stop >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::hscript::_Interp::Stop err1 = _hx_e;
-HXLINE( 596)					switch((int)(err1->_hx_getIndex())){
+HXLINE( 540)					switch((int)(err1->_hx_getIndex())){
             						case (int)0: {
-HXLINE( 598)							goto _hx_goto_67;
+HXLINE( 540)							cont = false;
             						}
             						break;
             						case (int)1: {
             						}
             						break;
             						case (int)2: {
-HXLINE( 599)							HX_STACK_DO_THROW(err1);
+HXLINE( 540)							HX_STACK_DO_THROW(err1);
             						}
             						break;
             					}
@@ -1564,63 +1521,68 @@ HXLINE( 599)							HX_STACK_DO_THROW(err1);
             				else if (_hx_e.IsClass<  ::haxe::ValueException >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::haxe::ValueException _g = _hx_e;
-HXLINE( 595)					{
-HXLINE( 595)						null();
+HXLINE( 587)					{
+HXLINE( 587)						null();
             					}
-HXLINE( 593)					if (::Std_obj::isOfType(_g->value,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
-HXLINE( 595)						 ::hscript::_Interp::Stop err1 = _g->value;
-HXLINE( 596)						switch((int)(err1->_hx_getIndex())){
+HXLINE( 540)					if (::Std_obj::isOfType(_g->value,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
+HXLINE( 587)						 ::hscript::_Interp::Stop err1 = _g->value;
+HXLINE( 540)						switch((int)(err1->_hx_getIndex())){
             							case (int)0: {
-HXLINE( 598)								goto _hx_goto_67;
+HXLINE( 540)								cont = false;
             							}
             							break;
             							case (int)1: {
             							}
             							break;
             							case (int)2: {
-HXLINE( 599)								HX_STACK_DO_THROW(err1);
+HXLINE( 540)								HX_STACK_DO_THROW(err1);
             							}
             							break;
             						}
             					}
             					else {
-HXLINE( 593)						HX_STACK_DO_THROW(_g);
+HXLINE( 540)						HX_STACK_DO_THROW(_g);
             					}
             				}
             				else {
             					HX_STACK_DO_THROW(_hx_e);
             				}
             			}
+HXDLIN( 540)			if (!(cont)) {
+HXLINE( 541)				goto _hx_goto_67;
+            			}
             		} while(::hx::IsEq( this->expr(econd),true ));
             		_hx_goto_67:;
-HXLINE( 604)		this->restore(old);
+HXLINE( 544)		this->restore(old);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Interp_obj,doWhileLoop,(void))
 
 void Interp_obj::whileLoop( ::Dynamic econd, ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_607_whileLoop)
-HXLINE( 608)		int old = this->declared->length;
-HXLINE( 609)		while(::hx::IsEq( this->expr(econd),true )){
-HXLINE( 610)			try {
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_547_whileLoop)
+HXDLIN( 547)		 ::hscript::Interp _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 548)		int old = this->declared->length;
+HXLINE( 549)		while(::hx::IsEq( this->expr(econd),true )){
+HXLINE( 550)			bool cont = true;
+HXDLIN( 550)			try {
             				HX_STACK_CATCHABLE( ::hscript::_Interp::Stop, 0);
             				HX_STACK_CATCHABLE( ::haxe::ValueException, 1);
-HXLINE( 611)				this->expr(e);
+HXLINE( 550)				_gthis->expr(e);
             			} catch( ::Dynamic _hx_e) {
             				if (_hx_e.IsClass<  ::hscript::_Interp::Stop >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::hscript::_Interp::Stop err1 = _hx_e;
-HXLINE( 613)					switch((int)(err1->_hx_getIndex())){
+HXLINE( 550)					switch((int)(err1->_hx_getIndex())){
             						case (int)0: {
-HXLINE( 615)							goto _hx_goto_69;
+HXLINE( 550)							cont = false;
             						}
             						break;
             						case (int)1: {
             						}
             						break;
             						case (int)2: {
-HXLINE( 616)							HX_STACK_DO_THROW(err1);
+HXLINE( 550)							HX_STACK_DO_THROW(err1);
             						}
             						break;
             					}
@@ -1628,107 +1590,112 @@ HXLINE( 616)							HX_STACK_DO_THROW(err1);
             				else if (_hx_e.IsClass<  ::haxe::ValueException >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::haxe::ValueException _g = _hx_e;
-HXLINE( 612)					{
-HXLINE( 612)						null();
+HXLINE( 587)					{
+HXLINE( 587)						null();
             					}
-HXLINE( 610)					if (::Std_obj::isOfType(_g->value,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
-HXLINE( 612)						 ::hscript::_Interp::Stop err1 = _g->value;
-HXLINE( 613)						switch((int)(err1->_hx_getIndex())){
+HXLINE( 550)					if (::Std_obj::isOfType(_g->value,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
+HXLINE( 587)						 ::hscript::_Interp::Stop err1 = _g->value;
+HXLINE( 550)						switch((int)(err1->_hx_getIndex())){
             							case (int)0: {
-HXLINE( 615)								goto _hx_goto_69;
+HXLINE( 550)								cont = false;
             							}
             							break;
             							case (int)1: {
             							}
             							break;
             							case (int)2: {
-HXLINE( 616)								HX_STACK_DO_THROW(err1);
+HXLINE( 550)								HX_STACK_DO_THROW(err1);
             							}
             							break;
             						}
             					}
             					else {
-HXLINE( 610)						HX_STACK_DO_THROW(_g);
+HXLINE( 550)						HX_STACK_DO_THROW(_g);
             					}
             				}
             				else {
             					HX_STACK_DO_THROW(_hx_e);
             				}
             			}
+HXDLIN( 550)			if (!(cont)) {
+HXLINE( 551)				goto _hx_goto_69;
+            			}
             		}
             		_hx_goto_69:;
-HXLINE( 620)		this->restore(old);
+HXLINE( 553)		this->restore(old);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Interp_obj,whileLoop,(void))
 
  ::Dynamic Interp_obj::makeIterator( ::Dynamic v){
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_623_makeIterator)
-HXLINE( 627)		try {
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_556_makeIterator)
+HXLINE( 565)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE( 627)			v = v->__Field(HX_("iterator",ee,49,9a,93),::hx::paccDynamic)();
+HXLINE( 565)			v = v->__Field(HX_("iterator",ee,49,9a,93),::hx::paccDynamic)();
             		} catch( ::Dynamic _hx_e) {
             			if (_hx_e.IsClass<  ::Dynamic >() ){
             				HX_STACK_BEGIN_CATCH
             				 ::Dynamic _g = _hx_e;
-HXLINE( 627)				{
-HXLINE( 627)					null();
+HXLINE( 565)				{
+HXLINE( 565)					null();
             				}
             			}
             			else {
             				HX_STACK_DO_THROW(_hx_e);
             			}
             		}
-HXLINE( 629)		bool _hx_tmp;
-HXDLIN( 629)		if (::hx::IsNotNull( v->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic) )) {
-HXLINE( 629)			_hx_tmp = ::hx::IsNull( v->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic) );
+HXLINE( 567)		bool _hx_tmp;
+HXDLIN( 567)		if (::hx::IsNotNull( v->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic) )) {
+HXLINE( 567)			_hx_tmp = ::hx::IsNull( v->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic) );
             		}
             		else {
-HXLINE( 629)			_hx_tmp = true;
+HXLINE( 567)			_hx_tmp = true;
             		}
-HXDLIN( 629)		if (_hx_tmp) {
-HXLINE( 629)			 ::hscript::Error e =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidIterator(v),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
-HXDLIN( 629)			HX_STACK_DO_THROW(e);
+HXDLIN( 567)		if (_hx_tmp) {
+HXLINE( 567)			 ::hscript::Error e =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidIterator(v),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 567)			HX_STACK_DO_THROW(e);
             		}
-HXLINE( 630)		return v;
+HXLINE( 568)		return v;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interp_obj,makeIterator,return )
 
 void Interp_obj::forLoop(::String n, ::Dynamic it, ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_633_forLoop)
-HXLINE( 634)		int old = this->declared->length;
-HXLINE( 635)		::Array< ::Dynamic> _hx_tmp = this->declared;
-HXDLIN( 635)		_hx_tmp->push( ::Dynamic(::hx::Anon_obj::Create(2)
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_571_forLoop)
+HXDLIN( 571)		 ::hscript::Interp _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 572)		int old = this->declared->length;
+HXLINE( 573)		::Array< ::Dynamic> _hx_tmp = this->declared;
+HXDLIN( 573)		_hx_tmp->push( ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("n",6e,00,00,00),n)
             			->setFixed(1,HX_("old",a7,98,54,00),this->locals->get(n))));
-HXLINE( 636)		 ::Dynamic it1 = this->makeIterator(this->expr(it));
-HXLINE( 637)		while(( (bool)(it1->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 638)			{
-HXLINE( 638)				::Dynamic this1 = this->locals;
-HXDLIN( 638)				( ( ::haxe::ds::StringMap)(this1) )->set(n, ::Dynamic(::hx::Anon_obj::Create(1)
+HXLINE( 574)		 ::Dynamic it1 = this->makeIterator(this->expr(it));
+HXLINE( 575)		while(( (bool)(it1->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 576)			{
+HXLINE( 576)				::Dynamic this1 = this->locals;
+HXDLIN( 576)				( ( ::haxe::ds::StringMap)(this1) )->set(n, ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("r",72,00,00,00),it1->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)())));
             			}
-HXLINE( 639)			try {
+HXLINE( 577)			bool cont = true;
+HXDLIN( 577)			try {
             				HX_STACK_CATCHABLE( ::hscript::_Interp::Stop, 0);
             				HX_STACK_CATCHABLE( ::haxe::ValueException, 1);
-HXLINE( 640)				this->expr(e);
+HXLINE( 577)				_gthis->expr(e);
             			} catch( ::Dynamic _hx_e) {
             				if (_hx_e.IsClass<  ::hscript::_Interp::Stop >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::hscript::_Interp::Stop err1 = _hx_e;
-HXLINE( 642)					switch((int)(err1->_hx_getIndex())){
+HXLINE( 577)					switch((int)(err1->_hx_getIndex())){
             						case (int)0: {
-HXLINE( 644)							goto _hx_goto_72;
+HXLINE( 577)							cont = false;
             						}
             						break;
             						case (int)1: {
             						}
             						break;
             						case (int)2: {
-HXLINE( 645)							HX_STACK_DO_THROW(err1);
+HXLINE( 577)							HX_STACK_DO_THROW(err1);
             						}
             						break;
             					}
@@ -1736,113 +1703,287 @@ HXLINE( 645)							HX_STACK_DO_THROW(err1);
             				else if (_hx_e.IsClass<  ::haxe::ValueException >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::haxe::ValueException _g = _hx_e;
-HXLINE( 641)					{
-HXLINE( 641)						null();
+HXLINE( 587)					{
+HXLINE( 587)						null();
             					}
-HXLINE( 639)					if (::Std_obj::isOfType(_g->value,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
-HXLINE( 641)						 ::hscript::_Interp::Stop err1 = _g->value;
-HXLINE( 642)						switch((int)(err1->_hx_getIndex())){
+HXLINE( 577)					if (::Std_obj::isOfType(_g->value,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
+HXLINE( 587)						 ::hscript::_Interp::Stop err1 = _g->value;
+HXLINE( 577)						switch((int)(err1->_hx_getIndex())){
             							case (int)0: {
-HXLINE( 644)								goto _hx_goto_72;
+HXLINE( 577)								cont = false;
             							}
             							break;
             							case (int)1: {
             							}
             							break;
             							case (int)2: {
-HXLINE( 645)								HX_STACK_DO_THROW(err1);
+HXLINE( 577)								HX_STACK_DO_THROW(err1);
             							}
             							break;
             						}
             					}
             					else {
-HXLINE( 639)						HX_STACK_DO_THROW(_g);
+HXLINE( 577)						HX_STACK_DO_THROW(_g);
             					}
             				}
             				else {
             					HX_STACK_DO_THROW(_hx_e);
             				}
             			}
+HXDLIN( 577)			if (!(cont)) {
+HXLINE( 578)				goto _hx_goto_72;
+            			}
             		}
             		_hx_goto_72:;
-HXLINE( 649)		this->restore(old);
+HXLINE( 580)		this->restore(old);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Interp_obj,forLoop,(void))
 
+bool Interp_obj::loopRun( ::Dynamic f){
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_583_loopRun)
+HXLINE( 584)		bool cont = true;
+HXLINE( 585)		try {
+            			HX_STACK_CATCHABLE( ::hscript::_Interp::Stop, 0);
+            			HX_STACK_CATCHABLE( ::haxe::ValueException, 1);
+HXLINE( 586)			f();
+            		} catch( ::Dynamic _hx_e) {
+            			if (_hx_e.IsClass<  ::hscript::_Interp::Stop >() ){
+            				HX_STACK_BEGIN_CATCH
+            				 ::hscript::_Interp::Stop err1 = _hx_e;
+HXLINE( 588)				switch((int)(err1->_hx_getIndex())){
+            					case (int)0: {
+HXLINE( 591)						cont = false;
+            					}
+            					break;
+            					case (int)1: {
+            					}
+            					break;
+            					case (int)2: {
+HXLINE( 593)						HX_STACK_DO_THROW(err1);
+            					}
+            					break;
+            				}
+            			}
+            			else if (_hx_e.IsClass<  ::haxe::ValueException >() ){
+            				HX_STACK_BEGIN_CATCH
+            				 ::haxe::ValueException _g = _hx_e;
+HXLINE( 587)				{
+HXLINE( 587)					null();
+            				}
+HXLINE( 585)				if (::Std_obj::isOfType(_g->value,::hx::ClassOf< ::hscript::_Interp::Stop >())) {
+HXLINE( 587)					 ::hscript::_Interp::Stop err1 = _g->value;
+HXLINE( 588)					switch((int)(err1->_hx_getIndex())){
+            						case (int)0: {
+HXLINE( 591)							cont = false;
+            						}
+            						break;
+            						case (int)1: {
+            						}
+            						break;
+            						case (int)2: {
+HXLINE( 593)							HX_STACK_DO_THROW(err1);
+            						}
+            						break;
+            					}
+            				}
+            				else {
+HXLINE( 585)					HX_STACK_DO_THROW(_g);
+            				}
+            			}
+            			else {
+            				HX_STACK_DO_THROW(_hx_e);
+            			}
+            		}
+HXLINE( 596)		return cont;
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(Interp_obj,loopRun,return )
+
 bool Interp_obj::isMap( ::Dynamic o){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_653_isMap)
-HXDLIN( 653)		return ::Std_obj::isOfType(o,::hx::ClassOf< ::haxe::IMap >());
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_600_isMap)
+HXDLIN( 600)		return ::Std_obj::isOfType(o,::hx::ClassOf< ::haxe::IMap >());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Interp_obj,isMap,return )
 
  ::Dynamic Interp_obj::getMapValue( ::Dynamic map, ::Dynamic key){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_657_getMapValue)
-HXDLIN( 657)		return ::haxe::IMap_obj::get( ::hx::interface_check(map,0x09c2bd39),key);
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_604_getMapValue)
+HXDLIN( 604)		return ::haxe::IMap_obj::get( ::hx::interface_check(map,0x09c2bd39),key);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Interp_obj,getMapValue,return )
 
 void Interp_obj::setMapValue( ::Dynamic map, ::Dynamic key, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_661_setMapValue)
-HXDLIN( 661)		::haxe::IMap_obj::set( ::hx::interface_check(map,0x09c2bd39),key,value);
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_608_setMapValue)
+HXDLIN( 608)		::haxe::IMap_obj::set( ::hx::interface_check(map,0x09c2bd39),key,value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Interp_obj,setMapValue,(void))
 
- ::Dynamic Interp_obj::get( ::Dynamic o,::String f){
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_664_get)
-HXLINE( 665)		if (::hx::IsNull( o )) {
-HXLINE( 665)			 ::hscript::Error e =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidAccess(f),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
-HXDLIN( 665)			HX_STACK_DO_THROW(e);
+ ::Dynamic Interp_obj::makeMap(::cpp::VirtualArray keys,::cpp::VirtualArray values){
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_611_makeMap)
+HXLINE( 612)		bool isAllString = true;
+HXLINE( 613)		bool isAllInt = true;
+HXLINE( 614)		bool isAllObject = true;
+HXLINE( 615)		bool isAllEnum = true;
+HXLINE( 616)		{
+HXLINE( 616)			int _g = 0;
+HXDLIN( 616)			while((_g < keys->get_length())){
+HXLINE( 616)				 ::Dynamic key = keys->__get(_g);
+HXDLIN( 616)				_g = (_g + 1);
+HXLINE( 617)				if (isAllString) {
+HXLINE( 617)					isAllString = ::Std_obj::isOfType(key,::hx::ClassOf< ::String >());
+            				}
+            				else {
+HXLINE( 617)					isAllString = false;
+            				}
+HXLINE( 618)				if (isAllInt) {
+HXLINE( 618)					isAllInt = ::Std_obj::isOfType(key,::hx::ClassOf< int >());
+            				}
+            				else {
+HXLINE( 618)					isAllInt = false;
+            				}
+HXLINE( 619)				if (isAllObject) {
+HXLINE( 619)					isAllObject = ::Reflect_obj::isObject(key);
+            				}
+            				else {
+HXLINE( 619)					isAllObject = false;
+            				}
+HXLINE( 620)				if (isAllEnum) {
+HXLINE( 620)					isAllEnum = ::Reflect_obj::isEnumValue(key);
+            				}
+            				else {
+HXLINE( 620)					isAllEnum = false;
+            				}
+            			}
             		}
-HXLINE( 666)		return ::Reflect_obj::getProperty(o,f);
+HXLINE( 622)		if (isAllInt) {
+HXLINE( 623)			 ::haxe::ds::IntMap m =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
+HXLINE( 624)			{
+HXLINE( 624)				int _g_current = 0;
+HXDLIN( 624)				::cpp::VirtualArray _g_array = keys;
+HXDLIN( 624)				while((_g_current < _g_array->get_length())){
+HXLINE( 624)					 ::Dynamic _g_value = _g_array->__get(_g_current);
+HXDLIN( 624)					_g_current = (_g_current + 1);
+HXDLIN( 624)					int _g_key = (_g_current - 1);
+HXDLIN( 624)					int i = _g_key;
+HXDLIN( 624)					 ::Dynamic key1 = _g_value;
+HXLINE( 625)					m->set(( (int)(key1) ),values->__get(i));
+            				}
+            			}
+HXLINE( 626)			return m;
+            		}
+HXLINE( 628)		if (isAllString) {
+HXLINE( 629)			 ::haxe::ds::StringMap m1 =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE( 630)			{
+HXLINE( 630)				int _g_current1 = 0;
+HXDLIN( 630)				::cpp::VirtualArray _g_array1 = keys;
+HXDLIN( 630)				while((_g_current1 < _g_array1->get_length())){
+HXLINE( 630)					 ::Dynamic _g_value1 = _g_array1->__get(_g_current1);
+HXDLIN( 630)					_g_current1 = (_g_current1 + 1);
+HXDLIN( 630)					int _g_key1 = (_g_current1 - 1);
+HXDLIN( 630)					int i1 = _g_key1;
+HXDLIN( 630)					 ::Dynamic key2 = _g_value1;
+HXLINE( 631)					m1->set(( (::String)(key2) ),values->__get(i1));
+            				}
+            			}
+HXLINE( 632)			return m1;
+            		}
+HXLINE( 634)		if (isAllEnum) {
+HXLINE( 635)			 ::haxe::ds::EnumValueMap m2 =  ::haxe::ds::EnumValueMap_obj::__alloc( HX_CTX );
+HXLINE( 636)			{
+HXLINE( 636)				int _g_current2 = 0;
+HXDLIN( 636)				::cpp::VirtualArray _g_array2 = keys;
+HXDLIN( 636)				while((_g_current2 < _g_array2->get_length())){
+HXLINE( 636)					 ::Dynamic _g_value2 = _g_array2->__get(_g_current2);
+HXDLIN( 636)					_g_current2 = (_g_current2 + 1);
+HXDLIN( 636)					int _g_key2 = (_g_current2 - 1);
+HXDLIN( 636)					int i2 = _g_key2;
+HXDLIN( 636)					 ::Dynamic key3 = _g_value2;
+HXLINE( 637)					m2->set(key3,values->__get(i2));
+            				}
+            			}
+HXLINE( 638)			return m2;
+            		}
+HXLINE( 640)		if (isAllObject) {
+HXLINE( 641)			 ::haxe::ds::ObjectMap m3 =  ::haxe::ds::ObjectMap_obj::__alloc( HX_CTX );
+HXLINE( 642)			{
+HXLINE( 642)				int _g_current3 = 0;
+HXDLIN( 642)				::cpp::VirtualArray _g_array3 = keys;
+HXDLIN( 642)				while((_g_current3 < _g_array3->get_length())){
+HXLINE( 642)					 ::Dynamic _g_value3 = _g_array3->__get(_g_current3);
+HXDLIN( 642)					_g_current3 = (_g_current3 + 1);
+HXDLIN( 642)					int _g_key3 = (_g_current3 - 1);
+HXDLIN( 642)					int i3 = _g_key3;
+HXDLIN( 642)					 ::Dynamic key4 = _g_value3;
+HXLINE( 643)					m3->set(key4,values->__get(i3));
+            				}
+            			}
+HXLINE( 644)			return m3;
+            		}
+HXLINE( 646)		 ::hscript::ErrorDef e = ::hscript::ErrorDef_obj::ECustom((HX_("Invalid map keys ",9f,d8,7f,7b) + ::Std_obj::string(keys)));
+HXDLIN( 646)		 ::hscript::Error e1 =  ::hscript::Error_obj::__alloc( HX_CTX ,e,( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 646)		HX_STACK_DO_THROW(e1);
+HXDLIN( 646)		return null();
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC2(Interp_obj,makeMap,return )
+
+ ::Dynamic Interp_obj::get( ::Dynamic o,::String f){
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_650_get)
+HXLINE( 651)		if (::hx::IsNull( o )) {
+HXLINE( 651)			 ::hscript::Error e =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidAccess(f),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 651)			HX_STACK_DO_THROW(e);
+            		}
+HXLINE( 652)		return ::Reflect_obj::getProperty(o,f);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Interp_obj,get,return )
 
  ::Dynamic Interp_obj::set( ::Dynamic o,::String f, ::Dynamic v){
-            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_680_set)
-HXLINE( 681)		if (::hx::IsNull( o )) {
-HXLINE( 681)			 ::hscript::Error e =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidAccess(f),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
-HXDLIN( 681)			HX_STACK_DO_THROW(e);
+            	HX_GC_STACKFRAME(&_hx_pos_f37559d470356c9e_666_set)
+HXLINE( 667)		if (::hx::IsNull( o )) {
+HXLINE( 667)			 ::hscript::Error e =  ::hscript::Error_obj::__alloc( HX_CTX ,::hscript::ErrorDef_obj::EInvalidAccess(f),( (int)(this->curExpr->__Field(HX_("pmin",22,f7,5a,4a),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("pmax",34,f0,5a,4a),::hx::paccDynamic)) ),( (::String)(this->curExpr->__Field(HX_("origin",e6,19,01,4b),::hx::paccDynamic)) ),( (int)(this->curExpr->__Field(HX_("line",f4,17,b3,47),::hx::paccDynamic)) ));
+HXDLIN( 667)			HX_STACK_DO_THROW(e);
             		}
-HXLINE( 682)		::Reflect_obj::setProperty(o,f,v);
-HXLINE( 683)		return v;
+HXLINE( 668)		::Reflect_obj::setProperty(o,f,v);
+HXLINE( 669)		return v;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Interp_obj,set,return )
 
  ::Dynamic Interp_obj::fcall( ::Dynamic o,::String f,::cpp::VirtualArray args){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_687_fcall)
-HXDLIN( 687)		return this->call(o,this->get(o,f),args);
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_673_fcall)
+HXDLIN( 673)		return this->call(o,this->get(o,f),args);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Interp_obj,fcall,return )
 
  ::Dynamic Interp_obj::call( ::Dynamic o, ::Dynamic f,::cpp::VirtualArray args){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_691_call)
-HXDLIN( 691)		return ::Reflect_obj::callMethod(o,f,args);
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_677_call)
+HXDLIN( 677)		return ::Reflect_obj::callMethod(o,f,args);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(Interp_obj,call,return )
 
  ::Dynamic Interp_obj::cnew(::String cl,::cpp::VirtualArray args){
-            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_694_cnew)
-HXLINE( 695)		::hx::Class c = ::Type_obj::resolveClass(cl);
-HXLINE( 696)		if (::hx::IsNull( c )) {
-HXLINE( 696)			c = this->resolve(cl);
+            	HX_STACKFRAME(&_hx_pos_f37559d470356c9e_680_cnew)
+HXLINE( 681)		::hx::Class c = ::Type_obj::resolveClass(cl);
+HXLINE( 682)		if (::hx::IsNull( c )) {
+HXLINE( 682)			c = this->resolve(cl);
             		}
-HXLINE( 697)		return ::Type_obj::createInstance(c,args);
+HXLINE( 683)		return ::Type_obj::createInstance(c,args);
             	}
 
 
@@ -1925,6 +2066,8 @@ void Interp_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"rethrow") ) { return ::hx::Val( rethrow_dyn() ); }
 		if (HX_FIELD_EQ(inName,"resolve") ) { return ::hx::Val( resolve_dyn() ); }
 		if (HX_FIELD_EQ(inName,"forLoop") ) { return ::hx::Val( forLoop_dyn() ); }
+		if (HX_FIELD_EQ(inName,"loopRun") ) { return ::hx::Val( loopRun_dyn() ); }
+		if (HX_FIELD_EQ(inName,"makeMap") ) { return ::hx::Val( makeMap_dyn() ); }
 		break;
 	case 8:
 		if (HX_FIELD_EQ(inName,"declared") ) { return ::hx::Val( declared ); }
@@ -2039,9 +2182,11 @@ static ::String Interp_obj_sMemberFields[] = {
 	HX_("whileLoop",b5,42,98,e1),
 	HX_("makeIterator",fc,dd,72,d8),
 	HX_("forLoop",0d,52,69,c9),
+	HX_("loopRun",47,0f,6c,20),
 	HX_("isMap",d2,34,51,c1),
 	HX_("getMapValue",eb,b1,ee,ce),
 	HX_("setMapValue",f7,b8,5b,d9),
+	HX_("makeMap",4e,f1,1e,5c),
 	HX_("get",96,80,4e,00),
 	HX_("set",a2,9b,57,00),
 	HX_("fcall",04,44,99,fc),

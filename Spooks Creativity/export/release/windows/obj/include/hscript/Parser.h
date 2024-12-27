@@ -64,6 +64,7 @@ class HXCPP_CLASS_ATTRIBUTES Parser_obj : public ::hx::Object
 		bool resumeErrors;
 		::String input;
 		int readPos;
+		int offset;
 		int _hx_char;
 		::Array< bool > ops;
 		::Array< bool > idents;
@@ -74,16 +75,19 @@ class HXCPP_CLASS_ATTRIBUTES Parser_obj : public ::hx::Object
 		int oldTokenMin;
 		int oldTokenMax;
 		 ::haxe::ds::List tokens;
+		int get_currentPos();
+		::Dynamic get_currentPos_dyn();
+
 		void error( ::hscript::ErrorDef err,int pmin,int pmax);
 		::Dynamic error_dyn();
 
 		void invalidChar(int c);
 		::Dynamic invalidChar_dyn();
 
-		void initParser(::String origin);
+		void initParser(::String origin,int pos);
 		::Dynamic initParser_dyn();
 
-		 ::Dynamic parseString(::String s,::String origin);
+		 ::Dynamic parseString(::String s,::String origin, ::Dynamic position);
 		::Dynamic parseString_dyn();
 
 		 ::Dynamic unexpected( ::hscript::Token tk);
@@ -167,7 +171,7 @@ class HXCPP_CLASS_ATTRIBUTES Parser_obj : public ::hx::Object
 		::Array< ::Dynamic> parseExprList( ::hscript::Token etk);
 		::Dynamic parseExprList_dyn();
 
-		::Array< ::Dynamic> parseModule(::String content,::String origin);
+		::Array< ::Dynamic> parseModule(::String content,::String origin, ::Dynamic position);
 		::Dynamic parseModule_dyn();
 
 		::Array< ::Dynamic> parseMetadata();

@@ -12,29 +12,29 @@
 #include <hxvlc/openfl/Stats.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_eb1201e6121fe7c8_90_new,"hxvlc.openfl.Stats","new",0x3908c044,"hxvlc.openfl.Stats.new","hxvlc/openfl/Stats.hx",90,0x77f285cc)
-HX_LOCAL_STACK_FRAME(_hx_pos_eb1201e6121fe7c8_114_toString,"hxvlc.openfl.Stats","toString",0x67d5c648,"hxvlc.openfl.Stats.toString","hxvlc/openfl/Stats.hx",114,0x77f285cc)
-HX_LOCAL_STACK_FRAME(_hx_pos_eb1201e6121fe7c8_148_fromMediaStats,"hxvlc.openfl.Stats","fromMediaStats",0x789a0b41,"hxvlc.openfl.Stats.fromMediaStats","hxvlc/openfl/Stats.hx",148,0x77f285cc)
+HX_DEFINE_STACK_FRAME(_hx_pos_eb1201e6121fe7c8_89_new,"hxvlc.openfl.Stats","new",0x3908c044,"hxvlc.openfl.Stats.new","hxvlc/openfl/Stats.hx",89,0x77f285cc)
+HX_LOCAL_STACK_FRAME(_hx_pos_eb1201e6121fe7c8_113_toString,"hxvlc.openfl.Stats","toString",0x67d5c648,"hxvlc.openfl.Stats.toString","hxvlc/openfl/Stats.hx",113,0x77f285cc)
+HX_LOCAL_STACK_FRAME(_hx_pos_eb1201e6121fe7c8_147_fromMediaStats,"hxvlc.openfl.Stats","fromMediaStats",0x789a0b41,"hxvlc.openfl.Stats.fromMediaStats","hxvlc/openfl/Stats.hx",147,0x77f285cc)
 namespace hxvlc{
 namespace openfl{
 
 void Stats_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_eb1201e6121fe7c8_90_new)
-HXLINE(  91)		this->i_read_bytes = 0;
-HXLINE(  92)		this->f_input_bitrate = ( (float)(((Float)0.0)) );
-HXLINE(  93)		this->i_demux_read_bytes = 0;
-HXLINE(  94)		this->f_demux_bitrate = ( (float)(((Float)0.0)) );
-HXLINE(  95)		this->i_demux_corrupted = 0;
-HXLINE(  96)		this->i_demux_discontinuity = 0;
-HXLINE(  97)		this->i_decoded_video = 0;
-HXLINE(  98)		this->i_decoded_audio = 0;
-HXLINE(  99)		this->i_displayed_pictures = 0;
-HXLINE( 100)		this->i_lost_pictures = 0;
-HXLINE( 101)		this->i_played_abuffers = 0;
-HXLINE( 102)		this->i_lost_abuffers = 0;
-HXLINE( 103)		this->i_sent_packets = 0;
-HXLINE( 104)		this->i_sent_bytes = 0;
-HXLINE( 105)		this->f_send_bitrate = ( (float)(((Float)0.0)) );
+            	HX_STACKFRAME(&_hx_pos_eb1201e6121fe7c8_89_new)
+HXLINE(  90)		this->i_read_bytes = 0;
+HXLINE(  91)		this->f_input_bitrate = ( (float)(((Float)0.0)) );
+HXLINE(  92)		this->i_demux_read_bytes = 0;
+HXLINE(  93)		this->f_demux_bitrate = ( (float)(((Float)0.0)) );
+HXLINE(  94)		this->i_demux_corrupted = 0;
+HXLINE(  95)		this->i_demux_discontinuity = 0;
+HXLINE(  96)		this->i_decoded_video = 0;
+HXLINE(  97)		this->i_decoded_audio = 0;
+HXLINE(  98)		this->i_displayed_pictures = 0;
+HXLINE(  99)		this->i_lost_pictures = 0;
+HXLINE( 100)		this->i_played_abuffers = 0;
+HXLINE( 101)		this->i_lost_abuffers = 0;
+HXLINE( 102)		this->i_sent_packets = 0;
+HXLINE( 103)		this->i_sent_bytes = 0;
+HXLINE( 104)		this->f_send_bitrate = ( (float)(((Float)0.0)) );
             	}
 
 Dynamic Stats_obj::__CreateEmpty() { return new Stats_obj; }
@@ -53,50 +53,50 @@ bool Stats_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String Stats_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_eb1201e6121fe7c8_114_toString)
-HXLINE( 115)		::Array< ::String > parts = ::Array_obj< ::String >::__new(0);
-HXLINE( 117)		parts->push((HX_("Bytes read: ",b1,4e,61,18) + this->i_read_bytes));
-HXLINE( 118)		parts->push(((HX_("Input bitrate: ",5d,c6,61,ea) + ::Std_obj::string(this->f_input_bitrate)) + HX_(" bps",c5,92,71,15)));
-HXLINE( 120)		parts->push((HX_("Demuxer bytes read: ",f5,87,47,be) + this->i_demux_read_bytes));
-HXLINE( 121)		parts->push(((HX_("Demuxer bitrate: ",2f,c2,95,9f) + ::Std_obj::string(this->f_demux_bitrate)) + HX_(" bps",c5,92,71,15)));
-HXLINE( 122)		parts->push((HX_("Demuxer corrupted packets: ",b9,ea,68,b5) + this->i_demux_corrupted));
-HXLINE( 123)		parts->push((HX_("Demuxer discontinuities: ",1e,63,79,23) + this->i_demux_discontinuity));
-HXLINE( 125)		parts->push((HX_("Decoded video frames: ",9b,91,65,88) + this->i_decoded_video));
-HXLINE( 126)		parts->push((HX_("Decoded audio frames: ",e0,49,ad,d8) + this->i_decoded_audio));
-HXLINE( 128)		parts->push((HX_("Displayed pictures: ",9a,0e,22,ec) + this->i_displayed_pictures));
-HXLINE( 129)		parts->push((HX_("Lost pictures: ",77,d8,3b,2a) + this->i_lost_pictures));
-HXLINE( 131)		parts->push((HX_("Played audio buffers: ",62,ce,61,09) + this->i_played_abuffers));
-HXLINE( 132)		parts->push((HX_("Lost audio buffers: ",f3,36,8b,54) + this->i_lost_abuffers));
-HXLINE( 134)		parts->push((HX_("Sent packets: ",a9,be,b0,98) + this->i_sent_packets));
-HXLINE( 135)		parts->push((HX_("Sent bytes: ",29,a1,7d,de) + this->i_sent_bytes));
-HXLINE( 136)		parts->push(((HX_("Send bitrate: ",5b,55,f1,0c) + ::Std_obj::string(this->f_send_bitrate)) + HX_(" bps",c5,92,71,15)));
-HXLINE( 138)		return parts->join(HX_("\n",0a,00,00,00));
+            	HX_STACKFRAME(&_hx_pos_eb1201e6121fe7c8_113_toString)
+HXLINE( 114)		::Array< ::String > parts = ::Array_obj< ::String >::__new(0);
+HXLINE( 116)		parts->push((HX_("Bytes read: ",b1,4e,61,18) + this->i_read_bytes));
+HXLINE( 117)		parts->push(((HX_("Input bitrate: ",5d,c6,61,ea) + ::Std_obj::string(this->f_input_bitrate)) + HX_(" bps",c5,92,71,15)));
+HXLINE( 119)		parts->push((HX_("Demuxer bytes read: ",f5,87,47,be) + this->i_demux_read_bytes));
+HXLINE( 120)		parts->push(((HX_("Demuxer bitrate: ",2f,c2,95,9f) + ::Std_obj::string(this->f_demux_bitrate)) + HX_(" bps",c5,92,71,15)));
+HXLINE( 121)		parts->push((HX_("Demuxer corrupted packets: ",b9,ea,68,b5) + this->i_demux_corrupted));
+HXLINE( 122)		parts->push((HX_("Demuxer discontinuities: ",1e,63,79,23) + this->i_demux_discontinuity));
+HXLINE( 124)		parts->push((HX_("Decoded video frames: ",9b,91,65,88) + this->i_decoded_video));
+HXLINE( 125)		parts->push((HX_("Decoded audio frames: ",e0,49,ad,d8) + this->i_decoded_audio));
+HXLINE( 127)		parts->push((HX_("Displayed pictures: ",9a,0e,22,ec) + this->i_displayed_pictures));
+HXLINE( 128)		parts->push((HX_("Lost pictures: ",77,d8,3b,2a) + this->i_lost_pictures));
+HXLINE( 130)		parts->push((HX_("Played audio buffers: ",62,ce,61,09) + this->i_played_abuffers));
+HXLINE( 131)		parts->push((HX_("Lost audio buffers: ",f3,36,8b,54) + this->i_lost_abuffers));
+HXLINE( 133)		parts->push((HX_("Sent packets: ",a9,be,b0,98) + this->i_sent_packets));
+HXLINE( 134)		parts->push((HX_("Sent bytes: ",29,a1,7d,de) + this->i_sent_bytes));
+HXLINE( 135)		parts->push(((HX_("Send bitrate: ",5b,55,f1,0c) + ::Std_obj::string(this->f_send_bitrate)) + HX_(" bps",c5,92,71,15)));
+HXLINE( 137)		return parts->join(HX_("\n",0a,00,00,00));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Stats_obj,toString,return )
 
  ::hxvlc::openfl::Stats Stats_obj::fromMediaStats(cpp::Struct<  libvlc_media_stats_t > media_stats){
-            	HX_GC_STACKFRAME(&_hx_pos_eb1201e6121fe7c8_148_fromMediaStats)
-HXLINE( 149)		 ::hxvlc::openfl::Stats stats =  ::hxvlc::openfl::Stats_obj::__alloc( HX_CTX );
-HXLINE( 151)		if (::hx::IsNotNull( media_stats )) {
-HXLINE( 153)			stats->i_read_bytes = media_stats->i_read_bytes;
-HXLINE( 154)			stats->f_input_bitrate = media_stats->f_input_bitrate;
-HXLINE( 156)			stats->i_demux_read_bytes = media_stats->i_demux_read_bytes;
-HXLINE( 157)			stats->f_demux_bitrate = media_stats->f_demux_bitrate;
-HXLINE( 158)			stats->i_demux_corrupted = media_stats->i_demux_corrupted;
-HXLINE( 159)			stats->i_demux_discontinuity = media_stats->i_demux_discontinuity;
-HXLINE( 161)			stats->i_decoded_video = media_stats->i_decoded_video;
-HXLINE( 162)			stats->i_decoded_audio = media_stats->i_decoded_audio;
-HXLINE( 164)			stats->i_displayed_pictures = media_stats->i_displayed_pictures;
-HXLINE( 165)			stats->i_lost_pictures = media_stats->i_lost_pictures;
-HXLINE( 167)			stats->i_played_abuffers = media_stats->i_played_abuffers;
-HXLINE( 168)			stats->i_lost_abuffers = media_stats->i_lost_abuffers;
-HXLINE( 170)			stats->i_sent_packets = media_stats->i_sent_packets;
-HXLINE( 171)			stats->i_sent_bytes = media_stats->i_sent_bytes;
-HXLINE( 172)			stats->f_send_bitrate = media_stats->f_send_bitrate;
+            	HX_GC_STACKFRAME(&_hx_pos_eb1201e6121fe7c8_147_fromMediaStats)
+HXLINE( 148)		 ::hxvlc::openfl::Stats stats =  ::hxvlc::openfl::Stats_obj::__alloc( HX_CTX );
+HXLINE( 150)		if (::hx::IsNotNull( media_stats )) {
+HXLINE( 152)			stats->i_read_bytes = media_stats->i_read_bytes;
+HXLINE( 153)			stats->f_input_bitrate = media_stats->f_input_bitrate;
+HXLINE( 155)			stats->i_demux_read_bytes = media_stats->i_demux_read_bytes;
+HXLINE( 156)			stats->f_demux_bitrate = media_stats->f_demux_bitrate;
+HXLINE( 157)			stats->i_demux_corrupted = media_stats->i_demux_corrupted;
+HXLINE( 158)			stats->i_demux_discontinuity = media_stats->i_demux_discontinuity;
+HXLINE( 160)			stats->i_decoded_video = media_stats->i_decoded_video;
+HXLINE( 161)			stats->i_decoded_audio = media_stats->i_decoded_audio;
+HXLINE( 163)			stats->i_displayed_pictures = media_stats->i_displayed_pictures;
+HXLINE( 164)			stats->i_lost_pictures = media_stats->i_lost_pictures;
+HXLINE( 166)			stats->i_played_abuffers = media_stats->i_played_abuffers;
+HXLINE( 167)			stats->i_lost_abuffers = media_stats->i_lost_abuffers;
+HXLINE( 169)			stats->i_sent_packets = media_stats->i_sent_packets;
+HXLINE( 170)			stats->i_sent_bytes = media_stats->i_sent_bytes;
+HXLINE( 171)			stats->f_send_bitrate = media_stats->f_send_bitrate;
             		}
-HXLINE( 175)		return stats;
+HXLINE( 174)		return stats;
             	}
 
 

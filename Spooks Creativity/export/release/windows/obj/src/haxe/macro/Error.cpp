@@ -8,12 +8,12 @@
 #include <haxe/macro/Error.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_48a43a414e2c916a_1049_new,"haxe.macro.Error","new",0x73f79570,"haxe.macro.Error.new","D:\\HaxeToolKit\\haxe\\std/haxe/macro/Expr.hx",1049,0xcb0ec735)
+HX_DEFINE_STACK_FRAME(_hx_pos_3aabe5d3ff33afe4_1049_new,"haxe.macro.Error","new",0x73f79570,"haxe.macro.Error.new","C:\\HaxeToolkit\\haxe\\std/haxe/macro/Expr.hx",1049,0xd8e2ab76)
 namespace haxe{
 namespace macro{
 
 void Error_obj::__construct(::String message, ::Dynamic pos, ::haxe::Exception previous){
-            	HX_STACKFRAME(&_hx_pos_48a43a414e2c916a_1049_new)
+            	HX_STACKFRAME(&_hx_pos_3aabe5d3ff33afe4_1049_new)
 HXLINE(1050)		super::__construct(message,previous,null());
 HXLINE(1051)		this->pos = pos;
             	}

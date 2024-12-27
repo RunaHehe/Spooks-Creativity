@@ -5,15 +5,15 @@
 #include <sys/thread/Deque.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_5c7d47921a999df1_30_new,"sys.thread.Deque","new",0xfb067acf,"sys.thread.Deque.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Deque.hx",30,0x5c3037fa)
-HX_LOCAL_STACK_FRAME(_hx_pos_5c7d47921a999df1_34_add,"sys.thread.Deque","add",0xfafc9c90,"sys.thread.Deque.add","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Deque.hx",34,0x5c3037fa)
-HX_LOCAL_STACK_FRAME(_hx_pos_5c7d47921a999df1_38_push,"sys.thread.Deque","push",0xac03888b,"sys.thread.Deque.push","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Deque.hx",38,0x5c3037fa)
-HX_LOCAL_STACK_FRAME(_hx_pos_5c7d47921a999df1_42_pop,"sys.thread.Deque","pop",0xfb080800,"sys.thread.Deque.pop","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Deque.hx",42,0x5c3037fa)
+HX_DEFINE_STACK_FRAME(_hx_pos_9c9d8eff616174eb_30_new,"sys.thread.Deque","new",0xfb067acf,"sys.thread.Deque.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Deque.hx",30,0xdfc2577b)
+HX_LOCAL_STACK_FRAME(_hx_pos_9c9d8eff616174eb_34_add,"sys.thread.Deque","add",0xfafc9c90,"sys.thread.Deque.add","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Deque.hx",34,0xdfc2577b)
+HX_LOCAL_STACK_FRAME(_hx_pos_9c9d8eff616174eb_38_push,"sys.thread.Deque","push",0xac03888b,"sys.thread.Deque.push","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Deque.hx",38,0xdfc2577b)
+HX_LOCAL_STACK_FRAME(_hx_pos_9c9d8eff616174eb_42_pop,"sys.thread.Deque","pop",0xfb080800,"sys.thread.Deque.pop","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Deque.hx",42,0xdfc2577b)
 namespace sys{
 namespace thread{
 
 void Deque_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_5c7d47921a999df1_30_new)
+            	HX_STACKFRAME(&_hx_pos_9c9d8eff616174eb_30_new)
 HXDLIN(  30)		this->q =  ::__hxcpp_deque_create();
             	}
 
@@ -33,7 +33,7 @@ bool Deque_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Deque_obj::add( ::Dynamic i){
-            	HX_STACKFRAME(&_hx_pos_5c7d47921a999df1_34_add)
+            	HX_STACKFRAME(&_hx_pos_9c9d8eff616174eb_34_add)
 HXDLIN(  34)		 ::__hxcpp_deque_add(this->q,i);
             	}
 
@@ -41,7 +41,7 @@ HXDLIN(  34)		 ::__hxcpp_deque_add(this->q,i);
 HX_DEFINE_DYNAMIC_FUNC1(Deque_obj,add,(void))
 
 void Deque_obj::push( ::Dynamic i){
-            	HX_STACKFRAME(&_hx_pos_5c7d47921a999df1_38_push)
+            	HX_STACKFRAME(&_hx_pos_9c9d8eff616174eb_38_push)
 HXDLIN(  38)		 ::__hxcpp_deque_push(this->q,i);
             	}
 
@@ -49,7 +49,7 @@ HXDLIN(  38)		 ::__hxcpp_deque_push(this->q,i);
 HX_DEFINE_DYNAMIC_FUNC1(Deque_obj,push,(void))
 
  ::Dynamic Deque_obj::pop(bool block){
-            	HX_STACKFRAME(&_hx_pos_5c7d47921a999df1_42_pop)
+            	HX_STACKFRAME(&_hx_pos_9c9d8eff616174eb_42_pop)
 HXDLIN(  42)		return  ::__hxcpp_deque_pop(this->q,block);
             	}
 

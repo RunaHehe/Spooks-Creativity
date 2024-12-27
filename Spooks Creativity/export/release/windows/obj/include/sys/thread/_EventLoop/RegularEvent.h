@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_4fe8a7aad06c8a0f_278_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_cf8fdd6eb8676a81_278_new)
 HX_DECLARE_CLASS3(sys,thread,_EventLoop,RegularEvent)
 
 namespace sys{
@@ -40,7 +40,7 @@ class HXCPP_CLASS_ATTRIBUTES RegularEvent_obj : public ::hx::Object
 			RegularEvent_obj *__this = (RegularEvent_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(RegularEvent_obj), true, "sys.thread._EventLoop.RegularEvent"));
 			*(void **)__this = RegularEvent_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_4fe8a7aad06c8a0f_278_new)
+            	HX_STACKFRAME(&_hx_pos_cf8fdd6eb8676a81_278_new)
 HXLINE( 284)		( ( ::sys::thread::_EventLoop::RegularEvent)(__this) )->cancelled = false;
 HXLINE( 287)		( ( ::sys::thread::_EventLoop::RegularEvent)(__this) )->run = run;
 HXLINE( 288)		( ( ::sys::thread::_EventLoop::RegularEvent)(__this) )->nextRunTime = nextRunTime;

@@ -11,9 +11,9 @@
 #include <StringTools.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_50_urlEncode,"StringTools","urlEncode",0x06afdce1,"StringTools.urlEncode","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",50,0x5bc17b6c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_118_urlDecode,"StringTools","urlDecode",0x71b947f9,"StringTools.urlDecode","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",118,0x5bc17b6c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_158_htmlEscape,"StringTools","htmlEscape",0x0e1a5dd0,"StringTools.htmlEscape","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",158,0x5bc17b6c)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_50_urlEncode,"StringTools","urlEncode",0x06afdce1,"StringTools.urlEncode","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",50,0xb9dbeb2d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_118_urlDecode,"StringTools","urlDecode",0x71b947f9,"StringTools.urlDecode","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",118,0xb9dbeb2d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_158_htmlEscape,"StringTools","htmlEscape",0x0e1a5dd0,"StringTools.htmlEscape","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",158,0xb9dbeb2d)
 static const ::String _hx_array_data_0363db6a_4[] = {
 	HX_("&quot;",2c,d9,81,8f),
 };
@@ -29,16 +29,16 @@ static const ::String _hx_array_data_0363db6a_7[] = {
 static const ::String _hx_array_data_0363db6a_8[] = {
 	HX_("&gt;",08,a9,6c,19),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_194_htmlUnescape,"StringTools","htmlUnescape",0x7457fea9,"StringTools.htmlUnescape","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",194,0x5bc17b6c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_240_startsWith,"StringTools","startsWith",0x5f4e6efb,"StringTools.startsWith","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",240,0x5bc17b6c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_251_endsWith,"StringTools","endsWith",0x0eb5bfe2,"StringTools.endsWith","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",251,0x5bc17b6c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_282_isSpace,"StringTools","isSpace",0xe0290778,"StringTools.isSpace","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",282,0x5bc17b6c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_300_ltrim,"StringTools","ltrim",0x24d2234a,"StringTools.ltrim","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",300,0x5bc17b6c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_325_rtrim,"StringTools","rtrim",0x99399e50,"StringTools.rtrim","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",325,0x5bc17b6c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_353_trim,"StringTools","trim",0x2908d066,"StringTools.trim","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",353,0x5bc17b6c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_369_lpad,"StringTools","lpad",0x23bd8feb,"StringTools.lpad","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",369,0x5bc17b6c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_428_replace,"StringTools","replace",0x6d651f30,"StringTools.replace","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",428,0x5bc17b6c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dae52a3c37fc9625_438_hex,"StringTools","hex",0xd91debd7,"StringTools.hex","D:\\HaxeToolKit\\haxe\\std/StringTools.hx",438,0x5bc17b6c)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_194_htmlUnescape,"StringTools","htmlUnescape",0x7457fea9,"StringTools.htmlUnescape","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",194,0xb9dbeb2d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_240_startsWith,"StringTools","startsWith",0x5f4e6efb,"StringTools.startsWith","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",240,0xb9dbeb2d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_251_endsWith,"StringTools","endsWith",0x0eb5bfe2,"StringTools.endsWith","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",251,0xb9dbeb2d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_282_isSpace,"StringTools","isSpace",0xe0290778,"StringTools.isSpace","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",282,0xb9dbeb2d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_300_ltrim,"StringTools","ltrim",0x24d2234a,"StringTools.ltrim","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",300,0xb9dbeb2d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_325_rtrim,"StringTools","rtrim",0x99399e50,"StringTools.rtrim","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",325,0xb9dbeb2d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_353_trim,"StringTools","trim",0x2908d066,"StringTools.trim","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",353,0xb9dbeb2d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_369_lpad,"StringTools","lpad",0x23bd8feb,"StringTools.lpad","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",369,0xb9dbeb2d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_428_replace,"StringTools","replace",0x6d651f30,"StringTools.replace","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",428,0xb9dbeb2d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae8d48bb73fd7d46_438_hex,"StringTools","hex",0xd91debd7,"StringTools.hex","C:\\HaxeToolkit\\haxe\\std/StringTools.hx",438,0xb9dbeb2d)
 
 void StringTools_obj::__construct() { }
 
@@ -58,7 +58,7 @@ bool StringTools_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String StringTools_obj::urlEncode(::String s){
-            	HX_STACKFRAME(&_hx_pos_dae52a3c37fc9625_50_urlEncode)
+            	HX_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_50_urlEncode)
 HXDLIN(  50)		return ( (::String)(s.__URLEncode()) );
             	}
 
@@ -66,7 +66,7 @@ HXDLIN(  50)		return ( (::String)(s.__URLEncode()) );
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(StringTools_obj,urlEncode,return )
 
 ::String StringTools_obj::urlDecode(::String s){
-            	HX_STACKFRAME(&_hx_pos_dae52a3c37fc9625_118_urlDecode)
+            	HX_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_118_urlDecode)
 HXDLIN( 118)		return ( (::String)(s.__URLDecode()) );
             	}
 
@@ -74,7 +74,7 @@ HXDLIN( 118)		return ( (::String)(s.__URLDecode()) );
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(StringTools_obj,urlDecode,return )
 
 ::String StringTools_obj::htmlEscape(::String s, ::Dynamic quotes){
-            	HX_GC_STACKFRAME(&_hx_pos_dae52a3c37fc9625_158_htmlEscape)
+            	HX_GC_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_158_htmlEscape)
 HXLINE( 159)		 ::StringBuf buf =  ::StringBuf_obj::__alloc( HX_CTX );
 HXLINE( 160)		{
 HXLINE( 160)			int _g_offset = 0;
@@ -237,7 +237,7 @@ HXLINE( 176)		return buf->toString();
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(StringTools_obj,htmlEscape,return )
 
 ::String StringTools_obj::htmlUnescape(::String s){
-            	HX_STACKFRAME(&_hx_pos_dae52a3c37fc9625_194_htmlUnescape)
+            	HX_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_194_htmlUnescape)
 HXDLIN( 194)		return s.split(HX_("&gt;",08,a9,6c,19))->join(HX_(">",3e,00,00,00)).split(HX_("&lt;",4d,74,70,19))->join(HX_("<",3c,00,00,00)).split(HX_("&quot;",2c,d9,81,8f))->join(HX_("\"",22,00,00,00)).split(HX_("&#039;",62,26,77,78))->join(HX_("'",27,00,00,00)).split(HX_("&amp;",dd,d4,aa,21))->join(HX_("&",26,00,00,00));
             	}
 
@@ -245,7 +245,7 @@ HXDLIN( 194)		return s.split(HX_("&gt;",08,a9,6c,19))->join(HX_(">",3e,00,00,00)
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(StringTools_obj,htmlUnescape,return )
 
 bool StringTools_obj::startsWith(::String s,::String start){
-            	HX_STACKFRAME(&_hx_pos_dae52a3c37fc9625_240_startsWith)
+            	HX_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_240_startsWith)
 HXDLIN( 240)		if ((s.length >= start.length)) {
 HXDLIN( 240)			return (s.lastIndexOf(start,0) == 0);
             		}
@@ -259,7 +259,7 @@ HXDLIN( 240)		return false;
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(StringTools_obj,startsWith,return )
 
 bool StringTools_obj::endsWith(::String s,::String end){
-            	HX_STACKFRAME(&_hx_pos_dae52a3c37fc9625_251_endsWith)
+            	HX_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_251_endsWith)
 HXLINE( 267)		int elen = end.length;
 HXLINE( 268)		int slen = s.length;
 HXLINE( 269)		if ((slen >= elen)) {
@@ -275,7 +275,7 @@ HXDLIN( 269)		return false;
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(StringTools_obj,endsWith,return )
 
 bool StringTools_obj::isSpace(::String s,int pos){
-            	HX_STACKFRAME(&_hx_pos_dae52a3c37fc9625_282_isSpace)
+            	HX_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_282_isSpace)
 HXLINE( 287)		 ::Dynamic c = s.charCodeAt(pos);
 HXLINE( 288)		bool _hx_tmp;
 HXDLIN( 288)		if (::hx::IsGreater( c,8 )) {
@@ -297,7 +297,7 @@ HXDLIN( 288)		return false;
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(StringTools_obj,isSpace,return )
 
 ::String StringTools_obj::ltrim(::String s){
-            	HX_STACKFRAME(&_hx_pos_dae52a3c37fc9625_300_ltrim)
+            	HX_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_300_ltrim)
 HXLINE( 304)		int l = s.length;
 HXLINE( 305)		int r = 0;
 HXLINE( 306)		while(true){
@@ -327,7 +327,7 @@ HXLINE( 309)		return null();
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(StringTools_obj,ltrim,return )
 
 ::String StringTools_obj::rtrim(::String s){
-            	HX_STACKFRAME(&_hx_pos_dae52a3c37fc9625_325_rtrim)
+            	HX_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_325_rtrim)
 HXLINE( 329)		int l = s.length;
 HXLINE( 330)		int r = 0;
 HXLINE( 331)		while(true){
@@ -357,7 +357,7 @@ HXLINE( 334)		return null();
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(StringTools_obj,rtrim,return )
 
 ::String StringTools_obj::trim(::String s){
-            	HX_STACKFRAME(&_hx_pos_dae52a3c37fc9625_353_trim)
+            	HX_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_353_trim)
 HXDLIN( 353)		return ::StringTools_obj::ltrim(::StringTools_obj::rtrim(s));
             	}
 
@@ -365,7 +365,7 @@ HXDLIN( 353)		return ::StringTools_obj::ltrim(::StringTools_obj::rtrim(s));
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(StringTools_obj,trim,return )
 
 ::String StringTools_obj::lpad(::String s,::String c,int l){
-            	HX_GC_STACKFRAME(&_hx_pos_dae52a3c37fc9625_369_lpad)
+            	HX_GC_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_369_lpad)
 HXLINE( 370)		if ((c.length <= 0)) {
 HXLINE( 371)			return s;
             		}
@@ -402,7 +402,7 @@ HXLINE( 379)		return buf->toString();
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(StringTools_obj,lpad,return )
 
 ::String StringTools_obj::replace(::String s,::String sub,::String by){
-            	HX_STACKFRAME(&_hx_pos_dae52a3c37fc9625_428_replace)
+            	HX_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_428_replace)
 HXDLIN( 428)		return s.split(sub)->join(by);
             	}
 
@@ -410,7 +410,7 @@ HXDLIN( 428)		return s.split(sub)->join(by);
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(StringTools_obj,replace,return )
 
 ::String StringTools_obj::hex(int n, ::Dynamic digits){
-            	HX_STACKFRAME(&_hx_pos_dae52a3c37fc9625_438_hex)
+            	HX_STACKFRAME(&_hx_pos_ae8d48bb73fd7d46_438_hex)
 HXLINE( 444)		::String s = HX_("",00,00,00,00);
 HXLINE( 445)		::String hexChars = HX_("0123456789ABCDEF",68,2a,58,a2);
 HXLINE( 446)		do {

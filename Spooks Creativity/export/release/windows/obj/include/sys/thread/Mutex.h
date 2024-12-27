@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_5f98ecf18f885fdb_30_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_4dc1d024129095b7_30_new)
 HX_DECLARE_CLASS2(sys,thread,Mutex)
 
 namespace sys{
@@ -39,7 +39,7 @@ class HXCPP_CLASS_ATTRIBUTES Mutex_obj : public ::hx::Object
 			Mutex_obj *__this = (Mutex_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(Mutex_obj), true, "sys.thread.Mutex"));
 			*(void **)__this = Mutex_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_5f98ecf18f885fdb_30_new)
+            	HX_STACKFRAME(&_hx_pos_4dc1d024129095b7_30_new)
 HXDLIN(  30)		( ( ::sys::thread::Mutex)(__this) )->m =  ::__hxcpp_mutex_create();
             	}
 		

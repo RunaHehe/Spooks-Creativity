@@ -88,9 +88,7 @@ class HXCPP_CLASS_ATTRIBUTES Video_obj : public  ::openfl::display::Bitmap_obj
 		 ::lime::app::_Event_Int_Void onMediaParsedChanged;
 		 ::lime::app::_Event_Void_Void onFormatSetup;
 		 ::sys::thread::Mutex mediaMutex;
-		 ::sys::thread::Mutex eventsMutex;
 		 ::sys::thread::Mutex textureMutex;
-		::Array< bool > events;
 		unsigned char* mediaData;
 		::cpp::UInt64 mediaSize;
 		::cpp::UInt64 mediaOffset;
@@ -144,9 +142,6 @@ class HXCPP_CLASS_ATTRIBUTES Video_obj : public  ::openfl::display::Bitmap_obj
 
 		virtual void dispose();
 		::Dynamic dispose_dyn();
-
-		virtual void update(int deltaTime);
-		::Dynamic update_dyn();
 
 		::String get_mrl();
 		::Dynamic get_mrl_dyn();
@@ -265,6 +260,8 @@ class HXCPP_CLASS_ATTRIBUTES Video_obj : public  ::openfl::display::Bitmap_obj
 		int audioSetup(char* format,unsigned int* rate,unsigned int* channels);
 
 		void audioSetVolume(float volume,bool mute);
+
+		void eventManagerCallbacks(const  libvlc_event_t* p_event);
 
 };
 

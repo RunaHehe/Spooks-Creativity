@@ -8,7 +8,7 @@
 #include <haxe/xml/_Access/HasAttribAccess_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_2a82101c3a6cab00_59_resolve,"haxe.xml._Access.HasAttribAccess_Impl_","resolve",0x7da9559c,"haxe.xml._Access.HasAttribAccess_Impl_.resolve","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Access.hx",59,0xcc1908f1)
+HX_LOCAL_STACK_FRAME(_hx_pos_3fd8a350ddd9293e_59_resolve,"haxe.xml._Access.HasAttribAccess_Impl_","resolve",0x7da9559c,"haxe.xml._Access.HasAttribAccess_Impl_.resolve","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Access.hx",59,0xd9eced32)
 namespace haxe{
 namespace xml{
 namespace _Access{
@@ -31,7 +31,7 @@ bool HasAttribAccess_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool HasAttribAccess_Impl__obj::resolve( ::Xml this1,::String name){
-            	HX_STACKFRAME(&_hx_pos_2a82101c3a6cab00_59_resolve)
+            	HX_STACKFRAME(&_hx_pos_3fd8a350ddd9293e_59_resolve)
 HXLINE(  60)		if ((this1->nodeType == ::Xml_obj::Document)) {
 HXLINE(  61)			HX_STACK_DO_THROW((HX_("Cannot access document attribute ",ca,30,fe,c0) + name));
             		}

@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_ced5325db5cc772b_1966_new,"__ASSET__mods_an_ammar_s_creativity_fonts_roboto_black_ttf","new",0xdf0118b3,"__ASSET__mods_an_ammar_s_creativity_fonts_roboto_black_ttf.new","ManifestResources.hx",1966,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_ced5325db5cc772b_1984_new,"__ASSET__mods_an_ammar_s_creativity_fonts_roboto_black_ttf","new",0xdf0118b3,"__ASSET__mods_an_ammar_s_creativity_fonts_roboto_black_ttf.new","ManifestResources.hx",1984,0xf77aa668)
 
 void __ASSET__mods_an_ammar_s_creativity_fonts_roboto_black_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_ced5325db5cc772b_1966_new)
-HXDLIN(1966)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Roboto-Black.ttf",da,12,78,c7));
-HXDLIN(1966)		this->name = HX_("Roboto Black",24,0e,25,09);
-HXDLIN(1966)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_ced5325db5cc772b_1984_new)
+HXDLIN(1984)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Roboto-Black.ttf",da,12,78,c7));
+HXDLIN(1984)		this->name = HX_("Roboto Black",24,0e,25,09);
+HXDLIN(1984)		super::__construct(null());
             	}
 
 Dynamic __ASSET__mods_an_ammar_s_creativity_fonts_roboto_black_ttf_obj::__CreateEmpty() { return new __ASSET__mods_an_ammar_s_creativity_fonts_roboto_black_ttf_obj; }

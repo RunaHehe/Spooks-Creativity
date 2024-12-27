@@ -9,7 +9,7 @@
 #ifndef INCLUDED_haxe_Exception
 #include <haxe/Exception.h>
 #endif
-HX_DECLARE_STACK_FRAME(_hx_pos_1b4f0011fc69aa02_7_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_aef99a7c708d87b0_7_new)
 HX_DECLARE_CLASS1(haxe,Exception)
 HX_DECLARE_CLASS2(sys,thread,NoEventLoopException)
 
@@ -45,7 +45,7 @@ class HXCPP_CLASS_ATTRIBUTES NoEventLoopException_obj : public  ::haxe::Exceptio
 {
             		::String msg = __o_msg;
             		if (::hx::IsNull(__o_msg)) msg = HX_("Event loop is not available. Refer to sys.thread.Thread.runWithEventLoop.",89,e6,4c,1c);
-            	HX_STACKFRAME(&_hx_pos_1b4f0011fc69aa02_7_new)
+            	HX_STACKFRAME(&_hx_pos_aef99a7c708d87b0_7_new)
 HXDLIN(   7)		__this->super::__construct(msg,previous,null());
             	}
 		

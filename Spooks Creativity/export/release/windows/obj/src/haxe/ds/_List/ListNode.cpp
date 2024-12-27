@@ -5,13 +5,13 @@
 #include <haxe/ds/_List/ListNode.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_b40f123a09050853_266_new,"haxe.ds._List.ListNode","new",0x5847787a,"haxe.ds._List.ListNode.new","D:\\HaxeToolKit\\haxe\\std/haxe/ds/List.hx",266,0xe17198f1)
+HX_DEFINE_STACK_FRAME(_hx_pos_21607b221ac769d1_266_new,"haxe.ds._List.ListNode","new",0x5847787a,"haxe.ds._List.ListNode.new","C:\\HaxeToolkit\\haxe\\std/haxe/ds/List.hx",266,0xda78f210)
 namespace haxe{
 namespace ds{
 namespace _List{
 
 void ListNode_obj::__construct( ::Dynamic item, ::haxe::ds::_List::ListNode next){
-            	HX_STACKFRAME(&_hx_pos_b40f123a09050853_266_new)
+            	HX_STACKFRAME(&_hx_pos_21607b221ac769d1_266_new)
 HXLINE( 267)		this->item = item;
 HXLINE( 268)		this->next = next;
             	}

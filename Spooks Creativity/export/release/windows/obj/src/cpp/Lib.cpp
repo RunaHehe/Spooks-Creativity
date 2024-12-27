@@ -5,14 +5,14 @@
 #include <cpp/Lib.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_18380c6ecbd97fc4_38_load,"cpp.Lib","load",0xd2b2dcba,"cpp.Lib.load","D:\\HaxeToolKit\\haxe\\std/cpp/Lib.hx",38,0xfe3a513d)
-HX_LOCAL_STACK_FRAME(_hx_pos_18380c6ecbd97fc4_66_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","D:\\HaxeToolKit\\haxe\\std/cpp/Lib.hx",66,0xfe3a513d)
-HX_LOCAL_STACK_FRAME(_hx_pos_18380c6ecbd97fc4_70_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","D:\\HaxeToolKit\\haxe\\std/cpp/Lib.hx",70,0xfe3a513d)
-HX_LOCAL_STACK_FRAME(_hx_pos_18380c6ecbd97fc4_71_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","D:\\HaxeToolKit\\haxe\\std/cpp/Lib.hx",71,0xfe3a513d)
-HX_LOCAL_STACK_FRAME(_hx_pos_18380c6ecbd97fc4_72_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","D:\\HaxeToolKit\\haxe\\std/cpp/Lib.hx",72,0xfe3a513d)
-HX_LOCAL_STACK_FRAME(_hx_pos_18380c6ecbd97fc4_73_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","D:\\HaxeToolKit\\haxe\\std/cpp/Lib.hx",73,0xfe3a513d)
-HX_LOCAL_STACK_FRAME(_hx_pos_18380c6ecbd97fc4_74_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","D:\\HaxeToolKit\\haxe\\std/cpp/Lib.hx",74,0xfe3a513d)
-HX_LOCAL_STACK_FRAME(_hx_pos_18380c6ecbd97fc4_75_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","D:\\HaxeToolKit\\haxe\\std/cpp/Lib.hx",75,0xfe3a513d)
+HX_LOCAL_STACK_FRAME(_hx_pos_34d722c4b19f8a18_38_load,"cpp.Lib","load",0xd2b2dcba,"cpp.Lib.load","C:\\HaxeToolkit\\haxe\\std/cpp/Lib.hx",38,0xfc8f8c7e)
+HX_LOCAL_STACK_FRAME(_hx_pos_34d722c4b19f8a18_66_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","C:\\HaxeToolkit\\haxe\\std/cpp/Lib.hx",66,0xfc8f8c7e)
+HX_LOCAL_STACK_FRAME(_hx_pos_34d722c4b19f8a18_70_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","C:\\HaxeToolkit\\haxe\\std/cpp/Lib.hx",70,0xfc8f8c7e)
+HX_LOCAL_STACK_FRAME(_hx_pos_34d722c4b19f8a18_71_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","C:\\HaxeToolkit\\haxe\\std/cpp/Lib.hx",71,0xfc8f8c7e)
+HX_LOCAL_STACK_FRAME(_hx_pos_34d722c4b19f8a18_72_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","C:\\HaxeToolkit\\haxe\\std/cpp/Lib.hx",72,0xfc8f8c7e)
+HX_LOCAL_STACK_FRAME(_hx_pos_34d722c4b19f8a18_73_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","C:\\HaxeToolkit\\haxe\\std/cpp/Lib.hx",73,0xfc8f8c7e)
+HX_LOCAL_STACK_FRAME(_hx_pos_34d722c4b19f8a18_74_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","C:\\HaxeToolkit\\haxe\\std/cpp/Lib.hx",74,0xfc8f8c7e)
+HX_LOCAL_STACK_FRAME(_hx_pos_34d722c4b19f8a18_75_loadLazy,"cpp.Lib","loadLazy",0x865efe4e,"cpp.Lib.loadLazy","C:\\HaxeToolkit\\haxe\\std/cpp/Lib.hx",75,0xfc8f8c7e)
 namespace cpp{
 
 void Lib_obj::__construct() { }
@@ -33,7 +33,7 @@ bool Lib_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Dynamic Lib_obj::load(::String lib,::String prim,int nargs){
-            	HX_STACKFRAME(&_hx_pos_18380c6ecbd97fc4_38_load)
+            	HX_STACKFRAME(&_hx_pos_34d722c4b19f8a18_38_load)
 HXDLIN(  38)		return  ::__loadprim(lib,prim,nargs);
             	}
 
@@ -41,7 +41,7 @@ HXDLIN(  38)		return  ::__loadprim(lib,prim,nargs);
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Lib_obj,load,return )
 
  ::Dynamic Lib_obj::loadLazy(::String lib,::String prim,int nargs){
-            	HX_STACKFRAME(&_hx_pos_18380c6ecbd97fc4_66_loadLazy)
+            	HX_STACKFRAME(&_hx_pos_34d722c4b19f8a18_66_loadLazy)
 HXDLIN(  66)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
 HXLINE(  67)			return  ::__loadprim(lib,prim,nargs);
@@ -57,7 +57,7 @@ HXLINE(  69)				switch((int)(nargs)){
             					case (int)0: {
             						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::Dynamic,e) HXARGC(0)
             						 ::Dynamic _hx_run(){
-            							HX_STACKFRAME(&_hx_pos_18380c6ecbd97fc4_70_loadLazy)
+            							HX_STACKFRAME(&_hx_pos_34d722c4b19f8a18_70_loadLazy)
 HXLINE(  70)							HX_STACK_DO_THROW(e);
 HXDLIN(  70)							return null();
             						}
@@ -69,7 +69,7 @@ HXLINE(  70)						return  ::Dynamic(new _hx_Closure_1(e));
             					case (int)2: {
             						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::Dynamic,e) HXARGC(2)
             						 ::Dynamic _hx_run( ::Dynamic _, ::Dynamic _1){
-            							HX_STACKFRAME(&_hx_pos_18380c6ecbd97fc4_71_loadLazy)
+            							HX_STACKFRAME(&_hx_pos_34d722c4b19f8a18_71_loadLazy)
 HXLINE(  71)							HX_STACK_DO_THROW(e);
 HXDLIN(  71)							return null();
             						}
@@ -81,7 +81,7 @@ HXLINE(  71)						return  ::Dynamic(new _hx_Closure_2(e));
             					case (int)3: {
             						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_3, ::Dynamic,e) HXARGC(3)
             						 ::Dynamic _hx_run( ::Dynamic _, ::Dynamic _1, ::Dynamic _2){
-            							HX_STACKFRAME(&_hx_pos_18380c6ecbd97fc4_72_loadLazy)
+            							HX_STACKFRAME(&_hx_pos_34d722c4b19f8a18_72_loadLazy)
 HXLINE(  72)							HX_STACK_DO_THROW(e);
 HXDLIN(  72)							return null();
             						}
@@ -93,7 +93,7 @@ HXLINE(  72)						return  ::Dynamic(new _hx_Closure_3(e));
             					case (int)4: {
             						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_4, ::Dynamic,e) HXARGC(4)
             						 ::Dynamic _hx_run( ::Dynamic _, ::Dynamic _1, ::Dynamic _2, ::Dynamic _3){
-            							HX_STACKFRAME(&_hx_pos_18380c6ecbd97fc4_73_loadLazy)
+            							HX_STACKFRAME(&_hx_pos_34d722c4b19f8a18_73_loadLazy)
 HXLINE(  73)							HX_STACK_DO_THROW(e);
 HXDLIN(  73)							return null();
             						}
@@ -105,7 +105,7 @@ HXLINE(  73)						return  ::Dynamic(new _hx_Closure_4(e));
             					case (int)5: {
             						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_5, ::Dynamic,e) HXARGC(5)
             						 ::Dynamic _hx_run( ::Dynamic _, ::Dynamic _1, ::Dynamic _2, ::Dynamic _3, ::Dynamic _4){
-            							HX_STACKFRAME(&_hx_pos_18380c6ecbd97fc4_74_loadLazy)
+            							HX_STACKFRAME(&_hx_pos_34d722c4b19f8a18_74_loadLazy)
 HXLINE(  74)							HX_STACK_DO_THROW(e);
 HXDLIN(  74)							return null();
             						}
@@ -117,7 +117,7 @@ HXLINE(  74)						return  ::Dynamic(new _hx_Closure_5(e));
             					default:{
             						HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::Dynamic,e) HXARGC(1)
             						 ::Dynamic _hx_run( ::Dynamic _){
-            							HX_STACKFRAME(&_hx_pos_18380c6ecbd97fc4_75_loadLazy)
+            							HX_STACKFRAME(&_hx_pos_34d722c4b19f8a18_75_loadLazy)
 HXLINE(  75)							HX_STACK_DO_THROW(e);
 HXDLIN(  75)							return null();
             						}

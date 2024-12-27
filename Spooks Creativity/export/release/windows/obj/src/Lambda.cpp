@@ -5,8 +5,8 @@
 #include <Lambda.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_935cd01cca653ea5_45_array,"Lambda","array",0x9c8b0512,"Lambda.array","D:\\HaxeToolKit\\haxe\\std/Lambda.hx",45,0x7299871f)
-HX_LOCAL_STACK_FRAME(_hx_pos_935cd01cca653ea5_125_exists,"Lambda","exists",0x65091043,"Lambda.exists","D:\\HaxeToolKit\\haxe\\std/Lambda.hx",125,0x7299871f)
+HX_LOCAL_STACK_FRAME(_hx_pos_0b9bdf593913b01a_45_array,"Lambda","array",0x9c8b0512,"Lambda.array","C:\\HaxeToolkit\\haxe\\std/Lambda.hx",45,0x9e372efe)
+HX_LOCAL_STACK_FRAME(_hx_pos_0b9bdf593913b01a_125_exists,"Lambda","exists",0x65091043,"Lambda.exists","C:\\HaxeToolkit\\haxe\\std/Lambda.hx",125,0x9e372efe)
 
 void Lambda_obj::__construct() { }
 
@@ -26,7 +26,7 @@ bool Lambda_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::cpp::VirtualArray Lambda_obj::array( ::Dynamic it){
-            	HX_STACKFRAME(&_hx_pos_935cd01cca653ea5_45_array)
+            	HX_STACKFRAME(&_hx_pos_0b9bdf593913b01a_45_array)
 HXLINE(  46)		::cpp::VirtualArray a = ::cpp::VirtualArray_obj::__new();
 HXLINE(  47)		{
 HXLINE(  47)			 ::Dynamic i = it->__Field(HX_("iterator",ee,49,9a,93),::hx::paccDynamic)();
@@ -42,7 +42,7 @@ HXLINE(  49)		return a;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lambda_obj,array,return )
 
 bool Lambda_obj::exists( ::Dynamic it, ::Dynamic f){
-            	HX_STACKFRAME(&_hx_pos_935cd01cca653ea5_125_exists)
+            	HX_STACKFRAME(&_hx_pos_0b9bdf593913b01a_125_exists)
 HXLINE( 126)		{
 HXLINE( 126)			 ::Dynamic x = it->__Field(HX_("iterator",ee,49,9a,93),::hx::paccDynamic)();
 HXDLIN( 126)			while(( (bool)(x->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){

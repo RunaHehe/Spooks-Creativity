@@ -14,14 +14,14 @@
 #include <haxe/ValueException.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_cbff0c75e28d3402_5_new,"haxe.Exception","new",0xa32fba59,"haxe.Exception.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/Exception.hx",5,0x99082ad1)
-HX_LOCAL_STACK_FRAME(_hx_pos_cbff0c75e28d3402_56_toString,"haxe.Exception","toString",0x11a32013,"haxe.Exception.toString","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/Exception.hx",56,0x99082ad1)
-HX_LOCAL_STACK_FRAME(_hx_pos_cbff0c75e28d3402_76_get_message,"haxe.Exception","get_message",0x7b47a0d7,"haxe.Exception.get_message","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/Exception.hx",76,0x99082ad1)
-HX_LOCAL_STACK_FRAME(_hx_pos_cbff0c75e28d3402_19_caught,"haxe.Exception","caught",0xbc294f23,"haxe.Exception.caught","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/Exception.hx",19,0x99082ad1)
+HX_DEFINE_STACK_FRAME(_hx_pos_9d9f724dcba0f141_5_new,"haxe.Exception","new",0xa32fba59,"haxe.Exception.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/Exception.hx",5,0xc2abb812)
+HX_LOCAL_STACK_FRAME(_hx_pos_9d9f724dcba0f141_56_toString,"haxe.Exception","toString",0x11a32013,"haxe.Exception.toString","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/Exception.hx",56,0xc2abb812)
+HX_LOCAL_STACK_FRAME(_hx_pos_9d9f724dcba0f141_76_get_message,"haxe.Exception","get_message",0x7b47a0d7,"haxe.Exception.get_message","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/Exception.hx",76,0xc2abb812)
+HX_LOCAL_STACK_FRAME(_hx_pos_9d9f724dcba0f141_19_caught,"haxe.Exception","caught",0xbc294f23,"haxe.Exception.caught","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/Exception.hx",19,0xc2abb812)
 namespace haxe{
 
 void Exception_obj::__construct(::String message, ::haxe::Exception previous, ::Dynamic native){
-            	HX_STACKFRAME(&_hx_pos_cbff0c75e28d3402_5_new)
+            	HX_STACKFRAME(&_hx_pos_9d9f724dcba0f141_5_new)
 HXLINE(  14)		this->_hx___skipStack = 0;
 HXLINE(  40)		this->_hx___exceptionMessage = message;
 HXLINE(  41)		this->_hx___previousException = previous;
@@ -51,7 +51,7 @@ bool Exception_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String Exception_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_cbff0c75e28d3402_56_toString)
+            	HX_STACKFRAME(&_hx_pos_9d9f724dcba0f141_56_toString)
 HXDLIN(  56)		return this->get_message();
             	}
 
@@ -59,7 +59,7 @@ HXDLIN(  56)		return this->get_message();
 HX_DEFINE_DYNAMIC_FUNC0(Exception_obj,toString,return )
 
 ::String Exception_obj::get_message(){
-            	HX_STACKFRAME(&_hx_pos_cbff0c75e28d3402_76_get_message)
+            	HX_STACKFRAME(&_hx_pos_9d9f724dcba0f141_76_get_message)
 HXDLIN(  76)		return this->_hx___exceptionMessage;
             	}
 
@@ -67,7 +67,7 @@ HXDLIN(  76)		return this->_hx___exceptionMessage;
 HX_DEFINE_DYNAMIC_FUNC0(Exception_obj,get_message,return )
 
  ::haxe::Exception Exception_obj::caught( ::Dynamic value){
-            	HX_GC_STACKFRAME(&_hx_pos_cbff0c75e28d3402_19_caught)
+            	HX_GC_STACKFRAME(&_hx_pos_9d9f724dcba0f141_19_caught)
 HXDLIN(  19)		if (::Std_obj::isOfType(value,::hx::ClassOf< ::haxe::Exception >())) {
 HXLINE(  20)			return ( ( ::haxe::Exception)(value) );
             		}

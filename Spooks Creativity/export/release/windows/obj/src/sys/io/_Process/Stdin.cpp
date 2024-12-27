@@ -14,16 +14,16 @@
 #include <sys/io/_Process/Stdin.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_ae3b57345fff542c_31_new,"sys.io._Process.Stdin","new",0xd3131563,"sys.io._Process.Stdin.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/Process.hx",31,0xf03b38ef)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae3b57345fff542c_36_close,"sys.io._Process.Stdin","close",0xbd3fe37b,"sys.io._Process.Stdin.close","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/Process.hx",36,0xf03b38ef)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae3b57345fff542c_41_writeByte,"sys.io._Process.Stdin","writeByte",0xfb987cca,"sys.io._Process.Stdin.writeByte","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/Process.hx",41,0xf03b38ef)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae3b57345fff542c_47_writeBytes,"sys.io._Process.Stdin","writeBytes",0x29d4b469,"sys.io._Process.Stdin.writeBytes","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/Process.hx",47,0xf03b38ef)
+HX_DEFINE_STACK_FRAME(_hx_pos_f1dc2a72381c14cb_31_new,"sys.io._Process.Stdin","new",0xd3131563,"sys.io._Process.Stdin.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/Process.hx",31,0x19dec630)
+HX_LOCAL_STACK_FRAME(_hx_pos_f1dc2a72381c14cb_36_close,"sys.io._Process.Stdin","close",0xbd3fe37b,"sys.io._Process.Stdin.close","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/Process.hx",36,0x19dec630)
+HX_LOCAL_STACK_FRAME(_hx_pos_f1dc2a72381c14cb_41_writeByte,"sys.io._Process.Stdin","writeByte",0xfb987cca,"sys.io._Process.Stdin.writeByte","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/Process.hx",41,0x19dec630)
+HX_LOCAL_STACK_FRAME(_hx_pos_f1dc2a72381c14cb_47_writeBytes,"sys.io._Process.Stdin","writeBytes",0x29d4b469,"sys.io._Process.Stdin.writeBytes","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/Process.hx",47,0x19dec630)
 namespace sys{
 namespace io{
 namespace _Process{
 
 void Stdin_obj::__construct( ::Dynamic p){
-            	HX_STACKFRAME(&_hx_pos_ae3b57345fff542c_31_new)
+            	HX_STACKFRAME(&_hx_pos_f1dc2a72381c14cb_31_new)
 HXLINE(  32)		this->p = p;
 HXLINE(  33)		this->buf = ::haxe::io::Bytes_obj::alloc(1);
             	}
@@ -48,21 +48,21 @@ bool Stdin_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Stdin_obj::close(){
-            	HX_STACKFRAME(&_hx_pos_ae3b57345fff542c_36_close)
+            	HX_STACKFRAME(&_hx_pos_f1dc2a72381c14cb_36_close)
 HXLINE(  37)		this->super::close();
 HXLINE(  38)		_hx_std_process_stdin_close(this->p);
             	}
 
 
 void Stdin_obj::writeByte(int c){
-            	HX_STACKFRAME(&_hx_pos_ae3b57345fff542c_41_writeByte)
+            	HX_STACKFRAME(&_hx_pos_f1dc2a72381c14cb_41_writeByte)
 HXLINE(  42)		this->buf->b[0] = ( (unsigned char)(c) );
 HXLINE(  43)		this->writeBytes(this->buf,0,1);
             	}
 
 
 int Stdin_obj::writeBytes( ::haxe::io::Bytes buf,int pos,int len){
-            	HX_GC_STACKFRAME(&_hx_pos_ae3b57345fff542c_47_writeBytes)
+            	HX_GC_STACKFRAME(&_hx_pos_f1dc2a72381c14cb_47_writeBytes)
 HXDLIN(  47)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
 HXLINE(  48)			return _hx_std_process_stdin_write(this->p,buf->b,pos,len);

@@ -9,11 +9,11 @@
 #include <haxe/MainEvent.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_72e73c82919e239b_9_new,"haxe.MainEvent","new",0x1c640c2b,"haxe.MainEvent.new","D:\\HaxeToolKit\\haxe\\std/haxe/MainLoop.hx",9,0xa73854b0)
+HX_DEFINE_STACK_FRAME(_hx_pos_6b3fe25948ba01a2_9_new,"haxe.MainEvent","new",0x1c640c2b,"haxe.MainEvent.new","C:\\HaxeToolkit\\haxe\\std/haxe/MainLoop.hx",9,0x949ef6b1)
 namespace haxe{
 
 void MainEvent_obj::__construct( ::Dynamic f,int p){
-            	HX_STACKFRAME(&_hx_pos_72e73c82919e239b_9_new)
+            	HX_STACKFRAME(&_hx_pos_6b3fe25948ba01a2_9_new)
 HXLINE(  17)		this->isBlocking = true;
 HXLINE(  23)		this->f = f;
 HXLINE(  24)		this->priority = p;

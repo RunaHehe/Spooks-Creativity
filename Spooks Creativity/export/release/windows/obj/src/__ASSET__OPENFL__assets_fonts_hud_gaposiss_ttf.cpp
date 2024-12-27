@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_f23b425b6faac4c9_2101_new,"__ASSET__OPENFL__assets_fonts_hud_gaposiss_ttf","new",0x7ea00187,"__ASSET__OPENFL__assets_fonts_hud_gaposiss_ttf.new","ManifestResources.hx",2101,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_f23b425b6faac4c9_2119_new,"__ASSET__OPENFL__assets_fonts_hud_gaposiss_ttf","new",0x7ea00187,"__ASSET__OPENFL__assets_fonts_hud_gaposiss_ttf.new","ManifestResources.hx",2119,0xf77aa668)
 
 void __ASSET__OPENFL__assets_fonts_hud_gaposiss_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_f23b425b6faac4c9_2101_new)
-HXDLIN(2101)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/HUD/gaposiss.ttf",b6,09,12,e9));
-HXDLIN(2101)		this->name = HX_("Gaposis Solid (BRK)",85,6d,35,34);
-HXDLIN(2101)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_f23b425b6faac4c9_2119_new)
+HXDLIN(2119)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/HUD/gaposiss.ttf",b6,09,12,e9));
+HXDLIN(2119)		this->name = HX_("Gaposis Solid (BRK)",85,6d,35,34);
+HXDLIN(2119)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__assets_fonts_hud_gaposiss_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__assets_fonts_hud_gaposiss_ttf_obj; }

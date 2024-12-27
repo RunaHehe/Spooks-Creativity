@@ -8,15 +8,15 @@
 #include <haxe/ds/_List/ListNode.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_19722404346fa5d7_281_new,"haxe.ds._List.ListIterator","new",0x2a47d966,"haxe.ds._List.ListIterator.new","D:\\HaxeToolKit\\haxe\\std/haxe/ds/List.hx",281,0xe17198f1)
-HX_LOCAL_STACK_FRAME(_hx_pos_19722404346fa5d7_285_hasNext,"haxe.ds._List.ListIterator","hasNext",0x5bdaa973,"haxe.ds._List.ListIterator.hasNext","D:\\HaxeToolKit\\haxe\\std/haxe/ds/List.hx",285,0xe17198f1)
-HX_LOCAL_STACK_FRAME(_hx_pos_19722404346fa5d7_288_next,"haxe.ds._List.ListIterator","next",0xd496612d,"haxe.ds._List.ListIterator.next","D:\\HaxeToolKit\\haxe\\std/haxe/ds/List.hx",288,0xe17198f1)
+HX_DEFINE_STACK_FRAME(_hx_pos_f3e97ad4675a4cdd_281_new,"haxe.ds._List.ListIterator","new",0x2a47d966,"haxe.ds._List.ListIterator.new","C:\\HaxeToolkit\\haxe\\std/haxe/ds/List.hx",281,0xda78f210)
+HX_LOCAL_STACK_FRAME(_hx_pos_f3e97ad4675a4cdd_285_hasNext,"haxe.ds._List.ListIterator","hasNext",0x5bdaa973,"haxe.ds._List.ListIterator.hasNext","C:\\HaxeToolkit\\haxe\\std/haxe/ds/List.hx",285,0xda78f210)
+HX_LOCAL_STACK_FRAME(_hx_pos_f3e97ad4675a4cdd_288_next,"haxe.ds._List.ListIterator","next",0xd496612d,"haxe.ds._List.ListIterator.next","C:\\HaxeToolkit\\haxe\\std/haxe/ds/List.hx",288,0xda78f210)
 namespace haxe{
 namespace ds{
 namespace _List{
 
 void ListIterator_obj::__construct( ::haxe::ds::_List::ListNode head){
-            	HX_STACKFRAME(&_hx_pos_19722404346fa5d7_281_new)
+            	HX_STACKFRAME(&_hx_pos_f3e97ad4675a4cdd_281_new)
 HXDLIN( 281)		this->head = head;
             	}
 
@@ -36,7 +36,7 @@ bool ListIterator_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool ListIterator_obj::hasNext(){
-            	HX_STACKFRAME(&_hx_pos_19722404346fa5d7_285_hasNext)
+            	HX_STACKFRAME(&_hx_pos_f3e97ad4675a4cdd_285_hasNext)
 HXDLIN( 285)		return ::hx::IsNotNull( this->head );
             	}
 
@@ -44,7 +44,7 @@ HXDLIN( 285)		return ::hx::IsNotNull( this->head );
 HX_DEFINE_DYNAMIC_FUNC0(ListIterator_obj,hasNext,return )
 
  ::Dynamic ListIterator_obj::next(){
-            	HX_STACKFRAME(&_hx_pos_19722404346fa5d7_288_next)
+            	HX_STACKFRAME(&_hx_pos_f3e97ad4675a4cdd_288_next)
 HXLINE( 289)		 ::Dynamic val = this->head->item;
 HXLINE( 290)		this->head = this->head->next;
 HXLINE( 291)		return val;

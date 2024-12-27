@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_6b69aafdabeeef7e_346_new,"__ASSET__flixel_images_transitions_diagonal_gradient_png","new",0x9766f901,"__ASSET__flixel_images_transitions_diagonal_gradient_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_3716567dbeff5308_1918_boot,"__ASSET__flixel_images_transitions_diagonal_gradient_png","boot",0xdacbe871,"__ASSET__flixel_images_transitions_diagonal_gradient_png.boot","ManifestResources.hx",1918,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_3716567dbeff5308_1936_boot,"__ASSET__flixel_images_transitions_diagonal_gradient_png","boot",0xdacbe871,"__ASSET__flixel_images_transitions_diagonal_gradient_png.boot","ManifestResources.hx",1936,0xf77aa668)
 
 void __ASSET__flixel_images_transitions_diagonal_gradient_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_6b69aafdabeeef7e_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_images_transitions_diagonal_gradient_png_obj::__register()
 void __ASSET__flixel_images_transitions_diagonal_gradient_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_3716567dbeff5308_1918_boot)
-HXDLIN(1918)		resourceName = HX_("__ASSET__:image___ASSET__flixel_images_transitions_diagonal_gradient_png",1d,cf,de,54);
+            	HX_STACKFRAME(&_hx_pos_3716567dbeff5308_1936_boot)
+HXDLIN(1936)		resourceName = HX_("__ASSET__:image___ASSET__flixel_images_transitions_diagonal_gradient_png",1d,cf,de,54);
             	}
 }
 

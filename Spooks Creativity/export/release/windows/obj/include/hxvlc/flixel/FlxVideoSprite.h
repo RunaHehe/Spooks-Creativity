@@ -61,6 +61,7 @@ class HXCPP_CLASS_ATTRIBUTES FlxVideoSprite_obj : public  ::flixel::FlxSprite_ob
 		bool autoPause;
 		bool autoVolumeHandle;
 		 ::hxvlc::openfl::Video bitmap;
+		bool resumeOnFocus;
 		bool load( ::Dynamic location,::Array< ::String > options);
 		::Dynamic load_dyn();
 
@@ -97,7 +98,17 @@ class HXCPP_CLASS_ATTRIBUTES FlxVideoSprite_obj : public  ::flixel::FlxSprite_ob
 
 		void revive();
 
-		void update(Float elapsed);
+		void onFocusGained();
+		::Dynamic onFocusGained_dyn();
+
+		void onFocusLost();
+		::Dynamic onFocusLost_dyn();
+
+		void onVolumeUpdate();
+		::Dynamic onVolumeUpdate_dyn();
+
+		void onVolumeChange(Float vol);
+		::Dynamic onVolumeChange_dyn();
 
 		bool set_antialiasing(bool value);
 

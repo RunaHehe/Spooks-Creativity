@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_64b604596e4a31fc_35_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_c5c1d96d9560d2ef_35_new)
 HX_DECLARE_CLASS0(StringBuf)
 
 
@@ -37,7 +37,7 @@ class HXCPP_CLASS_ATTRIBUTES StringBuf_obj : public ::hx::Object
 			StringBuf_obj *__this = (StringBuf_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(StringBuf_obj), true, "StringBuf"));
 			*(void **)__this = StringBuf_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_64b604596e4a31fc_35_new)
+            	HX_STACKFRAME(&_hx_pos_c5c1d96d9560d2ef_35_new)
             	}
 		
 			return __this;

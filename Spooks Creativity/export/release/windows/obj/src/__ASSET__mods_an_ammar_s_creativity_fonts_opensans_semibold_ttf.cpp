@@ -11,13 +11,13 @@
 #include <lime/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a040446ed9788008_1965_new,"__ASSET__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf","new",0x23a08ef9,"__ASSET__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf.new","ManifestResources.hx",1965,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_a040446ed9788008_1983_new,"__ASSET__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf","new",0x23a08ef9,"__ASSET__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf.new","ManifestResources.hx",1983,0xf77aa668)
 
 void __ASSET__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_a040446ed9788008_1965_new)
-HXDLIN(1965)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/OpenSans-Semibold.ttf",70,71,96,7b));
-HXDLIN(1965)		this->name = HX_("Open Sans Semibold",aa,c3,d7,cb);
-HXDLIN(1965)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_a040446ed9788008_1983_new)
+HXDLIN(1983)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/OpenSans-Semibold.ttf",70,71,96,7b));
+HXDLIN(1983)		this->name = HX_("Open Sans Semibold",aa,c3,d7,cb);
+HXDLIN(1983)		super::__construct(null());
             	}
 
 Dynamic __ASSET__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf_obj::__CreateEmpty() { return new __ASSET__mods_an_ammar_s_creativity_fonts_opensans_semibold_ttf_obj; }

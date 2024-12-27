@@ -17,8 +17,8 @@
 #include <sys/thread/_Thread/Thread_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_b7a9dd4117c524a0_54_get_events,"sys.thread._Thread.Thread_Impl_","get_events",0x2940127e,"sys.thread._Thread.Thread_Impl_.get_events","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",54,0xc2797d58)
-HX_LOCAL_STACK_FRAME(_hx_pos_b7a9dd4117c524a0_62_processEvents,"sys.thread._Thread.Thread_Impl_","processEvents",0xf30238cc,"sys.thread._Thread.Thread_Impl_.processEvents","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",62,0xc2797d58)
+HX_LOCAL_STACK_FRAME(_hx_pos_1eb101978d3f352a_54_get_events,"sys.thread._Thread.Thread_Impl_","get_events",0x2940127e,"sys.thread._Thread.Thread_Impl_.get_events","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",54,0x5ec2eeb7)
+HX_LOCAL_STACK_FRAME(_hx_pos_1eb101978d3f352a_62_processEvents,"sys.thread._Thread.Thread_Impl_","processEvents",0xf30238cc,"sys.thread._Thread.Thread_Impl_.processEvents","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/thread/Thread.hx",62,0x5ec2eeb7)
 namespace sys{
 namespace thread{
 namespace _Thread{
@@ -41,7 +41,7 @@ bool Thread_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::sys::thread::EventLoop Thread_Impl__obj::get_events( ::sys::thread::_Thread::HaxeThread this1){
-            	HX_GC_STACKFRAME(&_hx_pos_b7a9dd4117c524a0_54_get_events)
+            	HX_GC_STACKFRAME(&_hx_pos_1eb101978d3f352a_54_get_events)
 HXLINE(  55)		if (::hx::IsNull( this1->events )) {
 HXLINE(  56)			HX_STACK_DO_THROW( ::sys::thread::NoEventLoopException_obj::__alloc( HX_CTX ,null(),null()));
             		}
@@ -52,7 +52,7 @@ HXLINE(  57)		return this1->events;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Thread_Impl__obj,get_events,return )
 
 void Thread_Impl__obj::processEvents(){
-            	HX_STACKFRAME(&_hx_pos_b7a9dd4117c524a0_62_processEvents)
+            	HX_STACKFRAME(&_hx_pos_1eb101978d3f352a_62_processEvents)
 HXDLIN(  62)		::sys::thread::_Thread::HaxeThread_obj::current()->events->loop();
             	}
 

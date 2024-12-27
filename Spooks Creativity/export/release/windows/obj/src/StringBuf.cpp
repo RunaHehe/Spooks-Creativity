@@ -5,14 +5,14 @@
 #include <StringBuf.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_64b604596e4a31fc_35_new,"StringBuf","new",0xaaa8f4b4,"StringBuf.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/StringBuf.hx",35,0xb4cb39c3)
-HX_LOCAL_STACK_FRAME(_hx_pos_64b604596e4a31fc_37_charBufAsString,"StringBuf","charBufAsString",0x54d38cd4,"StringBuf.charBufAsString","D:\\HaxeToolKit\\haxe\\std/cpp/_std/StringBuf.hx",37,0xb4cb39c3)
-HX_LOCAL_STACK_FRAME(_hx_pos_64b604596e4a31fc_43_flush,"StringBuf","flush",0xc7c14418,"StringBuf.flush","D:\\HaxeToolKit\\haxe\\std/cpp/_std/StringBuf.hx",43,0xb4cb39c3)
-HX_LOCAL_STACK_FRAME(_hx_pos_64b604596e4a31fc_51_get_length,"StringBuf","get_length",0xe673d2db,"StringBuf.get_length","D:\\HaxeToolKit\\haxe\\std/cpp/_std/StringBuf.hx",51,0xb4cb39c3)
-HX_LOCAL_STACK_FRAME(_hx_pos_64b604596e4a31fc_92_toString,"StringBuf","toString",0x68f17bd8,"StringBuf.toString","D:\\HaxeToolKit\\haxe\\std/cpp/_std/StringBuf.hx",92,0xb4cb39c3)
+HX_DEFINE_STACK_FRAME(_hx_pos_c5c1d96d9560d2ef_35_new,"StringBuf","new",0xaaa8f4b4,"StringBuf.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/StringBuf.hx",35,0xac74b422)
+HX_LOCAL_STACK_FRAME(_hx_pos_c5c1d96d9560d2ef_37_charBufAsString,"StringBuf","charBufAsString",0x54d38cd4,"StringBuf.charBufAsString","C:\\HaxeToolkit\\haxe\\std/cpp/_std/StringBuf.hx",37,0xac74b422)
+HX_LOCAL_STACK_FRAME(_hx_pos_c5c1d96d9560d2ef_43_flush,"StringBuf","flush",0xc7c14418,"StringBuf.flush","C:\\HaxeToolkit\\haxe\\std/cpp/_std/StringBuf.hx",43,0xac74b422)
+HX_LOCAL_STACK_FRAME(_hx_pos_c5c1d96d9560d2ef_51_get_length,"StringBuf","get_length",0xe673d2db,"StringBuf.get_length","C:\\HaxeToolkit\\haxe\\std/cpp/_std/StringBuf.hx",51,0xac74b422)
+HX_LOCAL_STACK_FRAME(_hx_pos_c5c1d96d9560d2ef_92_toString,"StringBuf","toString",0x68f17bd8,"StringBuf.toString","C:\\HaxeToolkit\\haxe\\std/cpp/_std/StringBuf.hx",92,0xac74b422)
 
 void StringBuf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_64b604596e4a31fc_35_new)
+            	HX_STACKFRAME(&_hx_pos_c5c1d96d9560d2ef_35_new)
             	}
 
 Dynamic StringBuf_obj::__CreateEmpty() { return new StringBuf_obj; }
@@ -31,7 +31,7 @@ bool StringBuf_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String StringBuf_obj::charBufAsString(){
-            	HX_STACKFRAME(&_hx_pos_64b604596e4a31fc_37_charBufAsString)
+            	HX_STACKFRAME(&_hx_pos_c5c1d96d9560d2ef_37_charBufAsString)
 HXLINE(  38)		int len = this->charBuf->length;
 HXLINE(  39)		this->charBuf->push(0);
 HXLINE(  40)		::cpp::Pointer< char > inPtr = ( (::cpp::Pointer< char >)(::cpp::Pointer_obj::arrayElem(this->charBuf,0)) );
@@ -42,7 +42,7 @@ HXDLIN(  40)		return  ::String(inPtr->ptr,len);
 HX_DEFINE_DYNAMIC_FUNC0(StringBuf_obj,charBufAsString,return )
 
 void StringBuf_obj::flush(){
-            	HX_STACKFRAME(&_hx_pos_64b604596e4a31fc_43_flush)
+            	HX_STACKFRAME(&_hx_pos_c5c1d96d9560d2ef_43_flush)
 HXLINE(  44)		if (::hx::IsNull( this->b )) {
 HXLINE(  45)			this->b = ::Array_obj< ::String >::__new(1)->init(0,this->charBufAsString());
             		}
@@ -57,7 +57,7 @@ HXLINE(  48)		this->charBuf = null();
 HX_DEFINE_DYNAMIC_FUNC0(StringBuf_obj,flush,(void))
 
 int StringBuf_obj::get_length(){
-            	HX_STACKFRAME(&_hx_pos_64b604596e4a31fc_51_get_length)
+            	HX_STACKFRAME(&_hx_pos_c5c1d96d9560d2ef_51_get_length)
 HXLINE(  52)		int len = 0;
 HXLINE(  53)		if (::hx::IsNotNull( this->charBuf )) {
 HXLINE(  54)			len = this->charBuf->length;
@@ -85,7 +85,7 @@ HXLINE(  58)		return len;
 HX_DEFINE_DYNAMIC_FUNC0(StringBuf_obj,get_length,return )
 
 ::String StringBuf_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_64b604596e4a31fc_92_toString)
+            	HX_STACKFRAME(&_hx_pos_c5c1d96d9560d2ef_92_toString)
 HXLINE(  93)		if (::hx::IsNotNull( this->charBuf )) {
 HXLINE(  94)			this->flush();
             		}

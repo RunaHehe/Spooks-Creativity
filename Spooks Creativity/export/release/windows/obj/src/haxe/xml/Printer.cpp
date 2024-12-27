@@ -23,8 +23,8 @@
 #include <haxe/xml/Printer.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_f2adb8a1b06004cb_44_new,"haxe.xml.Printer","new",0x896dce4d,"haxe.xml.Printer.new","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Printer.hx",44,0xbb467fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_f2adb8a1b06004cb_50_writeNode,"haxe.xml.Printer","writeNode",0x6952ac2e,"haxe.xml.Printer.writeNode","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Printer.hx",50,0xbb467fed)
+HX_DEFINE_STACK_FRAME(_hx_pos_29c10b064cc8c9e4_44_new,"haxe.xml.Printer","new",0x896dce4d,"haxe.xml.Printer.new","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Printer.hx",44,0xc6da548c)
+HX_LOCAL_STACK_FRAME(_hx_pos_29c10b064cc8c9e4_50_writeNode,"haxe.xml.Printer","writeNode",0x6952ac2e,"haxe.xml.Printer.writeNode","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Printer.hx",50,0xc6da548c)
 static const ::String _hx_array_data_d3e3a3db_5[] = {
 	HX_("\"",22,00,00,00),
 };
@@ -64,13 +64,13 @@ static const ::String _hx_array_data_d3e3a3db_16[] = {
 static const ::String _hx_array_data_d3e3a3db_17[] = {
 	HX_("\n",0a,00,00,00),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_f2adb8a1b06004cb_114_hasChildren,"haxe.xml.Printer","hasChildren",0xeb7e31a6,"haxe.xml.Printer.hasChildren","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Printer.hx",114,0xbb467fed)
-HX_LOCAL_STACK_FRAME(_hx_pos_f2adb8a1b06004cb_35_print,"haxe.xml.Printer","print",0x4a926b5a,"haxe.xml.Printer.print","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Printer.hx",35,0xbb467fed)
+HX_LOCAL_STACK_FRAME(_hx_pos_29c10b064cc8c9e4_114_hasChildren,"haxe.xml.Printer","hasChildren",0xeb7e31a6,"haxe.xml.Printer.hasChildren","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Printer.hx",114,0xc6da548c)
+HX_LOCAL_STACK_FRAME(_hx_pos_29c10b064cc8c9e4_35_print,"haxe.xml.Printer","print",0x4a926b5a,"haxe.xml.Printer.print","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Printer.hx",35,0xc6da548c)
 namespace haxe{
 namespace xml{
 
 void Printer_obj::__construct(bool pretty){
-            	HX_GC_STACKFRAME(&_hx_pos_f2adb8a1b06004cb_44_new)
+            	HX_GC_STACKFRAME(&_hx_pos_29c10b064cc8c9e4_44_new)
 HXLINE(  45)		this->output =  ::StringBuf_obj::__alloc( HX_CTX );
 HXLINE(  46)		this->pretty = pretty;
             	}
@@ -91,7 +91,7 @@ bool Printer_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Printer_obj::writeNode( ::Xml value,::String tabs){
-            	HX_GC_STACKFRAME(&_hx_pos_f2adb8a1b06004cb_50_writeNode)
+            	HX_GC_STACKFRAME(&_hx_pos_29c10b064cc8c9e4_50_writeNode)
 HXDLIN(  50)		switch((int)(value->nodeType)){
             			case (int)0: {
 HXLINE(  68)				{
@@ -597,7 +597,7 @@ HXLINE(  65)					this->writeNode(child1,tabs);
 HX_DEFINE_DYNAMIC_FUNC2(Printer_obj,writeNode,(void))
 
 bool Printer_obj::hasChildren( ::Xml value){
-            	HX_STACKFRAME(&_hx_pos_f2adb8a1b06004cb_114_hasChildren)
+            	HX_STACKFRAME(&_hx_pos_29c10b064cc8c9e4_114_hasChildren)
 HXLINE( 115)		{
 HXLINE( 115)			bool _hx_tmp;
 HXDLIN( 115)			if ((value->nodeType != ::Xml_obj::Document)) {
@@ -649,7 +649,7 @@ HX_DEFINE_DYNAMIC_FUNC1(Printer_obj,hasChildren,return )
 ::String Printer_obj::print( ::Xml xml, ::Dynamic __o_pretty){
             		 ::Dynamic pretty = __o_pretty;
             		if (::hx::IsNull(__o_pretty)) pretty = false;
-            	HX_GC_STACKFRAME(&_hx_pos_f2adb8a1b06004cb_35_print)
+            	HX_GC_STACKFRAME(&_hx_pos_29c10b064cc8c9e4_35_print)
 HXLINE(  36)		 ::haxe::xml::Printer printer =  ::haxe::xml::Printer_obj::__alloc( HX_CTX ,( (bool)(pretty) ));
 HXLINE(  37)		printer->writeNode(xml,HX_("",00,00,00,00));
 HXLINE(  38)		return printer->output->toString();

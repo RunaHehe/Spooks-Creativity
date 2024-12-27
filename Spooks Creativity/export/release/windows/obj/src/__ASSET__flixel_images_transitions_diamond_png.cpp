@@ -21,7 +21,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_d0e6a654993f0fff_346_new,"__ASSET__flixel_images_transitions_diamond_png","new",0x6dd1f0db,"__ASSET__flixel_images_transitions_diamond_png.new","lime/_internal/macros/AssetsMacro.hx",346,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_26aed24f60882fd1_1919_boot,"__ASSET__flixel_images_transitions_diamond_png","boot",0xa1f9cf57,"__ASSET__flixel_images_transitions_diamond_png.boot","ManifestResources.hx",1919,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_26aed24f60882fd1_1937_boot,"__ASSET__flixel_images_transitions_diamond_png","boot",0xa1f9cf57,"__ASSET__flixel_images_transitions_diamond_png.boot","ManifestResources.hx",1937,0xf77aa668)
 
 void __ASSET__flixel_images_transitions_diamond_png_obj::__construct( ::lime::graphics::ImageBuffer buffer, ::Dynamic offsetX, ::Dynamic offsetY, ::Dynamic width, ::Dynamic height, ::Dynamic color, ::lime::graphics::ImageType type){
             	HX_STACKFRAME(&_hx_pos_d0e6a654993f0fff_346_new)
@@ -142,8 +142,8 @@ void __ASSET__flixel_images_transitions_diamond_png_obj::__register()
 void __ASSET__flixel_images_transitions_diamond_png_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_26aed24f60882fd1_1919_boot)
-HXDLIN(1919)		resourceName = HX_("__ASSET__:image___ASSET__flixel_images_transitions_diamond_png",77,34,1a,25);
+            	HX_STACKFRAME(&_hx_pos_26aed24f60882fd1_1937_boot)
+HXDLIN(1937)		resourceName = HX_("__ASSET__:image___ASSET__flixel_images_transitions_diamond_png",77,34,1a,25);
             	}
 }
 

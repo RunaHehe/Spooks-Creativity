@@ -14,14 +14,14 @@
 #include <sys/FileSystem.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_523da7a770d4aff8_31_exists,"sys.FileSystem","exists",0xf55bed9e,"sys.FileSystem.exists","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/FileSystem.hx",31,0x8d640f4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_523da7a770d4aff8_38_stat,"sys.FileSystem","stat",0xa630df16,"sys.FileSystem.stat","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/FileSystem.hx",38,0x8d640f4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_523da7a770d4aff8_64_absolutePath,"sys.FileSystem","absolutePath",0x5973f4fe,"sys.FileSystem.absolutePath","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/FileSystem.hx",64,0x8d640f4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_523da7a770d4aff8_75_isDirectory,"sys.FileSystem","isDirectory",0x6c577a21,"sys.FileSystem.isDirectory","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/FileSystem.hx",75,0x8d640f4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_523da7a770d4aff8_78_createDirectory,"sys.FileSystem","createDirectory",0x63bad3cf,"sys.FileSystem.createDirectory","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/FileSystem.hx",78,0x8d640f4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_523da7a770d4aff8_93_deleteFile,"sys.FileSystem","deleteFile",0x4bd48509,"sys.FileSystem.deleteFile","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/FileSystem.hx",93,0x8d640f4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_523da7a770d4aff8_97_deleteDirectory,"sys.FileSystem","deleteDirectory",0x052a5cc0,"sys.FileSystem.deleteDirectory","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/FileSystem.hx",97,0x8d640f4a)
-HX_LOCAL_STACK_FRAME(_hx_pos_523da7a770d4aff8_101_readDirectory,"sys.FileSystem","readDirectory",0x0619f8b5,"sys.FileSystem.readDirectory","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/FileSystem.hx",101,0x8d640f4a)
+HX_LOCAL_STACK_FRAME(_hx_pos_d1f1ed1bce212cc8_31_exists,"sys.FileSystem","exists",0xf55bed9e,"sys.FileSystem.exists","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/FileSystem.hx",31,0xb7079c8b)
+HX_LOCAL_STACK_FRAME(_hx_pos_d1f1ed1bce212cc8_38_stat,"sys.FileSystem","stat",0xa630df16,"sys.FileSystem.stat","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/FileSystem.hx",38,0xb7079c8b)
+HX_LOCAL_STACK_FRAME(_hx_pos_d1f1ed1bce212cc8_64_absolutePath,"sys.FileSystem","absolutePath",0x5973f4fe,"sys.FileSystem.absolutePath","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/FileSystem.hx",64,0xb7079c8b)
+HX_LOCAL_STACK_FRAME(_hx_pos_d1f1ed1bce212cc8_75_isDirectory,"sys.FileSystem","isDirectory",0x6c577a21,"sys.FileSystem.isDirectory","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/FileSystem.hx",75,0xb7079c8b)
+HX_LOCAL_STACK_FRAME(_hx_pos_d1f1ed1bce212cc8_78_createDirectory,"sys.FileSystem","createDirectory",0x63bad3cf,"sys.FileSystem.createDirectory","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/FileSystem.hx",78,0xb7079c8b)
+HX_LOCAL_STACK_FRAME(_hx_pos_d1f1ed1bce212cc8_93_deleteFile,"sys.FileSystem","deleteFile",0x4bd48509,"sys.FileSystem.deleteFile","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/FileSystem.hx",93,0xb7079c8b)
+HX_LOCAL_STACK_FRAME(_hx_pos_d1f1ed1bce212cc8_97_deleteDirectory,"sys.FileSystem","deleteDirectory",0x052a5cc0,"sys.FileSystem.deleteDirectory","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/FileSystem.hx",97,0xb7079c8b)
+HX_LOCAL_STACK_FRAME(_hx_pos_d1f1ed1bce212cc8_101_readDirectory,"sys.FileSystem","readDirectory",0x0619f8b5,"sys.FileSystem.readDirectory","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/FileSystem.hx",101,0xb7079c8b)
 namespace sys{
 
 void FileSystem_obj::__construct() { }
@@ -42,7 +42,7 @@ bool FileSystem_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool FileSystem_obj::exists(::String path){
-            	HX_STACKFRAME(&_hx_pos_523da7a770d4aff8_31_exists)
+            	HX_STACKFRAME(&_hx_pos_d1f1ed1bce212cc8_31_exists)
 HXDLIN(  31)		::String _hx_tmp;
 HXDLIN(  31)		bool _hx_tmp1;
 HXDLIN(  31)		if (::hx::IsEq( path.charCodeAt(1),58 )) {
@@ -69,7 +69,7 @@ HXDLIN(  31)		return _hx_std_sys_exists(_hx_tmp);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FileSystem_obj,exists,return )
 
  ::Dynamic FileSystem_obj::stat(::String path){
-            	HX_STACKFRAME(&_hx_pos_523da7a770d4aff8_38_stat)
+            	HX_STACKFRAME(&_hx_pos_d1f1ed1bce212cc8_38_stat)
 HXLINE(  39)		::String s;
 HXDLIN(  39)		bool s1;
 HXDLIN(  39)		if (::hx::IsEq( path.charCodeAt(1),58 )) {
@@ -116,7 +116,7 @@ HXLINE(  57)		return s2;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FileSystem_obj,stat,return )
 
 ::String FileSystem_obj::absolutePath(::String relPath){
-            	HX_STACKFRAME(&_hx_pos_523da7a770d4aff8_64_absolutePath)
+            	HX_STACKFRAME(&_hx_pos_d1f1ed1bce212cc8_64_absolutePath)
 HXLINE(  65)		if (::haxe::io::Path_obj::isAbsolute(relPath)) {
 HXLINE(  66)			return relPath;
             		}
@@ -127,7 +127,7 @@ HXLINE(  67)		return ::haxe::io::Path_obj::join(::Array_obj< ::String >::__new(2
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FileSystem_obj,absolutePath,return )
 
 bool FileSystem_obj::isDirectory(::String path){
-            	HX_STACKFRAME(&_hx_pos_523da7a770d4aff8_75_isDirectory)
+            	HX_STACKFRAME(&_hx_pos_d1f1ed1bce212cc8_75_isDirectory)
 HXDLIN(  75)		::String _hx_tmp;
 HXDLIN(  75)		bool _hx_tmp1;
 HXDLIN(  75)		if (::hx::IsEq( path.charCodeAt(1),58 )) {
@@ -154,7 +154,7 @@ HXDLIN(  75)		return (_hx_std_sys_file_type(_hx_tmp) == HX_("dir",4d,3d,4c,00));
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FileSystem_obj,isDirectory,return )
 
 void FileSystem_obj::createDirectory(::String path){
-            	HX_STACKFRAME(&_hx_pos_523da7a770d4aff8_78_createDirectory)
+            	HX_STACKFRAME(&_hx_pos_d1f1ed1bce212cc8_78_createDirectory)
 HXLINE(  79)		::String path1 = ::haxe::io::Path_obj::addTrailingSlash(path);
 HXLINE(  80)		::String _p = null();
 HXLINE(  81)		::Array< ::String > parts = ::Array_obj< ::String >::__new(0);
@@ -197,7 +197,7 @@ HXLINE(  88)					HX_STACK_DO_THROW((HX_("Could not create directory:",05,3d,91,1
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FileSystem_obj,createDirectory,(void))
 
 void FileSystem_obj::deleteFile(::String path){
-            	HX_STACKFRAME(&_hx_pos_523da7a770d4aff8_93_deleteFile)
+            	HX_STACKFRAME(&_hx_pos_d1f1ed1bce212cc8_93_deleteFile)
 HXDLIN(  93)		_hx_std_file_delete(path);
             	}
 
@@ -205,7 +205,7 @@ HXDLIN(  93)		_hx_std_file_delete(path);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FileSystem_obj,deleteFile,(void))
 
 void FileSystem_obj::deleteDirectory(::String path){
-            	HX_STACKFRAME(&_hx_pos_523da7a770d4aff8_97_deleteDirectory)
+            	HX_STACKFRAME(&_hx_pos_d1f1ed1bce212cc8_97_deleteDirectory)
 HXDLIN(  97)		_hx_std_sys_remove_dir(path);
             	}
 
@@ -213,7 +213,7 @@ HXDLIN(  97)		_hx_std_sys_remove_dir(path);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FileSystem_obj,deleteDirectory,(void))
 
 ::Array< ::String > FileSystem_obj::readDirectory(::String path){
-            	HX_STACKFRAME(&_hx_pos_523da7a770d4aff8_101_readDirectory)
+            	HX_STACKFRAME(&_hx_pos_d1f1ed1bce212cc8_101_readDirectory)
 HXDLIN( 101)		return _hx_std_sys_read_dir(path);
             	}
 

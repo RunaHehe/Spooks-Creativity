@@ -5,14 +5,14 @@
 #include <haxe/iterators/ArrayIterator.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_f888966aa3296026_28_new,"haxe.iterators.ArrayIterator","new",0x70a754c8,"haxe.iterators.ArrayIterator.new","D:\\HaxeToolKit\\haxe\\std/haxe/iterators/ArrayIterator.hx",28,0x39d14212)
-HX_LOCAL_STACK_FRAME(_hx_pos_f888966aa3296026_45_hasNext,"haxe.iterators.ArrayIterator","hasNext",0x74587dd5,"haxe.iterators.ArrayIterator.hasNext","D:\\HaxeToolKit\\haxe\\std/haxe/iterators/ArrayIterator.hx",45,0x39d14212)
-HX_LOCAL_STACK_FRAME(_hx_pos_f888966aa3296026_53_next,"haxe.iterators.ArrayIterator","next",0x21c2db8b,"haxe.iterators.ArrayIterator.next","D:\\HaxeToolKit\\haxe\\std/haxe/iterators/ArrayIterator.hx",53,0x39d14212)
+HX_DEFINE_STACK_FRAME(_hx_pos_35cf4ee88d694fc5_28_new,"haxe.iterators.ArrayIterator","new",0x70a754c8,"haxe.iterators.ArrayIterator.new","C:\\HaxeToolkit\\haxe\\std/haxe/iterators/ArrayIterator.hx",28,0x90610931)
+HX_LOCAL_STACK_FRAME(_hx_pos_35cf4ee88d694fc5_45_hasNext,"haxe.iterators.ArrayIterator","hasNext",0x74587dd5,"haxe.iterators.ArrayIterator.hasNext","C:\\HaxeToolkit\\haxe\\std/haxe/iterators/ArrayIterator.hx",45,0x90610931)
+HX_LOCAL_STACK_FRAME(_hx_pos_35cf4ee88d694fc5_53_next,"haxe.iterators.ArrayIterator","next",0x21c2db8b,"haxe.iterators.ArrayIterator.next","C:\\HaxeToolkit\\haxe\\std/haxe/iterators/ArrayIterator.hx",53,0x90610931)
 namespace haxe{
 namespace iterators{
 
 void ArrayIterator_obj::__construct(::cpp::VirtualArray array){
-            	HX_STACKFRAME(&_hx_pos_f888966aa3296026_28_new)
+            	HX_STACKFRAME(&_hx_pos_35cf4ee88d694fc5_28_new)
 HXLINE(  30)		this->current = 0;
 HXLINE(  37)		this->array = array;
             	}
@@ -33,7 +33,7 @@ bool ArrayIterator_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool ArrayIterator_obj::hasNext(){
-            	HX_STACKFRAME(&_hx_pos_f888966aa3296026_45_hasNext)
+            	HX_STACKFRAME(&_hx_pos_35cf4ee88d694fc5_45_hasNext)
 HXDLIN(  45)		return (this->current < this->array->get_length());
             	}
 
@@ -41,7 +41,7 @@ HXDLIN(  45)		return (this->current < this->array->get_length());
 HX_DEFINE_DYNAMIC_FUNC0(ArrayIterator_obj,hasNext,return )
 
  ::Dynamic ArrayIterator_obj::next(){
-            	HX_STACKFRAME(&_hx_pos_f888966aa3296026_53_next)
+            	HX_STACKFRAME(&_hx_pos_35cf4ee88d694fc5_53_next)
 HXDLIN(  53)		return this->array->__get(this->current++);
             	}
 

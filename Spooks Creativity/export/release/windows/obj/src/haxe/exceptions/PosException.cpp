@@ -8,13 +8,13 @@
 #include <haxe/exceptions/PosException.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6edffc525681d2e9_12_new,"haxe.exceptions.PosException","new",0x9ed038cf,"haxe.exceptions.PosException.new","D:\\HaxeToolKit\\haxe\\std/haxe/exceptions/PosException.hx",12,0x9e675309)
-HX_LOCAL_STACK_FRAME(_hx_pos_6edffc525681d2e9_25_toString,"haxe.exceptions.PosException","toString",0x179675dd,"haxe.exceptions.PosException.toString","D:\\HaxeToolKit\\haxe\\std/haxe/exceptions/PosException.hx",25,0x9e675309)
+HX_DEFINE_STACK_FRAME(_hx_pos_c42ea8de6201fd00_12_new,"haxe.exceptions.PosException","new",0x9ed038cf,"haxe.exceptions.PosException.new","C:\\HaxeToolkit\\haxe\\std/haxe/exceptions/PosException.hx",12,0xf4f71a28)
+HX_LOCAL_STACK_FRAME(_hx_pos_c42ea8de6201fd00_25_toString,"haxe.exceptions.PosException","toString",0x179675dd,"haxe.exceptions.PosException.toString","C:\\HaxeToolkit\\haxe\\std/haxe/exceptions/PosException.hx",25,0xf4f71a28)
 namespace haxe{
 namespace exceptions{
 
 void PosException_obj::__construct(::String message, ::haxe::Exception previous, ::Dynamic pos){
-            	HX_STACKFRAME(&_hx_pos_6edffc525681d2e9_12_new)
+            	HX_STACKFRAME(&_hx_pos_c42ea8de6201fd00_12_new)
 HXLINE(  13)		super::__construct(message,previous,null());
 HXLINE(  14)		if (::hx::IsNull( pos )) {
 HXLINE(  15)			this->posInfos = ::hx::SourceInfo(HX_("(unknown)",87,5d,fc,5f),0,HX_("(unknown)",87,5d,fc,5f),HX_("(unknown)",87,5d,fc,5f));
@@ -44,7 +44,7 @@ bool PosException_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String PosException_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_6edffc525681d2e9_25_toString)
+            	HX_STACKFRAME(&_hx_pos_c42ea8de6201fd00_25_toString)
 HXDLIN(  25)		::String _hx_tmp = ((HX_("",00,00,00,00) + this->super::toString()) + HX_(" in ",7b,e0,76,15));
 HXDLIN(  25)		return ( (::String)((((((((_hx_tmp + this->posInfos->__Field(HX_("className",a3,92,3d,dc),::hx::paccDynamic)) + HX_(".",2e,00,00,00)) + this->posInfos->__Field(HX_("methodName",cc,19,0f,12),::hx::paccDynamic)) + HX_(" at ",ad,d3,70,15)) + this->posInfos->__Field(HX_("fileName",e7,5a,43,62),::hx::paccDynamic)) + HX_(":",3a,00,00,00)) + this->posInfos->__Field(HX_("lineNumber",dd,81,22,76),::hx::paccDynamic))) );
             	}

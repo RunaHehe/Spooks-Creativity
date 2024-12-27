@@ -9,10 +9,10 @@
 #include <haxe/io/FPHelper.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_2261c9820d96378a_148_i32ToFloat,"haxe.io.FPHelper","i32ToFloat",0x7999b6cf,"haxe.io.FPHelper.i32ToFloat","D:\\HaxeToolKit\\haxe\\std/haxe/io/FPHelper.hx",148,0x5b00baae)
-HX_LOCAL_STACK_FRAME(_hx_pos_2261c9820d96378a_186_floatToI32,"haxe.io.FPHelper","floatToI32",0xff5a7c67,"haxe.io.FPHelper.floatToI32","D:\\HaxeToolKit\\haxe\\std/haxe/io/FPHelper.hx",186,0x5b00baae)
-HX_LOCAL_STACK_FRAME(_hx_pos_2261c9820d96378a_233_i64ToDouble,"haxe.io.FPHelper","i64ToDouble",0xc51d801d,"haxe.io.FPHelper.i64ToDouble","D:\\HaxeToolKit\\haxe\\std/haxe/io/FPHelper.hx",233,0x5b00baae)
-HX_LOCAL_STACK_FRAME(_hx_pos_2261c9820d96378a_295_doubleToI64,"haxe.io.FPHelper","doubleToI64",0xe6926a85,"haxe.io.FPHelper.doubleToI64","D:\\HaxeToolKit\\haxe\\std/haxe/io/FPHelper.hx",295,0x5b00baae)
+HX_LOCAL_STACK_FRAME(_hx_pos_55a9efbb872ea49e_148_i32ToFloat,"haxe.io.FPHelper","i32ToFloat",0x7999b6cf,"haxe.io.FPHelper.i32ToFloat","C:\\HaxeToolkit\\haxe\\std/haxe/io/FPHelper.hx",148,0x66948f4d)
+HX_LOCAL_STACK_FRAME(_hx_pos_55a9efbb872ea49e_186_floatToI32,"haxe.io.FPHelper","floatToI32",0xff5a7c67,"haxe.io.FPHelper.floatToI32","C:\\HaxeToolkit\\haxe\\std/haxe/io/FPHelper.hx",186,0x66948f4d)
+HX_LOCAL_STACK_FRAME(_hx_pos_55a9efbb872ea49e_233_i64ToDouble,"haxe.io.FPHelper","i64ToDouble",0xc51d801d,"haxe.io.FPHelper.i64ToDouble","C:\\HaxeToolkit\\haxe\\std/haxe/io/FPHelper.hx",233,0x66948f4d)
+HX_LOCAL_STACK_FRAME(_hx_pos_55a9efbb872ea49e_295_doubleToI64,"haxe.io.FPHelper","doubleToI64",0xe6926a85,"haxe.io.FPHelper.doubleToI64","C:\\HaxeToolkit\\haxe\\std/haxe/io/FPHelper.hx",295,0x66948f4d)
 namespace haxe{
 namespace io{
 
@@ -34,7 +34,7 @@ bool FPHelper_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 Float FPHelper_obj::i32ToFloat(int i){
-            	HX_STACKFRAME(&_hx_pos_2261c9820d96378a_148_i32ToFloat)
+            	HX_STACKFRAME(&_hx_pos_55a9efbb872ea49e_148_i32ToFloat)
 HXDLIN( 148)		return  ::__hxcpp_reinterpret_le_int32_as_float32(i);
             	}
 
@@ -42,7 +42,7 @@ HXDLIN( 148)		return  ::__hxcpp_reinterpret_le_int32_as_float32(i);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FPHelper_obj,i32ToFloat,return )
 
 int FPHelper_obj::floatToI32(Float f){
-            	HX_STACKFRAME(&_hx_pos_2261c9820d96378a_186_floatToI32)
+            	HX_STACKFRAME(&_hx_pos_55a9efbb872ea49e_186_floatToI32)
 HXDLIN( 186)		return  ::__hxcpp_reinterpret_float32_as_le_int32(f);
             	}
 
@@ -50,7 +50,7 @@ HXDLIN( 186)		return  ::__hxcpp_reinterpret_float32_as_le_int32(f);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FPHelper_obj,floatToI32,return )
 
 Float FPHelper_obj::i64ToDouble(int low,int high){
-            	HX_STACKFRAME(&_hx_pos_2261c9820d96378a_233_i64ToDouble)
+            	HX_STACKFRAME(&_hx_pos_55a9efbb872ea49e_233_i64ToDouble)
 HXDLIN( 233)		return  ::__hxcpp_reinterpret_le_int32s_as_float64(low,high);
             	}
 
@@ -58,7 +58,7 @@ HXDLIN( 233)		return  ::__hxcpp_reinterpret_le_int32s_as_float64(low,high);
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(FPHelper_obj,i64ToDouble,return )
 
 ::cpp::Int64 FPHelper_obj::doubleToI64(Float v){
-            	HX_STACKFRAME(&_hx_pos_2261c9820d96378a_295_doubleToI64)
+            	HX_STACKFRAME(&_hx_pos_55a9efbb872ea49e_295_doubleToI64)
 HXDLIN( 295)		int high =  ::__hxcpp_reinterpret_float64_as_le_int32_high(v);
 HXDLIN( 295)		return _hx_int64_make(high, ::__hxcpp_reinterpret_float64_as_le_int32_low(v));
             	}

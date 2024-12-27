@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_6d902433d7ebc136_26_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_5868e9ee7f4b28b2_26_new)
 HX_DECLARE_CLASS2(haxe,iterators,ArrayKeyValueIterator)
 
 namespace haxe{
@@ -39,7 +39,7 @@ class HXCPP_CLASS_ATTRIBUTES ArrayKeyValueIterator_obj : public ::hx::Object
 			ArrayKeyValueIterator_obj *__this = (ArrayKeyValueIterator_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(ArrayKeyValueIterator_obj), true, "haxe.iterators.ArrayKeyValueIterator"));
 			*(void **)__this = ArrayKeyValueIterator_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_6d902433d7ebc136_26_new)
+            	HX_STACKFRAME(&_hx_pos_5868e9ee7f4b28b2_26_new)
 HXLINE(  27)		( ( ::haxe::iterators::ArrayKeyValueIterator)(__this) )->current = 0;
 HXLINE(  31)		( ( ::haxe::iterators::ArrayKeyValueIterator)(__this) )->array = array;
             	}

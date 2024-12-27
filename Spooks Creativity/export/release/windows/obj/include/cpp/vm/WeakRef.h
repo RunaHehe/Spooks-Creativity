@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_449cf5667b0e749e_29_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_4f0fd8a7980ded5c_29_new)
 HX_DECLARE_CLASS2(cpp,vm,WeakRef)
 
 namespace cpp{
@@ -40,7 +40,7 @@ class HXCPP_CLASS_ATTRIBUTES WeakRef_obj : public ::hx::Object
 			*(void **)__this = WeakRef_obj::_hx_vtable;
 {
             		bool inHard = __o_inHard.Default(false);
-            	HX_STACKFRAME(&_hx_pos_449cf5667b0e749e_29_new)
+            	HX_STACKFRAME(&_hx_pos_4f0fd8a7980ded5c_29_new)
 HXLINE(  30)		( ( ::cpp::vm::WeakRef)(__this) )->hardRef = inHard;
 HXLINE(  31)		if (( ( ::cpp::vm::WeakRef)(__this) )->hardRef) {
 HXLINE(  32)			( ( ::cpp::vm::WeakRef)(__this) )->ref = inObject;

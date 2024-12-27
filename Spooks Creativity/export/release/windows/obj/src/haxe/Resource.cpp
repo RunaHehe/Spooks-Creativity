@@ -8,7 +8,7 @@
 #include <haxe/io/Bytes.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_11653982fecb166a_35_getBytes,"haxe.Resource","getBytes",0x9bc1712d,"haxe.Resource.getBytes","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/Resource.hx",35,0xf00b53ee)
+HX_LOCAL_STACK_FRAME(_hx_pos_09dc1f4713e4f6b4_35_getBytes,"haxe.Resource","getBytes",0x9bc1712d,"haxe.Resource.getBytes","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/Resource.hx",35,0x060ae9cd)
 namespace haxe{
 
 void Resource_obj::__construct() { }
@@ -29,7 +29,7 @@ bool Resource_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::haxe::io::Bytes Resource_obj::getBytes(::String name){
-            	HX_STACKFRAME(&_hx_pos_11653982fecb166a_35_getBytes)
+            	HX_STACKFRAME(&_hx_pos_09dc1f4713e4f6b4_35_getBytes)
 HXLINE(  36)		::Array< unsigned char > array =  ::__hxcpp_resource_bytes(name);
 HXLINE(  37)		if (::hx::IsNull( array )) {
 HXLINE(  38)			return null();

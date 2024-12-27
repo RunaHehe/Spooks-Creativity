@@ -14,19 +14,19 @@
 #include <haxe/iterators/MapKeyValueIterator.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_9ef2c62b8ffffe8d_60_new,"haxe.ds.IntMap","new",0x7222c4b6,"haxe.ds.IntMap.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",60,0x36a9d2f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_9ef2c62b8ffffe8d_63_set,"haxe.ds.IntMap","set",0x72268ff8,"haxe.ds.IntMap.set","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",63,0x36a9d2f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_9ef2c62b8ffffe8d_67_get,"haxe.ds.IntMap","get",0x721d74ec,"haxe.ds.IntMap.get","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",67,0x36a9d2f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_9ef2c62b8ffffe8d_71_exists,"haxe.ds.IntMap","exists",0x63ba0346,"haxe.ds.IntMap.exists","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",71,0x36a9d2f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_9ef2c62b8ffffe8d_75_remove,"haxe.ds.IntMap","remove",0xa86281ae,"haxe.ds.IntMap.remove","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",75,0x36a9d2f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_9ef2c62b8ffffe8d_78_keys,"haxe.ds.IntMap","keys",0x6a4db8de,"haxe.ds.IntMap.keys","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",78,0x36a9d2f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_9ef2c62b8ffffe8d_83_iterator,"haxe.ds.IntMap","iterator",0x4dc7ddd8,"haxe.ds.IntMap.iterator","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",83,0x36a9d2f3)
-HX_LOCAL_STACK_FRAME(_hx_pos_9ef2c62b8ffffe8d_89_keyValueIterator,"haxe.ds.IntMap","keyValueIterator",0xea115b4a,"haxe.ds.IntMap.keyValueIterator","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",89,0x36a9d2f3)
+HX_DEFINE_STACK_FRAME(_hx_pos_8a33a2a31f3d5ff5_60_new,"haxe.ds.IntMap","new",0x7222c4b6,"haxe.ds.IntMap.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",60,0x604d6034)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a33a2a31f3d5ff5_63_set,"haxe.ds.IntMap","set",0x72268ff8,"haxe.ds.IntMap.set","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",63,0x604d6034)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a33a2a31f3d5ff5_67_get,"haxe.ds.IntMap","get",0x721d74ec,"haxe.ds.IntMap.get","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",67,0x604d6034)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a33a2a31f3d5ff5_71_exists,"haxe.ds.IntMap","exists",0x63ba0346,"haxe.ds.IntMap.exists","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",71,0x604d6034)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a33a2a31f3d5ff5_75_remove,"haxe.ds.IntMap","remove",0xa86281ae,"haxe.ds.IntMap.remove","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",75,0x604d6034)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a33a2a31f3d5ff5_78_keys,"haxe.ds.IntMap","keys",0x6a4db8de,"haxe.ds.IntMap.keys","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",78,0x604d6034)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a33a2a31f3d5ff5_83_iterator,"haxe.ds.IntMap","iterator",0x4dc7ddd8,"haxe.ds.IntMap.iterator","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",83,0x604d6034)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a33a2a31f3d5ff5_89_keyValueIterator,"haxe.ds.IntMap","keyValueIterator",0xea115b4a,"haxe.ds.IntMap.keyValueIterator","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/IntMap.hx",89,0x604d6034)
 namespace haxe{
 namespace ds{
 
 void IntMap_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_9ef2c62b8ffffe8d_60_new)
+            	HX_STACKFRAME(&_hx_pos_8a33a2a31f3d5ff5_60_new)
             	}
 
 Dynamic IntMap_obj::__CreateEmpty() { return new IntMap_obj; }
@@ -81,7 +81,7 @@ void *IntMap_obj::_hx_getInterface(int inHash) {
 }
 
 void IntMap_obj::set(int key, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_9ef2c62b8ffffe8d_63_set)
+            	HX_STACKFRAME(&_hx_pos_8a33a2a31f3d5ff5_63_set)
 HXDLIN(  63)		 ::__int_hash_set(HX_MAP_THIS,key,value);
             	}
 
@@ -89,7 +89,7 @@ HXDLIN(  63)		 ::__int_hash_set(HX_MAP_THIS,key,value);
 HX_DEFINE_DYNAMIC_FUNC2(IntMap_obj,set,(void))
 
  ::Dynamic IntMap_obj::get(int key){
-            	HX_STACKFRAME(&_hx_pos_9ef2c62b8ffffe8d_67_get)
+            	HX_STACKFRAME(&_hx_pos_8a33a2a31f3d5ff5_67_get)
 HXDLIN(  67)		return  ::__int_hash_get(this->h,key);
             	}
 
@@ -97,7 +97,7 @@ HXDLIN(  67)		return  ::__int_hash_get(this->h,key);
 HX_DEFINE_DYNAMIC_FUNC1(IntMap_obj,get,return )
 
 bool IntMap_obj::exists(int key){
-            	HX_STACKFRAME(&_hx_pos_9ef2c62b8ffffe8d_71_exists)
+            	HX_STACKFRAME(&_hx_pos_8a33a2a31f3d5ff5_71_exists)
 HXDLIN(  71)		return  ::__int_hash_exists(this->h,key);
             	}
 
@@ -105,7 +105,7 @@ HXDLIN(  71)		return  ::__int_hash_exists(this->h,key);
 HX_DEFINE_DYNAMIC_FUNC1(IntMap_obj,exists,return )
 
 bool IntMap_obj::remove(int key){
-            	HX_STACKFRAME(&_hx_pos_9ef2c62b8ffffe8d_75_remove)
+            	HX_STACKFRAME(&_hx_pos_8a33a2a31f3d5ff5_75_remove)
 HXDLIN(  75)		return  ::__int_hash_remove(this->h,key);
             	}
 
@@ -113,7 +113,7 @@ HXDLIN(  75)		return  ::__int_hash_remove(this->h,key);
 HX_DEFINE_DYNAMIC_FUNC1(IntMap_obj,remove,return )
 
  ::Dynamic IntMap_obj::keys(){
-            	HX_GC_STACKFRAME(&_hx_pos_9ef2c62b8ffffe8d_78_keys)
+            	HX_GC_STACKFRAME(&_hx_pos_8a33a2a31f3d5ff5_78_keys)
 HXLINE(  79)		::Array< int > a =  ::__int_hash_keys(this->h);
 HXLINE(  80)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,a);
             	}
@@ -122,7 +122,7 @@ HXLINE(  80)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,a);
 HX_DEFINE_DYNAMIC_FUNC0(IntMap_obj,keys,return )
 
  ::Dynamic IntMap_obj::iterator(){
-            	HX_GC_STACKFRAME(&_hx_pos_9ef2c62b8ffffe8d_83_iterator)
+            	HX_GC_STACKFRAME(&_hx_pos_8a33a2a31f3d5ff5_83_iterator)
 HXLINE(  84)		::cpp::VirtualArray a =  ::__int_hash_values(this->h);
 HXLINE(  85)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,a);
             	}
@@ -131,7 +131,7 @@ HXLINE(  85)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,a);
 HX_DEFINE_DYNAMIC_FUNC0(IntMap_obj,iterator,return )
 
  ::Dynamic IntMap_obj::keyValueIterator(){
-            	HX_GC_STACKFRAME(&_hx_pos_9ef2c62b8ffffe8d_89_keyValueIterator)
+            	HX_GC_STACKFRAME(&_hx_pos_8a33a2a31f3d5ff5_89_keyValueIterator)
 HXDLIN(  89)		return  ::haxe::iterators::MapKeyValueIterator_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
             	}
 

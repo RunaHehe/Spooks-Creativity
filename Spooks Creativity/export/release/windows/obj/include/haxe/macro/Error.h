@@ -9,7 +9,7 @@
 #ifndef INCLUDED_haxe_Exception
 #include <haxe/Exception.h>
 #endif
-HX_DECLARE_STACK_FRAME(_hx_pos_48a43a414e2c916a_1049_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_3aabe5d3ff33afe4_1049_new)
 HX_DECLARE_CLASS1(haxe,Exception)
 HX_DECLARE_CLASS2(haxe,macro,Error)
 
@@ -43,7 +43,7 @@ class HXCPP_CLASS_ATTRIBUTES Error_obj : public  ::haxe::Exception_obj
 			Error_obj *__this = (Error_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(Error_obj), true, "haxe.macro.Error"));
 			*(void **)__this = Error_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_48a43a414e2c916a_1049_new)
+            	HX_STACKFRAME(&_hx_pos_3aabe5d3ff33afe4_1049_new)
 HXLINE(1050)		__this->super::__construct(message,previous,null());
 HXLINE(1051)		( ( ::haxe::macro::Error)(__this) )->pos = pos;
             	}

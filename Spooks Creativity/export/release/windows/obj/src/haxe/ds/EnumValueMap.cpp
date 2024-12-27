@@ -20,15 +20,15 @@
 #include <haxe/ds/EnumValueMap.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_2fc3caaac7189e25_31_new,"haxe.ds.EnumValueMap","new",0x9ce29655,"haxe.ds.EnumValueMap.new","D:\\HaxeToolKit\\haxe\\std/haxe/ds/EnumValueMap.hx",31,0x16c47743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fc3caaac7189e25_32_compare,"haxe.ds.EnumValueMap","compare",0x806a7d1a,"haxe.ds.EnumValueMap.compare","D:\\HaxeToolKit\\haxe\\std/haxe/ds/EnumValueMap.hx",32,0x16c47743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fc3caaac7189e25_57_compareArgs,"haxe.ds.EnumValueMap","compareArgs",0x37a5cb97,"haxe.ds.EnumValueMap.compareArgs","D:\\HaxeToolKit\\haxe\\std/haxe/ds/EnumValueMap.hx",57,0x16c47743)
-HX_LOCAL_STACK_FRAME(_hx_pos_2fc3caaac7189e25_70_compareArg,"haxe.ds.EnumValueMap","compareArg",0xcee2e55c,"haxe.ds.EnumValueMap.compareArg","D:\\HaxeToolKit\\haxe\\std/haxe/ds/EnumValueMap.hx",70,0x16c47743)
+HX_DEFINE_STACK_FRAME(_hx_pos_079f71771048e957_31_new,"haxe.ds.EnumValueMap","new",0x9ce29655,"haxe.ds.EnumValueMap.new","C:\\HaxeToolkit\\haxe\\std/haxe/ds/EnumValueMap.hx",31,0x67888762)
+HX_LOCAL_STACK_FRAME(_hx_pos_079f71771048e957_32_compare,"haxe.ds.EnumValueMap","compare",0x806a7d1a,"haxe.ds.EnumValueMap.compare","C:\\HaxeToolkit\\haxe\\std/haxe/ds/EnumValueMap.hx",32,0x67888762)
+HX_LOCAL_STACK_FRAME(_hx_pos_079f71771048e957_57_compareArgs,"haxe.ds.EnumValueMap","compareArgs",0x37a5cb97,"haxe.ds.EnumValueMap.compareArgs","C:\\HaxeToolkit\\haxe\\std/haxe/ds/EnumValueMap.hx",57,0x67888762)
+HX_LOCAL_STACK_FRAME(_hx_pos_079f71771048e957_70_compareArg,"haxe.ds.EnumValueMap","compareArg",0xcee2e55c,"haxe.ds.EnumValueMap.compareArg","C:\\HaxeToolkit\\haxe\\std/haxe/ds/EnumValueMap.hx",70,0x67888762)
 namespace haxe{
 namespace ds{
 
 void EnumValueMap_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_2fc3caaac7189e25_31_new)
+            	HX_STACKFRAME(&_hx_pos_079f71771048e957_31_new)
 HXDLIN(  31)		super::__construct();
             	}
 
@@ -72,7 +72,7 @@ void *EnumValueMap_obj::_hx_getInterface(int inHash) {
 }
 
 int EnumValueMap_obj::compare( ::Dynamic _tmp_k1, ::Dynamic _tmp_k2){
-            	HX_STACKFRAME(&_hx_pos_2fc3caaac7189e25_32_compare)
+            	HX_STACKFRAME(&_hx_pos_079f71771048e957_32_compare)
 HXLINE(  33)		 ::Dynamic k1 = _tmp_k1;
 HXDLIN(  33)		 ::Dynamic k2 = _tmp_k2;
 HXDLIN(  33)		int d = _hx_getEnumValueIndex(k1);
@@ -97,7 +97,7 @@ HXLINE(  53)		return this->compareArgs(p1,p2);
 
 
 int EnumValueMap_obj::compareArgs(::cpp::VirtualArray a1,::cpp::VirtualArray a2){
-            	HX_STACKFRAME(&_hx_pos_2fc3caaac7189e25_57_compareArgs)
+            	HX_STACKFRAME(&_hx_pos_079f71771048e957_57_compareArgs)
 HXLINE(  58)		int ld = (a1->get_length() - a2->get_length());
 HXLINE(  59)		if ((ld != 0)) {
 HXLINE(  60)			return ld;
@@ -121,7 +121,7 @@ HXLINE(  66)		return 0;
 HX_DEFINE_DYNAMIC_FUNC2(EnumValueMap_obj,compareArgs,return )
 
 int EnumValueMap_obj::compareArg( ::Dynamic v1, ::Dynamic v2){
-            	HX_STACKFRAME(&_hx_pos_2fc3caaac7189e25_70_compareArg)
+            	HX_STACKFRAME(&_hx_pos_079f71771048e957_70_compareArg)
 HXDLIN(  70)		bool _hx_tmp;
 HXDLIN(  70)		if (::Reflect_obj::isEnumValue(v1)) {
 HXDLIN(  70)			_hx_tmp = ::Reflect_obj::isEnumValue(v2);

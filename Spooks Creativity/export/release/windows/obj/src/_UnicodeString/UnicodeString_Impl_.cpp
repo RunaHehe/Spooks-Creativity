@@ -5,9 +5,9 @@
 #include <_UnicodeString/UnicodeString_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_e9a3397339d9b953_172_charCodeAt,"_UnicodeString.UnicodeString_Impl_","charCodeAt",0xd9768435,"_UnicodeString.UnicodeString_Impl_.charCodeAt","D:\\HaxeToolKit\\haxe\\std/UnicodeString.hx",172,0xe3e60da8)
-HX_LOCAL_STACK_FRAME(_hx_pos_e9a3397339d9b953_320_substr,"_UnicodeString.UnicodeString_Impl_","substr",0xd1a740f0,"_UnicodeString.UnicodeString_Impl_.substr","D:\\HaxeToolKit\\haxe\\std/UnicodeString.hx",320,0xe3e60da8)
-HX_LOCAL_STACK_FRAME(_hx_pos_e9a3397339d9b953_420_get_length,"_UnicodeString.UnicodeString_Impl_","get_length",0x33b0a1ee,"_UnicodeString.UnicodeString_Impl_.get_length","D:\\HaxeToolKit\\haxe\\std/UnicodeString.hx",420,0xe3e60da8)
+HX_LOCAL_STACK_FRAME(_hx_pos_c77beea8ca76ad9e_172_charCodeAt,"_UnicodeString.UnicodeString_Impl_","charCodeAt",0xd9768435,"_UnicodeString.UnicodeString_Impl_.charCodeAt","C:\\HaxeToolkit\\haxe\\std/UnicodeString.hx",172,0xd14cafa9)
+HX_LOCAL_STACK_FRAME(_hx_pos_c77beea8ca76ad9e_320_substr,"_UnicodeString.UnicodeString_Impl_","substr",0xd1a740f0,"_UnicodeString.UnicodeString_Impl_.substr","C:\\HaxeToolkit\\haxe\\std/UnicodeString.hx",320,0xd14cafa9)
+HX_LOCAL_STACK_FRAME(_hx_pos_c77beea8ca76ad9e_420_get_length,"_UnicodeString.UnicodeString_Impl_","get_length",0x33b0a1ee,"_UnicodeString.UnicodeString_Impl_.get_length","C:\\HaxeToolkit\\haxe\\std/UnicodeString.hx",420,0xd14cafa9)
 namespace _UnicodeString{
 
 void UnicodeString_Impl__obj::__construct() { }
@@ -28,7 +28,7 @@ bool UnicodeString_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Dynamic UnicodeString_Impl__obj::charCodeAt(::String this1,int index){
-            	HX_STACKFRAME(&_hx_pos_e9a3397339d9b953_172_charCodeAt)
+            	HX_STACKFRAME(&_hx_pos_c77beea8ca76ad9e_172_charCodeAt)
 HXLINE( 173)		if ((index < 0)) {
 HXLINE( 174)			return null();
             		}
@@ -64,7 +64,7 @@ HXLINE( 187)		return null();
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(UnicodeString_Impl__obj,charCodeAt,return )
 
 ::String UnicodeString_Impl__obj::substr(::String this1,int pos, ::Dynamic len){
-            	HX_STACKFRAME(&_hx_pos_e9a3397339d9b953_320_substr)
+            	HX_STACKFRAME(&_hx_pos_c77beea8ca76ad9e_320_substr)
 HXLINE( 321)		if ((pos < 0)) {
 HXLINE( 322)			pos = (::_UnicodeString::UnicodeString_Impl__obj::get_length(this1) + pos);
 HXLINE( 323)			if ((pos < 0)) {
@@ -138,7 +138,7 @@ HXDLIN( 359)		return null();
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(UnicodeString_Impl__obj,substr,return )
 
 int UnicodeString_Impl__obj::get_length(::String this1){
-            	HX_STACKFRAME(&_hx_pos_e9a3397339d9b953_420_get_length)
+            	HX_STACKFRAME(&_hx_pos_c77beea8ca76ad9e_420_get_length)
 HXLINE( 421)		int l = 0;
 HXLINE( 422)		{
 HXLINE( 422)			int _g_offset = 0;

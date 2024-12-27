@@ -210,7 +210,7 @@ HX_DEFINE_DYNAMIC_FUNC0(HScript_obj,get_variables,return )
 HXLINE(3580)		::HScript_obj::parser->line = 1;
 HXLINE(3581)		::HScript_obj::parser->allowTypes = true;
 HXLINE(3582)		 ::hscript::Interp _hx_tmp = this->interp;
-HXDLIN(3582)		return _hx_tmp->execute(::HScript_obj::parser->parseString(codeToRun,null()));
+HXDLIN(3582)		return _hx_tmp->execute(::HScript_obj::parser->parseString(codeToRun,null(),null()));
             	}
 
 

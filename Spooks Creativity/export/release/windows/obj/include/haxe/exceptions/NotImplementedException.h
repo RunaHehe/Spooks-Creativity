@@ -9,7 +9,7 @@
 #ifndef INCLUDED_haxe_exceptions_PosException
 #include <haxe/exceptions/PosException.h>
 #endif
-HX_DECLARE_STACK_FRAME(_hx_pos_51b581d6bb09cac1_8_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_7d501cee631cd0cf_8_new)
 HX_DECLARE_CLASS1(haxe,Exception)
 HX_DECLARE_CLASS2(haxe,exceptions,NotImplementedException)
 HX_DECLARE_CLASS2(haxe,exceptions,PosException)
@@ -46,7 +46,7 @@ class HXCPP_CLASS_ATTRIBUTES NotImplementedException_obj : public  ::haxe::excep
 {
             		::String message = __o_message;
             		if (::hx::IsNull(__o_message)) message = HX_("Not implemented",15,1e,32,34);
-            	HX_STACKFRAME(&_hx_pos_51b581d6bb09cac1_8_new)
+            	HX_STACKFRAME(&_hx_pos_7d501cee631cd0cf_8_new)
 HXDLIN(   8)		__this->super::__construct(message,previous,pos);
             	}
 		

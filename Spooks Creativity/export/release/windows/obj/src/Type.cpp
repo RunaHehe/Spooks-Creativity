@@ -11,22 +11,22 @@
 #include <ValueType.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_36_getClass,"Type","getClass",0xc4e49bd6,"Type.getClass","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",36,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_50_getEnum,"Type","getEnum",0x326d2523,"Type.getEnum","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",50,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_58_getSuperClass,"Type","getSuperClass",0xd9ffa85f,"Type.getSuperClass","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",58,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_61_getClassName,"Type","getClassName",0x8e66dd41,"Type.getClassName","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",61,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_68_getEnumName,"Type","getEnumName",0x9b42910e,"Type.getEnumName","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",68,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_72_resolveClass,"Type","resolveClass",0x23b06bc0,"Type.resolveClass","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",72,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_80_resolveEnum,"Type","resolveEnum",0x26394079,"Type.resolveEnum","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",80,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_88_createInstance,"Type","createInstance",0xab84f9c5,"Type.createInstance","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",88,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_96_createEmptyInstance,"Type","createEmptyInstance",0xcb752312,"Type.createEmptyInstance","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",96,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_100_createEnum,"Type","createEnum",0xd8d56d31,"Type.createEnum","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",100,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_111_getInstanceFields,"Type","getInstanceFields",0xe970f890,"Type.getInstanceFields","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",111,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_115_getClassFields,"Type","getClassFields",0x7edf22ef,"Type.getClassFields","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",115,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_120_getEnumConstructs,"Type","getEnumConstructs",0x7f46cf7f,"Type.getEnumConstructs","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",120,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_124_typeof,"Type","typeof",0xd6c51d65,"Type.typeof","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",124,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_153_enumConstructor,"Type","enumConstructor",0x45f8fde5,"Type.enumConstructor","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",153,0x12ad98fd)
-HX_LOCAL_STACK_FRAME(_hx_pos_80b162400a694054_158_enumParameters,"Type","enumParameters",0xf9e1b41f,"Type.enumParameters","D:\\HaxeToolKit\\haxe\\std/cpp/_std/Type.hx",158,0x12ad98fd)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_36_getClass,"Type","getClass",0xc4e49bd6,"Type.getClass","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",36,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_50_getEnum,"Type","getEnum",0x326d2523,"Type.getEnum","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",50,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_58_getSuperClass,"Type","getSuperClass",0xd9ffa85f,"Type.getSuperClass","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",58,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_61_getClassName,"Type","getClassName",0x8e66dd41,"Type.getClassName","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",61,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_68_getEnumName,"Type","getEnumName",0x9b42910e,"Type.getEnumName","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",68,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_72_resolveClass,"Type","resolveClass",0x23b06bc0,"Type.resolveClass","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",72,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_80_resolveEnum,"Type","resolveEnum",0x26394079,"Type.resolveEnum","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",80,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_88_createInstance,"Type","createInstance",0xab84f9c5,"Type.createInstance","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",88,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_96_createEmptyInstance,"Type","createEmptyInstance",0xcb752312,"Type.createEmptyInstance","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",96,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_100_createEnum,"Type","createEnum",0xd8d56d31,"Type.createEnum","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",100,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_111_getInstanceFields,"Type","getInstanceFields",0xe970f890,"Type.getInstanceFields","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",111,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_115_getClassFields,"Type","getClassFields",0x7edf22ef,"Type.getClassFields","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",115,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_120_getEnumConstructs,"Type","getEnumConstructs",0x7f46cf7f,"Type.getEnumConstructs","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",120,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_124_typeof,"Type","typeof",0xd6c51d65,"Type.typeof","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",124,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_153_enumConstructor,"Type","enumConstructor",0x45f8fde5,"Type.enumConstructor","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",153,0x00143afe)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5269e0ce41f90ec_158_enumParameters,"Type","enumParameters",0xf9e1b41f,"Type.enumParameters","C:\\HaxeToolkit\\haxe\\std/cpp/_std/Type.hx",158,0x00143afe)
 
 void Type_obj::__construct() { }
 
@@ -46,7 +46,7 @@ bool Type_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::hx::Class Type_obj::getClass( ::Dynamic o){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_36_getClass)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_36_getClass)
 HXLINE(  37)		bool _hx_tmp;
 HXDLIN(  37)		if (::hx::IsNotNull( o )) {
 HXLINE(  37)			_hx_tmp = !(::Reflect_obj::isObject(o));
@@ -75,7 +75,7 @@ HXLINE(  46)		return c;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,getClass,return )
 
 ::hx::Class Type_obj::getEnum( ::Dynamic o){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_50_getEnum)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_50_getEnum)
 HXLINE(  51)		if (::hx::IsNull( o )) {
 HXLINE(  52)			return null();
             		}
@@ -86,7 +86,7 @@ HXLINE(  53)		return o->__GetClass();
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,getEnum,return )
 
 ::hx::Class Type_obj::getSuperClass(::hx::Class c){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_58_getSuperClass)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_58_getSuperClass)
 HXDLIN(  58)		return c->GetSuper();
             	}
 
@@ -94,7 +94,7 @@ HXDLIN(  58)		return c->GetSuper();
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,getSuperClass,return )
 
 ::String Type_obj::getClassName(::hx::Class c){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_61_getClassName)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_61_getClassName)
 HXLINE(  62)		if (::hx::IsNull( c )) {
 HXLINE(  63)			return null();
             		}
@@ -105,7 +105,7 @@ HXLINE(  64)		return c->mName;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,getClassName,return )
 
 ::String Type_obj::getEnumName(::hx::Class e){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_68_getEnumName)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_68_getEnumName)
 HXDLIN(  68)		return ( (::String)(e->__ToString()) );
             	}
 
@@ -113,7 +113,7 @@ HXDLIN(  68)		return ( (::String)(e->__ToString()) );
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,getEnumName,return )
 
 ::hx::Class Type_obj::resolveClass(::String name){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_72_resolveClass)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_72_resolveClass)
 HXLINE(  73)		::hx::Class result =  ::hx::Class_obj::Resolve(name);
 HXLINE(  74)		bool _hx_tmp;
 HXDLIN(  74)		if (::hx::IsNotNull( result )) {
@@ -132,7 +132,7 @@ HXLINE(  76)		return result;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,resolveClass,return )
 
 ::hx::Class Type_obj::resolveEnum(::String name){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_80_resolveEnum)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_80_resolveEnum)
 HXLINE(  81)		::hx::Class result =  ::hx::Class_obj::Resolve(name);
 HXLINE(  82)		bool _hx_tmp;
 HXDLIN(  82)		if (::hx::IsNotNull( result )) {
@@ -151,7 +151,7 @@ HXLINE(  84)		return result;
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,resolveEnum,return )
 
  ::Dynamic Type_obj::createInstance(::hx::Class cl,::cpp::VirtualArray args){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_88_createInstance)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_88_createInstance)
 HXLINE(  89)		if (::hx::IsNotNull( cl )) {
 HXLINE(  90)			return cl->ConstructArgs(args);
             		}
@@ -162,7 +162,7 @@ HXLINE(  91)		return null();
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Type_obj,createInstance,return )
 
  ::Dynamic Type_obj::createEmptyInstance(::hx::Class cl){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_96_createEmptyInstance)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_96_createEmptyInstance)
 HXDLIN(  96)		return cl->ConstructEmpty();
             	}
 
@@ -170,7 +170,7 @@ HXDLIN(  96)		return cl->ConstructEmpty();
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,createEmptyInstance,return )
 
  ::Dynamic Type_obj::createEnum(::hx::Class e,::String constr,::cpp::VirtualArray params){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_100_createEnum)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_100_createEnum)
 HXDLIN( 100)		return e->ConstructEnum(constr,params);
             	}
 
@@ -178,7 +178,7 @@ HXDLIN( 100)		return e->ConstructEnum(constr,params);
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Type_obj,createEnum,return )
 
 ::Array< ::String > Type_obj::getInstanceFields(::hx::Class c){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_111_getInstanceFields)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_111_getInstanceFields)
 HXDLIN( 111)		return ( (::Array< ::String >)(c->GetInstanceFields()) );
             	}
 
@@ -186,7 +186,7 @@ HXDLIN( 111)		return ( (::Array< ::String >)(c->GetInstanceFields()) );
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,getInstanceFields,return )
 
 ::Array< ::String > Type_obj::getClassFields(::hx::Class c){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_115_getClassFields)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_115_getClassFields)
 HXDLIN( 115)		return ( (::Array< ::String >)(c->GetClassFields()) );
             	}
 
@@ -194,7 +194,7 @@ HXDLIN( 115)		return ( (::Array< ::String >)(c->GetClassFields()) );
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,getClassFields,return )
 
 ::Array< ::String > Type_obj::getEnumConstructs(::hx::Class e){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_120_getEnumConstructs)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_120_getEnumConstructs)
 HXDLIN( 120)		return ( (::Array< ::String >)(e->GetClassFields()) );
             	}
 
@@ -202,7 +202,7 @@ HXDLIN( 120)		return ( (::Array< ::String >)(e->GetClassFields()) );
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,getEnumConstructs,return )
 
  ::ValueType Type_obj::_hx_typeof( ::Dynamic v){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_124_typeof)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_124_typeof)
 HXLINE( 125)		if (::hx::IsNull( v )) {
 HXLINE( 126)			return ::ValueType_obj::TNull_dyn();
             		}
@@ -243,7 +243,7 @@ HXLINE( 128)		return null();
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,_hx_typeof,return )
 
 ::String Type_obj::enumConstructor( ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_153_enumConstructor)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_153_enumConstructor)
 HXLINE( 154)		 hx::EnumBase value = ( ( hx::EnumBase)(e) );
 HXLINE( 155)		return value->_hx_getTag();
             	}
@@ -252,7 +252,7 @@ HXLINE( 155)		return value->_hx_getTag();
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Type_obj,enumConstructor,return )
 
 ::cpp::VirtualArray Type_obj::enumParameters( ::Dynamic e){
-            	HX_STACKFRAME(&_hx_pos_80b162400a694054_158_enumParameters)
+            	HX_STACKFRAME(&_hx_pos_b5269e0ce41f90ec_158_enumParameters)
 HXLINE( 159)		 hx::EnumBase value = ( ( hx::EnumBase)(e) );
 HXLINE( 160)		return value->_hx_getParameters();
             	}

@@ -14,21 +14,21 @@
 #include <haxe/iterators/MapKeyValueIterator.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_47d98b89b3c9f726_59_new,"haxe.ds.ObjectMap","new",0x27af5498,"haxe.ds.ObjectMap.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",59,0x3d0367ff)
-HX_LOCAL_STACK_FRAME(_hx_pos_47d98b89b3c9f726_62_set,"haxe.ds.ObjectMap","set",0x27b31fda,"haxe.ds.ObjectMap.set","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",62,0x3d0367ff)
-HX_LOCAL_STACK_FRAME(_hx_pos_47d98b89b3c9f726_66_get,"haxe.ds.ObjectMap","get",0x27aa04ce,"haxe.ds.ObjectMap.get","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",66,0x3d0367ff)
-HX_LOCAL_STACK_FRAME(_hx_pos_47d98b89b3c9f726_70_exists,"haxe.ds.ObjectMap","exists",0xc8930ca4,"haxe.ds.ObjectMap.exists","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",70,0x3d0367ff)
-HX_LOCAL_STACK_FRAME(_hx_pos_47d98b89b3c9f726_74_remove,"haxe.ds.ObjectMap","remove",0x0d3b8b0c,"haxe.ds.ObjectMap.remove","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",74,0x3d0367ff)
-HX_LOCAL_STACK_FRAME(_hx_pos_47d98b89b3c9f726_77_keys,"haxe.ds.ObjectMap","keys",0x8fbf0ebc,"haxe.ds.ObjectMap.keys","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",77,0x3d0367ff)
-HX_LOCAL_STACK_FRAME(_hx_pos_47d98b89b3c9f726_82_iterator,"haxe.ds.ObjectMap","iterator",0x61fc7ab6,"haxe.ds.ObjectMap.iterator","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",82,0x3d0367ff)
-HX_LOCAL_STACK_FRAME(_hx_pos_47d98b89b3c9f726_88_keyValueIterator,"haxe.ds.ObjectMap","keyValueIterator",0x5b9b0628,"haxe.ds.ObjectMap.keyValueIterator","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",88,0x3d0367ff)
-HX_LOCAL_STACK_FRAME(_hx_pos_47d98b89b3c9f726_99_toString,"haxe.ds.ObjectMap","toString",0x06d10174,"haxe.ds.ObjectMap.toString","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",99,0x3d0367ff)
-HX_LOCAL_STACK_FRAME(_hx_pos_47d98b89b3c9f726_104_clear,"haxe.ds.ObjectMap","clear",0xa0ca73c5,"haxe.ds.ObjectMap.clear","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",104,0x3d0367ff)
+HX_DEFINE_STACK_FRAME(_hx_pos_37f1448d22653c94_59_new,"haxe.ds.ObjectMap","new",0x27af5498,"haxe.ds.ObjectMap.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",59,0xd94cd95e)
+HX_LOCAL_STACK_FRAME(_hx_pos_37f1448d22653c94_62_set,"haxe.ds.ObjectMap","set",0x27b31fda,"haxe.ds.ObjectMap.set","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",62,0xd94cd95e)
+HX_LOCAL_STACK_FRAME(_hx_pos_37f1448d22653c94_66_get,"haxe.ds.ObjectMap","get",0x27aa04ce,"haxe.ds.ObjectMap.get","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",66,0xd94cd95e)
+HX_LOCAL_STACK_FRAME(_hx_pos_37f1448d22653c94_70_exists,"haxe.ds.ObjectMap","exists",0xc8930ca4,"haxe.ds.ObjectMap.exists","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",70,0xd94cd95e)
+HX_LOCAL_STACK_FRAME(_hx_pos_37f1448d22653c94_74_remove,"haxe.ds.ObjectMap","remove",0x0d3b8b0c,"haxe.ds.ObjectMap.remove","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",74,0xd94cd95e)
+HX_LOCAL_STACK_FRAME(_hx_pos_37f1448d22653c94_77_keys,"haxe.ds.ObjectMap","keys",0x8fbf0ebc,"haxe.ds.ObjectMap.keys","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",77,0xd94cd95e)
+HX_LOCAL_STACK_FRAME(_hx_pos_37f1448d22653c94_82_iterator,"haxe.ds.ObjectMap","iterator",0x61fc7ab6,"haxe.ds.ObjectMap.iterator","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",82,0xd94cd95e)
+HX_LOCAL_STACK_FRAME(_hx_pos_37f1448d22653c94_88_keyValueIterator,"haxe.ds.ObjectMap","keyValueIterator",0x5b9b0628,"haxe.ds.ObjectMap.keyValueIterator","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",88,0xd94cd95e)
+HX_LOCAL_STACK_FRAME(_hx_pos_37f1448d22653c94_99_toString,"haxe.ds.ObjectMap","toString",0x06d10174,"haxe.ds.ObjectMap.toString","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",99,0xd94cd95e)
+HX_LOCAL_STACK_FRAME(_hx_pos_37f1448d22653c94_104_clear,"haxe.ds.ObjectMap","clear",0xa0ca73c5,"haxe.ds.ObjectMap.clear","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/ds/ObjectMap.hx",104,0xd94cd95e)
 namespace haxe{
 namespace ds{
 
 void ObjectMap_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_47d98b89b3c9f726_59_new)
+            	HX_STACKFRAME(&_hx_pos_37f1448d22653c94_59_new)
             	}
 
 Dynamic ObjectMap_obj::__CreateEmpty() { return new ObjectMap_obj; }
@@ -71,7 +71,7 @@ void *ObjectMap_obj::_hx_getInterface(int inHash) {
 }
 
 void ObjectMap_obj::set( ::Dynamic key, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_47d98b89b3c9f726_62_set)
+            	HX_STACKFRAME(&_hx_pos_37f1448d22653c94_62_set)
 HXDLIN(  62)		 ::__object_hash_set(HX_MAP_THIS,key,value);
             	}
 
@@ -79,7 +79,7 @@ HXDLIN(  62)		 ::__object_hash_set(HX_MAP_THIS,key,value);
 HX_DEFINE_DYNAMIC_FUNC2(ObjectMap_obj,set,(void))
 
  ::Dynamic ObjectMap_obj::get( ::Dynamic key){
-            	HX_STACKFRAME(&_hx_pos_47d98b89b3c9f726_66_get)
+            	HX_STACKFRAME(&_hx_pos_37f1448d22653c94_66_get)
 HXDLIN(  66)		return  ::__object_hash_get(this->h,key);
             	}
 
@@ -87,7 +87,7 @@ HXDLIN(  66)		return  ::__object_hash_get(this->h,key);
 HX_DEFINE_DYNAMIC_FUNC1(ObjectMap_obj,get,return )
 
 bool ObjectMap_obj::exists( ::Dynamic key){
-            	HX_STACKFRAME(&_hx_pos_47d98b89b3c9f726_70_exists)
+            	HX_STACKFRAME(&_hx_pos_37f1448d22653c94_70_exists)
 HXDLIN(  70)		return  ::__object_hash_exists(this->h,key);
             	}
 
@@ -95,7 +95,7 @@ HXDLIN(  70)		return  ::__object_hash_exists(this->h,key);
 HX_DEFINE_DYNAMIC_FUNC1(ObjectMap_obj,exists,return )
 
 bool ObjectMap_obj::remove( ::Dynamic key){
-            	HX_STACKFRAME(&_hx_pos_47d98b89b3c9f726_74_remove)
+            	HX_STACKFRAME(&_hx_pos_37f1448d22653c94_74_remove)
 HXDLIN(  74)		return  ::__object_hash_remove(this->h,key);
             	}
 
@@ -103,7 +103,7 @@ HXDLIN(  74)		return  ::__object_hash_remove(this->h,key);
 HX_DEFINE_DYNAMIC_FUNC1(ObjectMap_obj,remove,return )
 
  ::Dynamic ObjectMap_obj::keys(){
-            	HX_GC_STACKFRAME(&_hx_pos_47d98b89b3c9f726_77_keys)
+            	HX_GC_STACKFRAME(&_hx_pos_37f1448d22653c94_77_keys)
 HXLINE(  78)		::cpp::VirtualArray a =  ::__object_hash_keys(this->h);
 HXLINE(  79)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,a);
             	}
@@ -112,7 +112,7 @@ HXLINE(  79)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,a);
 HX_DEFINE_DYNAMIC_FUNC0(ObjectMap_obj,keys,return )
 
  ::Dynamic ObjectMap_obj::iterator(){
-            	HX_GC_STACKFRAME(&_hx_pos_47d98b89b3c9f726_82_iterator)
+            	HX_GC_STACKFRAME(&_hx_pos_37f1448d22653c94_82_iterator)
 HXLINE(  83)		::cpp::VirtualArray a =  ::__object_hash_values(this->h);
 HXLINE(  84)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,a);
             	}
@@ -121,7 +121,7 @@ HXLINE(  84)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,a);
 HX_DEFINE_DYNAMIC_FUNC0(ObjectMap_obj,iterator,return )
 
  ::Dynamic ObjectMap_obj::keyValueIterator(){
-            	HX_GC_STACKFRAME(&_hx_pos_47d98b89b3c9f726_88_keyValueIterator)
+            	HX_GC_STACKFRAME(&_hx_pos_37f1448d22653c94_88_keyValueIterator)
 HXDLIN(  88)		return  ::haxe::iterators::MapKeyValueIterator_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
             	}
 
@@ -129,7 +129,7 @@ HXDLIN(  88)		return  ::haxe::iterators::MapKeyValueIterator_obj::__alloc( HX_CT
 HX_DEFINE_DYNAMIC_FUNC0(ObjectMap_obj,keyValueIterator,return )
 
 ::String ObjectMap_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_47d98b89b3c9f726_99_toString)
+            	HX_STACKFRAME(&_hx_pos_37f1448d22653c94_99_toString)
 HXDLIN(  99)		return  ::__object_hash_to_string(this->h);
             	}
 
@@ -137,7 +137,7 @@ HXDLIN(  99)		return  ::__object_hash_to_string(this->h);
 HX_DEFINE_DYNAMIC_FUNC0(ObjectMap_obj,toString,return )
 
 void ObjectMap_obj::clear(){
-            	HX_STACKFRAME(&_hx_pos_47d98b89b3c9f726_104_clear)
+            	HX_STACKFRAME(&_hx_pos_37f1448d22653c94_104_clear)
 HXDLIN( 104)		 ::__object_hash_clear(this->h);
             	}
 

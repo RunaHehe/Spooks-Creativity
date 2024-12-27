@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6f2b980e14f9963e_2086_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_regular_ttf","new",0x8b08b1da,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_regular_ttf.new","ManifestResources.hx",2086,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_6f2b980e14f9963e_2104_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_regular_ttf","new",0x8b08b1da,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_regular_ttf.new","ManifestResources.hx",2104,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_regular_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_6f2b980e14f9963e_2086_new)
-HXDLIN(2086)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Google/Product Sans Regular.ttf",63,98,74,03));
-HXDLIN(2086)		this->name = HX_("Product Sans",24,33,af,f3);
-HXDLIN(2086)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_6f2b980e14f9963e_2104_new)
+HXDLIN(2104)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Google/Product Sans Regular.ttf",63,98,74,03));
+HXDLIN(2104)		this->name = HX_("Product Sans",24,33,af,f3);
+HXDLIN(2104)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_regular_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_google_product_sans_regular_ttf_obj; }

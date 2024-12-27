@@ -26,9 +26,9 @@
 #include <haxe/xml/XmlParserException.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_bf86983274b3b820_115_parse,"haxe.xml.Parser","parse",0x937905c3,"haxe.xml.Parser.parse","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Parser.hx",115,0xae54f896)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf86983274b3b820_121_doParse,"haxe.xml.Parser","doParse",0x2e9a6a38,"haxe.xml.Parser.doParse","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Parser.hx",121,0xae54f896)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf86983274b3b820_100_boot,"haxe.xml.Parser","boot",0x0af6f0a2,"haxe.xml.Parser.boot","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Parser.hx",100,0xae54f896)
+HX_LOCAL_STACK_FRAME(_hx_pos_962053f530a64077_115_parse,"haxe.xml.Parser","parse",0x937905c3,"haxe.xml.Parser.parse","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Parser.hx",115,0xbc28dcd7)
+HX_LOCAL_STACK_FRAME(_hx_pos_962053f530a64077_121_doParse,"haxe.xml.Parser","doParse",0x2e9a6a38,"haxe.xml.Parser.doParse","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Parser.hx",121,0xbc28dcd7)
+HX_LOCAL_STACK_FRAME(_hx_pos_962053f530a64077_100_boot,"haxe.xml.Parser","boot",0x0af6f0a2,"haxe.xml.Parser.boot","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Parser.hx",100,0xbc28dcd7)
 namespace haxe{
 namespace xml{
 
@@ -53,7 +53,7 @@ bool Parser_obj::_hx_isInstanceOf(int inClassId) {
 
  ::Xml Parser_obj::parse(::String str,::hx::Null< bool >  __o_strict){
             		bool strict = __o_strict.Default(false);
-            	HX_STACKFRAME(&_hx_pos_bf86983274b3b820_115_parse)
+            	HX_STACKFRAME(&_hx_pos_962053f530a64077_115_parse)
 HXLINE( 116)		 ::Xml doc = ::Xml_obj::createDocument();
 HXLINE( 117)		::haxe::xml::Parser_obj::doParse(str,strict,0,doc);
 HXLINE( 118)		return doc;
@@ -64,7 +64,7 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC2(Parser_obj,parse,return )
 
 int Parser_obj::doParse(::String str,bool strict,::hx::Null< int >  __o_p, ::Xml parent){
             		int p = __o_p.Default(0);
-            	HX_GC_STACKFRAME(&_hx_pos_bf86983274b3b820_121_doParse)
+            	HX_GC_STACKFRAME(&_hx_pos_962053f530a64077_121_doParse)
 HXLINE( 122)		 ::Xml xml = null();
 HXLINE( 123)		int state = 1;
 HXLINE( 124)		int next = 1;
@@ -1042,7 +1042,7 @@ void Parser_obj::__boot()
 {
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(0)
             		 ::haxe::ds::StringMap _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_bf86983274b3b820_100_boot)
+            			HX_GC_STACKFRAME(&_hx_pos_962053f530a64077_100_boot)
 HXLINE( 101)			 ::haxe::ds::StringMap h =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
 HXLINE( 102)			h->set(HX_("lt",88,5e,00,00),HX_("<",3c,00,00,00));
 HXLINE( 103)			h->set(HX_("gt",2d,5a,00,00),HX_(">",3e,00,00,00));
@@ -1053,7 +1053,7 @@ HXLINE( 107)			return h;
             		}
             		HX_END_LOCAL_FUNC0(return)
 
-            	HX_STACKFRAME(&_hx_pos_bf86983274b3b820_100_boot)
+            	HX_STACKFRAME(&_hx_pos_962053f530a64077_100_boot)
 HXDLIN( 100)		escapes = ( ( ::haxe::ds::StringMap)( ::Dynamic(new _hx_Closure_0())()) );
             	}
 }

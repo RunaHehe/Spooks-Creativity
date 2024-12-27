@@ -5,13 +5,13 @@
 #include <haxe/io/Eof.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_cdf49a0f309fa51f_29_new,"haxe.io.Eof","new",0x2166e64e,"haxe.io.Eof.new","D:\\HaxeToolKit\\haxe\\std/haxe/io/Eof.hx",29,0x8ad5615a)
-HX_LOCAL_STACK_FRAME(_hx_pos_cdf49a0f309fa51f_33_toString,"haxe.io.Eof","toString",0xf9ff7bfe,"haxe.io.Eof.toString","D:\\HaxeToolKit\\haxe\\std/haxe/io/Eof.hx",33,0x8ad5615a)
+HX_DEFINE_STACK_FRAME(_hx_pos_f8773e914a071cce_29_new,"haxe.io.Eof","new",0x2166e64e,"haxe.io.Eof.new","C:\\HaxeToolkit\\haxe\\std/haxe/io/Eof.hx",29,0xe8efd11b)
+HX_LOCAL_STACK_FRAME(_hx_pos_f8773e914a071cce_33_toString,"haxe.io.Eof","toString",0xf9ff7bfe,"haxe.io.Eof.toString","C:\\HaxeToolkit\\haxe\\std/haxe/io/Eof.hx",33,0xe8efd11b)
 namespace haxe{
 namespace io{
 
 void Eof_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_cdf49a0f309fa51f_29_new)
+            	HX_STACKFRAME(&_hx_pos_f8773e914a071cce_29_new)
             	}
 
 Dynamic Eof_obj::__CreateEmpty() { return new Eof_obj; }
@@ -30,7 +30,7 @@ bool Eof_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String Eof_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_cdf49a0f309fa51f_33_toString)
+            	HX_STACKFRAME(&_hx_pos_f8773e914a071cce_33_toString)
 HXDLIN(  33)		return HX_("Eof",9c,bc,34,00);
             	}
 

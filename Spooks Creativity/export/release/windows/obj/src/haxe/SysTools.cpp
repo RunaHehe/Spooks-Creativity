@@ -17,8 +17,8 @@
 #include <haxe/SysTools.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_c10d43af582dbdb6_18_quoteUnixArg,"haxe.SysTools","quoteUnixArg",0xb3a0810a,"haxe.SysTools.quoteUnixArg","D:\\HaxeToolKit\\haxe\\std/haxe/SysTools.hx",18,0x18efbabf)
-HX_LOCAL_STACK_FRAME(_hx_pos_c10d43af582dbdb6_46_quoteWinArg,"haxe.SysTools","quoteWinArg",0x08e9f6be,"haxe.SysTools.quoteWinArg","D:\\HaxeToolKit\\haxe\\std/haxe/SysTools.hx",46,0x18efbabf)
+HX_LOCAL_STACK_FRAME(_hx_pos_310dc4d0536dca58_18_quoteUnixArg,"haxe.SysTools","quoteUnixArg",0xb3a0810a,"haxe.SysTools.quoteUnixArg","C:\\HaxeToolkit\\haxe\\std/haxe/SysTools.hx",18,0x06565cc0)
+HX_LOCAL_STACK_FRAME(_hx_pos_310dc4d0536dca58_46_quoteWinArg,"haxe.SysTools","quoteWinArg",0x08e9f6be,"haxe.SysTools.quoteWinArg","C:\\HaxeToolkit\\haxe\\std/haxe/SysTools.hx",46,0x06565cc0)
 static const ::String _hx_array_data_42269736_5[] = {
 	HX_("\"",22,00,00,00),
 };
@@ -31,7 +31,7 @@ static const ::String _hx_array_data_42269736_7[] = {
 static const ::String _hx_array_data_42269736_8[] = {
 	HX_("\"",22,00,00,00),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_c10d43af582dbdb6_9_boot,"haxe.SysTools","boot",0x6c65b86a,"haxe.SysTools.boot","D:\\HaxeToolKit\\haxe\\std/haxe/SysTools.hx",9,0x18efbabf)
+HX_LOCAL_STACK_FRAME(_hx_pos_310dc4d0536dca58_9_boot,"haxe.SysTools","boot",0x6c65b86a,"haxe.SysTools.boot","C:\\HaxeToolkit\\haxe\\std/haxe/SysTools.hx",9,0x06565cc0)
 static const int _hx_array_data_42269736_10[] = {
 	(int)32,(int)40,(int)41,(int)37,(int)33,(int)94,(int)34,(int)60,(int)62,(int)38,(int)124,(int)10,(int)13,(int)44,(int)59,
 };
@@ -57,7 +57,7 @@ bool SysTools_obj::_hx_isInstanceOf(int inClassId) {
 ::Array< int > SysTools_obj::winMetaCharacters;
 
 ::String SysTools_obj::quoteUnixArg(::String argument){
-            	HX_GC_STACKFRAME(&_hx_pos_c10d43af582dbdb6_18_quoteUnixArg)
+            	HX_GC_STACKFRAME(&_hx_pos_310dc4d0536dca58_18_quoteUnixArg)
 HXLINE(  22)		if ((argument == HX_("",00,00,00,00))) {
 HXLINE(  23)			return HX_("''",20,22,00,00);
             		}
@@ -71,7 +71,7 @@ HXLINE(  30)		return ((HX_("'",27,00,00,00) + ::StringTools_obj::replace(argumen
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(SysTools_obj,quoteUnixArg,return )
 
 ::String SysTools_obj::quoteWinArg(::String argument,bool escapeMetaCharacters){
-            	HX_GC_STACKFRAME(&_hx_pos_c10d43af582dbdb6_46_quoteWinArg)
+            	HX_GC_STACKFRAME(&_hx_pos_310dc4d0536dca58_46_quoteWinArg)
 HXLINE(  48)		if (!( ::EReg_obj::__alloc( HX_CTX ,HX_("^(/)?[^ \t/\\\\\"]+$",3c,0f,01,c9),HX_("",00,00,00,00))->match(argument))) {
 HXLINE(  52)			 ::StringBuf result =  ::StringBuf_obj::__alloc( HX_CTX );
 HXLINE(  53)			bool needquote;
@@ -438,7 +438,7 @@ void SysTools_obj::__register()
 void SysTools_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_c10d43af582dbdb6_9_boot)
+            	HX_STACKFRAME(&_hx_pos_310dc4d0536dca58_9_boot)
 HXDLIN(   9)		winMetaCharacters = ::Array_obj< int >::fromData( _hx_array_data_42269736_10,15);
             	}
 }

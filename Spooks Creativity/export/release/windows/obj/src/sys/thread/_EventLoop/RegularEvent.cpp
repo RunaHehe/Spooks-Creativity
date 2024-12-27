@@ -5,13 +5,13 @@
 #include <sys/thread/_EventLoop/RegularEvent.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_4fe8a7aad06c8a0f_278_new,"sys.thread._EventLoop.RegularEvent","new",0x9d3b475c,"sys.thread._EventLoop.RegularEvent.new","D:\\HaxeToolKit\\haxe\\std/sys/thread/EventLoop.hx",278,0x1003998b)
+HX_DEFINE_STACK_FRAME(_hx_pos_cf8fdd6eb8676a81_278_new,"sys.thread._EventLoop.RegularEvent","new",0x9d3b475c,"sys.thread._EventLoop.RegularEvent.new","C:\\HaxeToolkit\\haxe\\std/sys/thread/EventLoop.hx",278,0x60c7a9aa)
 namespace sys{
 namespace thread{
 namespace _EventLoop{
 
 void RegularEvent_obj::__construct( ::Dynamic run,Float nextRunTime,Float interval){
-            	HX_STACKFRAME(&_hx_pos_4fe8a7aad06c8a0f_278_new)
+            	HX_STACKFRAME(&_hx_pos_cf8fdd6eb8676a81_278_new)
 HXLINE( 284)		this->cancelled = false;
 HXLINE( 287)		this->run = run;
 HXLINE( 288)		this->nextRunTime = nextRunTime;

@@ -11,7 +11,7 @@
 #include <haxe/xml/_Access/NodeAccess_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_53a4f34c5c28ef00_27_resolve,"haxe.xml._Access.NodeAccess_Impl_","resolve",0xc66a9d2e,"haxe.xml._Access.NodeAccess_Impl_.resolve","D:\\HaxeToolKit\\haxe\\std/haxe/xml/Access.hx",27,0xcc1908f1)
+HX_LOCAL_STACK_FRAME(_hx_pos_2b18c542c4d20b62_27_resolve,"haxe.xml._Access.NodeAccess_Impl_","resolve",0xc66a9d2e,"haxe.xml._Access.NodeAccess_Impl_.resolve","C:\\HaxeToolkit\\haxe\\std/haxe/xml/Access.hx",27,0xd9eced32)
 namespace haxe{
 namespace xml{
 namespace _Access{
@@ -34,7 +34,7 @@ bool NodeAccess_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Xml NodeAccess_Impl__obj::resolve( ::Xml this1,::String name){
-            	HX_STACKFRAME(&_hx_pos_53a4f34c5c28ef00_27_resolve)
+            	HX_STACKFRAME(&_hx_pos_2b18c542c4d20b62_27_resolve)
 HXLINE(  28)		 ::Xml x = ( ( ::Xml)(this1->elementsNamed(name)->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
 HXLINE(  29)		if (::hx::IsNull( x )) {
 HXLINE(  30)			::String xname;

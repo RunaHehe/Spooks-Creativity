@@ -5,13 +5,13 @@
 #include <haxe/ds/TreeNode.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_0121d289f7f222d9_252_new,"haxe.ds.TreeNode","new",0x88d32f89,"haxe.ds.TreeNode.new","D:\\HaxeToolKit\\haxe\\std/haxe/ds/BalancedTree.hx",252,0x3f5eca09)
+HX_DEFINE_STACK_FRAME(_hx_pos_a547912459d988d9_252_new,"haxe.ds.TreeNode","new",0x88d32f89,"haxe.ds.TreeNode.new","C:\\HaxeToolkit\\haxe\\std/haxe/ds/BalancedTree.hx",252,0x9022da28)
 namespace haxe{
 namespace ds{
 
 void TreeNode_obj::__construct( ::haxe::ds::TreeNode l, ::Dynamic k, ::Dynamic v, ::haxe::ds::TreeNode r,::hx::Null< int >  __o_h){
             		int h = __o_h.Default(-1);
-            	HX_STACKFRAME(&_hx_pos_0121d289f7f222d9_252_new)
+            	HX_STACKFRAME(&_hx_pos_a547912459d988d9_252_new)
 HXLINE( 253)		this->left = l;
 HXLINE( 254)		this->key = k;
 HXLINE( 255)		this->value = v;

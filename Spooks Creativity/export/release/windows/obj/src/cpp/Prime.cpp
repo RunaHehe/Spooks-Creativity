@@ -5,7 +5,7 @@
 #include <cpp/Prime.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_00454ab7ebbf7241_34__loadPrime,"cpp.Prime","_loadPrime",0xdd360794,"cpp.Prime._loadPrime","D:\\HaxeToolKit\\haxe\\std/cpp/Prime.hx",34,0x29f47283)
+HX_LOCAL_STACK_FRAME(_hx_pos_f87d022edca545f3_34__loadPrime,"cpp.Prime","_loadPrime",0xdd360794,"cpp.Prime._loadPrime","C:\\HaxeToolkit\\haxe\\std/cpp/Prime.hx",34,0x547fc004)
 namespace cpp{
 
 void Prime_obj::__construct() { }
@@ -27,7 +27,7 @@ bool Prime_obj::_hx_isInstanceOf(int inClassId) {
 
  ::Dynamic Prime_obj::_loadPrime(::String lib,::String prim,::String signature,::hx::Null< bool >  __o_quietFail){
             		bool quietFail = __o_quietFail.Default(false);
-            	HX_STACKFRAME(&_hx_pos_00454ab7ebbf7241_34__loadPrime)
+            	HX_STACKFRAME(&_hx_pos_f87d022edca545f3_34__loadPrime)
 HXLINE(  35)		::cpp::Function<  ::hx::Object *  (const char*) > factory =  ::__hxcpp_cast_get_proc_address(lib,(prim + HX_("__prime",1f,b0,e9,32)),quietFail);
 HXLINE(  36)		if (::hx::IsNotNull( factory )) {
 HXLINE(  37)			 ::Dynamic func = ( ( ::Dynamic)(factory(signature.utf8_str())) );

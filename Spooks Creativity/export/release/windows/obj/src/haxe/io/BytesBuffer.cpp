@@ -8,13 +8,13 @@
 #include <haxe/io/BytesBuffer.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_ebfe04ed74ecda38_52_new,"haxe.io.BytesBuffer","new",0x022790dd,"haxe.io.BytesBuffer.new","D:\\HaxeToolKit\\haxe\\std/haxe/io/BytesBuffer.hx",52,0xf87ab5ab)
-HX_LOCAL_STACK_FRAME(_hx_pos_ebfe04ed74ecda38_202_getBytes,"haxe.io.BytesBuffer","getBytes",0x1e9f7258,"haxe.io.BytesBuffer.getBytes","D:\\HaxeToolKit\\haxe\\std/haxe/io/BytesBuffer.hx",202,0xf87ab5ab)
+HX_DEFINE_STACK_FRAME(_hx_pos_56f7003f49591ffa_52_new,"haxe.io.BytesBuffer","new",0x022790dd,"haxe.io.BytesBuffer.new","C:\\HaxeToolkit\\haxe\\std/haxe/io/BytesBuffer.hx",52,0xb51c4e6c)
+HX_LOCAL_STACK_FRAME(_hx_pos_56f7003f49591ffa_202_getBytes,"haxe.io.BytesBuffer","getBytes",0x1e9f7258,"haxe.io.BytesBuffer.getBytes","C:\\HaxeToolkit\\haxe\\std/haxe/io/BytesBuffer.hx",202,0xb51c4e6c)
 namespace haxe{
 namespace io{
 
 void BytesBuffer_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_ebfe04ed74ecda38_52_new)
+            	HX_STACKFRAME(&_hx_pos_56f7003f49591ffa_52_new)
 HXDLIN(  52)		this->b = ::Array_obj< unsigned char >::__new();
             	}
 
@@ -34,7 +34,7 @@ bool BytesBuffer_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::haxe::io::Bytes BytesBuffer_obj::getBytes(){
-            	HX_GC_STACKFRAME(&_hx_pos_ebfe04ed74ecda38_202_getBytes)
+            	HX_GC_STACKFRAME(&_hx_pos_56f7003f49591ffa_202_getBytes)
 HXLINE( 220)		 ::haxe::io::Bytes bytes =  ::haxe::io::Bytes_obj::__alloc( HX_CTX ,this->b->length,this->b);
 HXLINE( 222)		this->b = null();
 HXLINE( 223)		return bytes;

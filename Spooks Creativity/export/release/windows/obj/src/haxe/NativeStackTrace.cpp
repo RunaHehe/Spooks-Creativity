@@ -11,8 +11,8 @@
 #include <haxe/StackItem.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_502a3d449105716f_12_saveStack,"haxe.NativeStackTrace","saveStack",0x471b27d9,"haxe.NativeStackTrace.saveStack","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/NativeStackTrace.hx",12,0x08d6fbe8)
-HX_LOCAL_STACK_FRAME(_hx_pos_502a3d449105716f_25_toHaxe,"haxe.NativeStackTrace","toHaxe",0x6b36d173,"haxe.NativeStackTrace.toHaxe","D:\\HaxeToolKit\\haxe\\std/cpp/_std/haxe/NativeStackTrace.hx",25,0x08d6fbe8)
+HX_LOCAL_STACK_FRAME(_hx_pos_cf0801ff7556b383_12_saveStack,"haxe.NativeStackTrace","saveStack",0x471b27d9,"haxe.NativeStackTrace.saveStack","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/NativeStackTrace.hx",12,0xf83e08c7)
+HX_LOCAL_STACK_FRAME(_hx_pos_cf0801ff7556b383_25_toHaxe,"haxe.NativeStackTrace","toHaxe",0x6b36d173,"haxe.NativeStackTrace.toHaxe","C:\\HaxeToolkit\\haxe\\std/cpp/_std/haxe/NativeStackTrace.hx",25,0xf83e08c7)
 namespace haxe{
 
 void NativeStackTrace_obj::__construct() { }
@@ -33,7 +33,7 @@ bool NativeStackTrace_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void NativeStackTrace_obj::saveStack( ::Dynamic exception){
-            	HX_STACKFRAME(&_hx_pos_502a3d449105716f_12_saveStack)
+            	HX_STACKFRAME(&_hx_pos_cf0801ff7556b383_12_saveStack)
             	}
 
 
@@ -55,7 +55,7 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC0(NativeStackTrace_obj,exceptionStack,return )
 
 ::Array< ::Dynamic> NativeStackTrace_obj::toHaxe(::Array< ::String > native,::hx::Null< int >  __o_skip){
             		int skip = __o_skip.Default(0);
-            	HX_STACKFRAME(&_hx_pos_502a3d449105716f_25_toHaxe)
+            	HX_STACKFRAME(&_hx_pos_cf0801ff7556b383_25_toHaxe)
 HXLINE(  26)		::Array< ::String > stack = native;
 HXLINE(  27)		::Array< ::Dynamic> m = ::Array_obj< ::Dynamic>::__new();
 HXLINE(  28)		{

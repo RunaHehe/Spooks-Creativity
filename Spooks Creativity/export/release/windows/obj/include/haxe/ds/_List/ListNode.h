@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_b40f123a09050853_266_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_21607b221ac769d1_266_new)
 HX_DECLARE_CLASS3(haxe,ds,_List,ListNode)
 
 namespace haxe{
@@ -40,7 +40,7 @@ class HXCPP_CLASS_ATTRIBUTES ListNode_obj : public ::hx::Object
 			ListNode_obj *__this = (ListNode_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(ListNode_obj), true, "haxe.ds._List.ListNode"));
 			*(void **)__this = ListNode_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_b40f123a09050853_266_new)
+            	HX_STACKFRAME(&_hx_pos_21607b221ac769d1_266_new)
 HXLINE( 267)		( ( ::haxe::ds::_List::ListNode)(__this) )->item = item;
 HXLINE( 268)		( ( ::haxe::ds::_List::ListNode)(__this) )->next = next;
             	}

@@ -8,14 +8,14 @@
 #include <sys/thread/NoEventLoopException.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_1b4f0011fc69aa02_7_new,"sys.thread.NoEventLoopException","new",0x6e47ae47,"sys.thread.NoEventLoopException.new","D:\\HaxeToolKit\\haxe\\std/sys/thread/NoEventLoopException.hx",7,0x662a5ac1)
+HX_DEFINE_STACK_FRAME(_hx_pos_aef99a7c708d87b0_7_new,"sys.thread.NoEventLoopException","new",0x6e47ae47,"sys.thread.NoEventLoopException.new","C:\\HaxeToolkit\\haxe\\std/sys/thread/NoEventLoopException.hx",7,0xf0ee9102)
 namespace sys{
 namespace thread{
 
 void NoEventLoopException_obj::__construct(::String __o_msg, ::haxe::Exception previous){
             		::String msg = __o_msg;
             		if (::hx::IsNull(__o_msg)) msg = HX_("Event loop is not available. Refer to sys.thread.Thread.runWithEventLoop.",89,e6,4c,1c);
-            	HX_STACKFRAME(&_hx_pos_1b4f0011fc69aa02_7_new)
+            	HX_STACKFRAME(&_hx_pos_aef99a7c708d87b0_7_new)
 HXDLIN(   7)		super::__construct(msg,previous,null());
             	}
 

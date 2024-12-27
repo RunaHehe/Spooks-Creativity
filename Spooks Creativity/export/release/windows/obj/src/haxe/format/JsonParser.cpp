@@ -14,17 +14,17 @@
 #include <haxe/format/JsonParser.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d51c652645dba269_51_new,"haxe.format.JsonParser","new",0xa017eec8,"haxe.format.JsonParser.new","D:\\HaxeToolKit\\haxe\\std/haxe/format/JsonParser.hx",51,0x3d42c4b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_d51c652645dba269_56_doParse,"haxe.format.JsonParser","doParse",0xa959e310,"haxe.format.JsonParser.doParse","D:\\HaxeToolKit\\haxe\\std/haxe/format/JsonParser.hx",56,0x3d42c4b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_d51c652645dba269_71_parseRec,"haxe.format.JsonParser","parseRec",0xda258b75,"haxe.format.JsonParser.parseRec","D:\\HaxeToolKit\\haxe\\std/haxe/format/JsonParser.hx",71,0x3d42c4b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_d51c652645dba269_152_parseString,"haxe.format.JsonParser","parseString",0x8c919bcc,"haxe.format.JsonParser.parseString","D:\\HaxeToolKit\\haxe\\std/haxe/format/JsonParser.hx",152,0x3d42c4b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_d51c652645dba269_316_invalidChar,"haxe.format.JsonParser","invalidChar",0xa9f373d5,"haxe.format.JsonParser.invalidChar","D:\\HaxeToolKit\\haxe\\std/haxe/format/JsonParser.hx",316,0x3d42c4b0)
-HX_LOCAL_STACK_FRAME(_hx_pos_d51c652645dba269_322_invalidNumber,"haxe.format.JsonParser","invalidNumber",0x8e9d1988,"haxe.format.JsonParser.invalidNumber","D:\\HaxeToolKit\\haxe\\std/haxe/format/JsonParser.hx",322,0x3d42c4b0)
+HX_DEFINE_STACK_FRAME(_hx_pos_951af697d279505e_51_new,"haxe.format.JsonParser","new",0xa017eec8,"haxe.format.JsonParser.new","C:\\HaxeToolkit\\haxe\\std/haxe/format/JsonParser.hx",51,0x53425a8f)
+HX_LOCAL_STACK_FRAME(_hx_pos_951af697d279505e_56_doParse,"haxe.format.JsonParser","doParse",0xa959e310,"haxe.format.JsonParser.doParse","C:\\HaxeToolkit\\haxe\\std/haxe/format/JsonParser.hx",56,0x53425a8f)
+HX_LOCAL_STACK_FRAME(_hx_pos_951af697d279505e_71_parseRec,"haxe.format.JsonParser","parseRec",0xda258b75,"haxe.format.JsonParser.parseRec","C:\\HaxeToolkit\\haxe\\std/haxe/format/JsonParser.hx",71,0x53425a8f)
+HX_LOCAL_STACK_FRAME(_hx_pos_951af697d279505e_152_parseString,"haxe.format.JsonParser","parseString",0x8c919bcc,"haxe.format.JsonParser.parseString","C:\\HaxeToolkit\\haxe\\std/haxe/format/JsonParser.hx",152,0x53425a8f)
+HX_LOCAL_STACK_FRAME(_hx_pos_951af697d279505e_316_invalidChar,"haxe.format.JsonParser","invalidChar",0xa9f373d5,"haxe.format.JsonParser.invalidChar","C:\\HaxeToolkit\\haxe\\std/haxe/format/JsonParser.hx",316,0x53425a8f)
+HX_LOCAL_STACK_FRAME(_hx_pos_951af697d279505e_322_invalidNumber,"haxe.format.JsonParser","invalidNumber",0x8e9d1988,"haxe.format.JsonParser.invalidNumber","C:\\HaxeToolkit\\haxe\\std/haxe/format/JsonParser.hx",322,0x53425a8f)
 namespace haxe{
 namespace format{
 
 void JsonParser_obj::__construct(::String str){
-            	HX_STACKFRAME(&_hx_pos_d51c652645dba269_51_new)
+            	HX_STACKFRAME(&_hx_pos_951af697d279505e_51_new)
 HXLINE(  52)		this->str = str;
 HXLINE(  53)		this->pos = 0;
             	}
@@ -45,7 +45,7 @@ bool JsonParser_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Dynamic JsonParser_obj::doParse(){
-            	HX_STACKFRAME(&_hx_pos_d51c652645dba269_56_doParse)
+            	HX_STACKFRAME(&_hx_pos_951af697d279505e_56_doParse)
 HXLINE(  57)		 ::Dynamic result = this->parseRec();
 HXLINE(  58)		int c;
 HXLINE(  59)		while(true){
@@ -70,7 +70,7 @@ HXLINE(  67)		return result;
 HX_DEFINE_DYNAMIC_FUNC0(JsonParser_obj,doParse,return )
 
  ::Dynamic JsonParser_obj::parseRec(){
-            	HX_STACKFRAME(&_hx_pos_d51c652645dba269_71_parseRec)
+            	HX_STACKFRAME(&_hx_pos_951af697d279505e_71_parseRec)
 HXDLIN(  71)		while(true){
 HXLINE(  72)			int c = this->str.cca(this->pos++);
 HXLINE(  73)			switch((int)(c)){
@@ -402,7 +402,7 @@ HXLINE(  71)		return null();
 HX_DEFINE_DYNAMIC_FUNC0(JsonParser_obj,parseRec,return )
 
 ::String JsonParser_obj::parseString(){
-            	HX_GC_STACKFRAME(&_hx_pos_d51c652645dba269_152_parseString)
+            	HX_GC_STACKFRAME(&_hx_pos_951af697d279505e_152_parseString)
 HXLINE( 153)		int start = this->pos;
 HXLINE( 154)		 ::StringBuf buf = null();
 HXLINE( 156)		int prev = -1;
@@ -656,7 +656,7 @@ HXLINE( 248)		return null();
 HX_DEFINE_DYNAMIC_FUNC0(JsonParser_obj,parseString,return )
 
 void JsonParser_obj::invalidChar(){
-            	HX_STACKFRAME(&_hx_pos_d51c652645dba269_316_invalidChar)
+            	HX_STACKFRAME(&_hx_pos_951af697d279505e_316_invalidChar)
 HXLINE( 317)		this->pos--;
 HXLINE( 318)		::String _hx_tmp = ((HX_("Invalid char ",81,66,ec,29) + this->str.cca(this->pos)) + HX_(" at position ",0a,c2,01,e0));
 HXDLIN( 318)		HX_STACK_DO_THROW((_hx_tmp + this->pos));
@@ -666,7 +666,7 @@ HXDLIN( 318)		HX_STACK_DO_THROW((_hx_tmp + this->pos));
 HX_DEFINE_DYNAMIC_FUNC0(JsonParser_obj,invalidChar,(void))
 
 void JsonParser_obj::invalidNumber(int start){
-            	HX_STACKFRAME(&_hx_pos_d51c652645dba269_322_invalidNumber)
+            	HX_STACKFRAME(&_hx_pos_951af697d279505e_322_invalidNumber)
 HXDLIN( 322)		HX_STACK_DO_THROW((((HX_("Invalid number at position ",d8,9d,6f,13) + start) + HX_(": ",a6,32,00,00)) + this->str.substr(start,(this->pos - start))));
             	}
 

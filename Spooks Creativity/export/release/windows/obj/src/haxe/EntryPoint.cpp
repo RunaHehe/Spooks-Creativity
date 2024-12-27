@@ -17,15 +17,15 @@
 #include <sys/thread/_Thread/Thread_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_fa6e4aa4d4f516cb_50_wakeup,"haxe.EntryPoint","wakeup",0xf2406907,"haxe.EntryPoint.wakeup","D:\\HaxeToolKit\\haxe\\std/haxe/EntryPoint.hx",50,0x151801cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_fa6e4aa4d4f516cb_59_runInMainThread,"haxe.EntryPoint","runInMainThread",0xb452d98b,"haxe.EntryPoint.runInMainThread","D:\\HaxeToolKit\\haxe\\std/haxe/EntryPoint.hx",59,0x151801cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_fa6e4aa4d4f516cb_87_addThread,"haxe.EntryPoint","addThread",0x82e27f43,"haxe.EntryPoint.addThread","D:\\HaxeToolKit\\haxe\\std/haxe/EntryPoint.hx",87,0x151801cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_fa6e4aa4d4f516cb_79_addThread,"haxe.EntryPoint","addThread",0x82e27f43,"haxe.EntryPoint.addThread","D:\\HaxeToolKit\\haxe\\std/haxe/EntryPoint.hx",79,0x151801cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_fa6e4aa4d4f516cb_71_addThread,"haxe.EntryPoint","addThread",0x82e27f43,"haxe.EntryPoint.addThread","D:\\HaxeToolKit\\haxe\\std/haxe/EntryPoint.hx",71,0x151801cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_fa6e4aa4d4f516cb_126_run,"haxe.EntryPoint","run",0xf0324cc3,"haxe.EntryPoint.run","D:\\HaxeToolKit\\haxe\\std/haxe/EntryPoint.hx",126,0x151801cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_fa6e4aa4d4f516cb_37_boot,"haxe.EntryPoint","boot",0x3138e7ba,"haxe.EntryPoint.boot","D:\\HaxeToolKit\\haxe\\std/haxe/EntryPoint.hx",37,0x151801cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_fa6e4aa4d4f516cb_39_boot,"haxe.EntryPoint","boot",0x3138e7ba,"haxe.EntryPoint.boot","D:\\HaxeToolKit\\haxe\\std/haxe/EntryPoint.hx",39,0x151801cf)
-HX_LOCAL_STACK_FRAME(_hx_pos_fa6e4aa4d4f516cb_45_boot,"haxe.EntryPoint","boot",0x3138e7ba,"haxe.EntryPoint.boot","D:\\HaxeToolKit\\haxe\\std/haxe/EntryPoint.hx",45,0x151801cf)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec11a2a53e5eef86_50_wakeup,"haxe.EntryPoint","wakeup",0xf2406907,"haxe.EntryPoint.wakeup","C:\\HaxeToolkit\\haxe\\std/haxe/EntryPoint.hx",50,0x22ebe610)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec11a2a53e5eef86_59_runInMainThread,"haxe.EntryPoint","runInMainThread",0xb452d98b,"haxe.EntryPoint.runInMainThread","C:\\HaxeToolkit\\haxe\\std/haxe/EntryPoint.hx",59,0x22ebe610)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec11a2a53e5eef86_87_addThread,"haxe.EntryPoint","addThread",0x82e27f43,"haxe.EntryPoint.addThread","C:\\HaxeToolkit\\haxe\\std/haxe/EntryPoint.hx",87,0x22ebe610)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec11a2a53e5eef86_79_addThread,"haxe.EntryPoint","addThread",0x82e27f43,"haxe.EntryPoint.addThread","C:\\HaxeToolkit\\haxe\\std/haxe/EntryPoint.hx",79,0x22ebe610)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec11a2a53e5eef86_71_addThread,"haxe.EntryPoint","addThread",0x82e27f43,"haxe.EntryPoint.addThread","C:\\HaxeToolkit\\haxe\\std/haxe/EntryPoint.hx",71,0x22ebe610)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec11a2a53e5eef86_126_run,"haxe.EntryPoint","run",0xf0324cc3,"haxe.EntryPoint.run","C:\\HaxeToolkit\\haxe\\std/haxe/EntryPoint.hx",126,0x22ebe610)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec11a2a53e5eef86_37_boot,"haxe.EntryPoint","boot",0x3138e7ba,"haxe.EntryPoint.boot","C:\\HaxeToolkit\\haxe\\std/haxe/EntryPoint.hx",37,0x22ebe610)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec11a2a53e5eef86_39_boot,"haxe.EntryPoint","boot",0x3138e7ba,"haxe.EntryPoint.boot","C:\\HaxeToolkit\\haxe\\std/haxe/EntryPoint.hx",39,0x22ebe610)
+HX_LOCAL_STACK_FRAME(_hx_pos_ec11a2a53e5eef86_45_boot,"haxe.EntryPoint","boot",0x3138e7ba,"haxe.EntryPoint.boot","C:\\HaxeToolkit\\haxe\\std/haxe/EntryPoint.hx",45,0x22ebe610)
 namespace haxe{
 
 void EntryPoint_obj::__construct() { }
@@ -52,14 +52,14 @@ bool EntryPoint_obj::_hx_isInstanceOf(int inClassId) {
 int EntryPoint_obj::threadCount;
 
 void EntryPoint_obj::wakeup(){
-            	HX_STACKFRAME(&_hx_pos_fa6e4aa4d4f516cb_50_wakeup)
+            	HX_STACKFRAME(&_hx_pos_ec11a2a53e5eef86_50_wakeup)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(EntryPoint_obj,wakeup,(void))
 
 void EntryPoint_obj::runInMainThread( ::Dynamic f){
-            	HX_STACKFRAME(&_hx_pos_fa6e4aa4d4f516cb_59_runInMainThread)
+            	HX_STACKFRAME(&_hx_pos_ec11a2a53e5eef86_59_runInMainThread)
 HXDLIN(  59)		::sys::thread::_Thread::Thread_Impl__obj::get_events(::haxe::EntryPoint_obj::mainThread)->run(f);
             	}
 
@@ -71,11 +71,11 @@ void EntryPoint_obj::addThread( ::Dynamic f){
             		void _hx_run(){
             			HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(0)
             			void _hx_run(){
-            				HX_STACKFRAME(&_hx_pos_fa6e4aa4d4f516cb_87_addThread)
+            				HX_STACKFRAME(&_hx_pos_ec11a2a53e5eef86_87_addThread)
             			}
             			HX_END_LOCAL_FUNC0((void))
 
-            			HX_STACKFRAME(&_hx_pos_fa6e4aa4d4f516cb_79_addThread)
+            			HX_STACKFRAME(&_hx_pos_ec11a2a53e5eef86_79_addThread)
 HXLINE(  80)			f();
 HXLINE(  81)			::haxe::EntryPoint_obj::mutex->acquire();
 HXLINE(  82)			::haxe::EntryPoint_obj::threadCount--;
@@ -87,7 +87,7 @@ HXLINE(  87)			::sys::thread::_Thread::Thread_Impl__obj::get_events(::haxe::Entr
             		}
             		HX_END_LOCAL_FUNC0((void))
 
-            	HX_STACKFRAME(&_hx_pos_fa6e4aa4d4f516cb_71_addThread)
+            	HX_STACKFRAME(&_hx_pos_ec11a2a53e5eef86_71_addThread)
 HXLINE(  73)		::haxe::EntryPoint_obj::mutex->acquire();
 HXLINE(  74)		::haxe::EntryPoint_obj::threadCount++;
 HXLINE(  75)		::haxe::EntryPoint_obj::mutex->release();
@@ -99,7 +99,7 @@ HXLINE(  79)		::sys::thread::_Thread::HaxeThread_obj::create( ::Dynamic(new _hx_
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(EntryPoint_obj,addThread,(void))
 
 void EntryPoint_obj::run(){
-            	HX_STACKFRAME(&_hx_pos_fa6e4aa4d4f516cb_126_run)
+            	HX_STACKFRAME(&_hx_pos_ec11a2a53e5eef86_126_run)
             	}
 
 
@@ -220,15 +220,15 @@ void EntryPoint_obj::__register()
 void EntryPoint_obj::__boot()
 {
 {
-            	HX_GC_STACKFRAME(&_hx_pos_fa6e4aa4d4f516cb_37_boot)
+            	HX_GC_STACKFRAME(&_hx_pos_ec11a2a53e5eef86_37_boot)
 HXDLIN(  37)		mutex =  ::sys::thread::Mutex_obj::__alloc( HX_CTX );
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_fa6e4aa4d4f516cb_39_boot)
+            	HX_STACKFRAME(&_hx_pos_ec11a2a53e5eef86_39_boot)
 HXDLIN(  39)		mainThread = ::sys::thread::_Thread::HaxeThread_obj::current();
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_fa6e4aa4d4f516cb_45_boot)
+            	HX_STACKFRAME(&_hx_pos_ec11a2a53e5eef86_45_boot)
 HXDLIN(  45)		threadCount = 0;
             	}
 }

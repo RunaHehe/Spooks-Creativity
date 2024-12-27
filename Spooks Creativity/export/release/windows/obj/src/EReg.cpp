@@ -17,24 +17,24 @@
 #include <haxe/ValueException.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_ecc001ea2f4d7498_28_new,"EReg","new",0x8b859e81,"EReg.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/EReg.hx",28,0xb6ea9ce8)
-HX_LOCAL_STACK_FRAME(_hx_pos_ecc001ea2f4d7498_36_match,"EReg","match",0x18fda1a6,"EReg.match","D:\\HaxeToolKit\\haxe\\std/cpp/_std/EReg.hx",36,0xb6ea9ce8)
-HX_LOCAL_STACK_FRAME(_hx_pos_ecc001ea2f4d7498_45_matched,"EReg","matched",0x8ce62f85,"EReg.matched","D:\\HaxeToolKit\\haxe\\std/cpp/_std/EReg.hx",45,0xb6ea9ce8)
-HX_LOCAL_STACK_FRAME(_hx_pos_ecc001ea2f4d7498_55_matchedRight,"EReg","matchedRight",0x6157ea17,"EReg.matchedRight","D:\\HaxeToolKit\\haxe\\std/cpp/_std/EReg.hx",55,0xb6ea9ce8)
-HX_LOCAL_STACK_FRAME(_hx_pos_ecc001ea2f4d7498_62_matchedPos,"EReg","matchedPos",0x7007a70f,"EReg.matchedPos","D:\\HaxeToolKit\\haxe\\std/cpp/_std/EReg.hx",62,0xb6ea9ce8)
-HX_LOCAL_STACK_FRAME(_hx_pos_ecc001ea2f4d7498_65_matchSub,"EReg","matchSub",0xbc75cb7a,"EReg.matchSub","D:\\HaxeToolKit\\haxe\\std/cpp/_std/EReg.hx",65,0xb6ea9ce8)
-HX_LOCAL_STACK_FRAME(_hx_pos_ecc001ea2f4d7498_74_split,"EReg","split",0x9749433b,"EReg.split","D:\\HaxeToolKit\\haxe\\std/cpp/_std/EReg.hx",74,0xb6ea9ce8)
-HX_LOCAL_STACK_FRAME(_hx_pos_ecc001ea2f4d7498_98_replace,"EReg","replace",0xae923ad5,"EReg.replace","D:\\HaxeToolKit\\haxe\\std/cpp/_std/EReg.hx",98,0xb6ea9ce8)
+HX_DEFINE_STACK_FRAME(_hx_pos_2cd113ad60e10261_28_new,"EReg","new",0x8b859e81,"EReg.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",28,0xa4513ee9)
+HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_36_match,"EReg","match",0x18fda1a6,"EReg.match","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",36,0xa4513ee9)
+HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_45_matched,"EReg","matched",0x8ce62f85,"EReg.matched","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",45,0xa4513ee9)
+HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_55_matchedRight,"EReg","matchedRight",0x6157ea17,"EReg.matchedRight","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",55,0xa4513ee9)
+HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_62_matchedPos,"EReg","matchedPos",0x7007a70f,"EReg.matchedPos","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",62,0xa4513ee9)
+HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_65_matchSub,"EReg","matchSub",0xbc75cb7a,"EReg.matchSub","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",65,0xa4513ee9)
+HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_74_split,"EReg","split",0x9749433b,"EReg.split","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",74,0xa4513ee9)
+HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_98_replace,"EReg","replace",0xae923ad5,"EReg.replace","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",98,0xa4513ee9)
 static const ::String _hx_array_data_2dda4a0f_11[] = {
 	HX_("$",24,00,00,00),
 };
 static const ::String _hx_array_data_2dda4a0f_12[] = {
 	HX_("$",24,00,00,00),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_ecc001ea2f4d7498_149_map,"EReg","map",0x8b84d8bd,"EReg.map","D:\\HaxeToolKit\\haxe\\std/cpp/_std/EReg.hx",149,0xb6ea9ce8)
+HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_149_map,"EReg","map",0x8b84d8bd,"EReg.map","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",149,0xa4513ee9)
 
 void EReg_obj::__construct(::String r,::String opt){
-            	HX_STACKFRAME(&_hx_pos_ecc001ea2f4d7498_28_new)
+            	HX_STACKFRAME(&_hx_pos_2cd113ad60e10261_28_new)
 HXLINE(  29)		::Array< ::String > a = opt.split(HX_("g",67,00,00,00));
 HXLINE(  30)		this->global = (a->length > 1);
 HXLINE(  31)		if (this->global) {
@@ -59,7 +59,7 @@ bool EReg_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 bool EReg_obj::match(::String s){
-            	HX_STACKFRAME(&_hx_pos_ecc001ea2f4d7498_36_match)
+            	HX_STACKFRAME(&_hx_pos_2cd113ad60e10261_36_match)
 HXLINE(  37)		bool p = _hx_regexp_match(this->r,s,0,s.length);
 HXLINE(  38)		if (p) {
 HXLINE(  39)			this->last = s;
@@ -74,7 +74,7 @@ HXLINE(  42)		return p;
 HX_DEFINE_DYNAMIC_FUNC1(EReg_obj,match,return )
 
 ::String EReg_obj::matched(int n){
-            	HX_STACKFRAME(&_hx_pos_ecc001ea2f4d7498_45_matched)
+            	HX_STACKFRAME(&_hx_pos_2cd113ad60e10261_45_matched)
 HXLINE(  46)		::String m = _hx_regexp_matched(this->r,n);
 HXLINE(  47)		return m;
             	}
@@ -83,7 +83,7 @@ HXLINE(  47)		return m;
 HX_DEFINE_DYNAMIC_FUNC1(EReg_obj,matched,return )
 
 ::String EReg_obj::matchedRight(){
-            	HX_STACKFRAME(&_hx_pos_ecc001ea2f4d7498_55_matchedRight)
+            	HX_STACKFRAME(&_hx_pos_2cd113ad60e10261_55_matchedRight)
 HXLINE(  56)		 ::Dynamic p = _hx_regexp_matched_pos(this->r,0);
 HXLINE(  57)		int sz = ( (int)((p->__Field(HX_("pos",94,5d,55,00),::hx::paccDynamic) + p->__Field(HX_("len",d5,4b,52,00),::hx::paccDynamic))) );
 HXLINE(  58)		return this->last.substr(sz,(this->last.length - sz));
@@ -93,7 +93,7 @@ HXLINE(  58)		return this->last.substr(sz,(this->last.length - sz));
 HX_DEFINE_DYNAMIC_FUNC0(EReg_obj,matchedRight,return )
 
  ::Dynamic EReg_obj::matchedPos(){
-            	HX_STACKFRAME(&_hx_pos_ecc001ea2f4d7498_62_matchedPos)
+            	HX_STACKFRAME(&_hx_pos_2cd113ad60e10261_62_matchedPos)
 HXDLIN(  62)		return _hx_regexp_matched_pos(this->r,0);
             	}
 
@@ -102,7 +102,7 @@ HX_DEFINE_DYNAMIC_FUNC0(EReg_obj,matchedPos,return )
 
 bool EReg_obj::matchSub(::String s,int pos,::hx::Null< int >  __o_len){
             		int len = __o_len.Default(-1);
-            	HX_STACKFRAME(&_hx_pos_ecc001ea2f4d7498_65_matchSub)
+            	HX_STACKFRAME(&_hx_pos_2cd113ad60e10261_65_matchSub)
 HXLINE(  66)		int p;
 HXDLIN(  66)		if ((len < 0)) {
 HXLINE(  66)			p = (s.length - pos);
@@ -124,7 +124,7 @@ HXLINE(  71)		return p1;
 HX_DEFINE_DYNAMIC_FUNC3(EReg_obj,matchSub,return )
 
 ::Array< ::String > EReg_obj::split(::String s){
-            	HX_STACKFRAME(&_hx_pos_ecc001ea2f4d7498_74_split)
+            	HX_STACKFRAME(&_hx_pos_2cd113ad60e10261_74_split)
 HXLINE(  75)		int pos = 0;
 HXLINE(  76)		int len = s.length;
 HXLINE(  77)		::Array< ::String > a = ::Array_obj< ::String >::__new();
@@ -163,7 +163,7 @@ HXLINE(  95)		return a;
 HX_DEFINE_DYNAMIC_FUNC1(EReg_obj,split,return )
 
 ::String EReg_obj::replace(::String s,::String by){
-            	HX_GC_STACKFRAME(&_hx_pos_ecc001ea2f4d7498_98_replace)
+            	HX_GC_STACKFRAME(&_hx_pos_2cd113ad60e10261_98_replace)
 HXLINE(  99)		 ::StringBuf b =  ::StringBuf_obj::__alloc( HX_CTX );
 HXLINE( 100)		int pos = 0;
 HXLINE( 101)		int len = s.length;
@@ -386,7 +386,7 @@ HXLINE( 146)		return b->toString();
 HX_DEFINE_DYNAMIC_FUNC2(EReg_obj,replace,return )
 
 ::String EReg_obj::map(::String s, ::Dynamic f){
-            	HX_GC_STACKFRAME(&_hx_pos_ecc001ea2f4d7498_149_map)
+            	HX_GC_STACKFRAME(&_hx_pos_2cd113ad60e10261_149_map)
 HXLINE( 150)		int offset = 0;
 HXLINE( 151)		 ::StringBuf buf =  ::StringBuf_obj::__alloc( HX_CTX );
 HXLINE( 152)		do {

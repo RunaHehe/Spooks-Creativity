@@ -5,7 +5,7 @@
 #include <_Xml/XmlType_Impl_.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_1f6466b8a516f67c_65_toString,"_Xml.XmlType_Impl_","toString",0x16b62c3f,"_Xml.XmlType_Impl_.toString","D:\\HaxeToolKit\\haxe\\std/Xml.hx",65,0x207c473f)
+HX_LOCAL_STACK_FRAME(_hx_pos_4054ab9d0941f0c1_65_toString,"_Xml.XmlType_Impl_","toString",0x16b62c3f,"_Xml.XmlType_Impl_.toString","C:\\HaxeToolkit\\haxe\\std/Xml.hx",65,0x6fe08e00)
 namespace _Xml{
 
 void XmlType_Impl__obj::__construct() { }
@@ -26,7 +26,7 @@ bool XmlType_Impl__obj::_hx_isInstanceOf(int inClassId) {
 }
 
 ::String XmlType_Impl__obj::toString(int this1){
-            	HX_STACKFRAME(&_hx_pos_1f6466b8a516f67c_65_toString)
+            	HX_STACKFRAME(&_hx_pos_4054ab9d0941f0c1_65_toString)
 HXDLIN(  65)		switch((int)(this1)){
             			case (int)0: {
 HXLINE(  66)				return HX_("Element",9c,d6,a5,d3);

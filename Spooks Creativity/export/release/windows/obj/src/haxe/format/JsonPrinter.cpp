@@ -36,8 +36,8 @@
 #include <haxe/format/JsonPrinter.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_7fa1091621f2925b_56_new,"haxe.format.JsonPrinter","new",0xeb68de75,"haxe.format.JsonPrinter.new","D:\\HaxeToolKit\\haxe\\std/haxe/format/JsonPrinter.hx",56,0x3c6b4a93)
-HX_LOCAL_STACK_FRAME(_hx_pos_7fa1091621f2925b_81_write,"haxe.format.JsonPrinter","write",0x755dea34,"haxe.format.JsonPrinter.write","D:\\HaxeToolKit\\haxe\\std/haxe/format/JsonPrinter.hx",81,0x3c6b4a93)
+HX_DEFINE_STACK_FRAME(_hx_pos_59aca28affdf7337_56_new,"haxe.format.JsonPrinter","new",0xeb68de75,"haxe.format.JsonPrinter.new","C:\\HaxeToolkit\\haxe\\std/haxe/format/JsonPrinter.hx",56,0x660ed7d4)
+HX_LOCAL_STACK_FRAME(_hx_pos_59aca28affdf7337_81_write,"haxe.format.JsonPrinter","write",0x755dea34,"haxe.format.JsonPrinter.write","C:\\HaxeToolkit\\haxe\\std/haxe/format/JsonPrinter.hx",81,0x660ed7d4)
 static const ::String _hx_array_data_f7b98003_4[] = {
 	HX_("null",87,9e,0e,49),
 };
@@ -47,9 +47,9 @@ static const ::String _hx_array_data_f7b98003_5[] = {
 static const ::String _hx_array_data_f7b98003_6[] = {
 	HX_("\"???\"",45,2f,74,bd),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_7fa1091621f2925b_158_classString,"haxe.format.JsonPrinter","classString",0x9219ba3e,"haxe.format.JsonPrinter.classString","D:\\HaxeToolKit\\haxe\\std/haxe/format/JsonPrinter.hx",158,0x3c6b4a93)
-HX_LOCAL_STACK_FRAME(_hx_pos_7fa1091621f2925b_165_fieldsString,"haxe.format.JsonPrinter","fieldsString",0x974bd375,"haxe.format.JsonPrinter.fieldsString","D:\\HaxeToolKit\\haxe\\std/haxe/format/JsonPrinter.hx",165,0x3c6b4a93)
-HX_LOCAL_STACK_FRAME(_hx_pos_7fa1091621f2925b_196_quote,"haxe.format.JsonPrinter","quote",0x02f6a091,"haxe.format.JsonPrinter.quote","D:\\HaxeToolKit\\haxe\\std/haxe/format/JsonPrinter.hx",196,0x3c6b4a93)
+HX_LOCAL_STACK_FRAME(_hx_pos_59aca28affdf7337_158_classString,"haxe.format.JsonPrinter","classString",0x9219ba3e,"haxe.format.JsonPrinter.classString","C:\\HaxeToolkit\\haxe\\std/haxe/format/JsonPrinter.hx",158,0x660ed7d4)
+HX_LOCAL_STACK_FRAME(_hx_pos_59aca28affdf7337_165_fieldsString,"haxe.format.JsonPrinter","fieldsString",0x974bd375,"haxe.format.JsonPrinter.fieldsString","C:\\HaxeToolkit\\haxe\\std/haxe/format/JsonPrinter.hx",165,0x660ed7d4)
+HX_LOCAL_STACK_FRAME(_hx_pos_59aca28affdf7337_196_quote,"haxe.format.JsonPrinter","quote",0x02f6a091,"haxe.format.JsonPrinter.quote","C:\\HaxeToolkit\\haxe\\std/haxe/format/JsonPrinter.hx",196,0x660ed7d4)
 static const ::String _hx_array_data_f7b98003_12[] = {
 	HX_("\\b",86,50,00,00),
 };
@@ -71,12 +71,12 @@ static const ::String _hx_array_data_f7b98003_17[] = {
 static const ::String _hx_array_data_f7b98003_18[] = {
 	HX_("\\\\",80,50,00,00),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_7fa1091621f2925b_44_print,"haxe.format.JsonPrinter","print",0x6d8fd582,"haxe.format.JsonPrinter.print","D:\\HaxeToolKit\\haxe\\std/haxe/format/JsonPrinter.hx",44,0x3c6b4a93)
+HX_LOCAL_STACK_FRAME(_hx_pos_59aca28affdf7337_44_print,"haxe.format.JsonPrinter","print",0x6d8fd582,"haxe.format.JsonPrinter.print","C:\\HaxeToolkit\\haxe\\std/haxe/format/JsonPrinter.hx",44,0x660ed7d4)
 namespace haxe{
 namespace format{
 
 void JsonPrinter_obj::__construct( ::Dynamic replacer,::String space){
-            	HX_GC_STACKFRAME(&_hx_pos_7fa1091621f2925b_56_new)
+            	HX_GC_STACKFRAME(&_hx_pos_59aca28affdf7337_56_new)
 HXLINE(  57)		this->replacer = replacer;
 HXLINE(  58)		this->indent = space;
 HXLINE(  59)		this->pretty = ::hx::IsNotNull( space );
@@ -100,7 +100,7 @@ bool JsonPrinter_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void JsonPrinter_obj::write( ::Dynamic k, ::Dynamic v){
-            	HX_STACKFRAME(&_hx_pos_7fa1091621f2925b_81_write)
+            	HX_STACKFRAME(&_hx_pos_59aca28affdf7337_81_write)
 HXLINE(  82)		if (::hx::IsNotNull( this->replacer )) {
 HXLINE(  83)			v = this->replacer(k,v);
             		}
@@ -370,7 +370,7 @@ HXLINE(  86)						_this19->b->push(HX_("\"???\"",45,2f,74,bd));
 HX_DEFINE_DYNAMIC_FUNC2(JsonPrinter_obj,write,(void))
 
 void JsonPrinter_obj::classString( ::Dynamic v){
-            	HX_STACKFRAME(&_hx_pos_7fa1091621f2925b_158_classString)
+            	HX_STACKFRAME(&_hx_pos_59aca28affdf7337_158_classString)
 HXDLIN( 158)		this->fieldsString(v,::Type_obj::getInstanceFields(::Type_obj::getClass(v)));
             	}
 
@@ -378,7 +378,7 @@ HXDLIN( 158)		this->fieldsString(v,::Type_obj::getInstanceFields(::Type_obj::get
 HX_DEFINE_DYNAMIC_FUNC1(JsonPrinter_obj,classString,(void))
 
 void JsonPrinter_obj::fieldsString( ::Dynamic v,::Array< ::String > fields){
-            	HX_STACKFRAME(&_hx_pos_7fa1091621f2925b_165_fieldsString)
+            	HX_STACKFRAME(&_hx_pos_59aca28affdf7337_165_fieldsString)
 HXLINE( 166)		{
 HXLINE( 166)			 ::StringBuf _this = this->buf;
 HXDLIN( 166)			{
@@ -505,7 +505,7 @@ HXDLIN( 193)				_this10->charBuf->push(125);
 HX_DEFINE_DYNAMIC_FUNC2(JsonPrinter_obj,fieldsString,(void))
 
 void JsonPrinter_obj::quote(::String s){
-            	HX_STACKFRAME(&_hx_pos_7fa1091621f2925b_196_quote)
+            	HX_STACKFRAME(&_hx_pos_59aca28affdf7337_196_quote)
 HXLINE( 203)		{
 HXLINE( 203)			 ::StringBuf _this = this->buf;
 HXDLIN( 203)			{
@@ -651,7 +651,7 @@ HXDLIN( 256)				_this10->charBuf->push(34);
 HX_DEFINE_DYNAMIC_FUNC1(JsonPrinter_obj,quote,(void))
 
 ::String JsonPrinter_obj::print( ::Dynamic o, ::Dynamic replacer,::String space){
-            	HX_GC_STACKFRAME(&_hx_pos_7fa1091621f2925b_44_print)
+            	HX_GC_STACKFRAME(&_hx_pos_59aca28affdf7337_44_print)
 HXLINE(  45)		 ::haxe::format::JsonPrinter printer =  ::haxe::format::JsonPrinter_obj::__alloc( HX_CTX ,replacer,space);
 HXLINE(  46)		printer->write(HX_("",00,00,00,00),o);
 HXLINE(  47)		return printer->buf->toString();

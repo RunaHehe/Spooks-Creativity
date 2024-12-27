@@ -11,14 +11,14 @@
 #include <haxe/exceptions/PosException.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_51b581d6bb09cac1_8_new,"haxe.exceptions.NotImplementedException","new",0xcfd1d5d0,"haxe.exceptions.NotImplementedException.new","D:\\HaxeToolKit\\haxe\\std/haxe/exceptions/NotImplementedException.hx",8,0x925cf318)
+HX_DEFINE_STACK_FRAME(_hx_pos_7d501cee631cd0cf_8_new,"haxe.exceptions.NotImplementedException","new",0xcfd1d5d0,"haxe.exceptions.NotImplementedException.new","C:\\HaxeToolkit\\haxe\\std/haxe/exceptions/NotImplementedException.hx",8,0xfc92d259)
 namespace haxe{
 namespace exceptions{
 
 void NotImplementedException_obj::__construct(::String __o_message, ::haxe::Exception previous, ::Dynamic pos){
             		::String message = __o_message;
             		if (::hx::IsNull(__o_message)) message = HX_("Not implemented",15,1e,32,34);
-            	HX_STACKFRAME(&_hx_pos_51b581d6bb09cac1_8_new)
+            	HX_STACKFRAME(&_hx_pos_7d501cee631cd0cf_8_new)
 HXDLIN(   8)		super::__construct(message,previous,pos);
             	}
 

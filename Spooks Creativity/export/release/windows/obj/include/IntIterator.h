@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_5309a2dc4027356f_45_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_31bbc4696cde81a4_45_new)
 HX_DECLARE_CLASS0(IntIterator)
 
 
@@ -37,7 +37,7 @@ class HXCPP_CLASS_ATTRIBUTES IntIterator_obj : public ::hx::Object
 			IntIterator_obj *__this = (IntIterator_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(IntIterator_obj), false, "IntIterator"));
 			*(void **)__this = IntIterator_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_5309a2dc4027356f_45_new)
+            	HX_STACKFRAME(&_hx_pos_31bbc4696cde81a4_45_new)
 HXLINE(  46)		( ( ::IntIterator)(__this) )->min = min;
 HXLINE(  47)		( ( ::IntIterator)(__this) )->max = max;
             	}

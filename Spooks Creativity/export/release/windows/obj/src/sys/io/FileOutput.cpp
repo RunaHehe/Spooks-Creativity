@@ -14,15 +14,15 @@
 #include <sys/io/FileOutput.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_e43764a38e2064a4_33_new,"sys.io.FileOutput","new",0x19e22a16,"sys.io.FileOutput.new","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/FileOutput.hx",33,0x95c8cb01)
-HX_LOCAL_STACK_FRAME(_hx_pos_e43764a38e2064a4_37_writeByte,"sys.io.FileOutput","writeByte",0x887099bd,"sys.io.FileOutput.writeByte","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/FileOutput.hx",37,0x95c8cb01)
-HX_LOCAL_STACK_FRAME(_hx_pos_e43764a38e2064a4_44_writeBytes,"sys.io.FileOutput","writeBytes",0xda15ec16,"sys.io.FileOutput.writeBytes","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/FileOutput.hx",44,0x95c8cb01)
-HX_LOCAL_STACK_FRAME(_hx_pos_e43764a38e2064a4_51_close,"sys.io.FileOutput","close",0xa583caee,"sys.io.FileOutput.close","D:\\HaxeToolKit\\haxe\\std/cpp/_std/sys/io/FileOutput.hx",51,0x95c8cb01)
+HX_DEFINE_STACK_FRAME(_hx_pos_c11bb132f291b243_33_new,"sys.io.FileOutput","new",0x19e22a16,"sys.io.FileOutput.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/FileOutput.hx",33,0x32123c60)
+HX_LOCAL_STACK_FRAME(_hx_pos_c11bb132f291b243_37_writeByte,"sys.io.FileOutput","writeByte",0x887099bd,"sys.io.FileOutput.writeByte","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/FileOutput.hx",37,0x32123c60)
+HX_LOCAL_STACK_FRAME(_hx_pos_c11bb132f291b243_44_writeBytes,"sys.io.FileOutput","writeBytes",0xda15ec16,"sys.io.FileOutput.writeBytes","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/FileOutput.hx",44,0x32123c60)
+HX_LOCAL_STACK_FRAME(_hx_pos_c11bb132f291b243_51_close,"sys.io.FileOutput","close",0xa583caee,"sys.io.FileOutput.close","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/io/FileOutput.hx",51,0x32123c60)
 namespace sys{
 namespace io{
 
 void FileOutput_obj::__construct( ::Dynamic f){
-            	HX_STACKFRAME(&_hx_pos_e43764a38e2064a4_33_new)
+            	HX_STACKFRAME(&_hx_pos_c11bb132f291b243_33_new)
 HXDLIN(  33)		this->_hx___f = f;
             	}
 
@@ -46,7 +46,7 @@ bool FileOutput_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void FileOutput_obj::writeByte(int c){
-            	HX_STACKFRAME(&_hx_pos_e43764a38e2064a4_37_writeByte)
+            	HX_STACKFRAME(&_hx_pos_c11bb132f291b243_37_writeByte)
 HXDLIN(  37)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
 HXLINE(  38)			_hx_std_file_write_char(this->_hx___f,c);
@@ -68,7 +68,7 @@ HXLINE(  40)				HX_STACK_DO_THROW(::haxe::io::Error_obj::Custom(e));
 
 
 int FileOutput_obj::writeBytes( ::haxe::io::Bytes s,int p,int l){
-            	HX_STACKFRAME(&_hx_pos_e43764a38e2064a4_44_writeBytes)
+            	HX_STACKFRAME(&_hx_pos_c11bb132f291b243_44_writeBytes)
 HXDLIN(  44)		try {
             			HX_STACK_CATCHABLE( ::Dynamic, 0);
 HXDLIN(  44)			return _hx_std_file_write(this->_hx___f,s->b,p,l);
@@ -91,7 +91,7 @@ HXDLIN(  44)		return 0;
 
 
 void FileOutput_obj::close(){
-            	HX_STACKFRAME(&_hx_pos_e43764a38e2064a4_51_close)
+            	HX_STACKFRAME(&_hx_pos_c11bb132f291b243_51_close)
 HXLINE(  52)		this->super::close();
 HXLINE(  53)		_hx_std_file_close(this->_hx___f);
             	}

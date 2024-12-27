@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_7678c83ae783762d_2093_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_twitter_ggsans_medium_ttf","new",0x18cedd89,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_twitter_ggsans_medium_ttf.new","ManifestResources.hx",2093,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_7678c83ae783762d_2111_new,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_twitter_ggsans_medium_ttf","new",0x18cedd89,"__ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_twitter_ggsans_medium_ttf.new","ManifestResources.hx",2111,0xf77aa668)
 
 void __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_twitter_ggsans_medium_ttf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_7678c83ae783762d_2093_new)
-HXDLIN(2093)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Twitter/ggsans-Medium.ttf",20,f1,99,92));
-HXDLIN(2093)		this->name = HX_("gg sans Medium",c2,5a,ae,17);
-HXDLIN(2093)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_7678c83ae783762d_2111_new)
+HXDLIN(2111)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("mods/An Ammar's Creativity/fonts/Twitter/ggsans-Medium.ttf",20,f1,99,92));
+HXDLIN(2111)		this->name = HX_("gg sans Medium",c2,5a,ae,17);
+HXDLIN(2111)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_twitter_ggsans_medium_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__mods_an_ammar_s_creativity_fonts_twitter_ggsans_medium_ttf_obj; }

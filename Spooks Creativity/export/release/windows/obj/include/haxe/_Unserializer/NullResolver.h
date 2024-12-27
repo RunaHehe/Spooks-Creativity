@@ -6,7 +6,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_7a4930425254cc89_522_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_f44547bc8ed35520_522_new)
 HX_DECLARE_CLASS2(haxe,_Unserializer,NullResolver)
 
 namespace haxe{
@@ -39,7 +39,7 @@ class HXCPP_CLASS_ATTRIBUTES NullResolver_obj : public ::hx::Object
 			NullResolver_obj *__this = (NullResolver_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(NullResolver_obj), false, "haxe._Unserializer.NullResolver"));
 			*(void **)__this = NullResolver_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_7a4930425254cc89_522_new)
+            	HX_STACKFRAME(&_hx_pos_f44547bc8ed35520_522_new)
             	}
 		
 			return __this;

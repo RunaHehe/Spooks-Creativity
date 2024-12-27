@@ -37,7 +37,7 @@ namespace hscript{
 
 ::hscript::Token Token_obj::TMeta(::String s)
 {
-	return ::hx::CreateEnum< Token_obj >(HX_("TMeta",39,31,db,90),15,1)->_hx_init(0,s);
+	return ::hx::CreateEnum< Token_obj >(HX_("TMeta",39,31,db,90),16,1)->_hx_init(0,s);
 }
 
 ::hscript::Token Token_obj::TOp(::String s)
@@ -51,10 +51,12 @@ namespace hscript{
 
 ::hscript::Token Token_obj::TPrepro(::String s)
 {
-	return ::hx::CreateEnum< Token_obj >(HX_("TPrepro",5e,e3,5d,88),16,1)->_hx_init(0,s);
+	return ::hx::CreateEnum< Token_obj >(HX_("TPrepro",5e,e3,5d,88),17,1)->_hx_init(0,s);
 }
 
 ::hscript::Token Token_obj::TQuestion;
+
+::hscript::Token Token_obj::TQuestionDot;
 
 ::hscript::Token Token_obj::TSemicolon;
 
@@ -76,6 +78,7 @@ bool Token_obj::__GetStatic(const ::String &inName, ::Dynamic &outValue, ::hx::P
 	if (inName==HX_("TPOpen",66,e7,95,da)) { outValue = Token_obj::TPOpen; return true; }
 	if (inName==HX_("TPrepro",5e,e3,5d,88)) { outValue = Token_obj::TPrepro_dyn(); return true; }
 	if (inName==HX_("TQuestion",9a,cb,98,37)) { outValue = Token_obj::TQuestion; return true; }
+	if (inName==HX_("TQuestionDot",0f,eb,b6,2b)) { outValue = Token_obj::TQuestionDot; return true; }
 	if (inName==HX_("TSemicolon",3d,4b,14,08)) { outValue = Token_obj::TSemicolon; return true; }
 	return super::__GetStatic(inName, outValue, inCallProp);
 }
@@ -84,23 +87,24 @@ HX_DEFINE_CREATE_ENUM(Token_obj)
 
 int Token_obj::__FindIndex(::String inName)
 {
-	if (inName==HX_("TBkClose",3b,33,d6,20)) return 12;
-	if (inName==HX_("TBkOpen",a7,09,06,d9)) return 11;
+	if (inName==HX_("TBkClose",3b,33,d6,20)) return 13;
+	if (inName==HX_("TBkOpen",a7,09,06,d9)) return 12;
 	if (inName==HX_("TBrClose",d4,b9,55,ed)) return 7;
 	if (inName==HX_("TBrOpen",2e,19,d4,e0)) return 6;
-	if (inName==HX_("TComma",e1,f0,84,73)) return 9;
+	if (inName==HX_("TComma",e1,f0,84,73)) return 10;
 	if (inName==HX_("TConst",6f,b8,85,73)) return 1;
 	if (inName==HX_("TDot",95,e6,b9,37)) return 8;
-	if (inName==HX_("TDoubleDot",04,85,f4,8f)) return 14;
+	if (inName==HX_("TDoubleDot",04,85,f4,8f)) return 15;
 	if (inName==HX_("TEof",c8,a8,ba,37)) return 0;
 	if (inName==HX_("TId",4f,fd,3f,00)) return 2;
-	if (inName==HX_("TMeta",39,31,db,90)) return 15;
+	if (inName==HX_("TMeta",39,31,db,90)) return 16;
 	if (inName==HX_("TOp",95,02,40,00)) return 3;
 	if (inName==HX_("TPClose",9c,5c,28,7d)) return 5;
 	if (inName==HX_("TPOpen",66,e7,95,da)) return 4;
-	if (inName==HX_("TPrepro",5e,e3,5d,88)) return 16;
-	if (inName==HX_("TQuestion",9a,cb,98,37)) return 13;
-	if (inName==HX_("TSemicolon",3d,4b,14,08)) return 10;
+	if (inName==HX_("TPrepro",5e,e3,5d,88)) return 17;
+	if (inName==HX_("TQuestion",9a,cb,98,37)) return 14;
+	if (inName==HX_("TQuestionDot",0f,eb,b6,2b)) return 9;
+	if (inName==HX_("TSemicolon",3d,4b,14,08)) return 11;
 	return super::__FindIndex(inName);
 }
 
@@ -132,6 +136,7 @@ int Token_obj::__FindArgCount(::String inName)
 	if (inName==HX_("TPOpen",66,e7,95,da)) return 0;
 	if (inName==HX_("TPrepro",5e,e3,5d,88)) return 1;
 	if (inName==HX_("TQuestion",9a,cb,98,37)) return 0;
+	if (inName==HX_("TQuestionDot",0f,eb,b6,2b)) return 0;
 	if (inName==HX_("TSemicolon",3d,4b,14,08)) return 0;
 	return super::__FindArgCount(inName);
 }
@@ -154,6 +159,7 @@ int Token_obj::__FindArgCount(::String inName)
 	if (inName==HX_("TPOpen",66,e7,95,da)) return TPOpen;
 	if (inName==HX_("TPrepro",5e,e3,5d,88)) return TPrepro_dyn();
 	if (inName==HX_("TQuestion",9a,cb,98,37)) return TQuestion;
+	if (inName==HX_("TQuestionDot",0f,eb,b6,2b)) return TQuestionDot;
 	if (inName==HX_("TSemicolon",3d,4b,14,08)) return TSemicolon;
 	return super::__Field(inName,inCallProp);
 }
@@ -168,6 +174,7 @@ static ::String Token_obj_sStaticFields[] = {
 	HX_("TBrOpen",2e,19,d4,e0),
 	HX_("TBrClose",d4,b9,55,ed),
 	HX_("TDot",95,e6,b9,37),
+	HX_("TQuestionDot",0f,eb,b6,2b),
 	HX_("TComma",e1,f0,84,73),
 	HX_("TSemicolon",3d,4b,14,08),
 	HX_("TBkOpen",a7,09,06,d9),
@@ -201,18 +208,19 @@ void Token_obj::__register()
 
 void Token_obj::__boot()
 {
-TBkClose = ::hx::CreateConstEnum< Token_obj >(HX_("TBkClose",3b,33,d6,20),12);
-TBkOpen = ::hx::CreateConstEnum< Token_obj >(HX_("TBkOpen",a7,09,06,d9),11);
+TBkClose = ::hx::CreateConstEnum< Token_obj >(HX_("TBkClose",3b,33,d6,20),13);
+TBkOpen = ::hx::CreateConstEnum< Token_obj >(HX_("TBkOpen",a7,09,06,d9),12);
 TBrClose = ::hx::CreateConstEnum< Token_obj >(HX_("TBrClose",d4,b9,55,ed),7);
 TBrOpen = ::hx::CreateConstEnum< Token_obj >(HX_("TBrOpen",2e,19,d4,e0),6);
-TComma = ::hx::CreateConstEnum< Token_obj >(HX_("TComma",e1,f0,84,73),9);
+TComma = ::hx::CreateConstEnum< Token_obj >(HX_("TComma",e1,f0,84,73),10);
 TDot = ::hx::CreateConstEnum< Token_obj >(HX_("TDot",95,e6,b9,37),8);
-TDoubleDot = ::hx::CreateConstEnum< Token_obj >(HX_("TDoubleDot",04,85,f4,8f),14);
+TDoubleDot = ::hx::CreateConstEnum< Token_obj >(HX_("TDoubleDot",04,85,f4,8f),15);
 TEof = ::hx::CreateConstEnum< Token_obj >(HX_("TEof",c8,a8,ba,37),0);
 TPClose = ::hx::CreateConstEnum< Token_obj >(HX_("TPClose",9c,5c,28,7d),5);
 TPOpen = ::hx::CreateConstEnum< Token_obj >(HX_("TPOpen",66,e7,95,da),4);
-TQuestion = ::hx::CreateConstEnum< Token_obj >(HX_("TQuestion",9a,cb,98,37),13);
-TSemicolon = ::hx::CreateConstEnum< Token_obj >(HX_("TSemicolon",3d,4b,14,08),10);
+TQuestion = ::hx::CreateConstEnum< Token_obj >(HX_("TQuestion",9a,cb,98,37),14);
+TQuestionDot = ::hx::CreateConstEnum< Token_obj >(HX_("TQuestionDot",0f,eb,b6,2b),9);
+TSemicolon = ::hx::CreateConstEnum< Token_obj >(HX_("TSemicolon",3d,4b,14,08),11);
 }
 
 

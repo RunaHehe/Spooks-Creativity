@@ -14,13 +14,13 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_33f909ace065ecaf_2099_new,"__ASSET__OPENFL__assets_fonts_discord_uni_sans_heavy_otf","new",0xb163e968,"__ASSET__OPENFL__assets_fonts_discord_uni_sans_heavy_otf.new","ManifestResources.hx",2099,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_33f909ace065ecaf_2117_new,"__ASSET__OPENFL__assets_fonts_discord_uni_sans_heavy_otf","new",0xb163e968,"__ASSET__OPENFL__assets_fonts_discord_uni_sans_heavy_otf.new","ManifestResources.hx",2117,0xf77aa668)
 
 void __ASSET__OPENFL__assets_fonts_discord_uni_sans_heavy_otf_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_33f909ace065ecaf_2099_new)
-HXDLIN(2099)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Discord/uni-sans-heavy.otf",d7,7f,4c,b0));
-HXDLIN(2099)		this->name = HX_("Uni Sans Heavy CAPS",37,d6,bf,fe);
-HXDLIN(2099)		super::__construct(null());
+            	HX_STACKFRAME(&_hx_pos_33f909ace065ecaf_2117_new)
+HXDLIN(2117)		this->_hx___fontPath = (::ManifestResources_obj::rootPath + HX_("assets/fonts/Discord/uni-sans-heavy.otf",d7,7f,4c,b0));
+HXDLIN(2117)		this->name = HX_("Uni Sans Heavy CAPS",37,d6,bf,fe);
+HXDLIN(2117)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__assets_fonts_discord_uni_sans_heavy_otf_obj::__CreateEmpty() { return new __ASSET__OPENFL__assets_fonts_discord_uni_sans_heavy_otf_obj; }
