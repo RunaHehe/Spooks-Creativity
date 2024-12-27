@@ -1,4 +1,5 @@
 local membersSprites = {}
+local folder = "twitter/"
 
 pbr = 1
 
@@ -6,6 +7,9 @@ function onCreatePost()
     healthIconPOS = getProperty("iconP1.y")
 
     luaDebugMode = true
+    
+    package.path = getProperty("modulePath") .. ";" .. package.path
+    SpriteUtil = require("SpriteUtil")
 
     makeLuaSprite("blackFade", nil, 0, 0)
     makeGraphic("blackFade", 1300, 800, "000000")
@@ -55,6 +59,10 @@ function onCreatePost()
     setProperty('opponent.visible', false)
     setProperty('opponentText.visible', false)
 
+    SpriteUtil.makeSprite({tag="miss", image = folder.."miss", cam = "camOther"})
+    screenCenter("miss")
+    setProperty("miss.alpha", 0)
+
     membersSprites = getProperty("membersSprites")
 end
 
@@ -99,6 +107,13 @@ function onStepHit()
     if curStep == 248 then
         cancelTween("hi blackFade")
         doTweenAlpha("goodbye blackFade", "blackFade", 0, 5, "expoOut")
+    end
+
+    if curStep >= 1152 and curStep < 1408 then
+        if curStep % 16 == 0 or curStep % 16 == 18 or curStep % 16 == 12 then
+            setProperty('miss.alpha', (curStep >= 896 and 0.6 or (Mechanic and 1 or 0.6)))
+            doTweenAlpha('miss', 'miss', 0, 0.5, 'quadOut')
+        end
     end
 
     if curStep == 256 then
