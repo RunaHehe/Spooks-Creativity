@@ -11,7 +11,7 @@ using StringTools;
 class DiscordMembers extends FlxSprite
 {
     public var daMembers:Array<String> =
-    ["An Ammar", "Annoyer", "Spook", "Mint", "Tutu", "Blue Evil Spook", "Dave", "Lumi", "Bellita", "Andro", "Sharky", "Silly", "Smartty", "Brickman", "Floppa", "ImBakeyy", "Dr Ludwig", "Thatoneguy", "Vision", "Jamki", "Professor Mod"];
+    ["An Ammar", "Annoyer", "Spook", "Mint", "Tutu", "Blue Evil Spook", "Dave", "Lumi", "Bellita", "Andro", "Sharky", "Silly", "Smartty", "Brickman", "Floppa", "ImBakeyy", "Dr Ludwig", "Thatoneguy", "Vision", "Jamki", "Professor Mod", "Mask"];
     public var members:Array<AttachedSprite> = [];
     public var categories:Array<AttachedSprite> = [];
 
