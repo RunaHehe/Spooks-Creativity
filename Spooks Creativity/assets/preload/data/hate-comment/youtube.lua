@@ -17,6 +17,17 @@ shaderE = false
 
 tweenGlitch = false
 
+textParticle = {}
+txtparticleRandom = 0 -- ?/100
+partTexts = {
+   "BAD",
+   "DISLIKE",
+   "REPORTED",
+   "CLICKBAIT",
+   "NOOB"
+}
+
+
 function onCreate()
     mechanicOption = DifficultyOption == "normal" or DifficultyOption == "hard"
 
@@ -80,10 +91,10 @@ function onCreatePost()
     setObjectCamera("youtubeBroke", "other")
 
     setProperty("dad.healthIcon", "hater")
-    setProperty("boyfriend.healthIcon", "annoyer")
+    setProperty("boyfriend.healthIcon", "spook")
     runHaxeCode([[
         game.iconP2.changeIcon("icon-hater");
-        game.iconP1.changeIcon("icon-annoyer");
+        game.iconP1.changeIcon("icon-spook");
     ]])
     setHealthBarColors("eba71e", "912B29")
 
@@ -152,6 +163,37 @@ function opponentNoteHit(id, direction, noteType, isSustainNote)
 
     end
 end
+
+function createTextParticle(text)
+
+    local tag = "particleTxt" .. #textParticle
+    makeLuaText(tag, text, 300, getProperty("redGlow.x"), getProperty("redGlow.y"))
+    addLuaText(tag, true)
+    setTextSize(tag, 50)
+    setTextBorder(tag, 1, "8f0a00") 
+    setTextColor(tag, "8f0a00")
+    setObjectCamera(tag, "hud")
+    setScrollFactor(tag, 0 ,0)
+    setTextAlignment(tag, "center")
+    setObjectOrder(getObjectOrder("redGlow") + 1)
+ 
+    setProperty(tag .. ".x" , getRandomFloat(getProperty("redGlow.x") - 100, getProperty("redGlow.x") + getProperty("redGlow.width") - 50))
+    setProperty(tag .. ".y" , getProperty("redGlow.y") + getProperty("redGlow.height") - 10)
+ 
+    table.insert( textParticle, tag )
+ 
+    local duration = getRandomFloat(1, 5)
+    doTweenAlpha(tag, tag, 0, duration)
+    doTweenX(tag .. "X", tag, getProperty(tag .. ".x") + getRandomFloat(-20, 20), duration)
+    doTweenY(tag .. "Y", tag, getProperty(tag .. ".y") - getRandomFloat(100, 250), duration)
+    doTweenAngle(tag .. "A", tag, getRandomFloat(-10, 10), duration)
+ end
+
+function onStepHit()
+    if getRandomBool(txtparticleRandom) and mechanic then 
+        createTextParticle(partTexts[getRandomInt(1, #partTexts)])
+     end
+    end
 
 
 function onStepEvent(curStep)
@@ -241,7 +283,7 @@ function onStepEvent(curStep)
         runHaxeCode([[
         game.iconP2.changeIcon("icon-hacker");
         ]])
-        setHealthBarColors("fc2e23", "60f542")
+        setHealthBarColors("fc2e23", "912B29")
 
         setBlendMode("redGlow", "normal")
         setBlendMode("glowBeat", "normal")
@@ -290,6 +332,16 @@ function onBeatHit()
     if glitchBeat then
         setShaderFloat("lensEffect", "intensity", -0.5)
     end
+
+    if curBeat == 2144 then
+        txtparticleRandom = 50
+    end
+
+    if curBeat == 2208 then 
+        changeSkinLow(true)
+        doLoad(3)
+        txtparticleRandom = 80
+     end
 end
 
 function pixelEvent()

@@ -801,7 +801,7 @@ function onStepEvent(curStep)
         runHaxeCode([[
             game.iconP2.changeIcon(game.dad.healthIcon);
 
-            game.healthBar.createFilledBar(0xFFFF0000,0xFF00FF00);
+            game.healthBar.createFilledBar(0x912B2900,0xFF00FF00);
 		    game.healthBar.updateBar();
         ]])
     end
@@ -986,7 +986,7 @@ function onStepEvent(curStep)
         for i, v in pairs(hpStuff) do
             setProperty(v..'.color', getColorFromHex("FFD0D0"))
         end
-        setProperty('boyfriendGroup.color', getColorFromHex('FFD0D0'))
+        setProperty('boyfriendGroup.color', getColorFromHex('912B29'))
         setProperty('dadGroup.color', getColorFromHex('FFD0D0'))
         setProperty('googleBox.color', getColorFromHex('FFD0D0'))
 

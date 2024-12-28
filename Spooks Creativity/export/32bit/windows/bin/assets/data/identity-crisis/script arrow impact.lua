@@ -31,18 +31,34 @@ function goodNoteHit(id, noteData, noteType, isSustainNote)
 	end]]
 
 	-- just up (no directions) make + for down
-	if noteData == 0 then
-		noteTweenY('hitL', 4, defaultPlayerStrumY0 - 20, 0.1, 'sineIn')
-		runTimer('returnL', 0.1, 1)
-	elseif noteData == 1 then
-		noteTweenY('hitD', 5, defaultPlayerStrumY1 - 20, 0.1, 'sineIn')
-		runTimer('returnD', 0.1, 1)
-	elseif noteData == 2 then
-		noteTweenY('hitU', 6, defaultPlayerStrumY2 - 20, 0.1, 'sineIn')
-		runTimer('returnU', 0.1, 1)
-	elseif noteData == 3 then
-		noteTweenY('hitR', 7, defaultPlayerStrumY3 - 20, 0.1, 'sineIn')
-		runTimer('returnR', 0.1, 1)
+	if not downscroll then
+		if noteData == 0 then
+			noteTweenY('hitL', 4, defaultPlayerStrumY0 - 20, 0.1, 'sineIn')
+			runTimer('returnL', 0.1, 1)
+		elseif noteData == 1 then
+			noteTweenY('hitD', 5, defaultPlayerStrumY1 - 20, 0.1, 'sineIn')
+			runTimer('returnD', 0.1, 1)
+		elseif noteData == 2 then
+			noteTweenY('hitU', 6, defaultPlayerStrumY2 - 20, 0.1, 'sineIn')
+			runTimer('returnU', 0.1, 1)
+		elseif noteData == 3 then
+			noteTweenY('hitR', 7, defaultPlayerStrumY3 - 20, 0.1, 'sineIn')
+			runTimer('returnR', 0.1, 1)
+		end
+	else
+		if noteData == 0 then
+			noteTweenY('hitL', 4, defaultPlayerStrumY0 + 20, 0.1, 'sineIn')
+			runTimer('returnL', 0.1, 1)
+		elseif noteData == 1 then
+			noteTweenY('hitD', 5, defaultPlayerStrumY1 + 20, 0.1, 'sineIn')
+			runTimer('returnD', 0.1, 1)
+		elseif noteData == 2 then
+			noteTweenY('hitU', 6, defaultPlayerStrumY2 + 20, 0.1, 'sineIn')
+			runTimer('returnU', 0.1, 1)
+		elseif noteData == 3 then
+			noteTweenY('hitR', 7, defaultPlayerStrumY3 + 20, 0.1, 'sineIn')
+			runTimer('returnR', 0.1, 1)
+		end
 	end
 
 	-- just up (no directions) make + for down [constant, will go offscreen if allowed]
@@ -94,18 +110,34 @@ function opponentNoteHit(id, noteData, noteType, isSustainNote)
 	end]]
 
 	-- just up (no directions) make + for down
-	if noteData == 0 then
-		noteTweenY('hitLOP', 0, defaultOpponentStrumY0 - 20, 0.1, 'sineIn')
-		runTimer('returnLOP', 0.1, 1)
-	elseif noteData == 1 then
-		noteTweenY('hitDOP', 1, defaultOpponentStrumY1 - 20, 0.1, 'sineIn')
-		runTimer('returnDOP', 0.1, 1)
-	elseif noteData == 2 then
-		noteTweenY('hitUOP', 2, defaultOpponentStrumY2 - 20, 0.1, 'sineIn')
-		runTimer('returnUOP', 0.1, 1)
-	elseif noteData == 3 then
-		noteTweenY('hitROP', 3, defaultOpponentStrumY3 - 20, 0.1, 'sineIn')
-		runTimer('returnROP', 0.1, 1)
+	if not downscroll then
+		if noteData == 0 then
+			noteTweenY('hitLOP', 0, defaultOpponentStrumY0 - 20, 0.1, 'sineIn')
+			runTimer('returnLOP', 0.1, 1)
+		elseif noteData == 1 then
+			noteTweenY('hitDOP', 1, defaultOpponentStrumY1 - 20, 0.1, 'sineIn')
+			runTimer('returnDOP', 0.1, 1)
+		elseif noteData == 2 then
+			noteTweenY('hitUOP', 2, defaultOpponentStrumY2 - 20, 0.1, 'sineIn')
+			runTimer('returnUOP', 0.1, 1)
+		elseif noteData == 3 then
+			noteTweenY('hitROP', 3, defaultOpponentStrumY3 - 20, 0.1, 'sineIn')
+			runTimer('returnROP', 0.1, 1)
+		end
+	else
+		if noteData == 0 then
+			noteTweenY('hitLOP', 0, defaultOpponentStrumY0 + 20, 0.1, 'sineIn')
+			runTimer('returnLOP', 0.1, 1)
+		elseif noteData == 1 then
+			noteTweenY('hitDOP', 1, defaultOpponentStrumY1 + 20, 0.1, 'sineIn')
+			runTimer('returnDOP', 0.1, 1)
+		elseif noteData == 2 then
+			noteTweenY('hitUOP', 2, defaultOpponentStrumY2 + 20, 0.1, 'sineIn')
+			runTimer('returnUOP', 0.1, 1)
+		elseif noteData == 3 then
+			noteTweenY('hitROP', 3, defaultOpponentStrumY3 + 20, 0.1, 'sineIn')
+			runTimer('returnROP', 0.1, 1)
+		end
 	end
 
 	-- just up (no directions) make + for down [constant, will go offscreen if allowed]

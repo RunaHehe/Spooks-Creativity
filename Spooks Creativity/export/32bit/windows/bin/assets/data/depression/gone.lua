@@ -206,7 +206,7 @@ function onCreatePost()
         setShaderFloat("opponent", "iTime", 0)
     end
 
-    setGlobalFromScript("stages/discordStage", "opponentTyping", "(Who is Typing...)")
+    setGlobalFromScript("stages/discordStage", "opponentTyping", "(Delta is Typing...)")
 
     setProperty("dad.healthIcon", "depress")
     setProperty("boyfriend.healthIcon", "annoyer")

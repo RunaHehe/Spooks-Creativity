@@ -167,7 +167,7 @@ function onCreatePost()
    runHaxeCode([[
        game.iconP1.changeIcon("icon-spook");
    ]])
-   setHealthBarColors("FFFFFF", "60f542")
+   setHealthBarColors("FFFFFF", "912B29")
    setProperty("iconP2.visible", false)
 
    if HardMode then

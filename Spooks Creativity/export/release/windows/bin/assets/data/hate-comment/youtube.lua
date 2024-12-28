@@ -91,10 +91,10 @@ function onCreatePost()
     setObjectCamera("youtubeBroke", "other")
 
     setProperty("dad.healthIcon", "hater")
-    setProperty("boyfriend.healthIcon", "annoyer")
+    setProperty("boyfriend.healthIcon", "spook")
     runHaxeCode([[
         game.iconP2.changeIcon("icon-hater");
-        game.iconP1.changeIcon("icon-annoyer");
+        game.iconP1.changeIcon("icon-spook");
     ]])
     setHealthBarColors("eba71e", "912B29")
 
@@ -283,7 +283,7 @@ function onStepEvent(curStep)
         runHaxeCode([[
         game.iconP2.changeIcon("icon-hacker");
         ]])
-        setHealthBarColors("fc2e23", "60f542")
+        setHealthBarColors("fc2e23", "912B29")
 
         setBlendMode("redGlow", "normal")
         setBlendMode("glowBeat", "normal")

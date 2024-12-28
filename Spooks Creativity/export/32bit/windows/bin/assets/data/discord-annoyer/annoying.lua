@@ -1,30 +1,7 @@
 local scaleX, scaleY = nil, nil
-function onCreatePost()
-    luaDebugMode = true
-    MechanicOption = not EasyMode and Mechanic
-    shadersOption = getPropertyFromClass("ClientPrefs", "shaders")
-
-    songSpeed = getProperty('songSpeed')
-
-    setProperty('spawnTime', 3500)
-
-    if shadersOption then 
-        initLuaShader("Glitching")
-        initLuaShader("OldTV")
-        makeLuaSprite("oldTvEffect", "", 0, 0)
-        setSpriteShader("oldTvEffect", "OldTV")
-    end
-
-    precacheImage("ChannelsList")
-    precacheImage("ChannelsList-Light")
-    precacheImage("EveryPing")
-    precacheImage("chars/Ammar")
-
-    loadGraphic("opponent", "chars/Ammar")
-    loadGraphic("player", "chars/Annoying User")
-
-    setGraphicSize("player", 649 * 0.625, 146 * 0.625)
-    setGraphicSize("opponent", 649 * 0.625, 146 * 0.625)
+function onCreate()
+    scaleX = getPropertyFromClass("flixel.FlxG", "scaleMode.scale.x")
+    scaleY = getPropertyFromClass("flixel.FlxG", "scaleMode.scale.y")
 end
 
 local colorSingMode = false
@@ -70,14 +47,14 @@ function onCreatePost()
 
     callScript("stages/discordStage", "setObjectCameraCustom", {"blackFade", "camDiscord"})
 
-    setProperty("dad.healthIcon", "ammar"..(CuteMode and 'cute' or ''))
+    setProperty("dad.healthIcon", "spook")
     setProperty("boyfriend.healthIcon", "annoyer")
     runHaxeCode([[
-        game.iconP2.changeIcon("icon-ammar]]..(CuteMode and 'cute' or '')..[[");
+        game.iconP2.changeIcon("icon-spook");
         game.iconP1.changeIcon("icon-annoyer");
       ]])
       
-     setHealthBarColors("60f542", "ffc400")
+     setHealthBarColors("8D2A28", "ffc400")
 
      membersSprites = getProperty("membersSprites")
 
