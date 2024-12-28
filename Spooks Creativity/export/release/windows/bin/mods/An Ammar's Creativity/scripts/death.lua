@@ -175,7 +175,7 @@ function customGameOver(loading)
                     typeText("deadText", "Ammar just got hacked :(", 1.5)
                     doTweenAlpha("deathMee", "deathMee", 1, 1.5)
                 else
-                    typeText("deadText", "Annoying User just left the server", 1.5)
+                    typeText("deadText", "Vision was just banned L BOZO !!!", 1.5)
                     doTweenAlpha("deathMee", "deathMee", 1, 1.5)
                 end
             end)
@@ -270,7 +270,7 @@ function onGameOverConfirm(isNotGoingToMenu)
                 setTextString("deadText", "Ammar got an actual human to help!")
             else
                 cancelTimer("deadTypeText")
-                setTextString("deadText", "Annoying User joined the server")
+                setTextString("deadText", "Vision bribed his way back in")
             end
         end
         if  getPropertyFromClass("PlayState", "curStage") == "youtubeStage" or getPropertyFromClass("PlayState", "curStage") == "twitterStage" or daSongName == 'big-problem'  then
