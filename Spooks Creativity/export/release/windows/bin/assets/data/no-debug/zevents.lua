@@ -57,6 +57,7 @@ function onBeatHit()
         end
         if HardMode and curBeat == 68 then
             debugPrint('im gonna sleep now lol')
+            playSound('gonelol', 1)
         end
     end
 
@@ -152,5 +153,50 @@ end
 function onMoveCamera(character)
     if curBeat >= 100 then
         setGlobalFromScript("data/no-debug/zscriptee", "thingLerp", 0)
+    end
+end
+
+function onStepHit()
+
+    if curStep == 1015 and HardMode then
+        playSound('meow', 1)
+    end
+
+    if curStep == 1040 then
+        if HardMode then
+            setProperty('dadGroup.visible', true)
+            setProperty('dad.visible', true)
+            debugPrint('i have to say im impressed')
+        end
+    end
+
+    if curStep == 1063 then
+        if HardMode then
+            debugPrint('i honestly didnt expect you to get this far')
+        end
+    end
+
+    if curStep == 1089 then
+        if HardMode then
+            debugPrint('if you manage to make it past this though')
+        end
+    end
+
+    if curStep == 1110 then
+        if HardMode then
+            debugPrint('nothing can stop you.')
+        end
+    end
+
+    if curStep == 1160 then
+        if HardMode then
+            debugPrint('ok bye lol')
+        end
+    end
+
+    if curStep == 1168 and HardMode then
+        setProperty('dadGroup.visible', false)
+        setProperty('dad.visible', false)
+        playSound('gonelol', 1)
     end
 end
