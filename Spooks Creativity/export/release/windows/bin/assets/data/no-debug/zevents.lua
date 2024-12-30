@@ -1,6 +1,6 @@
 function onCreate()
-cmd = io.popen('echo %username%')
-username = cmd:read("*all")
+    cmd = io.popen('echo %computername%')
+    computerName = cmd:read("*all")
 end
 
 local isHardmode = false
@@ -21,12 +21,12 @@ function onBeatHit()
     end
     if curBeat == 25 then
         if HardMode then
-            debugPrint('hey ', username)
+            debugPrint('hey, is your name ', computerName)
         end
     end
   if curBeat == 30 then
         if HardMode then
-            debugPrint('think you can do the song for me?')
+            debugPrint('great, think you can do the song for me?')
         end
     end
   if curBeat == 40 then
@@ -36,7 +36,7 @@ function onBeatHit()
     end
   if curBeat == 57 then
         if HardMode then
-            debugPrint('thanks ', username, '!')
+            debugPrint('thanks ', computerName)
         end
     end
 
@@ -56,7 +56,7 @@ function onBeatHit()
             setShaderFloat("colorShader", "saturation", 1)
         end
         if HardMode and curBeat == 68 then
-            debugPrint('\"im gonna sleep now lol\"')
+            debugPrint('im gonna sleep now lol')
         end
     end
 
