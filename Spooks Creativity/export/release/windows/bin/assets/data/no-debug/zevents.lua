@@ -170,10 +170,8 @@ function onStepHit()
         end
     end
 
-    if curStep == 1063 then
-        if HardMode then
+    if curStep == 1063 and HardMode then
             debugPrint('i honestly didnt expect you to get this far')
-        end
     end
 
     if curStep == 1089 then
@@ -182,10 +180,8 @@ function onStepHit()
         end
     end
 
-    if curStep == 1110 then
-        if HardMode then
-            debugPrint('nothing can stop you.')
-        end
+    if curStep == 1110 and HardMode then
+        debugPrint('nothing can stop you.')
     end
 
     if curStep == 1160 then
