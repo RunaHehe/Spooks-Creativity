@@ -27,13 +27,20 @@ function onUpdatePost(elapsed)
 end
 
 function moveWindow(v1,v2,v3,v4,v5)
-    callScript("scripts/Window Modchart Tool", "move", {v1, v2, v3, v4, v5})
+    callScript("scripts/Window Modchart Tool", "moveW", {v1, v2, v3, v4, v5})
 end
 function setWindow(v1,v2)
-    callScript("scripts/Window Modchart Tool", "set", {v1, v2})
+    callScript("scripts/Window Modchart Tool", "setW", {v1, v2})
 end
 function resetWindow(v1)
-    callScript("scripts/Window Modchart Tool", "reset", {v1})
+    callScript("scripts/Window Modchart Tool", "resetW", {v1})
+end
+
+function onDestroy()
+    setPropertyFromClass("openfl.Lib", "application.window.x", OGx)
+    setPropertyFromClass("openfl.Lib", "application.window.y", OGy)
+    setPropertyFromClass("openfl.Lib", "application.window.width", OGwidth)
+    setPropertyFromClass("openfl.Lib", "application.window.height", OGheight)
 end
 
 [---------------------------------------------------------------------------------------------------------------------------------]
@@ -69,6 +76,11 @@ local OGy = nil
 local OGwidth = nil
 local OGheight = nil
 
+local defaultName == "Spook's Creativity V1"
+
+local prevWidth = 0;
+local prevHeight = 0;
+
 function onCreate()
     OGx = getPropertyFromClass("openfl.Lib", "application.window.x")
     OGy = getPropertyFromClass("openfl.Lib", "application.window.y")
@@ -78,6 +90,9 @@ function onCreate()
     makeLuaSprite("theModchartTool", nil, OGx, OGy)
     setProperty("theModchartTool.scale.x", OGwidth)
     setProperty("theModchartTool.scale.y", OGheight)
+
+    prevWidth = OGwidth;
+    prevHeight = OGheight;
 end
 
 function setW(xy, pos)
@@ -130,12 +145,20 @@ function onDestroy()
     setPropertyFromClass("openfl.Lib", "application.window.y", OGy)
     setPropertyFromClass("openfl.Lib", "application.window.width", OGwidth)
     setPropertyFromClass("openfl.Lib", "application.window.height", OGheight)
+    setPropertyFromClass("openfl.Lib", "application.window.borderless", false)
+    setPropertyFromClass("openfl.Lib", "application.window.title", defaultName)
 end
 
 function onUpdatePost()
     fullscreen = getPropertyFromClass("openfl.Lib", "application.window.fullscreen")
     setPropertyFromClass("openfl.Lib", "application.window.x", getProperty("theModchartTool.x"))
     setPropertyFromClass("openfl.Lib", "application.window.y", getProperty("theModchartTool.y"))
-    setPropertyFromClass("openfl.Lib", "application.window.width", getProperty("theModchartTool.scale.x"))
-    setPropertyFromClass("openfl.Lib", "application.window.height", getProperty("theModchartTool.scale.y"))
+    if prevWidth ~= getProperty("theModchartTool.scale.x") then
+        setPropertyFromClass("openfl.Lib", "application.window.width", getProperty("theModchartTool.scale.x"))
+        prevWidth = getProperty("theModchartTool.scale.x")
+    end
+    if prevHeight ~= getProperty("theModchartTool.scale.y") then
+        setPropertyFromClass("openfl.Lib", "application.window.height", getProperty("theModchartTool.scale.y"))
+        prevHeight = getProperty("theModchartTool.scale.y")
+    end
 end

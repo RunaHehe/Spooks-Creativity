@@ -2,702 +2,12 @@
 	"song": {
 		"events": [
 			[
-				12800,
+				0,
 				[
 					[
-						"Empty Event",
-						"bgglow",
-						"1"
-					],
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				13600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				14400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				15200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				16000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				16800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				17600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				18400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				19200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				20000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				20800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				21600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				22400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				23200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				24000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				24800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				25600,
-				[
-					[
-						"Empty Event",
-						"bgglow",
-						"0"
-					]
-				]
-			],
-			[
-				64000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				64800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				65600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				66400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				67200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				68000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				68800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				69600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				69900,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				70200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				70400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				71200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				72000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				72800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				73600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				74400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				75200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				76000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				76300,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				76600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				76800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					],
-					[
-						"Empty Event",
-						"bgglow",
-						"1"
-					]
-				]
-			],
-			[
-				77600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				78400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				79200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				80000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				80800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				81600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				82400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				83200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				84000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				84800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				85600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				86400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				87200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				88000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				88800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				89600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				90400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				91200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				92000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				92800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				93600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				94400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				95200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				96000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				96800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				97600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				98400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				99200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				100000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				100800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				101600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
+						"windowName",
+						"Spook's Creativity: Big Problem",
+						""
 					]
 				]
 			],
@@ -705,339 +15,59 @@
 				102400,
 				[
 					[
-						"Empty Event",
-						"bgglow",
-						"0"
+						"windowName",
+						"Oh No",
+						""
 					]
 				]
 			],
 			[
-				182400,
+				128000,
 				[
 					[
-						"Empty Event",
-						"bgglow",
-						"1"
-					],
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					],
-					[
-						"Change Character",
-						"dad",
-						"Hacker"
+						"windowName",
+						"The End.",
+						""
 					]
 				]
 			],
 			[
-				183200,
+				130100,
 				[
 					[
-						"Empty Event",
-						"bigbeat",
-						"1"
+						"windowName",
+						"The End..",
+						""
 					]
 				]
 			],
 			[
-				184000,
+				130400,
 				[
 					[
-						"Empty Event",
-						"bigbeat",
-						"1"
+						"windowName",
+						"The End...",
+						""
 					]
 				]
 			],
 			[
-				184800,
+				130800,
 				[
 					[
-						"Empty Event",
-						"bigbeat",
-						"1"
+						"windowName",
+						"The End...?",
+						""
 					]
 				]
 			],
 			[
-				185600,
+				131200,
 				[
 					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				186400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				187200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				188000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				188800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				189600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				190400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				191200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				192000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				192800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				193600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				194400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				195200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				196000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				196800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				197600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				198400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				199200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				200000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				200800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				201600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				202400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				203200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				204000,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				204800,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				205600,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				206400,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
-					]
-				]
-			],
-			[
-				207200,
-				[
-					[
-						"Empty Event",
-						"bigbeat",
-						"1"
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 2)",
+						""
 					]
 				]
 			],
@@ -1045,9 +75,1454 @@
 				208000,
 				[
 					[
-						"Empty Event",
-						"bgglow",
-						"0"
+						"windowName",
+						"NOTAGAIN",
+						""
+					]
+				]
+			],
+			[
+				233600,
+				[
+					[
+						"windowName",
+						"The End.",
+						""
+					]
+				]
+			],
+			[
+				236800,
+				[
+					[
+						"windowName",
+						"?",
+						""
+					]
+				]
+			],
+			[
+				237200,
+				[
+					[
+						"windowName",
+						"??",
+						""
+					]
+				]
+			],
+			[
+				237600,
+				[
+					[
+						"windowName",
+						"???",
+						""
+					]
+				]
+			],
+			[
+				238400,
+				[
+					[
+						"windowName",
+						"S",
+						""
+					]
+				]
+			],
+			[
+				238700,
+				[
+					[
+						"windowName",
+						"Sp",
+						""
+					]
+				]
+			],
+			[
+				239000,
+				[
+					[
+						"windowName",
+						"Spo",
+						""
+					]
+				]
+			],
+			[
+				239300,
+				[
+					[
+						"windowName",
+						"Spoo",
+						""
+					]
+				]
+			],
+			[
+				239600,
+				[
+					[
+						"windowName",
+						"Spook",
+						""
+					]
+				]
+			],
+			[
+				239900,
+				[
+					[
+						"windowName",
+						"Spook'",
+						""
+					]
+				]
+			],
+			[
+				240200,
+				[
+					[
+						"windowName",
+						"Spook's",
+						""
+					]
+				]
+			],
+			[
+				240500,
+				[
+					[
+						"windowName",
+						"Spook's ",
+						""
+					]
+				]
+			],
+			[
+				240800,
+				[
+					[
+						"windowName",
+						"Spook's C",
+						""
+					]
+				]
+			],
+			[
+				241100,
+				[
+					[
+						"windowName",
+						"Spook's Cr",
+						""
+					]
+				]
+			],
+			[
+				241400,
+				[
+					[
+						"windowName",
+						"Spook's Cre",
+						""
+					]
+				]
+			],
+			[
+				241700,
+				[
+					[
+						"windowName",
+						"Spook's Crea",
+						""
+					]
+				]
+			],
+			[
+				242000,
+				[
+					[
+						"windowName",
+						"Spook's Creat",
+						""
+					]
+				]
+			],
+			[
+				242300,
+				[
+					[
+						"windowName",
+						"Spook's Creati",
+						""
+					]
+				]
+			],
+			[
+				242600,
+				[
+					[
+						"windowName",
+						"Spook's Creativ",
+						""
+					]
+				]
+			],
+			[
+				242900,
+				[
+					[
+						"windowName",
+						"Spook's Creativi",
+						""
+					]
+				]
+			],
+			[
+				243200,
+				[
+					[
+						"windowName",
+						"Spook's Creativit",
+						""
+					]
+				]
+			],
+			[
+				243500,
+				[
+					[
+						"windowName",
+						"Spook's Creativity",
+						""
+					]
+				]
+			],
+			[
+				243800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity:",
+						""
+					]
+				]
+			],
+			[
+				244100,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: ",
+						""
+					]
+				]
+			],
+			[
+				244400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: B",
+						""
+					]
+				]
+			],
+			[
+				244700,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Bi",
+						""
+					]
+				]
+			],
+			[
+				245000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big",
+						""
+					]
+				]
+			],
+			[
+				245300,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big ",
+						""
+					]
+				]
+			],
+			[
+				245600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big P",
+						""
+					]
+				]
+			],
+			[
+				245900,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Pr",
+						""
+					]
+				]
+			],
+			[
+				246200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Pro",
+						""
+					]
+				]
+			],
+			[
+				246500,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Prob",
+						""
+					]
+				]
+			],
+			[
+				246800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Probl",
+						""
+					]
+				]
+			],
+			[
+				247100,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Proble",
+						""
+					]
+				]
+			],
+			[
+				247400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem",
+						""
+					]
+				]
+			],
+			[
+				247700,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem:",
+						""
+					]
+				]
+			],
+			[
+				248000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: ",
+						""
+					]
+				]
+			],
+			[
+				248300,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (",
+						""
+					]
+				]
+			],
+			[
+				248600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (P",
+						""
+					]
+				]
+			],
+			[
+				248900,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PH",
+						""
+					]
+				]
+			],
+			[
+				249200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHA",
+						""
+					]
+				]
+			],
+			[
+				249500,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHAS",
+						""
+					]
+				]
+			],
+			[
+				249800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE",
+						""
+					]
+				]
+			],
+			[
+				250100,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE ",
+						""
+					]
+				]
+			],
+			[
+				250400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 3",
+						""
+					]
+				]
+			],
+			[
+				250700,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 3)",
+						""
+					]
+				]
+			],
+			[
+				251000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 3)!",
+						""
+					]
+				]
+			],
+			[
+				251400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 3)",
+						""
+					]
+				]
+			],
+			[
+				251800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 3)!",
+						""
+					]
+				]
+			],
+			[
+				252200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 3)",
+						""
+					]
+				]
+			],
+			[
+				275200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 3",
+						""
+					]
+				]
+			],
+			[
+				275800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE",
+						""
+					]
+				]
+			],
+			[
+				276400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHAS",
+						""
+					]
+				]
+			],
+			[
+				277000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHA",
+						""
+					]
+				]
+			],
+			[
+				277600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PH",
+						""
+					]
+				]
+			],
+			[
+				278200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (P",
+						""
+					]
+				]
+			],
+			[
+				278800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (",
+						""
+					]
+				]
+			],
+			[
+				279400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: ",
+						""
+					]
+				]
+			],
+			[
+				288000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (",
+						""
+					]
+				]
+			],
+			[
+				288200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (P",
+						""
+					]
+				]
+			],
+			[
+				288400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PH",
+						""
+					]
+				]
+			],
+			[
+				288600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHA",
+						""
+					]
+				]
+			],
+			[
+				288800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHAS",
+						""
+					]
+				]
+			],
+			[
+				289000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE",
+						""
+					]
+				]
+			],
+			[
+				289200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE ",
+						""
+					]
+				]
+			],
+			[
+				289400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 4",
+						""
+					]
+				]
+			],
+			[
+				289600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 4)",
+						""
+					]
+				]
+			],
+			[
+				289800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 4)!",
+						""
+					]
+				]
+			],
+			[
+				290000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 4)",
+						""
+					]
+				]
+			],
+			[
+				290200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 4)!",
+						""
+					]
+				]
+			],
+			[
+				290400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem: (PHASE 4)",
+						""
+					]
+				]
+			],
+			[
+				339200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) ",
+						""
+					]
+				]
+			],
+			[
+				339300,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) D",
+						""
+					]
+				]
+			],
+			[
+				339400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DO",
+						""
+					]
+				]
+			],
+			[
+				339500,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON",
+						""
+					]
+				]
+			],
+			[
+				339600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'",
+						""
+					]
+				]
+			],
+			[
+				339700,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T",
+						""
+					]
+				]
+			],
+			[
+				339800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T ",
+						""
+					]
+				]
+			],
+			[
+				339900,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T G",
+						""
+					]
+				]
+			],
+			[
+				340000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GI",
+						""
+					]
+				]
+			],
+			[
+				340100,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIV",
+						""
+					]
+				]
+			],
+			[
+				340200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE",
+						""
+					]
+				]
+			],
+			[
+				340300,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE ",
+						""
+					]
+				]
+			],
+			[
+				340400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE U",
+						""
+					]
+				]
+			],
+			[
+				340500,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE UP",
+						""
+					]
+				]
+			],
+			[
+				340600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE UP!",
+						""
+					]
+				]
+			],
+			[
+				340700,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE UP",
+						""
+					]
+				]
+			],
+			[
+				340800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE UP!",
+						""
+					]
+				]
+			],
+			[
+				340900,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE UP",
+						""
+					]
+				]
+			],
+			[
+				341000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE UP!",
+						""
+					]
+				]
+			],
+			[
+				341100,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE UP",
+						""
+					]
+				]
+			],
+			[
+				341200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE UP!",
+						""
+					]
+				]
+			],
+			[
+				341300,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE UP",
+						""
+					]
+				]
+			],
+			[
+				341400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE UP!",
+						""
+					]
+				]
+			],
+			[
+				341500,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE UP!!",
+						""
+					]
+				]
+			],
+			[
+				341600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem (PHASE 4) DON'T GIVE UP!!!",
+						""
+					]
+				]
+			],
+			[
+				377600,
+				[
+					[
+						"windowName",
+						"The End.",
+						""
+					]
+				]
+			],
+			[
+				390400,
+				[
+					[
+						"windowName",
+						"The End",
+						""
+					]
+				]
+			],
+			[
+				390700,
+				[
+					[
+						"windowName",
+						"The En",
+						""
+					]
+				]
+			],
+			[
+				391000,
+				[
+					[
+						"windowName",
+						"The E",
+						""
+					]
+				]
+			],
+			[
+				391300,
+				[
+					[
+						"windowName",
+						"The ",
+						""
+					]
+				]
+			],
+			[
+				391600,
+				[
+					[
+						"windowName",
+						"The",
+						""
+					]
+				]
+			],
+			[
+				391900,
+				[
+					[
+						"windowName",
+						"Th",
+						""
+					]
+				]
+			],
+			[
+				392200,
+				[
+					[
+						"windowName",
+						"T",
+						""
+					]
+				]
+			],
+			[
+				392500,
+				[
+					[
+						"windowName",
+						"",
+						""
+					]
+				]
+			],
+			[
+				393600,
+				[
+					[
+						"windowName",
+						"S",
+						""
+					]
+				]
+			],
+			[
+				393800,
+				[
+					[
+						"windowName",
+						"Sp",
+						""
+					]
+				]
+			],
+			[
+				394000,
+				[
+					[
+						"windowName",
+						"Spo",
+						""
+					]
+				]
+			],
+			[
+				394200,
+				[
+					[
+						"windowName",
+						"Spoo",
+						""
+					]
+				]
+			],
+			[
+				394400,
+				[
+					[
+						"windowName",
+						"Spook",
+						""
+					]
+				]
+			],
+			[
+				394600,
+				[
+					[
+						"windowName",
+						"Spook'",
+						""
+					]
+				]
+			],
+			[
+				394800,
+				[
+					[
+						"windowName",
+						"Spook's",
+						""
+					]
+				]
+			],
+			[
+				395000,
+				[
+					[
+						"windowName",
+						"Spook's ",
+						""
+					]
+				]
+			],
+			[
+				395200,
+				[
+					[
+						"windowName",
+						"Spook's C",
+						""
+					]
+				]
+			],
+			[
+				395400,
+				[
+					[
+						"windowName",
+						"Spook's Cr",
+						""
+					]
+				]
+			],
+			[
+				395600,
+				[
+					[
+						"windowName",
+						"Spook's Cre",
+						""
+					]
+				]
+			],
+			[
+				395800,
+				[
+					[
+						"windowName",
+						"Spook's Crea",
+						""
+					]
+				]
+			],
+			[
+				396000,
+				[
+					[
+						"windowName",
+						"Spook's Creat",
+						""
+					]
+				]
+			],
+			[
+				396200,
+				[
+					[
+						"windowName",
+						"Spook's Creati",
+						""
+					]
+				]
+			],
+			[
+				396400,
+				[
+					[
+						"windowName",
+						"Spook's Creativ",
+						""
+					]
+				]
+			],
+			[
+				396600,
+				[
+					[
+						"windowName",
+						"Spook's Creativi",
+						""
+					]
+				]
+			],
+			[
+				396800,
+				[
+					[
+						"windowName",
+						"Spook's Creativit",
+						""
+					]
+				]
+			],
+			[
+				397000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity",
+						""
+					]
+				]
+			],
+			[
+				397200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity:",
+						""
+					]
+				]
+			],
+			[
+				397400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: ",
+						""
+					]
+				]
+			],
+			[
+				397600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: B",
+						""
+					]
+				]
+			],
+			[
+				397800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Bi",
+						""
+					]
+				]
+			],
+			[
+				398000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big",
+						""
+					]
+				]
+			],
+			[
+				398400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big P",
+						""
+					]
+				]
+			],
+			[
+				398600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Pr",
+						""
+					]
+				]
+			],
+			[
+				398800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Pro",
+						""
+					]
+				]
+			],
+			[
+				399000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Prob",
+						""
+					]
+				]
+			],
+			[
+				399200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Probl",
+						""
+					]
+				]
+			],
+			[
+				399400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Proble",
+						""
+					]
+				]
+			],
+			[
+				399600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem",
+						""
+					]
+				]
+			],
+			[
+				399800,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem,",
+						""
+					]
+				]
+			],
+			[
+				400200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem, T",
+						""
+					]
+				]
+			],
+			[
+				400400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem, Th",
+						""
+					]
+				]
+			],
+			[
+				400600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem, The",
+						""
+					]
+				]
+			],
+			[
+				401000,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem, The E",
+						""
+					]
+				]
+			],
+			[
+				401200,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem, The En",
+						""
+					]
+				]
+			],
+			[
+				401400,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem, The End",
+						""
+					]
+				]
+			],
+			[
+				401600,
+				[
+					[
+						"windowName",
+						"Spook's Creativity: Big Problem, The End.",
+						""
+					]
+				]
+			],
+			[
+				428800,
+				[
+					[
+						"windowName",
+						" ",
+						""
+					],
+					[
+						"Borderless",
+						"",
+						""
 					]
 				]
 			]
