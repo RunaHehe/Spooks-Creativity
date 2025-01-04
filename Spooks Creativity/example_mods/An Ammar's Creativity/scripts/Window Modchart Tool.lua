@@ -76,8 +76,6 @@ local OGy = nil
 local OGwidth = nil
 local OGheight = nil
 
-local defaultName == "Spook's Creativity V1"
-
 local prevWidth = 0;
 local prevHeight = 0;
 
@@ -146,7 +144,6 @@ function onDestroy()
     setPropertyFromClass("openfl.Lib", "application.window.width", OGwidth)
     setPropertyFromClass("openfl.Lib", "application.window.height", OGheight)
     setPropertyFromClass("openfl.Lib", "application.window.borderless", false)
-    setPropertyFromClass("openfl.Lib", "application.window.title", defaultName)
 end
 
 function onUpdatePost()
