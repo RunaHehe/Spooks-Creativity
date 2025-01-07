@@ -9,6 +9,7 @@ lerna-debug.log*
 
 # whatever the fuck this is dude >:3
 export/
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
