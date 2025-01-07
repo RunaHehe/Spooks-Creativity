@@ -1,5 +1,0 @@
-hxcpp=4.3.0
-hxcpp_api_level=430
-hxcpp_smart_strings=1
-no_console=1
-hxcpp=C:\HaxeToolkit\haxe\lib\hxcpp/git/
