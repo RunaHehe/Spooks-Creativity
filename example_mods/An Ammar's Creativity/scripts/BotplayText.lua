@@ -1,3 +1,3 @@
 function onCreatePost()
-     setTextString('botplayTxt', 'Spook\'s Creativity Demo')
+     setTextString('botplayTxt', 'Cheater!!! 3:<')
 end

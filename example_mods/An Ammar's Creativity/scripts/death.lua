@@ -151,6 +151,8 @@ function customGameOver(loading)
 
     local isIdentityCrisis = songName:lower() == "identity-crisis"
 
+    local isNoteNova = songName:lower() == "note-nova"
+
     if getPropertyFromClass("PlayState", "curStage") == "discordStage" or getPropertyFromClass("PlayState", "curStage") == "demonbg" then
         if loading then
             setPropertyFromClass("GameOverSubstate", "deathSoundName", "gameover/discordVoiceLeft")
@@ -173,6 +175,14 @@ function customGameOver(loading)
             Timer.startTimer(0.5, function(l, ll)
                 if isIdentityCrisis then
                     typeText("deadText", "Ammar just got hacked :(", 1.5)
+                    doTweenAlpha("deathMee", "deathMee", 1, 1.5)
+                else
+                    typeText("deadText", "Vision was just banned L BOZO !!!", 1.5)
+                    doTweenAlpha("deathMee", "deathMee", 1, 1.5)
+                end
+
+                if isNoteNova then
+                    typeText("deadText", "Ammar had enough and went offline.", 1.5)
                     doTweenAlpha("deathMee", "deathMee", 1, 1.5)
                 else
                     typeText("deadText", "Vision was just banned L BOZO !!!", 1.5)
@@ -251,6 +261,7 @@ end
 function onGameOverConfirm(isNotGoingToMenu)
     
     local isIdentityCrisis = songName:lower() == "identity-crisis"
+    local isNoteNova = songName:lower() == "note-nova"
     
     if isNotGoingToMenu then
         runHaxeCode([[
@@ -268,6 +279,13 @@ function onGameOverConfirm(isNotGoingToMenu)
             if isIdentityCrisis then
                 cancelTimer("deadTypeText")
                 setTextString("deadText", "Ammar got an actual human to help!")
+            else
+                cancelTimer("deadTypeText")
+                setTextString("deadText", "Vision bribed his way back in")
+            end
+            if isNoteNova then 
+                cancelTimer("deadTypeText")
+                setTextString("deadText", "Ammar decided to try one more time.")
             else
                 cancelTimer("deadTypeText")
                 setTextString("deadText", "Vision bribed his way back in")
