@@ -32,14 +32,14 @@ end
 
 -- i love being freaky- i mean spying- i mean cool
 function onPausePost()
-    changePresence("Game Paused! "..symbol.." "..songName, "Player has paused the game, maybe they'll return or quit?")
+    changePresence("Game Paused! "..symbol.." "..songName, "The player has paused the game! Maybe they'll be back? :3")
 end
 function onFocusPost()
-    changePresence("Game Paused! "..symbol.." "..songName, "Player has paused the game, maybe they'll return or quit?")
+    changePresence("Game Paused! "..symbol.." "..songName, "The player has paused the game! Maybe they'll be back? :3")
 end
 function onFocusLostPost()
     if not inGameOver then
-        changePresence("Game Lost Focus! "..symbol.." "..songName, "Game lost focus! The game is paused until the player is back!")
+        changePresence("Game Lost Focus! "..symbol.." "..songName, "The plyaer tabbed out! Hopefully they tab back in..")
     end
 end
 function onGameOver()
