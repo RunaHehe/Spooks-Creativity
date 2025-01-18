@@ -63,8 +63,8 @@ local googleSingOppo = false
 local googleTimer = 0
 
 local colorsGoogle = {
-    "78D3F2", "8F6EEB", "467BB7", "808AAD",
-    "C4D3F2", "8FA2EB", "997BB7", "80B5AD" -- flash
+    "008744", "0057E7", "D62D20", "FFA700",
+    "00cf68", "2b7bff", "ed4a3e", "ffc24f" -- flash
  }
 
 ----------
@@ -1405,4 +1405,8 @@ function shaderCoordFix()
         FlxG.signals.gameResized.add(fixShaderCoordFix);
         fixShaderCoordFix();
     ]])
+end
+
+function onDestroy()
+    setPropertyFromClass("openfl.Lib", "application.window.title", "FNF: Spook's Creativity V1" )
 end
