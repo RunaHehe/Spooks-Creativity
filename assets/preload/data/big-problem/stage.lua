@@ -389,7 +389,7 @@ function onCreatePost()
         setScrollFactor(v, 0.1, 0.1)
         setProperty(v..'.y', getProperty(v..'.y') - 50)
         setProperty(v..'.x', getProperty(v..'.x') - 20)
-        setProperty(v..'.color', getColorFromHex("A0A0A0"))
+        setProperty(v..'.color', getColorFromHex("E0EBCD"))
         
         setObjectOrder(v, getObjectOrder("ground")-5)
     end
@@ -733,7 +733,7 @@ function onStepEvent(curStep)
         runHaxeCode([[
             game.iconP2.changeIcon(TW.healthIcon);
 
-            game.healthBar.createFilledBar(0xFF9900ff,0xFF00FF00);
+            game.healthBar.createFilledBar(0xFF9900ff,0xFF912B29);
 		    game.healthBar.updateBar();
         ]])
     end
@@ -801,7 +801,7 @@ function onStepEvent(curStep)
         runHaxeCode([[
             game.iconP2.changeIcon(game.dad.healthIcon);
 
-            game.healthBar.createFilledBar(0x912B2900,0xFF00FF00);
+            game.healthBar.createFilledBar(0xFFE0EBCD,0xFF912B29);
 		    game.healthBar.updateBar();
         ]])
     end

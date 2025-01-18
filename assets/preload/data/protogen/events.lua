@@ -642,8 +642,11 @@ function onEvent(eventName, value1, value2)
         if value1 == 'dad' then
             setProperty('dad.flipX', false)
 
-            setProperty('dad.y', -80)
+            setProperty('dad.y', -370)
             setProperty('dad.x', 1150 - 200)
+        end
+        if value2 == 'dark-protogen-mic' then
+            setProperty('dad.y', -80)
         end
     end
 end

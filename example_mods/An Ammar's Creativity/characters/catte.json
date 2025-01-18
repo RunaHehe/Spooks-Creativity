@@ -1,81 +1,81 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				20,
 				-110
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "lookleft"
+			"fps": 24,
+			"name": "lookleft",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				20,
 				-120
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "lookdown"
+			"fps": 24,
+			"name": "lookdown",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				20,
 				-100
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "lookup"
+			"fps": 24,
+			"name": "lookup",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				40,
 				-110
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "lookright"
+			"fps": 24,
+			"name": "lookright",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-110
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "danceRight",
-			"indices": [],
-			"name": "lookdancer"
+			"fps": 24,
+			"name": "lookdancer",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-110
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "danceLeft",
-			"indices": [],
-			"name": "lookdancel"
+			"fps": 24,
+			"name": "lookdancel",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-110
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "cute",
-			"indices": [],
-			"name": "lookcute"
+			"fps": 24,
+			"name": "lookcute",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -87,9 +87,9 @@
 	"healthicon": "looky",
 	"flip_x": false,
 	"healthbar_colors": [
-		255,
-		196,
-		92
+		0,
+		99,
+		255
 	],
 	"camera_position": [
 		240,

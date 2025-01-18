@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				60,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "mleft"
+			"fps": 24,
+			"name": "mleft",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				10,
 				-10
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "mdown"
+			"fps": 24,
+			"name": "mdown",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				10,
 				10
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "mup"
+			"fps": 24,
+			"name": "mup",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-20,
 				10
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "mright"
+			"fps": 24,
+			"name": "mright",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "midle"
+			"fps": 24,
+			"name": "midle",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -65,9 +65,9 @@
 	"healthicon": "mint",
 	"flip_x": true,
 	"healthbar_colors": [
-		255,
-		196,
-		92
+		204,
+		102,
+		204
 	],
 	"camera_position": [
 		20,

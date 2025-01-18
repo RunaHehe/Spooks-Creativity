@@ -8,7 +8,7 @@
 			"indices": [],
 			"fps": 24,
 			"anim": "singUP",
-			"loop": true,
+			"loop": false,
 			"name": "Up"
 		},
 		{
@@ -19,7 +19,7 @@
 			"indices": [],
 			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": true,
+			"loop": false,
 			"name": "Right"
 		},
 		{
@@ -30,7 +30,7 @@
 			"indices": [],
 			"fps": 24,
 			"anim": "singDOWN",
-			"loop": true,
+			"loop": false,
 			"name": "Down"
 		},
 		{
@@ -41,7 +41,7 @@
 			"indices": [],
 			"fps": 24,
 			"anim": "singLEFT",
-			"loop": true,
+			"loop": false,
 			"name": "Left"
 		},
 		{
@@ -67,14 +67,14 @@
 			"name": "Hey"
 		}
 	],
-	"no_antialiasing": false,
+	"no_antialiasing": true,
 	"image": "characters/ammarfurry",
 	"position": [
 		-240,
 		-160
 	],
 	"healthicon": "ammarcute",
-	"flip_x": true,
+	"flip_x": false,
 	"healthbar_colors": [
 		0,
 		255,
@@ -85,5 +85,5 @@
 		300
 	],
 	"sing_duration": 6,
-	"scale": 0.8
+	"scale": 0.7
 }

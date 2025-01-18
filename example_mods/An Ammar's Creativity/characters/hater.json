@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				86,
 				4
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "duckleft",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "duckleft"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				17,
 				-12
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "duckdown",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "duckdown"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				14,
 				37
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "duckup",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "duckup"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-5,
 				10
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "duckright",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "duckright"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": true,
 			"fps": 24,
-			"name": "duckidle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "duckidle"
 		}
 	],
 	"no_antialiasing": true,
@@ -65,9 +65,9 @@
 	"healthicon": "pan",
 	"flip_x": false,
 	"healthbar_colors": [
-		155,
-		195,
-		175
+		224,
+		235,
+		205
 	],
 	"camera_position": [
 		0,
