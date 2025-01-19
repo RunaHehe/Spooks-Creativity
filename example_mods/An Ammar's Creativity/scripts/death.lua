@@ -124,7 +124,7 @@ function customGameOver(loading)
         if loading then
             precacheImage("kaijuparadise/NoobDeath")
         else
-            scaleObject("NoobDeath", 0.3, 0.3)
+            scaleObject("NoobDeath", 0.01, 0.01)
             makeAnimatedLuaSprite("deathChar", 'kaijuparadise/NoobDeath', getProperty('boyfriend.x'), getProperty('boyfriend.y'))
             addLuaSprite('deathChar')
             addAnimationByPrefix("deathChar", "death", "NoobDeath", 12, false)
@@ -134,6 +134,8 @@ function customGameOver(loading)
             setProperty('boyfriend.alpha', 0)
             setProperty('gameOverBG.alpha', 1)
             setProperty('deathChar.y', getProperty('deathChar.y') - 20)
+            setProperty("deathChar.scale.x", 0.55)
+            setProperty("deathChar.scale.y", 0.55)
             debugPrint('dead')
 
             SpriteUtil.makeText({
@@ -183,9 +185,6 @@ function customGameOver(loading)
 
                 if isNoteNova then
                     typeText("deadText", "Ammar had enough and went offline.", 1.5)
-                    doTweenAlpha("deathMee", "deathMee", 1, 1.5)
-                else
-                    typeText("deadText", "Vision was just banned L BOZO !!!", 1.5)
                     doTweenAlpha("deathMee", "deathMee", 1, 1.5)
                 end
             end)
@@ -286,9 +285,6 @@ function onGameOverConfirm(isNotGoingToMenu)
             if isNoteNova then 
                 cancelTimer("deadTypeText")
                 setTextString("deadText", "Ammar decided to try one more time.")
-            else
-                cancelTimer("deadTypeText")
-                setTextString("deadText", "Vision bribed his way back in")
             end
         end
         if  getPropertyFromClass("PlayState", "curStage") == "youtubeStage" or getPropertyFromClass("PlayState", "curStage") == "twitterStage" or daSongName == 'big-problem'  then

@@ -1,0 +1,7 @@
+An event that makes strums appear.
+
+Value 1 - True or false
+True makes the strumline appear, False makes it disappear.
+
+Value 2 - The way that it appears
+Current available modes are "left", "right" and "middle".

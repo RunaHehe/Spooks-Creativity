@@ -768,8 +768,15 @@
 						"windowName",
 						"Spook's Creativity: Big Problem: (PHASE 4)",
 						""
+					],
+					[
+						"Show Strums",
+						"true",
+						"middle"
 					]
-				]
+				],
+				null,
+				"Third Player Note"
 			],
 			[
 				290200,
@@ -1048,6 +1055,16 @@
 						"windowName",
 						"The End.",
 						""
+					]
+				]
+			],
+			[
+				381500,
+				[
+					[
+						"Show Strums",
+						"false",
+						"middle"
 					]
 				]
 			],

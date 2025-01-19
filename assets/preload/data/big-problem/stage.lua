@@ -94,6 +94,10 @@ function onCreate()
     backupShader = getPropertyFromClass('ClientPrefs', 'shaders')
     setPropertyFromClass('ClientPrefs', 'shaders', true)
 
+    if getPropertyFromClass('ClientPrefs', 'middleScroll') == true then
+        setPropertyFromClass('ClientPrefs', 'middleScroll', false)
+    end
+
     initLuaShader("mirrorwarp") --MUST
     initLuaShader("scroll")
     makeLuaSprite('TWOffset', '', 0, -400)

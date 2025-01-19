@@ -39,7 +39,7 @@ function onFocusPost()
 end
 function onFocusLostPost()
     if not inGameOver then
-        changePresence("Game Lost Focus! "..symbol.." "..songName, "The plyaer tabbed out! Hopefully they tab back in..")
+        changePresence("Game Lost Focus! "..symbol.." "..songName, "The player tabbed out! Hopefully they tab back in..")
     end
 end
 function onGameOver()
