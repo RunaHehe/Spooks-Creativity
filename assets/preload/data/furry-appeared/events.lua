@@ -41,11 +41,11 @@ function onCreatePost()
     zoom = getProperty('defaultCamZoom') setProperty('zoomTween.x', zoom)
     zoomingEvent()
 
-    setProperty('hazzy.y', 1300)
-    setProperty('feizao.y', 1300)
+    setProperty('hazzy.y', 1500)
+    setProperty('feizao.y', 1310)
     setProperty('roy.y', 1300)
     scaleObject('feizao', 1.5, 1.5)
-    scaleObject('hazzy', 1.5, 1.5)
+    scaleObject('hazzy', 0.9, 0.9)
 
     setProperty('fox.visible', false)
 
@@ -228,7 +228,7 @@ function stepEvent(curStep)
         doTweenY('feizao', 'feizao', 360, 1, 'quadOut')
     end
     if curStep == 720 then
-        doTweenY('hazzy', 'hazzy', 360, 1, 'quadOut')
+        doTweenY('hazzy', 'hazzy', 550, 1, 'quadOut')
     end
     if curStep == 792 then
         doTweenY('roy', 'roy', 550, 1, 'quadOut')
