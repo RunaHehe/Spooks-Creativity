@@ -11,7 +11,6 @@ function onCreate()
 end
 
 function onCreatePost()
-
     --Shader
     if shadersEnabled then
         setSpriteShader("dad", "dropShadow")
