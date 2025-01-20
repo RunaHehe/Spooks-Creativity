@@ -140,6 +140,7 @@ class MainMenuStateAmmar extends MusicBeatState
         
         ['song' => 'Furry Appeared'    ,'icon' => ""            , 'week' => "Kaiju Paradise",  'unlocked' => ['Furry Appeared'], 'hidden' => true],
         ['song' => 'Protogen'    ,      'icon' => ""            , 'week' => "Kaiju Paradise",  'unlocked' => ['Protogen'], 'hidden' => true],
+        ['song' => 'Kaiju Paradise'    ,      'icon' => ""            , 'week' => "Kaiju Paradise",  'unlocked' => ['Protogen'], 'hidden' => true],
 
         ['song' => 'Furry Femboy'    ,'icon' => ""            , 'week' => "Furry Femboy"],
 
@@ -167,6 +168,7 @@ class MainMenuStateAmmar extends MusicBeatState
 
         'Furry Appeared'     => [2, 3, 4],
         'Protogen'           => [8, 9, 10],
+        'Kaiju Paradise'     => [6, 8, 11],
 
         'Furry Femboy'       => [7, 8, 8],
 

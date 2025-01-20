@@ -58,6 +58,7 @@ class PauseSubState extends MusicBeatSubstate
 
         'furry-appeared'     => 'CUSTOM SONG by An Ammar',
         'protogen'           => 'COVER SONG of Devil Robot',
+		'kaiju-paradise'           => 'CUSTOM SONG by An Ammar',
 
 
 		'banned'           => 'COVER SONG of Banned',
