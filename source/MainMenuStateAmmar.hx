@@ -224,7 +224,7 @@ class MainMenuStateAmmar extends MusicBeatState
         ["Mintoctoling",    "mint",     "Main Editor, Artist, Tester",                                              "https://youtube.com/@mintoctoling",                        '"im with stupid "'],
         ["Tarzr",           "duck",     "Tester",                                                                   "https://www.youtube.com/@new1_on",                         '"BLUE SKELETON SHIFTER"'],
         ["Looky",           "looky",    "Tester",                                                                   "https://www.youtube.com/channel/UCI165PBPVnyQmTvtlJZ-kAw", '"Looky"'],
-        ["Vision",          "vision",   "Tester",                                                                   "https://www.youtube.com/@Vision1567",                      '"Spook you are gay as shit"']
+        ["Vision",          "vision",   "Tester",                                                                   "https://www.youtube.com/@Caddy21",                      '"Spook you are gay as shit"']
     ];
 
     var curPage:String = "main";
