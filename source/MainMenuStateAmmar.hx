@@ -217,7 +217,7 @@ class MainMenuStateAmmar extends MusicBeatState
 
     var creditsList:Array<Array<Dynamic>> = [ //Name, Credit Icon, Description, Link, Quotes
         ["Spook",           "spook",    "Main Programmer, Main Charter, Director",                                  "https://spookupt.carrd.co/",                               '"the guy at the bottom is wrong, im gay AND a furry femboy get it right >:3"'],
-        ["uwenalil",        "dave",     "Programmer, Visual Artist, Charter, Tester",                               "https://uwenalil.netlify.app/uwenalil/links",              '"I\'m just here to help, not make friends."'],
+        ["uwenalil",        "dave",     "Programmer, Visual Artist, Charter, Tester",                               "https://uwenalil.netlify.app/uwenalil/links",              '"remember to always check your code and not be spoo-"'],
         ["An Ammar",        "ammar",    "Programmer, Visual Artist, Tester",                                        "https://www.youtube.com/@anammar",                         '"I\'m green and a furry :3"'],
         ["Luna",            "luna",     "Tester, 32bit Tester",                                                     "https://www.youtube.com/@yoitsluna2001",                   '"im a retard and i dont know how to fucking codeeeee"'],
         ["tututoller",      "tutu",     "Main Artist, Main Animator, Programmer, Charter, Visual Artist, Tester",   "https://x.com/tututoller",                                 '"go pico"'],
