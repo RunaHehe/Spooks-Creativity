@@ -459,10 +459,7 @@ function onStepEvent(curStep)
 	if curStep == 2752 then
 		playAnim(crystals[10][1], "growing", true, false, 3)
 		setProperty(crystals[10][1] .. '.alpha', crystalShowAlpha)
-		doTweenX('camFollowX', 'camFollow', 460, 2, 'linear')
-		doTweenY('camFollowY', 'camFollow', -717.5, 2, 'linear')
-		doTweenZoom('camGameZoom', 'camGame', 0.91779, 2, 'linear')
-
+		cameraWatch(460, -717.5, 0.91779, 2, 6)
 	end
 	if curStep == 2880 then 
 		cameraWatch(getProperty("boyfriend.x") + 130, getProperty("boyfriend.y") + 110, 0.85, 2, crochet/1000*4 * 16)

@@ -217,14 +217,14 @@ class MainMenuStateAmmar extends MusicBeatState
 
     var creditsList:Array<Array<Dynamic>> = [ //Name, Credit Icon, Description, Link, Quotes
         ["Spook",           "spook",    "Main Programmer, Main Charter, Director",                                  "https://spookupt.carrd.co/",                               '"the guy at the bottom is wrong, im gay AND a furry femboy get it right >:3"'],
-        ["uwenalil",        "dave",     "Programmer, Visual Artist, Charter, Tester",                               "https://uwenalil.netlify.app/uwenalil/links",              '"remember to always check your code and not be spoo-"'],
+        ["uwenalil",        "dave",     "Programmer, Visual Artist, Charter, Tester",                               "https://uwenalil.netlify.app/uwenalil/links",              '"remember to always check your code and not be spook"'],
         ["An Ammar",        "ammar",    "Programmer, Visual Artist, Tester",                                        "https://www.youtube.com/@anammar",                         '"I\'m green and a furry :3"'],
         ["Luna",            "luna",     "Tester, 32bit Tester",                                                     "https://www.youtube.com/@yoitsluna2001",                   '"im a retard and i dont know how to fucking codeeeee"'],
         ["tututoller",      "tutu",     "Main Artist, Main Animator, Programmer, Charter, Visual Artist, Tester",   "https://x.com/tututoller",                                 '"go pico"'],
         ["Mintoctoling",    "mint",     "Main Editor, Artist, Tester",                                              "https://youtube.com/@mintoctoling",                        '"im with stupid "'],
         ["Tarzr",           "duck",     "Tester",                                                                   "https://www.youtube.com/@new1_on",                         '"BLUE SKELETON SHIFTER"'],
         ["Looky",           "looky",    "Tester",                                                                   "https://www.youtube.com/channel/UCI165PBPVnyQmTvtlJZ-kAw", '"Looky"'],
-        ["Vision",          "vision",   "Tester",                                                                   "https://www.youtube.com/@Caddy21",                      '"Spook you are gay as shit"']
+        ["Vision",          "vision",   "Tester",                                                                   "https://www.youtube.com/@Caddy21",                         '"Spook you are gay as shit"']
     ];
 
     var curPage:String = "main";
