@@ -2,9 +2,7 @@ package;
 
 import Sys.sleep;
 #if desktop
-#if !linux
 import discord_rpc.DiscordRpc;
-#end
 #end
 
 #if LUA_ALLOWED
