@@ -2,18 +2,7 @@
 	"animations": [
 		{
 			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "Noob Idle"
-		},
-		{
-			"offsets": [
-				19,
+				-11,
 				1
 			],
 			"loop": false,
@@ -37,8 +26,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				53,
-				21
+				13,
+				1
 			],
 			"anim": "singLEFT",
 			"fps": 24,
@@ -48,7 +37,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				28,
+				8,
 				-12
 			],
 			"anim": "singDOWN",
@@ -59,7 +48,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				-15,
+				-5,
 				16
 			],
 			"anim": "singUP",
@@ -70,8 +59,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				45,
-				51
+				35,
+				11
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -80,51 +69,62 @@
 		},
 		{
 			"offsets": [
-				145,
+				85,
 				10
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT-alt",
-			"loop": false,
+			"indices": [],
 			"name": "Noob Left Attack"
 		},
 		{
 			"offsets": [
 				11,
-				-11
+				9
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT-alt",
-			"loop": false,
+			"indices": [],
 			"name": "Noob Right Attack"
 		},
 		{
 			"offsets": [
-				23,
-				-8
+				3,
+				12
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN-alt",
-			"loop": false,
+			"indices": [],
 			"name": "Noob Down Attack"
 		},
 		{
 			"offsets": [
-				23,
-				-8
+				3,
+				5
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUP-alt",
-			"loop": false,
+			"indices": [],
 			"name": "Noob Up Attack"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Noob Idle",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/RobloxNoob",
+	"image": "characters/Andro",
 	"position": [
 		120,
 		220
@@ -134,12 +134,12 @@
 	"healthbar_colors": [
 		255,
 		255,
-		0
+		20
 	],
 	"camera_position": [
-		0,
-		0
+		-200,
+		200
 	],
 	"sing_duration": 6,
-	"scale": 1.1
+	"scale": 0.7
 }
