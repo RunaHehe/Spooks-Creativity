@@ -176,7 +176,7 @@ class MainMenuStateAmmar extends MusicBeatState
         'Programming An Ammar'       => [5, 7, 9],
         'Identity Crisis'       => [5, 7, 9],
         'Note Nova'       => [3, 5, 6,],
-        'Twisted Truths'       => [3, 5, 6,],
+        'Twisted Truths'       => [4, 7, 8,],
 
     ];
 
