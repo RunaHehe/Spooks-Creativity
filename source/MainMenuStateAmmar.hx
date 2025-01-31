@@ -147,6 +147,7 @@ class MainMenuStateAmmar extends MusicBeatState
         ['song' => 'Programming An Ammar'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
         ['song' => 'Identity Crisis'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
         ['song' => 'Note Nova'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
+        ['song' => 'Twisted Truths'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
     ];
     var songsDifficulty:Map<String, Array<Int>> = [
         'Discord Annoyer'    => [1, 2, 2],
@@ -175,6 +176,7 @@ class MainMenuStateAmmar extends MusicBeatState
         'Programming An Ammar'       => [5, 7, 9],
         'Identity Crisis'       => [5, 7, 9],
         'Note Nova'       => [3, 5, 6,],
+        
     ];
 
     /**
