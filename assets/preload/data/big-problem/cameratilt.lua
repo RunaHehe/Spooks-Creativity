@@ -2,7 +2,7 @@
 
 
 -- how far is tilt
-local intensity = 2.5
+local intensity = 2.2
 
 -- how fast is tilt
 local speed = 1.1
@@ -23,7 +23,7 @@ local offset = 10
 local opTiltEnabled = true
 
 
--- don't touch this unless u know what doing
+-- don't touch this unless u know what doing (but i think u do if ur looking through the code :3)
 function onCreatePost()
 
 setProperty('camGame.flashSprite.scaleX', camGameScale)

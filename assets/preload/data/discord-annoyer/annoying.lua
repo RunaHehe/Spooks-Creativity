@@ -47,12 +47,6 @@ function onCreatePost()
 
     callScript("stages/discordStage", "setObjectCameraCustom", {"blackFade", "camDiscord"})
 
-    setProperty("dad.healthIcon", "spook")
-    setProperty("boyfriend.healthIcon", "annoyer")
-    runHaxeCode([[
-        game.iconP2.changeIcon("icon-spook");
-        game.iconP1.changeIcon("icon-annoyer");
-      ]])
       
      setHealthBarColors("8D2A28", "ffc400")
 

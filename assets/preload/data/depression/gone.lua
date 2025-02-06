@@ -209,10 +209,8 @@ function onCreatePost()
     setGlobalFromScript("stages/discordStage", "opponentTyping", "(Delta is Typing...)")
 
     setProperty("dad.healthIcon", "depress")
-    setProperty("boyfriend.healthIcon", "annoyer")
     runHaxeCode([[
         game.iconP2.changeIcon("icon-depress");
-        game.iconP1.changeIcon("icon-annoyer");
       ]])
       
      setHealthBarColors("CC57ED", "ffc400") -- dad, bf
@@ -333,10 +331,6 @@ function onStepEvent(curStep)
         loadGraphic("channels", "ChannelsListRaid")
     end
     if curStep == 784 then --- Ammar turn
-        setProperty("boyfriend.healthIcon", "ammar"..(CuteMode and 'cute' or ''))
-        runHaxeCode([[
-            game.iconP1.changeIcon("icon-ammar]]..(CuteMode and 'cute' or '')..[[");
-        ]])
         setHealthBarColors("CC57ED", "60f542") -- dad, bf
         loadGraphic("player", "chars/Ammar")
         setGraphicSize("player", 649 * 0.625, 146 * 0.625)
@@ -347,10 +341,8 @@ function onStepEvent(curStep)
         
     end
     if curStep == 1104 then
-        setProperty("boyfriend.healthIcon", "annoyer")
         setProperty("dad.healthIcon", "depression")
         runHaxeCode([[
-            game.iconP1.changeIcon("icon-annoyer");
             game.iconP2.changeIcon("icon-depression");
         ]])
 
@@ -460,6 +452,19 @@ function onStepEvent(curStep)
 end
 
 function onStepHit()
+    local epath = "animicons/"
+    local ppath = "animicons/"
+    if curstep == 784 then
+        loadGraphic("iconP1", ppath.. "runa", 150, 150)
+        addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0) -- idle, lose, left, down, up, right
+        setProperty('iconP1.flipX', true)
+    end
+    if curStep == 1104 then
+        loadGraphic("iconP1", ppath.. "annoyer", 150, 150)
+        addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0) -- idle, lose, left, down, up, right
+        setProperty('iconP1.flipX', true)
+    end
+
     if curStep >= 256 and curStep < 384 and curStep%16==0 then 
         triggerEvent("Add Camera Zoom", "0.03", "0.06")
     end

@@ -10,8 +10,8 @@ local font = "Google/Product Sans Regular.ttf"
 local opponentSingTime = ""
 
 local colors = {
-   "78D3F2", "8F6EEB", "467BB7", "808AAD",
-   "C4D3F2", "8FA2EB", "997BB7", "80B5AD" -- flash
+   "008744", "0057E7", "D62D20", "FFA700",
+   "00cf68", "2b7bff", "ed4a3e", "ffc24f" -- flash
 }
 local beatDrum = {
    {0, 6, 10 ,16, 22, 24, 26,  32, 38, 42, 46,  48, 54, 58, 62,  0+64, 6+64, 10+64 ,16+64, 22+64, 24+64, 26+64,  32+64, 38+64, 42+64, 46+64,  48+64, 52+64, 58+64, 62+64}, -- kick
