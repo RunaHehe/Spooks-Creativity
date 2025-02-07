@@ -26,7 +26,7 @@ class PauseSubState extends MusicBeatSubstate
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
 
 	var menuItems:Array<String> = [];
-	var menuItemsOG:Array<String> = ['Resume', 'Restart Song', 'Practice Mode', 'Exit to menu'];
+	var menuItemsOG:Array<String> = ['Pway!', 'Restawt Song >.<', 'Pwactice!', 'Weave Song? owo'];
 	var difficultyChoices = [];
 	var curSelected:Int = 0;
 
@@ -70,6 +70,7 @@ class PauseSubState extends MusicBeatSubstate
 		'programming-an-ammar'           => 'COVER SONG of PaperCraft',
 		'identity-crisis'           =>  'COVER SONG of Hatred',
 		'note-nova'           =>  'CUSTOM SONG by Ammar, Spook',
+		'twisted-truths'            =>   'CUSTOM SONG by SomeGuy',
     ];
 	//var botplayText:FlxText;
 
@@ -82,17 +83,17 @@ class PauseSubState extends MusicBeatSubstate
 
 		if(PlayState.chartingMode)
 		{
-			menuItemsOG.insert(2, 'Leave Charting Mode');
+			menuItemsOG.insert(2, 'Stop Chawting owo');
 			
 			var num:Int = 0;
 			if(!PlayState.instance.startingSong)
 			{
 				num = 1;
-				menuItemsOG.insert(3, 'Skip Time');
+				menuItemsOG.insert(3, 'Song Skippew :3');
 			}
-			menuItemsOG.insert(3 + num, 'End Song');
-			//menuItemsOG.insert(4 + num, 'Practice Mode');
-			menuItemsOG.insert(5 + num, 'Toggle Botplay');
+			menuItemsOG.insert(3 + num, 'Kill Song UwU');
+			//menuItemsOG.insert(4 + num, 'Pwactice!');
+			menuItemsOG.insert(5 + num, 'Cheat!!1!');
 		}
 		menuItems = menuItemsOG;
 
@@ -163,7 +164,7 @@ class PauseSubState extends MusicBeatSubstate
 		add(levelCredit);
 
 		
-		chartingText = new FlxText(20, 15 + 101, 0, "CHARTING MODE", 32);
+		chartingText = new FlxText(20, 15 + 101, 0, "CHAWTING MODE :33", 32);
 		chartingText.scrollFactor.set();
 		chartingText.setFormat(Paths.font(fonter), 32);
 		chartingText.alignment = RIGHT;
@@ -173,7 +174,7 @@ class PauseSubState extends MusicBeatSubstate
 		chartingText.visible = PlayState.chartingMode;
 		add(chartingText);
 
-		practiceText = new FlxText(20, 15 + 101, 0, "PRACTICE MODE", 32);
+		practiceText = new FlxText(20, 15 + 101, 0, "PWACTICING! :3", 32);
 		practiceText.scrollFactor.set();
 		practiceText.setFormat(Paths.font(fonter), 32);
 		practiceText.alignment = RIGHT;
@@ -310,22 +311,22 @@ class PauseSubState extends MusicBeatSubstate
 
 			switch (daSelected)
 			{
-				case "Resume":
+				case "Pway!":
 					close();
 				case 'Change Difficulty':
 					menuItems = difficultyChoices;
 					deleteSkipTimeText();
 					regenMenu();
-				case 'Practice Mode':
+				case 'Pwactice!':
 					PlayState.instance.practiceMode = !PlayState.instance.practiceMode;
 					PlayState.changedDifficulty = true;
 					practiceText.visible = PlayState.instance.practiceMode;
-				case "Restart Song":
+				case "Restawt Song >.<":
 					restartSong();
-				case "Leave Charting Mode":
+				case "Stop Chawting owo":
 					restartSong();
 					PlayState.chartingMode = false;
-				case 'Skip Time':
+				case 'Song Skippew :3':
 					if(curTime < Conductor.songPosition)
 					{
 						PlayState.startOnTime = curTime;
@@ -340,16 +341,16 @@ class PauseSubState extends MusicBeatSubstate
 						}
 						close();
 					}
-				case "End Song":
+				case "Kill Song UwU":
 					close();
 					PlayState.instance.finishSong(true);
-				case 'Toggle Botplay':
+				case 'Cheat!!1!':
 					PlayState.instance.cpuControlled = !PlayState.instance.cpuControlled;
 					PlayState.changedDifficulty = true;
 					PlayState.instance.botplayTxt.visible = PlayState.instance.cpuControlled;
 					PlayState.instance.botplayTxt.alpha = 1;
 					PlayState.instance.botplaySine = 0;
-				case "Exit to menu":
+				case "Weave Song? owo":
 					PlayState.deathCounter = 0;
 					PlayState.seenCutscene = false;
 
