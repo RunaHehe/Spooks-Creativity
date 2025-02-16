@@ -1333,7 +1333,7 @@ class MainMenuStateAmmar extends MusicBeatState
 	function startSecretSong()
 	{
 		FlxG.sound.play(Paths.sound('confirmMenu'));
-		PlayState.SONG = Song.loadFromJson("Myself", 2);
+		PlayState.SONG = Song.loadFromJson("myself-hard", "myself");
 		LoadingState.loadAndSwitchState(new PlayState());
 	}
 
