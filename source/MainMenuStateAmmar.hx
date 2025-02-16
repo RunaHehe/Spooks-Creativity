@@ -35,6 +35,7 @@ import flixel.FlxObject;
 import flixel.addons.display.FlxBackdrop;
 import flixel.addons.text.FlxTypeText;
 import options.OptionsState;
+import flixel.input.keyboard.FlxKey;
 
 //import Controls;
 
@@ -1240,6 +1241,41 @@ class MainMenuStateAmmar extends MusicBeatState
 
     override function update(elapsed:Float) 
     {
+		super.update(elapsed); // CALL BASE CLASS UPDATE!!! ;3c
+
+		var secretCode:Array<Int> = [1, 2, 3, 4]; // placeholder
+		var inputSequence:Array<Int> = [];
+
+		// 0 to 9
+		for (i in 0...10)
+		{
+			var keyString = Std.string(i);
+
+			// key presses?
+			if (FlxG.keys.anyJustPressed([FlxKey.fromString(keyString)]))
+			{
+				trace("key: " + keyString); // debugging
+
+				inputSequence.push(i);
+
+				// debugging
+				trace("current input: " + inputSequence);
+
+				// macth the code length
+				if (inputSequence.length > secretCode.length)
+				{
+					inputSequence.shift(); // removes oldest input manually
+				}
+
+				if (inputSequence == secretCode)
+				{
+					trace("code matched starting song...");
+					startSecretSong();
+				}
+			}
+		}
+
+	
         if (FlxG.sound.music.volume < 0.8)
             {
                 FlxG.sound.music.volume += 0.5 * elapsed;
@@ -1280,9 +1316,14 @@ class MainMenuStateAmmar extends MusicBeatState
         }
 
         buttonControls();
-
-        super.update(elapsed);
     }
+	function startSecretSong()
+	{
+		FlxG.sound.play(Paths.sound('confirmMenu')); // play confirm sound lmaoo
+		Song.loadFromJson('myself-hard', 'myself');
+		FlxG.switchState(new PlayState()); // huh?
+	}
+	
 
     function backItem():Void {
         FlxG.sound.play(Paths.sound('cancelMenu'));
@@ -2168,15 +2209,6 @@ class MenuSprite extends FlxSprite
 		super(X, Y, SimpleGraphic);
         antialiasing = ClientPrefs.globalAntialiasing;
 	}
-
-    override function update(elapsed:Float)
-        {
-            super.update(elapsed);
-            if (partner != null && followPartner) {
-                x = partner.x + addX;
-                y = partner.y + addY;
-            }
-        }
 }
 
 class MenuText extends FlxText
