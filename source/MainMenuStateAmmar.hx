@@ -1238,38 +1238,49 @@ class MainMenuStateAmmar extends MusicBeatState
                     selectedSomething = false;
                 });
     }
+	var inputSequence:Array<Int> = [];
+	var secretCode:Array<Int> = [1, 2, 3, 4, 5];
 
     override function update(elapsed:Float) 
     {
-		super.update(elapsed); // CALL BASE CLASS UPDATE!!! ;3c
+		super.update(elapsed);
 
-		var secretCode:Array<Int> = [1, 2, 3, 4]; // placeholder
-		var inputSequence:Array<Int> = [];
-
-		// 0 to 9
 		for (i in 0...10)
 		{
-			var keyString = Std.string(i);
-
-			// key presses?
-			if (FlxG.keys.anyJustPressed([FlxKey.fromString(keyString)]))
+			var key:FlxKey = switch (i)
 			{
-				trace("key: " + keyString); // debugging
+				case 0: FlxKey.ZERO;
+				case 1: FlxKey.ONE;
+				case 2: FlxKey.TWO;
+				case 3: FlxKey.THREE;
+				case 4: FlxKey.FOUR;
+				case 5: FlxKey.FIVE;
+				case 6: FlxKey.SIX;
+				case 7: FlxKey.SEVEN;
+				case 8: FlxKey.EIGHT;
+				case 9: FlxKey.NINE;
+				default: FlxKey.NONE;
+			};
 
-				inputSequence.push(i);
+			if (FlxG.keys.anyJustPressed([key]))
+			{
+				trace("key: " + i);
 
-				// debugging
-				trace("current input: " + inputSequence);
-
-				// macth the code length
-				if (inputSequence.length > secretCode.length)
+				if (inputSequence.length < secretCode.length)
 				{
-					inputSequence.shift(); // removes oldest input manually
+					inputSequence.push(i);
+				}
+				else
+				{
+					inputSequence.shift();
+					inputSequence.push(i);
 				}
 
-				if (inputSequence == secretCode)
+				trace("sequence: " + inputSequence);
+
+				if (inputSequence.length == secretCode.length && areArraysEqual(inputSequence, secretCode))
 				{
-					trace("code matched starting song...");
+					trace("code matched! starting song owo");
 					startSecretSong();
 				}
 			}
@@ -1317,11 +1328,28 @@ class MainMenuStateAmmar extends MusicBeatState
 
         buttonControls();
     }
+
+
 	function startSecretSong()
 	{
-		FlxG.sound.play(Paths.sound('confirmMenu')); // play confirm sound lmaoo
-		Song.loadFromJson('myself-hard', 'myself');
-		FlxG.switchState(new PlayState()); // huh?
+		FlxG.sound.play(Paths.sound('confirmMenu'));
+		PlayState.SONG = Song.loadFromJson("Myself", 2);
+		LoadingState.loadAndSwitchState(new PlayState());
+	}
+
+
+	function areArraysEqual(arr1:Array<Int>, arr2:Array<Int>):Bool
+	{
+		if (arr1.length != arr2.length)
+			return false;
+
+		for (i in 0...arr1.length)
+		{
+			if (arr1[i] != arr2[i])
+				return false;
+		}
+
+		return true;
 	}
 	
 
