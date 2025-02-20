@@ -160,7 +160,7 @@ function onCreate()
 	--LIGHTS
 
 	-- FRONT CHARS
-	makeAnimatedLuaSprite("roy", folder..'front/RoyTheWolf', -1100, 550)
+	makeAnimatedLuaSprite("roy", folder..'front/RoyTheWolf', -1250, 550)
 	addAnimationByPrefix("roy", "bop", "Roy The Wolf", 24, false)
 	scaleObject('roy', 2, 2)
 	setScrollFactor('roy', 1.2, 0.5)

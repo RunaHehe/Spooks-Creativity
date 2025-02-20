@@ -122,6 +122,12 @@ function onCreatePost()
     opponentCaps = false
 
     local isNoteNova = songName:lower() == "note-nova"
+    local isConfrontation = songName:lower() == "confrontation"
+
+    if isConfrontation then
+        opponentTyping = isConfrontation and "(Vision is typing...)" or opponentTyping
+        opponentCaps = false
+    end
 
     if isNoteNova then
         opponentTyping = isNoteNova and "(Annoying User is typing..)" or opponentTyping

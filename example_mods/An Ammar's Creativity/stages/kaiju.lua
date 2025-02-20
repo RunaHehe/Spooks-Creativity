@@ -1,15 +1,15 @@
 local folder = "roblox/kaiju/"
 local crystalPath = folder .. "crystal/crystals/"
-local repositionX = -1200
-local repositionY = -1000
+local repositionX = -1500
+local repositionY = -1450
 
-local repositionCryX = -1200
-local repositionCryY = -1200
+local repositionCryX = -1500
+local repositionCryY = -1450
 
 --MORAL = Create animated sprite during playing will not lag the game!!! so don't prepare the sprite in the beginning or it will lag a lot
 --MORAL = A lot of shaders will lag the PC even though The computer is very powerful.
 
-factoryGroup = { "ground", "backRoom", "wall", "fans", "topGround", "crates", "crystal" }
+factoryGroup = { "backRoom", "Boxes", "PC", "Shelves" }
 crystalGroup = {
 	"cryGround", "cryMiniCrystalBack", "cryBackPillar", "cryPillar",
 	"cryHill1", "cryHill2", "cryHill3", "cryHill4", "cryHill5",
@@ -19,7 +19,9 @@ crystalGroup = {
 	"lightning1", "lightning2", "lightning3",
 	"cryBackRed", "cryRed",
 	"furryGas",
-	"cryRoof"
+	"cryRoof",
+	"CaveV2",
+	"CaveCrystalOverlay"
 }
 allCrystals = {}
 
@@ -77,25 +79,29 @@ function onCreatePost()
 	addHaxeLibrary("Playstate", "")
 
 	--FACTORY STAGE
-	makeSprite("ground", folder .. "factory/Ground", repositionX - 100, repositionY + 1100)
+	makeSprite("backRoom", folder .. "factory/Background", repositionX + 660, repositionY + 1050, 1.05, 0.95)
+	scaleObject("backRoom", 1.5, 1.4)
 
-	makeSprite("backRoom", folder .. "factory/FactoryBackRoom", repositionX + 660, repositionY + 1050, 1.05, 0.95)
+	makeSprite("PC", folder .. "factory/PC", repositionX + 660, repositionY + 1050, 1.05, 0.98)
+	scaleObject("PC", 1.5, 1.4)
 
-	makeSprite("wall", folder .. "factory/FactoryWall", repositionX, repositionY, 0.95, 0.95)
+	makeSprite("Boxes", folder .. "factory/Boxes", repositionX + 660, repositionY + 1050, 1.05, 0.95)
+	scaleObject("Boxes", 1.5, 1.4)
 
-	makeAnSprite("fans", folder .. "factory/FactoryFan", repositionX + 1500, repositionY + 835, 0.95, 0.95, 3, 3)
-	addAnimationByPrefix("fans", "idle", "FactoryVents0", 24)
-	playAnim("fans", "idle")
-	setProperty("fans.antialiasing", getPropertyFromClass('ClientPrefs', "globalAntialiasing"))
+	makeSprite("Shelves", folder .. "factory/Shelves", repositionX + 660, repositionY + 1050, 1.05, 0.95)
+	scaleObject("Shelves", 1.5, 1.4)
 
-	makeSprite("topGround", folder .. "factory/FactoryFloor2", repositionX + 1145, repositionY + 830, 0.965, 0.965)
 
-	makeSprite("crates", folder .. "factory/FactoryFrontCrates", repositionX + 1880, repositionY + 1140, 0.975, 0.975)
-
-	makeSprite("crystal", folder .. "factory/Crystals", repositionX - 50, repositionY + 1020, 0.985, 0.985)
 	--
 
 	--CRYSTAL STAGE
+
+	makeSprite("CaveV2", folder .. "crystal/CaveV2", repositionCryX + 660, repositionCryY + 1050, 1.05, 0.95)
+	scaleObject("CaveV2", 1.5, 1.4)
+
+	makeSprite("CaveCrystalOverlay", folder .. "crystal/CaveCrystalOverlay", repositionCryX + 660, repositionCryY + 1050, 1.05, 0.95)
+	scaleObject("CaveCrystalOverlay", 1.5, 1.4)
+
 	makeSprite("cryGround", folder .. "crystal/CryGround", repositionCryX + 200, repositionCryY + 600, 1, 1)
 	makeSprite("cryWallFarRight", folder .. "crystal/CryWallsFarRight", 39, -901.5, 1, 1)
 	makeSprite("cryWallFarLeft", folder .. "crystal/CryWallsFarLeft", -259.5, -796, 1, 1)
@@ -392,7 +398,7 @@ function onStepEvent(curStep)
 	end
 	if curStep == 960 then
 		doValueTween("downGlowAlping", "downGlowAlpha", 1, 0, 2, "linear")
-		cameraWatch(getProperty("boyfriend.x") + 130, getProperty("boyfriend.y") + 110, 0.85, 2, crochet/1000*4 * 8)
+		cameraWatch(getProperty("boyfriend.x") + 500, getProperty("boyfriend.y") + 370, 0.85, 2, crochet/1000*4 * 8)
 	end
 	if curSelect == 1088 then 
 		playAnim(crystals[2][1], "growing", true, false, 3)
@@ -450,7 +456,7 @@ function onStepEvent(curStep)
 		changeColor(-180,0, 2 , 4)
 	end
 	if curStep == 2240 then 
-		cameraWatch(getProperty("boyfriend.x") + 130, getProperty("boyfriend.y") + 110, 0.85, 2, crochet/1000*4 * 8)
+		cameraWatch(getProperty("boyfriend.x") + 500, getProperty("boyfriend.y") + 370, 0.85, 2, crochet/1000*4 * 8)
 	end
 	if curStep == 2624 then
 		playAnim(crystals[7][1], "growing", true, false, 3)
@@ -462,7 +468,7 @@ function onStepEvent(curStep)
 		cameraWatch(460, -717.5, 0.91779, 2, 6)
 	end
 	if curStep == 2880 then 
-		cameraWatch(getProperty("boyfriend.x") + 130, getProperty("boyfriend.y") + 110, 0.85, 2, crochet/1000*4 * 16)
+		cameraWatch(getProperty("boyfriend.x") + 500, getProperty("boyfriend.y") + 370, 0.85, 2, crochet/1000*4 * 16)
 	end
 	if curStep % 16 == 0 and crystalBeat then
 		for i = 1, #crystals do
@@ -797,9 +803,9 @@ local attDirection2 = {
 	{90}
 }
 local crystalOffset = {
-	{0, 0},
-	{0, 8},
-	{0, 43}
+	{180, 200},
+	{180, 208},
+	{180, 243}
 }
 function createAttackCrystal(noteID, isGrowing, forceData)
 	
