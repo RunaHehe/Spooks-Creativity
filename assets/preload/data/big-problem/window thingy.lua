@@ -37,6 +37,7 @@ function onDestroy()
     setPropertyFromClass("openfl.Lib", "application.window.fullscreen", false)
 end
 
+
 function onStepHit()
     if curStep == 3776 then
         callScript("scripts/Window Modchart Tool", "moveW", {"width", "appear Width", 0 * 1.09, 0.1, "expoOut"})
@@ -49,5 +50,9 @@ function onStepHit()
     if curStep == 3822 then
         callScript("scripts/Window Modchart Tool", "moveW", {"width", "appear Width", OGwidth * 1, 20, "expoOut"})
         callScript("scripts/Window Modchart Tool", "moveW", {"height", "appear Height", OGheight * 1, 20, "expoOut"})
+    end
+    if curStep == 4287 then
+        callScript("scripts/Window Modchart Tool", "setW", {"width", "appear Width", 0 * 1, 0.1, "expoOut"})
+        callScript("scripts/Window Modchart Tool", "setW", {"height", "appear Height", 0 * 1, 0.1, "expoOut"})
     end
 end

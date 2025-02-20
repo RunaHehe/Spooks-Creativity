@@ -1,13 +1,18 @@
-playVideo = true;
-playDialogue = false;
+playVideo = true
+playDialouge = false
 
 function onStartCountdown()
-	if isStoryMode and not seenCutscene then
-		if playVideo then --Video cutscene plays first
-			startVideo('Depression Cutscene'); --Play video file from "videos/" folder
-			playVideo = false;
-			return Function_Stop; --Prevents the song from starting naturally
+	if not seenCutscene then
+		if playVideo then
+			math.randomseed(os.time())
+			if math.random(10) == 1 then
+				startVideo('leaked') -- 1/10 chance
+			else
+				startVideo('Depression Cutscene') -- default cutscene
+			end
+			playVideo = false
+			return Function_Stop -- prevents song from starting naturally
 		end
 	end
-	return Function_Continue; --Played video and dialogue, now the song can start normally
+	return Function_Continue -- played the video, song can start :3
 end

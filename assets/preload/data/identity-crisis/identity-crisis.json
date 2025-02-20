@@ -1,6 +1,7 @@
 {
 	"song": {
 		"player1": "ammarfurry",
+		"introAtStep": 256,
 		"notes": [
 			{
 				"sectionNotes": [

@@ -454,17 +454,6 @@ end
 function onStepHit()
     local epath = "animicons/"
     local ppath = "animicons/"
-    if curstep == 784 then
-        loadGraphic("iconP1", ppath.. "runa", 150, 150)
-        addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0) -- idle, lose, left, down, up, right
-        setProperty('iconP1.flipX', true)
-    end
-    if curStep == 1104 then
-        loadGraphic("iconP1", ppath.. "annoyer", 150, 150)
-        addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0) -- idle, lose, left, down, up, right
-        setProperty('iconP1.flipX', true)
-    end
-
     if curStep >= 256 and curStep < 384 and curStep%16==0 then 
         triggerEvent("Add Camera Zoom", "0.03", "0.06")
     end

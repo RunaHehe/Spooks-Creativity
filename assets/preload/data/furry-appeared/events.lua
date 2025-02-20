@@ -43,9 +43,10 @@ function onCreatePost()
 
     setProperty('hazzy.y', 1500)
     setProperty('feizao.y', 1310)
-    setProperty('roy.y', 1300)
+    setProperty('roy.y', 1500)
     scaleObject('feizao', 1.5, 1.5)
     scaleObject('hazzy', 0.9, 0.9)
+    scaleObject('roy', 0.9, 0.9)
 
     setProperty('fox.visible', false)
 
