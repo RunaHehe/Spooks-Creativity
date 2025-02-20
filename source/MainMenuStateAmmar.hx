@@ -1239,7 +1239,7 @@ class MainMenuStateAmmar extends MusicBeatState
                 });
     }
 	var inputSequence:Array<Int> = [];
-	var secretCode:Array<Int> = [1, 2, 3, 4, 5];
+	var secretCode:Array<Int> = [3, 2, 0, 7, 3];
 
     override function update(elapsed:Float) 
     {
@@ -1333,7 +1333,7 @@ class MainMenuStateAmmar extends MusicBeatState
 	function startSecretSong()
 	{
 		FlxG.sound.play(Paths.sound('confirmMenu'));
-		PlayState.SONG = Song.loadFromJson("myself-hard", "myself");
+		PlayState.SONG = Song.loadFromJson("confrontation", "confrontation");
 		LoadingState.loadAndSwitchState(new PlayState());
 	}
 
