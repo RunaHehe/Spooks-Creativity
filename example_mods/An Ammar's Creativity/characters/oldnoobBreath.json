@@ -14,8 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				19,
-				1
+				-41,
+				-9
 			],
 			"anim": "defend",
 			"fps": 24,
@@ -36,8 +36,8 @@
 		},
 		{
 			"offsets": [
-				53,
-				21
+				-7,
+				-19
 			],
 			"loop": false,
 			"fps": 24,
@@ -47,8 +47,8 @@
 		},
 		{
 			"offsets": [
-				25,
-				-12
+				-25,
+				-32
 			],
 			"loop": false,
 			"fps": 24,
@@ -58,8 +58,8 @@
 		},
 		{
 			"offsets": [
-				-15,
-				16
+				-25,
+				6
 			],
 			"loop": false,
 			"fps": 24,
@@ -69,8 +69,8 @@
 		},
 		{
 			"offsets": [
-				45,
-				51
+				-15,
+				-19
 			],
 			"loop": false,
 			"fps": 24,
@@ -81,7 +81,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				145,
+				105,
 				10
 			],
 			"anim": "singLEFT-alt",
@@ -92,7 +92,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				11,
+				-19,
 				-11
 			],
 			"anim": "singRIGHT-alt",
@@ -103,8 +103,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				23,
-				-8
+				13,
+				-48
 			],
 			"anim": "singDOWN-alt",
 			"fps": 24,
@@ -114,7 +114,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				23,
+				-7,
 				-8
 			],
 			"anim": "singUP-alt",
@@ -124,10 +124,10 @@
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/RobloxNoobBreath",
+	"image": "characters/AndroBreath",
 	"position": [
-		120,
-		220
+		-170,
+		30
 	],
 	"healthicon": "face",
 	"flip_x": true,
@@ -137,9 +137,9 @@
 		0
 	],
 	"camera_position": [
-		0,
-		0
+		-200,
+		230
 	],
 	"sing_duration": 6,
-	"scale": 1.1
+	"scale": 0.7
 }

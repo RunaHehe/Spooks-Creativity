@@ -1,70 +1,70 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-20,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "Up"
+			"fps": 24,
+			"name": "Up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				60,
 				20
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Right"
+			"fps": 24,
+			"name": "Right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				10,
 				-40
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "Down"
+			"fps": 24,
+			"name": "Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				10,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "Left"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"indices": [],
-			"fps": 15,
-			"anim": "idle",
-			"loop": true,
-			"name": "Idle"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"indices": [],
 			"fps": 24,
-			"anim": "hey",
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 15,
+			"name": "Idle",
+			"indices": []
+		},
+		{
 			"loop": false,
-			"name": "Hey"
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "Hey",
+			"indices": []
 		}
 	],
 	"no_antialiasing": true,
@@ -74,7 +74,7 @@
 		-160
 	],
 	"healthicon": "ammarcute",
-	"flip_x": false,
+	"flip_x": true,
 	"healthbar_colors": [
 		0,
 		255,

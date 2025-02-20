@@ -47,51 +47,63 @@ function onCreatePost()
             addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0) -- idle, lose, left, down, up, right
             setProperty('iconP1.flipX', true)
         end
-        if songName:lower() == "hate-comment" then
-            loadGraphic("iconP1", ppath.. "runa", 150, 150)
-            addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0) -- idle, lose, left, down, up, right
-            setProperty('iconP1.flipX', true)
+        local songIconSettings = {
+            ["hate-comment"] = {
+                playerIcon = {"runa", true},
+                enemyIcon = {"annoyer", false}
+            },
+            ["big-problem"] = {
+                playerIcon = {"runa", true}
+            },
+            ["discord-annoyer"] = {
+                enemyIcon = {"runa", false},
+                playerIcon = {"annoyer", true}
+            },
+            ["depression"] = {
+                playerIcon = {"annoyer", true}
+            },
+            ["shut-up"] = {
+                playerIcon = {"annoyer", true},
+                enemyIcon = {"random-girl", false}
+            },
+            ["myself"] = {
+                playerIcon = {"runa", true}
+            },
+            ["no-debug"] = {
+                enemyIcon = {"runa", false}
+            },
+            ["programming-an-ammar"] = {
+                enemyIcon = {"runa", false}
+            }
+        }
 
-            enemyHasAnim = true
-            loadGraphic("iconP2", epath.. "annoyer", 150, 150)
-            addAnimation('iconP2', 'idle', {1, 3, 2, 0, 5, 4}, false, 0) -- idle, lose, left, down, up, right
-        end
-        if songName:lower() == "big-problem" then
-            loadGraphic("iconP1", ppath.. "runa", 150, 150)
-            addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0) -- idle, lose, left, down, up, right
-            setProperty('iconP1.flipX', true)
-        end
-        if songName:lower() == "discord-annoyer" then
-            enemyHasAnim = true
-            loadGraphic("iconP2", epath.. "runa", 150, 150)
-            addAnimation('iconP2', 'idle', {1, 3, 2, 0, 5, 4}, false, 0) -- idle, lose, left, down, up, right
-        end
-        if songName:lower() == "depression" then
-            loadGraphic("iconP1", ppath.. "annoyer", 150, 150)
-            addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0) -- idle, lose, left, down, up, right
-            setProperty('iconP1.flipX', true)
-        end
-        if songName:lower() == "shut-up" then
-            loadGraphic("iconP1", ppath.. "annoyer", 150, 150)
-            addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0) -- idle, lose, left, down, up, right
-            setProperty('iconP1.flipX', true)
+        local icons = songIconSettings[songName:lower()]
+        if icons then
+            if icons.playerIcon then
+                loadGraphic("iconP1", ppath .. icons.playerIcon[1], 150, 150)
+                addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0)
+                setProperty('iconP1.flipX', icons.playerIcon[2])
+            end
 
-            enemyHasAnim = true
-            loadGraphic("iconP2", epath.. "random-girl", 150, 150)
-            addAnimation('iconP2', 'idle', {1, 3, 2, 0, 5, 4}, false, 0) -- idle, lose, left, down, up, right
+            if icons.enemyIcon then
+                loadGraphic("iconP2", epath .. icons.enemyIcon[1], 150, 150)
+                addAnimation('iconP2', 'idle', {1, 3, 2, 0, 5, 4}, false, 0)
+            end
         end
-        if songName:lower() == "myself" then
-            loadGraphic("iconP1", ppath.. "runa", 150, 150)
-            addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0) -- idle, lose, left, down, up, right
-            setProperty('iconP1.flipX', true)
-        end
+    end
+end
+
+function onStepHit()
+    if curStep == 784 and songName:lower() == "depression" then
+        loadGraphic("iconP1", ppath.. "runa", 150, 150)
+        addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0) -- idle, lose, left, down, up, right
+        setProperty('iconP1.flipX', true)
     end
 end
 
 
 function onSongStart()
     defaultPosition = {getProperty('iconP1.y'), getProperty('iconP2.y')}
-    debugPrint(boyfriendName)
 end
 
 function onUpdatePost(elapsed)

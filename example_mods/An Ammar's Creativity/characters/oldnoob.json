@@ -1,13 +1,14 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-11,
 				1
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "defend",
+			"fps": 24,
+			"name": "Noob Defend",
 			"indices": [
 				0,
 				1,
@@ -20,114 +21,113 @@
 				8,
 				9,
 				10
-			],
-			"name": "Noob Defend"
+			]
 		},
 		{
-			"loop": false,
 			"offsets": [
 				13,
 				1
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Noob Left0",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Noob Left0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				8,
 				-12
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Noob Down0",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Noob Down0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-5,
 				16
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Noob Up0",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Noob Up0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				35,
 				11
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Noob Right0",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Noob Right0"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				85,
 				10
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT-alt",
-			"indices": [],
-			"name": "Noob Left Attack"
+			"fps": 24,
+			"name": "Noob Left Attack",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				11,
 				9
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT-alt",
-			"indices": [],
-			"name": "Noob Right Attack"
+			"fps": 24,
+			"name": "Noob Right Attack",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				3,
 				12
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN-alt",
-			"indices": [],
-			"name": "Noob Down Attack"
+			"fps": 24,
+			"name": "Noob Down Attack",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				3,
 				5
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP-alt",
-			"indices": [],
-			"name": "Noob Up Attack"
+			"fps": 24,
+			"name": "Noob Up Attack",
+			"indices": []
 		},
 		{
-			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": true,
 			"fps": 24,
-			"name": "Noob Idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Noob Idle"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Andro",
 	"position": [
-		120,
-		220
+		-200,
+		-40
 	],
 	"healthicon": "face",
 	"flip_x": true,
