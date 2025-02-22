@@ -1295,6 +1295,17 @@ function onUpdatePost(elapsed)
         end
         shakeUpdate(elapsed)
     end
+    if isCamWatch then
+		isCamWatchPrev = true;
+		setProperty("camFollowPos.x", camWatchX)
+		setProperty("camFollowPos.y", camWatchY)
+		setProperty("camGame.zoom", camWatchZoom)
+	else
+		if isCamWatchPrev then
+
+		end
+		isCamWatchPrev = false;
+	end
 end
 
 function shakeUpdate(elapsed)
