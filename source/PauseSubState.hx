@@ -261,7 +261,7 @@ class PauseSubState extends MusicBeatSubstate
 		var daSelected:String = menuItems[curSelected];
 		switch (daSelected)
 		{
-			case 'Skip Time':
+			case 'Song Skippew :3':
 				if (controls.UI_LEFT_P)
 				{
 					FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
@@ -455,7 +455,7 @@ class PauseSubState extends MusicBeatSubstate
 			item.lerpSpeed = 1.25;
 			grpMenuShit.add(item);
 
-			if(menuItems[i] == 'Skip Time')
+			if (menuItems[i] == 'Song Skippew :3')
 			{
 				skipTimeText = new FlxText(0, 0, 0, '', 64);
 				skipTimeText.setFormat(Paths.font("vcr.ttf"), 64, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
