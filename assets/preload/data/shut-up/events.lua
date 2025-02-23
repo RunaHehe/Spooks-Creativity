@@ -8,29 +8,40 @@ local switcha = false
 
 local intense = false
 
+local RGGLITCH
+
+
+
 function onCreatePost()
     mechanic = not EasyMode and Mechanic
+
 
     luaDebugMode = true
     makeLuaSprite('shake', '', 0, 0)
     if shadersEnabled then
         initLuaShader("RGB_PIN_SPLIT")
         initLuaShader("GlitchShader")
+        initLuaShader("RGGLITCH")
 
         makeLuaSprite("lens", nil, 0, 0); setSpriteShader("lens", "RGB_PIN_SPLIT")
         makeLuaSprite("glitch", nil, 0.001, 0); setSpriteShader("glitch", "GlitchShader")
+        makeLuaSprite("rgglitch", nil, 0, 0); setSpriteShader("rgglitch", "RGGLITCH")
 
         setShaderFloat('lens', 'amount', 0.0)
         setShaderFloat('lens', 'distortionFactor', 0.05)
 
         setShaderFloat('glitch', 'GlitchAmount', 0.001)
 
+        setShaderFloat("rgglitch", "iTime", 0.001)
+        setShaderFloat("rgglitch", "intensity", 0.001)
+
         runHaxeCode([[
             var lensShader = new ShaderFilter(game.getLuaObject("lens").shader);
             var glitchShader = new ShaderFilter(game.getLuaObject("glitch").shader);
-            camBDiscord.setFilters([lensShader, glitchShader]);
-            camDiscord.setFilters([lensShader, glitchShader]);
-            game.camHUD.setFilters([lensShader, glitchShader]);
+            var rgbgShader = new ShaderFilter(game.getLuaObject("rgglitch").shader);
+            camBDiscord.setFilters([lensShader, glitchShader, rgbgShader]);
+            camDiscord.setFilters([lensShader, glitchShader, rgbgShader]);
+            game.camHUD.setFilters([lensShader, glitchShader, rgbgShader]);
          ]])
     end
 
@@ -73,9 +84,6 @@ function onUpdate(elapsed)
             if mechanic then
                 setProperty('camBDiscord.angle', continuous_sin(curDecBeat/2) * 8)
             end
-            if HardMode then
-                setProperty('camHUD.angle', continuous_sin(curDecBeat/2) * -6)
-            end
             local timeshake = ((ReduceShakeOption or not mechanic) and 0.2 or 1)
             cameraShake('camHUD', 0.01 * timeshake, 0.1 * timeshake)
             cameraShake('camHUD', 0.01 * timeshake, 0.1 * timeshake)
@@ -107,6 +115,8 @@ function onUpdate(elapsed)
             end
             
         end
+
+        setShaderFloat("glitch", "iTime", getSongPosition() * 0.001)
 
         if curStep >= 512 and curStep < 768 then
             setProperty('opponent.x', 320 + getRandomFloat(-2, 2))
@@ -201,6 +211,14 @@ function onStepEvent(curStep)
         cancelTween('camHUDy')
         cancelTween('camHUDangle')
     end
+    if curStep == 1537 then
+        setProperty('camHUD.x', 0)
+        setProperty('camHUD.y', 0)
+        setProperty('camHUD.angle', 0)
+        cancelTween('camHUDx')
+        cancelTween('camHUDy')
+        cancelTween('camHUDangle')
+    end
     if curStep == 768 then
         opponentHitDistract = true
     end
@@ -235,29 +253,51 @@ function onStepHit()
             end
         end
     end
-    if Mechanic and curStep >= 640 and curStep < 1024 then
+    if (curStep >= 256 and curStep < 512) or (curStep >= 1152 and curStep < 1536) then
         if curStep % 8 == 0 then
-            doTweenX('camHUDx', 'camHUD', EasyMode and 15 or 25, crochet/1000, 'linear')
-            if HardMode then
-                doTweenAngle('camHUDangle', 'camHUD', 4, crochet/1000/2, 'quadOut')
-            end
+            doTweenAngle('camHUDangle', 'camHUD', 6, crochet/1200/2.1, '')
         end
         if curStep % 8 == 4 then
-            doTweenX('camHUDx', 'camHUD', EasyMode and -15 or -25, crochet/1000, 'linear')
-            if HardMode then
-                doTweenAngle('camHUDangle', 'camHUD', -4, crochet/1000/2, 'quadOut')
-            end
+            doTweenAngle('camHUDangle', 'camHUD', -6, crochet/1200/2.1, '')
+        end
+    end
+    if Mechanic and curStep >= 640 and curStep < 1024 then
+        if curStep % 8 == 0 then
+            doTweenX('camHUDx', 'camHUD', 30, crochet/1150, '')
+        end
+        if curStep % 8 == 4 then
+            doTweenX('camHUDx', 'camHUD', -30, crochet/1150, '')
         end
         if curStep % 4 == 0 then
-            doTweenY('camHUDy', 'camHUD', EasyMode and -15 or -25, crochet/1000/2, 'quadOut')
+            doTweenY('camHUDy', 'camHUD', -30, crochet/1000/2, 'circOut')
         end
         if curStep % 4 == 2 then
-            doTweenY('camHUDy', 'camHUD', 0, crochet/1000/2, 'quadIn')
+            doTweenY('camHUDy', 'camHUD', 0, crochet/1000/2, 'circIn')
         end
     end
 
     if curStep >= 768 and curStep < 1024 and curStep % 4 == 0 then
         triggerEvent("Add Camera Zoom", 0.015, 0.03 )
+    end
+
+    if curStep == 1408 then
+        opponentHitDistract = true
+
+        if curStep % 8 == 0 then
+            doTweenX('camHUDx', 'camHUD', 30, crochet/1150, '')
+        end
+        if curStep % 8 == 4 then
+            doTweenX('camHUDx', 'camHUD', -30, crochet/1150, '')
+        end
+        if curStep % 4 == 0 then
+            doTweenY('camHUDy', 'camHUD', -30, crochet/1000/2, 'circOut')
+        end
+        if curStep % 4 == 2 then
+            doTweenY('camHUDy', 'camHUD', 0, crochet/1000/2, 'circIn')
+        end
+    end
+    if curStep == 1536 then
+        opponentHitDistract = false
     end
 
     if beatHardSnares then
@@ -274,11 +314,11 @@ function onStepHit()
     if opponentHitDistract and mechanic then
         if curStep % 8 == 0 then
             for i = 0, 3 do -- _G['defaultOpponentStrumX'..i]
-                noteTweenX('noteComeIN'..i, i, _G['defaultOpponentStrumX'..i] + 350, crochet/1000, 'expoIn')
+                noteTweenX('noteComeIN'..i, i, _G['defaultOpponentStrumX'..i] + 350, crochet/1200, 'circIn')
             end
         elseif curStep % 8 == 4 then
             for i = 0, 3 do -- _G['defaultOpponentStrumX'..i]
-                noteTweenX('noteComeIN'..i, i, _G['defaultOpponentStrumX'..i], crochet/1000, 'quadOut')
+                noteTweenX('noteComeIN'..i, i, _G['defaultOpponentStrumX'..i], crochet/1200, 'circOut')
             end
             setProperty('shake.x', 75)
             doTweenX('shake', 'shake', 0, crochet/1000*1.5, 'quadOut')
@@ -286,6 +326,9 @@ function onStepHit()
             setProperty("glitchy.alpha", 0.3 * (HardMode and 1.25 or 1))
             doTweenAlpha('glitchy', 'glitchy', 0, crochet/1000, 'expoIn')
             addHealth(-0.075 * (HardMode and 1.25 or 1))
+
+            setProperty("rgglitch.alpha", 0.3 * (1.25 or 1))
+            doTweenAlpha('rgglitch', 'rgglitch', 0, crochet/1000, 'circIn')
 
             setProperty('songSpeed', getPropertyFromClass("PlayState", "SONG.speed") * 0.6 * (HardMode and 0.9 or 1))
             triggerEvent('Change Scroll Speed', 1, crochet/1000)
@@ -314,3 +357,44 @@ function continuous_sin(x)
     return math.sin((x % 1) * 2 * math.pi)
 end
 function lerp(a, b, t) return a + (b - a) * t end
+
+function onBeatHit()
+    if Mechanic and curBeat >= 160 and curBeat < 256 then
+        if curBeat % 2 == 0 then
+            doTweenAngle('camHUDangle', 'camHUD', 5, crochet/1300/2, 'circOut')
+        end
+        if curBeat % 2 == 1 then
+            doTweenAngle('camHUDangle', 'camHUD', -5, crochet/1300/2, 'circOut')
+        end
+    end
+    if Mechanic and curBeat >= 352 and curBeat < 384 then
+        if curBeat % 2 == 0 then
+            doTweenAngle('camHUDangle', 'camHUD', 5, crochet/1300/2, 'circOut')
+        end
+        if curBeat % 2 == 1 then
+            doTweenAngle('camHUDangle', 'camHUD', -5, crochet/1300/2, 'circOut')
+        end
+    end
+    if shadersEnabled and curBeat >= 96 and curBeat < 128 then
+        if curBeat % 2 == 0 then
+            setShaderFloat("rgglitch", "intensity", 25)
+            setShaderFloat("rgglitch", "iTime", 200)
+        end
+        if curBeat % 2 == 1 then
+            setShaderFloat("rgglitch", "intensity", 45)
+            setShaderFloat("rgglitch", "iTime", 600)
+        end
+    end
+    if shadersEnabled and curBeat == 128 then
+        setShaderFloat("rgglitch", "intensity", 0)
+        setShaderFloat("rgglitch", "iTime", 0)
+    end
+    if Mechanic and curBeat >= 352 and curBeat < 384 then
+        if curBeat % 2 == 0 then
+            doTweenAngle('camHUDangle', 'camHUD', 5, crochet/1300/2, 'circOut')
+        end
+        if curBeat % 2 == 1 then
+            doTweenAngle('camHUDangle', 'camHUD', -5, crochet/1300/2, 'circOut')
+        end
+    end
+end

@@ -121,7 +121,10 @@ function onStepEvent(curStep)
     if curStep == 544 then 
         setGlobalFromScript("stages/discordStage", "disableBFTextRemove", false)
         setGlobalFromScript("stages/discordStage", "disableBFTextTyping", false)
-        setTextString("playerText", "Mind if I take over? :3")
+        setTextString("playerText", "...")
+    end
+    if curStep == 573 then
+        setTextString("playerText", "(Spook is typing...)")
     end
     if curStep == 864 then
         loadGraphic("player", "chars/Annoying User")
