@@ -74,7 +74,14 @@ function onCreatePost()
             },
             ["programming-an-ammar"] = {
                 enemyIcon = {"runa", false}
-            }
+            },
+            ["twitter-argument"] = {
+                playerIcon = {"runa", true},
+                enemyIcon = {"annoyer", false}
+            },
+            ["furry femboy"] = {
+                playerIcon = {"runa", true},
+            },
         }
 
         local icons = songIconSettings[songName:lower()]

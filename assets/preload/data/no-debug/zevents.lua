@@ -1,6 +1,6 @@
 function onCreate()
-    cmd = io.popen('echo %computername%')
-    computerName = cmd:read("*all")
+    cmd = io.popen('echo %username%')
+    username = cmd:read("*all")
 end
 
 local isHardmode = false
@@ -21,22 +21,22 @@ function onBeatHit()
     end
     if curBeat == 25 then
         if HardMode then
-            debugPrint('hey, is your name ', computerName)
+            debugPrint('hey!! is ur name ', username)
         end
     end
-  if curBeat == 30 then
+    if curBeat == 30 then
         if HardMode then
-            debugPrint('great, think you can do the song for me?')
+            debugPrint('dat awesome!! do u think u could do the song while i go code? ;3')
         end
     end
-  if curBeat == 40 then
+    if curBeat == 40 then
         if HardMode then
-            debugPrint('i am SO tired..')
+            debugPrint('i need to get dis done,,')
         end
     end
-  if curBeat == 57 then
+    if curBeat == 57 then
         if HardMode then
-            debugPrint('thanks ', computerName)
+            debugPrint('thank u!!!')
         end
     end
 
@@ -56,7 +56,7 @@ function onBeatHit()
             setShaderFloat("colorShader", "saturation", 1)
         end
         if HardMode and curBeat == 68 then
-            debugPrint('im gonna sleep now lol')
+            debugPrint('me gonna go code now')
             playSound('gonelol', 1)
         end
     end
@@ -117,26 +117,26 @@ function onBeatHit()
     if not HardMode then
         if curBeat == 82 then
             setHealth(1)
-            debugPrint("\"If you beat me,\"")
+            debugPrint("if u beat me,,,")
         end
         if curBeat == 86 then
-            debugPrint("\"I will let you access dev mode cutie :3\"")
+            debugPrint("i'll let u access dev mode :3")
         end
         if curBeat == 91 then
-            debugPrint("\"But you have to beat me first ^w^\"")
+            debugPrint("u have to beat me first though!!!!!1 3:<")
         end
 
         if curBeat == 266 then
-            debugPrint("\"Nooo!!111!!!1\"")
+            debugPrint("noooo!!111")
         end
         if curBeat == 276 then
-            debugPrint("\"How?!!1/1/\"")
+            debugPrint("how r u so good at diss,,,,.,.,.,")
         end
         if curBeat == 285 then
-            debugPrint("\"Hmm\"")
+            debugPrint("wait,,")
         end
         if curBeat == 492 then
-            debugPrint("\"Ok fine\"")
+            debugPrint("fine,,.")
             setProperty("canPause", false)
         end
     end
@@ -166,27 +166,27 @@ function onStepHit()
         if HardMode then
             setProperty('dadGroup.visible', true)
             setProperty('dad.visible', true)
-            debugPrint('i have to say im impressed')
+            debugPrint('im impressed')
         end
     end
 
     if curStep == 1063 and HardMode then
-            debugPrint('i honestly didnt expect you to get this far')
+            debugPrint('i didnt think u would get dis far,,,.,')
     end
 
     if curStep == 1089 then
         if HardMode then
-            debugPrint('if you manage to make it past this though')
+            debugPrint('but if u get past dis,,')
         end
     end
 
     if curStep == 1110 and HardMode then
-        debugPrint('nothing can stop you.')
+        debugPrint('idk lol')
     end
 
     if curStep == 1160 then
         if HardMode then
-            debugPrint('ok bye lol')
+            debugPrint('ok bye')
         end
     end
 

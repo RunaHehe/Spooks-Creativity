@@ -20,11 +20,11 @@ function onCreatePost()
     makeLuaSprite('shake', '', 0, 0)
     if shadersEnabled then
         initLuaShader("RGB_PIN_SPLIT")
-        initLuaShader("GlitchShader")
+        initLuaShader("Glitch")
         initLuaShader("RGGLITCH")
 
         makeLuaSprite("lens", nil, 0, 0); setSpriteShader("lens", "RGB_PIN_SPLIT")
-        makeLuaSprite("glitch", nil, 0.001, 0); setSpriteShader("glitch", "GlitchShader")
+        makeLuaSprite("glitch", nil, 0.001, 0); setSpriteShader("glitch", "Glitch")
         makeLuaSprite("rgglitch", nil, 0, 0); setSpriteShader("rgglitch", "RGGLITCH")
 
         setShaderFloat('lens', 'amount', 0.0)
@@ -68,6 +68,15 @@ function onCreatePost()
     screenCenter("glitchy", 'xy')
     setProperty('glitchy.alpha', 0)
 
+    makeAnimatedLuaSprite("rgbfacku", 'rgglitch', 0,0)
+    addAnimationByPrefix("rgbfacku", "rgglitch", "rg", 24, true)
+    playAnim('rgbfacku', 'rgglitch')
+    setBlendMode("rgbfacku", 'add')
+    addLuaSprite('rgbfacku')
+    setObjectCamera("rgbfacku", 'other')
+    screenCenter("rgbfacku", 'xy')
+    setProperty('rgbfacku.alpha', 0)
+
     setProperty('defaultCamZoom', 2)
     setProperty('camBDiscord.alpha', 0)
 
@@ -76,6 +85,11 @@ function onCreatePost()
     setHealthBarColors("FFFFFF", "ffc400")
 
     setProperty('iconSpeed', 2)
+
+    if intense then
+        setShaderFloat("rgglitch", "intensity", 8)
+
+    end
 end
 
 function onUpdate(elapsed)
@@ -263,10 +277,10 @@ function onStepHit()
     end
     if Mechanic and curStep >= 640 and curStep < 1024 then
         if curStep % 8 == 0 then
-            doTweenX('camHUDx', 'camHUD', 30, crochet/1150, '')
+            doTweenX('camHUDx', 'camHUD', 30, crochet/1150, 'circOut')
         end
         if curStep % 8 == 4 then
-            doTweenX('camHUDx', 'camHUD', -30, crochet/1150, '')
+            doTweenX('camHUDx', 'camHUD', -30, crochet/1150, 'circIn')
         end
         if curStep % 4 == 0 then
             doTweenY('camHUDy', 'camHUD', -30, crochet/1000/2, 'circOut')
@@ -323,12 +337,10 @@ function onStepHit()
             setProperty('shake.x', 75)
             doTweenX('shake', 'shake', 0, crochet/1000*1.5, 'quadOut')
 
-            setProperty("glitchy.alpha", 0.3 * (HardMode and 1.25 or 1))
+            setProperty("glitchy.alpha", 0.9 * (HardMode and 1.25 or 1))
             doTweenAlpha('glitchy', 'glitchy', 0, crochet/1000, 'expoIn')
             addHealth(-0.075 * (HardMode and 1.25 or 1))
 
-            setProperty("rgglitch.alpha", 0.3 * (1.25 or 1))
-            doTweenAlpha('rgglitch', 'rgglitch', 0, crochet/1000, 'circIn')
 
             setProperty('songSpeed', getPropertyFromClass("PlayState", "SONG.speed") * 0.6 * (HardMode and 0.9 or 1))
             triggerEvent('Change Scroll Speed', 1, crochet/1000)
@@ -353,18 +365,16 @@ function gltichBop(multiply)
     end
 end
 
-function continuous_sin(x)
-    return math.sin((x % 1) * 2 * math.pi)
-end
+function continuous_sin(x) return math.sin((x % 1) * 2 * math.pi) end
 function lerp(a, b, t) return a + (b - a) * t end
 
 function onBeatHit()
     if Mechanic and curBeat >= 160 and curBeat < 256 then
         if curBeat % 2 == 0 then
-            doTweenAngle('camHUDangle', 'camHUD', 5, crochet/1300/2, 'circOut')
+            doTweenAngle('camHUDangle', 'camHUD', 5, crochet/1200/2, 'circOut')
         end
         if curBeat % 2 == 1 then
-            doTweenAngle('camHUDangle', 'camHUD', -5, crochet/1300/2, 'circOut')
+            doTweenAngle('camHUDangle', 'camHUD', -5, crochet/1200/2, 'circOut')
         end
     end
     if Mechanic and curBeat >= 352 and curBeat < 384 then
@@ -382,7 +392,7 @@ function onBeatHit()
         end
         if curBeat % 2 == 1 then
             setShaderFloat("rgglitch", "intensity", 45)
-            setShaderFloat("rgglitch", "iTime", 600)
+           setShaderFloat("rgglitch", "iTime", 600)
         end
     end
     if shadersEnabled and curBeat == 128 then

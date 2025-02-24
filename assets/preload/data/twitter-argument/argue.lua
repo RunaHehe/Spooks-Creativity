@@ -121,10 +121,8 @@ function onCreatePost()
 
 
     setProperty("dad.healthIcon", "twitter")
-    setProperty("boyfriend.healthIcon", "spook")
     runHaxeCode([[
         game.iconP2.changeIcon("icon-twitter");
-        game.iconP1.changeIcon("icon-spook");
     ]])
     setHealthBarColors("AC6BE5", "912B29")
 
