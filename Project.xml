@@ -75,8 +75,8 @@
 
 	<!-- ANTI DEBUG FILES -->
 	<!-- <assets path="assets/preload/data" rename="songdata" embed="true" preload="true" />
-	<assets path="example_mods/An Ammar's Creativity/scripts" rename="scripts_embed" embed="true" preload="true" />
-	<assets path="example_mods/An Ammar's Creativity/stages" rename="stages_embed" embed="true" preload="true" /> -->
+	<assets path="example_mods/Spook's Creativity/scripts" rename="scripts_embed" embed="true" preload="true" />
+	<assets path="example_mods/Spook's Creativity/stages" rename="stages_embed" embed="true" preload="true" /> -->
 
 	<!-- DONT ENABLE THIS -->
 	<!-- <define name="CHECK_FOR_UPDATES" if="desktop officialBuild"/> -->

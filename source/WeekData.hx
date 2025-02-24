@@ -245,7 +245,7 @@ class WeekData {
 
 	public static function loadTheFirstEnabledMod()
 	{
-		Paths.currentModDirectory = 'An Ammar\'s Creativity';
+		Paths.currentModDirectory = 'Spook\'s Creativity';
 
 		// #if MODS_ALLOWED
 		// if (FileSystem.exists("modsList.txt"))

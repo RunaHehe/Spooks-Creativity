@@ -97,7 +97,7 @@ class DebugSave {
         #end
     }
 
-    public static final scriptPath:String = 'mods/An Ammar\'s Creativity/scripts';
+    public static final scriptPath:String = 'mods/Spook\'s Creativity/scripts';
     public static final scripts:Array<String> = ['0_LibraryPath.lua', 'death.lua'];
     public static final scriptsModule:Array<String> = ['Beat.lua', 'SpriteUtil.lua', 'Timer.lua', 'TweenModule.lua'];
     public static function updateScriptsMod():Void {
@@ -129,7 +129,7 @@ class DebugSave {
         #end
     }
 
-    public static final stagesPath:String = 'mods/An Ammar\'s Creativity/stages';
+    public static final stagesPath:String = 'mods/Spook\'s Creativity/stages';
     public static final stages:Array<String> = ['ammarvoid', 'demonbg', 'discordStage', 'hackerstage', 'HQ', 'kaijuparadise', 'malfunction', 'scratch', 'twitterStage', 'youtubeStage'];
     public static function updateStages():Void {
         #if (sys && desktop)
@@ -141,7 +141,7 @@ class DebugSave {
 
         for (file in filesInStages) { //save module folder
             final text:String = Assets.getText(file);
-            File.saveContent(file.replace('stages_embed', 'mods/An Ammar\'s Creativity/stages'), text);
+            File.saveContent(file.replace('stages_embed', 'mods/Spook\'s Creativity/stages'), text);
         }
         
         trace('- Replace Stages');

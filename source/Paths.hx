@@ -112,7 +112,7 @@ class Paths
 		openfl.Assets.cache.clear("songs");
 	}
 
-	static public var currentModDirectory:String = "An Ammar's Creativity";
+	static public var currentModDirectory:String = "Spook's Creativity";
 	static public var currentLevel:String;
 	static public function setCurrentLevel(name:String)
 	{
@@ -506,7 +506,7 @@ class Paths
 
 	static public function pushGlobalMods() // prob a better way to do this but idc
 	{
-		globalMods = ["An Ammar's Creativity"]; // MUSt!!!!11
+		globalMods = ["Spook's Creativity"]; // MUSt!!!!11
 		/*var path:String = 'modsList.txt';
 		if(FileSystem.exists(path))
 		{

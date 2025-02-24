@@ -1018,7 +1018,7 @@ class PlayState extends MusicBeatState
 		if (desc == null) desc = '';
 		if (diffColor[ClientPrefs.aDifficulty.toLowerCase()] != null) color = diffColor[ClientPrefs.aDifficulty.toLowerCase()];
 		songLogo = new FlxSprite(0, 0);
-		if (FileSystem.exists(Paths.mods("An Ammar's Creativity" + '/images/intro/'+path+'.png'))) {
+		if (FileSystem.exists(Paths.mods("Spook's Creativity" + '/images/intro/'+path+'.png'))) {
 			songLogo.visible = true;
 			songLogo.loadGraphic(Paths.image('intro/'+path));
 		} else {
