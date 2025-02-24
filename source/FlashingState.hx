@@ -25,13 +25,12 @@ class FlashingState extends MusicBeatState
 
 		warnText = new FlxText(0, 0, FlxG.width,
 			"
-			NOTICE\n
-			This Mod contains some flashing lights!\n
-			You can disable it on the options menu.\n
-			And also, don't try cheat!\n
-			You have to enable developer mode first!\n
-			Anyways,\n
-			Thank you for playing!",
+			Hi!\n
+			Thanks for downloading the mod :3\n
+			The mod contains alot of flashing lights..\n
+			But you can disable them in the options menu!\n
+			Enjoy the mod!\n
+			And dont try to cheat 3:<",
 			32);
 		warnText.setFormat(Paths.font("Phantomuff/aPhantomMuff Full Letters.ttf"), 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter();
