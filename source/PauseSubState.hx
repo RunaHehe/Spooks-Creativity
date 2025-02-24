@@ -89,7 +89,7 @@ class PauseSubState extends MusicBeatSubstate
 			if(!PlayState.instance.startingSong)
 			{
 				num = 1;
-				menuItemsOG.insert(3, 'Song Skippew :3');
+				menuItemsOG.insert(3, 'Song Skippew');
 			}
 			menuItemsOG.insert(3 + num, 'Kill Song UwU');
 			//menuItemsOG.insert(4 + num, 'Pwactice!');
@@ -164,7 +164,7 @@ class PauseSubState extends MusicBeatSubstate
 		add(levelCredit);
 
 		
-		chartingText = new FlxText(20, 15 + 101, 0, "CHAWTING MODE :33", 32);
+		chartingText = new FlxText(20, 15 + 101, 0, "CHAWTING MODE", 32);
 		chartingText.scrollFactor.set();
 		chartingText.setFormat(Paths.font(fonter), 32);
 		chartingText.alignment = RIGHT;
@@ -174,7 +174,7 @@ class PauseSubState extends MusicBeatSubstate
 		chartingText.visible = PlayState.chartingMode;
 		add(chartingText);
 
-		practiceText = new FlxText(20, 15 + 101, 0, "PWACTICING! :3", 32);
+		practiceText = new FlxText(20, 15 + 101, 0, "PWACTICING!", 32);
 		practiceText.scrollFactor.set();
 		practiceText.setFormat(Paths.font(fonter), 32);
 		practiceText.alignment = RIGHT;
@@ -261,7 +261,7 @@ class PauseSubState extends MusicBeatSubstate
 		var daSelected:String = menuItems[curSelected];
 		switch (daSelected)
 		{
-			case 'Song Skippew :3':
+			case 'Song Skippew':
 				if (controls.UI_LEFT_P)
 				{
 					FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
@@ -326,7 +326,7 @@ class PauseSubState extends MusicBeatSubstate
 				case "Stop Chawting owo":
 					restartSong();
 					PlayState.chartingMode = false;
-				case 'Song Skippew :3':
+				case 'Song Skippew':
 					if(curTime < Conductor.songPosition)
 					{
 						PlayState.startOnTime = curTime;
@@ -455,7 +455,7 @@ class PauseSubState extends MusicBeatSubstate
 			item.lerpSpeed = 1.25;
 			grpMenuShit.add(item);
 
-			if (menuItems[i] == 'Song Skippew :3')
+			if (menuItems[i] == 'Song Skippew')
 			{
 				skipTimeText = new FlxText(0, 0, 0, '', 64);
 				skipTimeText.setFormat(Paths.font("vcr.ttf"), 64, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
