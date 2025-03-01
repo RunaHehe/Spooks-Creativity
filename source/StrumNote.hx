@@ -4,13 +4,10 @@ import flixel.math.FlxPoint;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
-#if MODCHARTS import math.Vector3; #end
-#if MODCHARTS_EDWHAK
 import flixel.addons.effects.FlxSkewedSprite;
-#end
 using StringTools;
 
-class StrumNote extends #if MODCHARTS_EDWHAK FlxSkewedSprite #else FlxSprite #end
+class StrumNote extends FlxSkewedSprite
 {
 	#if MODCHARTS
 	public var vec3Cache:Vector3 = new Vector3(); // for vector3 operations in modchart code

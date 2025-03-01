@@ -15,7 +15,7 @@ import flixel.FlxState;
 import flixel.FlxCamera;
 import flixel.FlxBasic;
 
-class MusicBeatState extends #if MODCHARTS_EDWHAK modcharting.ModchartMusicBeatState #else FlxUIState #end
+class MusicBeatState extends modcharting.ModchartMusicBeatState
 {
 	private var curSection:Int = 0;
 	private var stepsToDo:Int = 0;
