@@ -189,6 +189,10 @@ class Main extends Sprite
 
 		errMsg += "\nUncaught Error: " + e.error;
 
+		#if desktop
+		DiscordClient.changePresence("Game Crashed!", e.error);
+		#end
+
 		if (!FileSystem.exists("./crash/"))
 			FileSystem.createDirectory("./crash/");
 
