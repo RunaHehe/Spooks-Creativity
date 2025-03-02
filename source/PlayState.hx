@@ -82,9 +82,11 @@ import sys.io.File;
 import hxvlc.flixel.FlxVideo;
 import hxvlc.flixel.FlxVideoSprite;
 #end
+#if MODCHARTS_EDWHAK 
 import modcharting.ModchartFuncs;
 import modcharting.NoteMovement;
 import modcharting.PlayfieldRenderer;
+#end
 
 import Vocals.VocalsData;
 import stagesprite.DiscordMembers;
@@ -1109,6 +1111,7 @@ class PlayState extends MusicBeatState
 		eventPushedMap.clear();
 		eventPushedMap = null;
 
+		#if MODCHARTS_EDWHAK
 		playfieldRenderer = new PlayfieldRenderer(strumLineNotes, notes, this);
 		playfieldRenderer.cameras = [camHUD];
 		add(playfieldRenderer);
@@ -1262,7 +1265,13 @@ class PlayState extends MusicBeatState
 			FlxG.stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
 			FlxG.stage.addEventListener(KeyboardEvent.KEY_UP, onKeyRelease);
 		}
-		ModchartFuncs.loadLuaFunctions();
+		#if MODCHARTS 
+			if (useModchart) 
+				modManager.modchartEnable = true;
+		#end
+		#if MODCHARTS_EDWHAK
+			ModchartFuncs.loadLuaFunctions();
+		#end
 		callOnLuas('onCreatePost', []);
 
 		super.create();
@@ -1876,8 +1885,6 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown():Void
 	{
-		generateStaticArrows(0);
-		generateStaticArrows(1);
 		if(startedCountdown) {
 			callOnLuas('onStartCountdown', []);
 			return;
@@ -1898,7 +1905,9 @@ class PlayState extends MusicBeatState
 				//if(ClientPrefs.middleScroll) opponentStrums.members[i].visible = false;
 			}
 
+			#if MODCHARTS_EDWHAK
 			NoteMovement.getDefaultStrumPos(this);
+			#end
 
 
 			startedCountdown = true;

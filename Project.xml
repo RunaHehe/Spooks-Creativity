@@ -58,7 +58,8 @@
 	<define name="ACHIEVEMENTS_ALLOWED" />
 	<define name="VIDEOS_ALLOWED" if="web || windows || android" unless="32bits"/>
 
-	<define name="PSYCH" /> <define name="PSYCHVERSION" value="0.6.3"/> <haxelib name="fnf-modcharting-tools" /> 
+	<define name="MODCHARTS"/> 
+	<!-- <define name="MODCHARTS_EDWHAK"/>  <define name="PSYCH" /> <define name="PSYCHVERSION" value="0.6.3"/> <haxelib name="fnf-modcharting-tools" /> -->
 	<define name="MOBILE" if="mobile"/> <!--  if="mobile" -->
 
 	<!-- <define name="PSYCH_WATERMARKS"/> DELETE THIS TO REMOVE WATERMARKS/DEV NAMES ON TITLE SCREEN -->

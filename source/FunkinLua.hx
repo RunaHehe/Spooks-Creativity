@@ -1,5 +1,8 @@
 package;
 
+#if MODCHARTS
+import modchart.SubModifier;
+#end
 #if LUA_ALLOWED
 import llua.Lua;
 import llua.LuaL;

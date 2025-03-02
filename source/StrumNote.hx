@@ -4,10 +4,13 @@ import flixel.math.FlxPoint;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
+#if MODCHARTS import math.Vector3; #end
+#if MODCHARTS_EDWHAK
 import flixel.addons.effects.FlxSkewedSprite;
+#end
 using StringTools;
 
-class StrumNote extends FlxSkewedSprite
+class StrumNote extends #if MODCHARTS_EDWHAK FlxSkewedSprite #else FlxSprite #end
 {
 	private var colorSwap:ColorSwap;
 	public var resetAnim:Float = 0;
