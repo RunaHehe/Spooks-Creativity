@@ -14,7 +14,6 @@ import flixel.util.FlxDestroyUtil;
  */
 class FlxSkewedSprite extends FlxSprite
 {
-	
 	public var skew(default, null):FlxPoint = FlxPoint.get();
 
 	public var skewOffset:Bool = false;
@@ -93,7 +92,6 @@ class FlxSkewedSprite extends FlxSprite
 			_skewMatrix.b = skew.y * FlxAngle.TO_RAD;
 			_skewMatrix.c = skew.x * FlxAngle.TO_RAD;
 		}
-		
 	}
 
 	override public function isSimpleRender(?camera:FlxCamera):Bool

@@ -1,6 +1,5 @@
 package;
 
-import flixel.math.FlxPoint;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
@@ -118,7 +117,6 @@ class Note extends FlxSkewedSprite
 		{
 			scale.y *= ratio;
 			updateHitbox();
-			#if MODCHARTS defScale.copyFrom(scale); #end
 		}
 	}
 
@@ -259,7 +257,6 @@ class Note extends FlxSkewedSprite
 					prevNote.scale.y *= (6 / height); //Auto adjust note size
 				}
 				prevNote.updateHitbox();
-				#if MODCHARTS prevNote.defScale.copyFrom(prevNote.scale); #end
 				// prevNote.setGraphicSize();
 			} 
 
@@ -274,7 +271,6 @@ class Note extends FlxSkewedSprite
 		} else if(!isSustainNote) {
 			earlyHitMult = 1;
 		}
-		#if MODCHARTS defScale.copyFrom(scale); #end
 		x += offsetX;
 
 		dirty = false;
@@ -344,7 +340,6 @@ class Note extends FlxSkewedSprite
 		if(isSustainNote) {
 			scale.y = lastScaleY;
 		}
-		#if MODCHARTS defScale.copyFrom(scale); #end
 		updateHitbox();
 
 		if(animName != null)
@@ -382,22 +377,6 @@ class Note extends FlxSkewedSprite
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
-		#if MODCHARTS 
-		if (isSustainNote)
-			{
-				if (prevNote != null && prevNote.isSustainNote)
-					zIndex = z + prevNote.zIndex;
-				else if (prevNote != null && !prevNote.isSustainNote)
-					zIndex = z + prevNote.zIndex - 1;
-			}
-			else
-				zIndex = z;
-	
-			zIndex += desiredZIndex;
-			zIndex -= (mustPress == true ? 0 : 1);
-	
-			colorSwap.daAlpha = alphaMod * alphaMod2;
-		#end
 
 		if (mustPress)
 		{

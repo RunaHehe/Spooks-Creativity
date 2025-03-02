@@ -454,7 +454,8 @@ class NativeAudioSource
 		return value;
 	}
 
-	public function getPitch(){
+	public function getPitch()
+	{
 		return __pitch;
 	}
 

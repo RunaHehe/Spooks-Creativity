@@ -1,6 +1,5 @@
 package;
 
-import flixel.math.FlxPoint;
 import flixel.FlxG;
 import openfl.utils.Assets;
 import lime.utils.Assets as LimeAssets;
@@ -27,26 +26,6 @@ class CoolUtil
 	public static var defaultDifficulty:String = 'Normal'; //The chart that has no suffix and starting difficulty on Freeplay/Story Mode
 
 	public static var difficulties:Array<String> = ['Easy', 'Normal', 'Hard', 'Insane'];
-
-	inline public static function scale(x:Float, l1:Float, h1:Float, l2:Float, h2:Float):Float
-		return ((x - l1) * (h2 - l2) / (h1 - l1) + l2);
-
-	inline public static function clamp(n:Float, l:Float, h:Float)
-	{
-		if (n > h)
-			n = h;
-		if (n < l)
-			n = l;
-
-		return n;
-	}
-
-	public static function rotate(x:Float, y:Float, angle:Float, ?point:FlxPoint):FlxPoint
-	{
-		var p = point == null ? FlxPoint.weak() : point;
-		p.set((x * Math.cos(angle)) - (y * Math.sin(angle)), (x * Math.sin(angle)) + (y * Math.cos(angle)));
-		return p;
-	}
 	
 	inline public static function continuous_sin(x:Float)
 		return Math.sin((x % 1) * 2 * Math.PI);
@@ -54,12 +33,7 @@ class CoolUtil
 	inline public static function continuous_cos(x:Float)
 		return Math.cos((x % 1) * 2 * Math.PI);
 
-	inline public static function quantizeAlpha(f:Float, interval:Float)
-		{
-			return Std.int((f + interval / 2) / interval) * interval;
-		}
-	
-		inline public static function quantize(f:Float, snap:Float)
+	inline public static function quantize(f:Float, snap:Float)
 		{
 		// changed so this actually works lol
 		var m:Float = Math.fround(f * snap);

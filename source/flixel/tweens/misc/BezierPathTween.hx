@@ -25,7 +25,8 @@ class BezierPathTween extends FlxTween
 		super(Options, manager);
 	}
 
-	function tween(object:Dynamic, properties:Dynamic<Array<Float>>, duration:Float){
+	function tween(object:Dynamic, properties:Dynamic<Array<Float>>, duration:Float)
+	{
 		#if FLX_DEBUG
 		if (object == null)
 			throw "Cannot tween variables of an object that is null.";
@@ -48,7 +49,6 @@ class BezierPathTween extends FlxTween
 	/**
 	 * Gets the point on the path.
 	 */
-
 	override public function start():BezierPathTween
 	{
 		super.start();
@@ -71,46 +71,47 @@ class BezierPathTween extends FlxTween
 
 			if (active)
 				for (info in _propertyInfos)
-					if (info.points.length < 3){
+					if (info.points.length < 3)
+					{
 						Reflect.setProperty(info.object, info.field, info.startValue + info.range * scale);
 					}
 					else
-						Reflect.setProperty(info.object, info.field, bezierPath(scale,info.points));
+						Reflect.setProperty(info.object, info.field, bezierPath(scale, info.points));
 		}
 	}
 
 	function initializeVars():Void
-		{
-			var fieldPaths:Array<String>;
-			if (Reflect.isObject(_properties))
-				fieldPaths = Reflect.fields(_properties);
-			else
-				throw "Unsupported properties container - use an object containing key/value pairs.";
-	
-			for (fieldPath in fieldPaths)
-			{
-				var target = _object;
-				var path = fieldPath.split(".");
-				var field = path.pop();
-				for (component in path)
-				{
-					target = Reflect.getProperty(target, component);
-					if (!Reflect.isObject(target))
-						throw 'The object does not have the property "$component" in "$fieldPath"';
-				}
-				var propFieldValues = Reflect.field(_properties, fieldPath);
+	{
+		var fieldPaths:Array<String>;
+		if (Reflect.isObject(_properties))
+			fieldPaths = Reflect.fields(_properties);
+		else
+			throw "Unsupported properties container - use an object containing key/value pairs.";
 
-				var arr:BezierTweenProperty = {
-					object: target,
-					field: field,
-					startValue: Math.NaN,
-					points: propFieldValues,
-					range: propFieldValues[propFieldValues.length-1]
-				};
-	
-				_propertyInfos.push(arr);
+		for (fieldPath in fieldPaths)
+		{
+			var target = _object;
+			var path = fieldPath.split(".");
+			var field = path.pop();
+			for (component in path)
+			{
+				target = Reflect.getProperty(target, component);
+				if (!Reflect.isObject(target))
+					throw 'The object does not have the property "$component" in "$fieldPath"';
 			}
+			var propFieldValues = Reflect.field(_properties, fieldPath);
+
+			var arr:BezierTweenProperty = {
+				object: target,
+				field: field,
+				startValue: Math.NaN,
+				points: propFieldValues,
+				range: propFieldValues[propFieldValues.length - 1]
+			};
+
+			_propertyInfos.push(arr);
 		}
+	}
 
 	function setStartValues()
 	{
@@ -118,37 +119,42 @@ class BezierPathTween extends FlxTween
 		{
 			if (Reflect.getProperty(info.object, info.field) == null)
 				throw 'The object does not have the property "${info.field}"';
-			if (Math.isNaN(info.points[0])){
+			if (Math.isNaN(info.points[0]))
+			{
 				var value:Dynamic = Reflect.getProperty(info.object, info.field);
 				if (Math.isNaN(value))
 					throw 'The property "${info.field}" is not numeric.';
 
 				info.startValue = value;
 				info.points[0] = value;
-				info.range = info.points[info.points.length-1] - value;
+				info.range = info.points[info.points.length - 1] - value;
 			}
-			else{
+			else
+			{
 				info.startValue = info.points[0];
-				info.range = info.points[info.points.length-1] - info.points[0];
+				info.range = info.points[info.points.length - 1] - info.points[0];
 			}
 		}
 	}
 
-	function bezierPath(t:Float, points:Array<Float>):Float {
-        var n:Int = points.length - 1;
-        var curve:Float = 0;
+	function bezierPath(t:Float, points:Array<Float>):Float
+	{
+		var n:Int = points.length - 1;
+		var curve:Float = 0;
 
-        for (i in 0...points.length) {
-            var coeff:Float = 1;
-            for (j in 0...i) {
-                coeff = coeff * (n - j) / (j + 1);
-            }
+		for (i in 0...points.length)
+		{
+			var coeff:Float = 1;
+			for (j in 0...i)
+			{
+				coeff = coeff * (n - j) / (j + 1);
+			}
 
-            curve += coeff * Math.pow(1 - t, n - i) * Math.pow(t, i) * points[i];
-        }
+			curve += coeff * Math.pow(1 - t, n - i) * Math.pow(t, i) * points[i];
+		}
 
-        return curve;
-    }
+		return curve;
+	}
 }
 
 private typedef BezierTweenProperty =

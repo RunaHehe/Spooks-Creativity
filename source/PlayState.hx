@@ -61,7 +61,6 @@ import StageData;
 import FunkinLua;
 import DialogueBoxPsych;
 import Conductor.Rating;
-import modchart.*;
 #if (flixel >= "5.3.0")
 import flixel.sound.FlxSound;
 #else
@@ -99,10 +98,6 @@ using StringTools;
 
 class PlayState extends MusicBeatState
 {
-	#if MODCHARTS 
-	public var modManager:ModManager; 
-	public var notesToSpawn:Array<Array<Note>> = []; // too lazy to redo all unspawnNotes code so this'll handle the spawning and thats it lol
-	#end
 	public var useModchart:Bool = false;
 
 	public static var STRUM_X = 55;
@@ -907,8 +902,6 @@ class PlayState extends MusicBeatState
 		Conductor.songPosition = -5000 / Conductor.songPosition;
 
 		strumLine = new FlxSprite(ClientPrefs.middleScroll ? STRUM_X_MIDDLESCROLL : STRUM_X, 50).makeGraphic(FlxG.width, 10);
-		if (!useModchart)
-			if(ClientPrefs.downScroll) strumLine.y = FlxG.height - 150;
 
 		strumLine.scrollFactor.set();
 
@@ -951,7 +944,6 @@ class PlayState extends MusicBeatState
 
 		strumLineNotes = new FlxTypedGroup<StrumNote>();
 		add(strumLineNotes);
-		#if !MODCHARTS_EDWHAK add(grpNoteSplashes); #end
 
 		if(ClientPrefs.timeBarType == 'Song Name')
 		{
@@ -1061,9 +1053,6 @@ class PlayState extends MusicBeatState
 		// startCountdown();
 
 		generateSong(SONG.song);
-		#if MODCHARTS 
-		modManager = new ModManager(this); 
-		#end
 		#if LUA_ALLOWED
 		for (notetype in noteTypeMap.keys())
 		{
@@ -1123,7 +1112,6 @@ class PlayState extends MusicBeatState
 		playfieldRenderer = new PlayfieldRenderer(strumLineNotes, notes, this);
 		playfieldRenderer.cameras = [camHUD];
 		add(playfieldRenderer);
-		add(grpNoteSplashes);
 
 		// After all characters being loaded, it makes then invisible 0.01s later so that the player won't freeze when you change characters
 		// add(strumLine);
@@ -1900,8 +1888,6 @@ class PlayState extends MusicBeatState
 		if(ret != FunkinLua.Function_Stop) {
 			if (skipCountdown || startOnTime > 0) skipArrowStartTween = true;
 
-			generateStaticArrows(0);
-			generateStaticArrows(1);
 			for (i in 0...playerStrums.length) {
 				setOnLuas('defaultPlayerStrumX' + i, playerStrums.members[i].x);
 				setOnLuas('defaultPlayerStrumY' + i, playerStrums.members[i].y);
@@ -1914,12 +1900,6 @@ class PlayState extends MusicBeatState
 
 			NoteMovement.getDefaultStrumPos(this);
 
-			#if MODCHARTS 
-			if (useModchart) {
-				modManager.receptors = [playerStrums.members, opponentStrums.members];
-				modManager.registerDefaultModifiers();
-			}
-			#end
 
 			startedCountdown = true;
 			Conductor.songPosition = 0;
@@ -2441,11 +2421,6 @@ class PlayState extends MusicBeatState
 
 		VOCALS = vocalsSetup();
 
-		#if MODCHARTS
-		if (useModchart)
-			for(i in 0...4)
-				notesToSpawn[i] = [];
-		#end
 		for (section in noteData)
 		{
 			for (songNotes in section.sectionNotes)
@@ -2487,14 +2462,6 @@ class PlayState extends MusicBeatState
 
 				susLength = susLength / Conductor.stepCrochet;
 				unspawnNotes.push(swagNote);
-				#if MODCHARTS
-				if (useModchart) {
-					if(notesToSpawn[swagNote.noteData]==null)
-						notesToSpawn[swagNote.noteData] = [];
-
-					notesToSpawn[swagNote.noteData].push(swagNote);
-				}
-				#end
 
 				var floorSus:Int = Math.floor(susLength);
 				if(floorSus > 0) {
@@ -2511,10 +2478,6 @@ class PlayState extends MusicBeatState
 						sustainNote.parent = swagNote;
 						sustainNote.singData = singData;
 						unspawnNotes.push(sustainNote);
-						#if MODCHARTS
-						if (useModchart)
-							notesToSpawn[swagNote.noteData].push(sustainNote);
-						#end
 
 						if (sustainNote.mustPress)
 						{
@@ -2652,17 +2615,6 @@ class PlayState extends MusicBeatState
 		return FlxSort.byValues(FlxSort.ASCENDING, Obj1.strumTime, Obj2.strumTime);
 	}
 
-	#if MODCHARTS
-	function sortByOrderNote(wat:Int, Obj1:Note, Obj2:Note):Int
-	{
-		return FlxSort.byValues(FlxSort.ASCENDING, Obj1.zIndex, Obj2.zIndex);
-	}
-
-	function sortByOrderStrumNote(wat:Int, Obj1:StrumNote, Obj2:StrumNote):Int
-	{
-		return FlxSort.byValues(FlxSort.DESCENDING, Obj1.zIndex, Obj2.zIndex);
-	}
-	#end
 
 	function sortByTime(Obj1:EventNote, Obj2:EventNote):Int
 	{
@@ -3109,12 +3061,6 @@ class PlayState extends MusicBeatState
 			trace("RESET = True");
 		}
 		doDeathCheck();
-		#if MODCHARTS
-		if (useModchart) {
-			modManager.updateTimeline(curDecStep);
-			modManager.update(elapsed);
-		}
-		#end
 
 		if (unspawnNotes[0] != null)
 		{
@@ -3134,29 +3080,6 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		#if MODCHARTS
-		if (useModchart) {
-			opponentStrums.forEachAlive(function(strum:StrumNote)
-			{
-				var pos = modManager.getPos(0, 0, 0, curDecBeat, strum.noteData, 1, strum, [], strum.vec3Cache);
-				modManager.updateObject(curDecBeat, strum, pos, 1);
-				strum.x = pos.x;
-				strum.y = pos.y;
-				strum.z = pos.z;
-			});
-		
-			playerStrums.forEachAlive(function(strum:StrumNote)
-			{
-				var pos = modManager.getPos(0, 0, 0, curDecBeat, strum.noteData, 0, strum, [], strum.vec3Cache);
-				modManager.updateObject(curDecBeat, strum, pos, 0);
-				strum.x = pos.x;
-				strum.y = pos.y;
-				strum.z = pos.z;
-			});
-
-			strumLineNotes.sort(sortByOrderStrumNote);
-		}
-		#end
 
 		if (generatedMusic && startedCountdown)
 		{
@@ -3169,15 +3092,9 @@ class PlayState extends MusicBeatState
 				}
 			}
 
-			var isModchart:Bool = false;
-			#if MODCHARTS
-			if (useModchart)
-				isModchart = true;
-			#end
 
 
 			var fakeCrochet:Float = (60 / SONG.bpm) * 1000;
-			#if MODCHARTS if (isModchart) notes.sort(sortByOrderNote); #end
 			notes.forEachAlive(function(daNote:Note)
 				{
 					var strumGroup:FlxTypedGroup<StrumNote> = playerStrums;
@@ -3195,40 +3112,6 @@ class PlayState extends MusicBeatState
 					strumAngle += daNote.offsetAngle;
 					strumAlpha *= daNote.multAlpha;
 					
-					#if MODCHARTS
-					if (isModchart) {
-						var allSpeed:Float = songSpeed * daNote.multSpeed;
-						var pN:Int = daNote.mustPress ? 0 : 1;
-						var pos = modManager.getPos(daNote.strumTime, modManager.getVisPos(Conductor.songPosition, daNote.strumTime, allSpeed),
-							daNote.strumTime - Conductor.songPosition, curDecBeat, daNote.noteData, pN, daNote, [], daNote.vec3Cache);
-
-						modManager.updateObject(curDecBeat, daNote, pos, pN);
-						pos.x += daNote.offsetX;
-						pos.y += daNote.offsetY;
-						daNote.x = pos.x;
-						daNote.y = pos.y;
-						daNote.z = pos.z;
-						daNote.alpha = strumAlpha;
-						if (daNote.isSustainNote)
-						{
-							var futureSongPos = Conductor.songPosition + 75;
-							var diff = daNote.strumTime - futureSongPos;
-							var vDiff = modManager.getVisPos(futureSongPos, daNote.strumTime, allSpeed);
-
-							var nextPos = modManager.getPos(daNote.strumTime, vDiff, diff, Conductor.getStep(futureSongPos) / 4, daNote.noteData, pN, daNote, [],
-								daNote.vec3Cache);
-							nextPos.x += daNote.offsetX;
-							nextPos.y += daNote.offsetY;
-							var diffX = (nextPos.x - pos.x);
-							var diffY = (nextPos.y - pos.y);
-							var rad = Math.atan2(diffY, diffX);
-							var deg = rad * (180 / Math.PI);
-							if (deg != 0)
-								daNote.mAngle = (deg + 90);
-							else
-								daNote.mAngle = 0;
-						}
-					} else { #end
 						daNote.distance = 0.45 * (Conductor.songPosition - daNote.strumTime) * songSpeed * daNote.multSpeed;
 						var distance:Float = daNote.distance * (strumScroll ? 1 : -1);
 
@@ -3262,7 +3145,6 @@ class PlayState extends MusicBeatState
 								daNote.y += 27.5 * ((SONG.bpm / 100) - 1) * (songSpeed - 1);
 							}
 						}
-					#if MODCHARTS } #end
 
 					if (!daNote.mustPress && daNote.wasGoodHit && !daNote.hitByOpponent && !daNote.ignoreNote)
 					{
@@ -3288,7 +3170,6 @@ class PlayState extends MusicBeatState
 						}
 					}
 
-					if (!isModchart) {
 						var center:Float = strumY + Note.swagWidth / 2;
 						if(strumGroup.members[daNote.noteData].sustainReduce && daNote.isSustainNote && (daNote.mustPress || !daNote.ignoreNote) &&
 							(!daNote.mustPress || (daNote.wasGoodHit || (daNote.prevNote.wasGoodHit && !daNote.canBeHit))))
@@ -3316,34 +3197,7 @@ class PlayState extends MusicBeatState
 								}
 							}
 						}
-					}
 
-					#if MODCHARTS
-					if (isModchart) {
-						if(daNote.garbage){
-							daNote.active = false;
-							daNote.visible = false;
-		
-							daNote.kill();
-							notes.remove(daNote, true);
-							daNote.destroy();
-						}else{ 
-							if (Conductor.songPosition > noteKillOffset + daNote.strumTime && daNote.active)
-							{
-								if (daNote.mustPress && !cpuControlled && !daNote.ignoreNote && !endingSong && (daNote.tooLate || !daNote.wasGoodHit))
-								{
-									noteMiss(daNote);
-								}
-		
-								daNote.active = false;
-								daNote.visible = false;
-		
-								daNote.kill();
-								notes.remove(daNote, true);
-								daNote.destroy();
-							}
-						} 
-					} else { #end
 						// Kill extremely late notes and cause misses
 						if (Conductor.songPosition > noteKillOffset + daNote.strumTime)
 						{
@@ -3358,7 +3212,6 @@ class PlayState extends MusicBeatState
 							notes.remove(daNote, true);
 							daNote.destroy();
 						}
-					#if MODCHARTS } #end
 				});
 			
 		}
@@ -4900,7 +4753,7 @@ class PlayState extends MusicBeatState
 	function StrumPlayAnim(isDad:Bool, id:Int, time:Float) {
 		var spr:StrumNote = null;
 		if(isDad) {
-			spr = opponentStrums.members[id];
+			spr = strumLineNotes.members[id];
 		} else {
 			spr = playerStrums.members[id];
 		}

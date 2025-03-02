@@ -259,67 +259,6 @@ class FunkinLua {
 			return false;
 			#end
 		});
-	
-
-		#if MODCHARTS
-		// mod manager
-		Lua_helper.add_callback(lua, "setPercent", function(modName:String, val:Float, player:Int=-1)
-		{
-			PlayState.instance.modManager.setPercent(modName, val, player);
-		});
-
-		Lua_helper.add_callback(lua, "addBlankMod", function(modName:String, defaultVal:Float=0, player:Int = -1)
-		{
-			PlayState.instance.modManager.quickRegister(new SubModifier(modName, PlayState.instance.modManager));
-			PlayState.instance.modManager.setValue(modName, defaultVal);
-		});
-
-		Lua_helper.add_callback(lua, "setValue", function(modName:String, val:Float, player:Int = -1)
-		{
-			PlayState.instance.modManager.setValue(modName, val, player);
-		});
-
-		Lua_helper.add_callback(lua, "getPercent", function(modName:String, player:Int)
-		{
-			return PlayState.instance.modManager.getPercent(modName, player);
-		});
-
-		Lua_helper.add_callback(lua, "getValue", function(modName:String, player:Int)
-		{
-			return PlayState.instance.modManager.getValue(modName, player);
-		});
-
-		Lua_helper.add_callback(lua, "queueSet", function(step:Float, modName:String, target:Float, player:Int = -1)
-		{
-			PlayState.instance.modManager.queueSet(step, modName, target, player);
-		});
-		Lua_helper.add_callback(lua, "queueSetP", function(step:Float, modName:String, perc:Float, player:Int = -1)
-		{
-			PlayState.instance.modManager.queueSetP(step, modName, perc, player);
-		});
-
-		Lua_helper.add_callback(lua, "queueEase",
-			function(step:Float, endStep:Float, modName:String, percent:Float, style:String = 'linear', player:Int = -1,?startVal:Float) 
-		{
-			PlayState.instance.modManager.queueEase(step, endStep, modName, percent, style, player, startVal);
-		});
-
-		Lua_helper.add_callback(lua, "queueEaseP",
-			function(step:Float, endStep:Float, modName:String, percent:Float, style:String = 'linear', player:Int = -1,?startVal:Float)
-		{
-			PlayState.instance.modManager.queueEaseP(step, endStep, modName, percent, style, player, startVal);
-		});
-
-		Lua_helper.add_callback(lua, "ease",
-		function(step:Float, endStep:Float, modName:String, percent:Float, style:String = 'linear', player:Int = -1,?startVal:Float) 
-		{
-			PlayState.instance.modManager.ease(step, endStep, modName, percent, style, player, startVal);
-		});
-		Lua_helper.add_callback(lua, "set", function(step:Float, modName:String, perc:Float, player:Int = -1)
-		{
-			PlayState.instance.modManager.set(step, modName, perc, player);
-		});
-		#end
 
 		// custom substate
 		Lua_helper.add_callback(lua, "openCustomSubstate", function(name:String, pauseGame:Bool = false) {
@@ -3214,27 +3153,9 @@ class FunkinLua {
 	{
 		#if LUA_ALLOWED
 		var v:String = Lua.tostring(lua, -1);
-		Lua.pop(lua, 1);
-
-		if (v != null)
-			v = v.trim();
-		if (v == null || v == "")
-		{
-			switch (status)
-			{
-				case Lua.LUA_ERRRUN:
-					return "Runtime Error";
-				case Lua.LUA_ERRMEM:
-					return "Memory Allocation Error";
-				case Lua.LUA_ERRERR:
-					return "Critical Error";
-			}
-			return "Unknown Error";
-		}
-
+		if(!isErrorAllowed(v)) v = null;
 		return v;
 		#end
-		return null;
 	}
 	// some fuckery fucks with linc_luajit
 	function getResult(#if LUA_ALLOWED l:State #else l:Any #end, result:Int):Any {
@@ -3261,7 +3182,7 @@ class FunkinLua {
 	function typeToString(type:Int):String
 	{
 		#if LUA_ALLOWED
-		switch (type)
+		switch(type)
 		{
 			case Lua.LUA_TBOOLEAN:
 				return "boolean";
@@ -3299,7 +3220,6 @@ class FunkinLua {
 				Lua.pop(lua, 1);
 				return Function_Continue;
 			}
-
 			for (arg in args) Convert.toLua(lua, arg);
 			var status:Int = Lua.pcall(lua, args.length, 1, 0);
 
@@ -3309,7 +3229,7 @@ class FunkinLua {
 				luaTrace("ERROR (" + func + "): " + error, false, false, FlxColor.RED);
 				return Function_Continue;
 			}
-
+			
 			// If successful, pass and then return the result.
 			var result:Dynamic = cast Convert.fromLua(lua, -1);
 			if (result == null) result = Function_Continue;

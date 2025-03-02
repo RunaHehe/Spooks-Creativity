@@ -36,7 +36,7 @@ class BezierPathNumTween extends FlxTween
 	public function tween(points:Array<Float>, duration:Float, ?tweenFunction:Float->Void):BezierPathNumTween
 	{
 		_tweenFunction = tweenFunction;
-        _points = points;
+		_points = points;
 		value = points[0];
 		this.duration = duration;
 		start();
@@ -46,25 +46,28 @@ class BezierPathNumTween extends FlxTween
 	override function update(elapsed:Float):Void
 	{
 		super.update(elapsed);
-		value = bezierPath(scale,_points);
+		value = bezierPath(scale, _points);
 
 		if (_tweenFunction != null)
 			_tweenFunction(value);
 	}
 
-    function bezierPath(t:Float, points:Array<Float>):Float {
-        var n:Int = points.length - 1;
-        var curve:Float = 0;
+	function bezierPath(t:Float, points:Array<Float>):Float
+	{
+		var n:Int = points.length - 1;
+		var curve:Float = 0;
 
-        for (i in 0...points.length) {
-            var coeff:Float = 1;
-            for (j in 0...i) {
-                coeff = coeff * (n - j) / (j + 1);
-            }
+		for (i in 0...points.length)
+		{
+			var coeff:Float = 1;
+			for (j in 0...i)
+			{
+				coeff = coeff * (n - j) / (j + 1);
+			}
 
-            curve += coeff * Math.pow(1 - t, n - i) * Math.pow(t, i) * points[i];
-        }
+			curve += coeff * Math.pow(1 - t, n - i) * Math.pow(t, i) * points[i];
+		}
 
-        return curve;
-    }
+		return curve;
+	}
 }

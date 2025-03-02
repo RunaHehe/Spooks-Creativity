@@ -9,22 +9,9 @@ using StringTools;
 
 class StrumNote extends FlxSkewedSprite
 {
-	#if MODCHARTS
-	public var vec3Cache:Vector3 = new Vector3(); // for vector3 operations in modchart code
-	public var defScale:FlxPoint = FlxPoint.get(); // for modcharts to keep the scaling
-
-	public var zIndex:Float = 0;
-	public var desiredZIndex:Float = 0;
-	public var z:Float = 0;
-	override function destroy()
-	{
-		defScale.put();
-		super.destroy();
-	}	
-	#end
 	private var colorSwap:ColorSwap;
 	public var resetAnim:Float = 0;
-	public var noteData:Int = 0;
+	private var noteData:Int = 0;
 	public var direction:Float = 90;//plan on doing scroll directions soon -bb
 	public var downScroll:Bool = false;//plan on doing scroll directions soon -bb
 	public var sustainReduce:Bool = true;
@@ -40,21 +27,6 @@ class StrumNote extends FlxSkewedSprite
 		}
 		return value;
 	}
-
-	#if MODCHARTS
-	public function getZIndex()
-		{
-			var animZOffset:Float = 0;
-			if (animation.curAnim != null && animation.curAnim.name == 'confirm')
-				animZOffset += 1;
-			return z + desiredZIndex + animZOffset - (player == 0 ? 1 : 0);
-		}
-	
-	function updateZIndex()
-	{
-		zIndex = getZIndex();
-	}
-	#end
 
 	public function new(x:Float, y:Float, leData:Int, player:Int) {
 		colorSwap = new ColorSwap();
@@ -141,7 +113,6 @@ class StrumNote extends FlxSkewedSprite
 					animation.addByPrefix('confirm', 'right confirm', 24, false);
 			}
 		}
-		#if MODCHARTS defScale.copyFrom(scale); #end
 		updateHitbox();
 
 		if(lastAnim != null)
@@ -172,7 +143,6 @@ class StrumNote extends FlxSkewedSprite
 				centerOrigin();
 		}
 
-		#if MODCHARTS updateZIndex(); #end
 
 		super.update(elapsed);
 	}
@@ -181,7 +151,6 @@ class StrumNote extends FlxSkewedSprite
 		animation.play(anim, force);
 		centerOffsets();
 		centerOrigin();
-		#if MODCHARTS updateZIndex(); #end
 		if(animation.curAnim == null || animation.curAnim.name == 'static') {
 			colorSwap.hue = 0;
 			colorSwap.saturation = 0;
@@ -193,9 +162,10 @@ class StrumNote extends FlxSkewedSprite
 				colorSwap.saturation = ClientPrefs.arrowHSV[noteData][1] / 100;
 				colorSwap.brightness = ClientPrefs.arrowHSV[noteData][2] / 100;
 			}
-
+			//if(animation.curAnim != null){//err what the fu
 			if(animation.curAnim.name == 'confirm' && !PlayState.isPixelStage) {
 				centerOrigin();
+				//}
 			}
 		}
 	}

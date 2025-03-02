@@ -9,20 +9,24 @@ import flixel.tweens.misc.*;
 
 class TweenManager extends FlxTweenManager
 {
-	public function bezierPathTween(Object:Dynamic, Values:Dynamic<Array<Float>>, Duration:Float = 1, ?Options:TweenOptions):BezierPathTween{
-		@:privateAccess{
+	public function bezierPathTween(Object:Dynamic, Values:Dynamic<Array<Float>>, Duration:Float = 1, ?Options:TweenOptions):BezierPathTween
+	{
+		@:privateAccess {
 			var tween = new BezierPathTween(Options, this);
 			tween.tween(Object, Values, Duration);
 			return add(tween);
 		}
 	}
-	public function bezierPathNumTween(Points:Array<Float>, Duration:Float = 1, ?Options:TweenOptions,?TweenFunction:Float->Void):BezierPathNumTween{
-		@:privateAccess{
+
+	public function bezierPathNumTween(Points:Array<Float>, Duration:Float = 1, ?Options:TweenOptions, ?TweenFunction:Float->Void):BezierPathNumTween
+	{
+		@:privateAccess {
 			var tween = new BezierPathNumTween(Options, this);
 			tween.tween(Points, Duration, TweenFunction);
 			return add(tween);
 		}
 	}
+
 	/**
 	 * Tweens numeric public properties of an Object. Shorthand for creating a VarTween, starting it and adding it to the TweenManager.
 	 *
@@ -265,8 +269,7 @@ class TweenManager extends FlxTweenManager
 	 * @return	The QuadPath object.
 	 * @since   4.2.0
 	 */
-	public function createQuadPath(Object:FlxObject, Points:Array<FlxPoint>, DurationOrSpeed:Float = 1, UseDuration:Bool = true,
-			?Options:TweenOptions):FlxTween
+	public function createQuadPath(Object:FlxObject, Points:Array<FlxPoint>, DurationOrSpeed:Float = 1, UseDuration:Bool = true, ?Options:TweenOptions):FlxTween
 	{
 		var daTween = this.quadPath(Object, Points, DurationOrSpeed, UseDuration, Options);
 		daTween.manager = this;
@@ -292,7 +295,6 @@ class TweenManager extends FlxTweenManager
 		daTween.manager = this;
 		return daTween;
 	}
-
 
 	/**
 	 * Cancels all related tweens on the specified object.
