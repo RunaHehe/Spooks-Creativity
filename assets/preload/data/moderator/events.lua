@@ -35,6 +35,7 @@ function onCreatePost()
         game.strumLineNotes.camera = camNotes;
         game.notes.camera = camNotes;
         game.grpNoteSplashes.camera = camNotes;
+        game.playfieldRenderer.camera = camNotes;
     ]])
 
     SpriteUtil.makeSprite({tag="upGlow",image=folder.."mod/upGlow", cam="camOther"})

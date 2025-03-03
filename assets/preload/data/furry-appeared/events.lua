@@ -55,6 +55,7 @@ function onCreatePost()
         runHaxeCode([[
             game.strumLineNotes.camera = game.camGame;
             game.notes.camera = game.camGame;
+            game.playfieldRenderer.camera = game.camGame;
             game.grpNoteSplashes.camera = game.camGame;
             game.grpNoteHoldSplashes.camera = game.camGame;
             game.comboSpr.camera = game.camGame;
