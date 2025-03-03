@@ -2914,6 +2914,11 @@ class PlayState extends MusicBeatState
 		songScoreLerp = FlxMath.lerp(songScoreLerp, songScore, CoolUtil.boundTo(elapsed * 12 * playbackRate, 0, 1));
 		scoreTxt.text = scorePrefix + Std.int(Math.ceil(songScoreLerp));
 
+		if (FlxG.keys.justPressed.NINE)
+		{
+			FlxG.switchState(new modcharting.ModchartEditorState());
+		}
+
 		if(botplayTxt.visible) {
 			botplaySine += 180 * elapsed;
 			botplayTxt.alpha = 1 - Math.sin((Math.PI * botplaySine) / 180);
