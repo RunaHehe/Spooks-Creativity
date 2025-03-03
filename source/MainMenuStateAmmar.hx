@@ -230,7 +230,7 @@ class MainMenuStateAmmar extends MusicBeatState
         ["Looky",           "looky",    "Tester",                                                                   "https://www.youtube.com/channel/UCI165PBPVnyQmTvtlJZ-kAw", '"Looky"'],
         ["Vision",          "vision",   "Tester",                                                                   "https://www.youtube.com/@Caddy21",                         '"Spook you are gay as shit"'],
         ["Sum",             "sum",      "Composer",                                                                 "https://www.youtube.com/@Some_Guy39",                      '"why did i choose to be a musician-"'],
-        ["VideoBot",        "videobot", "Composer",                                                                 "https://www.youtube.com/channel/UC7Q9YHqBdroWwyPfSp8_yhA", '"i love modcharting"']
+        ["VideoBot",        "videobot", "Modcharter",                                                               "https://www.youtube.com/channel/UC7Q9YHqBdroWwyPfSp8_yhA", '"i love modcharting"']
     ];
 
     var curPage:String = "main";
