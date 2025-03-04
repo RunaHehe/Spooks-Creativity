@@ -36,7 +36,6 @@ import flixel.addons.ui.FlxUIInputText;
 import flixel.addons.ui.FlxUINumericStepper;
 import flixel.addons.ui.FlxUISlider;
 import flixel.addons.ui.FlxUITabMenu;
-import flixel.addons.ui.FlxUIDropDownMenu;
 import flixel.util.FlxDestroyUtil;
 import flixel.addons.transition.FlxTransitionableState;
 #if LEATHER

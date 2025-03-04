@@ -1705,12 +1705,12 @@ class MainMenuStateAmmar extends MusicBeatState
 
         // WEEK 5 - Ammar Showdown
         var bg:StorySprite = new StorySprite(0,5, '$folder/ammarshowdown/bg', null, 0); weeksSprites.add(bg); bg.zoomSin = true;
-        var runa:StorySprite = new StorySprite(0,5, '$folder/ammarshowdown/runa', null, 2); weeksSprites.add(runa); runa.sinY = true;
+        var aurry:StorySprite = new StorySprite(0,5, '$folder/ammarshowdown/aurry', null, 2); weeksSprites.add(aurry); aurry.sinY = true;
         var title:StorySprite = new StorySprite(0,0, '$folder/ammarshowdown/title', null, 10); weeksSprites.add(title); title.sinY = true; title.sinOff = 0.75;
 		var vignettee:StorySprite = new StorySprite(0, 0, '$folder/ammarshowdown/vignette', null, 5); weeksSprites.add(vignettee);
         weekAmmarShowdown.push(vignettee);
         weekAmmarShowdown.push(title);
-        weekAmmarShowdown.push(runa);
+        weekAmmarShowdown.push(aurry);
         weekAmmarShowdown.push(bg);
 
         
