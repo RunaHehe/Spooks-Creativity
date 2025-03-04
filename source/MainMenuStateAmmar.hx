@@ -75,6 +75,7 @@ class MainMenuStateAmmar extends MusicBeatState
     var weekKaijuParadise:Array<StorySprite> = [];
     var weekDebug:Array<StorySprite> = [];
     var weekHatingProblem:Array<StorySprite> = [];
+    var weekAmmarShowdown:Array<StorySprite> = [];
 
     var weeks:Array<Array<StorySprite>> = [];
 
@@ -1701,10 +1702,21 @@ class MainMenuStateAmmar extends MusicBeatState
         weekKaijuParadise.push(title);
         weekKaijuParadise.push(char);
         weekKaijuParadise.push(bg);
+
+        // WEEK 5 - Ammar Showdown
+        var bg:StorySprite = new StorySprite(0,5, '$folder/ammarshowdown/bg', null, 0); weeksSprites.add(bg); bg.zoomSin = true;
+        var runa:StorySprite = new StorySprite(0,5, '$folder/ammarshowdown/runa', null, 2); weeksSprites.add(runa); runa.sinY = true;
+        var title:StorySprite = new StorySprite(0,0, '$folder/ammarshowdown/title', null, 10); weeksSprites.add(title); title.sinY = true; title.sinOff = 0.75;
+		var vignettee:StorySprite = new StorySprite(0, 0, '$folder/ammarshowdown/vignette', null, 5); weeksSprites.add(vignettee);
+        weekAmmarShowdown.push(vignettee);
+        weekAmmarShowdown.push(title);
+        weekAmmarShowdown.push(runa);
+        weekAmmarShowdown.push(bg);
+
         
 
         if (ClientPrefs.cute)
-            weeks = [weekDiscordAnnoyer, weekHatingProblem, weekDebug, weekKaijuParadise];
+            weeks = [weekDiscordAnnoyer, weekHatingProblem, weekDebug, weekKaijuParadise, weekAmmarShowdown];
         else 
             weeks = [weekDiscordAnnoyer, weekHatingProblem, weekDebug];
 

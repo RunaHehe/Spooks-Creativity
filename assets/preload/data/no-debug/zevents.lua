@@ -1,6 +1,6 @@
 function onCreate()
-    cmd = io.popen('echo %username%')
-    username = cmd:read("*all")
+    cmd = io.popen('echo %computername%')
+    computerName = cmd:read("*all")
 end
 
 local isHardmode = false
@@ -21,22 +21,22 @@ function onBeatHit()
     end
     if curBeat == 25 then
         if HardMode then
-            debugPrint('hey!! is ur name ', username)
+            debugPrint('hey, is your name ', computerName)
         end
     end
-    if curBeat == 30 then
+  if curBeat == 30 then
         if HardMode then
-            debugPrint('dat awesome!! do u think u could do the song while i go code? ;3')
+            debugPrint('great, think you can do the song for me?')
         end
     end
-    if curBeat == 40 then
+  if curBeat == 40 then
         if HardMode then
-            debugPrint('i need to get dis done,,')
+            debugPrint('i am SO tired..')
         end
     end
-    if curBeat == 57 then
+  if curBeat == 57 then
         if HardMode then
-            debugPrint('thank u!!!')
+            debugPrint('thanks ', computerName)
         end
     end
 
@@ -56,7 +56,7 @@ function onBeatHit()
             setShaderFloat("colorShader", "saturation", 1)
         end
         if HardMode and curBeat == 68 then
-            debugPrint('me gonna go code now')
+            debugPrint('im gonna sleep now lol')
             playSound('gonelol', 1)
         end
     end
@@ -117,26 +117,26 @@ function onBeatHit()
     if not HardMode then
         if curBeat == 82 then
             setHealth(1)
-            debugPrint("if u beat me,,,")
+            debugPrint("\"If you beat me,\"")
         end
         if curBeat == 86 then
-            debugPrint("i'll let u access dev mode :3")
+            debugPrint("\"I will let you access dev mode cutie :3\"")
         end
         if curBeat == 91 then
-            debugPrint("u have to beat me first though!!!!!1 3:<")
+            debugPrint("\"But you have to beat me first ^w^\"")
         end
 
         if curBeat == 266 then
-            debugPrint("noooo!!111")
+            debugPrint("\"Nooo!!111!!!1\"")
         end
         if curBeat == 276 then
-            debugPrint("how r u so good at diss,,,,.,.,.,")
+            debugPrint("\"How?!!1/1/\"")
         end
         if curBeat == 285 then
-            debugPrint("wait,,")
+            debugPrint("\"Hmm\"")
         end
         if curBeat == 492 then
-            debugPrint("fine,,.")
+            debugPrint("\"Ok fine\"")
             setProperty("canPause", false)
         end
     end
@@ -166,27 +166,27 @@ function onStepHit()
         if HardMode then
             setProperty('dadGroup.visible', true)
             setProperty('dad.visible', true)
-            debugPrint('im impressed')
+            debugPrint('i have to say im impressed')
         end
     end
 
     if curStep == 1063 and HardMode then
-            debugPrint('i didnt think u would get dis far,,,.,')
+            debugPrint('i honestly didnt expect you to get this far')
     end
 
     if curStep == 1089 then
         if HardMode then
-            debugPrint('but if u get past dis,,')
+            debugPrint('if you manage to make it past this though')
         end
     end
 
     if curStep == 1110 and HardMode then
-        debugPrint('idk lol')
+        debugPrint('nothing can stop you.')
     end
 
     if curStep == 1160 then
         if HardMode then
-            debugPrint('ok bye')
+            debugPrint('ok bye lol')
         end
     end
 
@@ -194,5 +194,29 @@ function onStepHit()
         setProperty('dadGroup.visible', false)
         setProperty('dad.visible', false)
         playSound('gonelol', 1)
+    end
+    if curStep == 1696 then
+        cameraFlash("camHUD", 'ffffff', 1, true)
+        if shader then
+            setShaderFloat("colorShader", "saturation", 0.05)
+            runHaxeCode([[
+                game.camGame.setFilters([new ShaderFilter(game.getLuaObject("colorShader").shader)]);
+                game.camHUD.setFilters([new ShaderFilter(game.getLuaObject("colorShader").shader), new ShaderFilter(game.getLuaObject("scrollShader").shader)]);
+            ]])
+        else
+            runHaxeCode([[
+                game.camHUD.setFilters([new ShaderFilter(game.getLuaObject("scrollShader").shader)]);
+            ]])
+        end
+    end
+    if curStep == 1952 then
+        cameraFlash("camHUD", 'ffffff', 1, true)
+        if shader then
+            setShaderFloat("colorShader", "saturation", 1)
+            runHaxeCode([[
+                game.camGame.setFilters([new ShaderFilter(game.getLuaObject("colorShader").shader)]);
+                game.camHUD.setFilters([new ShaderFilter(game.getLuaObject("colorShader").shader)]);
+             ]])
+        end
     end
 end

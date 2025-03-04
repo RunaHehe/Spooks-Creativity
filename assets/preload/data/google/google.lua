@@ -232,7 +232,7 @@ end
 
 function onCountdownStarted() 
    runHaxeCode([[
-      for (strum in game.opponentStrums)
+      for (strum in game.playfieldRenderer)
       {
           strum.camera = googleCam;
           strum.scrollFactor.set(1, 1);
@@ -250,13 +250,13 @@ function onCountdownStarted()
    local spfg = setPropertyFromGroup
    local space = {-1.5, -0.5, 0.5, 1.5}
    for i = 0,3 do
-      spfg("strumLineNotes", i, "downScroll", true)
-      spfg("strumLineNotes", i, "x", (1280/2) + (250*space[i+1]) - (getPropertyFromGroup("strumLineNotes", i, "width")/2))
-      spfg("strumLineNotes", i, "y", 490)
-      spfg("strumLineNotes", i, "visible", false)
+      spfg("playfieldRenderer", i, "downScroll", true)
+      spfg("playfieldRenderer", i, "x", (1280/2) + (250*space[i+1]) - (getPropertyFromGroup("playfieldRenderer", i, "width")/2))
+      spfg("playfieldRenderer", i, "y", 490)
+      spfg("playfieldRenderer", i, "visible", false)
    end
    for i = 1, 8 do
-         table.insert(defaultNote, {x = getPropertyFromGroup("strumLineNotes", i-1, "x"), y = getPropertyFromGroup("strumLineNotes", i-1, "y")})
+         table.insert(defaultNote, {x = getPropertyFromGroup("playfieldRenderer", i-1, "x"), y = getPropertyFromGroup("playfieldRenderer", i-1, "y")})
    end
 
   

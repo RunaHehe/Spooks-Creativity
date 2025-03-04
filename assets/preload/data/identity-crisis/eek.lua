@@ -358,7 +358,7 @@ function onUpdatePost(elapsed)
 end
 
 function noteMiss(id, nd, nt, sus)
-    if (curStep > 1151 and curStep < 1342) then
+    if (curStep >= 1151 and curStep < 1342) then
         -- get current health
         local health = getProperty('health')
 
