@@ -205,7 +205,7 @@ class MainMenuStateAmmar extends MusicBeatState
         
     **/
 
-    var weeksList:Array<String> = ['Discord Annoyer', 'Hating Problem', 'Debug', 'Kaiju Paradise'];
+    var weeksList:Array<String> = ['Discord Annoyer', 'Hating Problem', 'Debug', 'Kaiju Paradise', 'Ammar Showdown'];
 
     var badgesList:Array<Array<Dynamic>> = [ //Name,  Save Data, Descriptions [Before Got, After Got]
         ["Social Expert", "social", ['Complete the Discord Annoyer Week', 'Completed the Discord Annoyer Week']],
