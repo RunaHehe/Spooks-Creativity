@@ -111,97 +111,157 @@ function onStepHit()
 
     if curStep == 512 then
         callScript("stages/discordStage", "lightingMode", {true})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 640 then
         callScript("stages/discordStage", "lightingMode", {false})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 704 then
         callScript("stages/discordStage", "lightingMode", {true})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 752 then
         callScript("stages/discordStage", "lightingMode", {false})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 753 then
         callScript("stages/discordStage", "lightingMode", {true})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
-    if curStep == 756 then
+    if curStep == 754 then
         callScript("stages/discordStage", "lightingMode", {false})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
-    if curStep == 759 then
+    if curStep == 755 then
         callScript("stages/discordStage", "lightingMode", {true})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
-    if curstep == 760 then
+    if curstep == 756 then
         callScript("stages/discordStage", "lightingMode", {false})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
-    if curStep == 767 then
+    if curStep == 768 then
         callScript("stages/discordStage", "lightingMode", {true})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 800 then
         callScript("stages/discordStage", "lightingMode", {false})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 832 then
         callScript("stages/discordStage", "lightingMode", {true})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 864 then
         callScript("stages/discordStage", "lightingMode", {false})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 896 then
         callScript("stages/discordStage", "lightingMode", {true})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 928 then
         callScript("stages/discordStage", "lightingMode", {false})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 960 then
         callScript("stages/discordStage", "lightingMode", {true})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 992 then
         callScript("stages/discordStage", "lightingMode", {false})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 1024 then
         callScript("stages/discordStage", "lightingMode", {true})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curstep == 1088 then
         callScript("stages/discordStage", "lightingMode", {false})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
     end
 
     if curStep == 1152 then 
         callScript("stages/discordStage", "lightingMode", {true})
-        cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        camFlash(1, 1)
+    end
+
+    if curStep == 1408 then
+        callScript("stages/discordStage", "lightingMode", {false})
+    end
+
+    if curStep == 1536 then
+        callScript("stages/discordStage", "lightingMode", {true})
+        camFlash(1, 1)
+    end
+
+    if curStep == 1568 then
+        callScript("stages/discordStage", "lightingMode", {false})
+        camFlash(1, 1)
+    end
+
+    if curStep == 1600 then
+        callScript("stages/discordStage", "lightingMode", {true})
+        camFlash(1, 1)
+    end
+
+    if curStep == 1632 then
+        callScript("stages/discordStage", "lightingMode", {false})
+        camFlash(1, 1)
+    end
+
+    if curStep == 1664 then
+        callScript("stages/discordStage", "lightingMode", {true})
+        camFlash(1, 1)
+    end
+
+    if curStep == 1696 then
+        callScript("stages/discordStage", "lightingMode", {false})
+        camFlash(1, 1)
+    end
+
+    if curStep == 1728 then
+        callScript("stages/discordStage", "lightingMode", {true})
+        camFlash(1, 1)
+    end
+
+    if curStep == 1760 then
+        callScript("stages/discordStage", "lightingMode", {false})
+        camFlash(1, 1)
+    end
+
+    if curStep == 1796 then
+        cameraFlash("camHUD", "FFFFFF", 1, true)
+    end
+
+    if curStep == 1800 then
+        cameraFlash("camHUD", "FFFFFF", 1, true)
+    end
+
+    if curStep == 1804 then
+        cameraFlash("camHUD", "FFFFFF", 1, true)
+    end
+
+    if curStep == 1808 then
+        cameraFlash("camHUD", "FFFFFF", 1, true)
     end
 
     if curStep >= 1152 and curStep < 1408 then
@@ -336,7 +396,7 @@ function onStepHit()
             for i,v in pairs(membersSprites) do
                 if not v[3] then
                     local offsetX = 7
-                    setProperty(v[1]..".xAdd", offsetX + (7*(i%2==0 and 1 or -1)*(curStep%16==0 and 1 or -1)))
+                    setProperty(v[1]..".xAdd", offsetX + (7*(i%2==0 and 1 or -1)*(curStep%8==0 and 1 or -1)))
                 end
             end
         end
