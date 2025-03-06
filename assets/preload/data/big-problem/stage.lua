@@ -1126,7 +1126,7 @@ function onSongStart()
         end
 
         for i = 0, 7 do
-            setPropertyFromGroup("strumLineNotes", i, 'alpha', 0.6)
+            setPropertyFromGroup("playfieldRenderer", i, 'alpha', 0.6)
         end
     end
 end
@@ -1290,7 +1290,7 @@ function onUpdatePost(elapsed)
     if not inGameOver then
         if not middlescroll and downscroll and curStep <= 5 then
             for i = 0, 7 do
-                setPropertyFromGroup("strumLineNotes", i, 'alpha', 0.6)
+                setPropertyFromGroup("playfieldRenderer", i, 'alpha', 0.6)
             end
         end
         shakeUpdate(elapsed)

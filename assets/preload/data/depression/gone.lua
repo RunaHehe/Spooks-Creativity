@@ -312,7 +312,7 @@ function onStepEvent(curStep)
     end
     if curStep == 1104 then
         for i = 0,7 do
-            setPropertyFromGroup("strumLineNotes", i, "angle", 0)
+            setPropertyFromGroup("playfieldRenderer", i, "angle", 0)
         end
     end
     if curStep == 256 then 
@@ -509,13 +509,13 @@ end
 
 function goodNoteHit(id, noteData, noteType, isSustainNote)
     if curStep >= 784 and curStep < 1104 and not isSustainNote then
-        setPropertyFromGroup("strumLineNotes", noteData+4, "angle", getPropertyFromGroup("notes", id, "angle"))
+        setPropertyFromGroup("playfieldRenderer", noteData+4, "angle", getPropertyFromGroup("notes", id, "angle"))
     end
 end
 
 function opponentNoteHit(id, noteData, noteType, isSustainNote)
     if curStep >= 784 and curStep < 1104 and not isSustainNote then
-        setPropertyFromGroup("strumLineNotes", noteData, "angle", getPropertyFromGroup("notes", id, "angle"))
+        setPropertyFromGroup("playfieldRenderer", noteData, "angle", getPropertyFromGroup("notes", id, "angle"))
     end
     if draining and MechanicOption then
         if not isSustainNote then

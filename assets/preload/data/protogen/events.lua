@@ -91,6 +91,7 @@ function onCreatePost()
 
             for (strum in game.strumLineNotes) {
                 strum.scrollFactor.set(0.8, 0.8);
+                game.playfieldRenderer.scrollFactor.set(0.8, 0.8);
             }
 
             for (note in game.unspawnNotes) {
@@ -118,7 +119,7 @@ function onCreatePost()
         setObjectOrder("iconP1", getObjectOrder("light1")-1)
         setObjectOrder("iconP2", getObjectOrder("light1")-1)
         for i = 0, 7 do
-            setPropertyFromGroup('strumLineNotes', i, 'y', 0)
+            setPropertyFromGroup('playfieldRenderer', i, 'y', 0)
         end
     
     end
@@ -135,7 +136,7 @@ function onCreatePost()
 
     if not EasyMode and Mechanic then
         if HardMode then --better view
-            setObjectOrder("strumLineNotes", getObjectOrder("healthBar"))
+            setObjectOrder("playfieldRenderer", getObjectOrder("healthBar"))
             setObjectOrder("notes", getObjectOrder("healthBar"))
             setProperty('healthBar.visible', false)
             setProperty('healthBarBG.visible', false)
@@ -143,7 +144,7 @@ function onCreatePost()
             setProperty('iconP1.visible', false)
             setProperty('iconP2.visible', false)
         else
-            setObjectOrder("strumLineNotes", getObjectOrder("dadGroup")-1)
+            setObjectOrder("playfieldRenderer", getObjectOrder("dadGroup")-1)
             setObjectOrder("notes", getObjectOrder("dadGroup")-1)
         end
     end
@@ -220,7 +221,7 @@ function createSpace()
 	addLuaSprite('space', false)
     setSpriteShader("space", "space")
     if not HardMode then
-        setObjectOrder("space", getObjectOrder("strumLineNotes"))
+        setObjectOrder("space", getObjectOrder("playfieldRenderer"))
     end
     setProperty('space.alpha', 0)
 

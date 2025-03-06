@@ -236,6 +236,8 @@ function onCountdownStarted()
       {
           strum.camera = googleCam;
           strum.scrollFactor.set(1, 1);
+          game.playfieldRenderer.camera = googleCam;
+          game.playfieldRenderer.scrollFactor.set(1, 1);
       }
 
       for (note in game.unspawnNotes)
@@ -413,7 +415,7 @@ function onUpdate(elapsed)
    end
    if HardMode and curBeat >= 456 and curBeat < 584 then
       for i = 0, 7 do
-         setPropertyFromGroup("strumLineNotes", i, 'x', defaultNote[i+1].x + (con_sin(curDecBeat/8) * 200))
+         setPropertyFromGroup("playfieldRenderer", i, 'x', defaultNote[i+1].x + (con_sin(curDecBeat/8) * 200))
       end
    end
 
@@ -629,7 +631,7 @@ function onStepEvent(curStep)
       doTweenAngle("camGW", "googleWave", 0, 1, 'quadOut')
 
       for i = 0, 7 do
-         setPropertyFromGroup("strumLineNotes", i, 'x', defaultNote[i+1].x)
+         setPropertyFromGroup("playfieldRenderer", i, 'x', defaultNote[i+1].x)
       end
    end
 

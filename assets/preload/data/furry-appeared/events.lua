@@ -63,6 +63,7 @@ function onCreatePost()
 
             for (strum in game.strumLineNotes) {
                 strum.scrollFactor.set(0.8, 0.8);
+                game.playfieldRenderer.scrollFactor.set(0.8, 0.8);
             }
 
             for (note in game.unspawnNotes) {
@@ -79,7 +80,7 @@ function onCreatePost()
         setPropertyFromClass("NoteSplash", 'scrollY', 0.8)
         setPropertyFromClass("NoteHoldSplash", 'scrollX', 0.8)
         setPropertyFromClass("NoteHoldSplash", 'scrollY', 0.8)
-        setObjectOrder("strumLineNotes", getObjectOrder("dadGroup")-1)
+        setObjectOrder("playfieldRenderer", getObjectOrder("dadGroup")-1)
         setObjectOrder("notes", getObjectOrder("dadGroup")-1)
         setObjectOrder("healthBar", getObjectOrder("light1")-1)
         setObjectOrder("healthBarBG", getObjectOrder("light1")-1)
@@ -87,7 +88,7 @@ function onCreatePost()
         setObjectOrder("iconP1", getObjectOrder("light1")-1)
         setObjectOrder("iconP2", getObjectOrder("light1")-1)
         for i = 0, 7 do
-            setPropertyFromGroup('strumLineNotes', i, 'y', (downscroll and 550 or 0))
+            setPropertyFromGroup('playfieldRenderer', i, 'y', (downscroll and 550 or 0))
         end
     end
 

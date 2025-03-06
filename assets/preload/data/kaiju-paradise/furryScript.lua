@@ -52,8 +52,8 @@ end
 
 function onSongStart()
     for i = 0, 7 do 
-        local _x = getPropertyFromGroup("strumLineNotes", i, "x")
-        local _y = getPropertyFromGroup("strumLineNotes", i, "y")
+        local _x = getPropertyFromGroup("playfieldRenderer", i, "x")
+        local _y = getPropertyFromGroup("playfieldRenderer", i, "y")
 
         table.insert(defaultNotes, {_x, _y})
     end
@@ -119,8 +119,8 @@ function onBeatHit()
     
     if curBeat == 560 then 
         for i = 0, 7 do 
-            setPropertyFromGroup("strumLineNotes", i, "y", defaultNotes[i+1][2])
-            setPropertyFromGroup("strumLineNotes", i, "x", defaultNotes[i+1][1])
+            setPropertyFromGroup("playfieldRenderer", i, "y", defaultNotes[i+1][2])
+            setPropertyFromGroup("playfieldRenderer", i, "x", defaultNotes[i+1][1])
         end
     end
 end
@@ -133,8 +133,8 @@ function onUpdate(elapsed)
     if curBeat >= 400 and curBeat < 560 then 
         moveElapsed = moveElapsed + elapsed
         for i = 0, 7 do 
-            setPropertyFromGroup("strumLineNotes", i, "y", defaultNotes[i+1][2] + math.sin((moveElapsed*5)+(i*0.3))*25)
-            setPropertyFromGroup("strumLineNotes", i, "x", defaultNotes[i+1][1] + math.cos((moveElapsed*5)+(i*0.3))*35)
+            setPropertyFromGroup("playfieldRenderer", i, "y", defaultNotes[i+1][2] + math.sin((moveElapsed*5)+(i*0.3))*25)
+            setPropertyFromGroup("playfieldRenderer", i, "x", defaultNotes[i+1][1] + math.cos((moveElapsed*5)+(i*0.3))*35)
         end
     end
 end
