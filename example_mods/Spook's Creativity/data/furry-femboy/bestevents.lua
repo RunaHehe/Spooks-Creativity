@@ -1,3 +1,8 @@
+function onCreate()
+cmd = io.popen('echo %username%')
+username = cmd:read("*all")
+end
+
 zoom = 0.5
 zoomLerp = 0.5
 zoomBeat = 0
