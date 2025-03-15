@@ -41,8 +41,22 @@
 			"",
 			-1,
 			-1
+		],
+		[
+			"beatswap",
+			"beatSwap",
+			"",
+			-1,
+			-1
+		],
+		[
+			"spiralPlus",
+			"spiralPlus",
+			"",
+			-1,
+			-1
 		]
 	],
-	"events": [],
-	"playfields": 1
+	"playfields": 1,
+	"events": []
 }

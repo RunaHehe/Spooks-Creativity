@@ -1,3 +1,0 @@
-you may be wondering why there is a separate data folder for furry femboy
-the modcharting tool for some odd reason is reading the customMods folder from MODS/DATA
-so yeah this is here specifically for furry femboy 💔

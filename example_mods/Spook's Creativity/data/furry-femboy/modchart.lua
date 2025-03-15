@@ -1,3 +1,7 @@
+function onCreate()
+    setProperty('skipCountdown', true)
+end
+
 function onCreatePost()
     setupMods()
     setMod("dadY", -155)
@@ -139,15 +143,15 @@ function setupEvents()
     easeB(106, 1, 'xmod', 0.75, 'quadOut', 0.9)
     easeB(106 + 3 / 4, 1, 'xmod', 0.75, 'quadOut', 0.6)
     easeB(107.5, 1, 'xmod', 0.75, 'quadOut', 0.9)
-    set(108, '0, angle, 0, spiral')
+    set(108, '0, angle, 0, spiral, 1, beatswap')
 
-    ease(108, 1, "quadOut", "0, flip, 0, center, 0.8, xmod, 0.65, dadStealth")
+    ease(108, 1, "quadOut", "0, flip, 0, center, 0.8, xmod, 0.9, dadStealth, 0, opSwap")
 
     local debounce = false
     for beat = 0, (4 * 8) - 1 do
         local time = 108 + beat
         if beat % 2 == 0 then
-            ease(time, 0.5, "quadOut", (beat % 4 == 0 and 1 or 0) .. ", opSwap")
+            ease(time, 0.5, "quadOut", (beat % 4 == 0 and 1 or 0) .. ", beatswap:switchStrum")
             debounce = debounce == false
 
             easeB(time, 0.5, 'x', 0, 'quadOut', 35 * (debounce and 1 or -1))
@@ -167,6 +171,7 @@ function setupEvents()
             easeB(time + 1.5, 0.5, 'tipsy', 0, 'quadOut', 2)
         end
     end
+    set(140, "0, beatswap, 0, beatswap:switchStrum")
     ease(140, 16, "linear", "1, hidden, 1, tipsyZ")
     ease(140, 1, "linear", "0, dadStealth")
 
@@ -192,10 +197,11 @@ function setupEvents()
 
     ease(172, 1, "linear", "0.5, dadStealth")
     ease(172, 1, "", "0.75, xmod, 0, hidden, 0, tipsyZ")
+    set(172, "1, beatswap")
     for beat = 0, (4 * 8) - 1 do
         local time = 172 + beat
         if beat % 2 == 0 then
-            ease(time, 0.5, "quadOut", (beat % 4 == 0 and 1 or 0) .. ", opSwap")
+            ease(time, 0.5, "quadOut", (beat % 4 == 0 and 1 or 0) .. ", beatswap:switchStrum")
             debounce = debounce == false
             easeB(time, 0.5, 'x', 0, 'quadOut', 35 * (debounce and 1 or -1))
             easeB(time + 0.75, 0.5, 'x', 0, 'quadOut', -35 * (debounce and 1 or -1))
@@ -214,6 +220,7 @@ function setupEvents()
             easeB(time + 1.5, 0.5, 'tipsy', 0, 'quadOut', 2)
         end
     end
+    set(204, "0, beatswap, 0, beatswap:switchStrum")
     ease(206 - 0.25, 0.25, 'expoIn', '2, tipsy')
     ease(206, 0.6, 'quadOut', '0, tipsy')
     ease(206.75 - 0.25, 0.25, 'expoIn', '2, tipsy')

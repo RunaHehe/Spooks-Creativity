@@ -10,7 +10,7 @@ function onCreate()
     mechanic = not EasyMode and Mechanic
     defaultMiddle = getPropertyFromClass("ClientPrefs", "middleScroll")
     if mechanic then
-         setPropertyFromClass("ClientPrefs", "middleScroll", true)
+         setPropertyFromClass("ClientPrefs", "middleScroll", false)
     end
 
     setProperty("cameraSpeed", 1.1)

@@ -24,17 +24,17 @@ function onBeatHit()
             debugPrint('hey, is your name ', computerName)
         end
     end
-  if curBeat == 30 then
+    if curBeat == 30 then
         if HardMode then
             debugPrint('great, think you can do the song for me?')
         end
     end
-  if curBeat == 40 then
+    if curBeat == 40 then
         if HardMode then
             debugPrint('i am SO tired..')
         end
     end
-  if curBeat == 57 then
+    if curBeat == 57 then
         if HardMode then
             debugPrint('thanks ', computerName)
         end
@@ -48,7 +48,7 @@ function onBeatHit()
         setProperty('iconP2.visible', false)
     end
     if curBeat == 68 or curBeat == 360 then
-        
+
         setProperty("cameraSpeed", 0.8)
         setProperty("defaultCamZoom", 0.6)
 
@@ -75,7 +75,7 @@ function onBeatHit()
                 game.camHUD.setFilters([new ShaderFilter(game.getLuaObject("scrollShader").shader)]);
             ]])
         end
-        doTweenX("scroll", "scrollShader", 8, crochet/1000*4*17, "linear")
+        doTweenX("scroll", "scrollShader", 8, crochet / 1000 * 4 * 17, "linear")
     end
 
     if curBeat == 360 then
@@ -87,7 +87,7 @@ function onBeatHit()
         end
     end
 
-    --COMMENT
+    -- COMMENT
     --[[
     if curBeat == 71 and mechanic then
         debugPrint("healthBar.visible = false;")
@@ -171,7 +171,7 @@ function onStepHit()
     end
 
     if curStep == 1063 and HardMode then
-            debugPrint('i honestly didnt expect you to get this far')
+        debugPrint('i honestly didnt expect you to get this far')
     end
 
     if curStep == 1089 then
@@ -195,28 +195,30 @@ function onStepHit()
         setProperty('dad.visible', false)
         playSound('gonelol', 1)
     end
-    if curStep == 1696 then
-        cameraFlash("camHUD", 'ffffff', 1, true)
-        if shader then
-            setShaderFloat("colorShader", "saturation", 0.05)
-            runHaxeCode([[
+    if HardMode then
+        if curStep == 1696 then
+            cameraFlash("camHUD", 'ffffff', 1, true)
+            if shader then
+                setShaderFloat("colorShader", "saturation", 0.05)
+                runHaxeCode([[
                 game.camGame.setFilters([new ShaderFilter(game.getLuaObject("colorShader").shader)]);
                 game.camHUD.setFilters([new ShaderFilter(game.getLuaObject("colorShader").shader), new ShaderFilter(game.getLuaObject("scrollShader").shader)]);
             ]])
-        else
-            runHaxeCode([[
+            else
+                runHaxeCode([[
                 game.camHUD.setFilters([new ShaderFilter(game.getLuaObject("scrollShader").shader)]);
             ]])
+            end
         end
-    end
-    if curStep == 1952 then
-        cameraFlash("camHUD", 'ffffff', 1, true)
-        if shader then
-            setShaderFloat("colorShader", "saturation", 1)
-            runHaxeCode([[
+        if curStep == 1952 then
+            cameraFlash("camHUD", 'ffffff', 1, true)
+            if shader then
+                setShaderFloat("colorShader", "saturation", 1)
+                runHaxeCode([[
                 game.camGame.setFilters([new ShaderFilter(game.getLuaObject("colorShader").shader)]);
                 game.camHUD.setFilters([new ShaderFilter(game.getLuaObject("colorShader").shader)]);
              ]])
+            end
         end
     end
 end
