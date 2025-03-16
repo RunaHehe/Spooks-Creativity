@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fatbg.png">
+	<!-- Created with Adobe Animate version 22.0.1.105 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fatbg0000" x="3600" y="2502" width="3465" height="2500" frameX="-485" frameY="0" frameWidth="4868" frameHeight="2500"/>
+	<SubTexture name="fatbg0001" x="0" y="2502" width="3598" height="2500" frameX="-352" frameY="0" frameWidth="4868" frameHeight="2500"/>
+	<SubTexture name="fatbg0002" x="0" y="5004" width="3598" height="2500" frameX="-352" frameY="0" frameWidth="4868" frameHeight="2500"/>
+	<SubTexture name="fatbg0003" x="0" y="0" width="4868" height="2500"/>
+</TextureAtlas>

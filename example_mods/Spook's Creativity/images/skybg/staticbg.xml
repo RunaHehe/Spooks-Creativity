@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="staticbg.png">
+	<!-- Created with Adobe Animate version 22.0.1.105 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="staticbg0000" x="0" y="1892" width="3840" height="2160" frameX="-457" frameY="-20" frameWidth="4508" frameHeight="2180"/>
+	<SubTexture name="staticbg0001" x="3842" y="1892" width="3840" height="2160" frameX="-437" frameY="-20" frameWidth="4508" frameHeight="2180"/>
+	<SubTexture name="staticbg0002" x="0" y="4054" width="3840" height="2160" frameX="-437" frameY="0" frameWidth="4508" frameHeight="2180"/>
+	<SubTexture name="staticbg0003" x="0" y="0" width="4508" height="1890" frameX="0" frameY="-255" frameWidth="4508" frameHeight="2180"/>
+</TextureAtlas>

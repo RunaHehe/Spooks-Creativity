@@ -1113,11 +1113,17 @@ class PlayState extends MusicBeatState
 		eventPushedMap = null;
 
 		#if MODCHARTS_EDWHAK
-		if (ClientPrefs.getGameplaySetting("modchart", true) && Paths.formatToSongPath(SONG.song.toLowerCase()) != 'google')
+		if (ClientPrefs.getGameplaySetting("modchart", true))
 		{
+			if (Paths.formatToSongPath(Song.song.toLowerCase()) != 'google')
+			{
+			}
+			else
+			{
 			playfieldRenderer = new PlayfieldRenderer(strumLineNotes, notes, this);
 			playfieldRenderer.cameras = [camHUD];
 			add(playfieldRenderer);
+			}
 		}
 		#end
 

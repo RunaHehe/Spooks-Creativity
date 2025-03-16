@@ -43,7 +43,7 @@ function onCreatePost()
     setProperty('cover.alpha', 1);
 	setProperty("cover.color", getColorFromHex("36393F"))
 
-	addLuaScript("stages/discordStage")
+	addLuaScript("stages/discordStageAAC")
 end
 function onSongStart()
 	setProperty('static.alpha',0)
