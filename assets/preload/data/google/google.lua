@@ -162,11 +162,6 @@ function onCreatePost()
          end
       end
    end
-
-   setProperty("boyfriend.healthIcon", "spook")
-   runHaxeCode([[
-       game.iconP1.changeIcon("icon-spook");
-   ]])
    setHealthBarColors("FFFFFF", "912B29")
    setProperty("iconP2.visible", false)
 
@@ -232,12 +227,10 @@ end
 
 function onCountdownStarted() 
    runHaxeCode([[
-      for (strum in game.playfieldRenderer)
+      for (strum in game.opponentStrums)
       {
           strum.camera = googleCam;
           strum.scrollFactor.set(1, 1);
-          game.playfieldRenderer.camera = googleCam;
-          game.playfieldRenderer.scrollFactor.set(1, 1);
       }
 
       for (note in game.unspawnNotes)
@@ -252,13 +245,13 @@ function onCountdownStarted()
    local spfg = setPropertyFromGroup
    local space = {-1.5, -0.5, 0.5, 1.5}
    for i = 0,3 do
-      spfg("playfieldRenderer", i, "downScroll", true)
-      spfg("playfieldRenderer", i, "x", (1280/2) + (250*space[i+1]) - (getPropertyFromGroup("playfieldRenderer", i, "width")/2))
-      spfg("playfieldRenderer", i, "y", 490)
-      spfg("playfieldRenderer", i, "visible", false)
+      spfg("strumLineNotes", i, "downScroll", true)
+      spfg("strumLineNotes", i, "x", (1280/2) + (250*space[i+1]) - (getPropertyFromGroup("strumLineNotes", i, "width")/2))
+      spfg("strumLineNotes", i, "y", 490)
+      spfg("strumLineNotes", i, "visible", false)
    end
    for i = 1, 8 do
-         table.insert(defaultNote, {x = getPropertyFromGroup("playfieldRenderer", i-1, "x"), y = getPropertyFromGroup("playfieldRenderer", i-1, "y")})
+         table.insert(defaultNote, {x = getPropertyFromGroup("strumLineNotes", i-1, "x"), y = getPropertyFromGroup("strumLineNotes", i-1, "y")})
    end
 
   
@@ -415,7 +408,7 @@ function onUpdate(elapsed)
    end
    if HardMode and curBeat >= 456 and curBeat < 584 then
       for i = 0, 7 do
-         setPropertyFromGroup("playfieldRenderer", i, 'x', defaultNote[i+1].x + (con_sin(curDecBeat/8) * 200))
+         setPropertyFromGroup("strumLineNotes", i, 'x', defaultNote[i+1].x + (con_sin(curDecBeat/8) * 200))
       end
    end
 
@@ -631,7 +624,7 @@ function onStepEvent(curStep)
       doTweenAngle("camGW", "googleWave", 0, 1, 'quadOut')
 
       for i = 0, 7 do
-         setPropertyFromGroup("playfieldRenderer", i, 'x', defaultNote[i+1].x)
+         setPropertyFromGroup("strumLineNotes", i, 'x', defaultNote[i+1].x)
       end
    end
 

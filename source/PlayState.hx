@@ -1115,17 +1115,15 @@ class PlayState extends MusicBeatState
 		#if MODCHARTS_EDWHAK
 		if (ClientPrefs.getGameplaySetting("modchart", true))
 		{
-			if (Paths.formatToSongPath(Song.song.toLowerCase()) != 'google')
+			if (Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "google" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "shut-up-aac")
 			{
-			}
-			else
-			{
-			playfieldRenderer = new PlayfieldRenderer(strumLineNotes, notes, this);
-			playfieldRenderer.cameras = [camHUD];
-			add(playfieldRenderer);
+				playfieldRenderer = new PlayfieldRenderer(strumLineNotes, notes, this);
+				playfieldRenderer.cameras = [camHUD];
+				add(playfieldRenderer);
 			}
 		}
 		#end
+
 
 		// After all characters being loaded, it makes then invisible 0.01s later so that the player won't freeze when you change characters
 		// add(strumLine);
