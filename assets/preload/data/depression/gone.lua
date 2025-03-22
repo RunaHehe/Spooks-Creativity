@@ -34,9 +34,11 @@ function onStepEvent(curStep)
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 2)
         if shadersOption then
             runHaxeCode([[
-                camDiscord.setFilters([new ShaderFilter(game.getLuaObject("oldTvEffect").shader)]);
-                camBDiscord.setFilters([new ShaderFilter(game.getLuaObject("oldTvEffect").shader)]);
-                game.camHUD.setFilters([new ShaderFilter(game.getLuaObject("oldTvEffect").shader)]);
+                var oldTvFilter = new ShaderFilter(game.getLuaObject("oldTvEffect").shader);
+                var rainFilter = new ShaderFilter(game.getLuaObject("rainhehe").shader);
+                camDiscord.setFilters([rainFilter, oldTvFilter]);
+                camBDiscord.setFilters([rainFilter, oldTvFilter]);
+                game.camHUD.setFilters([rainFilter, oldTvFilter]);
             ]])
         end
     end
@@ -51,10 +53,6 @@ function onStepEvent(curStep)
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 0.4)
         callScript("stages/discordStage", "lightingMode", {false})
         if shadersOption then
-            runHaxeCode([[
-                camDiscord.setFilters([new ShaderFilter(game.getLuaObject("rainhehe").shader)]);
-                camBDiscord.setFilters([new ShaderFilter(game.getLuaObject("rainhehe").shader)]);
-           ]])
            setShaderFloat("rainhehe", "iIntensity", 0.13)
         end
     end
