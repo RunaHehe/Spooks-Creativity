@@ -3,6 +3,13 @@ function onCreate()
         if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Deleted Note' then
             setPropertyFromGroup('unspawnNotes', i, 'texture', 'Deleted Note')
             setPropertyFromGroup('unspawnNotes', i, 'hitHealth', -0.1)
+            setPropertyFromGroup('unspawnNotes', i, 'ignoreNote', true)
+            if botPlay then
+                setPropertyFromGroup('unspawnNotes', i, 'ignoreNote', true)
+            end
+            if not getPropertyFromGroup('unspawnNotes', i, 'mustPress') then
+                setPropertyFromGroup('unspawnNotes', i, 'ignoreNote', true)
+            end
         end
     end
 end

@@ -3,6 +3,7 @@
     uniform float iTime;
    // uniform sampler2D noiseTex;
     uniform vec3 iResolution;
+    uniform float noiseAlpha;
 
     float onOff(float a, float b, float c)
     {
@@ -53,11 +54,11 @@
         vec2 f = fract(uv);
 
         float a = random(i);
-        float b = random(i + vec2(1.,0.));
-        float c = random(i + vec2(0., 1.));
-        float d = random(i + vec2(1.));
+        float b = random(i + vec2(1.,0.)) * noiseAlpha;
+        float c = random(i + vec2(0., 1.)) * noiseAlpha;
+        float d = random(i + vec2(1.)) * noiseAlpha;
 
-        vec2 u = smoothstep(0., 1., f);
+        vec2 u = smoothstep(0., 1., f * noiseAlpha);
 
         return mix(a,b, u.x) + (c - a) * u.y * (1. - u.x) + (d - b) * u.x * u.y;
 
