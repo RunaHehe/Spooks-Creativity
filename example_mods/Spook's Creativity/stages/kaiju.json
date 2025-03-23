@@ -3,13 +3,13 @@
 	"defaultZoom": 0.6,
 	"isPixelStage": false,
 
-	"boyfriend": [800, -50],
+	"boyfriend": [640, -20],
 	"girlfriend": [400, 30],
-	"opponent": [0, 0],
+	"opponent": [-300, -145],
 	"hide_girlfriend": true,
 
-	"camera_boyfriend": [-300, -150],
-	"camera_opponent": [0, -50],
+	"camera_boyfriend": [-300, -100],
+	"camera_opponent": [-20, -100],
 	"camera_girlfriend": [0, 0],
 	"camera_speed": 0.6
 }

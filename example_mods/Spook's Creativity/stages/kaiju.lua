@@ -257,8 +257,6 @@ function onCreatePost()
 		setProperty(crystalGroup[i] .. ".visible", false)
 	end
 
-	setProperty("dad.x", getProperty("DAD_X"))
-	setProperty("dad.y", getProperty("DAD_Y"))
 	setProperty("boyfriend.x", getProperty("BF_X"))
 	setProperty("boyfriend.y", getProperty("BF_Y"))
 
@@ -509,13 +507,14 @@ function onEvent(tag, value1, value2)
 		if isDad then
 			setSpriteShader('dad', 'dropShadow1')
 			setProperty("dad.y", getProperty("DAD_Y"))
+			setProperty('dad.y', 30)
+            setProperty('dad.x', -530)
 		else
 			setSpriteShader('boyfriend', 'dropShadow1')
 			setProperty("boyfriend.y", getProperty("BF_Y"))
 			setProperty("boyfriend.x", getProperty("BF_X"))
 		end
-		
-	end	
+	end
 end
 local isCamWatch, isCamWatchPrev = false;
 camWatchX, camWatchY, camWatchZoom = 0;

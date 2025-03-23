@@ -1,4 +1,3 @@
-local idk = false
 function onCreatePost()
     shadersOption = getPropertyFromClass("ClientPrefs", "shaders")
     if shadersOption then
@@ -34,7 +33,7 @@ function onStepEvent(curStep)
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 2)
         if shadersOption then
             runHaxeCode([[
-                var oldTvFilter = new ShaderFilter(game.getLuaObject("oldTvEffect").shader);
+                var oldTvFilter = new ShaderFilter(game.getLuaObject("oldTVNoStatic").shader);
                 var rainFilter = new ShaderFilter(game.getLuaObject("rainhehe").shader);
                 camDiscord.setFilters([rainFilter, oldTvFilter]);
                 camBDiscord.setFilters([rainFilter, oldTvFilter]);
@@ -43,7 +42,7 @@ function onStepEvent(curStep)
         end
     end
     if curStep == 512 then 
-        cameraFlash("HUD", "FFFFFF", 2)
+        cameraFlash("camOther", "FFFFFF", 2)
     end
     if curStep == 768 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 2)
@@ -84,7 +83,7 @@ end
 
 function onUpdate(elapsed)
     if shadersOption then
-        setShaderFloat("oldTvEffect", "iTime", os.clock()%100)
+        setShaderFloat("oldTVNoStatic", "iTime", os.clock()%100)
         setShaderFloat("rainhehe", "iTime", os.clock()%100)
         setShaderFloat("rainhehe", "iTimescale", 0.1)
     end
