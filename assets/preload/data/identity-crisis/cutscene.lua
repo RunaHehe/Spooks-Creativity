@@ -5,8 +5,8 @@ function onStartCountdown()
 	if not seenCutscene then
 		if playVideo then
 			math.randomseed(os.time())
-			if math.random(5) == 1 then
-				startVideo('unfortunate') -- 1/5 chance
+			if math.random(8) == 2 then
+				startVideo('unfortunate') -- 1/8 chance
 			else
 				startVideo('Identity Cutscene') -- default cutscene
 			end

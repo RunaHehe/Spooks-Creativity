@@ -15,7 +15,7 @@ bam = 1
 susOffset = 0
 
 
-disableMovingScreen = true
+disableMovingScreen = false
 local windowX = 0;
 local windowY = 0;
 local windowW = 0;
@@ -215,7 +215,6 @@ end
 local windowOffset = {x = 0, y = 0}
 function onUpdate(elapsed)
     if not inGameOver then
-        if mechanicOption then
             notesEvent(elapsed)
 
             if curStep >= 832 and curStep < 1344 then 
@@ -223,7 +222,6 @@ function onUpdate(elapsed)
                 setProperty("camBDiscord.angle", continuous_sin(curDecStep/8)*-5)
                 setProperty("camDiscord.angle", continuous_sin(curDecStep/8)*10)
             end
-            if not disableMovingScreen then
                 local winX, winY = getPropertyFromClass('openfl.Lib','application.window.x'), getPropertyFromClass('openfl.Lib','application.window.y')
                 setPropertyFromClass('openfl.Lib','application.window.x',lerp(winX, windowX + windowOffset.x + getProperty("windowObject.x"), elapsed*12))
                 setPropertyFromClass('openfl.Lib','application.window.y',lerp(winY, windowY + windowOffset.y + getProperty("windowObject.y"), elapsed*12))
@@ -243,8 +241,6 @@ function onUpdate(elapsed)
                 if borderlessShake and false then 
                     setPropertyFromClass('openfl.Lib','application.window.borderless',getRandomBool(5))
                 end
-            end
-        end
 
         if curStep >= 2752 and curStep < 2880 then
             setProperty("camDiscord.alpha", 0.7 + continuous_sin(curDecStep/16)*0.3)
@@ -288,7 +284,7 @@ end
 
 function onBeatHit()
     if curBeat == 144 then 
-        --getWindowPos()
+        getWindowPos()
         waveWindowY = true
     end
     if curBeat == 208 then 
@@ -343,7 +339,7 @@ function onBeatHit()
             setProperty('camBDiscord.zoom',getProperty('camBDiscord.zoom')+0.04*bam);
 		end
 	end
-    --customMovingWindow()
+    customMovingWindow()
 end
 
 function getWindowPos()
@@ -421,24 +417,20 @@ function onEvent(n,v1,v2)
  end
 
 function onPause()
-    if not disableMovingScreen then
         setPropertyFromClass('openfl.Lib','application.window.borderless',false)
         setPropertyFromClass('openfl.Lib','application.window.x',windowX)
         setPropertyFromClass('openfl.Lib','application.window.y',windowY)
 
         setPropertyFromClass('openfl.Lib','application.window.width',windowW)
         setPropertyFromClass('openfl.Lib','application.window.height',windowH)
-    end
 end
 function onDestroy()
-    if not disableMovingScreen then
         setPropertyFromClass('openfl.Lib','application.window.borderless',false)
         setPropertyFromClass('openfl.Lib','application.window.x',windowX)
         setPropertyFromClass('openfl.Lib','application.window.y',windowY)
 
         setPropertyFromClass('openfl.Lib','application.window.width',windowW)
         setPropertyFromClass('openfl.Lib','application.window.height',windowH)
-    end
 end
 
 function onResume()

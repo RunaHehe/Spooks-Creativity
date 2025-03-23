@@ -162,6 +162,11 @@ function onCreatePost()
          end
       end
    end
+
+   setProperty("boyfriend.healthIcon", "spook")
+   runHaxeCode([[
+       game.iconP1.changeIcon("icon-spook");
+   ]])
    setHealthBarColors("FFFFFF", "912B29")
    setProperty("iconP2.visible", false)
 

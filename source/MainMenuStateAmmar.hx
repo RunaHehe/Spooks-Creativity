@@ -125,8 +125,8 @@ class MainMenuStateAmmar extends MusicBeatState
         //['song' => '' ,'icon' => "", 'desc' => ""]
         ['song' => 'Discord Annoyer'   ,'icon' => ""            , 'week' => "Discord Annoyer"],
         ['song' => 'Shut Up'              ,'icon' => ""            , 'week' => "Discord Annoyer"],
-        ['song' => 'Depression'          ,'icon' => ""            , 'week' => "Discord Annoyer"],
-        ['song' => 'Moderator'           ,'icon' => ""            , 'week' => "Discord Annoyer", 'unlocked' => ['Discord Annoyer', 'Shut Up', 'Depression', 'Moderator']],
+        ['song' => 'Moderator'          ,'icon' => ""            , 'week' => "Discord Annoyer"],
+        ['song' => 'Depression'           ,'icon' => ""            , 'week' => "Discord Annoyer", 'unlocked' => ['Discord Annoyer', 'Shut Up', 'Moderator', 'Depression']],
 
         ['song' => 'Hate Comment'        ,'icon' => ""           , 'week' => "Hating Problem"],
         ['song' => 'Twitter Argument'   ,'icon' => ""            , 'week' => "Hating Problem"],
@@ -142,20 +142,20 @@ class MainMenuStateAmmar extends MusicBeatState
         
         ['song' => 'Furry Appeared'    ,'icon' => ""            , 'week' => "Kaiju Paradise",  'unlocked' => ['Furry Appeared'], 'hidden' => true],
         ['song' => 'Protogen'    ,      'icon' => ""            , 'week' => "Kaiju Paradise",  'unlocked' => ['Protogen'], 'hidden' => true],
-        ['song' => 'Kaiju Paradise'    ,      'icon' => ""            , 'week' => "Kaiju Paradise",  'unlocked' => ['Protogen'], 'hidden' => true],
+        ['song' => 'Kaiju Paradise'    ,      'icon' => ""            , 'week' => "Kaiju Paradise",  'unlocked' => ['Kaiju Paradise'], 'hidden' => true],
 
         ['song' => 'Furry Femboy'    ,'icon' => ""            , 'week' => "Furry Femboy"],
 
         ['song' => 'Programming An Ammar'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
         ['song' => 'Identity Crisis'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
         ['song' => 'Note Nova'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
-        ['song' => 'Twisted Truths'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
+        ['song' => 'Twisted Truths'    ,'icon' => ""            , 'week' => "Ammar Showdown", 'unlocked' => ['Programming An Ammar', 'Identity Crisis', 'Note Nova', 'Twisted Truths'], 'hidden' => true],
     ];
     var songsDifficulty:Map<String, Array<Int>> = [
         'Discord Annoyer'    => [1, 2, 2],
         'Shut Up'            => [3, 4, 7],
-        'Depression'         => [4, 5, 6],
-        'Moderator'          => [4, 5, 6],
+        'Moderator'         => [4, 5, 6],
+        'Depression'         => [6, 9, 11],
 
         'Hate Comment'       => [7, 8, 8],
         'Twitter Argument'   => [7, 9, 10],
@@ -212,12 +212,14 @@ class MainMenuStateAmmar extends MusicBeatState
         ["Hater Beater", "hater", ['Complete the Hating Problem Week', 'Completed the Hating Problem Week']],
         ["Debug Access", "ammar", ['Have access to Debug', 'Successfully have access to debug']],
         ["Furry Conversation", "furry", ['The suspicious option', "Completed the Kaiju Paradise Week"]],
+        ["Ammar Showup", "showdownhehe", ['Complete the Ammar Showdown Week', 'Completed the Ammar Showdown Week                   \nthis was like the easiest week ever']],
         //v4.2
         ["Unloseable", "myselfghost", ['Complete Myself without ghost tapping on Normal Difficulty', "Completed Myself without ghost tapping on Normal Difficulty"]],
         ["Relaxing Song", "relaxsong", ['Complete The Easiest Song With Easy Difficulty', "Completed The Easiest Song (Discord Annoyer) With Easy Difficulty"]],
         ["Dark Google", "darkgoogle", ['Complete Google on Hard Difficulty', "Completed Google on Hard Difficulty"]],
         ["Unbeatable User", "twitterhard", ['Complete Twitter Argument on Hard Difficulty', "Completed Twitter Argument on Hard Difficulty.\nwowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"]],
-        ["Ammar is a Furry", "ammarfurry", ['Ammar Furry', "Completed Furry Femboy song"]]
+        ["Ammar is a Furry", "ammarfurry", ['Ammar Furry', "Completed Furry Femboy song"]],
+        ["This guy gotta be hacking...", "kaijughost", ['Complete the Kaiju Paradise Song without ghost tapping', 'Completed the Kaiju Paradise Song without ghost tapping enabled                             \nwhat is wrong with you.']],
     ];
 
     var creditsList:Array<Array<Dynamic>> = [ //Name, Credit Icon, Description, Link, Quotes
@@ -1147,7 +1149,7 @@ class MainMenuStateAmmar extends MusicBeatState
                 menuItems.add(menuItem);
                 menuItems.cameras = [camHUD];
 
-                var imagePath:String = (badgeGot ? ((badgeSave == 'ammarfurry' || badgeSave == 'furry') ? "badgeGotCute" : "badgeGot") : "badgeNotGot");
+                var imagePath:String = (badgeGot ? ((badgeSave == 'ammarfurry' || badgeSave == 'furry' || badgeSave == 'showdownhehe') ? "badgeGotCute" : "badgeGot") : "badgeNotGot");
                 
                 var menuIcon:MenuSprite = new MenuSprite(1300, 0, Paths.image("ammar/"+imagePath));
                 menuIcon.partner = menuItem;

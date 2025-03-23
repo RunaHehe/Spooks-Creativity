@@ -1115,7 +1115,7 @@ class PlayState extends MusicBeatState
 		#if MODCHARTS_EDWHAK
 		if (ClientPrefs.getGameplaySetting("modchart", true))
 		{
-			if (Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "google" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "shut-up-aac")
+			if (Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "google" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "shut-up-aac" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "kaiju-paradise")
 			{
 				playfieldRenderer = new PlayfieldRenderer(strumLineNotes, notes, this);
 				playfieldRenderer.cameras = [camHUD];
@@ -3804,6 +3804,8 @@ class PlayState extends MusicBeatState
 					Highscore.getBadge('darkgoogle');
 				if (songName == 'twitter-argument' && ClientPrefs.aDifficulty.toLowerCase() == 'hard')
 					Highscore.getBadge('twitterhard');
+				if (songName == 'kaiju-paradise' && !ClientPrefs.ghostTapping)
+					Highscore.getBadge('kaijughost');
 			} else {
 				trace('cheating');
 			}
@@ -3837,6 +3839,8 @@ class PlayState extends MusicBeatState
 							Highscore.getBadge('ammar');
 						else if (storyName.toLowerCase() == 'kaiju paradise') 
 							Highscore.getBadge('furry');
+						else if (storyName.toLowerCase() == 'ammar showdown')
+							Highscore.getBadge('showdownhehe');
 					}
 
 					
