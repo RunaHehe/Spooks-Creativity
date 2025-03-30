@@ -2,6 +2,7 @@
 	"song": {
 		"player1": "annoyer-discord",
 		"gfVersion": "gf",
+		"introAtStep": 256,
 		"notes": [
 			{
 				"sectionNotes": [
