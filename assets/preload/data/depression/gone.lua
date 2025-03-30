@@ -112,8 +112,11 @@ function onStepEvent(curStep)
     if curStep == 769 then
         doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 5)
     end
+    if curStep == 880 then
+        doTweenVar('zoomTween', 'defaultCamZoom', 0.7, 1)
+    end
     if curStep == 888 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.7, 0.09)
+        doTweenVar('zoomTween', 'defaultCamZoom', 1.7, 0.8)
     end
     if curStep == 896 then
         doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.07)
