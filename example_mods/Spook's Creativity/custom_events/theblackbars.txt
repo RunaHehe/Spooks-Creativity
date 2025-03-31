@@ -1,0 +1,9 @@
+Value 1: Bar Thickness (pixels), Speed (seconds)
+Value 2: Cinematic Type
+
+Cinematic Types:
+1: Underlapping
+2: Overlapping
+3: With HUD
+4: Without HUD
+5: Static Strums

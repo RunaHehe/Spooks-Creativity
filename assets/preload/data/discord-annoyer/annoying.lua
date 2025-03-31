@@ -249,7 +249,7 @@ function goodNoteHit(id, dir)
     end
 end
 
-function onUpdate(elapsed) 
+function onUpdatePost(elapsed) 
     if curStep >= 1520 and curStep < 1760 then
         setProperty("camHUD.angle", continuous_sin(curDecStep/32)*(EasyMode and 3 or 6))
         setProperty("camBDiscord.angle", continuous_sin(curDecStep/32)*6)
@@ -290,7 +290,6 @@ function shakyi(elapsed)
     setProperty("camBDiscord.y", -randomY*0.7)
     setProperty("camDiscord.x", -randomX)
     setProperty("camDiscord.y", -randomY)
-    
 end
 
 

@@ -65,16 +65,16 @@ function onCreatePost()
     precacheImage(folder.."messageBar-Light")
     precacheImage(folder.."topBar-Light")
 
-    if songName:lower() == "shut-up" then 
+    if songName:lower() == "shut-up-aac" then 
         precacheImage(folder.."MembersList2B")
         precacheImage(folder.."MembersList2B-Light")
         precacheImage(folder.."Boy")
         precacheImage(folder.."MembersList2-Light")
     end
 
-    opponentTyping = songName:lower() == "shut-up" and "(Random Girl is MAD...)" or opponentTyping
-    opponentCaps = songName:lower() == "shut-up"
-    barIntensity = songName:lower() == "shut-up" and 30 or barIntensity
+    opponentTyping = songName:lower() == "shut-up-aac" and "(Random Girl is MAD...)" or opponentTyping
+    opponentCaps = songName:lower() == "shut-up-aac"
+    barIntensity = songName:lower() == "shut-up-aac" and 30 or barIntensity
     
 
     vocalsSetup()
@@ -87,7 +87,7 @@ function onCreatePost()
 
     makeSpr({tag = "channels", image = folder.."ChannelsList", x = -5, y = 50, xSize = 0.85, cam = "camDiscord"})
 
-    --makeSpr({tag = "members", image = folder..(songName:lower() == "shut-up" and "MembersList2" or "MembersList"), xSize = 0.85, cam = "camDiscord"})
+    --makeSpr({tag = "members", image = folder..(songName:lower() == "shut-up-aac" and "MembersList2" or "MembersList"), xSize = 0.85, cam = "camDiscord"})
     makeSpr({tag = "members", cam = "camDiscord", image = folder.."MembersListBG", xSize = 0.85})
     --makeGraphic("members", 371*0.85, 1440*0.85, "FFFFFF")
     --setProperty("members.color", getColorFromHex("2B2D31"))
@@ -112,7 +112,7 @@ function onCreatePost()
     local xx = 320
     local tw = 505
     makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
-    makeSpr({tag = "opponent", image = folder..(songName:lower() == "shut-up" and "chars/Random Girl" or "chars/Ammar"), x = xx, y = 100, cam = "camBDiscord", xSize = (songName:lower() == "shut-up" and 0.625 or 0.625)})
+    makeSpr({tag = "opponent", image = folder..(songName:lower() == "shut-up-aac" and "chars/Random Girl" or "chars/Ammar"), x = xx, y = 100, cam = "camBDiscord", xSize = (songName:lower() == "shut-up-aac" and 0.625 or 0.625)})
 
     makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
     makeSpr({tag = "player", image = folder.."chars/Annoying User", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
@@ -137,31 +137,43 @@ function onCreatePost()
 end
 
 function setupMembers()
-    local members = {"Ammar", "Ams", "An Ammar Plumber", "Annoyer", "Asser", "Danny14", "IdiotXD", "NotAlpha", "Pakachi", "Professor", "Random Girl", "Random", "Sirnotify", "Spook", "Swordsy", "Tabbee", "Vander", "Virus"}
-    
-    addHaxeLibrary("AttachedSprite")
-    addHaxeLibrary("AttachedFlxText", "editors.ChartingState")
-    addHaxeLibrary("FlxRect", "flixel.math")
-    addHaxeLibrary("Paths", "")
-    addHaxeLibrary("Std")
-    runHaxeCode "setVar('memberList', [])"
-    runHaxeCode "setVar('membersSprites', [])"
-
-
-    if string.gsub(songName:lower(), " ", "-") == "discord-annoyer" then
-        setProperty("memberList", {"Ammar", "Ams", "An Ammar Plumber", "Annoyer", "Asser", "Danny14", "IdiotXD", "NotAlpha", "Tabbee", "Vander"})
-    else
-        setProperty("memberList", members)
+    local textFile = ''
+    if checkFileExists('mods/stages/discordMembers.txt', true) then 
+        textFile = getTextFromFile("stages/discordMembers.txt", false)
+    end
+    local onSongPath = "data/"..((songName:lower()):gsub(' ', '-'))..'/discordMembers.txt'
+    if checkFileExists('assets/'..onSongPath, true) then 
+        textFile = getTextFromFile(onSongPath, false) 
+    end
+    local members = {} -- {{name, category}}
+    local categories = {}
+    local cate = ''
+    for line in textFile:gmatch("[^\r\n]+") do
+        if stringStartsWith(line, "-") then
+            cate = line:sub(2, #line)
+            table.insert(categories, cate)
+        else
+            table.insert(members, {line, cate});
+        end
     end
 
-    runHaxeCode([[
+    addHaxeLibrary("AttachedSprite") addHaxeLibrary("AttachedFlxText", "editors.ChartingState") addHaxeLibrary("FlxRect", "flixel.math") addHaxeLibrary("Paths", "") addHaxeLibrary("Std")
+    runHaxeCode "setVar('memberList', [])"
+    runHaxeCode "setVar('categoryList', [])"
+    runHaxeCode "setVar('membersSprites', [])"
+
+    setProperty("memberList", members)
+    setProperty("categoryList", categories)
+
+    runHaxeCode([=[
         var memberList = getVar('memberList');
+        var categoryList = getVar('categoryList');
         var memberPlace = game.getLuaObject("members");
         var memberOrder = [];
 
-        memberList.sort(function(a:String, b:String):Int {
-            a = a.toUpperCase();
-            b = b.toUpperCase();
+        /*memberList.sort(function(a:Array<String>, b:Array<String>):Int {
+            a = a[0].toUpperCase();
+            b = b[0].toUpperCase();
           
             if (a < b) {
               return -1;
@@ -171,37 +183,14 @@ function setupMembers()
             } else {
               return 0;
             }
-          });
+          });*/
 
-        //var ttest = new AttachedFlxText(50, 50, 0, "test test", 16);
-        //ttest.camera = game.camHUD;
-        //game.add(ttest);
         var membersSprites = [];
+        var updateMemberList = memberList;
 
-        var modList = ["Professor", "Sirnotify"];
-        var boosterList = ["Tabbee"];
-        var ownerList = ["Ammar"];
-        var updateMemberList = [];
-        for (i in ownerList) {
-            if (memberList.contains(i))
-                updateMemberList.push(i);
-        }
-        for (i in modList) {
-            if (memberList.contains(i))
-                updateMemberList.push(i);
-        }
-        for (i in boosterList) {
-            if (memberList.contains(i))
-                updateMemberList.push(i);
-        }
-        for (i in memberList) {
-            if (!updateMemberList.contains(i))
-                updateMemberList.push(i);
-        }
-
-        if (updateMemberList.length <= 12) {
+        if (updateMemberList.length <= 8 && !ClientPrefs.lowQuality) {
             for (i in 0...(17 - updateMemberList.length)) {
-                updateMemberList.push("User" + FlxG.random.int(1, 3));
+                updateMemberList.push(["User" + FlxG.random.int(1, 3), categoryList[categoryList.length-1]]);
             }
         }
 
@@ -209,18 +198,18 @@ function setupMembers()
         var space = 40;
         var offsetX = 7;
         var categoryXOff = 16 + offsetX;
-        for (memberName in updateMemberList) {
-            if (memberName == "Ammar") { //Owner
+        var categoryIndex = 0;
+        for (memberA in updateMemberList) {
+            var addNewCategory:Bool = false; var categoryName:String = '';
+            if (memberA[1] == categoryList[categoryIndex]) {
+                categoryName = categoryList[categoryIndex];
+                addNewCategory = true;
                 space += 40;
-            } else if (memberName == "Professor"){  //Mod
-                space += 40;
-            } else if (memberName == "Tabbee")  //Booster
-                space += 40;
-            else if (memberName == "Ams")  //Members
-                space += 40;
-            
+                categoryIndex += 1;
+            }
+            var memberName:String = memberA[0];
 
-            var member = new AttachedSprite('discord/members/'+memberName);
+            var member = new AttachedSprite('members/'+memberName);
             member.setGraphicSize(Std.int(member.width * 0.75));
             member.updateHitbox();
             member.yAdd = indexNum * 66 + space;
@@ -230,14 +219,13 @@ function setupMembers()
             member.sprTracker = memberPlace;
             indexNum += 1;
             memberOrder.push(memberName);
-            Paths.image('discord/members/'+memberName+" L");
+            Paths.image('members/'+memberName+" L");
 
             game.variables.set("s-"+memberName+indexNum, member);
-            membersSprites.push(["s-"+memberName+indexNum, 'discord/members/'+memberName, false]);
+            membersSprites.push(["s-"+memberName+indexNum, 'members/'+memberName, false]);
 
-
-            if (memberName == "Ammar") { //Owner
-                var category = new AttachedSprite('discord/category/Content Creator');
+            if (addNewCategory) { // Add New Category
+                var category = new AttachedSprite('category/'+categoryName);
                 category.setGraphicSize(Std.int(category.width * 0.75));
                 category.updateHitbox();
                 category.yAdd = member.yAdd - 18;
@@ -245,56 +233,18 @@ function setupMembers()
                 category.camera = camDiscord;
                 game.add(category);
                 category.sprTracker = memberPlace;
-                Paths.image('discord/category/Content Creator L');
+                Paths.image('category/'+categoryName+' L');
 
-                game.variables.set("c-contentcreator", category);
-                membersSprites.push(["c-contentcreator", 'discord/category/Content Creator', true]);
+                var lowCate:String = StringTools.trim(categoryName.toLowerCase());
+                game.variables.set('c-'+lowCate, category);
+                membersSprites.push(['c-'+lowCate, 'category/'+categoryName, true]);
 
-            } else if (memberName == "Professor"){  //Mod
-                var category = new AttachedSprite('discord/category/Moderator');
-                category.setGraphicSize(Std.int(category.width * 0.75));
-                category.updateHitbox();
-                category.yAdd = member.yAdd - 18;
-                category.xAdd = categoryXOff;
-                category.camera = camDiscord;
-                game.add(category);
-                category.sprTracker = memberPlace;
-                Paths.image('discord/category/Moderator L');
-
-                game.variables.set("c-moderator", category);
-                membersSprites.push(["c-moderator", 'discord/category/Moderator', true]);
-            } else if (memberName == "Tabbee"){  //Booster
-                var category = new AttachedSprite('discord/category/Server Booster');
-                category.setGraphicSize(Std.int(category.width * 0.75));
-                category.updateHitbox();
-                category.yAdd = member.yAdd - 18;
-                category.xAdd = categoryXOff;
-                category.camera = camDiscord;
-                game.add(category);
-                category.sprTracker = memberPlace;
-                Paths.image('discord/category/Server Booster L');
-
-                game.variables.set("c-booster", category);
-                membersSprites.push(["c-booster", 'discord/category/Server Booster', true]);
-            } else if (memberName == "Ams") { //Members
-                var category = new AttachedSprite('discord/category/Member');
-                category.setGraphicSize(Std.int(category.width * 0.75));
-                category.updateHitbox();
-                category.yAdd = member.yAdd - 18;
-                category.xAdd = categoryXOff;
-                category.camera = camDiscord;
-                game.add(category);
-                category.sprTracker = memberPlace;
-                Paths.image('discord/category/Member L');
-
-                game.variables.set("c-member", category);
-                membersSprites.push(["c-member", 'discord/category/Member', true]);
             }
             
             
         }
         setVar('membersSprites', membersSprites)
-    ]])
+    ]=])
 
     membersSprites = getProperty("membersSprites")
 end
@@ -340,6 +290,16 @@ function onUpdate(elapsed)
      
     elseif not idleTimer.dadDone  then
         idleTimer.dad = idleTimer.dad + elapsed*pbr
+    end
+
+    if idleTimer.dadDone and not disableDadTextRemove then 
+        if dadNoteNear and not disableIsTyping  then 
+            cancelTween("opponentTextHide")
+            setProperty("opponentText.alpha", 1)
+            setTextString("opponentText", opponentTyping)
+        else
+            setTextString("opponentText", "...")
+        end
     end
 
     if idleTimer.dadDone and not disableDadTextRemove then 
@@ -447,88 +407,67 @@ function onEvent(eventName, value1, value2)
 end
 
 function goodNoteHit(id, dir, type, sus)
-    local dontSing = lastStrumTime[2] == getPropertyFromGroup("notes", id, "strumTime")
-
-    local empty = false
-    if idleTimer.bfDone then 
-        setTextString("playerText", "")
-        empty = true
-    end
-    idleTimer.bf = 0
-    idleTimer.bfDone = false
-
-    if not dontSing then 
-        local time = getPropertyFromGroup("notes", id, "strumTime")+1
-        local data = 1
-        local isFound = false
-        for i,v in pairs(vocalsNotes.bf) do 
-            if v.time <= time then 
-                data = v.data + 1
-                isFound = true
-                --table.remove(vocalsNotes.bf, i)
-                break
-            end
-        end
-
-        if isFound then 
-            bfNumVocal = data
-        end
-    else 
-        --debugPrint("DOUBLE")
-    end
-
-    lastStrumTime[2] = getPropertyFromGroup("notes", id, "strumTime")
-
-    if not disableBFTextTyping and not dontSing then 
-        if getProperty("playerText.textField.numLines") > 6 then 
-            setTextString("playerText", "")
-        end
-        local isEnd = not getPropertyFromGroup("notes",id,"nextNote.isSustainNote") and getPropertyFromGroup("notes",id, "isSustainNote")
-        local text = vocals[2][bfNumVocal][(isEnd and 3 or (sus and 2 or 1))]
-        text = (isEnd or not sus) and (text[getRandomInt(1, #text)]) or text
-        setTextString("playerText", getTextString("playerText")..((empty or sus) and "" or " ")..text)
-    end
+    messageType(id, dir, sus, true)
 end
 
 function opponentNoteHit(id, dir, type, sus)
-    local dontSing = lastStrumTime[1] == getPropertyFromGroup("notes", id, "strumTime")
+    messageType(id, dir, sus, false)
+end
 
-    local empty = false
-    if idleTimer.dadDone then 
-        setTextString("opponentText", "")
-        empty = true
+--TASK: Make optimized and cleaner message (FINISHED)
+lastStrumTime = {-999, -999}
+latestNotePress = {player = -999, opponent = -999}
+vocalType = {player = 1, opponent = 1} -- aaa, eee, ooo, eeh
+function messageType(id ,direction, isSustainNote, isPlayer) 
+    --Implement variables
+    local notePressTime = isPlayer and latestNotePress.player or latestNotePress.opponent
+    local doubleNote = isPlayer and notePressTime == getPropertyFromGroup("notes", id, "strumTime")
+    local textName = isPlayer and 'playerText' or 'opponentText'
+    local plrOrOpp = isPlayer and 'player' or 'opponent'
+    local quickNote = false -- CHECK IF CHARACTER SING FAST (NEW!)
+    local chatIsEmpty = false
+
+    -- Set Note time on Double Note Time Checker
+    latestNotePress[plrOrOpp] = getPropertyFromGroup("notes", id, "strumTime")
+
+    if doubleNote then return; end -- NO DOUBLE NOTE!!
+
+    if getPropertyFromGroup("notes", id, 'nextNote') ~= nil then
+        local timeDifferent = math.abs(getPropertyFromGroup("notes", id, 'strumTime') - getPropertyFromGroup("notes", id, 'nextNote.strumTime'))
+        if not (isSustainNote or getPropertyFromGroup("notes", id, 'nextNote.isSustainNote')) and 
+        timeDifferent <= (stepCrochet*1.5) then
+            quickNote = true
+        end
     end
-    idleTimer.dad = 0
-    idleTimer.dadDone = false
 
-    if not dontSing then 
-        local time = getPropertyFromGroup("notes", id, "strumTime")+1
-        local data = 1
-        local isFound = false
-        for i,v in pairs(vocalsNotes.dad) do 
-            if v.time <= time  then 
-                data = v.data + 1
-                isFound = true
-                --table.remove(vocalsNotes.dad, i)
-                break
-            end
-        end
-        if isFound then 
-            dadNumVocal = data
-        end
+    -- What Text is '...' = become ''
+    if (isPlayer and idleTimer.bfDone) or (not isPlayer and idleTimer.dadDone) then 
+        setTextString(textName, "")
+        chatIsEmpty = true
     end
+    if isPlayer then idleTimer.bf = 0 idleTimer.bfDone = false
+    else idleTimer.dad = 0 idleTimer.dadDone = false end
 
-    lastStrumTime[1] = getPropertyFromGroup("notes", id, "strumTime")
+    -- Note data Vocal Type
+    vocalType[plrOrOpp] = getPropertyFromGroup("notes", id, "singData")+1
+    if vocalType[plrOrOpp] == nil or vocalType[plrOrOpp] <= 0 then vocalType[plrOrOpp] = 1 end
 
-    if not disableDadTextTyping and not dontSing then 
-        if getProperty("opponentText.textField.numLines") > 6 then 
-            setTextString("opponentText", "")
+    -- Start Output
+    if not disableBFTextTyping then 
+        if getProperty(textName..".textField.numLines") > 6 then setTextString(textName, "") end
+        local isSustainEnd = not getPropertyFromGroup("notes",id,"nextNote.isSustainNote") and getPropertyFromGroup("notes",id, "isSustainNote")
+
+        local textEnding = (isSustainEnd and 3 or (isSustainNote and 2 or 1))
+        local text = vocals[isPlayer and 2 or 1][vocalType[plrOrOpp]][textEnding]
+
+        text = textEnding ~= 2 and (text[getRandomInt(1, #text)]) or text
+        if textEnding == 1 and quickNote then
+            text = string.sub(text, 1, #text / 2)
         end
-        local isEnd = not getPropertyFromGroup("notes",id,"nextNote.isSustainNote") and getPropertyFromGroup("notes",id, "isSustainNote")
-        local text = vocals[1][dadNumVocal][(isEnd and 3 or (sus and 2 or 1))]
-        text = (isEnd or not sus) and (text[getRandomInt(1, #text)]) or text
-        text = opponentCaps and text:upper() or text
-        setTextString("opponentText", getTextString("opponentText")..((empty or sus) and "" or " ")..text)
+        if not isPlayer and (songName:lower() == 'shut-up-aac' or opponentCaps) then
+            text = text:upper()
+        end
+        setTextString(textName, getTextString(textName)..((chatIsEmpty or isSustainNote) and "" or " ")..text)
     end
 end
 

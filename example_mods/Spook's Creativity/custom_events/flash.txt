@@ -1,0 +1,2 @@
+Value 1: Hex color of the flash
+Value 2: How long it flashes for

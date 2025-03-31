@@ -149,7 +149,6 @@ function onCreatePost()
         end
     end
 
-    createSpace()
 
     makeLuaSprite('red', '', 0,0)
 	makeGraphic("red", 1280, 720, 'FF0000')
@@ -193,45 +192,6 @@ function zoomingEvent()
     scheduleSort()
 end
 
-local spaceData = {
-    {'float', 'FLIGHT_SPEED', 2},
-
-    {'float', 'DRAW_DISTANCE', 20},
-    {'float', 'FADEOUT_DISTANCE', 10},
-    {'float', 'FIELD_OF_VIEW', 2.7},
-
-    {'float', 'STAR_SIZE', 0.4},
-    {'float', 'STAR_CORE_SIZE', 0.14},
-
-    {'float', 'CLUSTER_SCALE', 0.3},
-    {'float', 'STAR_THRESHOLD', 0.5},
-
-    {'float', 'BLACK_HOLE_CORE_RADIUS', 0.2},
-    {'float', 'BLACK_HOLE_THRESHOLD', 0.3},
-    {'float', 'BLACK_HOLE_DISTORTION', 0.03}
-}
-function createSpace()
-    initLuaShader("space")--
-
-    makeLuaSprite('space', '', 0,0)
-	makeGraphic("space", 1280, 720, 'FF0000')
-	scaleObject('space', 1.8, 1.8)
-	screenCenter('space')
-	setScrollFactor('space', 0, 0)
-	addLuaSprite('space', false)
-    setSpriteShader("space", "space")
-    if not HardMode then
-        setObjectOrder("space", getObjectOrder("playfieldRenderer"))
-    end
-    setProperty('space.alpha', 0)
-
-    for i,data in pairs(spaceData) do
-        if data[1] == 'float' then
-            setShaderFloat('space', data[2], data[3])
-        end
-    end
-end
-
 function onSongStart()
     onStepHit()
 end
@@ -240,9 +200,6 @@ local lastStep = 0
 function onStepHit()
     for i = lastStep+1, curStep do
         stepEvent(i)
-    end
-    if videoBGPlay then
-        createParticle(2)
     end
     if lightBeat and curStep % 4 == 0 then
         for i = 1,4 do
@@ -272,7 +229,6 @@ function onStepHit()
             setProperty("red.alpha", 0.75)
             doTweenAlpha('red', 'red', 0.6, 0.4)
 
-            setRGBSplit((getProperty('space.alpha') <= 0.2 and curStep < 1920) and 0.2 or  0.05)
             tweenRGBSplit(0, 0.4, 'quadOut')
         else
             setProperty("red.alpha", 0.5)
@@ -441,12 +397,13 @@ function stepEvent(curStep)
         playAnim('dad', 'error', true)
         setProperty('dad.specialAnim', true)
     end
-    if curStep == 1152 then -- space
+    if curStep == 1152 then
         if shadersEnabled and not lowQuality then
-            setProperty('space.alpha', 1)
             setProperty('hazzy.alpha', 0)
             setProperty('roy.alpha', 0)
-
+            videoBGPlay = true
+            setProperty('video.alpha', 1)
+            runHaxeCode('video.play();')
         end
         setProperty('iconSpeed', 1)
         setProperty('dad.specialAnim', false)
@@ -461,7 +418,6 @@ function stepEvent(curStep)
 
     if curStep == 1664 then
         if shadersEnabled and not lowQuality then
-            setProperty('space.alpha', 0)
             setProperty('hazzy.alpha', 1)
             setProperty('roy.alpha', 1)
 
@@ -487,6 +443,10 @@ function stepEvent(curStep)
 
     if curStep == 1912 then
         doTweenAlpha('white', 'white', 1, crochet/1000*2, 'expoIn')
+        if not lowQuality then
+            runHaxeCode('video.setGraphicSize(FlxG.width*3, FlxG.height*3);')
+            runHaxeCode('video.updateHitbox();')
+        end
     end
     if curStep == 1920 then -- VIDEO BG1
         setProperty('iconSpeed', 1)
@@ -503,11 +463,6 @@ function stepEvent(curStep)
         setProperty('roy.alpha', 0)
 
         setProperty('onecolor.alpha', 0)
-        if not lowQuality then
-            videoBGPlay = true
-            setProperty('video.alpha', 1)
-            runHaxeCode('video.play();')
-        end
     end
     if curStep == 2432 then
         setProperty('iconSpeed', 2)
@@ -563,7 +518,6 @@ function onUpdate(elapsed)
             setShaderFloat("radialBlurTween", "blurWidth", getProperty('radialBlurTween.x'))
         end
         
-        setShaderFloat("space", "iTime", getSongPosition()/1000)
     end
 end
 function onUpdatePost(elapsed)
@@ -575,9 +529,6 @@ function onUpdatePost(elapsed)
             setProperty('camHUD.zoom', 1 + hudBeat)
         end
         setProperty('camGame.angle', math.sin(getSongPosition()/1000) + getProperty('camAngle.x'))
-        if videoBGPlay and not lowQuality then
-            setProperty('video.bitmap.time', getSongPosition() - 144000)
-        end
     end
 end
 
@@ -659,7 +610,7 @@ function readyVideo()
         video = new FlxVideoSprite(0, 0);
         video.bitmap.onFormatSetup.add(function()
             {
-                video.setGraphicSize(FlxG.width*2, FlxG.height*2);
+                video.setGraphicSize(FlxG.width*3, FlxG.height*3);
                 video.updateHitbox();
                 video.screenCenter();
                 video.y -= 50;
