@@ -39,9 +39,9 @@ class PauseSubState extends MusicBeatSubstate
 	var curTime:Float = Math.max(0, Conductor.songPosition);
 
 	var songsCredit:Map<String, String> = [
-		'discord-annoyer' => 'COVER SONG of Nusky',
+		'discord-annoyer' => 'CUSTOM SONG by SomeGuy',
 		'shut-up' => 'CUSTOM SONG by An Ammar',
-		'depression' => 'COVER SONG of Unknown Suffering',
+		'depression' => 'CUSTOM SONG by Kaira Flux',
 		'moderator' => 'CUSTOM SONG by An Ammar',
 
 		'hate-comment' => 'COVER SONG of Expurgation',
@@ -150,6 +150,8 @@ class PauseSubState extends MusicBeatSubstate
 		levelCredit.text = songsCredit[Paths.formatToSongPath(PlayState.SONG.song)];
 		if (Paths.formatToSongPath(PlayState.SONG.song) == 'google' && ClientPrefs.aDifficulty.toLowerCase() == 'hard')
 			levelCredit.text = 'CUSTOM SONG by An Ammar, SomeGuy';
+		if (Paths.formatToSongPath(Playstate.SONG.song) == 'discord-annoyer' && ClientPrefs.aDifficulty.toLowerCase() == 'hard')
+			levelCredit.text = 'CUSTOM SONG by Kaira Flux';
 		levelCredit.scrollFactor.set();
 		levelCredit.setFormat(Paths.font(fonter), 32);
 		levelCredit.updateHitbox();

@@ -133,10 +133,6 @@ class MainMenuStateAmmar extends MusicBeatState
         ['song' => 'Google'                ,'icon' => ""            , 'week' => "Hating Problem"],
         ['song' => 'Big Problem'          ,'icon' => ""            , 'week' => "Hating Problem", 'unlocked' => ['Big Problem']],
 
-        //['song' => 'Chaos'                 ,'icon' => ""           , 'week' => "Practice"],
-        //['song' => 'Owen Was Her'        ,'icon' => ""           , 'week' => "Practice"],
-        //['song' => 'Death By Notes'      ,'icon' => ""           , 'week' => "Practice"],
-
         ['song' => 'No Debug'             ,'icon' => ""           , 'week' => "Debug",  'unlocked' => ['No Debug'], 'hidden' => true],
         ['song' => 'Myself'                ,'icon' => ""           , 'week' => "Debug",  'unlocked' => ['Myself'], 'hidden' => true],
         
@@ -161,10 +157,6 @@ class MainMenuStateAmmar extends MusicBeatState
         'Twitter Argument'   => [7, 9, 10],
         'Google'             => [5, 6, 6],
         'Big Problem'        => [7, 8, 8],
-
-        'Chaos'              => [0, 0, 0],
-        'Owen Was Her'       => [0, 0, 0],
-        'Death By Notes'     => [0, 0, 0],
 
         'No Debug'           => [4, 6, 6],
         'Myself'             => [8, 9, 10],

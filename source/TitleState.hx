@@ -353,7 +353,7 @@ class TitleState extends MusicBeatState
 			initialized = true;
 			FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 			FlxG.sound.music.fadeIn(4, 0, 0.7);
-			trace('----------------- Aku Sayang Aku juga sayang ---------------');
+			trace('awak comel :3');
 			#if cpp
 			if (video != null) {
 				video.play();
