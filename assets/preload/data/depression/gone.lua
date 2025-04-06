@@ -86,7 +86,7 @@ function onStepEvent(curStep)
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x40FFFFFF", 1)
     end
     if curStep == 2560 or curStep == 2566 or curStep == 2572 then
-        cameraFlash("camOther", flashingLights and "FFFFFF" or "0x30FFFFFF", 0.4)
+        cameraFlash("camOther", flashingLights and "FFFFFF" or "0x30FFFFFF", 0.3)
     end
     if curStep == 2576 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 1.2)
@@ -163,8 +163,12 @@ function onStepEvent(curStep)
     if curStep == 2304 then
         doTweenVar('zoomTween', 'defaultCamZoom', 1.2, 5)
     end
-    if curstep == 2576 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.7, 0.7)
+    if curStep == 2576 then
+        doTweenY('camHUDy', 'camHUD', -50, 0.5, 'quadOut')
+    end
+    if curStep == 2579 then
+        doTweenAngle('camHUDA', 'camHUD', 25, 5, 'quadOut')
+        doTweenY('camHUDy', 'camHUD', 900, 5, 'quadOut')
     end
     if curStep == 2585 then
         doTweenVar('zoomTween', 'defaultCamZoom', 20, 2.5)

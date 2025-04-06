@@ -68,22 +68,22 @@ function onStepHit()
         cameraFlash("other", "FFFFFF", 6)
     end
     if curStep == 578 then 
-        textType("dialog", "Are you afraid to become a furry?", 0.05)
+        textType("dialog", "", 0.05)
     end
     if curStep == 608 then 
-        textType("dialog", "It will be so awesome.", 0.05)
+        textType("dialog", "", 0.05)
     end
     if curStep == 632 then 
-        textType("dialog", "Why not be one?", 0.05)
+        textType("dialog", "", 0.05)
     end
     if curStep == 656 then 
-        textType("dialog", "Well...", 0.1)
+        textType("dialog", "", 0.1)
     end
     if curStep == 670 then 
-        textType("dialog", "Too late.", 0.05)
+        textType("dialog", "", 0.05)
     end
     if curStep == 684 then 
-        textType("dialog", "You are trapped here now.", 0.05)
+        textType("dialog", "", 0.05)
     end
     if curStep == 704 then 
         textType("dialog", " ", 0.01)

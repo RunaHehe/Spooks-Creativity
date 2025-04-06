@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Uwen.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Uwen Idle0000" x="4301" y="1314" width="376" height="657" frameX="-268" frameY="-259" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0001" x="4301" y="657" width="376" height="657" frameX="-267" frameY="-260" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0002" x="4301" y="0" width="376" height="657" frameX="-266" frameY="-260" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0003" x="754" y="3270" width="377" height="654" frameX="-265" frameY="-262" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0004" x="4301" y="1971" width="376" height="652" frameX="-266" frameY="-264" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0005" x="4301" y="2623" width="376" height="649" frameX="-267" frameY="-267" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0006" x="2643" y="3270" width="377" height="647" frameX="-268" frameY="-269" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0007" x="0" y="3926" width="377" height="648" frameX="-269" frameY="-269" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0008" x="2265" y="3270" width="378" height="647" frameX="-270" frameY="-269" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0009" x="1887" y="3270" width="378" height="648" frameX="-271" frameY="-269" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0010" x="1509" y="3270" width="378" height="649" frameX="-272" frameY="-267" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0011" x="1131" y="3270" width="378" height="652" frameX="-272" frameY="-264" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0012" x="0" y="3270" width="377" height="656" frameX="-272" frameY="-261" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0013" x="377" y="3270" width="377" height="656" frameX="-270" frameY="-260" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0014" x="3882" y="2536" width="377" height="657" frameX="-269" frameY="-259" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Idle0015" x="3882" y="1879" width="377" height="657" frameX="-268" frameY="-259" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Left0000" x="3882" y="0" width="419" height="626" frameX="-202" frameY="-284" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Left0001" x="2151" y="2620" width="420" height="625" frameX="-202" frameY="-285" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Left0002" x="3458" y="2571" width="421" height="626" frameX="-201" frameY="-284" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Left0003" x="3458" y="1317" width="423" height="627" frameX="-200" frameY="-283" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Left0004" x="3458" y="1944" width="422" height="627" frameX="-199" frameY="-283" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Left0005" x="1731" y="2620" width="420" height="626" frameX="-199" frameY="-284" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Left0006" x="3882" y="626" width="418" height="627" frameX="-201" frameY="-284" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Left0007" x="3882" y="1253" width="418" height="626" frameX="-202" frameY="-284" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Right0000" x="434" y="2620" width="435" height="648" frameX="-294" frameY="-273" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Right0001" x="869" y="2620" width="436" height="646" frameX="-296" frameY="-275" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Right0002" x="3017" y="647" width="439" height="646" frameX="-296" frameY="-275" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Right0003" x="3017" y="0" width="441" height="647" frameX="-297" frameY="-274" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Right0004" x="2555" y="1318" width="439" height="650" frameX="-298" frameY="-271" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Right0005" x="3017" y="1293" width="435" height="651" frameX="-298" frameY="-270" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Right0006" x="3017" y="1944" width="435" height="650" frameX="-295" frameY="-271" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Right0007" x="0" y="2620" width="434" height="650" frameX="-293" frameY="-271" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Up0000" x="0" y="663" width="510" height="664" frameX="-228" frameY="-260" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Up0001" x="2048" y="0" width="507" height="664" frameX="-227" frameY="-260" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Up0002" x="1537" y="662" width="508" height="663" frameX="-227" frameY="-261" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Up0003" x="1537" y="0" width="511" height="662" frameX="-227" frameY="-262" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Up0004" x="512" y="0" width="513" height="661" frameX="-227" frameY="-263" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Up0005" x="510" y="663" width="512" height="661" frameX="-228" frameY="-263" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Up0006" x="1025" y="0" width="512" height="662" frameX="-228" frameY="-262" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Up0007" x="0" y="0" width="512" height="663" frameX="-228" frameY="-261" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Down0000" x="4677" y="1224" width="340" height="613" frameX="-267" frameY="-311" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Down0001" x="4677" y="0" width="347" height="611" frameX="-268" frameY="-313" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Down0002" x="3380" y="3270" width="355" height="608" frameX="-268" frameY="-316" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Down0003" x="943" y="1980" width="360" height="606" frameX="-267" frameY="-318" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Down0004" x="2571" y="2620" width="356" height="607" frameX="-268" frameY="-317" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Down0005" x="1069" y="3926" width="348" height="610" frameX="-268" frameY="-314" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Down0006" x="4677" y="611" width="341" height="613" frameX="-267" frameY="-311" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="Uwen Down0007" x="4677" y="2486" width="336" height="614" frameX="-267" frameY="-310" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0000" x="2555" y="659" width="435" height="659" frameX="-217" frameY="-254" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0001" x="2555" y="0" width="462" height="659" frameX="-190" frameY="-256" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0002" x="2048" y="664" width="502" height="656" frameX="-151" frameY="-258" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0003" x="0" y="1327" width="518" height="653" frameX="-125" frameY="-260" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0004" x="2048" y="1320" width="503" height="649" frameX="-126" frameY="-263" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0005" x="1022" y="663" width="491" height="646" frameX="-136" frameY="-266" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0006" x="518" y="1327" width="521" height="648" frameX="-140" frameY="-264" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0007" x="0" y="1980" width="474" height="640" frameX="-180" frameY="-269" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0008" x="4677" y="3100" width="320" height="631" frameX="-347" frameY="-275" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0009" x="1039" y="1327" width="488" height="624" frameX="-331" frameY="-280" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0010" x="1527" y="1327" width="490" height="617" frameX="-286" frameY="-286" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0011" x="474" y="1980" width="469" height="615" frameX="-262" frameY="-288" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0012" x="1305" y="2620" width="426" height="628" frameX="-271" frameY="-279" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0013" x="3020" y="3270" width="360" height="640" frameX="-306" frameY="-271" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0014" x="726" y="3926" width="343" height="647" frameX="-335" frameY="-266" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0015" x="377" y="3926" width="349" height="647" frameX="-331" frameY="-265" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0016" x="4677" y="1837" width="318" height="649" frameX="-327" frameY="-263" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0017" x="4301" y="3272" width="355" height="653" frameX="-283" frameY="-259" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0018" x="3458" y="659" width="404" height="658" frameX="-243" frameY="-255" frameWidth="960" frameHeight="960"/>
+	<SubTexture name="ATTACK0019" x="3458" y="0" width="424" height="659" frameX="-227" frameY="-254" frameWidth="960" frameHeight="960"/>
+</TextureAtlas>

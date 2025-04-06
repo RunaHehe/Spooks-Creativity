@@ -18,7 +18,6 @@ crystalGroup = {
 	"cryWallFarRight", "cryWallFarLeft", "cryWallNear",
 	"lightning1", "lightning2", "lightning3",
 	"cryBackRed", "cryRed",
-	"furryGas",
 	"cryRoof",
 	"CaveV2",
 	"CaveCrystalOverlay"
@@ -173,15 +172,6 @@ function onCreatePost()
 	addLuaSprite("lightning3", false)
 
 	createGlowForCrystals() 
-
-	makeAnimatedLuaSprite("furryGas", folder.."crystal/FurryGas", 304, 334.5)
-	addAnimationByIndicesLoop("furryGas", "stand", "FurryGas0", 0, 24)
-	addAnimationByIndices("furryGas", "fall", "FurryGas0", betweenNumber(1, 32), 34)
-	addAnimationByIndicesLoop("furryGas", "gasOut", "FurryGas0", betweenNumber(33, 48), 24)
-	addAnimationByIndices("furryGas", "gasEnd", "FurryGas0",betweenNumber(49, 54), 24)
-	playAnim("furryGas", "stand", true)
-	scaleObject("furryGas", 1.6675, 1.6675)
-	addLuaSprite("furryGas")
 
 	makeSprite("cryPillar", folder .. "crystal/GiantPillar", 1575.5, -1129, 1, 1, 0.9325)
 
@@ -423,13 +413,17 @@ function onStepEvent(curStep)
 		doTweenAlpha("darkVignette", "darkVignette", 1, duration)
 	end
 	if curStep == 1592 then
-		playAnim("furryGas", "fall", true)
+		playAnim('gf', 'fall', true)
+		runTimer('playGasNotice', getProperty('gf.animation.curAnim.length'))
+		setProperty('gf.stunned', true)
 	end
 	if curStep == 1600 then
-		playAnim("furryGas", "gasOut", true)
 		playAnim(crystals[4][1], "growing", true, false, 3)
 		setProperty(crystals[4][1] .. '.alpha', crystalShowAlpha)
 		furryGasMode = true
+	end
+	if curStep == 1680 then
+		runTimer('playTutuDead', getProperty('gf.animation.curAnim.length'))
 	end
 	if curStep == 1728 then
 		playAnim(crystals[5][1], "growing", true, false, 3)
@@ -444,7 +438,7 @@ function onStepEvent(curStep)
 	end
 	if curStep == 2232 then 
 		furryGasMode = false
-		playAnim("furryGas", "gasEnd", true)
+		playAnim('gf', 'death', true)
 	end
 	if curStep == 2368 then
 		cameraWatch(562.5, 80, 0.5342, 3, 8) -- x y zoom tweenDur duration
@@ -1086,7 +1080,7 @@ end
 function goodNoteHit(id, noteData, noteType, isSustainNote)
 	if noteType == "Alt Animation" and getPropertyFromGroup("notes", id, "ratingMod") >= 0.75 then 
 		breakCrystal(id)
-	elseif noteType == "GF Sing" and not isSustainNote then 
+	elseif noteType == "KaijuDodge" and not isSustainNote then 
 		playAnim("boyfriend", "defend", true)
 		setProperty("boyfriend.specialAnim", true)
 		addShake(0.007)
@@ -1127,6 +1121,12 @@ function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == "endChangeBrightness" then
 		cancelTweenValue("changeColorBright1")
 		doValueTween("changeColorBright2", "colorBrightness", colorBrightness, 0, tweenDur / 2, "linear")
+	end
+	if tag == 'playGasNotice' then
+		playAnim('gf', 'gasnotice', true)
+	end
+	if tag == 'playTutuDead' then
+		playAnim('gf', 'idledead', true)
 	end
 end
 

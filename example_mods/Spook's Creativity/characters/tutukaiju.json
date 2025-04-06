@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "gasnotice",
+			"fps": 24,
+			"name": "GasNotice",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "fall",
+			"fps": 24,
+			"name": "Fall",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idledead",
+			"indices": [],
+			"name": "Dead"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-60
+			],
+			"anim": "death",
+			"fps": 24,
+			"name": "brosdead",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/TutuKaiju",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "bunny",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		253,
+		252
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6
+}

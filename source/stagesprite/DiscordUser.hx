@@ -32,13 +32,13 @@ class DiscordUser extends FlxSprite {
     public var curCharacter:String = '';
     var chars:Map<String, String> = [
         'ammar-happy' => 'Runa',
-        'annoyer-happy' => 'Vision',
-        'annoyer-sad' => 'Vision',
-        'deleted-user' => 'Delta Dark',
-        'deleted-user-insane' => 'Delta User',
-        'mod-happy' => 'Ducky',
-        'mod-neutral' => 'Ducky',
-        'random-girl' => 'Andro'
+        'annoyer-happy' => 'Annoying User',
+        'annoyer-sad' => 'Annoying User',
+        'deleted-user' => 'Deleted User Dark',
+        'deleted-user-insane' => 'Deleted User',
+        'mod-happy' => 'Moderator',
+        'mod-neutral' => 'Moderator',
+        'random-girl' => 'Random Girl'
     ];
 
     private var isOpponent:Bool = false;
