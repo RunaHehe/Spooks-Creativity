@@ -868,6 +868,7 @@ class MainMenuStateAmmar extends MusicBeatState
             if (item['week'] == 'Furry Femboy') {
                 if (ClientPrefs.cute && checkSongFinish('myself')) {
                     trace('yes furry femboy');
+                    trace('hello world!');
                 } else {
                     trace('no furry femboy');
                     newSongsList.remove(item);

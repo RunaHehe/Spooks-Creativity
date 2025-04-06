@@ -242,7 +242,7 @@ function onUpdate(elapsed)
     end
 end
 
-function doTweenVar(tag, object, endValue, duration))
+function doTweenVar(tag, object, endValue, duration)
     if tweens[tag] then
         tweens[tag] = nil
     end

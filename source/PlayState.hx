@@ -972,7 +972,7 @@ class PlayState extends MusicBeatState
 
 		//?STARTING HUD
 		var songsInfo:Map<String, Array<String>> = [
-			'discord-annoyer' => ['discord', 'COVER SONG'],
+			'discord-annoyer' => ['discord', 'CUSTOM SONG'],
 			'shut-up' => ['discord', 'CUSTOM SONG'],
 			'depression' => ['discord', 'COVER SONG'],
 			'moderator' => ['discord', 'CUSTOM SONG'],
