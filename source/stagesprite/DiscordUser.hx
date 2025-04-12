@@ -31,7 +31,7 @@ class DiscordUser extends FlxSprite {
 
     public var curCharacter:String = '';
     var chars:Map<String, String> = [
-        'ammar-happy' => 'Runa',
+        'ammar-happy' => 'Ammar',
         'annoyer-happy' => 'Annoying User',
         'annoyer-sad' => 'Annoying User',
         'deleted-user' => 'Deleted User Dark',
