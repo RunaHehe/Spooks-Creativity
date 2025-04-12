@@ -58,14 +58,10 @@ function onSongStart()
         table.insert(defaultNotes, {_x, _y})
     end
 end
-function onStepHit()
+function onStepEvent(curStep)
     if curStep == 492 and shortVer then 
         callScript("scripts/coolFunctions", "varTween", {"speeder", "speeder", 1, 0.01, 3.8, "sineOut", scriptName})
         runTimer("playMenu", 6)
-    end
-    if curStep == 512 then 
-        setProperty("blackScreen.alpha", 1)
-        cameraFlash("other", "FFFFFF", 6)
     end
     if curStep == 578 then 
         textType("dialog", "", 0.05)
@@ -84,6 +80,9 @@ function onStepHit()
     end
     if curStep == 684 then 
         textType("dialog", "", 0.05)
+    end
+    if curStep == 696 then
+        setProperty("blackScreen.alpha", 1)
     end
     if curStep == 704 then 
         textType("dialog", " ", 0.01)

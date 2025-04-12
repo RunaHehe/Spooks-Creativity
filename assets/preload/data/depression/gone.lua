@@ -2,9 +2,13 @@ folder = "discord/"
 
 local tweens = {} --array to store tweens
 
+local lastTextAngle = 0
+local lastCamAngle = 0
+
+local OpponentTextAngle = false
 
 function onCreate()
-    luaDebugMode = true
+    luaDebugMode = false
     setProperty('defaultCamZoom', 2.5)
 end
 
@@ -68,6 +72,8 @@ function onStepEvent(curStep)
                 game.camHUD.setFilters([rainFilter, oldTvFilter]);
             ]])
         end
+        setProperty('camDiscord.angle', 10)
+        OpponentTextAngle = true
     end
     if curStep == 512 then 
         cameraFlash("camOther", "FFFFFF", 2)
@@ -225,6 +231,41 @@ function opponentNoteHit(id, direction, noteType, isSustainNote)
     local currentHealth = getProperty('health')
     if currentHealth > 0.2 then
         setProperty('health', currentHealth - 0.01)
+    end
+
+    if not isSustainNote then
+        if OpponentTextAngle then
+            local newTextAngle = lastTextAngle
+
+            while newTextAngle == lastTextAngle do
+                newTextAngle = getRandomInt(-1, 1)
+            end
+            setProperty('opponentText.angle', newTextAngle)
+
+            lastTextAngle = newTextAngle
+        end
+
+        local newCamAngle = lastCamAngle
+
+        while newCamAngle == lastCamAngle do
+            newCamAngle = getRandomInt(-1, 1)
+        end
+
+        doTweenAngle('discordHehe', 'camDiscord', newCamAngle, 0.3, 'sineout')
+        lastCamAngle = newCamAngle
+    end
+end
+
+function goodNoteHit(id, direction, noteType, isSustainNote)
+    if not isSustainNote then
+        local newCamAngle = lastCamAngle
+
+        while newCamAngle == lastCamAngle do
+            newCamAngle = getRandomInt(-1, 1)
+        end
+
+        doTweenAngle('discordHehe', 'camDiscord', newCamAngle, 0.3, 'sineout')
+        lastCamAngle = newCamAngle
     end
 end
 
