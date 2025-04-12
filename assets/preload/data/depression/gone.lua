@@ -2,7 +2,9 @@ folder = "discord/"
 
 local tweens = {} --array to store tweens
 
+
 function onCreate()
+    luaDebugMode = true
     setProperty('defaultCamZoom', 2.5)
 end
 
@@ -20,10 +22,24 @@ function onCreatePost()
         makeLuaSprite("oldTVNoStatic")
         makeLuaSprite("rainhehe", "", 0, 0)
 
+
         setSpriteShader("rainhehe", "rain")
         setSpriteShader("oldTvEffect", "OldTV")
         setSpriteShader("oldTVNoStatic", "OldTV")
+
+
+
+        makeLuaSprite("noiseAlphaHolder", nil, 1, 0)
+        setProperty("noiseAlphaHolder.alpha", 0)
+        addLuaSprite("noiseAlphaHolder", false)
     end
+
+    makeLuaSprite('blackOverlay', '', 9, 0)
+    makeGraphic('blackOverlay', screenWidth, screenHeight, '000000')
+    setObjectCamera('blackOverlay', 'other')
+    setProperty('blackOverlay.alpha', 0)
+    screenCenter('blackOverlay')
+    addLuaSprite('blackOverlay', false)
 
     loadGraphic("opponent", "chars/Deleted User")
     loadGraphic("player", "chars/Annoying User")
@@ -56,9 +72,28 @@ function onStepEvent(curStep)
     if curStep == 512 then 
         cameraFlash("camOther", "FFFFFF", 2)
     end
+    if curStep == 503 then
+        if shadersOption then
+            doTweenX("noiseTween", "noiseAlphaHolder", 15, 11, "linear")
+        end
+    end
+    if curStep == 512 then
+        if shadersOption then
+            doTweenX("noiseTween", "noiseAlphaHolder", 1, 1, "linear")
+        end
+    end
+    if curStep == 752 then
+        if shadersOption then
+            doTweenX("noiseTween", "noiseAlphaHolder", 15, 7, "linear")
+        end
+    end
     if curStep == 768 then
-        cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 2)
+        setProperty('blackOverlay.alpha', 1)
+        doTweenAlpha('blackTween', 'blackOverlay', 0, 7)
         callScript("stages/discordStage", "lightingMode", {true})
+        if shadersOption then
+            doTweenX("noiseTween", "noiseAlphaHolder", 1, 2, "linear")
+        end
     end
     if curStep == 896 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 0.4)
@@ -73,6 +108,12 @@ function onStepEvent(curStep)
     if curStep == 1024 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x80FFFFFF", 1.2)
     end
+    if curStep == 1256 then
+        debugPrint('helo')
+        if shadersOption then
+            doTweenX("noiseTween", "noiseAlphaHolder", 20, 13, "linear")
+        end
+    end
     if curStep == 1280 then
         loadGraphic("player", "chars/Ammar")
         setGraphicSize("player", 649 * 0.625, 146 * 0.625)
@@ -80,6 +121,7 @@ function onStepEvent(curStep)
         setTextString("playerText", "")
         if shadersOption then
             setShaderFloat("rainhehe", "iIntensity", 0.2)
+            doTweenX("noiseTween", "noiseAlphaHolder", 1, 1, "linear")
         end
     end
     if curStep == 1536 then
@@ -90,6 +132,12 @@ function onStepEvent(curStep)
     end
     if curStep == 2576 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 1.2)
+    end
+
+    if curStep == 2592 then
+        if shadersOption then
+            doTweenX("noiseTween", "noiseAlphaHolder", 100, 20, "linear")
+        end
     end
 
 
@@ -170,9 +218,6 @@ function onStepEvent(curStep)
         doTweenAngle('camHUDA', 'camHUD', 25, 5, 'quadOut')
         doTweenY('camHUDy', 'camHUD', 900, 5, 'quadOut')
     end
-    if curStep == 2585 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 20, 2.5)
-    end
     -- i am so sorry to anyone who is reading this code, i know theres a way easier way to do this :sob:
 end
 
@@ -186,9 +231,11 @@ end
 function onUpdate(elapsed)
     if shadersOption then
         setShaderFloat("oldTVNoStatic", "iTime", os.clock()%100)
-        setShaderFloat("oldTVNoStatic", "noiseAlpha", 1)
         setShaderFloat("rainhehe", "iTime", os.clock()%100)
         setShaderFloat("rainhehe", "iTimescale", 0.1)
+        
+        local currentValue = getProperty("noiseAlphaHolder.x")
+        setShaderFloat("oldTVNoStatic", "noiseAlpha", currentValue)
     end
     --now this where the magic come in
     for tag, tweenData in pairs(tweens) do
@@ -199,7 +246,7 @@ function onUpdate(elapsed)
         setProperty(tweenData.object, currentValue)
         
         if tweenData.elapsedTime >= tweenData.duration then
-            setProperty(tweenData.object, tweenData.endValue)  -- explicitly set the final value
+            setProperty(tweenData.object, tweenData.endValue)
             tweens[tag] = nil
         end
     end

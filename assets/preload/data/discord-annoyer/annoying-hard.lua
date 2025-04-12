@@ -2,12 +2,19 @@ local folder = 'discord/'
 local tweens = {}
 
 function onCreate()
-    makeLuaSprite('dark', 'vignette', 0, 0)
+    makeLuaSprite('dark', 'vignette', 9, 0)
     setObjectCamera('dark', 'other')
-    screenCenter('dark')
     addLuaSprite("dark")
+    screenCenter('dark')
     setBlendMode("dark", 'overlay')
     setProperty('dark.alpha', 0)
+
+    makeLuaSprite('blackOverlay', '', 9, 0)
+    makeGraphic('blackOverlay', 1280, 720, '000000')
+    setObjectCamera('blackOverlay', 'other')
+    setProperty('blackOverlay.alpha', 0)
+    screenCenter('blackOverlay')
+    addLuaSprite('blackOverlay', false)
 end
 
 function onSongStart()
@@ -78,16 +85,19 @@ function onStepEvent(curStep)
         if curStep == 368 then
             triggerEvent('Add Camera Zoom', '0.6', '0.6')
             doTweenAlpha('vignette', 'dark', 1, 9, 'linear')
+            doTweenAlpha('black', 'blackOverlay', 0.4, 8, 'linear')
             cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 0.3)
         end
         if curStep == 432 then
             doTweenVar('camZooming', 'defaultCamZoom', 2.5, 19)
             cameraFlash("camOther", "FFFFFF", 1.3)
             setProperty('dark.alpha', 0)
+            setProperty('blackOverlay.alpha', 0)
         end
         if curStep == 560 then
             doTweenVar('camZooming', 'defaultCamZoom', 0.9, 19)
             doTweenAlpha('vignette', 'dark', 1, 9, 'linear')
+            doTweenAlpha('black', 'blackOverlay', 0.4, 8, 'linear')
         end
     end
 end

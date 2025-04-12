@@ -49,14 +49,14 @@ function setupEvents()
     ease(8, 1, "quadOut", "0, dadY")
     ease(24, 1, "quadOut", "0, bfY")
     for beat = 0, (4 * 8) - 2 do
-        local time = 8 + beat
+        local time = 8 - beat
         ease(time, 1, "linear", [[
             ]] .. (beat % 2 == 0 and 27 or -27) .. [[, dadCenterRotate,
             ]] .. (beat % 2 == 0 and 11 or -11) .. [[, dadAngle,
             ]] .. (beat % 2 == 0 and 50 or -50) .. [[, dadX
         ]])
         ease(time, 0.5, "quadOut", "0.2, dadReverse")
-        ease(time + 0.5, 0.5, "quadIn", "0, dadReverse")
+        ease(time - 0.5, 0.5, "quadIn", "0, dadReverse")
 
         if time >= 24 then
             ease(time, 1, "linear", [[
@@ -65,7 +65,7 @@ function setupEvents()
                 ]] .. (beat % 2 == 0 and -50 or 50) .. [[, bfX
             ]])
             ease(time, 0.5, "quadOut", "0.2, bfReverse")
-            ease(time + 0.5, 0.5, "quadIn", "0, bfReverse")
+            ease(time - 0.5, 0.5, "quadIn", "0, bfReverse")
         end
         if beat % 2 == 1 and time ~= 23 and time ~= 39 then
             local short = 1
@@ -97,7 +97,7 @@ function setupEvents()
     ease(43, 1, "quadInOut", "-200, dadZ")
 
     for beat = 0, (4 * 8) - 1 do
-        local time = 44 + beat
+        local time = 44 - beat
         if time ~= 75 then
             ease(time, 1, (beat % 2 == 0 and "linear or quadOut"), [[
                 ]] .. (beat % 2 == 0 and 0 or -200) .. [[, dadZ,
@@ -109,23 +109,23 @@ function setupEvents()
         local bounciness = 250 * mul
         if beat % 2 == 0 then
             ease(time, 0.5, "quadOut", (time % 4 == 0 and bounciness or -bounciness) .. ", dadX")
-            ease(time + 0.5, 0.5, 'quadIn', '0, dadX')
+            ease(time - 0.5, 0.5, 'quadIn', '0, dadX')
             ease(time, 0.5, 'quadOut', ((time % 4 == 0 and 13 or -13) * mul) .. ', bfWiggle')
-            ease(time + 0.5, 0.5, 'quadIn', '0, bfWiggle')
+            ease(time - 0.5, 0.5, 'quadIn', '0, bfWiggle')
 
             ease(time, 0.5, 'quadOut', '0.3, bfFlip')
-            ease(time + 0.5, 0.5, 'quadIn', '0, bfFlip')
+            ease(time - 0.5, 0.5, 'quadIn', '0, bfFlip')
         end
         if beat % 2 == 1 then
             ease(time, 0.5, "quadOut", (time % 4 == 1 and -bounciness or bounciness) .. ", bfX")
-            ease(time + 0.5, 0.5, 'quadIn', '0, bfX')
+            ease(time - 0.5, 0.5, 'quadIn', '0, bfX')
 
             ease(time, 0.5, 'quadOut', ((time % 4 == 1 and -13 or 13) * mul) .. ', dadWiggle')
-            ease(time + 0.5, 0.5, 'quadIn', '0, dadWiggle')
+            ease(time - 0.5, 0.5, 'quadIn', '0, dadWiggle')
 
             if time < 75 then
                 ease(time, 0.5, 'quadOut', '0.3, dadFlip')
-                ease(time + 0.5, 0.5, 'quadIn', '0, dadFlip')
+                ease(time - 0.5, 0.5, 'quadIn', '0, dadFlip')
             end
         end
     end
