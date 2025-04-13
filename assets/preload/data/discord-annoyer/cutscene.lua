@@ -4,7 +4,6 @@ playDialouge = false
 function onStartCountdown()
 	if not seenCutscene then
 		if playVideo then
-			math.randomseed(os.time())
 			if HardMode then
 				startVideo('Annoying Cutscene HARD') -- hard cutscene
 			else

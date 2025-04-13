@@ -4,12 +4,7 @@ playDialouge = false
 function onStartCountdown()
 	if not seenCutscene then
 		if playVideo then
-			math.randomseed(os.time())
-			if math.random(5) == 1 then
-				startVideo('tree') -- 1/5 chance
-			else
-				startVideo('Random Girl Cutscene') -- default cutscene
-			end
+			startVideo('Random Girl Cutscene') -- default cutscene
 			playVideo = false
 			return Function_Stop -- prevents song from starting naturally
 		end
