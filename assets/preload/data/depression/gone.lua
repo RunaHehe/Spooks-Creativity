@@ -7,6 +7,10 @@ local lastCamAngle = 0
 
 local OpponentTextAngle = false
 
+local oppSinging = false
+local singTimer = 0
+local singCooldown = 0.1
+
 function onCreate()
     luaDebugMode = false
     setProperty('defaultCamZoom', 2.5)
@@ -17,6 +21,7 @@ function onSongStart()
 end
 
 function onCreatePost()
+    mechanic = not EasyMode and Mechanic
     shadersOption = getPropertyFromClass("ClientPrefs", "shaders")
     if shadersOption then
         initLuaShader("OldTV")
@@ -44,6 +49,13 @@ function onCreatePost()
     setProperty('blackOverlay.alpha', 0)
     screenCenter('blackOverlay')
     addLuaSprite('blackOverlay', false)
+
+    makeLuaSprite('vignette', 'vignette', 0, 0)
+    setObjectCamera('vignette', 'other')
+    setProperty('vignette.alpha', 0)
+    screenCenter('vignette')
+    scaleObject('vignette', 1, 1)
+    addLuaSprite('vignette', true)
 
     loadGraphic("opponent", "chars/Deleted User")
     loadGraphic("player", "chars/Annoying User")
@@ -220,17 +232,28 @@ function onStepEvent(curStep)
     if curStep == 2576 then
         doTweenY('camHUDy', 'camHUD', -50, 0.5, 'quadOut')
     end
-    if curStep == 2579 then
-        doTweenAngle('camHUDA', 'camHUD', 25, 5, 'quadOut')
-        doTweenY('camHUDy', 'camHUD', 900, 5, 'quadOut')
-    end
     -- i am so sorry to anyone who is reading this code, i know theres a way easier way to do this :sob:
 end
 
 function opponentNoteHit(id, direction, noteType, isSustainNote)
-    local currentHealth = getProperty('health')
-    if currentHealth > 0.2 then
-        setProperty('health', currentHealth - 0.01)
+    if mechanic then
+        local health = getProperty('health')
+
+        if health <= 0.1 then return end
+
+        local maxDrain = 0.02
+        local minDrain = 0.005
+
+        local scaledDrain = maxDrain * health
+        if scaledDrain < minDrain then
+            scaledDrain = minDrain
+        end
+
+        if health - scaledDrain < 0.1 then
+            scaledDrain = health - 0.1
+        end
+
+        setProperty('health', health - scaledDrain)
     end
 
     if not isSustainNote then
@@ -238,10 +261,11 @@ function opponentNoteHit(id, direction, noteType, isSustainNote)
             local newTextAngle = lastTextAngle
 
             while newTextAngle == lastTextAngle do
-                newTextAngle = getRandomInt(-1, 1)
+                newTextAngle = (math.random() * 4) - 2
+                newTextAngle = math.floor(newTextAngle * 100) / 100
             end
-            setProperty('opponentText.angle', newTextAngle)
 
+            setProperty('opponentText.angle', newTextAngle)
             lastTextAngle = newTextAngle
         end
 
@@ -254,6 +278,9 @@ function opponentNoteHit(id, direction, noteType, isSustainNote)
         doTweenAngle('discordHehe', 'camDiscord', newCamAngle, 0.3, 'sineout')
         lastCamAngle = newCamAngle
     end
+
+    oppSinging = true
+    singTimer = singCooldown
 end
 
 function goodNoteHit(id, direction, noteType, isSustainNote)
@@ -267,6 +294,13 @@ function goodNoteHit(id, direction, noteType, isSustainNote)
         doTweenAngle('discordHehe', 'camDiscord', newCamAngle, 0.3, 'sineout')
         lastCamAngle = newCamAngle
     end
+
+    local gain = 0.001
+    if oppSinging then
+        gain = 0.010
+    end
+
+    setProperty('health', getProperty('health') + gain)
 end
 
 function onUpdate(elapsed)
@@ -289,6 +323,19 @@ function onUpdate(elapsed)
         if tweenData.elapsedTime >= tweenData.duration then
             setProperty(tweenData.object, tweenData.endValue)
             tweens[tag] = nil
+        end
+    end
+
+    local health = getProperty('health')
+
+    local fadeAlpha = math.max(0, 1 - health)
+    fadeAlpha = fadeAlpha * 1.2
+    setProperty('vignette.alpha', fadeAlpha)
+
+    if singTimer > 0 then
+        singTimer = singTimer - elapsed
+        if singTimer <= 0 then
+            oppSinging = false
         end
     end
 end
