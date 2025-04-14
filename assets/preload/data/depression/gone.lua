@@ -3,7 +3,10 @@ folder = "discord/"
 local tweens = {} --array to store tweens
 
 local lastTextAngle = 0
+
 local lastCamAngle = 0
+
+local lastHUDAngle = 0
 
 local OpponentTextAngle = false
 
@@ -154,7 +157,7 @@ function onStepEvent(curStep)
 
     if curStep == 2592 then
         if shadersOption then
-            doTweenX("noiseTween", "noiseAlphaHolder", 100, 20, "linear")
+            doTweenX("noiseTween", "noiseAlphaHolder", 200, 20, "linear")
         end
     end
 
@@ -229,9 +232,6 @@ function onStepEvent(curStep)
     if curStep == 2304 then
         doTweenVar('zoomTween', 'defaultCamZoom', 1.2, 5)
     end
-    if curStep == 2576 then
-        doTweenY('camHUDy', 'camHUD', -50, 0.5, 'quadOut')
-    end
     -- i am so sorry to anyone who is reading this code, i know theres a way easier way to do this :sob:
 end
 
@@ -261,8 +261,9 @@ function opponentNoteHit(id, direction, noteType, isSustainNote)
             local newTextAngle = lastTextAngle
 
             while newTextAngle == lastTextAngle do
+                -- Generate float between -2 and 2
                 newTextAngle = (math.random() * 4) - 2
-                newTextAngle = math.floor(newTextAngle * 100) / 100
+                newTextAngle = math.floor(newTextAngle * 100) / 100 -- optional: round to 2 decimal places
             end
 
             setProperty('opponentText.angle', newTextAngle)
@@ -277,6 +278,18 @@ function opponentNoteHit(id, direction, noteType, isSustainNote)
 
         doTweenAngle('discordHehe', 'camDiscord', newCamAngle, 0.3, 'sineout')
         lastCamAngle = newCamAngle
+
+
+        if not Modchart then
+            local newHUDAngle = lastHUDAngle
+
+            while newHUDAngle == lastHUDAngle do
+                newHUDAngle = getRandomInt(-2, 2)
+            end
+
+            doTweenAngle('hudMove', 'camHUD', newHUDAngle, 0.33, 'sineout')
+            lastHUDAngle = newHUDAngle
+        end
     end
 
     oppSinging = true
@@ -293,6 +306,17 @@ function goodNoteHit(id, direction, noteType, isSustainNote)
 
         doTweenAngle('discordHehe', 'camDiscord', newCamAngle, 0.3, 'sineout')
         lastCamAngle = newCamAngle
+
+        if not Modchart then
+            local newHUDAngle = lastHUDAngle
+
+            while newHUDAngle == lastHUDAngle do
+                newHUDAngle = getRandomInt(-2, 2)
+            end
+
+            doTweenAngle('hudMove', 'camHUD', newHUDAngle, 0.33, 'sineout')
+            lastHUDAngle = newHUDAngle
+        end
     end
 
     local gain = 0.001
