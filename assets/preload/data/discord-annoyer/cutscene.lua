@@ -3,7 +3,7 @@ playDialouge = false
 
 function onStartCountdown()
 	if not seenCutscene then
-		if playVideo then
+		if isStoryMode and not seenCutscene then
 			if HardMode then
 				startVideo('Annoying Cutscene HARD') -- hard cutscene
 			else

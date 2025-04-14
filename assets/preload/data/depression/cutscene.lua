@@ -3,7 +3,7 @@ playDialouge = false
 
 function onStartCountdown()
 	if not seenCutscene then
-		if playVideo then
+		if isStoryMode and not seenCutscene then
 			startVideo('Depression Cutscene') -- default cutscene
 			playVideo = false
 			return Function_Stop -- prevents song from starting naturally
