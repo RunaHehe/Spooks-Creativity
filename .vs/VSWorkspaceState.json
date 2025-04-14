@@ -2,12 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\art",
-    "\\export",
-    "\\export\\debug",
-    "\\export\\debug\\windows",
-    "\\source",
-    "\\source\\lime\\_internal"
+    "\\source"
   ],
-  "SelectedNode": "\\art\\icon64.png",
+  "SelectedNode": "\\source\\CutsceneHandler.hx",
   "PreviewInSolutionExplorer": false
 }

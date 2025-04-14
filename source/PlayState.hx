@@ -76,7 +76,7 @@ import openfl.filters.ShaderFilter;
 import sys.FileSystem;
 import sys.io.File;
 #end
-
+import hxvlc.flixel.FlxVideoSprite;
 #if VIDEOS_ALLOWED
 //import vlc.MP4Handler;
 import hxvlc.flixel.FlxVideo;

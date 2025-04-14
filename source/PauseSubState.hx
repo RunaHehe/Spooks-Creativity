@@ -150,7 +150,7 @@ class PauseSubState extends MusicBeatSubstate
 		levelCredit.text = songsCredit[Paths.formatToSongPath(PlayState.SONG.song)];
 		if (Paths.formatToSongPath(PlayState.SONG.song) == 'google' && ClientPrefs.aDifficulty.toLowerCase() == 'hard')
 			levelCredit.text = 'CUSTOM SONG by An Ammar, SomeGuy';
-		if (Paths.formatToSongPath(Playstate.SONG.song) == 'discord-annoyer' && ClientPrefs.aDifficulty.toLowerCase() == 'hard')
+		if (Paths.formatToSongPath(PlayState.SONG.song) == 'discord-annoyer' && ClientPrefs.aDifficulty.toLowerCase() == 'hard')
 			levelCredit.text = 'CUSTOM SONG by Kaira Flux';
 		levelCredit.scrollFactor.set();
 		levelCredit.setFormat(Paths.font(fonter), 32);
