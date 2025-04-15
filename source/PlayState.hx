@@ -1120,6 +1120,7 @@ class PlayState extends MusicBeatState
 				playfieldRenderer = new PlayfieldRenderer(strumLineNotes, notes, this);
 				playfieldRenderer.cameras = [camHUD];
 				add(playfieldRenderer);
+				add(grpNoteSplashes);
 			}
 		}
 		#end

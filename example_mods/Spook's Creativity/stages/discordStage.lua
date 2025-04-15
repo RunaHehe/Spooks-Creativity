@@ -139,7 +139,7 @@ function onCreatePost()
     local xx = 320
     local tw = 505
     makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
-    makeSpr({tag = "opponent", image = folder..(isShutUp and "chars/Random Girl" or "chars/Runa"), x = xx, y = 100, cam = "camBDiscord", xSize = (isShutUp and 0.625 or 0.625)})
+    makeSpr({tag = "opponent", image = folder..(isShutUp and "chars/Random Girl" or "chars/Ammar"), x = xx, y = 100, cam = "camBDiscord", xSize = (isShutUp and 0.625 or 0.625)})
 
     makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
     makeSpr({tag = "player", image = folder.."chars/Annoying User", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})

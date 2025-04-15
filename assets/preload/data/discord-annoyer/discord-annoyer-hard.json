@@ -1,6 +1,7 @@
 {
 	"song": {
 		"player1": "anammar-discord",
+		"introAtStep": 144,
 		"notes": [
 			{
 				"sectionNotes": [],

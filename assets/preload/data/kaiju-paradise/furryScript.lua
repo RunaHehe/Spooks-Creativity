@@ -1,6 +1,6 @@
 
 local mechanic = true
-local shortVer = true
+local shortVer = false
 defaultNotes = {}
 speeder = 1;
 function onCreate()

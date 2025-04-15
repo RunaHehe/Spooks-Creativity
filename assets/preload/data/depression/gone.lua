@@ -333,8 +333,8 @@ function onUpdate(elapsed)
         setShaderFloat("rainhehe", "iTime", os.clock()%100)
         setShaderFloat("rainhehe", "iTimescale", 0.1)
         
-        local currentValue = getProperty("noiseAlphaHolder.x")
-        setShaderFloat("oldTVNoStatic", "noiseAlpha", currentValue)
+        local currentNoise = getProperty("noiseAlphaHolder.x")
+        setShaderFloat("oldTVNoStatic", "noiseAlpha", currentNoise)
     end
     --now this where the magic come in
     for tag, tweenData in pairs(tweens) do
