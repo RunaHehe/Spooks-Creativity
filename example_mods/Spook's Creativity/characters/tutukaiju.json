@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": true,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Idle",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"anim": "gasnotice",
-			"fps": 24,
-			"name": "GasNotice",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"anim": "fall",
-			"fps": 24,
-			"name": "Fall",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "idledead",
 			"indices": [],
-			"name": "Dead"
+			"name": "Idle"
 		},
 		{
+			"offsets": [
+				0,
+				0
+			],
 			"loop": false,
+			"fps": 24,
+			"anim": "gasnotice",
+			"indices": [],
+			"name": "GasNotice"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "fall",
+			"indices": [],
+			"name": "Fall"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idledead",
+			"fps": 24,
+			"name": "Dead",
+			"indices": []
+		},
+		{
 			"offsets": [
 				0,
 				-60
 			],
-			"anim": "death",
+			"loop": false,
 			"fps": 24,
-			"name": "brosdead",
-			"indices": []
+			"anim": "death",
+			"indices": [],
+			"name": "brosdead"
 		}
 	],
 	"no_antialiasing": false,
@@ -74,5 +74,5 @@
 		0
 	],
 	"sing_duration": 6.1,
-	"scale": 0.6
+	"scale": 0.2
 }

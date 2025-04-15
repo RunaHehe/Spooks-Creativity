@@ -105,7 +105,7 @@ function onStepEvent(curStep)
             doTweenVar('camZooming', 'defaultCamZoom', 1.2, 0.6)
         end
         if curStep == 300 then
-            doTweenVar('camZooming', 'defaultCamZoom', 0.5, 0.6)
+            doTweenVar('camZooming', 'defaultCamZoom', 0.5, 0.4)
         end
         if curStep == 304 then
             doTweenVar('camZooming', 'defaultCamZoom', 0.9, 0.09)
@@ -175,16 +175,14 @@ function onStepEvent(curStep)
             doTweenAlpha('black', 'blackOverlay', 0.4, 8, 'linear')
             doTweenX("hahaGlitch", "glitchIntensity", 20, 20, 'linear')
         end
-        if curStep == 994 then
-            doTweenX("hahaGlitch", "glitchIntensity", 25, 15, 'linear')
-        end
-        if curStep == 1008 then
-            doTweenX("hahaGlitch", "glitchIntensity", 0, 20, 'linear')
+        if curStep == 944 then
+            doTweenX("hahaGlitch", "glitchIntensity", 0, 10, 'linear')
         end
         if curStep == 1072 then
             annoyerMad = true
+            doTweenX("hahaGlitch", "glitchIntensity", 30, 30, 'linear')
         end
-        if (curStep >= 432 and curStep < 688) or (curStep == 752) then 
+        if curStep >= 432 and curStep < 688 or curStep == 752 then 
             if curStep % 4 == 0 then
                 for i,v in pairs(membersSprites) do
                     if not v[3] then

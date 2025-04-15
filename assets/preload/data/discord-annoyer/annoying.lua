@@ -10,22 +10,24 @@ end
 pbr = 1
 
 function onCreatePost()
-    pbr = getProperty("playbackRate")
-    makeLuaSprite("anCom", "chars/AnCom", 320 , 480)
-    addLuaSprite("anCom")
-    setGraphicSize("anCom", 649 * 0.625, 146 * 0.625)
-    screenCenter('anCom')
-    setProperty('anCom.alpha', 0);
-    runHaxeCode("game.getLuaObject('anCom').camera = camBDiscord;")
-    setObjectOrder("anCom", 60)
+    if not HardMode then
+        pbr = getProperty("playbackRate")
+        makeLuaSprite("anCom", "chars/AnCom", 320 , 480)
+        addLuaSprite("anCom")
+        setGraphicSize("anCom", 649 * 0.625, 146 * 0.625)
+        screenCenter('anCom')
+        setProperty('anCom.alpha', 0);
+        runHaxeCode("game.getLuaObject('anCom').camera = camBDiscord;")
+        setObjectOrder("anCom", 60)
 
-    makeLuaSprite("glow", "GLOWLIGHT", -130 , -360)
-    setScrollFactor("glow", 0 ,0)
-    scaleObject("glow", 1.2, 1.2)
-    addLuaSprite("glow", true)
-    setProperty("glow.alpha", 0)
-    setObjectCamera("glow", "hud")
-    screenCenter("glow")
+        makeLuaSprite("glow", "GLOWLIGHT", -130 , -360)
+        setScrollFactor("glow", 0 ,0)
+        scaleObject("glow", 1.2, 1.2)
+        addLuaSprite("glow", true)
+        setProperty("glow.alpha", 0)
+        setObjectCamera("glow", "hud")
+        screenCenter("glow")
+    end
 end
 
 function onStepEvent(curStep)

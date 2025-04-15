@@ -24,7 +24,7 @@ local defaultPosition = {}
 function onCreatePost()
 
 
-    if songName == "Any Song" then
+    if songName == "Note-Nova" then
         enable = false
     end
 
@@ -77,6 +77,10 @@ function onCreatePost()
             },
             ["google"] = {
                 playerIcon = {"runa", true}
+            },
+            ["note-nova"] = {
+                enemyIcon = {"annoyer", false},
+                playerIcon = {"ammar", true}
             }
         }
 
