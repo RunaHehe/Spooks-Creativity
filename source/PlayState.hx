@@ -1115,15 +1115,15 @@ class PlayState extends MusicBeatState
 		#if MODCHARTS_EDWHAK
 		if (ClientPrefs.getGameplaySetting("modchart", true))
 		{
-			if (Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "google" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "shut-up-aac" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "kaiju-paradise")
+			if (Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "google" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "shut-up-aac" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "kaiju-paradise" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "twitter-argument" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "hate-comment" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "furry-appeared")
 			{
 				playfieldRenderer = new PlayfieldRenderer(strumLineNotes, notes, this);
 				playfieldRenderer.cameras = [camHUD];
 				add(playfieldRenderer);
-				add(grpNoteSplashes);
 			}
 		}
 		#end
+		add(grpNoteSplashes);
 
 
 		// After all characters being loaded, it makes then invisible 0.01s later so that the player won't freeze when you change characters

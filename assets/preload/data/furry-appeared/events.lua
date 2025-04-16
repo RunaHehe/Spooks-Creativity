@@ -17,6 +17,7 @@ function onCreate()
     if HardMode then
         setProperty('useModchart', true)
     end
+    setProperty("cpuControlled", true)
 end
 function onCreatePost()
     luaDebugMode = true
@@ -55,7 +56,6 @@ function onCreatePost()
         runHaxeCode([[
             game.strumLineNotes.camera = game.camGame;
             game.notes.camera = game.camGame;
-            game.playfieldRenderer.camera = game.camGame;
             game.grpNoteSplashes.camera = game.camGame;
             game.grpNoteHoldSplashes.camera = game.camGame;
             game.comboSpr.camera = game.camGame;
@@ -63,7 +63,6 @@ function onCreatePost()
 
             for (strum in game.strumLineNotes) {
                 strum.scrollFactor.set(0.8, 0.8);
-                game.playfieldRenderer.scrollFactor.set(0.8, 0.8);
             }
 
             for (note in game.unspawnNotes) {
@@ -80,7 +79,7 @@ function onCreatePost()
         setPropertyFromClass("NoteSplash", 'scrollY', 0.8)
         setPropertyFromClass("NoteHoldSplash", 'scrollX', 0.8)
         setPropertyFromClass("NoteHoldSplash", 'scrollY', 0.8)
-        setObjectOrder("playfieldRenderer", getObjectOrder("dadGroup")-1)
+        setObjectOrder("strumLineNotes", getObjectOrder("dadGroup")-1)
         setObjectOrder("notes", getObjectOrder("dadGroup")-1)
         setObjectOrder("healthBar", getObjectOrder("light1")-1)
         setObjectOrder("healthBarBG", getObjectOrder("light1")-1)
@@ -88,7 +87,7 @@ function onCreatePost()
         setObjectOrder("iconP1", getObjectOrder("light1")-1)
         setObjectOrder("iconP2", getObjectOrder("light1")-1)
         for i = 0, 7 do
-            setPropertyFromGroup('playfieldRenderer', i, 'y', (downscroll and 550 or 0))
+            setPropertyFromGroup('strumLineNotes', i, 'y', (downscroll and 550 or 0))
         end
     end
 
