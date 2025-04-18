@@ -101,10 +101,6 @@ function onUpdate(elapsed)
             end
         end
         local shake = getProperty('shake.x')
-        for i = 4, 7 do
-            setPropertyFromGroup('strumLineNotes', i, 'x', _G['defaultPlayerStrumX'..tostring(i-4)] + getRandomFloat(-shake, shake))
-            setPropertyFromGroup('strumLineNotes', i, 'y', _G['defaultPlayerStrumY'..tostring(i-4)] + getRandomFloat(-shake, shake))
-        end
         if lerpMem then 
             for i,v in pairs(membersSprites) do
                 if not v[3] then
@@ -315,14 +311,7 @@ function onStepHit()
         end
     end
     if opponentHitDistract and mechanic then
-        if curStep % 8 == 0 then
-            for i = 0, 3 do -- _G['defaultOpponentStrumX'..i]
-                noteTweenX('noteComeIN'..i, i, _G['defaultOpponentStrumX'..i] + 350, crochet/1200, 'circIn')
-            end
-        elseif curStep % 8 == 4 then
-            for i = 0, 3 do -- _G['defaultOpponentStrumX'..i]
-                noteTweenX('noteComeIN'..i, i, _G['defaultOpponentStrumX'..i], crochet/1200, 'circOut')
-            end
+        if curStep % 8 == 4 then
             setProperty('shake.x', 75)
             doTweenX('shake', 'shake', 0, crochet/1000*1.5, 'quadOut')
 
