@@ -8,7 +8,6 @@ local switcha = false
 
 local intense = false
 
-local RGGLITCH
 
 
 
@@ -21,27 +20,27 @@ function onCreatePost()
     if shadersEnabled then
         initLuaShader("RGB_PIN_SPLIT")
         initLuaShader("GlitchShader")
-        initLuaShader("RGGLITCH")
 
         makeLuaSprite("lens", nil, 0, 0); setSpriteShader("lens", "RGB_PIN_SPLIT")
         makeLuaSprite("glitch", nil, 0.001, 0); setSpriteShader("glitch", "GlitchShader")
-        makeLuaSprite("rgglitch", nil, 0, 0); setSpriteShader("rgglitch", "RGGLITCH")
+        makeLuaSprite("colorShader"); setSpriteShader("colorShader", "ColorsEdit")
 
         setShaderFloat('lens', 'amount', 0.0)
         setShaderFloat('lens', 'distortionFactor', 0.05)
 
         setShaderFloat('glitch', 'GlitchAmount', 0.001)
 
-        setShaderFloat("rgglitch", "iTime", 0.001)
-        setShaderFloat("rgglitch", "intensity", 0.001)
+        setShaderFloat("colorShader", "contrast", 1)
+        setShaderFloat("colorShader", "saturation", 1)
+        setShaderFloat("colorShader", "brightness", 1)
 
         runHaxeCode([[
             var lensShader = new ShaderFilter(game.getLuaObject("lens").shader);
             var glitchShader = new ShaderFilter(game.getLuaObject("glitch").shader);
-            var rgbgShader = new ShaderFilter(game.getLuaObject("rgglitch").shader);
-            camBDiscord.setFilters([lensShader, glitchShader, rgbgShader]);
-            camDiscord.setFilters([lensShader, glitchShader, rgbgShader]);
-            game.camHUD.setFilters([lensShader, glitchShader, rgbgShader]);
+            var colorShader = new ShaderFilter(game.getLuaObject("colorShader").shader);
+            camBDiscord.setFilters([colorShader, lensShader, glitchShader]);
+            camDiscord.setFilters([colorShader, lensShader, glitchShader]);
+            game.camHUD.setFilters([colorShader, lensShader, glitchShader]);
          ]])
     end
 
@@ -98,7 +97,7 @@ function onUpdate(elapsed)
                 setProperty("glitchy.flipX", getProperty("glitchy.flipX") == false)
             end
             if curStep >= 1280 then
-                setProperty('redOverlay', 0.3 + (math.sin(curDecBeat/10)*0.2))
+                setProperty('redOverlay', 0.5 + (math.sin(curDecBeat/10)*0.2))
             end
         end
         local shake = getProperty('shake.x')
@@ -154,7 +153,7 @@ function onStepEvent(curStep)
         lensBop()
     end
     if curStep == 252 or curStep == 1148 then
-        doTweenAlpha('redOverlay', 'redOverlay', (HardMode and 0.6 or 0.3), crochet/1000, 'expoIn')
+        doTweenAlpha('redOverlay', 'redOverlay', 0.5, crochet/1000, 'expoIn')
     end
     if curStep == 256 or curStep == 1152 then
         setProperty('iconSpeed', 1)
@@ -169,6 +168,8 @@ function onStepEvent(curStep)
     if curStep == 384 or curStep == 1280 then
         callScript("stages/discordStage", "lightingMode", {true})
         cameraFlash("other", flashingLights and "0xB0FFFFFF" or "0x90FFFFFF", EasyMode and 0.5 or 1, true)
+        setShaderFloat("colorShader", "saturation", 2)
+        setShaderFloat("colorShader", "brightness", 2)
     end
     if curStep == 506 or curStep == 510 then
         triggerEvent("Add Camera Zoom", -0.015 * zoomMultiply, -0.03 * zoomMultiply)
@@ -194,6 +195,8 @@ function onStepEvent(curStep)
         zoomMultiply = 1
         setProperty('opponent.x', 320)
         intense = false
+        setShaderFloat("colorShader", "saturation", 1)
+        setShaderFloat("colorShader", "brightness", 1)
     end
     if curStep == 640 then
         setProperty('iconSpeed', 1)
@@ -255,10 +258,10 @@ function onStepHit()
     end
     if (curStep >= 256 and curStep < 512) or (curStep >= 1152 and curStep < 1536) then
         if curStep % 8 == 0 then
-            doTweenAngle('camHUDangle', 'camHUD', 6, crochet/1200/2.1, '')
+            doTweenAngle('camHUDangle', 'camHUD', 6, crochet/1200/2.1, 'linear')
         end
         if curStep % 8 == 4 then
-            doTweenAngle('camHUDangle', 'camHUD', -6, crochet/1200/2.1, '')
+            doTweenAngle('camHUDangle', 'camHUD', -6, crochet/1200/2.1, 'linear')
         end
     end
     if Mechanic and curStep >= 640 and curStep < 1024 then
@@ -327,9 +330,6 @@ function onStepHit()
             doTweenAlpha('glitchy', 'glitchy', 0, crochet/1000, 'expoIn')
             addHealth(-0.075 * (HardMode and 1.25 or 1))
 
-            setProperty("rgglitch.alpha", 0.3 * (1.25 or 1))
-            doTweenAlpha('rgglitch', 'rgglitch', 0, crochet/1000, 'circIn')
-
             setProperty('songSpeed', getPropertyFromClass("PlayState", "SONG.speed") * 0.6 * (HardMode and 0.9 or 1))
             triggerEvent('Change Scroll Speed', 1, crochet/1000)
 
@@ -374,20 +374,6 @@ function onBeatHit()
         if curBeat % 2 == 1 then
             doTweenAngle('camHUDangle', 'camHUD', -5, crochet/1300/2, 'circOut')
         end
-    end
-    if shadersEnabled and curBeat >= 96 and curBeat < 128 then
-        if curBeat % 2 == 0 then
-            setShaderFloat("rgglitch", "intensity", 25)
-            setShaderFloat("rgglitch", "iTime", 200)
-        end
-        if curBeat % 2 == 1 then
-            setShaderFloat("rgglitch", "intensity", 45)
-            setShaderFloat("rgglitch", "iTime", 600)
-        end
-    end
-    if shadersEnabled and curBeat == 128 then
-        setShaderFloat("rgglitch", "intensity", 0)
-        setShaderFloat("rgglitch", "iTime", 0)
     end
     if Mechanic and curBeat >= 352 and curBeat < 384 then
         if curBeat % 2 == 0 then
