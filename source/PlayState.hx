@@ -1115,7 +1115,7 @@ class PlayState extends MusicBeatState
 		#if MODCHARTS_EDWHAK
 		if (ClientPrefs.getGameplaySetting("modchart", true))
 		{
-			if (Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "google" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "shut-up-aac" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "kaiju-paradise" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "twitter-argument" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "hate-comment" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "furry-appeared")
+			if (Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "google" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "shut-up-aac" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "kaiju-paradise" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "twitter-argument" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "hate-comment" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "furry-appeared" && Paths.formatToSongPath(PlayState.SONG.song.toLowerCase()) != "shut-up")
 			{
 				playfieldRenderer = new PlayfieldRenderer(strumLineNotes, notes, this);
 				playfieldRenderer.cameras = [camHUD];
