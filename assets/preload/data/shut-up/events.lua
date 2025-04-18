@@ -102,8 +102,8 @@ function onUpdate(elapsed)
         end
         local shake = getProperty('shake.x')
         for i = 4, 7 do
-            setPropertyFromGroup('playfieldRenderer', i, 'x', _G['defaultPlayerStrumX'..tostring(i-4)] + getRandomFloat(-shake, shake))
-            setPropertyFromGroup('playfieldRenderer', i, 'y', _G['defaultPlayerStrumY'..tostring(i-4)] + getRandomFloat(-shake, shake))
+            setPropertyFromGroup('strumLineNotes', i, 'x', _G['defaultPlayerStrumX'..tostring(i-4)] + getRandomFloat(-shake, shake))
+            setPropertyFromGroup('strumLineNotes', i, 'y', _G['defaultPlayerStrumY'..tostring(i-4)] + getRandomFloat(-shake, shake))
         end
         if lerpMem then 
             for i,v in pairs(membersSprites) do
