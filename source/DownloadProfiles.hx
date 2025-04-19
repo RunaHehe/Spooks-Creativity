@@ -12,7 +12,7 @@ class DownloadProfiles
 	public static function download(userData:Array<Dynamic>, forceDownload:Bool = false)
 	{
 		trace('Downloading...');
-		var modFolder:String = Paths.getAssetsRoot();
+		var modFolder:String = Paths.modFolders();
 		for (data in userData)
 		{
 			if (data[0] == '0')
@@ -23,7 +23,7 @@ class DownloadProfiles
 				var imagePFP:BitmapData = getUserPFP(data[0], 128);
 				saveBitmap(imagePFP, modFolder + "/stages/discord/images/profiles/" + data[1]);
 				trace('+ Installed | ' + data[1] + ".png");
-				PlayState.instance.scripts.set("__installedProfiles", [data[2], imagePFP]);
+				//PlayState.instance.scripts.set("__installedProfiles", [data[2], imagePFP]);
 			}
 		}
 	}
@@ -31,7 +31,7 @@ class DownloadProfiles
 	static function getUserPFP(userId:String, size = 256):BitmapData
 	{
 		var userDataParsed = Json.parse(HttpUtil.requestText("https://discordlookup.mesalytic.moe/v1/user/" + userId)).raw;
-		var daUser = new DUser();
+		var daUser = @:privateAccess new DUser();
 		daUser.userId = userId;
 		daUser.avatar = userDataParsed.avatar;
 		return daUser.getAvatar(size);
@@ -45,6 +45,6 @@ class DownloadProfiles
 
 	static function getImageMod(path:String):String
 	{
-		return Paths.getAssetsRoot() + "/stages/discord/images/" + path + ".png";
+		return Paths.modFolders() + "/stages/discord/images/" + path + ".png";
 	}
 }

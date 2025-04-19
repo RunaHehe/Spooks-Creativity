@@ -28,8 +28,6 @@ class DiscordUtil
 	public static var lastPresence:#if DISCORD_RPC DPresence #else Dynamic #end = null;
 	public static var config:#if DISCORD_RPC DiscordJson #else Dynamic #end = null;
 
-	public static var script:Script;
-
 	// Constants
 	#if DISCORD_RPC
 	public static var REPLY_NO:Int = Discord.REPLY_NO;
@@ -94,27 +92,11 @@ class DiscordUtil
 
 	public static function event<T:CancellableEvent>(name:String, event:T):T
 	{
-		if (script != null)
-			script.call(name, [event]);
 		return event;
 	}
 
 	public static function call(name:String, ?args:Array<Dynamic>)
 	{
-		if (script != null)
-			script.call(name, args);
-	}
-
-	public static function loadScript()
-	{
-		if (script != null)
-		{
-			call("destroy");
-			script = FlxDestroyUtil.destroy(script);
-		}
-		script = Script.create(Paths.script('data/discord'));
-		// script.setParent(DiscordUtil);
-		script.load();
 	}
 
 	public static function changePresence(details:String, state:String, ?smallImageKey:String)
@@ -254,8 +236,6 @@ class DiscordUtil
 		handlers.spectateGame = cpp.Function.fromStaticFunction(onSpectate);
 		Discord.Initialize(id, cpp.RawPointer.addressOf(handlers), 1, null);
 		stopThread = false;
-
-		loadScript();
 		#end
 
 		return currentID = id;
@@ -268,9 +248,6 @@ class DiscordUtil
 		#if DISCORD_RPC
 		Discord.Shutdown();
 		#end
-
-		call("destroy");
-		script = FlxDestroyUtil.destroy(script);
 	}
 
 	public static function respond(userId:String, reply:Int)
