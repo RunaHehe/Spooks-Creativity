@@ -1,6 +1,6 @@
 import funkin.backend.utils.DiscordUtil.DUser;
-import funkin.backend.utils.HttpUtil;
 import haxe.Json;
+import haxe.Http;
 import openfl.display.BitmapData;
 import openfl.display.PNGEncoderOptions;
 import openfl.utils.ByteArray;
@@ -9,42 +9,91 @@ import sys.io.File;
 
 class DownloadProfiles
 {
-	public static function download(userData:Array<Dynamic>, forceDownload:Bool = false)
+	public static function downloadAsync(userData:Array<Dynamic>, forceDownload:Bool = false)
 	{
-		trace('Downloading...');
-		var modFolder:String = Paths.modFolders();
+		trace('Downloading avatars async...');
+
+		var folderPath:String = "assets/discord/images/profiles";
+		if (!FileSystem.exists(folderPath))
+			FileSystem.createDirectory(folderPath);
+
 		for (data in userData)
 		{
-			if (data[0] == '0')
-				continue;
-			var imagePath:String = getImageMod("profiles/" + data[1]);
+			if (data[0] == '0') continue;
+
+			var imagePath:String = getImagePath(data[1]);
+
 			if (!FileSystem.exists(imagePath) || forceDownload)
 			{
-				var imagePFP:BitmapData = getUserPFP(data[0], 128);
-				saveBitmap(imagePFP, modFolder + "/stages/discord/images/profiles/" + data[1]);
-				trace('+ Installed | ' + data[1] + ".png");
-				//PlayState.instance.scripts.set("__installedProfiles", [data[2], imagePFP]);
+				downloadPFPAsync(data[0], data[1], data[2]);
 			}
 		}
 	}
 
-	static function getUserPFP(userId:String, size = 256):BitmapData
+	static function downloadPFPAsync(userId:String, fileName:String, spriteName:String)
 	{
-		var userDataParsed = Json.parse(HttpUtil.requestText("https://discordlookup.mesalytic.moe/v1/user/" + userId)).raw;
-		var daUser = @:privateAccess new DUser();
-		daUser.userId = userId;
-		daUser.avatar = userDataParsed.avatar;
-		return daUser.getAvatar(size);
+		var userInfoUrl = "https://discordlookup.mesalytic.moe/v1/user/" + userId;
+		var http = new Http(userInfoUrl);
+
+		http.onData = function(response:String)
+		{
+			try
+			{
+				var userDataParsed = Json.parse(response).raw;
+				var avatarId:String = userDataParsed.avatar;
+				var avatarURL = 'https://cdn.discordapp.com/avatars/$userId/$avatarId.png?size=128';
+
+				// Step 2: Download avatar image directly
+				var avatarHttp = new Http(avatarURL);
+
+				avatarHttp.onBytes = function(bytes:haxe.io.Bytes)
+				{
+					try
+					{
+						var byteArray = ByteArray.fromBytes(bytes);
+						var bitmapData = BitmapData.fromBytes(byteArray);
+
+						saveBitmap(bitmapData, fileName);
+						trace('+ Installed profile | ' + fileName + ".png");
+					}
+					catch (err)
+					{
+						trace('[Bitmap Error] Failed to decode avatar image: ' + err);
+					}
+				}
+
+				avatarHttp.onError = function(err)
+				{
+					trace('[Avatar Error] Couldn\'t fetch avatar image: ' + err);
+				}
+
+				avatarHttp.request(); // start avatar download
+			}
+			catch (e)
+			{
+				trace('[Download Error] Failed to parse user data for ' + userId + ': ' + e);
+			}
+		}
+
+		http.onError = function(error:String)
+		{
+			trace('[Download Error] Couldn\'t fetch user info: ' + error);
+		}
+
+		http.request(); // start user info request
 	}
 
-	static function saveBitmap(image:BitmapData, path:String)
+
+
+	static function saveBitmap(image:BitmapData, fileName:String)
 	{
+		var path = "assets/discord/images/profiles/" + fileName + ".png";
 		var bytes:ByteArray = image.encode(image.rect, new PNGEncoderOptions());
-		File.saveBytes(path + ".png", bytes);
+		File.saveBytes(path, bytes);
 	}
 
-	static function getImageMod(path:String):String
+	static function getImagePath(fileName:String):String
 	{
-		return Paths.modFolders() + "/stages/discord/images/" + path + ".png";
+		return "assets/discord/images/profiles/" + fileName + ".png";
 	}
 }
