@@ -11,6 +11,8 @@ import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
+import flixel.util.FlxColor;
+import flixel.util.FlxTimer;
 import flixel.addons.display.FlxGridOverlay;
 import flixel.addons.display.FlxBackdrop;
 
@@ -25,27 +27,32 @@ class FaggotMenu extends MusicBeatState
 
 	var runa:FlxSprite;
 	var runaCharacter:Array<String> = [
-		"StoryMenuSpook",
+		"StoryModeSpook",
 		"FreePlaySpook",
 		"SettingsSpook",
 	];
 
-	var itemsOriginalPos:Int = -211 - 50;
+	var itemsOriginalPos:Int = -165 - 50;
 
 	override function create()
 	{
 		#if desktop
-            DiscordClient.changePresence("In Spook's Creatiivty Menu", null);
+            DiscordClient.changePresence("In Runa's Cute Menu >:3", null);
         #end
 
 		fuckasseryBG = new FlxSprite().loadGraphic(Paths.image("runa/bg/gradient"));
 		add(fuckasseryBG);
 
 		grid = new FlxBackdrop(FlxGridOverlay.createGrid(40, 40, 80, 80, true, 0x775419FF, 0x335419FF));
-		grid.velocity.set(40, 40);
+		grid.velocity.x = 24;
+		grid.alpha = 1;
+		grid.scrollFactor.set(1, 3.5);
 		add(grid);
 
 		runa = new FlxSprite().loadGraphic(Paths.image("runa/" + runaCharacter[0]));
+		runa.scale.set(0.5, 0.5);
+		runa.x += 350;
+		runa.y += 0;
 		add(runa);
 
 		storymenu = new FlxSprite().loadGraphic(Paths.image("runa/StoryMenu"));
@@ -61,13 +68,46 @@ class FaggotMenu extends MusicBeatState
 			add(tags);
 		};
 
-		menuTags[0].y -= 50;
-		menuTags[1].y = menuTags[0].y + 150;
-		menuTags[2].y = menuTags[1].y + 150;
+		menuTags[0].y += 30;
+		menuTags[1].y = menuTags[0].y + 200; 
+		menuTags[2].y = menuTags[1].y + 200; 
+	}
+
+	// haveToReset doesnt have a var btw faggot :3
+	var haveToReset:Bool = true;
+	function backItem():Void {
+		if (haveToReset) {
+			TitleState.initialized = false;
+			TitleState.closedState = false;
+			FlxG.sound.music.fadeOut(0.3);
+			FlxG.camera.fade(FlxColor.BLACK, 0.5, false, function() {
+				FlxG.sound.music.stop();
+				FlxG.sound.music = null;
+				FlxG.resetGame();
+			}, true);
+			return;
+		}
 	}
 
 	override function update(elapsed:Float) {
 		mouseHover();
+		if (controls.BACK) {
+			FlxG.sound.play(Paths.sound('cancelMenu'));
+		}
+		buttonControls();
+	}
+
+	override function beatHit()
+	{
+		// im gay
+		super.beatHit();
+		grid.velocity.x = 24 + 20;
+		FlxTween.tween(grid.velocity, {x: 24}, Conductor.crochet/1000, {ease : FlxEase.quadOut});
+	}
+	private function buttonControls():Void {
+		if (controls.BACK) {
+			MusicBeatState.switchState(new TitleState()); // youre welcome :catUm:
+		}
 	}
 
 	// Tween
