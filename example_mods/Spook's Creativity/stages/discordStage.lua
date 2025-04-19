@@ -395,7 +395,7 @@ function lightingMode(lightMode)
         loadGraphic(v[1], v[2] .. (lightMode and " L" or ""))
     end
 
-    if MechanicOption and getPropertyFromClass("ClientPrefs", "shaders") then 
+    if MechanicOption and getPropertyFromClass("ClientPrefs", "shaders") and not isShutUp then 
         setShaderFloat("colorShader", "saturation", (lightMode and 3 or 1) * (HardMode and 1.25 or 1))
         setShaderFloat("colorShader", "brightness", (lightMode and 3 or 1) * (HardMode and 1.25 or 1))
     end
