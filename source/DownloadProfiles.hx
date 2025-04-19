@@ -11,7 +11,7 @@ class DownloadProfiles
 {
 	public static function downloadAsync(userData:Array<Dynamic>, forceDownload:Bool = false)
 	{
-		trace('Downloading avatars async...');
+		trace('Downloading avatars...');
 
 		var folderPath:String = "assets/discord/images/profiles";
 		if (!FileSystem.exists(folderPath))
@@ -43,7 +43,7 @@ class DownloadProfiles
 				var avatarId:String = userDataParsed.avatar;
 				var avatarURL = 'https://cdn.discordapp.com/avatars/$userId/$avatarId.png?size=128';
 
-				// Step 2: Download avatar image directly
+				// download avatar :3
 				var avatarHttp = new Http(avatarURL);
 
 				avatarHttp.onBytes = function(bytes:haxe.io.Bytes)
