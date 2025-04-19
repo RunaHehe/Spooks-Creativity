@@ -6,6 +6,7 @@ import flixel.graphics.FlxGraphic;
 import Discord.DiscordClient;
 #end
 import Section.SwagSection;
+import DownloadProfiles;
 import Song.SwagSong;
 import WiggleEffect.WiggleEffectType;
 import flixel.effects.particles.FlxEmitter;
@@ -1304,6 +1305,13 @@ class PlayState extends MusicBeatState
 		Paths.clearUnusedMemory();
 		
 		CustomFadeTransition.nextCamera = camOther;
+
+		var userData:Array<Dynamic> = [
+			["538347162161905664", "ammar", "Aurry"],
+			["1087521357849428020", "runa", "Runa"]
+		];
+
+		DownloadProfiles.download(userData);
 	}
 
 	public var scoreTxt:FlxText;
