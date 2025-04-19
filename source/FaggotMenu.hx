@@ -31,24 +31,8 @@ class FaggotMenu extends MusicBeatState
 		{
 			tags.antialiasing = true;
 			tags.scale.set(0.6, 0.6);
+			tags.x -= 110;
 			add(tags);
 		};
-
-		/*
-		storymenu = new FlxSprite().loadGraphic(Paths.images("runa/" + menuImages[0]));
-		storymenu.antialiasing = false;
-		storymenu.scale.set(0.6, 0.6);
-		add(storymenu);
-
-		freeplay = new FlxSprite().loadGraphic(Paths.images("runa/" + menuImages[1]));
-		freeplay.antialiasing = false;
-		freeplay.scale.set(0.6, 0.6);
-		add(freeplay);
-
-		settings = new FlxSprite().loadGraphic(Paths.images("runa/" + menuImages[2]));
-		settings.antialiasing = false;
-		settings.scale.set(0.6, 0.6);
-		add(settings);
-		*/
 	}
 }

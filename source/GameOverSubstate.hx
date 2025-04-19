@@ -95,7 +95,7 @@ class GameOverSubstate extends MusicBeatSubstate
 			PlayState.chartingMode = false;
 
 			//WeekData.loadTheFirstEnabledMod();
-			MusicBeatState.switchState(new MainMenuStateAmmar());
+			MusicBeatState.switchState(new FaggotMenu());
 
 			FlxG.sound.playMusic(Paths.music('freakyMenu'));
 			PlayState.instance.callOnLuas('onGameOverConfirm', [false]);

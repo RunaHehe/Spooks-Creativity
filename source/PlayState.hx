@@ -3856,7 +3856,7 @@ class PlayState extends MusicBeatState
 					}
 					storyName = '';
 					changedDifficulty = false;
-					MusicBeatState.switchState(new MainMenuStateAmmar());
+					MusicBeatState.switchState(new FaggotMenu());
 				}
 				else
 				{
@@ -3909,7 +3909,7 @@ class PlayState extends MusicBeatState
 				if(FlxTransitionableState.skipNextTransIn) {
 					CustomFadeTransition.nextCamera = null;
 				}
-				MusicBeatState.switchState(new MainMenuStateAmmar());
+				MusicBeatState.switchState(new FaggotMenu());
 				FlxG.sound.playMusic(Paths.music('freakyMenu'));
 				changedDifficulty = false;
 			}
