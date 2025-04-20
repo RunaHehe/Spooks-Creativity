@@ -3105,7 +3105,8 @@ class PlayState extends MusicBeatState
 				['1139667125011746847', 'smartty', 'Smartty'],
 				['679025765014044699', 'coolrrt', 'That one cool RRT'],
 				['901261690367262750', 'colin', 'thatoneguynamedcolin'],
-				['978699497876103199', 'videobot', 'Video Bot']
+				['978699497876103199', 'videobot', 'Video Bot'],
+				['718832856025006082', 'brnox', 'Brnox'] // sorry vro i forgot to add you :sob:
 			], false);
 			didStartDownload = true;
 		}
