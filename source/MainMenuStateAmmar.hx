@@ -144,8 +144,7 @@ class MainMenuStateAmmar extends MusicBeatState
 
         ['song' => 'Programming An Ammar'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
         ['song' => 'Identity Crisis'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
-        ['song' => 'Note Nova'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
-        ['song' => 'Twisted Truths'    ,'icon' => ""            , 'week' => "Ammar Showdown", 'unlocked' => ['Programming An Ammar', 'Identity Crisis', 'Note Nova', 'Twisted Truths'], 'hidden' => true],
+        ['song' => 'Note Nova'    ,'icon' => ""            , 'week' => "Ammar Showdown"], 'unlocked' => ['Programming An Ammar', 'Identity Crisis', 'Note Nova'], 'hidden' => true]
     ];
     var songsDifficulty:Map<String, Array<Int>> = [
         'Discord Annoyer'    => [1, 2, 2],
@@ -169,8 +168,7 @@ class MainMenuStateAmmar extends MusicBeatState
 
         'Programming An Ammar'       => [5, 7, 9],
         'Identity Crisis'       => [5, 7, 9],
-        'Note Nova'       => [3, 5, 6,],
-        'Twisted Truths'       => [4, 7, 8,],
+        'Note Nova'       => [3, 5, 6],
 
     ];
 
@@ -194,6 +192,12 @@ class MainMenuStateAmmar extends MusicBeatState
         Myself > No Debug
 
         Programming An Ammar > Moderator
+
+
+
+
+
+        Runa here! I have no clue why ammar did this but whatever, im leaving it in the code lmao
         
     **/
 
