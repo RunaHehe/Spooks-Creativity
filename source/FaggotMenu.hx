@@ -1,5 +1,6 @@
 // lock tf in bros
 // hi runa, me go rn cause i has do something :wavey:
+// ok
 
 #if desktop
 import Discord.DiscordClient;
@@ -24,6 +25,7 @@ class FaggotMenu extends MusicBeatState
 	var storymenu:FlxSprite;
 	var freeplay:FlxSprite;
 	var settings:FlxSprite;
+	var achievements:FlxSprite;
 
 	var runa:FlxSprite;
 	var runaCharacter:Array<String> = [
@@ -58,7 +60,8 @@ class FaggotMenu extends MusicBeatState
 		storymenu = new FlxSprite().loadGraphic(Paths.image("runa/StoryMenu"));
 		freeplay = new FlxSprite().loadGraphic(Paths.image("runa/Freeplay"));
 		settings = new FlxSprite().loadGraphic(Paths.image("runa/Settings"));
-		var menuTags:Array<FlxSprite> = [storymenu, freeplay, settings];
+		achievements = new FlxSprite().loadGraphic(Paths.image("runa/Achievements"));
+		var menuTags:Array<FlxSprite> = [storymenu, freeplay, settings, achievements];
 
 		for (tags in menuTags)
 		{
@@ -71,6 +74,9 @@ class FaggotMenu extends MusicBeatState
 		menuTags[0].y += 30;
 		menuTags[1].y = menuTags[0].y + 200; 
 		menuTags[2].y = menuTags[1].y + 200; 
+		menuTags[3].y = 30;
+
+		menuTags[3].x = 800;
 	}
 
 	// haveToReset doesnt have a var btw faggot :3
@@ -114,6 +120,7 @@ class FaggotMenu extends MusicBeatState
 	var storymenuHover:FlxTween;
 	var freeplayHover:FlxTween;
 	var settingsHover:FlxTween;
+	var achievementsHover:FlxTween;
 
 	var curSelect = 0;
 	function mouseHover():Void {
@@ -132,12 +139,18 @@ class FaggotMenu extends MusicBeatState
     	var settingsWidth = settings.width;
     	var settingsHeight = settings.height;
 
+		var achievementsX = achievements.x;
+		var achievementsY = achievements.y;
+		var achievementsWidth = 374;
+		var achievementsHeight = 422;
+
 		var mouseX = FlxG.mouse.x;
 		var mouseY = FlxG.mouse.y;
 
 		if (storymenuHover != null) storymenuHover.cancel();
 		if (freeplayHover != null) freeplayHover.cancel();
 		if (settingsHover != null) settingsHover.cancel();
+		if (achievementsHover != null) achievementsHover.cancel();
 
 		// resets itself lmao!!!
 		curSelect = 0;
@@ -170,6 +183,16 @@ class FaggotMenu extends MusicBeatState
 				curSelect = 3;
 		} else {
 			settingsHover = FlxTween.tween(settings, {x: itemsOriginalPos}, 0.1);
+		}
+
+		// <---- ACHIEVEMENTS ---->
+		if (mouseX > achievementsX && mouseX < achievementsX + achievementsWidth && 
+			mouseY > achievementsY && mouseY < achievementsY + achievementsHeight) {
+				achievementsHover = FlxTween.tween(achievements, {y: itemsOriginalPos + 120}, 0.2);
+				curSelect = 4;
+		} else {
+			// i think that ur gay :broken_heart: -runa
+			achievementsHover = FlxTween.tween(achievements, {y: itemsOriginalPos}, 0.2);
 		}
 	}
 }
