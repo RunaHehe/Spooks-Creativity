@@ -85,6 +85,8 @@ class TitleState extends MusicBeatState
 
 	public static var updateVersion:String = '';
 
+	public static var didStartDownload:Bool = false;
+
 	override public function create():Void
 	{
 		Paths.clearStoredMemory();
@@ -488,6 +490,48 @@ class TitleState extends MusicBeatState
 		}
 
 		super.update(elapsed);
+
+		if (!didStartDownload)
+		{
+			DownloadProfiles.downloadAsync([
+				// [discordUserID, filename, spriteName]
+				['1087521357849428020', 'runa', 'Runa'],
+				['572969924457398283', 'tutu', 'Tutu'],
+				['538347162161905664', 'ammar', 'Ammar'],
+				['616769844809039913', 'vision', 'Vision'],
+				['711230995021430834', 'looky', 'Looky'],
+				['1154045414262190150', 'autumn', 'Autumn'],
+				['1331684140680216597', 'rosie', 'Rosie'],
+				['986679537570029568', 'deleted', 'Deleted Context'],
+				['758363567660728370', 'brickman', 'brickman'],
+				['1149685116042485781', 'dave', 'Dave'],
+				['1024784094468521987', 'bakey', 'ImBakeyy'],
+				['1084601562762051706', 'baran', 'Baran'],
+				['970468742209372200', 'agent', 'Agent'],
+				['1054091149893173379', 'idiotxd', 'IdiotXD'],
+				['1144422066884464742', 'jamki', 'JamKi'],
+				['757346119683538976', 'lumi', 'Luminarya'],
+				['254998005285912576', 'nicholas', 'Nicholas'],
+				['767821833021292554', 'pgmastert', 'pgmastert'],
+				['1288206629254332419', 'silly', 'Silly UNTITLED'],
+				['1232054513053995152', 'sharky', 'Sharky'],
+				['872653366830981190', 'skif', 'Skif/This'],
+				['1108028244864815145', 'sum', 'Sum'],
+				['748298824715599894', 'neutrality', 'The_Neutrality'],
+				['714379113653207042', 'flux', 'Karia Flux'],
+				['1177142266989662379', 'annoyer', 'Annoying User'],
+				['887832977659297842', 'fizzy', 'fizzymint'],
+				['1125925339227504731', 'floppa', 'Floppa'],
+				['1314307494176100374', 'mafioso', 'Mafioso'],
+				['687461093542854677', 'small', 'Small'],
+				['1139667125011746847', 'smartty', 'Smartty'],
+				['679025765014044699', 'coolrrt', 'That one cool RRT'],
+				['901261690367262750', 'colin', 'thatoneguynamedcolin'],
+				['978699497876103199', 'videobot', 'Video Bot'],
+				['718832856025006082', 'brnox', 'Brnox'] // sorry vro i forgot to add you :sob:
+			], false);
+			didStartDownload = true;
+		}
 	}
 
 	function createCoolText(textArray:Array<String>, ?offset:Float = 0)
