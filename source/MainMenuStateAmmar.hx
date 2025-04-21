@@ -125,8 +125,8 @@ class MainMenuStateAmmar extends MusicBeatState
         //['song' => '' ,'icon' => "", 'desc' => ""]
         ['song' => 'Discord Annoyer'   ,'icon' => ""            , 'week' => "Discord Annoyer"],
         ['song' => 'Shut Up'              ,'icon' => ""            , 'week' => "Discord Annoyer"],
-        ['song' => 'Moderator'          ,'icon' => ""            , 'week' => "Discord Annoyer"],
-        ['song' => 'Depression'           ,'icon' => ""            , 'week' => "Discord Annoyer", 'unlocked' => ['Discord Annoyer', 'Shut Up', 'Moderator', 'Depression']],
+        ['song' => 'Depression'           ,'icon' => ""            , 'week' => "Discord Annoyer"],
+        ['song' => 'Moderator'          ,'icon' => ""            , 'week' => "Discord Annoyer", 'unlocked' => ['Discord Annoyer', 'Shut Up', 'Depression', 'Moderator',]],
 
         ['song' => 'Hate Comment'        ,'icon' => ""           , 'week' => "Hating Problem"],
         ['song' => 'Twitter Argument'   ,'icon' => ""            , 'week' => "Hating Problem"],
@@ -144,7 +144,7 @@ class MainMenuStateAmmar extends MusicBeatState
 
         ['song' => 'Programming An Ammar'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
         ['song' => 'Identity Crisis'    ,'icon' => ""            , 'week' => "Ammar Showdown"],
-        ['song' => 'Note Nova'    ,'icon' => ""            , 'week' => "Ammar Showdown"], 'unlocked' => ['Programming An Ammar', 'Identity Crisis', 'Note Nova'], 'hidden' => true]
+        ['song' => 'Note Nova'    ,'icon' => ""            , 'week' => "Ammar Showdown" , 'unlocked' => ['Programming An Ammar', 'Identity Crisis', 'Note Nova'], 'hidden' => true]
     ];
     var songsDifficulty:Map<String, Array<Int>> = [
         'Discord Annoyer'    => [1, 2, 2],
