@@ -496,6 +496,8 @@ class TitleState extends MusicBeatState
 			DownloadProfiles.downloadAsync([
 				// [discordUserID, filename, spriteName]
 				['1087521357849428020', 'runa', 'Runa'],
+				['706133760957218826', 'ducky', 'Ducky'],
+				['962171732406460457', 'andro', 'Andro'],
 				['572969924457398283', 'tutu', 'Tutu'],
 				['538347162161905664', 'ammar', 'Ammar'],
 				['616769844809039913', 'vision', 'Vision'],

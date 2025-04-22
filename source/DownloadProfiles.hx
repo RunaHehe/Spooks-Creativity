@@ -13,7 +13,7 @@ class DownloadProfiles
 	{
 		trace('Downloading avatars...');
 
-		var folderPath:String = "assets/discord/images/profiles";
+		var folderPath:String = "assets/images/profiles/";
 		if (!FileSystem.exists(folderPath))
 			FileSystem.createDirectory(folderPath);
 
@@ -87,13 +87,13 @@ class DownloadProfiles
 
 	static function saveBitmap(image:BitmapData, fileName:String)
 	{
-		var path = "assets/discord/images/profiles/" + fileName + ".png";
+		var path = "assets/images/profiles/" + fileName + ".png";
 		var bytes:ByteArray = image.encode(image.rect, new PNGEncoderOptions());
 		File.saveBytes(path, bytes);
 	}
 
 	static function getImagePath(fileName:String):String
 	{
-		return "assets/discord/images/profiles/" + fileName + ".png";
+		return "assets/images/profiles/" + fileName + ".png";
 	}
 }
