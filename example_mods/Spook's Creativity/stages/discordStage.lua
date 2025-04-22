@@ -7,6 +7,7 @@ end
 fontName = "Discord/ggsans-Medium.ttf"
 dancingPanel = false
 folder = ""
+local profiles = folder.."profiles/"
 
 LightMode = false
 
@@ -15,7 +16,7 @@ sideBarStuff = {
     members = {y1 = 0, y2 = 50, x = 0}
 }
 barIntensity = 16
-dmSpace = 10
+dmSpace = 30
 centerScreenY = 720/2
 
 idleTimer = {bf = 0, dad = 0, bfDone = true, dadDone = true}
@@ -62,6 +63,7 @@ function onCreate()
     shaderCoordFix()
 end
 function onCreatePost()
+    initLuaShader("circleProfilePicture")
     makeCam()
     addHaxeLibrary('Paths')
     luaDebugMode = true 
@@ -123,6 +125,7 @@ function onCreatePost()
 
     local isNoteNova = songName:lower() == "note-nova"
     local isConfrontation = songName:lower() == "confrontation"
+    local isModerator = songName:lower() == "moderator"
 
     if isConfrontation then
         opponentTyping = isConfrontation and "(Vision is typing...)" or opponentTyping
@@ -139,24 +142,47 @@ function onCreatePost()
     local xx = 320
     local tw = 505
     makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
-    makeSpr({tag = "opponent", image = folder..(isShutUp and "chars/Random Girl" or "chars/Ammar"), x = xx, y = 100, cam = "camBDiscord", xSize = (isShutUp and 0.625 or 0.625)})
+    makeText({tag = "opponentName", text = (isShutUp and "Andro" or "Spook"), x = xx, y = 100, cam = "camBDiscord", xSize = 0.625})
+    makeSpr({tag = "opponent", image = profiles..(isShutUp and "test" or "runa"), x = xx, y = 100, cam = "camBDiscord", xSize = (isShutUp and 0.625 or 0.625)})
 
     makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
-    makeSpr({tag = "player", image = folder.."chars/Annoying User", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+    makeText({tag = "playerName", text = "Vision", cam = "camBDiscord", width = tw})
+    makeSpr({tag = "player", image = profiles.."vision", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
     if isNoteNova then
         makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
-        makeSpr({tag = "opponent", image = folder.."chars/Anon User", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+        makeText({tag = "opponentName", text = "Annoying User", cam = "camBDiscord", width = tw})
+        makeSpr({tag = "opponent", image = folder.."annoyer", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
-        makeSpr({tag = "player", image = folder.."chars/Ammar Player", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw})
+        makeSpr({tag = "player", image = folder.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         setGraphicSize("opponent", 649 * 0.625, 146 * 0.625)
         setGraphicSize("player", 649 * 0.625, 146 * 0.625)
     end
 
-    setGraphicSize("opponent", 649 * 0.625, 146 * 0.625)
-    setGraphicSize("player", 649 * 0.625, 146 * 0.625)
+    if isModerator then
+        makeText({tag = "opponentName", text = "Ducky", cam = "camBDiscord", width = tw})
+    end
+
+    setGraphicSize("opponent", 649 * 0.625, 146 * 0)
+    setGraphicSize("player", 649 * 0.625, 146 * 0)
+
+    scaleObject("opponent", 0.5, 0.5)
+    scaleObject("player", 0.5, 0.5)
+
+    setProperty("opponent.offset.x", 10)
+    setProperty("player.offset.x", 10)
+
+    setProperty("opponentName.offset.y", 80)
+    setProperty("playerName.offset.y", 80)
+
+    setProperty("opponent.offset.y", 25)
+    setProperty("player.offset.y", 25)
+
+    setSpriteShader('opponent', 'circleProfilePicture')
+    setSpriteShader('player', 'circleProfilePicture')
 
    pbr = getProperty("playbackRate")
    if MechanicOption and getPropertyFromClass("ClientPrefs", "shaders") then 
@@ -324,6 +350,12 @@ function onUpdate(elapsed)
     setProperty("opponentText.y", getProperty("opponent.y")+40)
     setProperty("playerText.y", getProperty("player.y")+40)
 
+    setProperty("playerName.y", getProperty("player.y")+80)
+    setProperty("opponentName.y", getProperty("opponent.y")+80)
+
+    setProperty("playerName.x", getProperty("player.x")+103)
+    setProperty("opponentName.x", getProperty("opponent.x")+103)
+
     setProperty("opponentText.x", getProperty("opponent.x")+103)
     setProperty("playerText.x", getProperty("player.x")+103)
 
@@ -395,7 +427,7 @@ function lightingMode(lightMode)
         loadGraphic(v[1], v[2] .. (lightMode and " L" or ""))
     end
 
-    if MechanicOption and getPropertyFromClass("ClientPrefs", "shaders") and not isShutUp then 
+    if MechanicOption and getPropertyFromClass("ClientPrefs", "shaders") then 
         setShaderFloat("colorShader", "saturation", (lightMode and 3 or 1) * (HardMode and 1.25 or 1))
         setShaderFloat("colorShader", "brightness", (lightMode and 3 or 1) * (HardMode and 1.25 or 1))
     end
@@ -409,7 +441,6 @@ function onStepHit()
             doTweenX("memberXMove", "members", sideBarStuff.members.x + barIntensity, crochet/1000/2/pbr, "circIn")
         end
     end
-   
 end
 
 function onBeatHit()
