@@ -1,4 +1,5 @@
 folder = "call/"
+profiles = "profiles/"
 
 SpriteUtil = nil
 
@@ -107,28 +108,6 @@ function onStepEvent(curStep)
     if curStep == 1280 then
         setProperty("modCall.alpha", 0)
         voiceMode()
-    end
-    if curStep == 512 then --- spook lmao
-        loadGraphic("player", "chars/Ammar")
-        setGraphicSize("player", 649 * 0.625, 146 * 0.625)
-        setGlobalFromScript("stages/discordStage", "disableBFTextRemove", true)
-        setGlobalFromScript("stages/discordStage", "disableBFTextTyping", true)
-
-        cameraFlash("HUD", "FFFFFF", 1)
-
-        setTextString("playerText", "Mind if I take over? :3")
-    end
-    if curStep == 544 then 
-        setGlobalFromScript("stages/discordStage", "disableBFTextRemove", false)
-        setGlobalFromScript("stages/discordStage", "disableBFTextTyping", false)
-        setTextString("playerText", "...")
-    end
-    if curStep == 573 then
-        setTextString("playerText", "(Spook is typing...)")
-    end
-    if curStep == 864 then
-        loadGraphic("player", "chars/Annoying User")
-        setGraphicSize("player", 649 * 0.625, 146 * 0.625)
     end
     if curStep == 1408 then
         setProperty('camDiscord.angle', 360)

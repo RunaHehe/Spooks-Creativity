@@ -5,6 +5,7 @@ SpriteUtil = nil
 downGlowBeat = false
 upGlowBeat = false
 squaresParticleSpawn = false
+profiles = folder.."profiles/"
 
 local videoSprites = {}
 function onCreate()
@@ -53,10 +54,14 @@ function onCreatePost()
     setProperty("vignette.alpha", 0)
     setBlendMode("vignette", "multiply")
 
-    loadGraphic("opponent", "chars/Moderator")
-    setGraphicSize("opponent", 649 * 0.625, 146 * 0.625)
+    loadGraphic("opponent", profiles.."ducky")
+    setGraphicSize("opponent", 649 * 0.625, 146 * 0)
 
     setGlobalFromScript("stages/discordStage", "opponentTyping", "(Ducky is Typing...)")
+    scaleObject("opponent", 0.5, 0.5)
+
+    setProperty("opponent.offset.x", 10)
+    setProperty("opponent.offset.y", 25)
 
    -- cacheVideo()
     readyVideo()
