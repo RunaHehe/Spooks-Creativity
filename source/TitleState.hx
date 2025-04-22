@@ -85,6 +85,8 @@ class TitleState extends MusicBeatState
 
 	public static var updateVersion:String = '';
 
+	public static var didStartDownload:Bool = false;
+
 	override public function create():Void
 	{
 		Paths.clearStoredMemory();
@@ -488,8 +490,6 @@ class TitleState extends MusicBeatState
 		}
 
 		super.update(elapsed);
-<<<<<<< Updated upstream
-=======
 
 		if (!didStartDownload)
 		{
@@ -534,7 +534,6 @@ class TitleState extends MusicBeatState
 			], false);
 			didStartDownload = true;
 		}
->>>>>>> Stashed changes
 	}
 
 	function createCoolText(textArray:Array<String>, ?offset:Float = 0)

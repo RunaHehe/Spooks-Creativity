@@ -6,6 +6,7 @@ import flixel.graphics.FlxGraphic;
 import Discord.DiscordClient;
 #end
 import Section.SwagSection;
+import DownloadProfiles;
 import Song.SwagSong;
 import WiggleEffect.WiggleEffectType;
 import flixel.effects.particles.FlxEmitter;
@@ -3063,7 +3064,7 @@ class PlayState extends MusicBeatState
 
 			// Conductor.lastSongPos = FlxG.sound.music.time;
 		}
-
+		
 		if (camZooming)
 		{
 			FlxG.camera.zoom = FlxMath.lerp(defaultCamZoom, FlxG.camera.zoom, CoolUtil.boundTo(1 - (elapsed * 3.125 * camZoomingDecay * playbackRate), 0, 1));
