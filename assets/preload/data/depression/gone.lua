@@ -1,4 +1,5 @@
 folder = "discord/"
+profiles = "profiles/"
 
 local tweens = {} --array to store tweens
 
@@ -60,12 +61,6 @@ function onCreatePost()
     screenCenter('vignette')
     scaleObject('vignette', 1, 1)
     addLuaSprite('vignette', true)
-
-    loadGraphic("opponent", "chars/Deleted User")
-    loadGraphic("player", "chars/Annoying User")
-
-    setGraphicSize("player", 649 * 0.625, 146 * 0.625)
-    setGraphicSize("opponent", 649 * 0.625, 146 * 0.625)
 
     setGlobalFromScript("stages/discordStage", "opponentTyping", "(Delta is typing...)")
 
@@ -131,7 +126,6 @@ function onStepEvent(curStep)
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x80FFFFFF", 1.2)
     end
     if curStep == 1256 then
-        debugPrint('helo')
         if shadersOption then
             doTweenX("noiseTween", "noiseAlphaHolder", 20, 13, "linear")
         end

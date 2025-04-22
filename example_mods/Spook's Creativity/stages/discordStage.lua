@@ -126,6 +126,7 @@ function onCreatePost()
     local isNoteNova = songName:lower() == "note-nova"
     local isConfrontation = songName:lower() == "confrontation"
     local isModerator = songName:lower() == "moderator"
+    local isDepression = songName:lower() == "depression"
 
     if isConfrontation then
         opponentTyping = isConfrontation and "(Vision is typing...)" or opponentTyping
@@ -143,7 +144,7 @@ function onCreatePost()
     local tw = 505
     makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
     makeText({tag = "opponentName", text = (isShutUp and "Andro" or "Spook"), x = xx, y = 100, cam = "camBDiscord", xSize = 0.625})
-    makeSpr({tag = "opponent", image = profiles..(isShutUp and "test" or "runa"), x = xx, y = 100, cam = "camBDiscord", xSize = (isShutUp and 0.625 or 0.625)})
+    makeSpr({tag = "opponent", image = profiles..(isShutUp and "Andro" or "runa"), x = xx, y = 100, cam = "camBDiscord", xSize = (isShutUp and 0.625 or 0.625)})
 
     makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
     makeText({tag = "playerName", text = "Vision", cam = "camBDiscord", width = tw})
@@ -152,11 +153,11 @@ function onCreatePost()
     if isNoteNova then
         makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
         makeText({tag = "opponentName", text = "Annoying User", cam = "camBDiscord", width = tw})
-        makeSpr({tag = "opponent", image = folder.."annoyer", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+        makeSpr({tag = "opponent", image = profiles.."annoyer", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
         makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw})
-        makeSpr({tag = "player", image = folder.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+        makeSpr({tag = "player", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         setGraphicSize("opponent", 649 * 0.625, 146 * 0.625)
         setGraphicSize("player", 649 * 0.625, 146 * 0.625)
@@ -164,6 +165,17 @@ function onCreatePost()
 
     if isModerator then
         makeText({tag = "opponentName", text = "Ducky", cam = "camBDiscord", width = tw})
+    end
+    if isDepression then
+        makeText({tag = "opponentName", text = "Delta", cam = "camBDiscord", width = tw})
+        makeSpr({tag = "opponent", image = profiles.."Delta", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+    end
+    if isIdentityCrisis then
+        makeText({tag = "opponentName", text = "An ???", cam = "camBDiscord", width = tw})
+        makeSpr({tag = "opponent", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+
+        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw})
+        makeSpr({tag = "player", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
     end
 
     setGraphicSize("opponent", 649 * 0.625, 146 * 0)

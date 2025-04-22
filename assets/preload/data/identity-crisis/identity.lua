@@ -19,12 +19,6 @@ function onCreatePost()
     precacheImage("EveryPing")
     precacheImage("chars/Who")
 
-    loadGraphic("opponent", "chars/Who")
-    loadGraphic("player", "chars/Ammar Player")
-
-    setGraphicSize("player", 649 * 0.625, 146 * 0.625)
-    setGraphicSize("opponent", 649 * 0.625, 146 * 0.625)
-
     opponentTyping = "(You are typing..?)"
     opponentCaps = false
 end

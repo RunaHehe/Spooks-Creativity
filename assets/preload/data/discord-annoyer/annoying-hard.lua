@@ -24,7 +24,7 @@ function onCreate()
         screenCenter('blackOverlay')
         addLuaSprite('blackOverlay', false)
 
-        setProperty('cpuControlled', false)
+        setProperty('cpuControlled', true)
     end
 end
 
