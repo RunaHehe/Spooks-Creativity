@@ -117,7 +117,8 @@ class MainMenuStateAmmar extends MusicBeatState
         ['Developer Mode', 'Enable developer Mode. Have access to Chart Editor, Change Scripts\' Code', 'developer'],
         ['Cute :3', '????? What is this setting? I never added this into the source code. Hmmmmmmmmmmmmmm. I wonder what is dis for...', 'cute'],
         ['Hide Unused', 'Literally Hide Unused Song in Freeplay', 'hideunused'],
-        ['Erase Save Data', 'Hold To Delete Your Save Files. However, this will still keep your developer mode enable.', 'delete']
+        ['Erase Save Data', 'Hold To Delete Your Save Files. However, this will still keep your developer mode enable.', 'delete'],
+        ['Redownload Profile Pictures', 'Press to redownload all of the PFPS the mod uses. This will freeze the game for a bit!', 'redownloadPfps'],
         //['Hard Mode', 'Enable HARD MODE!!1! Increase Difficulty and new mechanics. This might sound FUN', 'hardMode']
     ];
 
@@ -1479,6 +1480,11 @@ class MainMenuStateAmmar extends MusicBeatState
             }
             #end
             if (Reflect.getProperty(ClientPrefs, saveName)) return;
+        }
+        if (optionsList[targetMember.objectID][2] == "redownloadPfps") {
+            FlxG.sound.play(sounds["impact"]);
+			DownloadProfiles.downloadAsync();
+            return;
         }
         if (saveName == 'delete') return;
         var targetCheck:Checkbox =  menuChecks.members[targetMember.objectID];
