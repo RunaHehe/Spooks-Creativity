@@ -29,6 +29,8 @@ function setupEvents()
             ease(time, 0, "expoIn", "20, plrShake")
         end
     end
+    
+    ease(256, 0.5, "expoIn", "0, plrShake")
 
     ease(256, 1, "quadOut", "0, opHit")
 

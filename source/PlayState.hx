@@ -1137,6 +1137,8 @@ class PlayState extends MusicBeatState
 		eventPushedMap.clear();
 		eventPushedMap = null;
 
+		add(grpNoteSplashes);
+
 		#if MODCHARTS_EDWHAK
 		if (ClientPrefs.getGameplaySetting("modchart", true))
 		{
@@ -1153,7 +1155,6 @@ class PlayState extends MusicBeatState
 			}
 		}
 		#end
-		add(grpNoteSplashes);
 
 		// After all characters being loaded, it makes then invisible 0.01s later so that the player won't freeze when you change characters
 		// add(strumLine);
