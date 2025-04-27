@@ -84,7 +84,29 @@ function onStepEvent(curStep)
     if curStep-1 == 384 or curStep-1 == 448 then
         setProperty("defaultCamZoom", 0.9)
     end
+    if curStep == 512 then
+        loadGraphic("player", profiles.."runa")
+        setGraphicSize("player", 649 * 0.625, 146 * 0)
+        cameraFlash("camHUD", "FFFFFF", 1)
+        setTextString("playerText", "Mind if I take over? :3")
+        setTextString("playerName", "Spook")
+        setTextColor("playerName", "9C02D6")
+        setGlobalFromScript("disableBFTextTyping", true)
 
+        scaleObject("player", 0.5, 0.5)
+        setProperty("player.offset.x", 10)
+        setProperty("playerName.offset.y", 80)
+        setProperty("player.offset.y", 25)
+    end
+    if curStep == 544 then
+        setTextString("playerText", "...")
+    end
+    if curStep == 572 then
+        setTextString("playerText", "(Spook is typing...")
+    end
+    if curStep == 576 then
+        setGlobalFromScript("disableBFTextTyping", false)
+    end
     if curStep == 760 then
         doTweenAlpha("blackHidden", "blackScreen", 1, crochet/1000*2, "quadIn")
         doTweenAlpha("camHUDhide", "camHUD", 0, crochet/1000*2, "quadIn")
@@ -92,6 +114,16 @@ function onStepEvent(curStep)
     if curStep == 768 then
         spawnCutscene()
         doTweenAlpha("blackHidden", "blackScreen", 0, crochet/1000*1, "linear")
+
+        loadGraphic("player", profiles.."runa")
+        setGraphicSize("player", 649 * 0.625, 146 * 0)
+        setTextString("playerName", "Spook")
+        setTextColor("playerName", "00FF3B")
+
+        scaleObject("player", 0.5, 0.5)
+        setProperty("player.offset.x", 10)
+        setProperty("playerName.offset.y", 80)
+        setProperty("player.offset.y", 25)
     end
     if curStep == 1264 then
         doTweenAlpha("blackHidden", "blackScreen", 1, crochet/1000*4, "quadIn")

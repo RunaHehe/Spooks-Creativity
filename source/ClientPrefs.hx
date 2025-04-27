@@ -80,7 +80,6 @@ class ClientPrefs {
 	public static var developer:Bool = false;
 	public static var badges:Array<String> = [];
 	public static var hideunused:Bool = false;
-	public static var redownloadPfps
 
 	public static var progress:Float = 0;
 	public static var prevVersion:String = '';
@@ -172,7 +171,6 @@ class ClientPrefs {
 		FlxG.save.data.hardMode = hardMode;
 		FlxG.save.data.cute = cute;
 		FlxG.save.data.badges = badges;
-		FlxG.save.data.redownloadPfps = redownloadPfps;
 
 		FlxG.save.data.sillybop = sillybop;
 		FlxG.save.data.nopromotion = nopromotion;
@@ -337,9 +335,6 @@ class ClientPrefs {
 
 		if (FlxG.save.data.hardMode != null)
 			hardMode = FlxG.save.data.hardMode;
-
-		if (FlxG.save.data.redownloadPfps ! = null)
-			redownloadPfps = FlxG.save.data.redownloadPfps;
 
 		if (FlxG.save.data.cute != null)
 			cute = FlxG.save.data.cute;

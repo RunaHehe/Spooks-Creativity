@@ -108,6 +108,7 @@ function onStepEvent(curStep)
         setProperty('blackOverlay.alpha', 1)
         doTweenAlpha('blackTween', 'blackOverlay', 0, 7)
         callScript("stages/discordStage", "lightingMode", {true})
+        setTextColor("opponentName", "000000")
         if shadersOption then
             doTweenX("noiseTween", "noiseAlphaHolder", 1, 2, "linear")
         end
@@ -115,6 +116,7 @@ function onStepEvent(curStep)
     if curStep == 896 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 0.4)
         callScript("stages/discordStage", "lightingMode", {false})
+        setTextColor("opponentName", "FFFFFF")
         if shadersOption then
            setShaderFloat("rainhehe", "iIntensity", 0.13)
         end
@@ -131,10 +133,18 @@ function onStepEvent(curStep)
         end
     end
     if curStep == 1280 then
-        loadGraphic("player", "chars/Ammar")
-        setGraphicSize("player", 649 * 0.625, 146 * 0.625)
+        loadGraphic("player", profiles.."runa")
+        setGraphicSize("player", 649 * 0.625, 146 * 0)
         cameraFlash("camOther", "FFFFFF", 1)
-        setTextString("playerText", "")
+        setTextString("playerText", "...")
+        setTextString("playerName", "Spook")
+        setTextColor("playerName", "9C02D6")
+
+        scaleObject("player", 0.5, 0.5)
+        setProperty("player.offset.x", 10)
+        setProperty("playerName.offset.y", 80)
+        setProperty("player.offset.y", 25)
+
         if shadersOption then
             setShaderFloat("rainhehe", "iIntensity", 0.2)
             doTweenX("noiseTween", "noiseAlphaHolder", 1, 1, "linear")

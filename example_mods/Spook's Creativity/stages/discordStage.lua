@@ -134,7 +134,7 @@ function onCreatePost()
     end
 
     if isNoteNova then
-        opponentTyping = isNoteNova and "(Annoying User is typing..)" or opponentTyping
+        opponentTyping = isNoteNova and "(Annoying User is typing...)" or opponentTyping
         opponentCaps = false
     end
 
@@ -143,20 +143,20 @@ function onCreatePost()
     local xx = 320
     local tw = 505
     makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
-    makeText({tag = "opponentName", text = (isShutUp and "Andro" or "Spook"), x = xx, y = 100, cam = "camBDiscord", xSize = 0.625})
-    makeSpr({tag = "opponent", image = profiles..(isShutUp and "Andro" or "runa"), x = xx, y = 100, cam = "camBDiscord", xSize = (isShutUp and 0.625 or 0.625)})
+    makeText({tag = "opponentName", text = (isShutUp and "Andro" or "Spook"), x = xx, y = 100, cam = "camBDiscord", color = (isShutUp and "00FF3B" or "9C02D6")})
+    makeSpr({tag = "opponent", image = profiles..(isShutUp and "andro" or "runa"), x = xx, y = 100, cam = "camBDiscord", xSize = (isShutUp and 0.625 or 0.625)})
 
     makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
-    makeText({tag = "playerName", text = "Vision", cam = "camBDiscord", width = tw})
+    makeText({tag = "playerName", text = "Vision", cam = "camBDiscord", width = tw, color = "00FF3B"})
     makeSpr({tag = "player", image = profiles.."vision", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
     if isNoteNova then
         makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
-        makeText({tag = "opponentName", text = "Annoying User", cam = "camBDiscord", width = tw})
+        makeText({tag = "opponentName", text = "Annoying User", cam = "camBDiscord", width = tw, color = "FEAE01"})
         makeSpr({tag = "opponent", image = profiles.."annoyer", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
-        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw})
+        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "`"})
         makeSpr({tag = "player", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         setGraphicSize("opponent", 649 * 0.625, 146 * 0.625)
@@ -164,17 +164,17 @@ function onCreatePost()
     end
 
     if isModerator then
-        makeText({tag = "opponentName", text = "Ducky", cam = "camBDiscord", width = tw})
+        makeText({tag = "opponentName", text = "Ducky", cam = "camBDiscord", width = tw, color = "2FE2E2"})
     end
     if isDepression then
-        makeText({tag = "opponentName", text = "Delta", cam = "camBDiscord", width = tw})
-        makeSpr({tag = "opponent", image = profiles.."Delta", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+        makeText({tag = "opponentName", text = "Delta", cam = "camBDiscord", width = tw, color = "FFFFFF"})
+        makeSpr({tag = "opponent", image = profiles.."delta", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
     end
     if isIdentityCrisis then
-        makeText({tag = "opponentName", text = "An ???", cam = "camBDiscord", width = tw})
+        makeText({tag = "opponentName", text = "An ???", cam = "camBDiscord", width = tw, color = "000000"})
         makeSpr({tag = "opponent", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
-        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw})
+        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "00FF3B"})
         makeSpr({tag = "player", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
     end
 
@@ -617,18 +617,33 @@ end
 
 function makeText(tabler)
     local tag = tabler.tag or "teg"
-   makeLuaText(tag, tabler.text or tag, tabler.width or 0, tabler.x or 0, tabler.y or 0)
-   setScrollFactor(tag, 0 ,0)
-   addLuaText(tag)
+    makeLuaText(tag, tabler.text or tag, tabler.width or 0, tabler.x or 0, tabler.y or 0)
+    setScrollFactor(tag, 0, 0)
+    addLuaText(tag)
 
-   setTextFont(tag, fontName)
-   setTextAlignment(tag, 'left')
-   setTextBorder(tag, 0, "0x00000000")
-   setTextSize(tag, 24)
-   setProperty(tag..".antialiasing", getPropertyFromClass("ClientPrefs", "globalAntialiasing"))
-   setObjectCameraCustom(tag, tabler.cam or "game.camHUD")
-   setProperty(tag..".borderQuality", 0)
+    local usedFont = fontName
+    if tabler.bold then
+        usedFont = "gg sans Bold.ttf" -- <- you need a bold font file here
+    end
+
+    setTextFont(tag, usedFont)
+    setTextAlignment(tag, 'left')
+    setTextBorder(tag, 0, "0x00000000")
+    setTextSize(tag, 24)
+    setProperty(tag..".antialiasing", getPropertyFromClass("ClientPrefs", "globalAntialiasing"))
+    setObjectCameraCustom(tag, tabler.cam or "game.camHUD")
+    setProperty(tag..".borderQuality", 0)
+
+    if tabler.color then
+        setTextColor(tag, tabler.color)
+    end
+
+    if tabler.xSize then
+        setProperty(tag..".scale.x", tabler.xSize)
+    end
 end
+
+
 
 function nearNotes(_timeNear, mustPress)
     local timeNear = _timeNear
