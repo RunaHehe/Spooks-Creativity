@@ -156,7 +156,7 @@ function onCreatePost()
         makeSpr({tag = "opponent", image = profiles.."annoyer", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
-        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "`"})
+        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "00FF3B"})
         makeSpr({tag = "player", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         setGraphicSize("opponent", 649 * 0.625, 146 * 0.625)
