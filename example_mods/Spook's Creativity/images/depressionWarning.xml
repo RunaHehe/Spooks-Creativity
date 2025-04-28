@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="depressionWarning.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="warning0000" x="0" y="0" width="554" height="571" frameX="-30" frameY="-27" frameWidth="600" frameHeight="600"/>
+	<SubTexture name="warning0001" x="0" y="571" width="547" height="577" frameX="-42" frameY="-24" frameWidth="600" frameHeight="600"/>
+</TextureAtlas>
