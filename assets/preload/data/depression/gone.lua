@@ -334,8 +334,9 @@ end
 
 function onUpdate(elapsed)
     if shadersOption then
-        setShaderFloat("oldTVNoStatic", "iTime", os.clock()%100)
-        setShaderFloat("rainhehe", "iTime", os.clock()%100)
+        local songPos = getSongPosition()
+        setShaderFloat("oldTVNoStatic", "iTime", songPos / 1000)
+        setShaderFloat("rainhehe", "iTime", songPos / 1000)
         setShaderFloat("rainhehe", "iTimescale", 0.1)
         
         local currentNoise = getProperty("noiseAlphaHolder.x")
