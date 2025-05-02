@@ -1,9 +1,9 @@
 # This is not an ENGINE!!!!!!
 
-Mod create in Psych Engine 0.6.3
-(With nebulazorua psych modchart https://github.com/nebulazorua/psych-modchart-thing)
+Mod was created in Psych Engine 0.6.3 using EdwhakKB's Modcharting Tools
 
-There are some library Changes!!!!
+
+There are some library changes!!!!
 
 Hxvlc
 
