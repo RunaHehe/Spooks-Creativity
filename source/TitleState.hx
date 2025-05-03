@@ -469,7 +469,7 @@ class TitleState extends MusicBeatState
 
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
-					if (FlxG.random.int(1, 10000) == 1)
+					if (FlxG.random.int(1, 1000000) == 1)
 					{
 						FlxG.switchState(new RunaPiracy());
 					}
