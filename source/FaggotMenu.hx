@@ -2,6 +2,8 @@
 // hi runa, me go rn cause i has do something :wavey:
 // ok
 
+// faggot :3
+
 #if desktop
 import Discord.DiscordClient;
 #end
