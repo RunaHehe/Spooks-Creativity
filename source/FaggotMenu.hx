@@ -44,6 +44,7 @@ class FaggotMenu extends MusicBeatState
 
 		fuckasseryBG = new FlxSprite().loadGraphic(Paths.image("runa/bg/gradient"));
 		add(fuckasseryBG);
+		// im gonna wait for her to come back so i can use paint.net to make bgs
 
 		grid = new FlxBackdrop(FlxGridOverlay.createGrid(40, 40, 80, 80, true, 0x775419FF, 0x335419FF));
 		grid.velocity.x = 24;
@@ -72,10 +73,10 @@ class FaggotMenu extends MusicBeatState
 		};
 
 		menuTags[0].y += 30;
-		menuTags[1].y = menuTags[0].y + 200; 
-		menuTags[2].y = menuTags[1].y + 200; 
-		menuTags[3].y = 30;
+		menuTags[1].y = menuTags[0].y + 250; 
+		menuTags[2].y = menuTags[1].y + 250; 
 
+		menuTags[3].y = 30;
 		menuTags[3].x = 800;
 	}
 
@@ -110,6 +111,7 @@ class FaggotMenu extends MusicBeatState
 		grid.velocity.x = 24 + 20;
 		FlxTween.tween(grid.velocity, {x: 24}, Conductor.crochet/1000, {ease : FlxEase.quadOut});
 	}
+	
 	private function buttonControls():Void {
 		if (controls.BACK) {
 			MusicBeatState.switchState(new TitleState()); // youre welcome :catUm:
