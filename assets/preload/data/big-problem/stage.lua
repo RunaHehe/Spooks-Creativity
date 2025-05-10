@@ -1125,8 +1125,14 @@ function onSongStart()
             setPropertyFromGroup("unspawnNotes", i, 'copyAlpha', false)
         end
 
-        for i = 0, 7 do
-            setPropertyFromGroup("playfieldRenderer", i, 'alpha', 0.6)
+        if Modchart then
+            for i = 0, 7 do
+                setPropertyFromGroup("strumLineNotes", i, 'alpha', 0.6)
+            end
+        else
+            for i = 0, 7 do 
+                setPropertyFromGroup("strumLineNotes", i, 'alpha', 0.6)
+            end
         end
     end
 end
@@ -1289,8 +1295,14 @@ end
 function onUpdatePost(elapsed)
     if not inGameOver then
         if not middlescroll and downscroll and curStep <= 5 then
-            for i = 0, 7 do
-                setPropertyFromGroup("playfieldRenderer", i, 'alpha', 0.6)
+            if Modchart then
+                for i = 0, 7 do
+                    setPropertyFromGroup("strumLineNotes", i, 'alpha', 0.6)
+                end
+            else
+                for i = 0, 7 do
+                    setPropertyFromGroup("strumLineNotes", i, 'alpha', 0.6)
+                end
             end
         end
         shakeUpdate(elapsed)
