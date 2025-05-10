@@ -160,6 +160,17 @@ class PauseSubState extends MusicBeatSubstate
 		levelCredit.x = FlxG.width - (levelCredit.width + 20);
 		add(levelCredit);
 
+		var pauseCredits:FlxText = new FlxText(20, 15, 0, "", 32);
+		pauseCredits.text = 'Pause Music Composed by Kaira Flux';
+		pauseCredits.scrollFactor.set();
+		pauseCredits.setFormat(Paths.font(fonter), 32);
+		pauseCredits.updateHitbox();
+		pauseCredits.alignment = RIGHT;
+		pauseCredits.y = 30;
+		pauseCredits.x = FlxG.width - (pauseCredits.width + 20);
+		add(pauseCredits);
+
+
 		chartingText = new FlxText(20, 15 + 101, 0, "CHARTING MODE", 32);
 		chartingText.scrollFactor.set();
 		chartingText.setFormat(Paths.font(fonter), 32);
@@ -184,6 +195,7 @@ class PauseSubState extends MusicBeatSubstate
 		levelDifficulty.alpha = 0;
 		levelInfo.alpha = 0;
 		levelCredit.alpha = 0;
+		pauseCredits.alpha = 0;
 
 		levelInfo.alignment = LEFT;
 		levelDifficulty.alignment = LEFT;
@@ -193,10 +205,12 @@ class PauseSubState extends MusicBeatSubstate
 		levelDifficulty.x = 20;
 		blueballedTxt.x = 20;
 		levelCredit.y -= 20;
+		pauseCredits.y = 20; 
 
 		FlxTween.tween(bg, {alpha: 0.6}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(levelInfo, {alpha: 1, y: 20}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3});
 		FlxTween.tween(levelCredit, {alpha: 1, y: 20}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3});
+		FlxTween.tween(pauseCredits, {alpha: 1, y: pauseCredits.y + 30}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.5});
 		FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 10}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.5});
 		FlxTween.tween(blueballedTxt, {alpha: 1, y: blueballedTxt.y + 10}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.7});
 		FlxTween.tween(checker, {alpha: 0.3, 'velocity.x': -50}, 1, {ease: FlxEase.quartInOut});
