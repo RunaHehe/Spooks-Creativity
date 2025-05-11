@@ -1,66 +1,77 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
-				0,
-				0
+				-120,
+				-300
 			],
-			"loop": true,
-			"fps": 12,
 			"anim": "idle",
-			"indices": [],
-			"name": "spookidle"
+			"fps": 24,
+			"name": "runaidle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				0,
-				0
+				-120,
+				-290
 			],
-			"loop": true,
-			"fps": 16,
 			"anim": "singUP",
-			"indices": [],
-			"name": "spookup"
+			"fps": 24,
+			"name": "runaup",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				10,
-				0
+				-100,
+				-300
 			],
-			"loop": true,
-			"fps": 18,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "spookleft"
-		},
-		{
-			"offsets": [
-				-10,
-				-10
-			],
-			"loop": true,
-			"fps": 18,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "spookdown"
+			"fps": 24,
+			"name": "runadown",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-10,
-				0
+				-130,
+				-300
 			],
-			"loop": true,
-			"fps": 18,
+			"anim": "hey",
+			"fps": 24,
+			"name": "runahey",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-120,
+				-300
+			],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "spookright"
+			"fps": 24,
+			"name": "runaleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-110,
+				-300
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "runaright",
+			"indices": []
 		}
 	],
 	"no_antialiasing": true,
-	"image": "characters/spookr",
+	"image": "characters/runa",
 	"position": [
-		-240,
-		-110
+		-270,
+		-150
 	],
 	"healthicon": "spook",
 	"flip_x": true,
@@ -70,9 +81,9 @@
 		40
 	],
 	"camera_position": [
-		-130,
-		300
+		-40,
+		350
 	],
 	"sing_duration": 6,
-	"scale": 0.7
+	"scale": 1.1
 }

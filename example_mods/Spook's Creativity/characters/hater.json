@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				86,
-				4
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				26,
+				-26
+			],
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "duckleft"
-		},
-		{
-			"offsets": [
-				17,
-				-12
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "duckdown"
+			"name": "duckleft",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				27,
+				-22
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "duckdown",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				14,
-				37
+				-23
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "duckup"
-		},
-		{
-			"offsets": [
-				-5,
-				10
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "duckright"
+			"name": "duckup",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				15,
+				-30
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "duckright",
+			"indices": []
+		},
+		{
+			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "duckidle"
+			"fps": 24,
+			"name": "duckidle",
+			"indices": []
 		}
 	],
 	"no_antialiasing": true,
