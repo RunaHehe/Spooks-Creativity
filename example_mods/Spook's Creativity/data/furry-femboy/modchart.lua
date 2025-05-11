@@ -110,7 +110,11 @@ function setupEvents()
         if beat % 2 == 0 then
             ease(time, 0.5, "quadOut", (time % 4 == 0 and bounciness or -bounciness) .. ", dadX")
             ease(time + 0.5, 0.5, 'quadIn', '0, dadX')
-            ease(time, 0.5, 'quadOut', ((time % 4 == 0 and 13 or -13) * mul) .. ', bfWiggle')
+            if NormalMode then
+                ease(time, 0.5, 'quadOut', ((time % 4 == 0 and 6 or -6) * mul) .. ', bfWiggle')
+            elseif HardMode then
+                ease(time, 0.5, 'quadOut', ((time % 4 == 0 and 13 or -13) * mul) .. ', bfWiggle')
+            end
             ease(time + 0.5, 0.5, 'quadIn', '0, bfWiggle')
 
             ease(time, 0.5, 'quadOut', '0.3, bfFlip')

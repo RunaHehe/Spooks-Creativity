@@ -520,20 +520,3 @@ end
 function lerp(a, b, t)
 	return a + (b - a) * t
 end
-
-
-function onCreate()
-    setPropertyFromClass("openfl.Lib", "application.window.title", "Spook's Creativity V4" )
-    function onEvent(curStep, value1, value2)
-      if name == "windowName" then
-      setPropertyFromClass("openfl.Lib", "application.window.title", (value1))
-      end
-    end
-end
-
-function onEvent(name, value1, value2)
-    if name == "movewindow" then
-	setPropertyFromClass("openfl.Lib", "application.window.x", getPropertyFromClass("openfl.Lib", "application.window.x") + value1)
-	end
-	setPropertyFromClass("openfl.Lib", "application.window.y", getPropertyFromClass("openfl.Lib", "application.window.y") + value2)
-end
