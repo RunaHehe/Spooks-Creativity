@@ -55,9 +55,11 @@ function onCreatePost()
 
     setProperty('opponent.alpha', 0)
     setProperty('opponentText.alpha', 0)
+    setProperty('opponentName.alpha', 0)
 
     setProperty('opponent.visible', false)
     setProperty('opponentText.visible', false)
+    setProperty('opponentName.visible', false)
 
     SpriteUtil.makeSprite({tag="miss", image = folder.."miss", cam = "camOther"})
     screenCenter("miss")
@@ -74,6 +76,7 @@ function onUpdate(elapsed)
     if curStep > 0 and curStep < 64 then
         setProperty('opponent.alpha', 0)
         setProperty('opponentText.alpha', 0)
+        setProperty('opponentName.alpha', 0)
     end
 
     if curStep > 0 and curStep < 256 then
@@ -95,9 +98,11 @@ function onStepHit()
     if curStep == 64 then
         setProperty('opponent.visible', true)
         setProperty('opponentText.visible', true)
+        setProperty('opponentName.visible', true)
 
         doTweenAlpha('hi who', 'opponent', 1, 2, 'linear')
         doTweenAlpha('hi who text', 'opponentText', 1, 2, 'linear')
+        doTweenAlpha('hi who name', 'opponentName', 1, 2, 'linear')
     end
 
     if curStep == 144 then

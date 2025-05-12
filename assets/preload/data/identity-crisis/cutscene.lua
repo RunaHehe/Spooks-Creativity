@@ -2,7 +2,7 @@ playVideo = true
 playDialouge = false
 
 function onStartCountdown()
-	if not seenCutscene then
+	if isStoryMode and not seenCutscene then
 		if playVideo then
 			math.randomseed(os.time())
 			if math.random(8) == 2 then
