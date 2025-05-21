@@ -22,7 +22,7 @@ end
 
 local plr, opp, all = 0, 1, -1
 function onCountdownStarted()
-    luaDebugMode = true
+    luaDebugMode = false
     if not SourceCodeVer or not Modchart or not HardMode then return end
     setProperty('spawnTime', 4000)
     local downsc = downscroll and -1 or 1

@@ -10,10 +10,6 @@ function onCreatePost()
     end
 end
 
-function initPlayfields()
-    addPlayfield(0, 0, 0)
-end
-
 function initMods()
     -- op
     startMod("opStealth", "StealthModifier", "opponent", -1)
@@ -45,16 +41,11 @@ function initMods()
     startMod("boost", "BoostModifier", "", -1)
     startMod("flip", "FlipModifier", "", -1)
     startMod("wave", "WaveYModifier", "", -1)
-
-    -- playfields
-    startMod("stealth1", "StealthModifier", "", 1)
-    startMod("x1", "XModifier", "", 1)
+    startMod("x1", "XModifier", "", -1)
 end
 
 function initSetup()
     setSubMod("sudden", "offset", "10")
-    setMod("stealth1", 1)
-    setMod("x1", 110)
 end
 
 local plr, opp = "plr", "opp"
@@ -107,8 +98,8 @@ function initModchart()
 
     for beat = 0, (4 * 14) - 1 do
         ease(104 + (beat) - 0.25, 0.25, "expoIn", [[
-            ]] .. beat % 2 == 0 and 100 or -100 .. [[, x,
-            ]] .. beat % 2 == 0 and 4 or -4 .. [[, wiggle,
+            ]] .. (beat % 2 == 0 and 100 or -100) .. [[, x,
+            ]] .. (beat % 2 == 0 and 4 or -4) .. [[, wiggle,
             0.25, brake
         ]])
         ease(104 + (beat), 0.75, 'circOut', [[
@@ -120,13 +111,13 @@ function initModchart()
         if beat % 2 == 1 then
             ease(104 + (beat) - 0.25, 0.25, 'expoIn', [[
                 ]] .. (beat % 4 == 1 and 30 or -30) .. [[, rotate,
-                ]] .. (beat % 4 == 1 and -30 or 30) .. [[, x,
+                ]] .. (beat % 4 == 1 and -30 or 30) .. [[, x1,
                 ]] .. (beat % 4 == 1 and 40 or -40) .. [[, confusion,
                 ]] .. (beat % 4 == 1 and 3 or -3) .. [[, tipsyY
             ]])
             ease(104 + (beat), 0.75, "circOut", [[
                 0, rotate,
-                0, x,
+                0, x1,
                 0, confusion,
                 0, tipsyY
             ]])
@@ -175,7 +166,7 @@ function initModchart()
 
             ease(time, 2, "quadOut", [[
                 0, boost,
-                0.35, xmod
+                0.75, xmod
             ]])
         end
 
@@ -271,26 +262,6 @@ function onUpdate(elapsed)
 
             setMod('plrZ', -100 + continuous_cos(curDecBeat / 8) * 200)
             setMod('opZ', -(100 + continuous_cos((curDecBeat) / 8 + 500) * 200))
-        end
-    end
-end
-
-function onUpdatePost(elapsed)
-    if HardMode and not inGameOver then
-        if curBeat >= 464 and curBeat < 528 then
-            if curBeat < 528 then
-                --     setMod("x", ((curDecBeat % 4) / 4) * 1280)
-                --     setMod("x1", -1280 + ((curDecBeat % 4) / 4) * 1280)
-            end
-        end
-    end
-end
-
-function onStepHit()
-    if HardMode and not inGameOver then
-        if step == (528 * 4) then
-            setMod("x", 0)
-            setMod("x1", 0)
         end
     end
 end
