@@ -36,7 +36,7 @@ class FaggotMenu extends MusicBeatState
 		"SettingsSpook",
 	];
 
-	var itemsOriginalPos:Int = -165 - 50;
+	var itemsOriginalPos:Int = -165;
 
 	override function create()
 	{
@@ -68,8 +68,9 @@ class FaggotMenu extends MusicBeatState
 
 		for (tags in menuTags)
 		{
-			tags.antialiasing = true;
+			tags.antialiasing = ClientPrefs.globalAntialiasing;
 			tags.scale.set(0.6, 0.6);
+			tags.updateHitbox();
 			tags.x = itemsOriginalPos;
 			add(tags);
 		};
@@ -103,7 +104,10 @@ class FaggotMenu extends MusicBeatState
 		if (controls.BACK) {
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 		}
+
 		buttonControls();
+		if (curSelect != 0 && FlxG.mouse.justReleased)
+			buttonClick();
 	}
 
 	override function beatHit()
@@ -145,8 +149,8 @@ class FaggotMenu extends MusicBeatState
 
 		var achievementsX = achievements.x;
 		var achievementsY = achievements.y;
-		var achievementsWidth = 374;
-		var achievementsHeight = 422;
+		var achievementsWidth = achievements.width;
+		var achievementsHeight = achievements.height;
 
 		var mouseX = FlxG.mouse.x;
 		var mouseY = FlxG.mouse.y;
@@ -198,5 +202,20 @@ class FaggotMenu extends MusicBeatState
 			// i think that ur gay :broken_heart: -runa
 			achievementsHover = FlxTween.tween(achievements, {y: itemsOriginalPos}, 0.2);
 		}
+	}
+
+	function buttonClick():Void {
+		if (curSelect == 1)
+			trace("cheese");
+		MusicBeatState.switchState(new MainMenuStateAmmar());
+		if (curSelect == 2)
+			trace("bun");
+		MusicBeatState.switchState(new MainMenuStateAmmar());
+		if (curSelect == 3)
+			trace("sauce");
+		MusicBeatState.switchState(new MainMenuStateAmmar());
+		if (curSelect == 4)
+			trace("ham");
+		MusicBeatState.switchState(new MainMenuStateAmmar());
 	}
 }
