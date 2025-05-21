@@ -15,7 +15,7 @@ bam = 1
 susOffset = 0
 
 
-disableMovingScreen = false
+--[[disableMovingScreen = false
 local windowX = 0;
 local windowY = 0;
 local windowW = 0;
@@ -24,7 +24,7 @@ local windowH = 0;
 waveWindowY = false
 waveWindowX = false
 waveWindowSpeed = 1
-borderlessShake = false
+borderlessShake = false]]
 
 function onCreatePost()
     luaDebugMode = true
@@ -64,9 +64,9 @@ function onCreatePost()
         end
      end
 
-     getWindowPos()
+     --[[getWindowPos()
      windowW = 1280--getPropertyFromClass('openfl.Lib','application.window.width')
-     windowH = 720--getPropertyFromClass('openfl.Lib','application.window.height')
+     windowH = 720--getPropertyFromClass('openfl.Lib','application.window.height')]]
 
      setProperty("dad.healthIcon", "bunny")
      setProperty("boyfriend.healthIcon", "annoyer")
@@ -212,7 +212,7 @@ function opponentNoteHit()
 end
 
 
-local windowOffset = {x = 0, y = 0}
+--local windowOffset = {x = 0, y = 0}
 function onUpdate(elapsed)
     if not inGameOver then
             notesEvent(elapsed)
@@ -222,7 +222,7 @@ function onUpdate(elapsed)
                 setProperty("camBDiscord.angle", continuous_sin(curDecStep/8)*-5)
                 setProperty("camDiscord.angle", continuous_sin(curDecStep/8)*10)
             end
-                local winX, winY = getPropertyFromClass('openfl.Lib','application.window.x'), getPropertyFromClass('openfl.Lib','application.window.y')
+                --[[local winX, winY = getPropertyFromClass('openfl.Lib','application.window.x'), getPropertyFromClass('openfl.Lib','application.window.y')
                 setPropertyFromClass('openfl.Lib','application.window.x',lerp(winX, windowX + windowOffset.x + getProperty("windowObject.x"), elapsed*12))
                 setPropertyFromClass('openfl.Lib','application.window.y',lerp(winY, windowY + windowOffset.y + getProperty("windowObject.y"), elapsed*12))
                 setPropertyFromClass('openfl.Lib','application.window.width', windowW * getProperty("windowObject.scale.x"))
@@ -240,7 +240,7 @@ function onUpdate(elapsed)
                 end
                 if borderlessShake and false then 
                     setPropertyFromClass('openfl.Lib','application.window.borderless',getRandomBool(5))
-                end
+                end]]
 
         if curStep >= 2752 and curStep < 2880 then
             setProperty("camDiscord.alpha", 0.7 + continuous_sin(curDecStep/16)*0.3)
@@ -255,7 +255,7 @@ function onUpdate(elapsed)
    
 end
 
-function customMovingWindow()
+--[[function customMovingWindow()
     if curBeat == 80 then
         getWindowPos()
         doTweenX("windowH", "windowObject.scale", 1.5, crochet/1000*14*4 ,"quadInOut")
@@ -280,10 +280,10 @@ function customMovingWindow()
         setProperty('windowObject.y', 600)
         doTweenY("windowY", "windowObject", 0, crochet/1000*2 ,"quadOut")
     end
-end
+end]]
 
 function onBeatHit()
-    if curBeat == 144 then 
+    --[[if curBeat == 144 then 
         getWindowPos()
         waveWindowY = true
     end
@@ -328,7 +328,7 @@ function onBeatHit()
         borderlessShake = false
         setPropertyFromClass('openfl.Lib','application.window.borderless',false)
         waveWindowY = false
-    end
+    end]]
     if curBeat % boomSpeed == 0 and not songEnded and curStep > 64 then
 		triggerEvent("Add Camera Zoom",0.015*bam,0.03*bam)
 		if getProperty('camGame.zoom') >= 1.35 then
@@ -339,13 +339,13 @@ function onBeatHit()
             setProperty('camBDiscord.zoom',getProperty('camBDiscord.zoom')+0.04*bam);
 		end
 	end
-    customMovingWindow()
+    --customMovingWindow()
 end
 
-function getWindowPos()
+--[[function getWindowPos()
     windowX = getPropertyFromClass('openfl.Lib', 'application.window.x')
     windowY = getPropertyFromClass('openfl.Lib', 'application.window.y')
-end
+end]]
 function onUpdatePost(elapsed)
     if not inGameOver then
         shakyi(elapsed)
@@ -416,7 +416,7 @@ function onEvent(n,v1,v2)
     
  end
 
-function onPause()
+--[[function onPause()
         setPropertyFromClass('openfl.Lib','application.window.borderless',false)
         setPropertyFromClass('openfl.Lib','application.window.x',windowX)
         setPropertyFromClass('openfl.Lib','application.window.y',windowY)
@@ -435,7 +435,7 @@ end
 
 function onResume()
     getWindowPos()
-end
+end]]
 
 function continuous_sin(x) return math.sin((x % 1) * 2*math.pi) end
 function continuous_cos(x) return math.cos((x % 1) * 2*math.pi) end

@@ -18,7 +18,7 @@ local singCooldown = 0.1
 function onCreate()
     luaDebugMode = false
     setProperty('defaultCamZoom', 2.5)
-    setProperty('cpuControlled', false)
+    setProperty('cpuControlled', true)
 end
 
 function onSongStart()

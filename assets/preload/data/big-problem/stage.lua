@@ -901,9 +901,13 @@ function onStepEvent(curStep)
         setProperty('healthBar.visible', false)
         setProperty('healthBarBG.visible', false)
         setProperty('healthBarOverlay.visible', false)
+        triggerEvent('Change Character', 'dad', 'duckalt')
     end
     if shadersEnabled and curStep == 2432 then
         doTweenX('radialBlurEffect', 'radialBlurEffect', 0, crochet/1000*4*4, 'quadInOut')
+        triggerEvent('Change Character', 'bf', 'runaalt')
+        setProperty('boyfriendGroup.y', getProperty('boyfriendGroup.y') - 350)
+        setProperty('boyfriendGroup.x', 450)
     end
     if curStep == 2480 then
         doTweenAlpha('camHUDA', 'camHUD', 1, crochet/1000*4)
@@ -920,9 +924,47 @@ function onStepEvent(curStep)
 
         cancelTween('camHUDA')
         setProperty('camHUD.alpha', 1)
+
+        videoShaderUpdate = false
+        videoBeat = false
+
+        local videos = {'lvideo1', 'rvideo1', 'lvideo0', 'rvideo0'}
+        for i, video in pairs(videos) do
+            local tag = video
+            local dur = getRandomFloat(2, 4)
+            doTweenX(tag..'X', tag, getProperty(tag..'.x') + getRandomFloat(-80, 80), dur, 'quadIn')
+            doTweenY(tag..'Y', tag, getProperty(tag..'.y') + 900, dur, 'quadIn')
+            doTweenAlpha(tag..'Al', tag, 0, dur, 'quadIn')
+            doTweenAngle(tag..'An', tag, getProperty(tag..'.angle') + getRandomFloat(-20, 20), dur, 'quadIn')
+        end
+
+        halfVideoDes = true
+        centerCamera = true
+        local videos = {'lvideo3', 'rvideo3', 'lvideo2', 'rvideo2'}
+        for i, video in pairs(videos) do
+            local tag = video
+            local dur = getRandomFloat(2, 4)
+            doTweenX(tag..'X', tag, getProperty(tag..'.x') + getRandomFloat(-80, 80), dur, 'quadIn')
+            doTweenY(tag..'Y', tag, getProperty(tag..'.y') + 900, dur, 'quadIn')
+            doTweenAlpha(tag..'Al', tag, 0, dur, 'quadIn')
+            doTweenAngle(tag..'An', tag, getProperty(tag..'.angle') + getRandomFloat(-20, 20), dur, 'quadIn')
+        end
     end
     if shadersEnabled and curStep == 2864 then
         doTweenX('radialBlurEffect', 'radialBlurEffect', 0.8, crochet/1000*4, 'expoIn')
+        TWMessageActive = false
+        for i, v in pairs(TWMessageBarB) do
+            local tag = v[1]
+            setProperty(tag..'.alpha', 0)
+            setProperty(tag..'.y', 800)
+            doTweenY(tag, tag, v[4], 1, "quadOut")
+        end
+        for i, v in pairs(TWMessageBar) do
+            local tag = v[1]
+            setProperty(tag..'.alpha', 0)
+            setProperty(tag..'.y', 800)
+            doTweenY(tag, tag, v[4], 1, "quadOut")
+        end
     end
 
     if curStep == 2880 then -- GOOGLE
@@ -937,7 +979,7 @@ function onStepEvent(curStep)
         setProperty('blackBehindGoogle.visible', false)
         setProperty('boyfriendGroup.visible', true)
         setProperty('dadGroup.visible', true)
-        setProperty('ground.visible', true)
+        setProperty('ground.visible', false)
         setProperty('botGlow.visible', true)
         setProperty("googleBG.visible", false)
 
@@ -958,6 +1000,8 @@ function onStepEvent(curStep)
         setProperty('healthBar.visible', true)
         setProperty('healthBarBG.visible', true)
         setProperty('healthBarOverlay.visible', true)
+        setProperty("bg.visible", false)
+        setProperty("yt.visible", false)
     end
     if shadersEnabled and curStep == 2896 then
         cancelTween('radialBlurEffect')
@@ -1179,6 +1223,23 @@ function onEvent(eventName, value1, value2)
                 setShaderBool("dad", "inverted", true)
             end
         end
+        if value1:lower() == 'bf' then
+            runHaxeCode([[
+                for (char in game.boyfriendGroup) {
+                    char.alpha = 0;
+                }
+                game.boyfriend.alpha = 1;
+            ]])
+            if shadersEnabled then
+                setSpriteShader("boyfriend", "dropShadow")
+                setShaderFloat("boyfriend", "_alpha", 0.8)
+                setShaderFloat("boyfriend", "_disx", 10)
+                setShaderFloat("boyfriend", "_disy", 15)
+                setShaderBool("boyfriend", "inner", true)
+                setShaderBool("boyfriend", "inverted", true)
+            end
+        end
+
 
         -- setSpriteShader("dad", "dropShadow")
         -- setShaderFloat("dad", "_alpha", 0.8)
@@ -1436,4 +1497,38 @@ end
 
 function onDestroy()
     setPropertyFromClass("openfl.Lib", "application.window.title", "FNF: Spook's Creativity V1" )
+end
+
+local isCamWatch, isCamWatchPrev = false;
+camWatchX, camWatchY, camWatchZoom = 0;
+function cameraWatch(_x, _y, _zoom, _tweenDur, _duration)
+	cancelTweenValue("camWatchX") --CANCELTWEENS
+	cancelTweenValue("camWatchY")
+	cancelTweenValue("camWatchZ")
+
+	camWatchX = getProperty("camFollowPos.x")
+	camWatchY = getProperty("camFollowPos.y")
+	camWatchZoom = getProperty("camGame.zoom")
+
+	doValueTween("camWatchX", "camWatchX", getProperty("camFollowPos.x"), _x, _tweenDur, "quadInOut")
+	doValueTween("camWatchY", "camWatchY", getProperty("camFollowPos.y"), _y, _tweenDur, "quadInOut")
+	doValueTween("camWatchZ", "camWatchZoom", getProperty("camGame.zoom"), _zoom, _tweenDur, "quadInOut")
+	isCamWatch = true;
+
+	cancelTimer("endCameraWatch")
+	runTimer("endCameraWatch", _duration)
+end
+
+function cancelTweenValue(_tag)
+	callScript("scripts/coolFunctions", "cancelVarTween", { _tag })
+end
+
+function onTimerCompleted(tag)
+	if tag == "endCameraWatch" then
+		isCamWatch = false
+	end
+end
+
+function doValueTween(_tag, _variable, _startValue, _endValue, _dur, _ease)
+	callScript("scripts/coolFunctions", "varTween", { _tag, _variable, _startValue, _endValue, _dur, _ease, scriptName })
 end

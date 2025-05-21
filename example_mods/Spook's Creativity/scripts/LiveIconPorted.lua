@@ -103,7 +103,6 @@ end
 function onStepHit()
     if curStep == 784 and songName:lower() == "depression" then
         loadGraphic("iconP1", ppath.. "runa", 150, 150)
-        addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0) -- idle, lose, left, down, up, right
         setProperty('iconP1.flipX', true)
     end
 end

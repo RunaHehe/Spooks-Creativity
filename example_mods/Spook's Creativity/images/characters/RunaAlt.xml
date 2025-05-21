@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="RunaAlt.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="runadown0000" x="2557" y="402" width="398" height="354" frameX="-53" frameY="-160" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runadown0001" x="2557" y="756" width="398" height="353" frameX="-53" frameY="-161" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runadown0002" x="399" y="2496" width="401" height="350" frameX="-51" frameY="-164" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runadown0003" x="800" y="2496" width="403" height="348" frameX="-50" frameY="-166" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runadown0004" x="1606" y="2496" width="404" height="347" frameX="-49" frameY="-167" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runadown0005" x="1203" y="2496" width="403" height="348" frameX="-50" frameY="-166" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runadown0006" x="2955" y="0" width="400" height="350" frameX="-52" frameY="-164" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runadown0007" x="0" y="2496" width="399" height="353" frameX="-53" frameY="-161" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0000" x="816" y="1692" width="409" height="401" frameX="-56" frameY="-113" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0001" x="0" y="1692" width="408" height="402" frameX="-56" frameY="-112" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0002" x="408" y="1692" width="408" height="402" frameX="-56" frameY="-112" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0003" x="1740" y="403" width="408" height="403" frameX="-56" frameY="-111" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0004" x="1740" y="1209" width="407" height="403" frameX="-56" frameY="-111" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0005" x="1740" y="806" width="407" height="403" frameX="-56" frameY="-111" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0006" x="1277" y="1284" width="408" height="403" frameX="-56" frameY="-111" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0007" x="1740" y="0" width="408" height="403" frameX="-56" frameY="-111" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0008" x="1225" y="1692" width="408" height="401" frameX="-56" frameY="-113" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0009" x="2148" y="1597" width="408" height="399" frameX="-56" frameY="-115" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0010" x="2148" y="799" width="409" height="399" frameX="-56" frameY="-115" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0011" x="2148" y="1198" width="409" height="399" frameX="-56" frameY="-115" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0012" x="2148" y="0" width="409" height="400" frameX="-56" frameY="-114" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0013" x="2148" y="400" width="409" height="399" frameX="-56" frameY="-115" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaidle0014" x="1633" y="1692" width="409" height="400" frameX="-56" frameY="-114" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaleft0000" x="1998" y="2094" width="399" height="401" frameX="-30" frameY="-113" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaleft0001" x="401" y="2094" width="400" height="402" frameX="-29" frameY="-112" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaleft0002" x="0" y="2094" width="401" height="402" frameX="-28" frameY="-112" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaleft0003" x="1200" y="2094" width="399" height="402" frameX="-28" frameY="-112" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaleft0004" x="801" y="2094" width="399" height="402" frameX="-28" frameY="-112" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaleft0005" x="2557" y="0" width="398" height="402" frameX="-29" frameY="-112" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaleft0006" x="1599" y="2094" width="399" height="401" frameX="-30" frameY="-113" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaright0000" x="1309" y="834" width="429" height="406" frameX="-79" frameY="-108" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaright0001" x="433" y="858" width="429" height="406" frameX="-79" frameY="-108" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaright0002" x="862" y="858" width="427" height="406" frameX="-80" frameY="-108" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaright0003" x="852" y="1284" width="425" height="407" frameX="-81" frameY="-107" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaright0004" x="0" y="1284" width="426" height="408" frameX="-81" frameY="-106" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaright0005" x="426" y="1284" width="426" height="407" frameX="-81" frameY="-107" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaright0006" x="1309" y="427" width="428" height="407" frameX="-80" frameY="-107" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaup0000" x="874" y="427" width="434" height="426" frameX="-53" frameY="-88" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaup0001" x="0" y="858" width="433" height="426" frameX="-52" frameY="-88" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaup0002" x="1309" y="0" width="431" height="427" frameX="-52" frameY="-87" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaup0003" x="436" y="429" width="434" height="428" frameX="-52" frameY="-86" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaup0004" x="0" y="0" width="437" height="429" frameX="-52" frameY="-85" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaup0005" x="437" y="0" width="437" height="429" frameX="-52" frameY="-85" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaup0006" x="0" y="429" width="436" height="429" frameX="-53" frameY="-85" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="runaup0007" x="874" y="0" width="435" height="427" frameX="-53" frameY="-87" frameWidth="512" frameHeight="512"/>
+</TextureAtlas>

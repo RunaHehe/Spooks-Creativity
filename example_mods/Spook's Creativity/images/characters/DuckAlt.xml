@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DuckAlt.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="duckdown0000" x="3011" y="2255" width="380" height="375" frameX="-35" frameY="-69" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckdown0001" x="3011" y="1503" width="382" height="376" frameX="-32" frameY="-69" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckdown0002" x="3011" y="752" width="387" height="376" frameX="-28" frameY="-69" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckdown0003" x="3011" y="0" width="390" height="376" frameX="-25" frameY="-70" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckdown0004" x="1174" y="2576" width="392" height="375" frameX="-25" frameY="-71" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckdown0005" x="3011" y="376" width="390" height="376" frameX="-28" frameY="-70" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckdown0006" x="3011" y="1128" width="386" height="375" frameX="-32" frameY="-70" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckdown0007" x="3011" y="1879" width="382" height="376" frameX="-34" frameY="-69" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0000" x="0" y="2140" width="402" height="436" frameX="-25" frameY="-35" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0001" x="2229" y="1310" width="403" height="436" frameX="-25" frameY="-35" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0002" x="2229" y="437" width="405" height="436" frameX="-25" frameY="-35" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0003" x="414" y="1706" width="410" height="434" frameX="-24" frameY="-36" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0004" x="0" y="1706" width="414" height="434" frameX="-22" frameY="-36" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0005" x="1811" y="438" width="418" height="433" frameX="-19" frameY="-37" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0006" x="1267" y="1269" width="422" height="433" frameX="-15" frameY="-37" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0007" x="844" y="1269" width="423" height="435" frameX="-13" frameY="-36" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0008" x="1387" y="0" width="424" height="436" frameX="-11" frameY="-35" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0009" x="0" y="1269" width="422" height="437" frameX="-11" frameY="-34" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0010" x="1387" y="436" width="423" height="437" frameX="-9" frameY="-34" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0011" x="422" y="1269" width="422" height="437" frameX="-9" frameY="-34" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0012" x="1811" y="0" width="418" height="438" frameX="-11" frameY="-33" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0013" x="1811" y="871" width="413" height="438" frameX="-14" frameY="-33" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0014" x="2229" y="0" width="406" height="437" frameX="-19" frameY="-34" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckidle0015" x="2229" y="873" width="403" height="437" frameX="-23" frameY="-34" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckleft0000" x="2635" y="0" width="376" height="426" frameX="-34" frameY="-38" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckleft0001" x="1158" y="2140" width="378" height="424" frameX="-31" frameY="-40" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckleft0002" x="1586" y="1706" width="380" height="422" frameX="-27" frameY="-42" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckleft0003" x="885" y="846" width="382" height="422" frameX="-24" frameY="-41" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckleft0004" x="1204" y="1706" width="382" height="424" frameX="-24" frameY="-39" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckleft0005" x="824" y="1706" width="380" height="427" frameX="-28" frameY="-36" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckleft0006" x="402" y="2140" width="379" height="428" frameX="-31" frameY="-35" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckleft0007" x="781" y="2140" width="377" height="427" frameX="-33" frameY="-36" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckright0000" x="935" y="0" width="452" height="423" frameX="-28" frameY="-49" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckright0001" x="0" y="423" width="459" height="423" frameX="-24" frameY="-49" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckright0002" x="0" y="0" width="468" height="423" frameX="-21" frameY="-49" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckright0003" x="468" y="0" width="467" height="423" frameX="-27" frameY="-49" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckright0004" x="459" y="423" width="458" height="423" frameX="-37" frameY="-49" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckright0005" x="935" y="423" width="447" height="423" frameX="-44" frameY="-49" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckright0006" x="445" y="846" width="440" height="423" frameX="-46" frameY="-49" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckright0007" x="0" y="846" width="445" height="423" frameX="-36" frameY="-49" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckup0000" x="1387" y="873" width="390" height="395" frameX="-75" frameY="-67" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckup0001" x="1536" y="2140" width="389" height="394" frameX="-74" frameY="-68" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckup0002" x="1925" y="2140" width="390" height="391" frameX="-72" frameY="-71" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckup0003" x="0" y="2576" width="391" height="388" frameX="-72" frameY="-74" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckup0004" x="782" y="2576" width="392" height="386" frameX="-73" frameY="-76" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckup0005" x="391" y="2576" width="391" height="388" frameX="-76" frameY="-74" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckup0006" x="2229" y="1746" width="391" height="392" frameX="-77" frameY="-70" frameWidth="512" frameHeight="512"/>
+	<SubTexture name="duckup0007" x="1811" y="1309" width="390" height="395" frameX="-76" frameY="-67" frameWidth="512" frameHeight="512"/>
+</TextureAtlas>

@@ -123,10 +123,13 @@ function onCreatePost()
     opponentTyping = isIdentityCrisis and "(You are typing..?)" or opponentTyping
     opponentCaps = false
 
+    
+
     local isNoteNova = songName:lower() == "note-nova"
     local isConfrontation = songName:lower() == "confrontation"
     local isModerator = songName:lower() == "moderator"
     local isDepression = songName:lower() == "depression"
+    local isDAX = songName:lower() == "discord-annoyer" and HardMode
 
     if isConfrontation then
         opponentTyping = isConfrontation and "(Vision is typing...)" or opponentTyping
@@ -138,16 +141,21 @@ function onCreatePost()
         opponentCaps = false
     end
 
+    if isDAX then
+        opponentTyping = isDAX and "(Annoying User is typing...)" or opponentTyping
+        opponentCaps = false
+    end
+
     --characters!!!!! 
 
     local xx = 320
     local tw = 505
     makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
-    makeText({tag = "opponentName", text = (isShutUp and "Andro" or "Spook"), x = xx, y = 100, cam = "camBDiscord", color = (isShutUp and "00FF3B" or "9C02D6")})
+    makeText({tag = "opponentName", text = (isShutUp and "Andro" or "Spook"), x = xx, y = 100, cam = "camBDiscord", color = (isShutUp and "0dce3a" or "9C02D6")})
     makeSpr({tag = "opponent", image = profiles..(isShutUp and "andro" or "runa"), x = xx, y = 100, cam = "camBDiscord", xSize = (isShutUp and 0.625 or 0.625)})
 
     makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
-    makeText({tag = "playerName", text = "Vision", cam = "camBDiscord", width = tw, color = "00FF3B"})
+    makeText({tag = "playerName", text = "Vision", cam = "camBDiscord", width = tw, color = "0dce3a"})
     makeSpr({tag = "player", image = profiles.."vision", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
     if isNoteNova then
@@ -156,7 +164,20 @@ function onCreatePost()
         makeSpr({tag = "opponent", image = profiles.."annoyer", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
-        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "00FF3B"})
+        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "69ff6a"})
+        makeSpr({tag = "player", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+
+        setGraphicSize("opponent", 649 * 0.625, 146 * 0.625)
+        setGraphicSize("player", 649 * 0.625, 146 * 0.625)
+    end
+
+    if isDAX then
+        makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
+        makeText({tag = "opponentName", text = "Annoying User", cam = "camBDiscord", width = tw, color = "0dce3a"})
+        makeSpr({tag = "opponent", image = profiles.."aacannoyer", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+
+        makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
+        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "69ff6a"})
         makeSpr({tag = "player", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         setGraphicSize("opponent", 649 * 0.625, 146 * 0.625)
@@ -172,9 +193,9 @@ function onCreatePost()
     end
     if isIdentityCrisis then
         makeText({tag = "opponentName", text = "An ???", cam = "camBDiscord", width = tw, color = "000000"})
-        makeSpr({tag = "opponent", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+        makeSpr({tag = "opponent", image = profiles.."offline/who", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
-        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "00FF3B"})
+        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "69ff6a"})
         makeSpr({tag = "player", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
     end
 
