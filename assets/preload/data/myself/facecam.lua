@@ -18,6 +18,8 @@ function onCreatePost()
         game.grpNoteSplashes.cameras = [camNotes, camNotesFake];
         game.grpNoteHoldSplashes.cameras = [camNotes, camNotesFake];
 
+        game.playfieldRenderer.cameras = [camNotes, camNotesFake];
+
 
         FlxG.cameras.remove(game.camOther, false);
         FlxG.cameras.remove(game.camHUD, false);

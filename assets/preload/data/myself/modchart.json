@@ -1,0 +1,34 @@
+{
+    "modifiers": [
+        [
+            "opSwap",
+            "swapPlayfield",
+            "",
+            -1,
+            -1
+        ],
+        [
+            "oppWig",
+            "wiggle",
+            "opponent",
+            -1,
+            -1
+        ],
+        [
+            "plrWig",
+            "wiggle",
+            "player",
+            -1,
+            -1
+        ],
+        [
+            "wiggle",
+            "wiggle",
+            "",
+            -1,
+            -1
+        ]
+    ],
+    "events": [],
+    "playfields": 1
+}
