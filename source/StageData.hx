@@ -52,6 +52,7 @@ class StageData {
 		}
 		trace("STAGE " + forceNextDirectory);
 	}
+	// fuck you
 
 	public static function getStageFile(stage:String):StageFile {
 		var rawJson:String = null;

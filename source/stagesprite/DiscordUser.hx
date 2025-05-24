@@ -141,6 +141,7 @@ class DiscordUser extends FlxSprite {
         setGraphicSize(Std.int(649*0.625), Std.int(146*0.625));
         updateHitbox();
     }
+    // is this even used
 
     private function isSameStrumTime(note:Note):Bool {
         if (lastNotes.length <= 0) return false;

@@ -32,6 +32,7 @@ class FlashingState extends MusicBeatState
 			Enjoy the mod!\n
 			And dont try to cheat 3:<",
 			32);
+			//did you know that you're gay
 		warnText.setFormat(Paths.font("Phantomuff/aPhantomMuff Full Letters.ttf"), 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter();
 		warnText.x += 10;

@@ -362,6 +362,7 @@ class ClientPrefs {
 
 
 		var save:FlxSave = new FlxSave();
+		// i hate your save data *corrupts it*
 		save.bind('controls_v2', 'ninjamuffin99/Spook');
 		if(save != null && save.data.customControls != null) {
 			var loadedControls:Map<String, Array<FlxKey>> = save.data.customControls;
@@ -375,6 +376,7 @@ class ClientPrefs {
 	inline public static function getGameplaySetting(name:String, defaultValue:Dynamic):Dynamic {
 		if (PlayState.isStoryMode) return defaultValue;
 		return /*PlayState.isStoryMode ? defaultValue : */ (gameplaySettings.exists(name) ? gameplaySettings.get(name) : defaultValue);
+		//what the fuck is this even for
 	}
 
 	public static function reloadControls() {

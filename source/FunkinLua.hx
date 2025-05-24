@@ -126,6 +126,9 @@ class FunkinLua {
 		set('CuteMode', ClientPrefs.cute);
 		set('SpecialNotesOption', ClientPrefs.specialNotes);
 		set('SourceCodeVer', true);
+		//what does sourcecodever even do ammar
+		//it source codes
+		//what
 		//flashingLights
 
 		set('Mechanic', ClientPrefs.getGameplaySetting('mechanics', true));

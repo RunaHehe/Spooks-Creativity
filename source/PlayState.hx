@@ -534,6 +534,7 @@ class PlayState extends MusicBeatState
 					curStage = 'stage';
 			}
 		}
+		// dont forget the stage dumbass
 		SONG.stage = curStage;
 
 		var stageData:StageFile = StageData.getStageFile(curStage);

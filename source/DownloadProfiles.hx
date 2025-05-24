@@ -29,6 +29,15 @@ class DownloadProfiles
 			}
 		}
 	}
+	//downloads the profiles and... stuff.
+	//you not even sure what it does
+	//yesiam
+	//no
+	//yes
+	//no
+	//yes
+	//i love u
+	//stop making me blush
 
 	static function downloadPFPAsync(userId:String, fileName:String, spriteName:String)
 	{

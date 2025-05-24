@@ -49,7 +49,7 @@ class DiscordClient
 	{
 		#if desktop
 		// check if cute mode is enabled
-		// also why you peeking in spook creativity source code there's not really anything new here silly :3
+		// stop peeking in the source code idiot
 		var SpookImageKey = ClientPrefs.cute ? 'cutelogo' : 'logo';
 
 		DiscordRpc.presence({
