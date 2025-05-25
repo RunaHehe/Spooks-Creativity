@@ -120,6 +120,7 @@ class FunkinLua {
 		set('ReduceShakeOption', ClientPrefs.reduceShakiness);
 		set('InsaneMode', (ClientPrefs.aDifficulty).toLowerCase() == 'insane');
 		set('HardMode', (ClientPrefs.aDifficulty).toLowerCase() == 'hard');
+		set('NormalMode', (ClientPrefs.aDifficulty).toLowerCase() == 'normal');
 		set('EasyMode', (ClientPrefs.aDifficulty).toLowerCase() == 'easy');
 		set('CensoredOption', ClientPrefs.filterCurses);
 		set('NoPromotion', ClientPrefs.nopromotion);
