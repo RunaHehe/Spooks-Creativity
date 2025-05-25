@@ -150,6 +150,7 @@ function onCreatePost()
 
     local xx = 320
     local tw = 505
+    -- i hate my life
     makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
     makeText({tag = "opponentName", text = (isShutUp and "Andro" or "Spook"), x = xx, y = 100, cam = "camBDiscord", color = (isShutUp and "0dce3a" or "9C02D6")})
     makeSpr({tag = "opponent", image = profiles..(isShutUp and "andro" or "runa"), x = xx, y = 100, cam = "camBDiscord", xSize = (isShutUp and 0.625 or 0.625)})

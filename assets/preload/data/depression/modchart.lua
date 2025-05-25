@@ -34,6 +34,7 @@ function setupMods()
     startMod("plrSudden", "SuddenModifier", "player", -1)
     startMod("plrFlip", "FlipModifier", "player", -1)
     startMod("plrInc", "IncomingAngleModifier", "player", -1)
+    startMod("plrDrunkX", "DrunkXModifier", "player", -1)
     -- opponent
     startMod("opInv", "InvertModifier", "opponent", -1)
     startMod("opStealth", "StealthModifier", "opponent", -1)
@@ -49,6 +50,7 @@ function setupMods()
     startMod("opZ", "ZModifier", "opponent", -1)
     startMod("opSudden", "SuddenModifier", "opponent", -1)
     startMod("opRe", "ReverseModifier", "opponent", -1)
+    startMod("opDrunkX", "DrunkXModifier", "opponent", -1)
     -- both
     startMod("re", "ReverseModifier", "", -1)
     startMod("invSine", "InvertSineModifier")
@@ -414,9 +416,12 @@ function setupEvents()
     ]])
 
     set(480, [[
-        0.5, tipsy,
-        1, drunkX,
-        4, drunkX:speed
+        0.5, plrTipsyY,
+        0.5, optipsy,
+        1, plrDrunkX,
+        4, plrDrunkX:speed
+        1, opDrunkX,
+        4, opDrunkX:speed
     ]])
 
     ease(484, 1, "circOut", "-360, opAngle4")
@@ -432,8 +437,10 @@ function setupEvents()
     set(512, [[
         0.3, plrTipsyY,
         0.3, opTipsyY,
-        1, drunkX,
-        8, drunkX:speed,
+        1, plrDrunkX,
+        8, plrDrunkX:speed,
+        1, opDrunkX,
+        8, opDrunkX:speed,
     ]])
     --kms -runa
     for beat = 0, (4 * 16) - 1 do
@@ -474,6 +481,7 @@ function setupEvents()
 
     set(576, [[
         0, plrTipsyY,
+        0, plrDrunkX
         0, plrAngle4,
         0, plrAngle3,
         0, plrAngle2,
@@ -500,6 +508,7 @@ function setupEvents()
 
     set(608, [[
         0, opTipsyY,
+        0, opDrunkX
         0, opAngle4,
         0, opAngle3,
         0, opAngle2,

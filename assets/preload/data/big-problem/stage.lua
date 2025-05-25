@@ -384,7 +384,7 @@ function onCreatePost()
     end
 
     setProperty('dadGroup.y', getProperty('dadGroup.y') - 80)
-    setProperty('boyfriendGroup.y', getProperty('boyfriendGroup.y') - -10)
+    setProperty('boyfriendGroup.y', getProperty('boyfriendGroup.y') - -175)
 
     --HUD IN GAME NO WAY
     local hpStuff = {'healthBar', 'healthBarBG', 'healthBarOverlay', 'iconP1', 'iconP2'}

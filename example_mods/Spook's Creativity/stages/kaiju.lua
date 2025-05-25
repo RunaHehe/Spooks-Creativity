@@ -50,7 +50,7 @@ furryGasMode = false
 shaderEnable = true
 function onCreate()
 	luaDebugMode = true
-	setProperty("cpuControlled", true)
+	setProperty("cpuControlled", false)
 end
 
 function onCreatePost()
