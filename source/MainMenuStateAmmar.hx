@@ -305,7 +305,7 @@ class MainMenuStateAmmar extends MusicBeatState
                     optionsList.remove(optionsList[i]);
             }
         }
-        if (FlxG.save.data.prevVersion != '4.2') { //reset scores for some song LOL 
+        if (FlxG.save.data.prevVersion != '1') { //reset scores for some song LOL 
             //Highscore.resetSong('Myself', 2);
             trace('Old Version detected');
             //FlxG.save.data.prevVersion = '4.2';

@@ -82,7 +82,7 @@ class ClientPrefs {
 	public static var hideunused:Bool = false;
 
 	public static var progress:Float = 0;
-	public static var prevVersion:String = '';
+	public static var prevVersion:String = '1';
 	//
 
 	//Every key has two binds, add your key bind down here and then add your control on options/ControlsSubState.hx and Controls.hx

@@ -83,7 +83,7 @@ class TitleState extends MusicBeatState
 
 	var curWacky:Array<String> = [];
 
-	public static var updateVersion:String = '';
+	public static var updateVersion:String = '1';
 
 	public static var didStartDownload:Bool = false;
 
@@ -729,7 +729,9 @@ class TitleState extends MusicBeatState
 	var songsToCache:Array<String> = [
 		'discord-annoyer', 'shut-up', 'depression', 'moderator',
 		'hate-comment', 'twitter-argument', 'google', 'big-problem',
-		'no-debug', 'myself'
+		'no-debug', 'myself',
+		'furry-appeared', 'protogen',
+		'programmning-an-ammar', 'identity-crisis', 'note-nova'
 	];
 	function cacheSongs():Void 
 	{
