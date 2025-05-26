@@ -1,7 +1,5 @@
 function onCreatePost()
-    setProperty('cpuControlled', false)
-    setPropertyFromClass('ClientPrefs', 'framerate', 15)
-    setPropertyFromClass('PlayState', 'framerate', 15)
+    setProperty("cpuControlled", true)
     setupMods()
 
     if downscroll then
@@ -37,7 +35,6 @@ function setupMods()
     startMod("plrFlip", "FlipModifier", "player", -1)
     startMod("plrInc", "IncomingAngleModifier", "player", -1)
     startMod("plrDrunkX", "DrunkXModifier", "player", -1)
-    startMod("plrWiggle", "WiggleModifier", "player", -1)
     -- opponent
     startMod("opInv", "InvertModifier", "opponent", -1)
     startMod("opStealth", "StealthModifier", "opponent", -1)
@@ -54,7 +51,6 @@ function setupMods()
     startMod("opSudden", "SuddenModifier", "opponent", -1)
     startMod("opRe", "ReverseModifier", "opponent", -1)
     startMod("opDrunkX", "DrunkXModifier", "opponent", -1)
-    startMod("opWiggle", "WiggleModifier", "opponent", -1)
     -- both
     startMod("re", "ReverseModifier", "", -1)
     startMod("invSine", "InvertSineModifier")
@@ -70,7 +66,6 @@ function setupMods()
     startMod("invert", "InvertModifier", "", -1)
     startMod("drunkX", "DrunkXModifier", "", -1)
     startMod("rot", "RotateModifier", "", -1)
-    startMod("wiggle", "WiggleModifier", "", -1)
 end
 
 local angle = 0
@@ -422,9 +417,9 @@ function setupEvents()
 
     set(480, [[
         0.5, plrTipsyY,
-        0.5, optipsy,
+        0.5, opTipsyY,
         1, plrDrunkX,
-        4, plrDrunkX:speed
+        4, plrDrunkX:speed,
         1, opDrunkX,
         4, opDrunkX:speed
     ]])
@@ -445,7 +440,7 @@ function setupEvents()
         1, plrDrunkX,
         8, plrDrunkX:speed,
         1, opDrunkX,
-        8, opDrunkX:speed,
+        8, opDrunkX:speed
     ]])
     --kms -runa
     for beat = 0, (4 * 16) - 1 do
@@ -521,6 +516,8 @@ function setupEvents()
         0.3, plrTipsyY
     ]])
 
+
+    ease(524, 1, "circOut", "30, rot:x")
     ease(526, 1, "circOut", "-30, rot:x")
     ease(528, 1, "circOut", "0, rot:x")
     ease(531, 1, "circOut", "30, rot:x, 10, wiggle")
