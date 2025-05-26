@@ -1925,7 +1925,7 @@ class MainMenuStateAmmar extends MusicBeatState
     function changeDiff(amount:Int = 0):Void
     {
         diffSelect += amount;
-        diffSelect = FlxMath.wrap(diffSelect, 0, 2);
+        diffSelect = FlxMath.wrap(diffSelect, 0, 3);
        // if (!checkSongFinish(menuItems.members[curSelected].extraData.get("song"), 2) && diffSelect >= 3) diffSelect = 0; 
         //if (!checkSongFinish(menuItems.members[curSelected].extraData.get("song"), 2) && diffSelect < 0) diffSelect = 2; 
 
