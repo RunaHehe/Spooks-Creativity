@@ -1,5 +1,7 @@
 function onCreatePost()
-    setProperty('cpuControlled', true)
+    setProperty('cpuControlled', false)
+    setPropertyFromClass('ClientPrefs', 'framerate', 15)
+    setPropertyFromClass('PlayState', 'framerate', 15)
     setupMods()
 
     if downscroll then
@@ -35,6 +37,7 @@ function setupMods()
     startMod("plrFlip", "FlipModifier", "player", -1)
     startMod("plrInc", "IncomingAngleModifier", "player", -1)
     startMod("plrDrunkX", "DrunkXModifier", "player", -1)
+    startMod("plrWiggle", "WiggleModifier", "player", -1)
     -- opponent
     startMod("opInv", "InvertModifier", "opponent", -1)
     startMod("opStealth", "StealthModifier", "opponent", -1)
@@ -51,6 +54,7 @@ function setupMods()
     startMod("opSudden", "SuddenModifier", "opponent", -1)
     startMod("opRe", "ReverseModifier", "opponent", -1)
     startMod("opDrunkX", "DrunkXModifier", "opponent", -1)
+    startMod("opWiggle", "WiggleModifier", "opponent", -1)
     -- both
     startMod("re", "ReverseModifier", "", -1)
     startMod("invSine", "InvertSineModifier")
@@ -66,6 +70,7 @@ function setupMods()
     startMod("invert", "InvertModifier", "", -1)
     startMod("drunkX", "DrunkXModifier", "", -1)
     startMod("rot", "RotateModifier", "", -1)
+    startMod("wiggle", "WiggleModifier", "", -1)
 end
 
 local angle = 0
@@ -603,7 +608,7 @@ function onUpdate(elapsed)
         end
         setMod("plrX", 2 * moveXOff)
         setMod("opX", 2 * -moveXOff)
-        if not EasyMode and not HardMode then
+        if NormalMode then
             setMod("plrStrumAngle", incAngle)
             setMod("opStrumAngle", -incAngle)
             setMod("wiggle", wiggle)

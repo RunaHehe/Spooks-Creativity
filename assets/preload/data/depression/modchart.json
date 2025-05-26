@@ -1,13 +1,6 @@
 {
     "modifiers": [
         [
-            "wiggle",
-            "wiggle",
-            "",
-            -1,
-            -1
-        ],
-        [
             "center",
             "centerMod",
             "",
@@ -18,20 +11,6 @@
             "opSwap",
             "swapPlayfield",
             "",
-            -1,
-            -1
-        ],
-        [
-            "opWiggle",
-            "wiggle",
-            "opponent",
-            -1,
-            -1
-        ],
-        [
-            "plrWiggle",
-            "wiggle",
-            "player",
             -1,
             -1
         ],
