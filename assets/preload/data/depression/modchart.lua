@@ -481,7 +481,7 @@ function setupEvents()
 
     set(576, [[
         0, plrTipsyY,
-        0, plrDrunkX
+        0, plrDrunkX,
         0, plrAngle4,
         0, plrAngle3,
         0, plrAngle2,
@@ -508,7 +508,7 @@ function setupEvents()
 
     set(608, [[
         0, opTipsyY,
-        0, opDrunkX
+        0, opDrunkX,
         0, opAngle4,
         0, opAngle3,
         0, opAngle2,
@@ -557,8 +557,10 @@ function setupEvents()
     set(640, [[
         0, plrTipsyY,
         0, opTipsyY,
-        0, drunkX,
-        0, drunkX:speed,
+        0, plrDrunkX,
+        0, plrDrunkX:speed,
+        0, opDrunkX,
+        0, opDrunkX:speed,
         0, opAngle4,
         0, opAngle3,
         0, opAngle2,
