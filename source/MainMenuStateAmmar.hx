@@ -147,28 +147,28 @@ class MainMenuStateAmmar extends MusicBeatState
         ['song' => 'Note Nova'    ,'icon' => ""            , 'week' => "Ammar Showdown" , 'unlocked' => ['Programming An Ammar', 'Identity Crisis', 'Note Nova'], 'hidden' => true]
     ];
     var songsDifficulty:Map<String, Array<Int>> = [
-        'Discord Annoyer'    => [1, 2, 2],
-        'Shut Up'            => [3, 4, 7],
-        'Moderator'         => [4, 5, 6],
-        'Depression'         => [6, 9, 11],
+        'Discord Annoyer'    => [1, 2, 2, 2],
+        'Shut Up'            => [3, 4, 7, 7],
+        'Moderator'         => [4, 5, 6, 8],
+        'Depression'         => [6, 9, 10, 11],
 
-        'Hate Comment'       => [7, 8, 8],
-        'Twitter Argument'   => [7, 9, 10],
-        'Google'             => [5, 6, 6],
-        'Big Problem'        => [7, 8, 8],
+        'Hate Comment'       => [7, 8, 8, 11],
+        'Twitter Argument'   => [7, 9, 10, 11],
+        'Google'             => [5, 6, 6, 6],
+        'Big Problem'        => [7, 8, 8, 10],
 
-        'No Debug'           => [4, 6, 6],
-        'Myself'             => [8, 9, 10],
+        'No Debug'           => [4, 6, 6, 8],
+        'Myself'             => [8, 9, 10, 10],
 
-        'Furry Appeared'     => [2, 3, 4],
-        'Protogen'           => [8, 9, 10],
-        'Kaiju Paradise'     => [6, 8, 11],
+        'Furry Appeared'     => [2, 3, 4, 5],
+        'Protogen'           => [8, 9, 10, 11],
+        'Kaiju Paradise'     => [6, 8, 11], // not editing kaiju rn since its being removed for release
 
-        'Furry Femboy'       => [7, 8, 8],
+        'Furry Femboy'       => [7, 8, 8, 8],
 
-        'Programming An Ammar'       => [5, 7, 9],
-        'Identity Crisis'       => [5, 7, 9],
-        'Note Nova'       => [3, 5, 6],
+        'Programming An Ammar'       => [5, 7, 9, 9],
+        'Identity Crisis'       => [5, 7, 9, 9],
+        'Note Nova'       => [3, 5, 6, 6],
 
     ];
 
