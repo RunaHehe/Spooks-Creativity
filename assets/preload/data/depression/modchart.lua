@@ -35,6 +35,7 @@ function setupMods()
     startMod("plrFlip", "FlipModifier", "player", -1)
     startMod("plrInc", "IncomingAngleModifier", "player", -1)
     startMod("plrDrunkX", "DrunkXModifier", "player", -1)
+    startMod("plrAngle", "ConfusionModifier", "player", -1)
     -- opponent
     startMod("opInv", "InvertModifier", "opponent", -1)
     startMod("opStealth", "StealthModifier", "opponent", -1)
@@ -51,6 +52,7 @@ function setupMods()
     startMod("opSudden", "SuddenModifier", "opponent", -1)
     startMod("opRe", "ReverseModifier", "opponent", -1)
     startMod("opDrunkX", "DrunkXModifier", "opponent", -1)
+    startMod("opAngle", "ConfusionModifier", "opponent", -1)
     -- both
     startMod("re", "ReverseModifier", "", -1)
     startMod("invSine", "InvertSineModifier")
@@ -66,6 +68,7 @@ function setupMods()
     startMod("invert", "InvertModifier", "", -1)
     startMod("drunkX", "DrunkXModifier", "", -1)
     startMod("rot", "RotateModifier", "", -1)
+    startMod("localRot", "StrumLineRotateModifier", "", -1)
 end
 
 local angle = 0
@@ -221,23 +224,16 @@ function setupEvents()
         ease(time + 0.5, 0.5, "quadin", "0.05, re")
     end
 
-    local beatWiggle = function(beat)
-        set(beat, "-200, x, -4, wiggle,")
-        if not EasyMode or isStoryMode then
-            set(beat, "4, tipsy, 4, drunk, 0.3, re")
+    local beatWiggle = function(beat, left)
+        if left == nil then
+            left = true
         end
 
-        ease(beat, 2, "circOut", [[
-            0, x,
-            0, wiggle,
-            0, tipsy,
-            0, drunk,
-            0, re
-        ]])
-    end
-
-    local beatWiggle2 = function(beat)
-        set(beat, "200, x, 4, wiggle,")
+        if left then
+            set(beat, "-200, x, -4, wiggle,")
+        else
+            set(beat, "200, x, 4, wiggle,")
+        end
         if not EasyMode or isStoryMode then
             set(beat, "4, tipsy, 4, drunk, 0.3, re")
         end
@@ -253,15 +249,15 @@ function setupEvents()
 
     beatWiggle(224)
     beatWiggle(225.5)
-    beatWiggle2(227.25)
-    beatWiggle2(232)
+    beatWiggle(227.25, false)
+    beatWiggle(232, false)
     beatWiggle(233.75)
     beatWiggle(235)
-    beatWiggle2(240)
+    beatWiggle(240, false)
     beatWiggle(241.5)
-    beatWiggle2(243)
+    beatWiggle(243, false)
     beatWiggle(248)
-    beatWiggle2(249.75)
+    beatWiggle(249.75, false)
     beatWiggle(251)
 
     set(256, "0, opStealth, 0, opSwap")
@@ -433,101 +429,86 @@ function setupEvents()
         ease(492, 4, "quartOut", "0, opAngle"..i)
     end
 
-    ease(524, 1, "circOut", "30, rot:x")
     set(512, [[
         0.3, plrTipsyY,
         0.3, opTipsyY,
-        1, plrDrunkX,
-        8, plrDrunkX:speed,
-        1, opDrunkX,
-        8, opDrunkX:speed
+        0, plrDrunkX,
+        0, opDrunkX,
     ]])
     --kms -runa
+    --smaller by VideoBot
     for beat = 0, (4 * 16) - 1 do
         local time = 512 + beat
 
         if beat % 2 == 0 then
-            ease(time, 1, "quadOut", "-25, opAngle4, -25, plrAngle4")
-            ease(time, 1, "quadOut", "-25, opAngle3, -25, plrAngle3")
-            ease(time, 1, "quadOut", "-25, opAngle2, -25, plrAngle2")
-            ease(time, 1, "quadOut", "-25, opAngle1, -25, plrAngle1")
+            ease(time, 1, "quadOut", "-25, opLaneAngle, -25, plrLaneAngle")
         end
 
         if beat % 2 == 1 then
-            ease(time, 1, "quadOut", "25, opAngle4, 25, plrAngle4")
-            ease(time, 1, "quadOut", "25, opAngle3, 25, plrAngle3")
-            ease(time, 1, "quadOut", "25, opAngle2, 25, plrAngle2")
-            ease(time, 1, "quadOut", "25, opAngle1, 25, plrAngle1")
+            ease(time, 1, "quadOut", "25, opLaneAngle, 25, plrLaneAngle")
         end
+    end
+
+    --bumpy script -VideoBot
+    for beat = 0, (4 * 16) - 1 do
+        local time = 512 + beat
+        local inten = (beat % 2 == 0 and 1 or -1)
+        if not EasyMode or isStoryMode then
+            ease(time, 1, "linear", "" .. 50 * inten .. ", x")
+        end
+        ease(time, 0.5, "quadOut", "-0.05, re")
+        ease(time + 0.5, 0.5, "quadin", "0.05, re")
     end
 
     for beat = 0, (4 * 8) - 1 do
         local time = 576 + beat
 
         if beat % 2 == 0 then
-            ease(time, 1, "quadOut", "-25, opAngle4")
-            ease(time, 1, "quadOut", "-25, opAngle3")
-            ease(time, 1, "quadOut", "-25, opAngle2")
-            ease(time, 1, "quadOut", "-25, opAngle1")
+            ease(time, 1, "quadOut", "-25, opLaneAngle")
         end
 
         if beat % 2 == 1 then
-            ease(time, 1, "quadOut", "25, opAngle4")
-            ease(time, 1, "quadOut", "25, opAngle3")
-            ease(time, 1, "quadOut", "25, opAngle2")
-            ease(time, 1, "quadOut", "25, opAngle1")
+            ease(time, 1, "quadOut", "25, opLaneAngle")
         end
     end
 
     set(576, [[
         0, plrTipsyY,
         0, plrDrunkX,
-        0, plrAngle4,
-        0, plrAngle3,
-        0, plrAngle2,
-        0, plrAngle1,
+        0, plrLaneAngle
     ]])
+
+    ease(576, 1, "expoOut", "0, re, 0, x")
 
     for beat = 0, (4 * 8) - 1 do
         local time = 608 + beat
+        local inten = (beat % 2 == 0 and 1 or -1)
 
         if beat % 2 == 0 then
-            ease(time, 1, "quadOut", "-25, plrAngle4")
-            ease(time, 1, "quadOut", "-25, plrAngle3")
-            ease(time, 1, "quadOut", "-25, plrAngle2")
-            ease(time, 1, "quadOut", "-25, plrAngle1")
+            ease(time, 1, "quadOut", "-25, plrLaneAngle")
         end
 
         if beat % 2 == 1 then
-            ease(time, 1, "quadOut", "25, plrAngle4")
-            ease(time, 1, "quadOut", "25, plrAngle3")
-            ease(time, 1, "quadOut", "25, plrAngle2")
-            ease(time, 1, "quadOut", "25, plrAngle1")
+            ease(time, 1, "quadOut", "25, plrLaneAngle")
+        end
+
+        if HardMode or isStoryMode then
+            ease(time, 1, "linear", "" .. 50 * inten .. ", plrX")
         end
     end
 
-    set(608, [[
-        0, opTipsyY,
-        0, opDrunkX,
-        0, opAngle4,
-        0, opAngle3,
-        0, opAngle2,
-        0, opAngle1,
-        0.3, plrTipsyY
-    ]])
 
+    ease(524, 1, "circOut", "60, localRot:x")
+    ease(526, 1, "circOut", "-60, localRot:x")
+    ease(528, 1, "circOut", "0, localRot:x")
+    ease(531, 1, "circOut", "60, localRot:x, 10, wiggle")
+    ease(532, 1, "circOut", "0, localRot:x, 0, wiggle")
 
-    ease(524, 1, "circOut", "30, rot:x")
-    ease(526, 1, "circOut", "-30, rot:x")
-    ease(528, 1, "circOut", "0, rot:x")
-    ease(531, 1, "circOut", "30, rot:x, 10, wiggle")
-    ease(532, 1, "circOut", "0, rot:x, 0, wiggle")
-
-    ease(556, 1, "circOut", "-30, rot:x")
-    ease(558, 1, "circOut", "30, rot:x")
-    ease(560, 1, "circOut", "0, rot:x")
-    ease(563, 1, "circOut", "-30, rot:x, -10, wiggle")
-    ease(564, 1, "circOut", "0, rot:x, 0, wiggle")
+    ease(556, 1, "circOut", "-60, localRot:x")
+    ease(558, 1, "circOut", "60, localRot:x")
+    ease(560, 1, "circOut", "0, localRot:x")
+    ease(563, 1, "circOut", "-60, localRot:x, -10, wiggle")
+    ease(564, 1, "circOut", "0, localRot:x, 0, wiggle")
     
     ease(576, 2, "quartOut", "1, plrSpiral, 1, plrCenter, 0.5, plrFlip, -320, plrX, -300, plrZ")
 
@@ -542,6 +523,11 @@ function setupEvents()
         0, plrX,
         0, plrZ
     ]])
+    set(608, [[
+        0, opTipsyY,
+        0, opDrunkX,
+        0, opLaneAngle
+    ]])
     ease(608, 2, "circOut", [[
         1, opCenter,
         0.5, opFlip,
@@ -555,23 +541,11 @@ function setupEvents()
     ]])
 
     set(640, [[
-        0, plrTipsyY,
-        0, opTipsyY,
-        0, plrDrunkX,
-        0, plrDrunkX:speed,
-        0, opDrunkX,
-        0, opDrunkX:speed,
-        0, opAngle4,
-        0, opAngle3,
-        0, opAngle2,
-        0, opAngle1,
-        0, plrAngle4,
-        0, plrAngle3,
-        0, plrAngle2,
-        0, plrAngle1
+        0, opLaneAngle,
+        0, plrLaneAngle
     ]])
 
-    set(640, "0.5, opSwap, 1, opRe")
+    set(640, "0.5, opSwap, 1, opRe, 0, plrX")
     set(641.5, "0, opRe, 1, plrReverse")
     set(643, "1, opRe, 0, plrReverse")
     ease(644, 4, "quartOut", [[

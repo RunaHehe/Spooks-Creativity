@@ -57,13 +57,6 @@
             -1
         ],
         [
-            "wavey",
-            "wavey",
-            "opponent",
-            -1,
-            -1
-        ],
-        [
             "opInc1",
             "IncomingAngleModifier",
             "lane",
@@ -185,6 +178,20 @@
         [
             "plrCenter",
             "centerMod",
+            "player",
+            -1,
+            -1
+        ],
+        [
+            "opLaneAngle",
+            "angleLane",
+            "opponent",
+            -1,
+            -1
+        ],
+        [
+            "plrLaneAngle",
+            "angleLane",
             "player",
             -1,
             -1
