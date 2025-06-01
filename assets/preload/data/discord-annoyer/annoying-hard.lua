@@ -276,7 +276,8 @@ end
 function opponentNoteHit(id, direction, noteType, isSustainNote)
     if HardMode then
         if annoyerMad then
-            cameraShake('camGame', 0.03, 0.2)
+            cameraShake('camBDiscord', 0.03, 0.2)
+            cameraShake('camDiscord', 0.03, 0.2)
             cameraShake('camHUD', 0.03, 0.2)
         end
     end
