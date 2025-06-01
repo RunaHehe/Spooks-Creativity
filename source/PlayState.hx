@@ -415,6 +415,8 @@ class PlayState extends MusicBeatState
 		// trace('Playback Rate: ' + playbackRate);
 		Paths.clearStoredMemory();
 
+		trace("preload: " + cpuControlled);
+
 		// for lua
 		instance = this;
 
@@ -467,6 +469,8 @@ class PlayState extends MusicBeatState
 		instakillOnMiss = ClientPrefs.getGameplaySetting('instakill', false);
 		practiceMode = ClientPrefs.getGameplaySetting('practice', false);
 		cpuControlled = ClientPrefs.getGameplaySetting('botplay', false);
+
+		trace("botplay: " + cpuControlled);
 
 		// var gameCam:FlxCamera = FlxG.camera;
 		camGame = new FlxCamera();
