@@ -150,7 +150,7 @@ class MainMenuStateAmmar extends MusicBeatState
         'Discord Annoyer'    => [1, 2, 2, 2],
         'Shut Up'            => [3, 4, 7, 7],
         'Moderator'         => [4, 5, 6, 8],
-        'Depression'         => [6, 9, 10, 11],
+        'Depression'         => [6, 9, 10, 12],
 
         'Hate Comment'       => [7, 8, 8, 11],
         'Twitter Argument'   => [7, 9, 10, 11],

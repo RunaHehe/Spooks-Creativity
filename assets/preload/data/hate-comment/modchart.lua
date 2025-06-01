@@ -10,7 +10,7 @@ function onCreate()
     modchartEnable = not EasyMode and Mechanic
 end
 function onCreatePost()
-    if HardMode then
+    if InsaneMode then
         createDistractionVideos()
 
         makeLuaSprite('loading', 'loading', 840 , 0)
@@ -33,14 +33,14 @@ function createDistractionVideos()
     end
 end
 function onStepEvent(curStep)
-    if HardMode or HardMode then
+    if HardMode or InsaneMode then
         if curStep == 16 then 
             for i = 0,7 do 
                 table.insert(defaultNote, {x = getPropertyFromGroup("strumLineNotes", i, "x"), y = getPropertyFromGroup("strumLineNotes", i, "y")})
             end
         end
     end
-    if HardMode then
+    if InsaneMode then
         if curStep == 320 or curStep == 1376 then
             lagging = true
             setProperty('loading.alpha', 1)
@@ -68,9 +68,9 @@ function onStepEvent(curStep)
     end
 end
 function onStepHit()
-    if modchartEnable and (HardMode or HardMode) then
+    if modchartEnable and (HardMode or InsaneMode) then
         modchart()
-        if HardMode then
+        if InsaneMode then
             if (curStep >= 1120 and curStep < 1376) and curStep % 4 == 0 then
                 local tag = 'videoDis'..((curStep%(4*5))/4) + 1
                 setProperty(tag..'.angle', 50)
@@ -89,7 +89,7 @@ function onStepHit()
     end
 end
 function onUpdate(elapsed)
-    if not inGameOver and HardMode then
+    if not inGameOver and InsaneMode then
         setProperty("loading.angle", getProperty("loading.angle") + elapsed * 500)
     end
 
@@ -140,7 +140,7 @@ end
 
 function modchartUpdate(elapsed)
     
-    if (HardMode or HardMode) then
+    if (HardMode or InsaneMode) then
         if curStep >= 16 and defaultNote[1] ~= nil then
             shake = math.floor(lerp(shake, 0, elapsed * 7) * 1000) /1000
             for i = 0,7 do 

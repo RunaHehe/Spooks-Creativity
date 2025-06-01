@@ -19,12 +19,23 @@ end
 function goodNoteHit(id, direction, noteType, isSustainNote)
     if noteType == "opacity" then
         if not isSustainNote then
-            opacity = math.max(opacity - 0.05, 0)
+            opacity = math.max(opacity - 0.05, 0.25)
             setPropertyFromClass("lime.app.Application", "current.window.opacity", opacity)
         end
+        playSound('staticShock', 1)
+        cameraShake('camHUD', 0.01, 0.2)
+        cameraShake('camDiscord', 0.01, 0.2)
+        cameraShake('camBDiscord', 0.01, 0.2)
     end
 end
 
 function onDestroy()
     setPropertyFromClass("lime.app.Application", "current.window.opacity", 1)
+end
+
+function onUpdate(elapsed)
+    if opacity < 1 then
+        opacity = math.min(opacity + (elapsed * 0.05), 1)
+        setPropertyFromClass("lime.app.Application", "current.window.opacity", opacity)
+    end
 end

@@ -977,6 +977,7 @@ class PlayState extends MusicBeatState
 		NoteSplash.scrollX = 1;
 		NoteSplash.scrollY = 1;
 		splash.alpha = 0.0;
+		add(grpNoteSplashes);
 
 		var holdsplash:NoteHoldSplash = new NoteHoldSplash(-100, 100, 0);
 		grpNoteHoldSplashes.add(holdsplash);
@@ -1137,8 +1138,6 @@ class PlayState extends MusicBeatState
 		noteTypeMap = null;
 		eventPushedMap.clear();
 		eventPushedMap = null;
-
-		add(grpNoteSplashes);
 
 		#if MODCHARTS_EDWHAK
 		if (ClientPrefs.getGameplaySetting("modchart", true))

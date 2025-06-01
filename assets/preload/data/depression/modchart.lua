@@ -1,5 +1,5 @@
 function onCreatePost()
-    setProperty("cpuControlled", true)
+    setProperty("cpuControlled", false)
     setupMods()
 
     if downscroll then

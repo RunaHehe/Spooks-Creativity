@@ -3,6 +3,22 @@ profiles = "profiles/"
 
 local tweens = {} --array to store tweens
 
+local easings = {
+    --ok listen easings werent automatically supported :sob:
+    linear = function(t) return t end,
+
+    sineInOut = function(t)
+        return -0.5 * (math.cos(math.pi * t) - 1)
+    end,
+
+    expoIn = function(t)
+        return t == 0 and 0 or math.pow(2, 10 * (t - 1))
+    end,
+    expoOut = function(t)
+        return t == 1 and 1 or 1 - math.pow(2, -10 * t)
+    end
+}
+
 local lastTextAngle = 0
 
 local lastCamAngle = 0
@@ -15,16 +31,29 @@ local oppSinging = false
 local singTimer = 0
 local singCooldown = 0.1
 
+originalBFStrumX = {}
+originalOPStrumX = {}
+
+-- what are these USELESS variables doing in my code..
+
 function onCreate()
     luaDebugMode = false
     setProperty('defaultCamZoom', 2.5)
+    
 end
 
 function onSongStart()
-    doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 19)
+    doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 19, 'sineInOut')
 end
 
 function onCreatePost()
+    for i = 4, 7 do
+        originalBFStrumX[i] = getPropertyFromGroup('strumLineNotes', i, 'x')
+    end
+    for i = 0, 3 do
+        originalOPStrumX[i] = getPropertyFromGroup('strumLineNotes', i, 'x')
+    end
+
     mechanic = not EasyMode and Mechanic
     shadersOption = getPropertyFromClass("ClientPrefs", "shaders")
     if shadersOption then
@@ -168,75 +197,94 @@ function onStepEvent(curStep)
 
     -- all of this is camera zooms lmao
     if curStep == 320 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.6, 5)
+        doTweenVar('zoomTween', 'defaultCamZoom', 1.7, 6, 'expoIn')
     end
     if curStep == 384 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.06)
+        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.5, 'expoOut')
     end
     if curStep == 496 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.3, 0.07)
+        doTweenVar('zoomTween', 'defaultCamZoom', 1.4, 0.5, 'expoOut')
     end
     if curStep == 512 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.06)
+        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 1, 'expoOut')
     end
     if curStep == 768 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.5, 0.001)
-    end
-    if curStep == 769 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 5)
-    end
-    if curStep == 880 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.7, 1)
+        setProperty('defaultCamZoom', 1.6)
+        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 7.5, 'sineInOut')
     end
     if curStep == 888 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.7, 0.8)
+        doTweenVar('zoomTween', 'defaultCamZoom', 1.9, 0.5, 'expoIn')
     end
     if curStep == 896 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.07)
+        doTweenVar('zoomTween', 'defaultCamZoom', 1, 1, 'expoOut')
     end
-    if curStep == 1000 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.1, 0.04)
+    if curStep == 1008 then
+        doTweenVar('zoomTween', 'defaultCamZoom', 1, 0.3, 'expoOut')
     end
     if curStep == 1016 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.7, 0.04)
+        doTweenVar('zoomTween', 'defaultCamZoom', 1.8, 0.5, 'expoIn')
     end
     if curStep == 1024 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.06)
+        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 1, 'expoOut')
     end
     if curStep == 1280 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.2, 12)
+        doTweenVar('zoomTween', 'defaultCamZoom', 1.3, 11, 'sineInOut')
     end
     if curStep == 1408 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 3)
+        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 11, 'sineInOut')
     end
     if curStep == 1600 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.1, 0.06)
+        doTweenVar('zoomTween', 'defaultCamZoom', 1, 0.5, 'expoOut')
     end
     if curStep == 1664 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.06)
+        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.5, 'expoOut')
     end
     if curStep == 1792 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.2, 1)
+        doTweenVar('zoomTween', 'defaultCamZoom', 1.3, 6, 'sineInOut')
     end
     if curStep == 1856 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.06)
+        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.5, 'expoOut')
     end
     if curStep == 1888 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.05, 0.06)
+        doTweenVar('zoomTween', 'defaultCamZoom', 0.95, 0.5, 'expoOut')
     end
     if curStep == 1920 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.06)
+        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.5, 'expoOut')
     end
     if curStep == 2040 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.3, 0.04)
+        doTweenVar('zoomTween', 'defaultCamZoom', 1.4, 0.2, 'expoIn')
     end
     if curStep == 2048 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 7)
+        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 14, 'sineInOut')
     end
     if curStep == 2304 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.2, 5)
+        doTweenVar('zoomTween', 'defaultCamZoom', 1.3, 10, 'sineInOut')
     end
+    if curStep == 2560 then
+        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.01, 'expoOut')
+    end
+    
     -- i am so sorry to anyone who is reading this code, i know theres a way easier way to do this :sob:
+
+    if curStep == 896 and not Modchart then
+        for i = 4, 7 do
+            local targetX = 412 + (i - 4) * 112
+            noteTweenX("middlescroll"..i, i, targetX, 5, "sineOut")
+        end
+        for i = 0, 3 do
+            local targetX = -200 + (i - 4) * 112
+            noteTweenX("middlescroll"..i, i, targetX, 6, "sineOut")
+        end
+    end
+    if curStep == 1024 and not Modchart then
+        for i = 0, 3 do
+            noteTweenX("ogPos"..i, i, originalOPStrumX[i], 0.01, "linear")
+        end
+        for i = 4, 7 do
+            noteTweenX("ogPos"..i, i, originalBFStrumX[i], 0.01, "linear")
+        end
+    end
+
 end
 
 function opponentNoteHit(id, direction, noteType, isSustainNote)
@@ -344,11 +392,14 @@ function onUpdate(elapsed)
     --now this where the magic come in
     for tag, tweenData in pairs(tweens) do
         tweenData.elapsedTime = tweenData.elapsedTime + elapsed
-        local t = tweenData.elapsedTime / tweenData.duration
-        
-        local currentValue = tweenData.startValue + (tweenData.endValue - tweenData.startValue) * t
+        local t = math.min(tweenData.elapsedTime / tweenData.duration, 1)
+
+        local easeFunc = easings[tweenData.easing] or easings.linear
+        local easedT = easeFunc(t)
+
+        local currentValue = tweenData.startValue + (tweenData.endValue - tweenData.startValue) * easedT
         setProperty(tweenData.object, currentValue)
-        
+
         if tweenData.elapsedTime >= tweenData.duration then
             setProperty(tweenData.object, tweenData.endValue)
             tweens[tag] = nil
@@ -370,24 +421,25 @@ function onUpdate(elapsed)
 end
 
 -- the stupid ass function
-function doTweenVar(tag, object, endValue, duration)
+function doTweenVar(tag, object, endValue, duration, easing)
     if tweens[tag] then
         tweens[tag] = nil
     end
-    
+
     local startValue = getProperty(object)
     tweens[tag] = {
         object = object,
         startValue = startValue,
         endValue = endValue,
         duration = duration,
-        elapsedTime = 0
+        elapsedTime = 0,
+        easing = easing or 'linear'
     }
 end
 
 --[[
     Hello! I'm Runa :3
-    I made a custom function "doTweenVar" specifically for camera zooming.
+    I made a custom function called "doTweenVar" 
     If you want to use this function, well here you go!
     To use this, an example could be: doTweenVar('camZooming', 'defaultCamZoom', 1, 15)
     Keep in mind, you aren't limited to just camera zooming!
