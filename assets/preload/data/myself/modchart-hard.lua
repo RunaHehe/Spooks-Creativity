@@ -37,7 +37,7 @@ function onUpdate(elapsed)
 end
 
 function onUpdatePost(elapsed)
-    if not inGameOver and HardMode then
+    if not inGameOver and HardMode and Modchart then
         if curBeat < 464 then
             if curBeat < 296 then
                 setProperty('camNotesFake.zoom', getProperty('camHUD.zoom') + (curBeat >= 232 and -0.6 or 0))
@@ -59,7 +59,7 @@ function onUpdatePost(elapsed)
 end
 
 function onStepEvent(step)
-    if HardMode then
+    if HardMode and Modchart then
         if step == (167*4) then
             setProperty('camNotesFake.alpha', 0)
             setProperty('camNotesFake.visible', true)

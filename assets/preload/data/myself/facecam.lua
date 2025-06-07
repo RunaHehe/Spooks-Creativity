@@ -5,7 +5,6 @@ function onCreatePost()
 
 
     runHaxeCode([[
-
         camNotes = new FlxCamera();
         camNotes.bgColor = 0x00;
         camNotesFake = new FlxCamera();
@@ -18,9 +17,6 @@ function onCreatePost()
         game.grpNoteSplashes.cameras = [camNotes, camNotesFake];
         game.grpNoteHoldSplashes.cameras = [camNotes, camNotesFake];
 
-        game.playfieldRenderer.cameras = [camNotes, camNotesFake];
-
-
         FlxG.cameras.remove(game.camOther, false);
         FlxG.cameras.remove(game.camHUD, false);
         FlxG.cameras.add(camNotesFake, false);
@@ -31,6 +27,14 @@ function onCreatePost()
         setVar('camNotes', camNotes);
         setVar('camNotesFake', camNotesFake);
     ]])
+
+    if Modchart then
+        runHaxeCode([[
+
+            game.playfieldRenderer.cameras = [camNotes, camNotesFake];
+
+        ]])
+    end
 
     setProperty("camNotesFake.visible", false)
     
