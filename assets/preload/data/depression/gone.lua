@@ -168,6 +168,14 @@ function onStepEvent(curStep)
         setTextString("playerName", "Spook")
         setTextColor("playerName", "9C02D6")
 
+        setProperty('player.alpha', 0)
+        setProperty('playerText.alpha', 0)
+        setProperty('playerName.alpha', 0)
+
+        setProperty('player.visible', false)
+        setProperty('playerText.visible', false)
+        setProperty('playerName.visible', false)
+
         scaleObject("player", 0.5, 0.5)
         setProperty("player.offset.x", 10)
         setProperty("playerName.offset.y", 80)
@@ -177,6 +185,18 @@ function onStepEvent(curStep)
             setShaderFloat("rainhehe", "iIntensity", 0.2)
             doTweenX("noiseTween", "noiseAlphaHolder", 1, 1, "linear")
         end
+    end
+    if curStep == 1300 then
+        setProperty('player.alpha', 1)
+        setProperty('playerText.alpha', 1)
+        setProperty('playerName.alpha', 1)
+
+        setProperty('player.visible', true)
+        setProperty('playerText.visible', true)
+        setProperty('playerName.visible', true)
+
+        setProperty('player.y', -500)
+        doTweenY('hiRuna', 'player', 270, 2, 'expoOut')
     end
     if curStep == 1536 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x40FFFFFF", 1)

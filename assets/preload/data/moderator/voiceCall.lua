@@ -7,7 +7,7 @@ local annSpeak = false
 local modSpeak = false
 
 function onCreate()
-    luaDebugMode = true
+    luaDebugMode = false
     package.path = getProperty("modulePath") .. ";" .. package.path
    SpriteUtil = require("SpriteUtil")
 end
