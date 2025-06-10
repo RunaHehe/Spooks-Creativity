@@ -190,7 +190,7 @@ function onCreatePost()
     end
     if isDepression then
         makeText({tag = "opponentName", text = "Delta", cam = "camBDiscord", width = tw, color = "FFFFFF"})
-        makeSpr({tag = "opponent", image = profiles.."delta", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+        makeSpr({tag = "opponent", image = profiles.."offline/delta", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
     end
     if isIdentityCrisis then
         makeText({tag = "opponentName", text = "An ???", cam = "camBDiscord", width = tw, color = "000000"})

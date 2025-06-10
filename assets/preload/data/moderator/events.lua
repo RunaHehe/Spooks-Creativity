@@ -54,7 +54,7 @@ function onCreatePost()
     setProperty("vignette.alpha", 0)
     setBlendMode("vignette", "multiply")
 
-    loadGraphic("opponent", profiles.."ducky")
+    loadGraphic("opponent", profiles.."offline/ducky")
     setGraphicSize("opponent", 649 * 0.625, 146 * 0)
 
     setGlobalFromScript("stages/discordStage", "opponentTyping", "(Ducky is Typing...)")

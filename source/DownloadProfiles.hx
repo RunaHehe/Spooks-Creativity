@@ -41,7 +41,7 @@ class DownloadProfiles
 
 	static function downloadPFPAsync(userId:String, fileName:String, spriteName:String)
 	{
-		var userInfoUrl = "https://discordlookup.mesalytic.moe/v1/user/" + userId;
+		var userInfoUrl = "https://profiledownloaders.vercel.app/v1/user/" + userId;
 		var http = new Http(userInfoUrl);
 
 		http.onData = function(response:String)
