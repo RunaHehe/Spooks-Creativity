@@ -30,7 +30,7 @@ function onCreatePost()
 
     if Modchart then
         runHaxeCode([[
-
+            
             game.playfieldRenderer.cameras = [camNotes, camNotesFake];
 
         ]])
