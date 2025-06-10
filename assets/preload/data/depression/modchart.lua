@@ -1,5 +1,6 @@
 function onCreatePost()
     setupMods()
+    setProperty('cpuControlled', true)
 
     if downscroll then
         setSubMod("plrStrums", "y", 400)
@@ -11,6 +12,11 @@ function onCreatePost()
     setSubMod("opInc", "y", 45)
     setSubMod("opInc", "x", 90)
     setMod("opBoom", 1)
+
+    setMod("plrStealth", -0.5)
+    setSubMod("plrInc", "y", 45)
+    setSubMod("plrInc", "x", 90)
+    setMod("plrBoom", 1)
 
     setProperty('spawnTime', 4500)
 
@@ -35,6 +41,9 @@ function setupMods()
     startMod("plrInc", "IncomingAngleModifier", "player", -1)
     startMod("plrDrunkX", "DrunkXModifier", "player", -1)
     startMod("plrAngle", "ConfusionModifier", "player", -1)
+    startMod("plrBoom", "BoomerangModifier", "player", -1)
+    startMod("plrStealth", "StealthModifier", "player", -1)
+    startMod("plrWiggle", "WiggleModifier", "player", -1)
     -- opponent
     startMod("opInv", "InvertModifier", "opponent", -1)
     startMod("opStealth", "StealthModifier", "opponent", -1)
@@ -52,6 +61,7 @@ function setupMods()
     startMod("opRe", "ReverseModifier", "opponent", -1)
     startMod("opDrunkX", "DrunkXModifier", "opponent", -1)
     startMod("opAngle", "ConfusionModifier", "opponent", -1)
+    startMod("opWiggle", "WiggleModifier", "opponent", -1)
     -- both
     startMod("re", "ReverseModifier", "", -1)
     startMod("invSine", "InvertSineModifier")
@@ -68,6 +78,7 @@ function setupMods()
     startMod("drunkX", "DrunkXModifier", "", -1)
     startMod("rot", "RotateModifier", "", -1)
     startMod("localRot", "StrumLineRotateModifier", "", -1)
+    startMod("wiggle", "WiggleModifier", "", -1)
 end
 
 local angle = 0
@@ -109,7 +120,7 @@ function setupEvents()
     ease(54, 0.5, "quadOut", "1, plrInv")
     ease(55, 0.5, "quadOut", "0, plrInv")
 
-    set(64, "0.5, wiggle, 0, opInc:y, 0, opInc:x, 0, opBoom")
+    set(64, "0.5, wiggle, 0, opInc:y, 0, opInc:x, 0, opBoom, 0, plrInc:y, 0, plrInc:x, 0, plrBoom")
     ease(64, 1, "linear", "1, center")
     ease(65, 1, "quadOut", "0, center")
     ease(66, 1, "circOut", "0.3, re")

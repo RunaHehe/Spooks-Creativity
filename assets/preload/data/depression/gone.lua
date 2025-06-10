@@ -44,6 +44,8 @@ end
 
 function onSongStart()
     doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 19, 'sineInOut')
+    setProperty('iconSpeed', 0)
+    setProperty('lightbottom.y', 50)
 end
 
 function onCreatePost()
@@ -53,6 +55,13 @@ function onCreatePost()
     for i = 0, 3 do
         originalOPStrumX[i] = getPropertyFromGroup('strumLineNotes', i, 'x')
     end
+
+    makeLuaSprite("lightbottom", "downGlow", 0, 0)
+    setObjectCamera("lightbottom", "hud")
+    screenCenter("lightbottom")
+    setProperty('lightbottom.alpha', 0)
+    setProperty('lightbottom.color', getColorFromHex("CCCCCC"))
+    addLuaSprite("lightbottom")
 
     mechanic = not EasyMode and Mechanic
     shadersOption = getPropertyFromClass("ClientPrefs", "shaders")
@@ -98,8 +107,40 @@ function onCreatePost()
     ]])
 end
 
+function onBeatHit()
+    if curBeat > 64 and curBeat <= 128 then
+        if curBeat % 4 == 0 then
+            setProperty('lightbottom.alpha', 1)
+            doTweenAlpha('goAway', 'lightbottom', 0, 2, 'linear')
+        end
+    end
+    if (curBeat > 128 and curBeat <= 192) or (curBeat > 256 and curBeat <= 320) or (curBeat > 384 and curBeat <= 512) then
+        if curBeat % 4 == 0 then
+            setProperty('lightbottom.alpha', 1)
+            doTweenAlpha('goAway', 'lightbottom', 0, 0.5, 'linear')
+        end
+        if curBeat % 4 == 2 then
+            setProperty('lightbottom.alpha', 1)
+            doTweenAlpha('goAway', 'lightbottom', 0, 0.5, 'linear')
+        end
+    end
+    if curBeat > 512 and curBeat <= 640 then
+        if curBeat % 1 == 0 then
+            setProperty('lightbottom.alpha', 1)
+            doTweenAlpha('goAway', 'lightbottom', 0, 0.5, 'linear')
+        end
+    end
+    if curBeat == 584 then
+        doTweenAngle('icon', 'iconP1', 360, 1, 'quartOut')
+    end
+end
+
 function onStepEvent(curStep)
     --runa time!!
+    if curStep == 896 or curStep == 902 or curStep == 909 or curStep == 928 or curStep == 935 or curStep == 940 or curStep == 960 or curStep == 966 or curStep == 972 or curStep == 992 or curStep == 999 or curStep == 1004 then
+        setProperty('lightbottom.alpha', 1)
+            doTweenAlpha('goAway', 'lightbottom', 0, 0.3, 'linear')
+    end
     if curStep == 256 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 2)
         if shadersOption then
@@ -116,6 +157,7 @@ function onStepEvent(curStep)
     end
     if curStep == 512 then 
         cameraFlash("camOther", "FFFFFF", 2)
+        setProperty('iconSpeed', 1)
     end
     if curStep == 503 then
         if shadersOption then
@@ -140,6 +182,22 @@ function onStepEvent(curStep)
         if shadersOption then
             doTweenX("noiseTween", "noiseAlphaHolder", 1, 2, "linear")
         end
+        setProperty('iconSpeed', 0)
+
+        setProperty('opponent.visible', false)
+        setProperty('opponentText.visible', false)
+        setProperty('opponentName.visible', false)
+        setProperty('opponent.alpha', 0)
+        setProperty('opponentText.alpha', 0)
+        setProperty('opponentName.alpha', 0)
+    end
+    if curStep == 832 then
+        setProperty('opponent.visible', true)
+        setProperty('opponentText.visible', true)
+        setProperty('opponentName.visible', true)
+        doTweenAlpha('hiDelta', 'opponent', 1, 5, 'linear')
+        doTweenAlpha('hiDeltaT', 'opponentText', 1, 5, 'linear')
+        doTweenAlpha('hiDeltaN', 'opponentName', 1, 5, 'linear')
     end
     if curStep == 896 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 0.4)
@@ -154,6 +212,7 @@ function onStepEvent(curStep)
     end
     if curStep == 1024 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x80FFFFFF", 1.2)
+        setProperty('iconSpeed', 1)
     end
     if curStep == 1256 then
         if shadersOption then
@@ -185,6 +244,7 @@ function onStepEvent(curStep)
             setShaderFloat("rainhehe", "iIntensity", 0.2)
             doTweenX("noiseTween", "noiseAlphaHolder", 1, 1, "linear")
         end
+        setProperty('iconSpeed', 0)
     end
     if curStep == 1300 then
         setProperty('player.alpha', 1)
@@ -200,6 +260,7 @@ function onStepEvent(curStep)
     end
     if curStep == 1536 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x40FFFFFF", 1)
+        setProperty('iconSpeed', 1)
     end
     if curStep == 2560 or curStep == 2566 or curStep == 2572 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x30FFFFFF", 0.3)
@@ -437,6 +498,12 @@ function onUpdate(elapsed)
         if singTimer <= 0 then
             oppSinging = false
         end
+    end
+
+    if curBeat > 192 and curBeat < 208 then
+        setProperty('opponent.alpha', 0)
+        setProperty('opponentText.alpha', 0)
+        setProperty('opponentName.alpha', 0)
     end
 end
 
