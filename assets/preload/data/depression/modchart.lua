@@ -1,6 +1,5 @@
 function onCreatePost()
     setupMods()
-    setProperty('cpuControlled', true)
 
     if downscroll then
         setSubMod("plrStrums", "y", 400)
@@ -171,7 +170,7 @@ function setupEvents()
         local incInten = 45 * intenVar
         local wiggleInten = 2 * intenVar
 
-        if HardMode or isStoryMode then
+        if HardMode or InsaneMode or isStoryMode then
             set(time, [[
                 ]] .. inten .. [[, skewX,
                 ]] .. incInten .. [[, incoming:y,
@@ -283,7 +282,7 @@ function setupEvents()
         end
     end
 
-    if HardMode or isStoryMode then
+    if HardMode or InsaneMode or isStoryMode then
         set(268, "10, wiggle, ")
         ease(268, 1, "quadOut", "0, wiggle")
         set(270, "-10, wiggle")
@@ -323,14 +322,14 @@ function setupEvents()
     set(320, "-800, plrY")
     ease(320, 13, "expoOut", "0, plrY")
 
-    if HardMode or isStoryMode then
+    if HardMode or InsaneMode or isStoryMode then
         ease(314, 0.5, "quadOut", "1, plrInv")
         ease(315, 0.5, "quadOut", "0, plrInv")
         ease(318, 0.5, "quadOut", "1, plrInv")
         ease(319, 0.5, "quadOut", "0, plrInv")
     end
 
-    if HardMode or isStoryMode then
+    if HardMode or InsaneMode or isStoryMode then
         for beat = 0, (4 * 16) - 1 do
             local time = 320 + beat
             local inten = (beat % 4 == 0 and 2 or -2)
@@ -394,7 +393,7 @@ function setupEvents()
         local time = 448 + beat
         local intenVar = (beat % 2 == 0 and 1 or -1)
         local inten = 100 * intenVar
-        if HardMode or isStoryMode then
+        if HardMode or InsaneMode or isStoryMode then
             set(time, "" .. inten .. ", skewX")
         end
         ease(time, 1, "quadOut", "0, skewX")
@@ -502,7 +501,7 @@ function setupEvents()
             ease(time, 1, "quadOut", "25, plrLaneAngle")
         end
 
-        if HardMode or isStoryMode then
+        if HardMode or InsaneMode or isStoryMode then
             ease(time, 1, "linear", "" .. 50 * inten .. ", plrX")
         end
     end
@@ -582,7 +581,7 @@ function onUpdate(elapsed)
         local moveXOff = 200 * continuous_cos(curDecBeat / 8)
         local incAngle = 20 * continuous_sin(curDecBeat / 8)
         local wiggle = 2 * continuous_cos(curDecBeat / 8)
-        if HardMode or isStoryMode then
+        if HardMode or InsaneMode or isStoryMode then
             setMod("plrZ", 2 * moveZOff)
             setMod("opZ", 2 * -moveZOff)
         else
@@ -595,7 +594,7 @@ function onUpdate(elapsed)
             setMod("plrStrumAngle", incAngle)
             setMod("opStrumAngle", -incAngle)
             setMod("wiggle", wiggle)
-        elseif HardMode or isStoryMode then
+        elseif HardMode or InsaneMode or isStoryMode then
             setMod("plrStrumAngle", 2 * incAngle)
             setMod("opStrumAngle", 2 * -incAngle)
             setMod("wiggle", 2 * wiggle)
