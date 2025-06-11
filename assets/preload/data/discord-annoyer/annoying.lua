@@ -28,6 +28,7 @@ function onCreatePost()
         setObjectCamera("glow", "hud")
         screenCenter("glow")
     end
+    setHealthBarColors("880833", "912B29")
 end
 
 function onStepEvent(curStep)

@@ -78,9 +78,11 @@ function onCreatePost()
             ["google"] = {
                 playerIcon = {"runa", true}
             },
-            ["note-nova"] = {
-                enemyIcon = {"annoyer", false},
-                playerIcon = {"ammar", true}
+            ["twitter-argument"] = {
+                playerIcon = {"runa", true}
+            },
+            ["protogen"] = {
+                enemyIcon = {"ammar", false}
             }
         }
 
@@ -101,9 +103,11 @@ function onCreatePost()
 end
 
 function onBeatHit()
-    if curBeat == 320 then
-        loadGraphic("iconP1", "animicons/runa", 150, 150)
-        addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0)
+    if songName:lower() == "depression" then
+        if curBeat == 320 then
+            loadGraphic("iconP1", "animicons/runa", 150, 150)
+            addAnimation('iconP1', 'idle', {1, 3, 4, 0, 5, 2}, false, 0)
+        end
     end
 end
 
