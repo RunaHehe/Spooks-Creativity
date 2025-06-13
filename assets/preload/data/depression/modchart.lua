@@ -1,6 +1,6 @@
 function onCreatePost()
     setupMods()
-    setProperty('cpuControlled', false)
+    -- setProperty('cpuControlled', false)
 
     if downscroll then
         setSubMod("plrStrums", "y", 400)
