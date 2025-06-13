@@ -3,6 +3,7 @@ function onCreatePost()
     setMod("dadY", -150)
     setMod("bfY", -150)
     setupEvents()
+    setProperty('cpuControlled', true)
 end
 
 function setupMods()
