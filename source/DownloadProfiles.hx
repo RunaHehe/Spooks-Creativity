@@ -19,25 +19,29 @@ class DownloadProfiles
 
 		for (data in userData)
 		{
-			if (data[0] == '0') continue;
-
-			var imagePath:String = getImagePath(data[1]);
-
-			if (!FileSystem.exists(imagePath) || forceDownload)
+			if (data[0] == '0')
+					continue;
+			sys.thread.Thread.create(() ->
 			{
-				downloadPFPAsync(data[0], data[1], data[2]);
-			}
+				var imagePath:String = getImagePath(data[1]);
+
+				if (!FileSystem.exists(imagePath) || forceDownload)
+				{
+					downloadPFPAsync(data[0], data[1], data[2]);
+				}
+			});
 		}
 	}
-	//downloads the profiles and... stuff.
-	//you not even sure what it does
-	//yesiam
-	//no
-	//yes
-	//no
-	//yes
-	//i love u
-	//stop making me blush
+
+	// downloads the profiles and... stuff.
+	// you not even sure what it does
+	// yesiam
+	// no
+	// yes
+	// no
+	// yes
+	// i love u
+	// stop making me blush
 
 	static function downloadPFPAsync(userId:String, fileName:String, spriteName:String)
 	{
@@ -91,8 +95,6 @@ class DownloadProfiles
 
 		http.request(); // start user info request
 	}
-
-
 
 	static function saveBitmap(image:BitmapData, fileName:String)
 	{
