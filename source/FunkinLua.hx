@@ -1,8 +1,5 @@
 package;
 
-#if MODCHARTS
-import modchart.SubModifier;
-#end
 #if LUA_ALLOWED
 import llua.Lua;
 import llua.LuaL;
@@ -3234,15 +3231,8 @@ class FunkinLua {
 			if (status != Lua.LUA_OK) {
 				var error:String = getErrorMessage(status);
 				luaTrace("ERROR (" + func + "): " + error, false, false, FlxColor.RED);
-				return Function_Continue;
 			}
-			
-			// If successful, pass and then return the result.
-			var result:Dynamic = cast Convert.fromLua(lua, -1);
-			if (result == null) result = Function_Continue;
-
-			Lua.pop(lua, 1);
-			return result;
+			return Function_Continue;
 		}
 		catch (e:Dynamic) {
 			trace(e);

@@ -7,7 +7,6 @@ import flixel.math.FlxMath;
 import flixel.util.FlxColor;
 import flash.display.BitmapData;
 import editors.ChartingState;
-#if MODCHARTS import math.Vector3; #end
 #if MODCHARTS_EDWHAK
 import flixel.addons.effects.FlxSkewedSprite;
 #end
@@ -26,27 +25,6 @@ class Note extends #if MODCHARTS_EDWHAK FlxSkewedSprite #else FlxSprite #end
 	#if MODCHARTS_EDWHAK
 	public var mesh:modcharting.SustainStrip = null;
 	public var z:Float = 0;
-	#elseif MODCHARTS
-	public var vec3Cache:Vector3 = new Vector3(); // for vector3 operations in modchart code
-	public var defScale:FlxPoint = FlxPoint.get(); // for modcharts to keep the scaling
-
-	override function destroy()
-	{
-		defScale.put();
-		super.destroy();
-	}	
-	public var mAngle:Float = 0;
-	public var bAngle:Float = 0;
-
-	public var typeOffsetX:Float = 0; // used to offset notes, mainly for note types. use in place of offset.x and offset.y when offsetting notetypes
-	public var typeOffsetY:Float = 0;
-
-	public var zIndex:Float = 0;
-	public var desiredZIndex:Float = 0;
-	public var z:Float = 0;
-	public var garbage:Bool = false; // if this is true, the note will be removed in the next update cycle
-	public var alphaMod:Float = 1;
-	public var alphaMod2:Float = 1; // TODO: unhardcode this shit lmao
 	#end
 	public var extraData:Map<String,Dynamic> = [];
 
@@ -210,13 +188,7 @@ class Note extends #if MODCHARTS_EDWHAK FlxSkewedSprite #else FlxSprite #end
 	{
 		super();
 
-		x = 0;
-		y = 0;
-		setupNote(strumTime, noteData, prevNote, sustainNote, inEditor);
-	}
-
-	public function setupNote(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?inEditor:Bool = false):Void {
-		if (prevNote == null)
+			if (prevNote == null)
 			prevNote = this;
 
 		this.prevNote = prevNote;

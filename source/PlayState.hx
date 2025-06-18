@@ -1320,10 +1320,6 @@ class PlayState extends MusicBeatState
 			FlxG.stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
 			FlxG.stage.addEventListener(KeyboardEvent.KEY_UP, onKeyRelease);
 		}
-		#if MODCHARTS
-		if (useModchart)
-			modManager.modchartEnable = true;
-		#end
 		#if MODCHARTS_EDWHAK
 		ModchartFuncs.loadLuaFunctions();
 		#end
@@ -1999,6 +1995,8 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown():Void
 	{
+		generateStaticArrows(0);
+		generateStaticArrows(1);
 		if (startedCountdown)
 		{
 			callOnLuas('onStartCountdown', []);
@@ -2011,8 +2009,6 @@ class PlayState extends MusicBeatState
 		{
 			if (skipCountdown || startOnTime > 0)
 				skipArrowStartTween = true;
-			generateStaticArrows(0);
-			generateStaticArrows(1);
 
 			for (i in 0...playerStrums.length)
 			{
@@ -2879,7 +2875,7 @@ class PlayState extends MusicBeatState
 
 			strumLineNotes.add(babyArrow);
 			babyArrow.postAddedToGroup();
-			babyArrow.defaultPosition = babyArrow.getPosition();
+			babyArrow.getPosition();
 		}
 	}
 
@@ -5496,149 +5492,4 @@ class PlayState extends MusicBeatState
 		return null;
 	}
 	#end
-
-	// shut up variables
-	var beatHardSnares:Bool = false;
-	var zoomMultiply:Float = 1;
-	var opponentHitDistract:Bool = false;
-	var shakeNote:Float = 0;
-
-	function songStepEvent():Void
-	{
-		switch (Paths.formatToSongPath(SONG.song))
-		{
-			case 'discord-annoyer':
-				switch (curStep)
-				{
-					case 1520:
-						enableCoolLightNote = true;
-					case 1776:
-						enableCoolLightNote = false;
-				}
-
-				if (enableCoolLightNote && curStep % 4 == 0)
-					triggerEventNote('Add Camera Zoom', '0.015', '0.03');
-
-			case 'shut-up':
-				switch (curStep)
-				{
-					case 128:
-						beatHardSnares = true;
-					case 252:
-						FlxTween.tween(redOverlay, {alpha: 0.75}, Conductor.crochet / 1000, {ease: FlxEase.expoIn});
-					case 256:
-						zoomMultiply = 1.5;
-						camOther.flash(FlxColor.RED, 1.5, null, true);
-					case 512:
-						zoomMultiply = 1;
-						beatHardSnares = false;
-						redOverlay.alpha = 0;
-						camOther.flash(FlxColor.WHITE, 0.75, null, true);
-						// camBack.angle = 0;
-						camHUD.angle = 0;
-						glitchy.alpha = 0;
-					case 768:
-						opponentHitDistract = true;
-					case 1024:
-						opponentHitDistract = false;
-				}
-
-				if (beatHardSnares)
-					if (curStep % 8 == 0)
-						triggerEventNote('Add Camera Zoom', Std.string(0.015 * zoomMultiply), Std.string(0.03 * zoomMultiply));
-					else if (curStep % 8 == 4)
-						triggerEventNote('Add Camera Zoom', Std.string(-0.015 * zoomMultiply), Std.string(-0.03 * zoomMultiply));
-
-				if (opponentHitDistract)
-				{
-					if (curStep % 8 == 0)
-					{
-						for (i in (0...4))
-						{
-							var arrow:StrumNote = strumLineNotes.members[i];
-							modchartTweens.set('noteComeIn$i', FlxTween.tween(arrow, {x: arrow.defaultPosition.x + 350}, Conductor.crochet / 1000, {
-								ease: FlxEase.expoIn,
-								onComplete: function(twn:FlxTween)
-								{
-									modchartTweens.remove('noteComeIn$i');
-								}
-							}));
-						}
-					}
-					else if (curStep % 8 == 4)
-					{ // HIT
-						for (i in (0...4))
-						{
-							var arrow:StrumNote = strumLineNotes.members[i];
-							modchartTweens.set('noteComeIn$i', FlxTween.tween(arrow, {x: arrow.defaultPosition.x}, Conductor.crochet / 1000, {
-								ease: FlxEase.quadOut,
-								onComplete: function(twn:FlxTween)
-								{
-									modchartTweens.remove('noteComeIn$i');
-								}
-							}));
-						}
-						shakeNote = 75;
-						modchartTweens.set('notesShake', FlxTween.tween(this, {shakeNote: 0}, Conductor.crochet / 1000 * 1.5, {
-							ease: FlxEase.quadOut,
-							onComplete: function(twn:FlxTween)
-							{
-								modchartTweens.remove('notesShake');
-								for (i in (4...8))
-								{
-									var arrow:StrumNote = strumLineNotes.members[i];
-									arrow.setPosition(arrow.defaultPosition.x, arrow.defaultPosition.y);
-								}
-							},
-							onUpdate: function(twn:FlxTween)
-							{
-								for (i in (4...8))
-								{
-									var arrow:StrumNote = strumLineNotes.members[i];
-									arrow.setPosition(arrow.defaultPosition.x + FlxG.random.float(-shakeNote, shakeNote),
-										arrow.defaultPosition.y + FlxG.random.float(-shakeNote, shakeNote));
-								}
-							}
-						}));
-						camOther.flash(0x46FFE9E9, 0.2, null, true);
-						// camFront.shake(0.01, Conductor.crochet/2000, null, true);
-						// camBack.shake(0.012, Conductor.crochet/2000, null, true);
-						camHUD.shake(0.007, Conductor.crochet / 2000, null, true);
-
-						glitchy.alpha = 0.3;
-						FlxTween.tween(glitchy, {alpha: 0}, Conductor.crochet / 1000, {ease: FlxEase.expoIn});
-						health -= 0.075;
-					}
-				}
-			case 'depression':
-				// if (curStep == 256) {
-				// 	game.camHUD.setFilters([new ShaderFilter(game.getLuaObject("oldTvEffect").shader)]);
-				// }
-		}
-	}
-
-	function songUpdateEvent():Void
-	{
-		switch (Paths.formatToSongPath(SONG.song))
-		{
-			case 'shut-up':
-				if (curStep >= 256 && curStep < 512)
-				{
-					if (FlxG.random.bool(96))
-						// camBack.angle = CoolUtil.continuous_sin(curDecBeat/2) * 8;
-						if (FlxG.random.bool(96))
-							camHUD.angle = CoolUtil.continuous_sin(curDecBeat / 4) * -6;
-					camHUD.shake(0.01, 0.1, null, true);
-					// camBack.shake(0.015, 0.1, null, true);
-					// camFront.shake(0.0075, 0.1, null, true);
-					camOther.shake(0.001, 0.1, null, true);
-
-					glitchy.alpha = FlxG.random.float(0.25, 0.5);
-					if (FlxG.random.bool(5))
-						glitchy.flipY = !glitchy.flipY;
-					if (FlxG.random.bool(5))
-						glitchy.flipX = !glitchy.flipX;
-				}
-		}
-	}
 }
