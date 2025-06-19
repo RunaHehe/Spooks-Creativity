@@ -355,7 +355,7 @@ class PauseSubState extends MusicBeatSubstate
 					PlayState.seenCutscene = false;
 
 					WeekData.loadTheFirstEnabledMod();
-					MusicBeatState.switchState(new FaggotMenu());
+					MusicBeatState.switchState(new RunaState());
 					PlayState.cancelMusicFadeTween();
 					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 					PlayState.changedDifficulty = false;
