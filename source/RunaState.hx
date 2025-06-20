@@ -237,7 +237,7 @@ class RunaState extends MusicBeatState{
 		if (which == 1)
 		{
 			FlxTween.tween(storymenu, {"scale.x": streech, x: storymenu.x + coolXfix}, fuckingDURation, {ease: epicEasing});
-			FlxTween.tween(storymenu, {x: storymenu.x - howMuchGo}, fuckingDURation, {ease: epicEasing2, startDelay: fuckingDELAY});
+			FlxTween.tween(storymenu, {x: storymenu.x - howMuchGo}, fuckingDURation, {ease: epicEasing2, startDelay: fuckingDELAY, onComplete: function(tween:FlxTween){FlxG.switchState(new MainMenuStateAmmar());}});
 			FlxTween.tween(freeplay, {x: freeplay.x - howMuchGoConfirm}, fuckingDURation, {ease: epicEasing2});
 			FlxTween.tween(settings, {x: settings.x - howMuchGoConfirm}, fuckingDURation, {ease: epicEasing2});
 			FlxTween.tween(achievements, {x: achievements.x - howMuchGoConfirm}, fuckingDURation, {ease: epicEasing2});
