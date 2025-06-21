@@ -20,7 +20,7 @@ local easings = {
 
 function onCreate()
     --debugging
-    setProperty('cpuControlled', true)
+    --setProperty('cpuControlled', true)
     --end of debugging
     setProperty('skipCountdown', true)
     setProperty('camGame.zoom', 5)

@@ -5,8 +5,8 @@ local OGwidth = nil
 local OGheight = nil
 
 local floatHeight = 40
-local durationY = 5
-local durationX = 8
+local durationY = 3
+local durationX = 6
 
 
 function onCreate()
@@ -15,7 +15,7 @@ function onCreate()
     OGwidth = getPropertyFromClass("openfl.Lib", "application.window.width")
     OGheight = getPropertyFromClass("openfl.Lib", "application.window.height")
     floatWindowUp()
-    floatWindowX()
+    --floatWindowX()
 end
 
 function onUpdatePost(elapsed)

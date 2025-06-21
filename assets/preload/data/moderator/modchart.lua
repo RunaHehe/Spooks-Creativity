@@ -6,7 +6,7 @@ function onCreatePost()
     setMod("opY", -165)
     setMod("bfY", -165)
     setMod("opSwap", 0.5)
-    if HardMode then
+    if HardMode or InsaneMode then
         setMod("bumpy", 1)
         setSubMod("bumpy", "speed", 1.2)
         setSubMod("hidden", "offset", 4)
@@ -77,7 +77,7 @@ function easeSetup()
     ease(0, 16, "quadOut", [[
         0, opY
     ]])
-    if HardMode then
+    if HardMode or InsaneMode then
         ease(0, 16, "linear", [[
             1, hidden
         ]])
@@ -142,7 +142,7 @@ function easeSetup()
         end
     end
 
-    if HardMode then
+    if HardMode or InsaneMode then
         ease(36, 1,"quadOut", "1, opInv")
         ease(37, 1,"quadOut", "0, opInv")
         ease(38, 1,"quadOut", "1, opFlip")
@@ -203,7 +203,7 @@ function easeSetup()
             ]])
         end
     end
-    if HardMode then
+    if HardMode or InsaneMode then
         for beat = 0, 8-1 do
             local time = 64 + (beat*4)
             ease(time, 1, 'sineOut', '45, localRotate:x')
@@ -212,7 +212,7 @@ function easeSetup()
             ease(time+3, 1, 'sineIn', '0, localrotate:x')
         end
     end
-    if HardMode then
+    if HardMode or InsaneMode then
         --bf side
         ease(64, 1, "linear", "1, bfHid"); ease(64, 2, "linear", "1, bfWiggle")
         ease(64, 1, "quadOut", "-0.1, bfFlip"); ease(64+1, 1, "cubeOut", "1, bfFlip")
@@ -234,7 +234,7 @@ function easeSetup()
         ease(94, 1, "linear", "1, opHid"); ease(94, 2, "linear", "0, opWiggle")
     end
 
-    if HardMode then
+    if HardMode or InsaneMode then
         for i = 0, 1 do
             local add = i * 16
             ease(65 + add, 2, "quadOut", "360, angle")
@@ -319,7 +319,7 @@ function easeSetup()
             ]] .. 3 * (beat%2==0 and 1 or -1) .. [[, opDrunk
         ]])
         ease(time, 1, "quadOut", "0, bfDrunk, 0, opDrunk")
-        if HardMode then
+        if HardMode or InsaneMode then
             if beat%4 == 0 then
                 ease(time, 1 ,'quadOut', '45, pAngle, -100, bfX')
                 ease(time, 1 ,'quadOut', '-45, oAngle, 100, opX')
@@ -349,9 +349,9 @@ function easeSetup()
         0, protate,
         0, orotate
     ]])
-    if HardMode then ease(190, 2, "linear", "2, bfWiggle") end
+    if HardMode or InsaneMode then ease(190, 2, "linear", "2, bfWiggle") end
     ease(210, 4, "quadOut", "0, opY, 0, bfY")
-    if HardMode then ease(320, 2, "linear", "0, bfWiggle") end
+    if HardMode or InsaneMode then ease(320, 2, "linear", "0, bfWiggle") end
     set(320, "0, stealthOP, 0, stealthBF, 0, opSwap, 0, opTipZ, 0, opTipsy, 0, bfTipZ, 0, bfTipsy")
     for beat = 0, (4*16)-1 do
         local time = 320 + beat
@@ -382,7 +382,7 @@ function easeSetup()
             ]])
         end
     end
-    if HardMode then
+    if HardMode or InsaneMode then
         for beat = 0, (4*8)-1 do
             local time = 384 + beat
             local inten = 2*(beat%2==0 and 0.5 or -0.5)
