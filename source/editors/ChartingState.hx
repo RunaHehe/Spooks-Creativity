@@ -254,6 +254,7 @@ class ChartingState extends MusicBeatState
 	var oppVoicesVol:Float = 1;
 	override function create()
 	{
+		FlxG.stage.window.title = "FNF: Spook's Creativity V1 | Chart Editor";
 		//Toolkit.init();
 		vocalKeybinds = [
 			ClientPrefs.copyKey(ClientPrefs.keyBinds.get('vocal_aa')),

@@ -175,7 +175,7 @@ function onCreatePost()
     if isDAX then
         makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
         makeText({tag = "opponentName", text = "Annoying User", cam = "camBDiscord", width = tw, color = "0dce3a"})
-        makeSpr({tag = "opponent", image = profiles.."aacannoyer", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+        makeSpr({tag = "opponent", image = profiles.."offline/aacannoyer", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
         makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "69ff6a"})

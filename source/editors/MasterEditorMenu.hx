@@ -33,6 +33,7 @@ class MasterEditorMenu extends MusicBeatState
 
 	override function create()
 	{
+		FlxG.stage.window.title = "FNF: Spook's Creativity V1 | Master Editor";
 		FlxG.camera.bgColor = FlxColor.BLACK;
 		#if desktop
 		// Updating Discord Rich Presence

@@ -1326,6 +1326,9 @@ class PlayState extends MusicBeatState
 		callOnLuas('onCreatePost', []);
 
 		super.create();
+		
+		var formattedSongName = formatSongName(songName);
+		FlxG.stage.window.title = "FNF: Spook's Creativity V1 | " + formattedSongName;
 
 		cacheCountdown();
 		cachePopUpScore();
@@ -1345,6 +1348,19 @@ class PlayState extends MusicBeatState
 		Paths.clearUnusedMemory();
 
 		CustomFadeTransition.nextCamera = camOther;
+	}
+
+	private function formatSongName(name:String):String {
+		var spaced = name.split("_").join(" ");
+		spaced = spaced.split("-").join(" ");
+
+		var words = spaced.split(" ");
+		for (i in 0...words.length) {
+			if (words[i].length > 0) {
+				words[i] = words[i].charAt(0).toUpperCase() + words[i].substr(1).toLowerCase();
+			}
+		}
+		return words.join(" ");
 	}
 
 	public var scoreTxt:FlxText;

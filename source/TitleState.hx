@@ -130,6 +130,7 @@ class TitleState extends MusicBeatState
 
 	override public function create():Void
 	{
+		FlxG.stage.window.title = "FNF: Spook's Creativity V1 | Title";
 		Paths.clearStoredMemory();
 		Paths.clearUnusedMemory();
 
@@ -529,6 +530,7 @@ class TitleState extends MusicBeatState
 					}
 					else
 					{
+						FlxG.stage.window.title = "FNF: Spook's Creativity V1 | Main Menu";
 						MusicBeatState.switchState(new MainMenuStateAmmar());
 					}
 

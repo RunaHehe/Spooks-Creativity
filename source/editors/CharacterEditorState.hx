@@ -80,6 +80,7 @@ class CharacterEditorState extends MusicBeatState
 
 	override function create()
 	{
+		FlxG.stage.window.title = "FNF: Spook's Creativity V1 | Character Editor";
 		//FlxG.sound.playMusic(Paths.music('breakfast'), 0.5);
 
 		camEditor = new FlxCamera();

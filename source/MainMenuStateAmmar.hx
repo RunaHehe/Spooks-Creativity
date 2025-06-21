@@ -276,7 +276,7 @@ class MainMenuStateAmmar extends MusicBeatState
 
     override function create()
     {
-
+		FlxG.stage.window.title = "FNF: Spook's Creativity V1 | Main Menu";
         #if MODS_ALLOWED
 		Paths.pushGlobalMods();
 		#end
