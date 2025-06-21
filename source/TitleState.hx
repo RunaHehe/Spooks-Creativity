@@ -647,65 +647,7 @@ class TitleState extends MusicBeatState
 			switch (curBeat)
 			{
 				case 1:
-					// //FlxG.sound.music.stop();
-					// FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
-					// FlxG.sound.music.fadeIn(4, 0, 0.7);
-					// if (video != null) {
-					// 	video.play();
-					// 	video.alpha = 1;
-					// }
-					/*case 2:
-							#if PSYCH_WATERMARKS
-							createCoolText(['Unique Mod'], 40);
-							#else
-							createCoolText(['Yeah']);
-							#end
-						// credTextShit.visible = true;
-						case 4:
-							addMoreText('An Ammar', 40);
-						// credTextShit.text += '\npresent...';
-						// credTextShit.addText();
-						case 5:
-							deleteCoolText();
-						// credTextShit.visible = false;
-						// credTextShit.text = 'In association \nwith';
-						// credTextShit.screenCenter();
-						case 6:
-							createCoolText(['Check out'], -40);
-						case 8:
-							addMoreText('my YT', -40);
-							ngSpr.visible = true;
-						// credTextShit.text += '\nNewgrounds';
-						case 9:
-							deleteCoolText();
-							ngSpr.visible = false;
-						// credTextShit.visible = false;
-
-						// credTextShit.text = 'Shoutouts Tom Fulp';
-						// credTextShit.screenCenter();
-						case 10:
-							createCoolText([curWacky[0]]);
-						// credTextShit.visible = true;
-						case 12:
-							addMoreText(curWacky[1]);
-						// credTextShit.text += '\nlmao';
-						case 13:
-							deleteCoolText();
-						// credTextShit.visible = false;
-						// credTextShit.text = "Friday";
-						// credTextShit.screenCenter(); */
-				case 28:
-					createCoolText(['FNF']);
-				// credTextShit.visible = true;
-				case 29:
-					addMoreText('Spooks');
-				// credTextShit.text += '\nNight';
-				case 30:
-					addMoreText('Creativity'); // credTextShit.text += '\nFunkin';
-
-				case 31:
-					addMoreText('V1'); // credTextShit.text += '\nFunkin';
-
+					//haha meow
 				case 32:
 					skipIntro();
 					FlxG.camera.flash(FlxColor.WHITE, 4);
