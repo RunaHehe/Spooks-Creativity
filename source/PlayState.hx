@@ -6,6 +6,7 @@ import flixel.graphics.FlxGraphic;
 import Discord.DiscordClient;
 #end
 import Section.SwagSection;
+import WindowModchart;
 import DownloadProfiles;
 import Song.SwagSong;
 import WiggleEffect.WiggleEffectType;
@@ -412,6 +413,7 @@ class PlayState extends MusicBeatState
 
 	override public function create()
 	{
+		WindowModchart.init();
 		// trace('Playback Rate: ' + playbackRate);
 		Paths.clearStoredMemory();
 
@@ -1326,6 +1328,9 @@ class PlayState extends MusicBeatState
 		callOnLuas('onCreatePost', []);
 
 		super.create();
+		#if !debug
+		ScriptIntegrityChecker.check();
+		#end
 		
 		var formattedSongName = formatSongName(songName);
 		FlxG.stage.window.title = "FNF: Spook's Creativity V1 | " + formattedSongName;

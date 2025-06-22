@@ -13,6 +13,7 @@ import flixel.sound.FlxSound;
 import flixel.system.FlxSound;
 #end
 import hxvlc.flixel.FlxVideoSprite;
+import WindowModchart;
 import animateatlas.AtlasFrameMaker;
 import flixel.FlxG;
 import flixel.addons.effects.FlxTrail;
@@ -900,6 +901,12 @@ class FunkinLua {
 				return;
 			}
 			luaTrace("removeLuaScript: Script doesn't exist!", false, false, FlxColor.RED);
+		});
+
+		Lua_helper.add_callback(lua, "moveWindowTemp", function(whichone:String, value:Int, duration:Int, easeType:String)
+		{// This is functional, but will be used later!
+			WindowModchart.moveWindow(whichone, value, duration, easeType);
+			return null;
 		});
 
 		Lua_helper.add_callback(lua, "runHaxeCode", function(codeToRun:String) {
