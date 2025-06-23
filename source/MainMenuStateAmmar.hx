@@ -123,6 +123,7 @@ class MainMenuStateAmmar extends MusicBeatState
 
     public static var songsList:Array<Map<String, Dynamic>> = [
         //['song' => '' ,'icon' => "", 'desc' => ""]
+        ['song' => 'Tutorial', 'icon' => "", "week" => "Beginning"],
         ['song' => 'Discord Annoyer'   ,'icon' => ""            , 'week' => "Discord Annoyer"],
         ['song' => 'Shut Up'              ,'icon' => ""            , 'week' => "Discord Annoyer"],
         ['song' => 'Depression'           ,'icon' => ""            , 'week' => "Discord Annoyer"],
@@ -147,6 +148,7 @@ class MainMenuStateAmmar extends MusicBeatState
         ['song' => 'Note Nova'    ,'icon' => ""            , 'week' => "Ammar Showdown" , 'unlocked' => ['Programming An Ammar', 'Identity Crisis', 'Note Nova'], 'hidden' => true]
     ];
     var songsDifficulty:Map<String, Array<Int>> = [
+        'Tutorial' => [1, 4, 6, 12],
         'Discord Annoyer'    => [1, 2, 2, 2],
         'Shut Up'            => [3, 4, 7, 7],
         'Moderator'         => [4, 5, 6, 8],

@@ -413,7 +413,6 @@ class PlayState extends MusicBeatState
 
 	override public function create()
 	{
-		WindowModchart.init();
 		// trace('Playback Rate: ' + playbackRate);
 		Paths.clearStoredMemory();
 
@@ -1322,6 +1321,7 @@ class PlayState extends MusicBeatState
 			FlxG.stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
 			FlxG.stage.addEventListener(KeyboardEvent.KEY_UP, onKeyRelease);
 		}
+		WindowModchart.init();
 		#if MODCHARTS_EDWHAK
 		ModchartFuncs.loadLuaFunctions();
 		#end
