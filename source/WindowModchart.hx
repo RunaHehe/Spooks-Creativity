@@ -38,36 +38,8 @@ class WindowModchart
 		trace(" ");
     }
 
-	function create() // unused
-	{
-		OGx = Lib.application.window.x;
-		OGy = Lib.application.window.y;
-		OGwidth = Lib.application.window.width;
-		OGheight = Lib.application.window.height;
-		fullscreen = Lib.application.window.fullscreen;
-
-		if (traceAllow)
-		{
-			trace(" ");
-			trace("--- WINDOW MODCHART ---");
-			trace("Window X: " + OGx);
-			trace("Window Y: " + OGy);
-			trace("Window Width: " + OGwidth);
-			trace("Window Height: " + OGheight);
-			trace("Window Fullscreen: " + fullscreen);
-			trace("-----------------------");
-			trace(" ");
-		}
-	}
-
 	public static function moveWindow(whichone:String, value:Int, duration:Int, easeType:String)
 	{
-		OGx = Lib.application.window.x;
-		OGy = Lib.application.window.y;
-		OGwidth = Lib.application.window.width;
-		OGheight = Lib.application.window.height;
-		fullscreen = Lib.application.window.fullscreen;
-
         var easeFunc = easeFromString(easeType);
         switch(whichone)
         {
@@ -81,12 +53,6 @@ class WindowModchart
 
 	public static function setWindow(whichone:String, value:Int)
 	{
-		OGx = Lib.application.window.x;
-		OGy = Lib.application.window.y;
-		OGwidth = Lib.application.window.width;
-		OGheight = Lib.application.window.height;
-		fullscreen = Lib.application.window.fullscreen;
-
 		if (whichone == "x")
 		{
 			Lib.application.window.x = value;
@@ -107,12 +73,6 @@ class WindowModchart
 
 	public static function resetWindow(whichone:String)
 	{
-		OGx = Lib.application.window.x;
-		OGy = Lib.application.window.y;
-		OGwidth = Lib.application.window.width;
-		OGheight = Lib.application.window.height;
-		fullscreen = Lib.application.window.fullscreen;
-
 		if (whichone == "x")
 		{
 			Lib.application.window.x = OGx;
