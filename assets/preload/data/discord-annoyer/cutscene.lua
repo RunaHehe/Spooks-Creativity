@@ -1,17 +1,17 @@
-playVideo = true
-playDialouge = false
+playVideo = true;
+playDialouge = false;
 
 function onStartCountdown()
 	if isStoryMode and not seenCutscene then
 		if playVideo then
 			if HardMode then
-				startVideo('Annoying Cutscene HARD') -- hard cutscene
+				startVideo('Annoying Cutscene HARD'); -- hard cutscene
 			else
-				startVideo('Annoying Cutscene') -- normal cutscene
+				startVideo('Annoying Cutscene'); -- normal cutscene
 			end
-			playVideo = false
-			return Function_Stop -- prevents song from starting naturally
+			playVideo = false;
+			return Function_Stop; -- prevents song from starting naturally
 		end
 	end
-	return Function_Continue -- played the video, song can start :3
+	return Function_Continue; -- played the video, song can start :3
 end
