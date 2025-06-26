@@ -2013,8 +2013,6 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown():Void
 	{
-		generateStaticArrows(0);
-		generateStaticArrows(1);
 		if (startedCountdown)
 		{
 			callOnLuas('onStartCountdown', []);
@@ -2027,6 +2025,9 @@ class PlayState extends MusicBeatState
 		{
 			if (skipCountdown || startOnTime > 0)
 				skipArrowStartTween = true;
+
+			generateStaticArrows(0);
+			generateStaticArrows(1);
 
 			for (i in 0...playerStrums.length)
 			{
