@@ -105,6 +105,8 @@ class Main extends Sprite
 			gameWidth = Math.ceil(stageWidth / zoom);
 			gameHeight = Math.ceil(stageHeight / zoom);
 		}
+
+		funkin.backend.system.Logs.init();
 	
 		ClientPrefs.loadDefaultKeys();
 		addChild(new GameMain(gameWidth, gameHeight, #if (mobile && MODS_ALLOWED) CopyState.checkExistingFiles() ? initialState : CopyState #else initialState #end, framerate, framerate, skipSplash, startFullscreen));
