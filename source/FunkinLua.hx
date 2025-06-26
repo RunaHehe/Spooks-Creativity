@@ -3258,8 +3258,12 @@ class FunkinLua {
 			if (status != Lua.LUA_OK) {
 				var error:String = getErrorMessage(status);
 				luaTrace("ERROR (" + func + "): " + error, false, false, ERROR);
+				return Function_Continue;
 			}
-			return Function_Continue;
+			var result:Dynamic = cast Convert.fromLua(lua, -1);
+			if (result == null) result = Function_Continue;
+			Lua.pop(lua, 1);
+			return result;
 		}
 		catch (e:Dynamic) {
 			trace(e);
