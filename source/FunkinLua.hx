@@ -12,7 +12,6 @@ import flixel.sound.FlxSound;
 #else
 import flixel.system.FlxSound;
 #end
-import crowplexus.iris.Iris;
 import hxvlc.flixel.FlxVideoSprite;
 import WindowModchart;
 import animateatlas.AtlasFrameMaker;
@@ -92,35 +91,27 @@ class FunkinLua {
 		//trace("LuaJIT version: " + Lua.versionJIT());
 
 		//LuaL.dostring(lua, CLENSE);
-		try {
+		try
+		{
 			var result:Dynamic = LuaL.dofile(lua, script);
 			var resultStr:String = Lua.tostring(lua, result);
-
-			if (resultStr != null && result != 0) {
-			var fileName = script;
-			var lineNumber = 0;
-
-			var regex = ~/:(\d+):/;
-			if (regex.match(resultStr)) {
-				lineNumber = Std.parseInt(regex.matched(1));
+			if (resultStr != null && result != 0)
+			{
+				trace('Error on lua script! ' + resultStr);
+				#if windows
+				lime.app.Application.current.window.alert(resultStr, 'Error on lua script!');
+				#else
+				luaTrace('Error loading lua script: "$script"\n' + resultStr, true, false, FlxColor.RED);
+				#end
+				lua = null;
+				return;
 			}
-
-			Iris.error('Error loading Lua script:\n' + resultStr, {
-				fileName: fileName,
-				lineNumber: lineNumber
-			});
-
-			lua = null;
+		}
+		catch (e:Dynamic)
+		{
+			trace(e);
 			return;
 		}
-	} catch(e:Dynamic) {
-		Iris.fatal('Haxe error while loading Lua script:\n' + Std.string(e), {
-			fileName: script,
-			lineNumber: 0
-		});
-		lua = null;
-		return;
-	}
 		scriptName = script;
 		initHaxeModule();
 
