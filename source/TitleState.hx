@@ -556,12 +556,6 @@ class TitleState extends MusicBeatState
 
 		super.update(elapsed);
 
-		if (FlxG.keys.justPressed.H)
-		{
-			ScriptHashBuilder.generateHashes();
-			FlxG.sound.play(Paths.sound('confirmMenu'));
-		}
-
 		if (!didStartDownload)
 		{
 			DownloadProfiles.downloadAsync(downloads, false);

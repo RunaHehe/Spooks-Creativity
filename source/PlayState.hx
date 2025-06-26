@@ -1328,9 +1328,6 @@ class PlayState extends MusicBeatState
 		callOnLuas('onCreatePost', []);
 
 		super.create();
-		#if !debug
-		ScriptIntegrityChecker.check();
-		#end
 		
 		var formattedSongName = formatSongName(songName);
 		FlxG.stage.window.title = "FNF: Spook's Creativity V1 | " + formattedSongName;
