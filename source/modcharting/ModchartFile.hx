@@ -416,7 +416,8 @@ class CustomModifierScript
         #if LEATHER
         interp.variables.set('mod', Modifier); //the game crashes without this???????? what??????????? -- fue glow
         #end
-
+        
+        interp.variables.set('FlxAngle', flixel.math.FlxAngle);
         interp.variables.set('Math', Math);
         interp.variables.set('PlayfieldRenderer', PlayfieldRenderer);
         interp.variables.set('ModchartUtil', ModchartUtil);
