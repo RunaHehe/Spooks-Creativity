@@ -124,10 +124,11 @@ class MainMenuStateAmmar extends MusicBeatState
     public static var songsList:Array<Map<String, Dynamic>> = [
         //['song' => '' ,'icon' => "", 'desc' => ""]
         ['song' => 'Tutorial', 'icon' => "", "week" => "Beginning"],
-        ['song' => 'Discord Annoyer'   ,'icon' => ""            , 'week' => "Discord Annoyer"],
+        
+        ['song' => 'Discord Annoyer'   ,'icon' => "spook"            , 'week' => "Discord Annoyer"],
         ['song' => 'Shut Up'              ,'icon' => ""            , 'week' => "Discord Annoyer"],
-        ['song' => 'Depression'           ,'icon' => ""            , 'week' => "Discord Annoyer"],
-        ['song' => 'Moderator'          ,'icon' => ""            , 'week' => "Discord Annoyer", 'unlocked' => ['Discord Annoyer', 'Shut Up', 'Depression', 'Moderator',]],
+        ['song' => 'Moderator'           ,'icon' => ""            , 'week' => "Discord Annoyer"],
+        ['song' => 'Depression'          ,'icon' => ""            , 'week' => "Discord Annoyer", 'unlocked' => ['Discord Annoyer', 'Shut Up', 'Moderator', 'Depression',]],
 
         ['song' => 'Hate Comment'        ,'icon' => ""           , 'week' => "Hating Problem"],
         ['song' => 'Twitter Argument'   ,'icon' => ""            , 'week' => "Hating Problem"],
