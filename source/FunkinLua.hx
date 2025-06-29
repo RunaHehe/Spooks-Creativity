@@ -3175,7 +3175,7 @@ class FunkinLua {
 					color = FlxColor.WHITE;
 			}
 			PlayState.instance.addTextToDebug(text, color);
-			trace(text, level);
+			Logs.traceNew(text, level);
 		}
 		#end
 	}

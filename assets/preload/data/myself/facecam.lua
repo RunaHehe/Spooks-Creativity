@@ -3,7 +3,6 @@ function onCreatePost()
     addHaxeLibrary('FlxCamera', 'flixel')
     luaDebugMode = true
 
-
     runHaxeCode([[
         camNotes = new FlxCamera();
         camNotes.bgColor = 0x00;
@@ -27,17 +26,8 @@ function onCreatePost()
         setVar('camNotes', camNotes);
         setVar('camNotesFake', camNotesFake);
     ]])
-
-    if Modchart then
-        runHaxeCode([[
-            
-            game.playfieldRenderer.cameras = [camNotes, camNotesFake];
-
-        ]])
-    end
-
     setProperty("camNotesFake.visible", false)
-    
+
 end
 
 function onUpdatePost(elapsed)
