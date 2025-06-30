@@ -1,9 +1,13 @@
+local downscr
+
 function onCountdownStarted()
     if HardMode then
         setProperty('spawnTime', 4000)
     else
         setProperty('spawnTime', 3000)
     end
+
+    downscr = downscroll and -1 or 1
 end
 
 function onCreatePost()
@@ -653,12 +657,12 @@ function onUpdate(elapsed)
             setProperty("camNotesFake.visible", true)
         end
         if curStep >= 252 and curStep <= 380 then
-            setProperty("camNotes.y", ((curDecBeat % 4) / 4) * 720)
-            setProperty("camNotesFake.y", -720 + ((curDecBeat % 4) / 4) * 720)
+            setProperty("camNotes.y", (((curDecBeat % 4) / 4) * 720)* downscr)
+            setProperty("camNotesFake.y", (-720 + ((curDecBeat % 4) / 4) * 720)*downscr)
         end
         if curStep == 380 then
             doTweenY("camNotes", "camNotes", 0, 0.5, "quadIn")
-            setProperty("camNotesFake.y", -720)
+            setProperty("camNotesFake.y", -720 * downscr)
             setProperty("camNotesFake.visible", false)
         end
         if curStep == 408 then
