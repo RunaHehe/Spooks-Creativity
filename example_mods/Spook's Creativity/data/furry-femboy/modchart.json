@@ -55,6 +55,27 @@
 			"",
 			-1,
 			-1
+		],
+		[
+			"wiggle",
+			"wiggle",
+			"",
+			-1,
+			-1
+		],
+		[
+			"bfWiggle",
+			"wiggle",
+			"player",
+			-1,
+			-1
+		],
+		[
+			"dadWiggle",
+			"wiggle",
+			"opponent",
+			-1,
+			-1
 		]
 	],
 	"playfields": 1,

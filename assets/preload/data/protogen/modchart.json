@@ -139,6 +139,13 @@
 			"player",
 			-1,
 			-1
+		],
+		[
+			"wiggle",
+			"wiggle",
+			"",
+			-1,
+			-1
 		]
 	],
 	"playfields": 1,

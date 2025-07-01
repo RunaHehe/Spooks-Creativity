@@ -31,7 +31,7 @@ function setupMods()
     startMod("bfRe", "ReverseModifier", "player", -1)
     -- both mods
     startMod("sudden", "SuddenModifier", "", -1)
-    startMod("wiggle", "InvertSineModifier", "", -1)
+    -- startMod("wiggle", "InvertSineModifier", "", -1)
     startMod("xmod", "SpeedModifier", "", -1)
     startMod("tipsy", "TipsyYModifier", "", -1)
     startMod("drunk", "DrunkYModifier", "", -1)
@@ -82,11 +82,7 @@ function setupEvents()
         local time = 32 + beat
 
         if time < 46 then
-            if beat % 2 == 0 then
-                ease(time, 0.5, "linear", "2, beat")
-            else
-                ease(time, 0.5, "linear", "-2, beat")
-            end
+            ease(time, 0.5, "linear", "2, beat")
         end
     end
     set(46, "0, beat")
@@ -194,7 +190,6 @@ function setupEvents()
                     ease(time, 1, "quadOut", "0, centerRotate")
                     ease(time, 0.5, "", "0, beat")
                 else
-                    ease(time, 0.5, "", "-2, beat")
                     ease(time, 1, "quadOut", "-45, centerRotate")
                 end
             end
@@ -347,8 +342,6 @@ function setupEvents()
 
         if beat % 2 == 0 then
             ease(time, 0.5, "", '2, beat')
-        else
-            ease(time, 0.5, "", '-2, beat')
         end
     end
     for beat = 0, (4 * 16) - 1 do

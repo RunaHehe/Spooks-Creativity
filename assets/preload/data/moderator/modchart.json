@@ -76,6 +76,27 @@
             "lane",
             -1,
             3
+        ],
+        [
+            "wiggle",
+            "wiggle",
+            "",
+            -1,
+            -1
+        ],
+        [
+            "opWiggle",
+            "wiggle",
+            "opponent",
+            -1,
+            -1
+        ],
+        [
+            "bfWiggle",
+            "wiggle",
+            "player",
+            -1,
+            -1
         ]
 	],
 	"events": [],
