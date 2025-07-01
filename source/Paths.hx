@@ -141,6 +141,8 @@ class Paths
 		return getPreloadPath(file);
 	}
 
+	public static function cne_getPath(file:String, ?library:String) return library != null ? '$library:mods/$library/$file' : 'mods/$file';
+
 	static public function getLibraryPath(file:String, library = "preload")
 	{
 		return if (library == "preload" || library == "default") getPreloadPath(file); else getLibraryPathForce(file, library);
@@ -179,11 +181,12 @@ class Paths
 
 	inline static public function shaderFragment(key:String, ?library:String)
 	{
-		return getPath('shaders/$key.frag', TEXT, library);
+		return cne_getPath('shaders/$key.frag', library);
 	}
+
 	inline static public function shaderVertex(key:String, ?library:String)
 	{
-		return getPath('shaders/$key.vert', TEXT, library);
+		return cne_getPath('shaders/$key.vert', library);
 	}
 	inline static public function lua(key:String, ?library:String)
 	{
