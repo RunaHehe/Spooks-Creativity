@@ -4,6 +4,7 @@ import haxe.Exception;
 import openfl.Assets;
 import funkin.backend.scripting.hscript.IHScriptCustomBehaviour;
 import funkin.backend.shaders.FunkinShader;
+import funkin.backend.system.Logs;
 
 class CustomShader extends FunkinShader {
 	public var path:String = "";
