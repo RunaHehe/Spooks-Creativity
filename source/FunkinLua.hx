@@ -40,6 +40,8 @@ import flixel.addons.transition.FlxTransitionableState;
 import flixel.system.FlxAssets.FlxShader;
 
 import funkin.backend.system.Logs;
+import funkin.backend.shaders.CustomShader;
+import haxe.Exception;
 
 #if !flash
 import flixel.addons.display.FlxRuntimeShader;
@@ -481,12 +483,33 @@ class FunkinLua {
 			luaTrace("setShaderIntArray: Platform unsupported for Runtime Shaders!", false, false, ERROR);
 			#end
 		});
-		Lua_helper.add_callback(lua, "setShaderFloat", function(obj:String, prop:String, value:Float) {
+		Lua_helper.add_callback(lua, "setShaderFloat", function(obj:String, prop:String, value:Float)
+		{
 			#if (!flash && MODS_ALLOWED && sys)
 			var shader:FlxRuntimeShader = getShader(obj);
-			if(shader == null) return;
+			if (shader == null)
+				return;
 
-			shader.setFloat(prop, value);
+			if (Std.isOfType(shader, CustomShader))
+			{
+				var custom:CustomShader = cast shader;
+				if (custom.data == null)
+					return;
+				try
+				{
+					var uniform = custom.data.get(prop);
+					if (uniform != null)
+						uniform.value = [value];
+				}
+				catch (e:Exception)
+				{
+					luaTrace('Failed to set shader float "$prop": ${e.message}', false, false, WARNING);
+				}
+			}
+			else
+			{
+				luaTrace("Shader is not a CustomShader instance!", false, false, WARNING);
+			}
 			#else
 			luaTrace("setShaderFloat: Platform unsupported for Runtime Shaders!", false, false, ERROR);
 			#end
