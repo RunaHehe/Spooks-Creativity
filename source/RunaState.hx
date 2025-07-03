@@ -93,7 +93,7 @@ class RunaState extends MusicBeatState
 			menuItem.y += (i * spacing) + 85;
 			if (shit == "achievements")
 			{
-				menuItem.x += defaultX + 900;
+				menuItem.x = FlxG.width/2+200;
 				menuItem.y = defaultY;
 			}
 			items.add(menuItem);
@@ -171,7 +171,7 @@ class RunaState extends MusicBeatState
 		if (mouseSelect > 0)
 		{
 			charactEEEEEEEEEErs.loadGraphic(Paths.image(charpath + thecharrrractersssssssGAYYY[mouseSelect - 1]));
-			// charactEEEEEEEEEErs.y = 10*Math.sin(charactEEEEEEEEEErs.y); buggy as hell
+			// charactEEEEEEEEEErs.y = 10*Math.sin(charactEEEEEEEEEErs.y); //buggy as hell
 		}
 	}
 
