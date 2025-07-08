@@ -6,10 +6,14 @@ import openfl.display.PNGEncoderOptions;
 import openfl.utils.ByteArray;
 import sys.FileSystem;
 import sys.io.File;
+import lime.system.ThreadPool;
 
 class DownloadProfiles
 {
-	public static function downloadAsync(userData:Array<Dynamic>, forceDownload:Bool = false)
+	public static var tp:ThreadPool;
+	// static var numThreads:Int;
+
+	public static function downloadAsync(userData:Array<Dynamic>, forceDownload:Bool = true, maxThreads:Int)
 	{
 		trace('Downloading avatars...');
 
@@ -17,34 +21,31 @@ class DownloadProfiles
 		if (!FileSystem.exists(folderPath))
 			FileSystem.createDirectory(folderPath);
 
+		tp = new ThreadPool(0, maxThreads);
+
 		for (data in userData)
 		{
 			if (data[0] == '0')
-					continue;
-			sys.thread.Thread.create(() ->
-			{
-				var imagePath:String = getImagePath(data[1]);
+				continue;
+			var imagePath:String = getImagePath(data[1]);
 
-				if (!FileSystem.exists(imagePath) || forceDownload)
-				{
-					downloadPFPAsync(data[0], data[1], data[2]);
-				}
-			});
+			if (!FileSystem.exists(imagePath) || forceDownload)
+			{
+				tp.queue((_:Dynamic) -> downloadPFPAsync(data[0], data[1], data[2]));
+
+			}
 		}
+		tp.onComplete.add((_) ->
+		{
+			trace('downloads complete i guess');
+		});
 	}
 
 	// downloads the profiles and... stuff.
-	// you not even sure what it does
-	// yesiam
-	// no
-	// yes
-	// no
-	// yes
-	// i love u
-	// stop making me blush
 
 	static function downloadPFPAsync(userId:String, fileName:String, spriteName:String)
 	{
+		trace("hello! this trace is to tell you that this is being called correctly");
 		var userInfoUrl = "https://profiledownloaders.vercel.app/v1/user/" + userId;
 		var http = new Http(userInfoUrl);
 

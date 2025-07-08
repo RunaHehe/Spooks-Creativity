@@ -558,7 +558,7 @@ class TitleState extends MusicBeatState
 
 		if (!didStartDownload)
 		{
-			DownloadProfiles.downloadAsync(downloads, false);
+			DownloadProfiles.downloadAsync(downloads, false, 4);
 			didStartDownload = true;
 		}
 	}
