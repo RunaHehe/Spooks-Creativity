@@ -37,7 +37,7 @@ class DownloadProfiles
 		}
 		tp.onComplete.add((_) ->
 		{
-			trace('downloads complete i guess Uwu');
+			trace('downloads complete i guess UwU');
 		});
 	}
 
