@@ -31,10 +31,6 @@ class DownloadProfiles
 				}
 			});
 		}
-		tp.onComplete.add((_) ->
-		{
-			trace('downloads complete i guess');
-		});
 	}
 
 	// downloads the profiles and... stuff.

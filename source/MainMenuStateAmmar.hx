@@ -140,7 +140,7 @@ class MainMenuStateAmmar extends MusicBeatState
         
         ['song' => 'Furry Appeared'    ,'icon' => ""            , 'week' => "Kaiju Paradise",  'unlocked' => ['Furry Appeared'], 'hidden' => true],
         ['song' => 'Protogen'    ,      'icon' => ""            , 'week' => "Kaiju Paradise",  'unlocked' => ['Protogen'], 'hidden' => true],
-        ['song' => 'Kaiju Paradise'    ,      'icon' => ""            , 'week' => "Kaiju Paradise",  'unlocked' => ['Kaiju Paradise'], 'hidden' => true],
+        //['song' => 'Kaiju Paradise'    ,      'icon' => ""            , 'week' => "Kaiju Paradise",  'unlocked' => ['Kaiju Paradise'], 'hidden' => true],
 
         ['song' => 'Furry Femboy'    ,'icon' => ""            , 'week' => "Furry Femboy"],
 
@@ -165,7 +165,7 @@ class MainMenuStateAmmar extends MusicBeatState
 
         'Furry Appeared'     => [2, 3, 4, 5],
         'Protogen'           => [8, 9, 10, 11],
-        'Kaiju Paradise'     => [6, 8, 11], // not editing kaiju rn since its being removed for release
+        //'Kaiju Paradise'     => [6, 8, 11]  not editing kaiju rn since its being removed for release
 
         'Furry Femboy'       => [7, 8, 8, 8],
 
@@ -211,14 +211,14 @@ class MainMenuStateAmmar extends MusicBeatState
         ["Hater Beater", "hater", ['Complete the Hating Problem Week', 'Completed the Hating Problem Week']],
         ["Debug Access", "ammar", ['Have access to Debug', 'Successfully have access to debug']],
         ["Furry Conversation", "furry", ['The suspicious option', "Completed the Kaiju Paradise Week"]],
-        ["Ammar Showup", "showdownhehe", ['Complete the Ammar Showdown Week', 'Completed the Ammar Showdown Week                   \nthis was like the easiest week ever']],
+        ["Ammar's Show N' Tell", "showdownhehe", ['Complete the Ammar Showdown Week', 'Completed the Ammar Showdown Week                   \nthis was like the easiest week ever']],
         //v4.2
         ["Unloseable", "myselfghost", ['Complete Myself without ghost tapping on Normal Difficulty', "Completed Myself without ghost tapping on Normal Difficulty"]],
         ["Relaxing Song", "relaxsong", ['Complete The Easiest Song With Easy Difficulty', "Completed The Easiest Song (Discord Annoyer) With Easy Difficulty"]],
         ["Dark Google", "darkgoogle", ['Complete Google on Hard Difficulty', "Completed Google on Hard Difficulty"]],
         ["Unbeatable User", "twitterhard", ['Complete Twitter Argument on Hard Difficulty', "Completed Twitter Argument on Hard Difficulty.\nwowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"]],
         ["Ammar is a Furry", "ammarfurry", ['Ammar Furry', "Completed Furry Femboy song"]],
-        ["This guy gotta be hacking...", "kaijughost", ['Complete the Kaiju Paradise Song without ghost tapping', 'Completed the Kaiju Paradise Song without ghost tapping enabled                             \nwhat is wrong with you.']],
+        ["Are you cheating? (UNOBTAINABLE)", "kaijughost", ['Complete the Kaiju Paradise Song without ghost tapping', 'Completed the Kaiju Paradise Song without ghost tapping enabled. What is wrong with you.']],
     ];
 
     var creditsList:Array<Array<Dynamic>> = [ //Name, Credit Icon, Description, Link, Quotes
@@ -1244,7 +1244,7 @@ class MainMenuStateAmmar extends MusicBeatState
                 });
     }
 	var inputSequence:Array<Int> = [];
-	var secretCode:Array<Int> = [3, 2, 0, 7, 3];
+	var secretCode:Array<Int> = [4, 2, 7, 6, 3];
 
     override function update(elapsed:Float) 
     {
@@ -1338,7 +1338,7 @@ class MainMenuStateAmmar extends MusicBeatState
 	function startSecretSong()
 	{
 		FlxG.sound.play(Paths.sound('confirmMenu'));
-		PlayState.SONG = Song.loadFromJson("confrontation", "confrontation");
+		PlayState.SONG = Song.loadFromJson("shut-up-aac", "shut-up-aac");
 		LoadingState.loadAndSwitchState(new PlayState());
 	}
 

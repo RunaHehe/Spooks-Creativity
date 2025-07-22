@@ -6,6 +6,7 @@ import openfl.Lib;
 
 class WindowModchart
 {
+	//i think this is unused
 	public static var traceAllow = true;
 
 	public static var fullscreen:Bool = false;
