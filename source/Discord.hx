@@ -50,12 +50,12 @@ class DiscordClient
 		#if desktop
 		// check if cute mode is enabled
 		// stop peeking in the source code idiot
-		var SpookImageKey = ClientPrefs.cute ? 'cutelogo' : 'logo';
+		var RunaImageKey = ClientPrefs.cute ? 'cutelogo' : 'logo';
 
 		DiscordRpc.presence({
 			details: "In the Menus",
 			state: null,
-			largeImageKey: SpookImageKey,
+			largeImageKey: RunaImageKey,
 			largeImageText: "Psych Engine"
 		});
 		#end
@@ -98,12 +98,12 @@ class DiscordClient
 
 // guys love my autism when i stim :3
 // spook can you shut the fuck up
-		var SpookImageKey = ClientPrefs.cute ? 'cutelogo' : 'logo';
+		var RunaImageKey = ClientPrefs.cute ? 'cutelogo' : 'logo';
 
 		DiscordRpc.presence({
 			details: details,
 			state: state,
-			largeImageKey: SpookImageKey,
+			largeImageKey: RunaImageKey,
 			largeImageText: "Engine Version: " + MainMenuState.psychEngineVersion,
 			smallImageKey : smallImageKey,
 			// Obtained times are in milliseconds so they are divided so Discord can use it

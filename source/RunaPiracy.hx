@@ -51,3 +51,5 @@ class RunaPiracy extends FlxState
         }
     }
 }
+
+// i made this code when i sucked ass at haxe and im not going to remake it because im lazy asf lmao :3
