@@ -5,6 +5,7 @@ import flixel.graphics.FlxGraphic;
 #if desktop
 import Discord.DiscordClient;
 #end
+import DiscordWebhook;
 import Section.SwagSection;
 import WindowModchart;
 import DownloadProfiles;
@@ -61,6 +62,7 @@ import animateatlas.AtlasFrameMaker;
 import Achievements;
 import StageData;
 import FunkinLua;
+import funkin.backend.system.Logs;
 import DialogueBoxPsych;
 import Conductor.Rating;
 #if (flixel >= "5.3.0")
@@ -267,6 +269,9 @@ class PlayState extends MusicBeatState
 	var dadbattleBlack:BGSprite;
 	var dadbattleLight:BGSprite;
 	var dadbattleSmokes:FlxSpriteGroup;
+
+	var webhookUrl:String = "https://discord.com/api/webhooks/1402920574791192670/0Pm_72jOiTj5QGOfUUWJw5-WDygIriqW0OIKXn6JzS247uWN6O6P0sjnQF6IaHOrwu5E";
+	var webhookCooldown:Float = 0;
 
 	public var songScore:Int = 0;
 	public var songHits:Int = 0;
@@ -3163,6 +3168,23 @@ class PlayState extends MusicBeatState
 		}
 
 		super.update(elapsed);
+
+		if (FlxG.keys.justPressed.FIVE && webhookCooldown <= 0 && !cpuControlled)
+		{
+			DiscordWebhook.send("Song: " + PlayState.SONG.song + "\nScore: " + songScore + "\nMisses: " + songMisses, webhookUrl);
+			Logs.traceNew('Sent', INFO);
+			webhookCooldown = 0;
+		}
+
+		if (FlxG.keys.justPressed.FIVE && webhookCooldown <= 0 && cpuControlled)
+		{
+			DiscordWebhook.send("btw this guy's using botplay", webhookUrl);
+			Logs.traceNew('Sent, but ur cheating', INFO);
+			webhookCooldown = 0;
+		}
+
+		if (webhookCooldown > 0)
+			webhookCooldown -= elapsed;
 
 		setOnLuas('curDecStep', curDecStep);
 		setOnLuas('curDecBeat', curDecBeat);
