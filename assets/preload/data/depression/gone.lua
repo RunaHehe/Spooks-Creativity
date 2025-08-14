@@ -68,7 +68,6 @@ function onCreatePost()
     if shadersOption then
         initLuaShader("OldTV")
         initLuaShader("rain")
-        initLuaShader("Glitching")
 
         makeLuaSprite("oldTvEffect", "", 0, 0)
         makeLuaSprite("oldTVNoStatic")
@@ -84,17 +83,6 @@ function onCreatePost()
         makeLuaSprite("noiseAlphaHolder", nil, 1, 0)
         setProperty("noiseAlphaHolder.alpha", 0)
         addLuaSprite("noiseAlphaHolder", false)
-
-        setSpriteShader('opponentStrums.members[0]', 'Glitching')
-        setSpriteShader('opponentStrums.members[1]', 'Glitching')
-        setSpriteShader('opponentStrums.members[2]', 'Glitching')
-        setSpriteShader('opponentStrums.members[3]', 'Glitching')
-
-        setShaderFloat("opponentStrums.members[0]", "iTime", 0)
-        setShaderFloat("opponentStrums.members[1]", "iTime", 0)
-        setShaderFloat("opponentStrums.members[2]", "iTime", 0)
-        setShaderFloat("opponentStrums.members[3]", "iTime", 0)
-
     end
 
     makeLuaSprite('blackOverlay', '', 9, 0)
@@ -481,13 +469,6 @@ function onUpdate(elapsed)
         
         local currentNoise = getProperty("noiseAlphaHolder.x")
         setShaderFloat("oldTVNoStatic", "noiseAlpha", currentNoise)
-
-        if curBeat == 128 then
-            setShaderFloat("opponentStrums.members[0]", "iTime", os.clock()%100)
-            setShaderFloat("opponentStrums.members[1]", "iTime", os.clock()%100)
-            setShaderFloat("opponentStrums.members[2]", "iTime", os.clock()%100)
-            setShaderFloat("opponentStrums.members[3]", "iTime", os.clock()%100)
-        end
     end
     --now this where the magic come in
     for tag, tweenData in pairs(tweens) do
@@ -584,3 +565,16 @@ function doTweenVar(tag, object, endValue, duration)
 end
 
 ]]
+function onGhostTap(key)
+    local nearKey = false
+    for i = 0, getProperty('notes.length')-1 do
+        if getPropertyFromGroup('notes', i, 'mustPress') and not getPropertyFromGroup('notes', i, 'ignoreNote') and (getPropertyFromGroup('notes', i, 'strumTime') - getSongPosition()) <= 400 then
+            nearKey = true
+            break
+        end
+    end
+    if nearKey then
+        addHealth(-0.05 * healthLossMult)
+        addMisses(1)
+    end
+end
