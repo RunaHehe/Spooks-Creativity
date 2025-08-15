@@ -5,7 +5,6 @@ import flixel.graphics.FlxGraphic;
 #if desktop
 import Discord.DiscordClient;
 #end
-import DiscordWebhook;
 import Section.SwagSection;
 import WindowModchart;
 import DownloadProfiles;
@@ -3169,23 +3168,6 @@ class PlayState extends MusicBeatState
 
 		super.update(elapsed);
 
-		if (FlxG.keys.justPressed.FIVE && webhookCooldown <= 0 && !cpuControlled)
-		{
-			DiscordWebhook.send("Song: " + PlayState.SONG.song + "\nScore: " + songScore + "\nMisses: " + songMisses, webhookUrl);
-			Logs.traceNew('Sent', INFO);
-			webhookCooldown = 0;
-		}
-
-		if (FlxG.keys.justPressed.FIVE && webhookCooldown <= 0 && cpuControlled)
-		{
-			DiscordWebhook.send("btw this guy's using botplay", webhookUrl);
-			Logs.traceNew('Sent, but ur cheating', INFO);
-			webhookCooldown = 0;
-		}
-
-		if (webhookCooldown > 0)
-			webhookCooldown -= elapsed;
-
 		setOnLuas('curDecStep', curDecStep);
 		setOnLuas('curDecBeat', curDecBeat);
 		songScoreLerp = FlxMath.lerp(songScoreLerp, songScore, CoolUtil.boundTo(elapsed * 12 * playbackRate, 0, 1));
@@ -4002,6 +3984,39 @@ class PlayState extends MusicBeatState
 				{
 					songSpeedTween = FlxTween.tween(this, {songSpeed: newValue}, val2, {
 						ease: FlxEase.linear,
+						onComplete: function(twn:FlxTween)
+						{
+							songSpeedTween = null;
+						}
+					});
+				}
+
+			case 'CNE Scroll Change':
+				if (songSpeedTween != null)
+				{
+					songSpeedTween.cancel();
+					songSpeedTween = null;
+				}
+
+				var params:Array<String> = value1.split(',');
+				var finalScroll:Float = Std.parseFloat(params[0]);
+				var duration:Float = (params.length > 1) ? Std.parseFloat(params[1]) : 0;
+
+				if (Math.isNaN(finalScroll))
+					finalScroll = 1;
+				if (Math.isNaN(duration))
+					duration = 0;
+
+				var easeType:String = (value2 != null && value2 != '') ? value2 : 'linear';
+
+				if (duration <= 0)
+				{
+					songSpeed = finalScroll;
+				}
+				else
+				{
+					songSpeedTween = FlxTween.tween(this, {songSpeed: finalScroll}, (Conductor.stepCrochet / 1000) * duration, {
+						ease: FunkinLua.getFlxEaseByString(easeType),
 						onComplete: function(twn:FlxTween)
 						{
 							songSpeedTween = null;

@@ -113,7 +113,8 @@ class ChartingState extends MusicBeatState
 		['Change Scroll Speed', "Value 1: Scroll Speed Multiplier (1 is default)\nValue 2: Time it takes to change fully in seconds."],
 		['Set Property', "Value 1: Variable name\nValue 2: New value"],
 		
-		['Remove Message', "This is For Stages that has message mechanic\n\nValue 1: Side (0 = BF, 1 = OPPONENT)"]
+		['Remove Message', "This is For Stages that has message mechanic\n\nValue 1: Side (0 = BF, 1 = OPPONENT)"],
+		['CNE Scroll Change', "CNE's Scroll Speed Event but ported to Psych\n\nValue 1: Speed,Steps\n\nValue 2: Ease Type"]
 	];
 
 	var _file:FileReference;
