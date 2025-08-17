@@ -527,6 +527,7 @@ class TitleState extends MusicBeatState
 					if (FlxG.random.int(1, 1000000) == 1)
 					{
 						FlxG.switchState(new RunaPiracy());
+						FlxG.stage.window.title = "you thief.";
 					}
 					else
 					{
