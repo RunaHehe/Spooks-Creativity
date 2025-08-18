@@ -51,6 +51,8 @@ class Note extends #if MODCHARTS_EDWHAK FlxSkewedSprite #else FlxSprite #end
 	public var noteType(default, set):String = null;
 	public var endSustain:Bool = false;
 
+	public var isRoll:Bool = false;
+
 	public var eventName:String = '';
 	public var eventLength:Int = 0;
 	public var eventVal1:String = '';
@@ -175,6 +177,9 @@ class Note extends #if MODCHARTS_EDWHAK FlxSkewedSprite #else FlxSprite #end
 
 				case 'Hard Note':
 					colorSwap.brightness = -0.5;
+				
+				case 'Roll Note':
+					isRoll = true;
 			}
 			noteType = value;
 		}
