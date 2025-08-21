@@ -10,6 +10,9 @@ import flixel.input.mouse.FlxMouseEventManager;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.math.FlxMath;
 
+class FurryPlayMenu extends MusicBeatState
+{
+
 var bgpath = "runa/backgrou/";
 var buttonpath = "runa/furryplay/";
 
@@ -31,10 +34,10 @@ var NDWtween:FlxTween;
 var curSelect:Int = 0;
 var selectedSomething:Bool = false;
 
-var howMuchZoom:Int = 1.2;
+var howMuchZoom:Float = 1.2;
 var defaultZoom:Int = 1;
 
-function create() {
+override function create() {
     trace("loeded meowowowoowowowowowowowowowowoowowoowowoow :333333333");
     FlxG.mouse.visible = true;
 
@@ -69,14 +72,18 @@ function create() {
     buttons[2].x += 250;
 }
 
-function update(elapsed:Float) {
+override function update(elapsed:Float) {
+    super.update(elapsed);
+	if (controls.BACK)
+		FlxG.switchState(new TitleState());
+    
     if (!selectedSomething) {
         mouseHover(elapsed);
         if (FlxG.mouse.justReleased) mouseConfirm();
     }
 }
 
-function mouseHover(elapsed) {
+function mouseHover(elapsed:Float) {
     var mouseX = FlxG.mouse.x;
 	var mouseY = FlxG.mouse.y;
 
@@ -119,13 +126,9 @@ function mouseHover(elapsed) {
 function mouseConfirm() {
     if (curSelect > 0) {
         selectedSomething = true;
-        transition(curSelect);
         trace(curSelect);
     } else if (curSelect < 1) {
         trace("faggot bro,,, hover over something man,,,");
     }
 }
-
-var TRANS_Duration:Int = 2;
-var TRANS_Center:Bool = true;
-var TRANS_Ease:String = FlxEase.expoOut;
+}

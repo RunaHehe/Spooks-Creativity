@@ -196,7 +196,7 @@ class RunaState extends MusicBeatState
 			case "storymenu":
 				MusicBeatState.switchState(new MainMenuStateAmmar());
 			case "freeplay":
-				MusicBeatState.switchState(new RunaState());
+				MusicBeatState.switchState(new FurryPlayMenu());
 			case "settings":
 				MusicBeatState.switchState(new options.OptionsState());
 			case "achievements":
