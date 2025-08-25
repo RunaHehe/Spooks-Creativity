@@ -21,13 +21,8 @@ class FurryPlayMenu extends MusicBeatState
 	var bgggggggggggggggggggggggggggggggggggggggggggggggggggggg:FlxSprite;
 	var vinsomethingkillmyselfteehee:FlxSprite;
 
-	var discordAnnooyerWeek:FlxSprite;
-	var hatingWeek:FlxSprite;
-	var noDebugWeek:FlxSprite;
-
-	var DAWtween:FlxTween;
-	var HWtween:FlxTween;
-	var NDWtween:FlxTween;
+	var buttons:Array<String> = ["Discord Annoyer Week", "Hating Week", "No Debug Week"];
+	var buttonGrp:FlxTypedGroup<FlxSprite>;
 
 	var curSelect:Int = 0;
 	var selectedSomething:Bool = false;
@@ -46,27 +41,30 @@ class FurryPlayMenu extends MusicBeatState
 		vinsomethingkillmyselfteehee = new FlxSprite().loadGraphic(Paths.image(bgpath + "vignette"));
 		add(vinsomethingkillmyselfteehee);
 
-		discordAnnooyerWeek = new FlxSprite().loadGraphic(Paths.image(buttonpath + "Discord Annoyer Week"));
-		hatingWeek = new FlxSprite().loadGraphic(Paths.image(buttonpath + "Hating Week"));
-		noDebugWeek = new FlxSprite().loadGraphic(Paths.image(buttonpath + "No Debug Week"));
-		var buttons:Array<FlxSprite> = [discordAnnooyerWeek, hatingWeek, noDebugWeek];
+		buttonGrp = new FlxTypedGroup<FlxSprite>();
+		add(buttonGrp);
 
-		for (drugs in buttons)
+		// discordAnnooyerWeek = new FlxSprite().loadGraphic(Paths.image(buttonpath + "Discord Annoyer Week"));
+		// hatingWeek = new FlxSprite().loadGraphic(Paths.image(buttonpath + "Hating Week"));
+		// noDebugWeek = new FlxSprite().loadGraphic(Paths.image(buttonpath + "No Debug Week"));
+
+		for (drugs in 0...buttons.length)
 		{
-			drugs.antialiasing = true;
-			drugs.screenCenter();
-			drugs.scale.set(defaultZoom, defaultZoom);
-			drugs.updateHitbox();
-			add(drugs);
-		}
+			var shit = buttons[drugs];
+			var button:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image(buttonpath + shit));
+			button.antialiasing = true;
+			button.screenCenter();
+			button.scale.set(defaultZoom, defaultZoom);
+			button.updateHitbox();
+			button.ID = drugs;
+			buttonGrp.add(button);
 
-		for (meow in 0...3)
-		{
-			buttons[meow].y -= 100;
+			button.y -= 100;
+			if (shit == "Discord Annoyer Week")
+				button.x -= 250;
+			if (shit == "No Debug Week")
+				button.x += 250;
 		}
-
-		buttons[0].x -= 250;
-		buttons[2].x += 250;
 	}
 
 	override function update(elapsed:Float)
@@ -76,74 +74,38 @@ class FurryPlayMenu extends MusicBeatState
 			FlxG.switchState(new TitleState());
 
 		if (!selectedSomething)
-		{
-			mouseHover(elapsed);
-			if (FlxG.mouse.justReleased)
-				mouseConfirm();
+			mouseHover();
+	}
+
+	function mouseHover(){
+		for (i in buttonGrp){
+			if (FlxG.mouse.overlaps(i)){
+				i.scale.x = i.scale.x + (howMuchZoom - i.scale.x)/4;
+				i.scale.y = i.scale.y + (howMuchZoom - i.scale.y)/4;
+				if (FlxG.mouse.justPressed)
+					mouseConfirm(i.ID);
+			}else{
+				i.scale.x = i.scale.x + (defaultZoom - i.scale.x)/4;
+				i.scale.y = i.scale.y + (defaultZoom - i.scale.y)/4;
+			}
 		}
 	}
 
-	function mouseHover(elapsed:Float)
-	{
-		var mouseX = FlxG.mouse.x;
-		var mouseY = FlxG.mouse.y;
+	function mouseConfirm(week:Int){
+		selectedSomething = true;
+		var curWeek:String = buttons[week];
+		trace(curWeek);
+		FlxG.sound.play(Paths.sound("confirmMenu"));
 
-		// pov: lazy asf
-		var DAW:FlxSprite = discordAnnooyerWeek;
-		var HW:FlxSprite = hatingWeek;
-		var NDW:FlxSprite = noDebugWeek;
-
-		if (DAWtween != null)
-			DAWtween.cancel();
-		if (HWtween != null)
-			HWtween.cancel();
-		if (NDWtween != null)
-			NDWtween.cancel();
-
-		if (curSelect > 0)
-			curSelect = 0;
-
-		if (mouseX > DAW.x && mouseX < DAW.x + DAW.width && mouseY > DAW.y && mouseY < DAW.y + DAW.height)
-		{
-			DAWtween = FlxTween.tween(DAW, {"scale.x": howMuchZoom, "scale.y": howMuchZoom}, 10 * elapsed);
-			curSelect = 1;
-		}
-		else
-		{
-			DAWtween = FlxTween.tween(DAW, {"scale.x": defaultZoom, "scale.y": defaultZoom}, 10 * elapsed);
-		}
-
-		if (mouseX > HW.x && mouseX < HW.x + HW.width && mouseY > HW.y && mouseY < HW.y + HW.height)
-		{
-			HWtween = FlxTween.tween(HW, {"scale.x": howMuchZoom, "scale.y": howMuchZoom}, 10 * elapsed);
-			curSelect = 2;
-		}
-		else
-		{
-			HWtween = FlxTween.tween(HW, {"scale.x": defaultZoom, "scale.y": defaultZoom}, 10 * elapsed);
-		}
-
-		if (mouseX > NDW.x && mouseX < NDW.x + NDW.width && mouseY > NDW.y && mouseY < NDW.y + NDW.height)
-		{
-			NDWtween = FlxTween.tween(NDW, {"scale.x": howMuchZoom, "scale.y": howMuchZoom}, 10 * elapsed);
-			curSelect = 3;
-		}
-		else
-		{
-			NDWtween = FlxTween.tween(NDW, {"scale.x": defaultZoom, "scale.y": defaultZoom}, 10 * elapsed);
-		}
-	}
-
-	function mouseConfirm()
-	{
-		if (curSelect > 0)
-		{
-			selectedSomething = true;
-			trace(curSelect);
-		}
-		else if (curSelect < 1)
-		{
-			trace("faggot bro,,, hover over something man,,,");
-		}
+		buttonGrp.forEach(function(spr:FlxSprite){
+			if (spr.ID == week){
+				FlxTween.tween(spr, {x: FlxG.width/2-100, "scale.x": 1, "scale.y": 1}, 0.6, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){
+					FlxTween.tween(spr, {angle: 360}, 1, {ease: FlxEase.backOut});
+					FlxTween.tween(spr, {"scale.x": 3, "scale.y": 3}, 0.6, {ease: FlxEase.elasticOut});
+				}});
+			}else{
+				FlxTween.tween(spr, {y: -spr.height*2, "scale.x": 0.5, "scale.y":0.5}, 0.6, {ease:FlxEase.quadOut});
+			}
+		});
 	}
 }
