@@ -139,6 +139,7 @@ class RunaState extends MusicBeatState
 
 					if (FlxG.mouse.justPressed)
 					{
+						FlxG.sound.play(Paths.sound("confirmMenu"));
 						items.forEach(function(spr:FlxSprite)
 						{
 							if (spr.ID != 3)
