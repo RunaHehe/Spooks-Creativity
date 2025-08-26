@@ -100,8 +100,8 @@ class FurryPlayMenu extends MusicBeatState
 		buttonGrp.forEach(function(spr:FlxSprite){
 			if (spr.ID == week){
 				FlxTween.tween(spr, {x: FlxG.width/2-100, "scale.x": 1, "scale.y": 1}, 0.6, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){
-					FlxTween.tween(spr, {angle: 360}, 1, {ease: FlxEase.backOut});
-					FlxTween.tween(spr, {"scale.x": 3, "scale.y": 3}, 0.6, {ease: FlxEase.elasticOut});
+					// FlxTween.tween(spr, {angle: 360}, 1, {ease: FlxEase.backOut});
+					FlxTween.tween(spr, {"scale.x": 3, "scale.y": 3, angle: 30}, 2, {ease: FlxEase.quadIn});
 				}});
 			}else{
 				FlxTween.tween(spr, {y: -spr.height*2, "scale.x": 0.5, "scale.y":0.5}, 0.6, {ease:FlxEase.quadOut});

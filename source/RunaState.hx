@@ -93,7 +93,7 @@ class RunaState extends MusicBeatState
 			menuItem.y += (i * spacing) + 85;
 			if (shit == "achievements")
 			{
-				menuItem.x = FlxG.width/2+200;
+				menuItem.x = FlxG.width / 2 + 200;
 				menuItem.y = defaultY;
 			}
 			items.add(menuItem);
@@ -139,27 +139,51 @@ class RunaState extends MusicBeatState
 
 					if (FlxG.mouse.justPressed)
 					{
+						select = true;
 						FlxG.sound.play(Paths.sound("confirmMenu"));
 						items.forEach(function(spr:FlxSprite)
 						{
 							if (spr.ID != 3)
 							{
-								FlxTween.tween(spr, {x: -600}, 0.6, {
-									ease: FlxEase.backIn,
-									onComplete: function(twn:FlxTween)
-									{
-										spr.kill();
-										switchState(i.ID);
-									}
-								});
-							}else{
-								FlxTween.tween(spr, {y: (2*defaultY)}, 0.6, {
-									ease: FlxEase.backIn,
-									onComplete: function(twn:FlxTween)
-									{
-										spr.kill();
-									}
-								});
+								if (spr.ID != i.ID)
+									FlxTween.tween(spr, {x: -600}, 0.6, {
+										ease: FlxEase.backIn,
+										onComplete: function(twn:FlxTween)
+										{
+											spr.kill();
+										}
+									});
+								else
+								{
+									FlxTween.tween(spr, {"scale.x": streech, x: i.x + coolXfix}, 1, {ease: FlxEase.expoOut});
+									FlxTween.tween(spr, {x: i.x - 800}, 1, {
+										ease: FlxEase.expoIn,
+										startDelay: 1,
+										onComplete: function(twn:FlxTween)
+										{
+											switchState(i.ID);
+										}
+									});
+								}
+							}
+							else
+							{
+								if (spr.ID != i.ID)
+									FlxTween.tween(spr, {y: (2 * defaultY)}, 0.6, {
+										ease: FlxEase.backIn,
+										onComplete: function(twn:FlxTween)
+										{
+											spr.kill();
+										}
+									});
+								else
+								{
+									FlxTween.tween(spr, {"scale.y": streech, y: spr.y + coolYfix - 0.1}, 1, {ease: FlxEase.expoOut});
+									FlxTween.tween(spr, {"scale.y": streech, y: spr.y - 800}, 1, {
+										ease: FlxEase.expoIn,
+										startDelay: 1
+									});
+								}
 							}
 						});
 					}
