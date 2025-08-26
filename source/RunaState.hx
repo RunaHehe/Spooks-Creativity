@@ -168,22 +168,13 @@ class RunaState extends MusicBeatState
 							}
 							else
 							{
-								if (spr.ID != i.ID)
-									FlxTween.tween(spr, {y: (2 * defaultY)}, 0.6, {
-										ease: FlxEase.backIn,
-										onComplete: function(twn:FlxTween)
-										{
-											spr.kill();
-										}
-									});
-								else
-								{
-									FlxTween.tween(spr, {"scale.y": streech, y: spr.y + coolYfix - 0.1}, 1, {ease: FlxEase.expoOut});
-									FlxTween.tween(spr, {"scale.y": streech, y: spr.y - 800}, 1, {
-										ease: FlxEase.expoIn,
-										startDelay: 1
-									});
-								}
+								FlxTween.tween(spr, {y: (2 * defaultY)}, 0.6, {
+									ease: FlxEase.backIn,
+									onComplete: function(twn:FlxTween)
+									{
+										spr.kill();
+									}
+								});
 							}
 						});
 					}
