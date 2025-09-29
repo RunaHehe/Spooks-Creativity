@@ -56,6 +56,8 @@ function onCreatePost()
     setProperty('opponentText.visible', false)
     setProperty('opponentName.visible', false)
 
+    setProperty('opponent.color', '000000')
+
     SpriteUtil.makeSprite({tag="miss", image = folder.."miss", cam = "camOther"})
     screenCenter("miss")
     setProperty("miss.alpha", 0)

@@ -194,7 +194,7 @@ function onCreatePost()
     end
     if isIdentityCrisis then
         makeText({tag = "opponentName", text = "An ???", cam = "camBDiscord", width = tw, color = "000000"})
-        makeSpr({tag = "opponent", image = profiles.."offline/who", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+        makeSpr({tag = "opponent", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "69ff6a"})
         makeSpr({tag = "player", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
