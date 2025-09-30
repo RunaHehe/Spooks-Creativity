@@ -36,7 +36,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				-26,
+				-16,
 				0
 			],
 			"anim": "singLEFT",
@@ -47,7 +47,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				4,
+				-6,
 				0
 			],
 			"anim": "singRIGHT",
@@ -65,13 +65,13 @@
 	"healthicon": "spook",
 	"flip_x": false,
 	"healthbar_colors": [
-		224,
-		235,
-		205
+		255,
+		0,
+		54
 	],
 	"camera_position": [
 		-110,
-		80
+		-50
 	],
 	"sing_duration": 6,
 	"scale": 1

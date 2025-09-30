@@ -9,7 +9,7 @@ function onCreatePost()
     luaDebugMode = true
     if HardMode then
         setProperty('newHealthSystem', true)
-    end
+    endw
     setProperty("camGame.maxScrollY", 1100)
 
     setProperty("middleGlow.alpha", 0.1)

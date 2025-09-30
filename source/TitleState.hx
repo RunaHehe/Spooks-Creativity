@@ -125,7 +125,8 @@ class TitleState extends MusicBeatState
 		['679025765014044699', 'coolrrt', 'That one cool RRT'],
 		['901261690367262750', 'colin', 'thatoneguynamedcolin'],
 		['978699497876103199', 'videobot', 'Video Bot'],
-		['718832856025006082', 'brnox', 'Brnox'] // sorry vro i forgot to add you :sob:
+		['718832856025006082', 'brnox', 'Brnox'], // sorry bro forgot 2 add you
+		['1094758160566329504', 'tobi', 'Tobi']
 	];
 
 	override public function create():Void

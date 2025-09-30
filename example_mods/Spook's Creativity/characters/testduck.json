@@ -1,68 +1,68 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				-110,
-				-420
+				-100,
+				-440
 			],
+			"indices": [],
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "left",
-			"indices": []
+			"loop": false,
+			"name": "duckleft"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-130,
-				-430
+				-440
 			],
+			"indices": [],
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "down",
-			"indices": []
+			"loop": false,
+			"name": "duckdown"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-130,
-				-410
+				-120,
+				-450
 			],
+			"indices": [],
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "up",
-			"indices": []
+			"loop": false,
+			"name": "duckup"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-150,
-				-420
+				-120,
+				-450
 			],
-			"anim": "singRIGHT",
+			"indices": [],
 			"fps": 24,
-			"name": "right",
-			"indices": []
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "duckright"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-130,
 				-419
 			],
-			"anim": "idle",
+			"indices": [],
 			"fps": 24,
-			"name": "idle",
-			"indices": []
+			"anim": "idle",
+			"loop": false,
+			"name": "duckidle"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/testduckfag",
+	"image": "characters/ducknew",
 	"position": [
 		-170,
 		-80
 	],
-	"healthicon": "looky",
+	"healthicon": "pan",
 	"flip_x": false,
 	"healthbar_colors": [
 		0,

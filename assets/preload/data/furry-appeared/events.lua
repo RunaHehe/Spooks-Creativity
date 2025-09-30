@@ -17,7 +17,7 @@ function onCreate()
     if HardMode then
         setProperty('useModchart', true)
     end
-    setProperty("cpuControlled", true)
+    setProperty("cpuControlled", false)
 end
 function onCreatePost()
     luaDebugMode = true

@@ -565,7 +565,7 @@ function doTweenVar(tag, object, endValue, duration)
 end
 
 ]]
-function onGhostTap(key)
+--[[function onGhostTap(key)
     local nearKey = false
     for i = 0, getProperty('notes.length')-1 do
         if getPropertyFromGroup('notes', i, 'mustPress') and not getPropertyFromGroup('notes', i, 'ignoreNote') and (getPropertyFromGroup('notes', i, 'strumTime') - getSongPosition()) <= 400 then
@@ -577,4 +577,4 @@ function onGhostTap(key)
         addHealth(-0.05 * healthLossMult)
         addMisses(1)
     end
-end
+end]]
