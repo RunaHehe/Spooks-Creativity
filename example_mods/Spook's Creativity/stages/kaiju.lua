@@ -1,17 +1,24 @@
 local folder = "roblox/kaiju/"
 local crystalPath = folder .. "crystal/crystals/"
-local repositionX = -1500
-local repositionY = -1450
+local repositionX = -1200
+local repositionY = -1000
 
-local repositionCryX = -1500
-local repositionCryY = -1450
+local repositionCryX = -1200
+local repositionCryY = -1200
 
 --MORAL = Create animated sprite during playing will not lag the game!!! so don't prepare the sprite in the beginning or it will lag a lot
 --MORAL = A lot of shaders will lag the PC even though The computer is very powerful.
 
-factoryGroup = { "backRoom", "Boxes", "PC", "Shelves" }
+factoryGroup = { "ground", "backRoom", "wall", "fans", "topGround", "crates", "crystal" }
 crystalGroup = {
-	"Layer1", "Layer2", "Layer3"
+	"cryGround", "cryMiniCrystalBack", "cryBackPillar", "cryPillar",
+	"cryHill1", "cryHill2", "cryHill3", "cryHill4", "cryHill5",
+	"cryBackHill1", "cryBackHill2", "cryBackHill3", "cryBackHill4", "cryBackHill5",
+	"cryHillWall1", "cryHillWall2", "cryHillWall3",
+	"cryWallFarRight", "cryWallFarLeft", "cryWallNear",
+	"lightning1", "lightning2", "lightning3",
+	"cryBackRed", "cryRed",
+	"cryRoof"
 }
 allCrystals = {}
 
@@ -62,45 +69,39 @@ function onCreatePost()
 		makeLuaSprite("bloom1Shader", "", 0, 0)
 		makeLuaSprite("blurShader", "", 0, 0)
 		makeLuaSprite("wavyShader", "", 0, 0)
-		initLuaShader("dropShadow1", "", 0, 0)
 	end
 	addHaxeLibrary("FlxSpriteUtil", "flixel.util")
 	addHaxeLibrary("FlxTrail", "flixel.addons.effects")
 	addHaxeLibrary("Playstate", "")
 
 	--FACTORY STAGE
-	makeSprite("backRoom", folder .. "factory/Background", repositionX + 660, repositionY + 1050, 1.05, 0.95)
-	scaleObject("backRoom", 1.5, 1.4)
+	makeSprite("ground", folder .. "factory/Ground", repositionX - 100, repositionY + 1100)
 
-	makeSprite("PC", folder .. "factory/PC", repositionX + 660, repositionY + 1050, 1.05, 0.98)
-	scaleObject("PC", 1.5, 1.4)
+	makeSprite("backRoom", folder .. "factory/FactoryBackRoom", repositionX + 660, repositionY + 1050, 1.05, 0.95)
 
-	makeSprite("Boxes", folder .. "factory/Boxes", repositionX + 660, repositionY + 1050, 1.05, 0.95)
-	scaleObject("Boxes", 1.5, 1.4)
+	makeSprite("wall", folder .. "factory/FactoryWall", repositionX, repositionY, 0.95, 0.95)
 
-	makeSprite("Shelves", folder .. "factory/Shelves", repositionX + 660, repositionY + 1050, 1.05, 0.95)
-	scaleObject("Shelves", 1.5, 1.4)
+	makeAnSprite("fans", folder .. "factory/FactoryFan", repositionX + 1500, repositionY + 835, 0.95, 0.95, 3, 3)
+	addAnimationByPrefix("fans", "idle", "FactoryVents0", 24)
+	playAnim("fans", "idle")
+	setProperty("fans.antialiasing", getPropertyFromClass('ClientPrefs', "globalAntialiasing"))
 
+	makeSprite("topGround", folder .. "factory/FactoryFloor2", repositionX + 1145, repositionY + 830, 0.965, 0.965)
 
+	makeSprite("crates", folder .. "factory/FactoryFrontCrates", repositionX + 1880, repositionY + 1140, 0.975, 0.975)
+
+	makeSprite("crystal", folder .. "factory/Crystals", repositionX - 50, repositionY + 1020, 0.985, 0.985)
 	--
 
 	--CRYSTAL STAGE
+	makeSprite("cryGround", folder .. "crystal/CryGround", repositionCryX + 200, repositionCryY + 600, 1, 1)
+	makeSprite("cryWallFarRight", folder .. "crystal/CryWallsFarRight", 39, -901.5, 1, 1)
+	makeSprite("cryWallFarLeft", folder .. "crystal/CryWallsFarLeft", -259.5, -796, 1, 1)
+	makeSprite("cryWallNear", folder .. "crystal/CryWallsNear", -1028, -1099.5, 1, 1)
 
-	makeSprite("Layer1", folder .. "crystal/Layer1", repositionCryX + 400, repositionCryY + 950, 1.05, 0.95)
-	scaleObject("Layer1", 1.5, 1.4)
+	makeSprite("cryRoof", folder .. "crystal/CryRoof", -1073.5, -1444, 1, 1)
 
-	makeSprite("Layer2", folder .. "crystal/Layer2", repositionCryX + 1150, repositionCryY + 1300, 1.05, 0.95)
-	scaleObject("Layer2", 0.7, 0.6)
-	setObjectOrder('Layer2', getObjectOrder('Layer1') - 1)
-
-	makeSprite("Layer3", folder .. "crystal/Layer3", repositionCryX + 400, repositionCryY + 400, 1.05, 0.95)
-	scaleObject("Layer3", 1.5, 1.4)
-	setObjectOrder('Layer3', getObjectOrder('Layer2') - 1)
-
-	setScrollFactor("gf", 1.05, 0.95)
-	setScrollFactor("bf", 1.03, 0.93)
-	setScrollFactor("dad", 1.03, 0.93)
-
+	makeSprite("cryBackRed", folder .. "crystal/CryRed2", -91.5, -109.5, 1, 1, 1)
 
 	createCrystalByOne("crystalBack1", crystalPath .. "crystal5", "Cry5Come", 106, -195, 0.33, 10.1, false) --back2
 
@@ -113,12 +114,25 @@ function onCreatePost()
 	setProperty("lightning1.alpha", bgAlpha)
 	addLuaSprite("lightning1", false)
 
+	makeSprite("cryBackHill1", folder .. "crystal/Hills/HillBack1", -410, -133.5, 0.94, 0.98, 1)
+	makeSprite("cryBackHill2", folder .. "crystal/Hills/HillBack2", -410, -133.5, 0.92, 0.97, 1)
+	makeSprite("cryBackHill3", folder .. "crystal/Hills/HillBack3", -410, -133.5, 0.91, 0.97, 1)
+	makeSprite("cryBackHill4", folder .. "crystal/Hills/HillBack4", -410, -133.5, 0.91, 0.97, 1)
+	makeSprite("cryBackHill5", folder .. "crystal/Hills/HillBack5", -410, -133.5, 0.9, 0.96, 1)
 
+	setScrollFactor("crystalBack1", getProperty("cryBackHill2.scrollFactor.x"), getProperty("cryBackHill2.scrollFactor.y"))
+	setScrollFactor("crystalBack2", getProperty("cryBackHill5.scrollFactor.x"), getProperty("cryBackHill5.scrollFactor.y"))
 
 	createCrystalByOne("crystalWall1", crystalPath .. "crystal2", "Cry2Come", -455.5, -300, 1.8, 99.0666667, false)
+	makeSprite("cryHillWall1", folder .. "crystal/Hills/WallHill1", -598.5, -372.5, 1, 1, 1)
+
+	makeSprite("cryBackPillar", folder .. "crystal/BackPillar", -628.5, -1271, 1, 1, 0.9025)
 
 	createCrystalByOne("crystalWall2", crystalPath .. "crystal3", "Cry3Come", 1500, -371.5, 1.7, -88.766667, false)
+	makeSprite("cryHillWall2", folder .. "crystal/Hills/WallHill2", 1788, -345.5, 1, 1, 1)
 	createCrystalByOne("crystalWall3", crystalPath .. "crystal4", "Cry4Come", 380.5, -908, 1.7, 166.033334, false)
+	makeSprite("cryHillWall3", folder .. "crystal/Hills/WallHill3", 253.5, -964.5, 1, 1, 1)
+	setProperty("cryHillWall3.angle", 180)
 
 	makeLuaSprite("lightning2", "", -700, -700)
 	makeGraphic("lightning2", 1500, 1200, bgColor)
@@ -127,6 +141,14 @@ function onCreatePost()
 
 	setProperty("lightning2.alpha", bgAlpha)
 	addLuaSprite("lightning2", false)
+
+	makeSprite("cryRed", folder .. "crystal/CryRed", -458.5, 233, 1, 1, 1)
+
+	makeSprite("cryHill1", folder .. "crystal/Hills/HillFront1", -974.5, 124.5, 0.98, 0.99, 1.01) --cry1
+	makeSprite("cryHill2", folder .. "crystal/Hills/HillFront2", -974.5, 124.5, 0.98, 0.99, 1.01) --cry3
+	makeSprite("cryHill3", folder .. "crystal/Hills/HillFront3", -974.5, 124.5, 0.96, 0.99, 1.01) --cry5
+	makeSprite("cryHill4", folder .. "crystal/Hills/HillFront4", -974.5, 124.5, 0.94, 0.98, 1.01) --cry4
+	makeSprite("cryHill5", folder .. "crystal/Hills/HillFront5", -974.5, 124.5, 0.96, 0.98, 1.01) --cry2
 
 	createCrystals(crystalPath)
 	table.insert(crystals, table.maxn(crystals) + 1, { "crystalBack1", "crystalBack1beat" })
@@ -144,6 +166,7 @@ function onCreatePost()
 
 	createGlowForCrystals() 
 
+	makeSprite("cryPillar", folder .. "crystal/GiantPillar", 1575.5, -1129, 1, 1, 0.9325)
 
 	makeSprite("darkVignette", folder .. "crystal/Vignette", 0, 0, 0, 0, 0.361, true)
 	setObjectCamera("darkVignette", "hud")
@@ -178,34 +201,34 @@ function onCreatePost()
 	addHaxeLibrary('NumTween', 'flixel.tweens.misc')
 
 	if shaderEnable then
-		setSpriteShader('bloom1Shader', 'demon_blur')
+		setSpriteShader('bloomShader', 'demon_blur')
 		setSpriteShader('blurShader', 'radialBlur')
 		--setSpriteShader('wavyShader', 'wavy')
 		setShaderFloat("blurShader", "blurWidth", 0)
 		setShaderFloat("blurShader", "cx", 0.5)
 		setShaderFloat("blurShader", "cy", 0.5)
 
-		setShaderFloat("bloom1Shader", "u_size", 5)
-		setShaderFloat("bloom1Shader", "u_alpha", 0.05)
+		setShaderFloat("bloomShader", "u_size", 5)
+		setShaderFloat("bloomShader", "u_alpha", 0.05)
 
 		shaderWaveX = 100000
 		shaderWaveY = 100000
 		shaderWaveXTime = 100000
 		shaderWaveYTime = 100000
 
-		setSpriteShader("boyfriend", "dropShadow1")
-        setShaderFloat("boyfriend", "_alpha", 0.8)
-        setShaderFloat("boyfriend", "_disx", 100)
-        setShaderFloat("boyfriend", "_disy", 15)
-        setShaderBool("boyfriend", "inner", true)
-        setShaderBool("boyfriend", "inverted", true)
+		setSpriteShader('boyfriend', 'dropShadow1')
+		setShaderBool('boyfriend', 'inner', true)
+		setShaderBool('boyfriend', 'inverted', true)
+		setShaderFloat("boyfriend", "_alpha", shaderDropAlpha)
+		setShaderFloat("boyfriend", "_disx", shaderDropDis)
+		setShaderFloat("boyfriend", "_disy", shaderDropDis)
 
-		setSpriteShader("dad", "dropShadow1")
-        setShaderFloat("dad", "_alpha", 0.8)
-        setShaderFloat("dad", "_disx", -10)
-        setShaderFloat("dad", "_disy", 15)
-        setShaderBool("dad", "inner", true)
-        setShaderBool("dad", "inverted", true)
+		setSpriteShader('dad', 'dropShadow1')
+		setShaderBool('dad', 'inner', true)
+		setShaderBool('dad', 'inverted', true)
+		setShaderFloat("dad", "_alpha", shaderDropAlpha)
+		setShaderFloat("dad", "_disx", shaderDropDis)
+		setShaderFloat("dad", "_disy", shaderDropDis)
 	end
 
 
@@ -217,6 +240,8 @@ function onCreatePost()
 		setProperty(crystalGroup[i] .. ".visible", false)
 	end
 
+	setProperty("dad.x", getProperty("DAD_X"))
+	setProperty("dad.y", getProperty("DAD_Y"))
 	setProperty("boyfriend.x", getProperty("BF_X"))
 	setProperty("boyfriend.y", getProperty("BF_Y"))
 
@@ -237,7 +262,7 @@ function setShader()
 	if shaderEnable then
 		runHaxeCode([[
 			game.camGame.setFilters([
-				new ShaderFilter(game.getLuaObject("bloom1Shader").shader)
+				new ShaderFilter(game.getLuaObject("bloomShader").shader)
 			]);
 
 			game.camHUD.setFilters([
@@ -269,7 +294,7 @@ function showCrystalStage()
 	
 	setProperty("dad.y", getProperty("DAD_Y"))
 
-	setShaderFloat("bloom1Shader", "u_alpha", 0.6)
+	setShaderFloat("bloomShader", "u_alpha", 0.6)
 end
 
 function createGlowForCrystals()
@@ -319,8 +344,8 @@ function createCrystalByOne(_tag, _image, _animName, _x, _y, _scale, _angle, _ad
 		scaleObject(tag, _scale, _scale)
 	end
 	addAnimationByIndices(tag, "ground", _animName, "1", 0)
-	addAnimationByPrefix(tag, "growing", _animName, 8, false)
-	addAnimationByIndices(tag, "idle", _animName, "16", 0)
+	addAnimationByPrefix(tag, "growing", _animName, 10, false)
+	addAnimationByIndices(tag, "idle", _animName, "60", 0)
 	setProperty(tag .. ".angle", _angle)
 	playAnim(tag, "idle", true)
 	addLuaSprite(tag)
@@ -336,7 +361,7 @@ function createCrystalByOne(_tag, _image, _animName, _x, _y, _scale, _angle, _ad
 	addLuaSprite(tagBeat)
 	setProperty(tagBeat .. '.alpha', 0)
 
-	setSpriteShader(tag, 'bloom1')
+	setSpriteShader(tag, 'bloom')
 
 	if _addToTable then
 		table.insert(crystals, table.maxn(crystals) + 1, { tag, tagBeat })
@@ -344,26 +369,26 @@ function createCrystalByOne(_tag, _image, _animName, _x, _y, _scale, _angle, _ad
 end
 
 local crystalShowAlpha = 0.8;
-function onStepEvent(curStep)
+function onStepHit()
 	if curStep == 512 and not crystalPlace then
 		showCrystalStage()
 	end
 	if curStep == 702 then
-		playAnim(crystals[1][1], "growing", true, false, 1)
+		playAnim(crystals[1][1], "growing", true, false, 6)
 		setProperty(crystals[1][1] .. '.alpha', crystalShowAlpha)
 
 		cameraWatch(-285, 332.5, 1.23, 0.1, 4) -- x y zoom tweenDur duration
 	end
 	if curStep == 960 then
 		doValueTween("downGlowAlping", "downGlowAlpha", 1, 0, 2, "linear")
-		cameraWatch(getProperty("boyfriend.x") + 500, getProperty("boyfriend.y") + 370, 0.85, 2, crochet/1000*4 * 8)
+		cameraWatch(getProperty("boyfriend.x") + 130, getProperty("boyfriend.y") + 110, 0.85, 2, crochet/1000*4 * 8)
 	end
 	if curSelect == 1088 then 
-		playAnim(crystals[2][1], "growing", true, false, 1)
+		playAnim(crystals[2][1], "growing", true, false, 3)
 		setProperty(crystals[2][1] .. '.alpha', crystalShowAlpha)
 	end
 	if curStep == 1216 then
-		playAnim(crystals[3][1], "growing", true, false, 1)
+		playAnim(crystals[3][1], "growing", true, false, 3)
 		setProperty(crystals[3][1] .. '.alpha', crystalShowAlpha)
 		doValueTween("downGlowAlping", "downGlowAlpha", 0, 1, 2, "linear")
 
@@ -382,59 +407,51 @@ function onStepEvent(curStep)
 
 		doTweenAlpha("darkVignette", "darkVignette", 1, duration)
 	end
-	if curStep == 1582 then
-		cameraWatch(350, 100, 2, 1.5, 13.5)
-	end
 	if curStep == 1592 then
-		playAnim('gf', 'fall', true)
-		runTimer('playGasNotice', getProperty('gf.animation.curAnim.length'))
-		setProperty('gf.stunned', true)
+		playAnim("furryGas", "fall", true)
 	end
 	if curStep == 1600 then
-		playAnim(crystals[4][1], "growing", true, false, 1)
+		playAnim("furryGas", "gasOut", true)
+		playAnim(crystals[4][1], "growing", true, false, 3)
 		setProperty(crystals[4][1] .. '.alpha', crystalShowAlpha)
 		furryGasMode = true
 	end
-	if curStep == 1680 then
-		runTimer('playTutuDead', getProperty('gf.animation.curAnim.length'))
-	end
 	if curStep == 1728 then
-		playAnim(crystals[5][1], "growing", true, false, 1)
+		playAnim(crystals[5][1], "growing", true, false, 3)
 		setProperty(crystals[5][1] .. '.alpha', crystalShowAlpha)
-		playAnim(crystals[8][1], "growing", true, false, 1)
+		playAnim(crystals[8][1], "growing", true, false, 3)
 		setProperty(crystals[8][1] .. '.alpha', crystalShowAlpha)
 		doValueTween("downGlowAlping", "downGlowAlpha", 0, 1, 2, "linear")
-		cameraWatch(400, 200, 0.6, 2, 25)
 	end
 	if curStep == 1984 then
-		playAnim(crystals[9][1], "growing", true, false, 1)
+		playAnim(crystals[9][1], "growing", true, false, 3)
 		setProperty(crystals[9][1] .. '.alpha', crystalShowAlpha)
 	end
 	if curStep == 2232 then 
 		furryGasMode = false
-		playAnim('gf', 'death', true)
+		playAnim("furryGas", "gasEnd", true)
 	end
 	if curStep == 2368 then
 		cameraWatch(562.5, 80, 0.5342, 3, 8) -- x y zoom tweenDur duration
-		playAnim(crystals[6][1], "growing", true, false, 1)
+		playAnim(crystals[6][1], "growing", true, false, 3)
 		setProperty(crystals[6][1] .. '.alpha', crystalShowAlpha)
 
 		changeColor(-180,0, 2 , 4)
 	end
 	if curStep == 2240 then 
-		cameraWatch(getProperty("boyfriend.x") + 500, getProperty("boyfriend.y") + 370, 0.85, 2, crochet/1000*4 * 8)
+		cameraWatch(getProperty("boyfriend.x") + 130, getProperty("boyfriend.y") + 110, 0.85, 2, crochet/1000*4 * 8)
 	end
 	if curStep == 2624 then
-		playAnim(crystals[7][1], "growing", true, false, 1)
+		playAnim(crystals[7][1], "growing", true, false, 3)
 		setProperty(crystals[7][1] .. '.alpha', crystalShowAlpha)
 	end
 	if curStep == 2752 then
-		playAnim(crystals[10][1], "growing", true, false, 1)
+		playAnim(crystals[10][1], "growing", true, false, 3)
 		setProperty(crystals[10][1] .. '.alpha', crystalShowAlpha)
-		cameraWatch(460, -717.5, 0.91779, 2, 6)
+		cameraWatch(460, -717.5, 0.91779, 2, 6) -- x y zoom tweenDur duration
 	end
 	if curStep == 2880 then 
-		cameraWatch(getProperty("boyfriend.x") + 500, getProperty("boyfriend.y") + 370, 0.85, 2, crochet/1000*4 * 16)
+		cameraWatch(getProperty("boyfriend.x") + 130, getProperty("boyfriend.y") + 110, 0.85, 2, crochet/1000*4 * 16)
 	end
 	if curStep % 16 == 0 and crystalBeat then
 		for i = 1, #crystals do
@@ -452,6 +469,7 @@ function onStepEvent(curStep)
 			end
 		end
 	end
+
 end
 
 function onEvent(tag, value1, value2)
@@ -475,14 +493,13 @@ function onEvent(tag, value1, value2)
 		if isDad then
 			setSpriteShader('dad', 'dropShadow1')
 			setProperty("dad.y", getProperty("DAD_Y"))
-			setProperty('dad.y', 30)
-            setProperty('dad.x', -530)
 		else
 			setSpriteShader('boyfriend', 'dropShadow1')
 			setProperty("boyfriend.y", getProperty("BF_Y"))
 			setProperty("boyfriend.x", getProperty("BF_X"))
 		end
-	end
+		
+	end	
 end
 local isCamWatch, isCamWatchPrev = false;
 camWatchX, camWatchY, camWatchZoom = 0;
@@ -630,6 +647,11 @@ function onUpdatePost(elapsed)
 	end
 	
 
+	setProperty("cryWallFarLeft.scale.x", 1 + (getProperty("camFollowPos.x") - 385) * 0.0006)
+	setProperty("cryWallFarRight.scale.x", 1 - ((getProperty("camFollowPos.x") - 385) * 0.00006))
+	setProperty("cryWallFarLeft.x", cryWallPos[1])
+	setProperty("cryWallFarRight.x", cryWallPos[2] - getProperty("cryWallFarRight.width"))
+
 	for i = 1, #crystalsGlow do
 		local spr = crystalsGlow[i][1]
 		local target = crystalsGlow[i][2]
@@ -682,7 +704,7 @@ function onUpdatePost(elapsed)
 		setProperty(spr .. ".angle", getProperty(target .. ".angle"))
 
 		if getProperty(target .. ".animation.curAnim.name") == "growing" and
-			getProperty(target .. ".animation.curAnim.curFrame") >= 16 then
+			getProperty(target .. ".animation.curAnim.curFrame") >= 60 then
 			playAnim(target, "idle", true)
 			--new(Target:FlxSprite, ?Graphic:Null<FlxGraphicAsset>, Length:Int = 10, Delay:Int = 3, Alpha:Float = 0.4, Diff:Float = 0.05)
 		end
@@ -765,9 +787,9 @@ local attDirection2 = {
 	{90}
 }
 local crystalOffset = {
-	{180, 200},
-	{180, 208},
-	{180, 243}
+	{0, 0},
+	{0, 8},
+	{0, 43}
 }
 function createAttackCrystal(noteID, isGrowing, forceData)
 	
@@ -783,8 +805,8 @@ function createAttackCrystal(noteID, isGrowing, forceData)
 	local _x = ((getProperty("boyfriend.x") ) + getProperty("boyfriend.width") / 4) + 10 + getRandomFloat(-10, 10)
 	local _y = ((getProperty("boyfriend.y") ) + getProperty("boyfriend.height") / 8 ) + 60 + getRandomFloat(-5, 5)
 	makeAnimatedLuaSprite(tag, crystalPath .. "crystalAttack" .. tostring(randomCrystal), _x, _y)
-	addAnimationByIndices(tag, "growing", animName, betweenNumber(0, 20), 35)
-	addAnimationByIndices(tag, "destroyed", animName, betweenNumber(20, 0), 24)
+	addAnimationByIndices(tag, "growing", animName, betweenNumber(0, 23), 35)
+	addAnimationByIndices(tag, "destroyed", animName, betweenNumber(24, 48), 24)
 	addAnimationByIndices(tag, "idle", animName, "23", 0)
 	scaleObject(tag, 1.9, 1.9)
 	setProperty(tag .. ".x", (getProperty(tag .. ".x")) + _xAddon + crystalOffset[randomCrystal][1])
@@ -838,11 +860,11 @@ function crystalAttacking()
 			end
 		end
 		
-		if (getPropertyFromGroup("notes", noteID, "strumTime") - getSongPosition()) < 1000 and not crystal.isGrowing then 
+		if (getPropertyFromGroup("notes", noteID, "strumTime") - getSongPosition()) < 1000 and not crystal.spawned then 
 			playAnim(crystal.tag, "growing", true)
 			setProperty(crystal.tag .. '.alpha', 1)
-			crystal.isGrowing = true
-		elseif crystal.isGrowing then 
+			crystal.spawned = true
+		elseif crystal.spawned then 
 			crystal.duration = crystal.duration + getPropertyFromClass("flixel.FlxG", "elapsed")
 		end
 
@@ -851,7 +873,7 @@ function crystalAttacking()
 			playAnim(crystal.tag, "growing", true, true)
 		elseif crystal.duration >= 2 and not crystal.destroyed and getProperty(crystal.tag .. ".animation.curAnim.name") ~= "destroyed" then 
 			amountOfActiveCrystal = amountOfActiveCrystal + 1
-			addHealth(-0.000000001 * getPropertyFromClass("flixel.FlxG", "elapsed"))
+			addHealth(-0.07 * getPropertyFromClass("flixel.FlxG", "elapsed"))
 		end
 
 		if crystal.duration >= 10.6  or (getProperty(crystal.tag .. ".animation.curAnim.name") == "destroyed" and getProperty(crystal.tag .. ".animation.finished")) then 
@@ -1049,7 +1071,7 @@ end
 function goodNoteHit(id, noteData, noteType, isSustainNote)
 	if noteType == "Alt Animation" and getPropertyFromGroup("notes", id, "ratingMod") >= 0.75 then 
 		breakCrystal(id)
-	elseif noteType == "KaijuDodge" and not isSustainNote then 
+	elseif noteType == "GF Sing" and not isSustainNote then 
 		playAnim("boyfriend", "defend", true)
 		setProperty("boyfriend.specialAnim", true)
 		addShake(0.007)
@@ -1090,12 +1112,6 @@ function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == "endChangeBrightness" then
 		cancelTweenValue("changeColorBright1")
 		doValueTween("changeColorBright2", "colorBrightness", colorBrightness, 0, tweenDur / 2, "linear")
-	end
-	if tag == 'playGasNotice' then
-		playAnim('gf', 'gasnotice', true)
-	end
-	if tag == 'playTutuDead' then
-		playAnim('gf', 'idledead', true)
 	end
 end
 

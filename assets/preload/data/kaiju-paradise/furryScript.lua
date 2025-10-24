@@ -1,4 +1,3 @@
-
 local mechanic = true
 local shortVer = true
 defaultNotes = {}
