@@ -132,7 +132,7 @@ class Conductor
 			totalSteps += deltaSteps;
 			totalPos += ((60 / curBPM) * 1000 / 4) * deltaSteps;
 		}
-		trace("new BPM FAGGOT " + bpmChangeMap); // i am so (not) sorry for saying this :3 -runa
+		trace("new BPM :3 " + bpmChangeMap); // meow
 	}
 
 	static function getSectionBeats(song:SwagSong, section:Int)

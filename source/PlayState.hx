@@ -3341,7 +3341,7 @@ class PlayState extends MusicBeatState
 				}
 				if (Conductor.songPosition >= (songLength - 500))
 				{
-					trace('no way ammar code fix end song');
+					trace('no way runa code fix end song');
 					finishSong();
 				}
 			}
