@@ -57,7 +57,7 @@ furryGasMode = false
 shaderEnable = true
 function onCreate()
 	luaDebugMode = true
-	setProperty("cpuControlled", false)
+	setProperty("cpuControlled", true)
 end
 
 function onCreatePost()
@@ -201,15 +201,15 @@ function onCreatePost()
 	addHaxeLibrary('NumTween', 'flixel.tweens.misc')
 
 	if shaderEnable then
-		setSpriteShader('bloomShader', 'demon_blur')
+		setSpriteShader('bloom1Shader', 'demon_blur')
 		setSpriteShader('blurShader', 'radialBlur')
 		--setSpriteShader('wavyShader', 'wavy')
 		setShaderFloat("blurShader", "blurWidth", 0)
 		setShaderFloat("blurShader", "cx", 0.5)
 		setShaderFloat("blurShader", "cy", 0.5)
 
-		setShaderFloat("bloomShader", "u_size", 5)
-		setShaderFloat("bloomShader", "u_alpha", 0.05)
+		setShaderFloat("bloom1Shader", "u_size", 5)
+		setShaderFloat("bloom1Shader", "u_alpha", 0.05)
 
 		shaderWaveX = 100000
 		shaderWaveY = 100000
@@ -262,7 +262,7 @@ function setShader()
 	if shaderEnable then
 		runHaxeCode([[
 			game.camGame.setFilters([
-				new ShaderFilter(game.getLuaObject("bloomShader").shader)
+				new ShaderFilter(game.getLuaObject("bloom1Shader").shader)
 			]);
 
 			game.camHUD.setFilters([
@@ -294,7 +294,7 @@ function showCrystalStage()
 	
 	setProperty("dad.y", getProperty("DAD_Y"))
 
-	setShaderFloat("bloomShader", "u_alpha", 0.6)
+	setShaderFloat("bloom1Shader", "u_alpha", 0.6)
 end
 
 function createGlowForCrystals()
@@ -361,7 +361,7 @@ function createCrystalByOne(_tag, _image, _animName, _x, _y, _scale, _angle, _ad
 	addLuaSprite(tagBeat)
 	setProperty(tagBeat .. '.alpha', 0)
 
-	setSpriteShader(tag, 'bloom')
+	setSpriteShader(tag, 'bloom1')
 
 	if _addToTable then
 		table.insert(crystals, table.maxn(crystals) + 1, { tag, tagBeat })
@@ -369,9 +369,10 @@ function createCrystalByOne(_tag, _image, _animName, _x, _y, _scale, _angle, _ad
 end
 
 local crystalShowAlpha = 0.8;
-function onStepHit()
+function onStepEvent(curStep)
 	if curStep == 512 and not crystalPlace then
 		showCrystalStage()
+		setProperty("gf.x", getProperty("gf.x") - 255)
 	end
 	if curStep == 702 then
 		playAnim(crystals[1][1], "growing", true, false, 6)
@@ -381,7 +382,7 @@ function onStepHit()
 	end
 	if curStep == 960 then
 		doValueTween("downGlowAlping", "downGlowAlpha", 1, 0, 2, "linear")
-		cameraWatch(getProperty("boyfriend.x") + 130, getProperty("boyfriend.y") + 110, 0.85, 2, crochet/1000*4 * 8)
+		cameraWatch(getProperty("boyfriend.x") + 455, getProperty("boyfriend.y") + 455, 0.85, 2, crochet/1000*4 * 8)
 	end
 	if curSelect == 1088 then 
 		playAnim(crystals[2][1], "growing", true, false, 3)
@@ -396,7 +397,7 @@ function onStepHit()
 	if curStep == 1456 then
 		doValueTween("downGlowAlping", "downGlowAlpha", 1, 0, 2, "linear")
 	end
-	if curStep == 1472 then --change blue to yellow -120
+	if curStep == 1472 then --change blue to yellow :333
 		cameraWatch(562.5, 80, 0.5342, 3, 8) -- x y zoom tweenDur duration
 
 		changeColor(-116,-180 ,1, 4)
@@ -407,14 +408,21 @@ function onStepHit()
 
 		doTweenAlpha("darkVignette", "darkVignette", 1, duration)
 	end
+	if curStep == 1584 then
+		cameraWatch(getProperty("gf.x") + 1025, getProperty("gf.y") + 600, 1.5, 2, 14)
+	end 
 	if curStep == 1592 then
-		playAnim("furryGas", "fall", true)
+		playAnim('gf', 'fall', true)
+		runTimer('playGasNotice', getProperty('gf.animation.curAnim.length'))
+		setProperty('gf.stunned', true)
 	end
 	if curStep == 1600 then
-		playAnim("furryGas", "gasOut", true)
 		playAnim(crystals[4][1], "growing", true, false, 3)
 		setProperty(crystals[4][1] .. '.alpha', crystalShowAlpha)
 		furryGasMode = true
+	end
+	if curStep == 1680 then
+		runTimer('playTutuDead', getProperty('gf.animation.curAnim.length'))
 	end
 	if curStep == 1728 then
 		playAnim(crystals[5][1], "growing", true, false, 3)
@@ -422,6 +430,7 @@ function onStepHit()
 		playAnim(crystals[8][1], "growing", true, false, 3)
 		setProperty(crystals[8][1] .. '.alpha', crystalShowAlpha)
 		doValueTween("downGlowAlping", "downGlowAlpha", 0, 1, 2, "linear")
+		cameraWatch(getProperty("boyfriend.x"), getProperty("boyfriend.y") + 75, 0.45, 5, 55)
 	end
 	if curStep == 1984 then
 		playAnim(crystals[9][1], "growing", true, false, 3)
@@ -429,7 +438,7 @@ function onStepHit()
 	end
 	if curStep == 2232 then 
 		furryGasMode = false
-		playAnim("furryGas", "gasEnd", true)
+		playAnim('gf', 'death', true)
 	end
 	if curStep == 2368 then
 		cameraWatch(562.5, 80, 0.5342, 3, 8) -- x y zoom tweenDur duration
@@ -439,7 +448,7 @@ function onStepHit()
 		changeColor(-180,0, 2 , 4)
 	end
 	if curStep == 2240 then 
-		cameraWatch(getProperty("boyfriend.x") + 130, getProperty("boyfriend.y") + 110, 0.85, 2, crochet/1000*4 * 8)
+		cameraWatch(getProperty("boyfriend.x") + 455, getProperty("boyfriend.y") + 455, 0.85, 2, crochet/1000*4 * 8)
 	end
 	if curStep == 2624 then
 		playAnim(crystals[7][1], "growing", true, false, 3)
@@ -451,7 +460,7 @@ function onStepHit()
 		cameraWatch(460, -717.5, 0.91779, 2, 6) -- x y zoom tweenDur duration
 	end
 	if curStep == 2880 then 
-		cameraWatch(getProperty("boyfriend.x") + 130, getProperty("boyfriend.y") + 110, 0.85, 2, crochet/1000*4 * 16)
+		cameraWatch(getProperty("boyfriend.x") + 455, getProperty("boyfriend.y") + 455, 0.85, 2, crochet/1000*4 * 16)
 	end
 	if curStep % 16 == 0 and crystalBeat then
 		for i = 1, #crystals do
@@ -493,6 +502,8 @@ function onEvent(tag, value1, value2)
 		if isDad then
 			setSpriteShader('dad', 'dropShadow1')
 			setProperty("dad.y", getProperty("DAD_Y"))
+			setProperty('dad.y', 30)
+			setProperty('dad.x', -530)
 		else
 			setSpriteShader('boyfriend', 'dropShadow1')
 			setProperty("boyfriend.y", getProperty("BF_Y"))
@@ -787,9 +798,9 @@ local attDirection2 = {
 	{90}
 }
 local crystalOffset = {
-	{0, 0},
-	{0, 8},
-	{0, 43}
+	{180, 200},
+	{180, 208},
+	{180, 243}
 }
 function createAttackCrystal(noteID, isGrowing, forceData)
 	
@@ -860,11 +871,11 @@ function crystalAttacking()
 			end
 		end
 		
-		if (getPropertyFromGroup("notes", noteID, "strumTime") - getSongPosition()) < 1000 and not crystal.spawned then 
+		if (getPropertyFromGroup("notes", noteID, "strumTime") - getSongPosition()) < 1000 and not crystal.isGrowing then 
 			playAnim(crystal.tag, "growing", true)
 			setProperty(crystal.tag .. '.alpha', 1)
-			crystal.spawned = true
-		elseif crystal.spawned then 
+			crystal.isGrowing = true
+		elseif crystal.isGrowing then 
 			crystal.duration = crystal.duration + getPropertyFromClass("flixel.FlxG", "elapsed")
 		end
 
@@ -873,7 +884,7 @@ function crystalAttacking()
 			playAnim(crystal.tag, "growing", true, true)
 		elseif crystal.duration >= 2 and not crystal.destroyed and getProperty(crystal.tag .. ".animation.curAnim.name") ~= "destroyed" then 
 			amountOfActiveCrystal = amountOfActiveCrystal + 1
-			addHealth(-0.07 * getPropertyFromClass("flixel.FlxG", "elapsed"))
+			addHealth(-0.0000001 * getPropertyFromClass("flixel.FlxG", "elapsed"))
 		end
 
 		if crystal.duration >= 10.6  or (getProperty(crystal.tag .. ".animation.curAnim.name") == "destroyed" and getProperty(crystal.tag .. ".animation.finished")) then 
@@ -1071,7 +1082,7 @@ end
 function goodNoteHit(id, noteData, noteType, isSustainNote)
 	if noteType == "Alt Animation" and getPropertyFromGroup("notes", id, "ratingMod") >= 0.75 then 
 		breakCrystal(id)
-	elseif noteType == "GF Sing" and not isSustainNote then 
+	elseif noteType == "KaijuDodge" and not isSustainNote then 
 		playAnim("boyfriend", "defend", true)
 		setProperty("boyfriend.specialAnim", true)
 		addShake(0.007)
@@ -1112,6 +1123,12 @@ function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == "endChangeBrightness" then
 		cancelTweenValue("changeColorBright1")
 		doValueTween("changeColorBright2", "colorBrightness", colorBrightness, 0, tweenDur / 2, "linear")
+	end
+	if tag == 'playGasNotice' then
+		playAnim('gf', 'gasnotice', true)
+	end
+	if tag == 'playTutuDead' then
+		playAnim('gf', 'idledead', true)
 	end
 end
 
