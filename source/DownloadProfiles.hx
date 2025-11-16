@@ -9,6 +9,7 @@ import sys.io.File;
 
 class DownloadProfiles
 {
+	static var i = 0;
 	public static function downloadAsync(userData:Array<Dynamic>, forceDownload:Bool = false)
 	{
 		trace('Downloading avatars...');
@@ -21,15 +22,21 @@ class DownloadProfiles
 		{
 			if (data[0] == '0')
 					continue;
-			sys.thread.Thread.create(() ->
-			{
+			i++;
+			if (i%8==0) {
+				sys.thread.Thread.create(() ->
+				{
+					var imagePath:String = getImagePath(data[1]);
+
+					if (!FileSystem.exists(imagePath) || forceDownload)
+						downloadPFPAsync(data[0], data[1], data[2]);
+				});
+			} else {
 				var imagePath:String = getImagePath(data[1]);
 
 				if (!FileSystem.exists(imagePath) || forceDownload)
-				{
 					downloadPFPAsync(data[0], data[1], data[2]);
-				}
-			});
+			}
 		}
 	}
 
