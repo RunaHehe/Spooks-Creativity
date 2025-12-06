@@ -142,7 +142,7 @@ function onCreatePost()
     end
 
     if isDAX then
-        opponentTyping = isDAX and "(Annoying User is typing...)" or opponentTyping
+        opponentTyping = isDAX and "(An Ammar is typing...)" or opponentTyping
         opponentCaps = false
     end
 
@@ -174,12 +174,12 @@ function onCreatePost()
 
     if isDAX then
         makeText({tag = "opponentText", text = "...", cam = "camBDiscord", width = tw})
-        makeText({tag = "opponentName", text = "Annoying User", cam = "camBDiscord", width = tw, color = "0dce3a"})
-        makeSpr({tag = "opponent", image = profiles.."offline/aacannoyer", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+        makeText({tag = "opponentName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "69ff6a"})
+        makeSpr({tag = "opponent", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         makeText({tag = "playerText", text = "...", cam = "camBDiscord", width = tw})
-        makeText({tag = "playerName", text = "An Ammar", cam = "camBDiscord", width = tw, color = "69ff6a"})
-        makeSpr({tag = "player", image = profiles.."ammar", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
+        makeText({tag = "playerName", text = "Annoying User", cam = "camBDiscord", width = tw, color = "0dce3a"})
+        makeSpr({tag = "player", image = profiles.."offline/aacannoyer", x = xx, y = 300, cam = "camBDiscord", xSize = 0.625})
 
         setGraphicSize("opponent", 649 * 0.625, 146 * 0.625)
         setGraphicSize("player", 649 * 0.625, 146 * 0.625)

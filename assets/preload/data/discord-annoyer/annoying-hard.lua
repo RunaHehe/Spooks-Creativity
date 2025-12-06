@@ -1,232 +1,256 @@
-local folder = 'discord/'
+local flasherCreated = false
+
+local invertThisNow = false
+
+local camNoteBeat = false
+
 local tweens = {}
 
-local membersSprite = {}
+local easings = {
+    -- ok listen easings werent automatically supported :sob:
+    linear = function(t) return t end,
+
+    sineInOut = function(t) return -0.5 * (math.cos(math.pi * t) - 1) end,
+
+    expoIn = function(t) return t == 0 and 0 or math.pow(2, 10 * (t - 1)) end,
+
+    expoOut = function(t) return t == 1 and 1 or 1 - math.pow(2, -10 * t) end,
+
+    quadIn = function(t) return t * t end,
+
+    quadOut = function(t) return t * (2 - t) end
+}
+
+
+local membersSprites = {}
+
 pbr = 1
-
-local annoyerMad = false
-
 function onCreate()
     if HardMode then
-        luaDebugMode = true
-        shadersOption = getPropertyFromClass("ClientPrefs", "shaders")
-        makeLuaSprite('dark', 'vignette', 9, 0)
-        setObjectCamera('dark', 'other')
-        addLuaSprite("dark")
-        screenCenter('dark')
-        setBlendMode("dark", 'overlay')
-        setProperty('dark.alpha', 0)
-
-        makeLuaSprite('blackOverlay', '', 9, 0)
-        makeGraphic('blackOverlay', 1280, 720, '000000')
-        setObjectCamera('blackOverlay', 'other')
-        setProperty('blackOverlay.alpha', 1)
-        screenCenter('blackOverlay')
-        addLuaSprite('blackOverlay', false)
-
-        setProperty('cpuControlled', true)
+        setProperty('defaultCamZoom', 2.5)
     end
 end
 
 function onCreatePost()
     if HardMode then
-        if shadersOption then
-            initLuaShader("RGGLITCH")
-            initLuaShader("pixelate")
+        makeLuaSprite('blackOverlay', '', 9, 0)
+        makeGraphic('blackOverlay', 2000, 15000, '000000')
+        setObjectCamera('blackOverlay', 'other')
+        setProperty('blackOverlay.alpha', 1)
+        screenCenter('blackOverlay')
+        addLuaSprite('blackOverlay', false)
 
-            makeLuaSprite("glitch", "", 0, 0)
-            makeLuaSprite("pixelHehe", "", 0, 0)
+        makeLuaSprite('hudOverlay', '', 9, 0)
+        makeGraphic('hudOverlay', 2000, 15000, '000000')
+        setObjectCamera('hudOverlay', 'hud')
+        setProperty('hudOverlay.alpha', 0)
+        screenCenter('hudOverlay')
+        addLuaSprite('hudOverlay', false)
 
-            setSpriteShader("glitch", "RGGLITCH")
-            setSpriteShader("pixelHehe", "pixelate")
+        makeLuaSprite('vignette', 'vignette', 0, 0)
+        setObjectCamera('vignette', 'other')
+        setProperty('vignette.alpha', 0.7)
+        screenCenter('vignette')
+        scaleObject('vignette', 1, 1)
+        addLuaSprite('vignette', true)
 
-            runHaxeCode([[
-                var glitchShader = new ShaderFilter(game.getLuaObject("glitch").shader);
-                var pixelShader = new ShaderFilter(game.getLuaObject("pixelHehe").shader);
-                camDiscord.setFilters([glitchShader, pixelShader]);
-                camBDiscord.setFilters([glitchShader, pixelShader]);
-                game.camHUD.setFilters([glitchShader, pixelShader]);
-            ]])
-
-            makeLuaSprite("glitchIntensity", nil, 0, 0)
-            setProperty("glitchIntensity.alpha", 0)
-            addLuaSprite("glitchIntensity", false)
-
-            makeLuaSprite("pixelated", nil, 5, 0)
-            setProperty("pixelated.alpha", 0)
-            addLuaSprite("pixelated", false)
-        end
-
-        pbr = getProperty("playbackRate")
+        setProperty("dad.healthIcon", "ammar"..(CuteMode and 'cute' or ''))
+        setProperty("boyfriend.healthIcon", "annoyer")
+        runHaxeCode([[
+            game.iconP2.changeIcon("icon-ammar]]..(CuteMode and 'cute' or '')..[[");
+            game.iconP1.changeIcon("icon-annoyer");
+        ]])
+        
+        setHealthBarColors("60f542", "ffc400")
         membersSprites = getProperty("membersSprites")
+        pbr = getProperty("playbackRate")
     end
 end
 
-function onSongStart()
+function onBeatHit()
     if HardMode then
-        doTweenVar('camZooming', 'defaultCamZoom', 1, 0.01)
-        doTweenAlpha('black', 'blackOverlay', 0, 0.6, 'linear')
+        if curBeat == 16 then
+            doTweenAlpha('helloGame', 'blackOverlay', 0.4, 10, 'linear')
+        end
+        if curBeat == 32 then
+            cancelTween('helloGame')
+            setProperty('blackOverlay.alpha', 1)
+            setProperty('defaultCamZoom', 0.9)
+        end
+        if curBeat == 40 then
+            setProperty('blackOverlay.alpha', 0)
+            flashCamera(1, 3)
+        end
+        if curBeat == 40 or curBeat == 48 or curBeat == 56 or curBeat == 64 or curBeat == 72 or curBeat == 80 or curBeat == 88 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 1.2, 0.5, 'quadIn')
+        end
+        if curBeat == 44 or curBeat == 52 or curBeat == 60 or curBeat == 68 or curBeat == 76 or curBeat == 84 or curBeat == 92 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.5, 'quadOut')
+        end
+        if curBeat == 96 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 1.5, 1.7, 'expoOut')
+        end
+        if curBeat == 102 then
+            setProperty('hudOverlay.alpha', 1)
+            setProperty('defaultCamZoom', 0.9)
+        end
+        if curBeat == 104 then
+            setProperty('hudOverlay.alpha', 0)
+            flashCamera(1, 3)
+        end
+        if curBeat == 136 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 1.7, 10, 'linear')
+        end
+        if curBeat == 168 then
+            setProperty('defaultCamZoom', 0.9)
+            flashCamera(1, 2)
+            callScript("stages/discordStage", "lightingMode", {true})
+        end
+        if curBeat == 176 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 1.3, 0.2, 'quadOut')
+        end
+        if curBeat == 184 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 1.6, 0.2, 'quadOut')
+        end
+        if curBeat == 192 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.2, 'quadOut')
+        end
+        if curBeat == 208 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 1.3, 0.2, 'quadOut')
+        end
+        if curBeat == 216 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 1.6, 0.2, 'quadOut')
+        end
+        if curBeat == 224 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.2, 'quadOut')
+        end
+        if curBeat == 232 then
+            setProperty('hudOverlay.alpha', 1)
+        end
+        if curBeat == 233 then
+            setProperty('hudOverlay.alpha', 0)
+            flashCamera(0.6, 3)
+        end
+        if curBeat == 256 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 1.5, 1.5, 'quadOut')
+        end
+        if curBeat == 264 then
+            setProperty('hudOverlay.alpha', 1)
+            setProperty('defaultCamZoom', 0.9)
+        end
+        if curBeat == 265 then
+            setProperty('hudOverlay.alpha', 0)
+            flashCamera(0.6, 3)
+        end
+        if curBeat == 288 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 1.5, 1.5, 'quadOut')
+        end
+        if curBeat == 296 then
+            setProperty('defaultCamZoom', 0.9)
+            flashCamera(0.7, 3)
+            callScript("stages/discordStage", "lightingMode", {false})
+        end
+        if curBeat == 360 then
+            camNoteBeat = false
+            setProperty('hudOverlay.alpha', 1)
+        end
+        if curBeat == 364 then
+            setProperty('hudOverlay.alpha', 0)
+            flashCamera(1, 1)
+        end
+        if curBeat == 428 then
+            setProperty('hudOverlay.alpha', 1)
+        end
+        if curBeat == 429 then
+            setProperty('hudOverlay.alpha', 0)
+            flashCamera(0.7, 2)
+        end
+        if curBeat == 460 then
+            setProperty('hudOverlay.alpha', 1)
+        end
+        if curBeat == 461 then
+            setProperty('hudOverlay.alpha', 0)
+            flashCamera(0.7, 2)
+        end
+        if curBeat == 492 then
+            doTweenVar('zoomTween', 'defaultCamZoom', 1.8, 0.5, 'expoOut')
+        end
+        if curBeat == 496 then
+            triggerEvent('Add Camera Zoom', 0.15, 0.15)
+            setProperty('blackOverlay.alpha', 1)
+        end
+        
+        if curBeat >= 40 and curBeat < 96 then
+            if curBeat % 2 == 0 then
+                setProperty('camHUD.zoom', 1.05)
+                doTweenZoom("hudBack", "camHUD", 1, 1, "expoOut")
+            end
+        end
+        if curBeat >= 104 and curBeat < 168 then
+            if curBeat % 1 == 0 then
+                triggerEvent('Add Camera Zoom', 0.05, 0.05)
+            end
+        end
+        if curBeat >= 168 and curBeat < 232 then
+            if curBeat % 1 == 0 then
+                triggerEvent('Add Camera Zoom', 0.08, 0.08)
+            end
+        end
+        if curBeat >= 233 and curBeat < 264 then
+            if curBeat % 1 == 0 then
+                triggerEvent('Add Camera Zoom', 0.08, 0.08)
+            end
+        end
+        if curBeat >= 265 and curBeat < 296 then
+            if curBeat % 1 == 0 then
+                triggerEvent('Add Camera Zoom', 0.08, 0.08)
+            end
+        end
+        if curBeat >= 296 and curBeat < 360 then
+            camNoteBeat = true
+        end
+        if curBeat >= 364 and curBeat < 428 then
+            triggerEvent('Add Camera Zoom', 0.11, 0.11)
+        end
+        if curBeat >= 429 and curBeat < 460 then
+            triggerEvent('Add Camera Zoom', 0.11, 0.11)
+        end
+        if curBeat >= 461 and curBeat < 496 then
+            triggerEvent('Add Camera Zoom', 0.11, 0.11)
+        end
     end
 end
 
 function onStepEvent(curStep)
     if HardMode then
-        if curStep == 4 then
-            doTweenVar('camZooming', 'defaultCamZoom', 1.1, 0.01)
-        end
-        if curStep == 8 then
-            doTweenVar('camZooming', 'defaultCamZoom', 1.3, 0.01)
-        end
-        if curStep == 10 then
-            doTweenVar('camZooming', 'defaultCamZoom', 1.5, 0.01)
-        end
-        if curStep == 12 then
-            doTweenVar('camZooming', 'defaultCamZoom', 1, 0.01)
-        end
-        if curStep == 14 then
-            doTweenVar('camZooming', 'defaultCamZoom', 0.6, 0.03)
-        end
-        if curStep == 16 then
-            doTweenVar('camZooming', 'defaultCamZoom', 0.9, 0.06)
-            cameraFlash("camOther", flashingLights and "0x90FFFFFF", 0.5)
-        end
-        if curStep == 144 then
-            doTweenVar('camZooming', 'defaultCamZoom', 1.3, 15)
-        end
-        if curStep == 240 then
-            doTweenVar('camZooming', 'defaultCamZoom', 0.9, 0.5)
-        end
-        if curStep == 256 then
-            triggerEvent('Add Camera Zoom', '0.02', '0.02')
-        end
-        if curStep == 272 then
-            triggerEvent('Add Camera Zoom', '0.03', '0.03')
-            doTweenVar('camZooming', 'defaultCamZoom', 1.1, 0.6)
-        end
-        if curStep == 280 then
-            doTweenVar('camZooming', 'defaultCamZoom', 1.3, 0.6)
-        end
-        if curStep == 288 then
-            doTweenVar('camZooming', 'defaultCamZoom', 1.5, 0.6)
-        end
-        if curStep == 296 then
-            doTweenVar('camZooming', 'defaultCamZoom', 1.2, 0.6)
-        end
-        if curStep == 300 then
-            doTweenVar('camZooming', 'defaultCamZoom', 0.5, 0.4)
-        end
-        if curStep == 304 then
-            doTweenVar('camZooming', 'defaultCamZoom', 0.9, 0.09)
-            triggerEvent('Add Camera Zoom', '0.06', '0.06')
-            cameraFlash("camOther", flashingLights and "0x20FFFFFF", 0.3)
-            callScript("stages/discordStage", "lightingMode", {true})
-            setProperty("glitchIntensity.x", 10)
-            doTweenX("glitchTween", "glitchIntensity", 0, 0.5, 'linear')
-        end
-        if curStep == 307 or curStep == 310 or curStep == 320 or curStep == 323 or curStep == 326 or curStep == 336 or curStep == 339 or curStep == 342 or curStep == 352 or curStep == 355 or curStep == 358 or curStep == 691 or curStep == 694 or curStep == 704 or curStep == 707 or curStep == 710 or curStep == 712 or curStep == 715 or curStep == 718 or curStep == 720 or curStep == 723 or curStep == 726 or curStep == 736 or curStep == 739 or curStep == 742 or curStep == 744 or curStep == 747 or curStep == 750 then
-            triggerEvent('Add Camera Zoom', '0.6', '0.6')
-            cameraFlash("camOther", flashingLights and "0x90FFFFFF", 0.3)
-            setProperty("glitchIntensity.x", 10)
-            doTweenX("glitchTween", "glitchIntensity", 0, 0.5, 'linear')
-        end
-        if curStep == 371 or curStep == 374 or curStep == 384 or curStep == 387 then
-            triggerEvent('Add Camera Zoom', '0.6', '0.6')
-            cameraFlash("camOther", flashingLights and "0x90FFFFFF", 0.3)
-            setProperty("glitchIntensity.x", 10)
-            doTweenX("glitchTween", "glitchIntensity", 0, 0.5, 'linear')
-        end
-        if curStep == 390 or curStep == 400 or curStep == 403 or curStep == 406 or curStep == 416 or curStep == 419 or curStep == 422 then
-            triggerEvent('Add Camera Zoom', '0.6', '0.6')
-            cameraFlash("camOther", flashingLights and "0x90FFFFFF", 0.3)
-            setProperty("glitchIntensity.x", 10)
-            doTweenX("glitchTween", "glitchIntensity", 0, 0.5, 'linear')
-        end
-        if curStep == 368 then
-            triggerEvent('Add Camera Zoom', '0.6', '0.6')
-            doTweenAlpha('vignette', 'dark', 1, 9, 'linear')
-            doTweenAlpha('black', 'blackOverlay', 0.4, 8, 'linear')
-            cameraFlash("camOther", flashingLights and "0x90FFFFFF", 0.3)
-        end
-        if curStep == 432 then
-            doTweenVar('camZooming', 'defaultCamZoom', 2.5, 19)
-            cameraFlash("camOther", "FFFFFF", 1.3)
-            setProperty('dark.alpha', 0)
-            setProperty('blackOverlay.alpha', 0)
-            setGlobalFromScript("stages/discordStage", "sideSinning", true)
-            cancelTween('channelYMove')
-            cancelTween('memberYMove')
-            callScript("stages/discordStage", "lightingMode", {false})
-        end
-        if curStep == 560 then
-            doTweenVar('camZooming', 'defaultCamZoom', 0.9, 19)
-            doTweenAlpha('vignette', 'dark', 1, 9, 'linear')
-            doTweenAlpha('black', 'blackOverlay', 0.4, 8, 'linear')
-            doTweenX("hahaGlitch", "glitchIntensity", 20, 20, 'linear')
-        end
-        if curStep == 688 then
-            setProperty('dark.alpha', 0)
-            setProperty('blackOverlay.alpha', 0)
-            setGlobalFromScript("stages/discordStage", "sideSinning", false)
-            cancelTween('channelYMove')
-            cancelTween('memberYMove')
-            callScript("stages/discordStage", "lightingMode", {true})
-
-            triggerEvent('Add Camera Zoom', '0.6', '0.6')
-            cameraFlash("camOther", flashingLights and "0x20FFFFFF", 0.3)
-            setProperty("glitchIntensity.x", 10)
-            doTweenX("glitchTween", "glitchIntensity", 0, 0.5, 'linear')
-        end
-        if curStep == 752 then
-            doTweenVar('camZooming', 'defaultCamZoom', 2.5, 19)
-            cameraFlash("camOther", flashingLights and "FFFFFF", 1.3)
-            setProperty('dark.alpha', 0)
-            setProperty('blackOverlay.alpha', 0)
-            setGlobalFromScript("stages/discordStage", "sideSinning", true)
-            cancelTween('channelYMove')
-            cancelTween('memberYMove')
-            callScript("stages/discordStage", "lightingMode", {false})
-        end
-        if curStep == 880 then
-            doTweenVar('camZooming', 'defaultCamZoom', 0.9, 19)
-            doTweenAlpha('vignette', 'dark', 1, 9, 'linear')
-            doTweenAlpha('black', 'blackOverlay', 0.2, 8, 'linear')
-            doTweenX("hahaGlitch", "glitchIntensity", 20, 20, 'linear')
-        end
-        if curStep == 944 then
-            doTweenX("hahaGlitch", "glitchIntensity", 0, 10, 'linear')
-            doTweenAlpha('black', 'blackOverlay', 0.4, 8, 'linear')
-            doTweenVar('camZooming', 'defaultCamZoom', 1.2, 5)
-        end
-        if curStep == 1008 then
-            doTweenVar('camZooming', 'defaultCamZoom', 0.9, 5)
-        end
-        if curStep == 1072 then
-            annoyerMad = true
-            doTweenX("hahaGlitch", "glitchIntensity", 30, 30, 'linear')
-            doTweenAlpha('black', 'blackOverlay', 0.5, 8, 'linear')
-            doTweenVar('camZooming', 'defaultCamZoom', 1.3, 2)
-        end
-        if curStep == 1136 then
-            doTweenVar('camZooming', 'defaultCamZoom', 1.6, 10)
-        end
-        if curStep == 1200 then
-            doTweenVar('camZooming', 'defaultCamZoom', 0.9, 10)
-            doTweenX("hahaGlitch", "glitchIntensity", 0, 15, 'linear')
-        end
-        if curStep == 1272 then
-            doTweenX("pixelate", "pixelated", 0.1, 5, 'linear')
-            doTweenVar('camZooming', 'defaultCamZoom', 10, 7)
-        end
-        if curStep == 1304 then
-            setProperty('blackOverlay.alpha', 1)
-            cameraFlash("camOther", flashingLights and "FFFFFF", 4)
-        end
-        if (curStep >= 432 and curStep < 688) or (curStep >= 752 and curStep < 1272) then 
+        if curStep >= 416 and curStep < 672 then 
             if curStep % 4 == 0 then
                 for i,v in pairs(membersSprites) do
                     if not v[3] then
-                        local offsetX = 9
-                        setProperty(v[1]..".xAdd", offsetX + (9*(i%2==0 and 1.4 or -1.4)*(curStep%8==0 and 1.4 or -1.4)))
+                        local offsetX = 7
+                        setProperty(v[1]..".xAdd", offsetX + (7*(i%2==0 and 1 or -1)*(curStep%8==0 and 1 or -1)))
+                    end
+                end
+            end
+        end
+
+        if (curStep >= 672 and curStep < 928) or (curStep >= 932 and curStep < 1056) or (curStep >= 1060 and curStep < 1184) then 
+            if curStep % 4 == 0 then
+                for i,v in pairs(membersSprites) do
+                    if not v[3] then
+                        local offsetX = 7
+                        setProperty(v[1]..".xAdd", offsetX + (7*(i%2==0 and 2 or -2)*(curStep%8==0 and 1 or -1)))
+                    end
+                end
+            end
+        end
+
+        if (curStep >= 1456 and curStep < 1712) or (curStep >= 1716 and curStep < 1840) or (curStep >= 1844 and curStep < 1984) then 
+            if curStep % 4 == 0 then
+                for i,v in pairs(membersSprites) do
+                    if not v[3] then
+                        local offsetX = 7
+                        setProperty(v[1]..".xAdd", offsetX + (7*(i%2==0 and 4 or -4)*(curStep%8==0 and 1 or -1)))
                     end
                 end
             end
@@ -234,29 +258,22 @@ function onStepEvent(curStep)
     end
 end
 
-function onUpdate(elapsed)
+function opponentNoteHit(id, direction, noteType, isSustainNote)
     if HardMode then
-        for tag, tweenData in pairs(tweens) do
-            tweenData.elapsedTime = tweenData.elapsedTime + elapsed
-            local t = tweenData.elapsedTime / tweenData.duration
-            
-            local currentValue = tweenData.startValue + (tweenData.endValue - tweenData.startValue) * t
-            setProperty(tweenData.object, currentValue)
-            
-            if tweenData.elapsedTime >= tweenData.duration then
-                setProperty(tweenData.object, tweenData.endValue)
-                tweens[tag] = nil
+        if not isSustainNote then
+            if camNoteBeat == true then
+                triggerEvent('Add Camera Zoom', 0.08, 0.08)
             end
         end
+    end
+end
 
-        if shadersOption then
-            setShaderFloat("glitch", "iTime", os.clock()%100)
-            local currentGlitch = getProperty("glitchIntensity.x")
-            setShaderFloat("glitch", "intensity", currentGlitch)
-
-            setShaderFloat("pixelHehe", "iTime", os.clock()%100)
-            local currentPixels = getProperty("pixelated.x")
-            setShaderFloat("pixelHehe", "Pixelly", currentPixels)
+function goodNoteHit(id, direction, noteType, isSustainNote)
+    if HardMode then
+        if not isSustainNote then
+            if camNoteBeat == true then
+                triggerEvent('Add Camera Zoom', 0.08, 0.08)
+            end
         end
     end
 end
@@ -264,41 +281,70 @@ end
 function onUpdatePost(elapsed)
     if HardMode then
         if not inGameOver then
-            for i,v in pairs(membersSprites) do
-                if not v[3] then
-                    local offsetX = 7
-                    setProperty(v[1]..".xAdd", lerp(getProperty(v[1]..".xAdd"), offsetX, elapsed*7*pbr))
+            if curStep >= 416 and curStep < 1984 then
+                for i,v in pairs(membersSprites) do
+                    if not v[3] then
+                        local offsetX = 7
+                        setProperty(v[1]..".xAdd", lerp(getProperty(v[1]..".xAdd"), offsetX, elapsed*7*pbr))
+                    end
                 end
             end
         end
     end
 end
-function opponentNoteHit(id, direction, noteType, isSustainNote)
+
+function flashCamera(alpha, duration)
     if HardMode then
-        if annoyerMad then
-            cameraShake('camBDiscord', 0.03, 0.2)
-            cameraShake('camDiscord', 0.03, 0.2)
-            cameraShake('camHUD', 0.03, 0.2)
+        if not flasherCreated then
+            makeLuaSprite('flasher', '', 0, 0)
+            makeGraphic('flasher', screenWidth, screenHeight, 'FFFFFF')
+            setObjectCamera('flasher', 'other')
+            screenCenter('flasher')
+            addLuaSprite('flasher', true)
+            flasherCreated = true
+        end
+
+        setProperty('flasher.alpha', alpha)
+        setProperty('flasher.visible', true)
+        doTweenAlpha('flashOut', 'flasher', 0, duration, 'linear')
+    end
+end
+
+function onUpdate(elapsed)
+    if HardMode then
+        for tag, tweenData in pairs(tweens) do
+            tweenData.elapsedTime = tweenData.elapsedTime + elapsed
+            local t = math.min(tweenData.elapsedTime / tweenData.duration, 1)
+
+            local easeFunc = easings[tweenData.easing] or easings.linear
+            local easedT = easeFunc(t)
+
+            local currentValue = tweenData.startValue + (tweenData.endValue - tweenData.startValue) * easedT
+            setProperty(tweenData.object, currentValue)
+
+            if tweenData.elapsedTime >= tweenData.duration then
+                setProperty(tweenData.object, tweenData.endValue)
+                tweens[tag] = nil
+            end
         end
     end
 end
-    
 
-function doTweenVar(tag, object, endValue, duration)
-    -- this is like the third time im gonna use this :sob:
-    if tweens[tag] then
-        tweens[tag] = nil
+function doTweenVar(tag, object, endValue, duration, easing)
+    if HardMode then
+        if tweens[tag] then
+            tweens[tag] = nil
+        end
+
+        local startValue = getProperty(object)
+        tweens[tag] = {
+            object = object,
+            startValue = startValue,
+            endValue = endValue,
+            duration = duration,
+            elapsedTime = 0,
+            easing = easing or 'linear'
+        }
     end
-    
-    local startValue = getProperty(object)
-    tweens[tag] = {
-        object = object,
-        startValue = startValue,
-        endValue = endValue,
-        duration = duration,
-        elapsedTime = 0
-    }
 end
-
 function lerp(a, b, t) return a + (b - a) * t end
-function continuous_sin(x) return math.sin((x % 1) * 2 * math.pi) end
