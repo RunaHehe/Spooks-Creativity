@@ -94,6 +94,7 @@ class TitleState extends MusicBeatState
 		['706133760957218826', 'ducky', 'Ducky'],
 		['962171732406460457', 'andro', 'Andro'],
 		['572969924457398283', 'tutu', 'Tutu'],
+		['538347162161905664', 'ammar', 'Ammar'],
 		['616769844809039913', 'vision', 'Vision'],
 		['711230995021430834', 'looky', 'Looky'],
 		['1154045414262190150', 'autumn', 'Autumn'],
