@@ -38,12 +38,12 @@ originalOPStrumX = {}
 
 function onCreate()
     luaDebugMode = false
-    setProperty('defaultCamZoom', 2.5)
+    setProperty(camera, 2.5)
     
 end
 
 function onSongStart()
-    doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 19, 'sineInOut')
+    doTweenVar('zoomTween', camera, 0.9, 19, 'sineInOut')
     setProperty('iconSpeed', 0)
     setProperty('lightbottom.y', 50)
 end
@@ -135,13 +135,13 @@ function onBeatHit()
     end
 end
 
-function onStepEvent(curStep)
+function onStepEvent(step)
     --runa time!!
-    if curStep == 896 or curStep == 902 or curStep == 909 or curStep == 928 or curStep == 935 or curStep == 940 or curStep == 960 or curStep == 966 or curStep == 972 or curStep == 992 or curStep == 999 or curStep == 1004 then
+    if step == 896 or step == 902 or step == 909 or step == 928 or step == 935 or step == 940 or step == 960 or step == 966 or step == 972 or step == 992 or step == 999 or step == 1004 then
         setProperty('lightbottom.alpha', 1)
             doTweenAlpha('goAway', 'lightbottom', 0, 0.3, 'linear')
     end
-    if curStep == 256 then
+    if step == 256 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 2)
         if shadersOption then
             runHaxeCode([[
@@ -155,26 +155,26 @@ function onStepEvent(curStep)
         setProperty('camDiscord.angle', 10)
         OpponentTextAngle = true
     end
-    if curStep == 512 then 
+    if step == 512 then 
         cameraFlash("camOther", "FFFFFF", 2)
         setProperty('iconSpeed', 1)
     end
-    if curStep == 503 then
+    if step == 503 then
         if shadersOption then
             doTweenX("noiseTween", "noiseAlphaHolder", 15, 11, "linear")
         end
     end
-    if curStep == 512 then
+    if step == 512 then
         if shadersOption then
             doTweenX("noiseTween", "noiseAlphaHolder", 1, 1, "linear")
         end
     end
-    if curStep == 752 then
+    if step == 752 then
         if shadersOption then
             doTweenX("noiseTween", "noiseAlphaHolder", 15, 7, "linear")
         end
     end
-    if curStep == 768 then
+    if step == 768 then
         setProperty('blackOverlay.alpha', 1)
         doTweenAlpha('blackTween', 'blackOverlay', 0, 7)
         callScript("stages/discordStage", "lightingMode", {true})
@@ -191,7 +191,7 @@ function onStepEvent(curStep)
         setProperty('opponentText.alpha', 0)
         setProperty('opponentName.alpha', 0)
     end
-    if curStep == 832 then
+    if step == 832 then
         setProperty('opponent.visible', true)
         setProperty('opponentText.visible', true)
         setProperty('opponentName.visible', true)
@@ -199,7 +199,7 @@ function onStepEvent(curStep)
         doTweenAlpha('hiDeltaT', 'opponentText', 1, 5, 'linear')
         doTweenAlpha('hiDeltaN', 'opponentName', 1, 5, 'linear')
     end
-    if curStep == 896 then
+    if step == 896 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 0.4)
         callScript("stages/discordStage", "lightingMode", {false})
         setTextColor("opponentName", "FFFFFF")
@@ -207,19 +207,19 @@ function onStepEvent(curStep)
            setShaderFloat("rainhehe", "iIntensity", 0.13)
         end
     end
-    if curStep == 902 or curStep == 909 or curStep == 928 or curStep == 935 or curStep == 940 or curStep == 960 or curStep == 966 or curStep == 972 or curStep == 992 or curStep == 999 or curStep == 1004 then
+    if step == 902 or step == 909 or step == 928 or step == 935 or step == 940 or step == 960 or step == 966 or step == 972 or step == 992 or step == 999 or step == 1004 then
         cameraFlash("camOther", flashingLights and "0x40FFFFFF", 0.3)
     end
-    if curStep == 1024 then
+    if step == 1024 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x80FFFFFF", 1.2)
         setProperty('iconSpeed', 1)
     end
-    if curStep == 1256 then
+    if step == 1256 then
         if shadersOption then
             doTweenX("noiseTween", "noiseAlphaHolder", 20, 13, "linear")
         end
     end
-    if curStep == 1280 then
+    if step == 1280 then
         loadGraphic("player", profiles.."runa")
         setGraphicSize("player", 649 * 0.625, 146 * 0)
         cameraFlash("camOther", "FFFFFF", 1)
@@ -246,7 +246,7 @@ function onStepEvent(curStep)
         end
         setProperty('iconSpeed', 0)
     end
-    if curStep == 1300 then
+    if step == 1300 then
         setProperty('player.alpha', 1)
         setProperty('playerText.alpha', 1)
         setProperty('playerName.alpha', 1)
@@ -258,18 +258,18 @@ function onStepEvent(curStep)
         setProperty('player.y', -500)
         doTweenY('hiRuna', 'player', 270, 2, 'expoOut')
     end
-    if curStep == 1536 then
+    if step == 1536 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x40FFFFFF", 1)
         setProperty('iconSpeed', 1)
     end
-    if curStep == 2560 or curStep == 2566 or curStep == 2572 then
+    if step == 2560 or step == 2566 or step == 2572 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x30FFFFFF", 0.3)
     end
-    if curStep == 2576 then
+    if step == 2576 then
         cameraFlash("camOther", flashingLights and "FFFFFF" or "0x90FFFFFF", 1.2)
     end
 
-    if curStep == 2592 then
+    if step == 2592 then
         if shadersOption then
             doTweenX("noiseTween", "noiseAlphaHolder", 200, 20, "linear")
         end
@@ -277,77 +277,77 @@ function onStepEvent(curStep)
 
 
     -- all of this is camera zooms lmao
-    if curStep == 320 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.7, 6, 'expoIn')
+    if step == 320 then
+        doTweenVar('zoomTween', camera, 1.7, 6, 'expoIn')
     end
-    if curStep == 384 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.5, 'expoOut')
+    if step == 384 then
+        doTweenVar('zoomTween', camera, 0.9, 0.5, 'expoOut')
     end
-    if curStep == 496 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.4, 0.5, 'expoOut')
+    if step == 496 then
+        doTweenVar('zoomTween', camera, 1.4, 0.5, 'expoOut')
     end
-    if curStep == 512 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 1, 'expoOut')
+    if step == 512 then
+        doTweenVar('zoomTween', camera, 0.9, 1, 'expoOut')
     end
-    if curStep == 768 then
-        setProperty('defaultCamZoom', 1.6)
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 7.5, 'sineInOut')
+    if step == 768 then
+        setProperty(camera, 1.6)
+        doTweenVar('zoomTween', camera, 0.9, 7.5, 'sineInOut')
     end
-    if curStep == 888 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.9, 0.5, 'expoIn')
+    if step == 888 then
+        doTweenVar('zoomTween', camera, 1.9, 0.5, 'expoIn')
     end
-    if curStep == 896 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1, 1, 'expoOut')
+    if step == 896 then
+        doTweenVar('zoomTween', camera, 1, 1, 'expoOut')
     end
-    if curStep == 1008 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1, 0.3, 'expoOut')
+    if step == 1008 then
+        doTweenVar('zoomTween', camera, 1, 0.3, 'expoOut')
     end
-    if curStep == 1016 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.8, 0.5, 'expoIn')
+    if step == 1016 then
+        doTweenVar('zoomTween', camera, 1.8, 0.5, 'expoIn')
     end
-    if curStep == 1024 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 1, 'expoOut')
+    if step == 1024 then
+        doTweenVar('zoomTween', camera, 0.9, 1, 'expoOut')
     end
-    if curStep == 1280 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.3, 11, 'sineInOut')
+    if step == 1280 then
+        doTweenVar('zoomTween', camera, 1.3, 11, 'sineInOut')
     end
-    if curStep == 1408 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 11, 'sineInOut')
+    if step == 1408 then
+        doTweenVar('zoomTween', camera, 0.9, 11, 'sineInOut')
     end
-    if curStep == 1600 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1, 0.5, 'expoOut')
+    if step == 1600 then
+        doTweenVar('zoomTween', camera, 1, 0.5, 'expoOut')
     end
-    if curStep == 1664 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.5, 'expoOut')
+    if step == 1664 then
+        doTweenVar('zoomTween', camera, 0.9, 0.5, 'expoOut')
     end
-    if curStep == 1792 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.3, 6, 'sineInOut')
+    if step == 1792 then
+        doTweenVar('zoomTween', camera, 1.3, 6, 'sineInOut')
     end
-    if curStep == 1856 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.5, 'expoOut')
+    if step == 1856 then
+        doTweenVar('zoomTween', camera, 0.9, 0.5, 'expoOut')
     end
-    if curStep == 1888 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.95, 0.5, 'expoOut')
+    if step == 1888 then
+        doTweenVar('zoomTween', camera, 0.95, 0.5, 'expoOut')
     end
-    if curStep == 1920 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.5, 'expoOut')
+    if step == 1920 then
+        doTweenVar('zoomTween', camera, 0.9, 0.5, 'expoOut')
     end
-    if curStep == 2040 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.4, 0.2, 'expoIn')
+    if step == 2040 then
+        doTweenVar('zoomTween', camera, 1.4, 0.2, 'expoIn')
     end
-    if curStep == 2048 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 14, 'sineInOut')
+    if step == 2048 then
+        doTweenVar('zoomTween', camera, 0.9, 14, 'sineInOut')
     end
-    if curStep == 2304 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 1.3, 10, 'sineInOut')
+    if step == 2304 then
+        doTweenVar('zoomTween', camera, 1.3, 10, 'sineInOut')
     end
-    if curStep == 2560 then
-        doTweenVar('zoomTween', 'defaultCamZoom', 0.9, 0.01, 'expoOut')
+    if step == 2560 then
+        doTweenVar('zoomTween', camera, 0.9, 0.01, 'expoOut')
     end
     
     -- i am so sorry to anyone who is reading this code, i know theres a way easier way to do this :sob:
 
-    if curStep == 896 and not Modchart then
+    if step == 896 and not Modchart then
         for i = 4, 7 do
             local targetX = 412 + (i - 4) * 112
             noteTweenX("middlescroll"..i, i, targetX, 5, "sineOut")
@@ -357,7 +357,7 @@ function onStepEvent(curStep)
             noteTweenX("middlescroll"..i, i, targetX, 6, "sineOut")
         end
     end
-    if curStep == 1024 and not Modchart then
+    if step == 1024 and not Modchart then
         for i = 0, 3 do
             noteTweenX("ogPos"..i, i, originalOPStrumX[i], 0.01, "linear")
         end
@@ -528,7 +528,7 @@ end
     Hello! I'm Runa :3
     I made a custom function called "doTweenVar" 
     If you want to use this function, well here you go!
-    To use this, an example could be: doTweenVar('camZooming', 'defaultCamZoom', 1, 15)
+    To use this, an example could be: doTweenVar('camZooming', camera, 1, 15)
     Keep in mind, you aren't limited to just camera zooming!
     You can do alot more with this :333
 
