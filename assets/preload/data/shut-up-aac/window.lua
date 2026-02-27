@@ -56,7 +56,11 @@ end
 function onBeatHit()
     if curBeat == 80 then
         moveWindow("x", "windowX", OGx * 0.25, crochet/1000*14*4, "quadInOut")
+<<<<<<< Updated upstream
         moveWindow("width", "windowWidth", OGwidth * 1, crochet/1000*14*4, "quadInOut")
+=======
+        moveWindow("width", "appear Width", OGwidth * 1.4, crochet/1000*14*4, "quadInOut")
+>>>>>>> Stashed changes
     end
     if curBeat == 140 then
         moveWindow("x", "windowX", OGx, crochet/1000*4, "expoIn")

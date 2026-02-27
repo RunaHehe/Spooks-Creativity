@@ -532,7 +532,7 @@ end
     Keep in mind, you aren't limited to just camera zooming!
     You can do alot more with this :333
 
-local tweens = {}
+local tweens = {} --array to store tweens
 
 local easings = {
     --ok listen easings werent automatically supported :sob:
@@ -553,14 +553,11 @@ local easings = {
 function onUpdate(elapsed)
     for tag, tweenData in pairs(tweens) do
         tweenData.elapsedTime = tweenData.elapsedTime + elapsed
-        local t = math.min(tweenData.elapsedTime / tweenData.duration, 1)
-
-        local easeFunc = easings[tweenData.easing] or easings.linear
-        local easedT = easeFunc(t)
-
-        local currentValue = tweenData.startValue + (tweenData.endValue - tweenData.startValue) * easedT
+        local t = tweenData.elapsedTime / tweenData.duration
+        
+        local currentValue = tweenData.startValue + (tweenData.endValue - tweenData.startValue) * t
         setProperty(tweenData.object, currentValue)
-
+        
         if tweenData.elapsedTime >= tweenData.duration then
             setProperty(tweenData.object, tweenData.endValue)
             tweens[tag] = nil
